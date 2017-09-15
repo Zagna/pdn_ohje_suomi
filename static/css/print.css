@@ -1,0 +1,45 @@
+﻿@import url(stylesheet.css);
+
+#navigation
+{
+	display: none !important;
+}
+
+#banner
+{
+	background-image: none;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+#banner h1
+{
+	display: inline !important;
+	font-size: 120%;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	height: auto;
+	border: 0;
+	background-image: none;
+	color: black;
+}
+
+#banner h1 span
+{
+	display: inline !important;
+	font-size: 120%;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+
+#main-content, #content
+{
+	width: 100%;
+}
+
+.ui-tabs-nav { display: none; }
+.ui-tabs .ui-tabs-hide { display: block !important; }
+.ui-tabs .ui-tabs-panel { display: block !important }

@@ -1,0 +1,27 @@
+
+<div id="navigation">
+	{{ range .Site.Menus.pdn }}
+    {{ if eq .Identifier "koti" }}<h2>{{ .Name }}</h2>{{ else }}<h3>{{ .Name }}</h3>{{ end }}
+	<ul>
+		{{ range .Children }}
+			<li><a href="{{ .URL }}">{{ .Name }}</a>
+			{{ if .HasChildren }}
+				<ul>
+					{{ range .Children }}
+						<li><a href="{{ .URL }}">{{ .Name }}</a>
+						{{ if .HasChildren }}
+							<ul>
+								{{ range .Children }}
+									<li><a href="{{ .URL }}">{{ .Name }}</a></li>
+								{{ end }}			
+							</ul>
+						{{ end }}						
+						</li>
+					{{ end }}			
+				</ul>
+			{{ end }}
+			</li>
+		{{ end }}
+	</ul>
+    {{ end }}
+</div>

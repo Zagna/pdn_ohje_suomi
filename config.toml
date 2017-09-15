@@ -1,0 +1,25 @@
+baseurl = "http://paintdotnet.arkku.net/"
+languageCode = "fi"
+title = "paint.net suomeksi"
+DefaultContentLanguage = "fi"
+disableKinds = [ "sitemap", "RSS", "tags", "categories" ]
+
+[[menu.pdn]]
+	name = "paint.net Ohje"
+	identifier = "koti"
+	weight = 100
+
+[[menu.pdn]]
+	name = "Konseptit"
+	identifier = "konsepti"
+	weight = 200
+
+[[menu.pdn]]
+	name = "Käyttöliittymä"
+	identifier = "kliittyma"
+	weight = 300
+
+[[menu.pdn]]
+	name = "Muuta"
+	identifier = "muuta"
+	weight = 400	

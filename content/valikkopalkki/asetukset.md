@@ -1,0 +1,150 @@
++++
+date = "2015-09-09T18:46:22+03:00"
+draft = false
+title = "Asetukset"
+tooltip = "resurssit/tyokalut/tools.png"
+
+[menu.pdn]
+	parent = "vpalkki"
+	identifier = "asetukset"
+	weight = 351
+
++++
+
+Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
+
+{{< figure src="/kuvat/settings1.png" alt="Asetukset" >}}
+
+*	### Laitteistopohjainen kiihdytys (GPU)
+
+	Tämä asetus määrittää käytetäänkö Direct2D-kiihdytystä.
+	
+*	### Animaatiot
+
+	Tämä asetus määrittää käytetäänkö animaatioita valikkojen kanssa.
+	
+*	### Läpinäkyvät ikkunat
+
+	Tämä asetus määrittää ovatko leijuvat ikkunat osittain läpinäkyviä kun ne ovat piirtoalueen yläpuolella..
+	
+*	### Näytä kuvien esikatselu Windowsin tehtäväpalkissa
+
+	Tämä asetus määrittää näytetäänkö avoinna olevien kuvien esikatselu kun hiiri on paint.netin ikonin päällä vai näytetäänkö vain itse ohjelma.
+	
+*	### Värimalli
+
+	Tämä valikko antaa sinun sinisen tai vaalean värimallin välillä.
+	
+*	### Kieli
+
+	Tämä valikko antaa sinun valita mitä kieltä paint.net käyttää.
+
+	{{< figure src="/kuvat/settings3.png" alt="" >}}
+
+	Tätä voi käyttää kaikkien työkalujen oletusarvojen asettamiseen. Voit myös vaihtaa mikä työkalu on valittu kun paint.net käynnistetään. "Palauta" nappi palauttaa 
+	kaikki arvot oletusarvoihin, kun "Lataa työkalupalkista" ottaa työkalupalkin nykyiset asetukset ja ottaa ne käyttöön.
+
+*	### Oletustyökalu
+	
+	Työkalu joka on valittuna kun paint.net käynnistyy.
+	
+*	### Muodot, sivellin, tyyli ja täyttö
+	
+	{{< figure src="/kuvat/toolbar_shapesbrushesfill.png" alt="" >}}
+	
+	[Muototyökalut]({{< ref "muodot.md" >}}) käyttävät näitä asetuksia. Voit valita piirretäänkö muoto ääriviivalla, täytettynä, vai kummatkin, siveltimen koko sekä piirtotyylin. 
+	
+	[Viiva/Käyrä -työkalu]({{< ref "viiva_kayra.md" >}}) antaa sinun asettaa tyylin, viivan päiden tyylit sekä joko viiva tai piste muodon.
+	
+*	### Valintatyökalut
+	
+	{{< figure src="/kuvat/toolbar_selectionmode.png" alt="" >}}
+	
+	"Valintatila" osa työkalupalkista antaa sinun valita tilan jota valintatyökalut käyttävät. Kun valitse valintatyökalulla se joko korvaa olemassa olevan valinnan, 
+	lisää siihen, vähentää siitä tai kääntää aluen jonka yli se tulee.
+	
+	Seuraava osa työkalupalkista antaa sinun valita joko normaalin (vapaa), kiinteän koon ja kiinteän suhteen välillä kun käytät suorakulmaista valintatyökalua. Jälkimmäiset kaksi 
+	tilaa ovat hyödyllisiä kun haluat esimerkiksi valita 4" x 3" kokoisen alueen tai haluat valita alueen jonka suhde on 16 x 10 (tietenkin, voit käyttää mitä tahansa 
+	kokoja, lisää vain haluamasi luvut).	
+	
+*	### Teksti
+	
+	{{< figure src="/kuvat/toolbar_text.png" alt="" >}}
+	
+	Täta osaa työkalupalkista käyttää vain [Teksti]({{< ref "tekstityokalu.md" >}}), ja se antaa sinun asettaa fontin, koon, pehmeyden sekä tyylin.
+	
+	On saatavilla kolme eri tapaa näyttää teksti, "Pehmeä", "Terävä (Modern)" ja "Terävä (Klassinen)". Pehmeä sopii parhaiten keskikokoiseen ja isoon tekstiin. 
+	Pienillä koilla se saattaa näyttää epäselvältä tai sekavalta, paitsi tämä riippuu paljolti mikä fontti on käytössä. Terävä sopii hyvin pienen kokoiseen tekstiin; suurena se ei 
+	näytä kovin pehmeältä. Jos reunan pehmennys on pois päältä (rasteroinnin kautta), se ei vaikuta onko Pehmeä tai Terävä valittu.
+	
+*	### Väriliukuma
+	
+	{{< figure src="/kuvat/toolbar_gradient.png" alt="" >}}
+	
+	[Väriliukumalla]({{< ref "variliukuma.md" >}}) on 7 erilaista liukumaa jota se voi käyttää, sekä se voi toimia joko väritilassa tai erikoisessa läpinäkyvyystilassa. 
+	
+	Lisäksi on mahdollista peilata tai kiertää.
+	
+*	### Taikasauva, täyttö ja uudelleen väritys
+	
+	{{< figure src="/kuvat/toolbar_magicwandpaintbucket.png" alt="" >}}
+	
+	Toleranssi vaikuttaa miten [Taikasauva]({{< ref "taikasauva.md" >}}), [Täyttö]({{< ref "taytto.md" >}}) sekä [Uudelleen väritys]({{< ref "uudelleen_varitys.md" >}}) toimivat. 
+	Se määrää miten samanväriset värit lasketaan mukaan kun työkalua käytetään. Jos se on asetettu 0%, vain tarkalleen tiettyä väriä käytetään. Jos se on 100%, kaikki värit 
+	lasketaan mukaan. Oletusarvo on 50%. 
+	
+	Näytteistys voi valita tason tai koko kuvan.
+	
+*	### Väripoimija
+	
+	{{< figure src="/kuvat/toolbar_colorpicker.png" alt="" >}}
+	
+	[Väripoimijan]({{< ref "pikselityokalut.md" >}}) voi asettaa vaihtamaan [Kynään]({{< ref "pikselityokalut.md" >}}) tai edelliseen työkaluun värin poimimisen jälkeen. 
+	
+	Näytteistyksen voi asettaa pysymään tasolla tai koskemaan koko kuvaa sekä näytepisteiden määrää voi muuttaa.
+	
+*	### Siirrä valittuja pikseleitä
+	
+	{{< figure src="/kuvat/toolbar_moveselectedpixels.png" alt="" >}}
+	
+	[Siirrä valintaa]({{< ref "siirtotyokalut.md" >}}) -työkalun voi asettaa käyttämään joko "pehmeää" (bilinear) tai "pikseloitua" (lähin naapuri) näytteistystä. 
+	Pehmeä laatu on yleensä suositeltua ellei sinulla ole tarkkaa tarvetta käyttää pikseloitua laatua.
+	
+*	### Rasterisaatio
+	
+	{{< figure src="/kuvat/toolbar_rasterization.png" alt="" >}}
+	
+	Moneen työkaluun vaikuttaa yksi tai kummatkin näistä valinnoista jotka vaikuttavat siihen miten piirtäminen toimii. Voit käyttää näitä joko painamalla itse nappia vaihtaaksesi 
+	asetusta, tai painamalla nuolta saadaksesi valikon vaihtoehdoista.
+	
+	Ensimmäinen nappi asettaa onko [reunan pehmennys](http://en.wikipedia.org/wiki/Antialiasing) käytössä. Ympyrä vasemmalla on piirretty reunan pehmennys päällä kun 
+	oikealla oleva ympyrä on piirretty ilman reunan pehmennystä. Se on selkeästi "rösöisempi":
+	
+	{{< figure src="/resurssit/aavsnoaa.png" alt="" >}}
+	
+	Seuraava nappi asettaa [sekoitustilan](http://en.wikipedia.org/wiki/Alpha_compositing). Normaali sekoitus toimii siten että jokainen piirrettävä pikseli sekoitetaan 
+	tasolla jo olemassa oleviin pikseleihin. Ylikirjoitus toimii siten että jokainen piirrettävä pikseli korvaa jo olemassa olevat pikselit. Alla olevassa kuvassa, viiva piirrettiin 
+	kahdesti alfa-arvolla 128, joka tarkoittaa noin 50% läpinäkyvyyttä. Viiva vasemmalla on piirretty Normaalin sekoituksen kanssa ja täten sekoittuu kuvaan autosta. Kummatkin auto 
+	sekä viiva näkyvät. Toinen viiva oikealla, on piirretty Ylikirjoituksen kanssa. Auto ei ole enää näkyvä missä viiva piirrettiin ja ruudukko näkyy joka tarkoittaa että se osa 
+	kuvasta on läpinäkyvä.
+	
+	{{< figure src="/resurssit/bmw_ab_vs_noab.jpg" alt="" class="border" >}}
+	
+	Ylikirjoitus on hyödyllinen [Kynän]({{< ref "pikselityokalut.md" >}}) kanssa kun haluat muokata kuvia pikselitasolla.
+	
+	{{< figure src="/kuvat/settings2.png" alt="Päivitys" >}}
+
+*	### Automaattisesti tarkista päivityksiä kun käynnistät paint.net
+	
+	Tämä asetus määrittää automaattisen päivityksen.
+	
+*	### Tarkista nyt
+	
+	Tätä painamalla paint.net tarkistaa päivitykset. Oletuksena, paint.net tarkistaa päivitykset muutaman päivän välein kun se on 	avoinna. Henkilökohtaisia tietoja ei 
+	lähetetä koneeltasi prosessin aikana.
+	
+	Windows 7:ssä ja uudemmissa, paint.net antaa kaikkien tarkistaa päivitykset. Kuitenkin, jotta voisit asentaa päivitykset, tarvitset Järjestelmänvalvojan oikeudet.
+	
+*	### Tarkista myös esijulkaistuja (beta) versioita
+	
+	Tämä asetus määrittää etsitäänkö myös mahdollisia alpha, beta tai julkaisukandidaatti-versioita.

@@ -1,0 +1,57 @@
++++
+date = "2015-09-09T18:42:31+03:00"
+draft = false
+title = "Pääikkuna"
+
+[menu.pdn]
+	parent = "kliittyma"
+	identifier = "paaikkuna"
+	weight = 302
+
++++
+
+paint.netin käyttöliittymä on jaettu 10 alueeseen:
+
+{{< figure src="/kuvat/mainwindow.png" alt="Pääikkuna" size="80%" >}}
+
+1.	### Nimipalkki
+
+	Tämä kertoo auki olevan kuvan nimen, tämän hetkisen suurennuksen määrän ja paint.netin versionumeron.
+	
+1.	### [Valikkopalkki]({{< ref "valikkopalkki.md" >}})
+
+	Tämän avulla pystyt käyttämään erinäisiä valikoiden komentoja. Yleensä, komennot joita voit käyttää, esitetään **Valikko &rarr; Komento** tavalla.
+	Esimerkiksi, **Tiedosto &rarr; Poistu** tarkoittaa että valitse Tiedostovalikko, ja sen jälkeen paina Poistu komentoa.
+	
+1.	### [Työkalupalkki]({{< ref "tyokalupalkki.md" >}})
+
+	Suoraan valikoiden alapuolelta löydät monta ikonia ja ohjainta joiden avulla voit suorittaa erinäisiä komentoja ja muokata globaaleja asetuksia.
+	
+1.	### [Kuvalista]({{< ref "kuvalista.md" >}})
+	
+	Jokaisesta avatusta kuvasta näkyy pikkukuva kuvalistassa. Tämä toimii kuten välilehdet selaimessa: vain paina kuvaa valitaksesi sen.
+	
+1.	### Kuvan pohja
+	
+	Kuva on näkyvillä tässä, ja se on alue missä voit piirtää ja tehdä muita toimintoja.
+	
+1.	### [Työkaluikkuna]({{< ref "tyokaluikkuna.md" >}})
+	
+	Tässä aktiivinen työkalu on korostettu, ja mistä voit valita muita työkaluja.
+	
+1.	### [Historiaikkuna]({{< ref "historiaikkuna.md" >}})
+
+	Kaikki mitä olet tehnyt kuvaan sen jälkeen kun avasit sen näkyy tässä ikkunassa.
+	
+1.	### [Tasoikkuna]({{< ref "tasoikkuna.md" >}})
+
+	Jokainen kuva koostuu vähintään yhdestä tasosta, ja tällä ikkunalla hallitset niitä.
+	
+1.	### [Väri-ikkuna]({{< ref "vari-ikkuna.md" >}})
+	
+	Värit joilla piirrät asetetaan pääasiallisesti täällä. Se koostuu väripyörästä ja kirkkausliukuohjaimesta. Jos sinä olet laajentanut ikkunan "Lisää" napilla se myös 
+	näyttää lisää asetuksia tarkempaa kontrollia ja tarkkaa väriarvon asettamista varten.
+	
+1.	### [Tilapalkki]({{< ref "tilapalkki.md" >}})
+	
+	Tämä alue on jaettu moneen osaan. Ensin vasemmalla, näkyy lyhyt ohje ja tilateksti. Seuraava on kääntämistila (jos käynnissä), kuvan koko ja kursorin sijainti kuvassa.
