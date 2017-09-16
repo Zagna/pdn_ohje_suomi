@@ -20,8 +20,8 @@ Voit asettaa tekstin värin asettamalla edustavärin [Väri-ikkunassa]({{< ref "
 Kun kirjoitat, voit huomata vilkkuvan tekstikursorin alapuolella olevan kontrollin. Tämä kontrolli on neliö jossa on neljä nuolta sisällä ja se sykkii hitaasti jotta voit erottaa 
 sen kuvasta. Tätä kutsumme *nupiksi*, ja voit käyttää tätä siirtääksesi tekstiä ennen kuin viimeistelet sen. Jos siirrät nuppia, teksti siirtyy sen mukana.
 
-{{< vihje "Jos taputat Ctrl-nappia, nuppi katoaa. Jos painat sitä uudestaan se tulee takaisin. Jos pidät Ctrl-nappia alhaalla, nuppi ja kursori katoavat kunnes päästät irti Ctrl-napista. Voit käyttää tätä nähdäksesi miltä teksti näyttää ilman nuppia ja kursoria." >}}
+{{% vihje %}}Jos taputat Ctrl-nappia, nuppi katoaa. Jos painat sitä uudestaan se tulee takaisin. Jos pidät Ctrl-nappia alhaalla, nuppi ja kursori katoavat kunnes päästät irti Ctrl-napista. Voit käyttää tätä nähdäksesi miltä teksti näyttää ilman nuppia ja kursoria.{{% /vihje %}}
 
 Kun kirjoitat, voit painaa Esc-nappia viimeistelläksesi tekstin ja lisätäksesi sen tasoon.
 
-{{< varoitus "Kun olet viimeistellyn tekstin, sitä ei voi muokata muuten kuin kumoamalla ja kirjoittamalla tekstin uudestaan. Tarkemmin, kun teksti on lisätty kuvaan se ei esiinny kuvassa enää tekstinä, mutta vain pikseleinä ja siksi tämä rajoitus on olemassa." >}}
+{{% varoitus %}}"Kun olet viimeistellyn tekstin, sitä ei voi muokata muuten kuin kumoamalla ja kirjoittamalla tekstin uudestaan. Tarkemmin, kun teksti on lisätty kuvaan se ei esiinny kuvassa enää tekstinä, mutta vain pikseleinä ja siksi tämä rajoitus on olemassa.{{% /varoitus %}}

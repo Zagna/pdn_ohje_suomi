@@ -23,7 +23,7 @@ Ensimmäinen palkki liukumia näyttää miltä se näyttää väritilassa piirt�
 
 Toinen palkki näyttää miten liukuma vaikuttaa läpinäkyvyystilassa seuraavaan kuvaan:
 
-{{< huom "Shakkilautamalli tarkoittaa läpinäkyvyyttä." >}}
+{{% huom %}}Shakkilautamalli tarkoittaa läpinäkyvyyttä.{{% /huom %}}
 
 {{< figure src="/resurssit/camaro_160.jpg" alt="Camaro" >}}	
 

@@ -20,7 +20,7 @@ Tiedosto-valikkoa käytetään kuvien avaamiseen, hankkimiseen ja tallentamiseen
 	Voit käyttää "Säilytä kuvasuhde" valikkoa pakottaaksesi kuvan korkeuden ja leveyden tiettyyn suhteeseen. Uuden kuvan koko myös näytetään laatikon yläruudussa; 
 	tätä voi käyttää havaitsemaan kuinka paljon muistia kuva käyttää, mutta se ei näytä kuinka iso se tulee olemaan kun tallennat sen kovalevylle (yleensä se on pienempi).
 	
-	{{< figure src="/kuvat/newdialog.png" alt="" >}}
+	{{< figure src="/kuvat/newdialog.png" alt="Uusi tiedosto" >}}
 	
 *	### Avaa
 	
@@ -36,13 +36,13 @@ Tiedosto-valikkoa käytetään kuvien avaamiseen, hankkimiseen ja tallentamiseen
 	Tässä alavalikossa on kaksi valintaa: Tuo leikepöydältä, ja Tuo skannerista tai kamerasta. Nämä mahdollistavat uuden kuvan luomisen joka tuo kuvan joko leikepöydältä, 
 	skannerista tai kamerasta joka tukee Windows Image Acquitision 2.0:aa (WIA).
 	
-	{{< figure src="/kuvat/acquiremenu.png" alt="" >}}
+	{{< figure src="/kuvat/acquiremenu.png" alt="Hanki" >}}
 	
 *	### Sulje
 	
 	Tämä sulkee valitun kuvan. Jos olet tehnyt muutoksia joita ei ole tallennettu, sinulta kysytään varmistusta ennen tallentamista:
 	
-	{{< figure src="/kuvat/unsavedchanges1.png" alt="" >}}
+	{{< figure src="/kuvat/unsavedchanges1.png" alt="Sulje" >}}
 	
 *	### Tallenna
 	
@@ -52,7 +52,7 @@ Tiedosto-valikkoa käytetään kuvien avaamiseen, hankkimiseen ja tallentamiseen
 	vai ei. PNG-kuvia varten kysytään värisyvyyttä ja muita asetuksia. Valikko näyttää katsauksen miltä kuva näyttää kun sen lataa toisessa ohjelmassa (tai paint.netissä) sen jälkeen 
 	kun se on tallennettu. Kuvan koko näytetään katsauksen yläpuolella. Voit käyttää katsausta saavuttamaan toivotun kuvan laadun.
 	
-	{{< figure src="/kuvat/saveconfigdialog.jpg" alt="" >}}
+	{{< figure src="/kuvat/saveconfigdialog.jpg" alt="Tallenna" >}}
 	
 *	### Tallenna nimellä
 	
@@ -63,11 +63,11 @@ Tiedosto-valikkoa käytetään kuvien avaamiseen, hankkimiseen ja tallentamiseen
 	Tämä antaa sinun tulostaa kuvan käyttäen Windowsin sisäänrakennettua Tulosta kuvia -toimintoa. Se esittää yksinkertaisen velhopohjaisen käyttöliittymän minkä avulla voit käydä tulostuksen läpi.
 	Windows 7:ssä, Tulosta kuvia -käyttöliittymä näyttää tältä:
 	
-	{{< figure src="/kuvat/printwizard.jpg" alt="" >}}
+	{{< figure src="/kuvat/printwizard.jpg" alt="Tulostamisen avustaja" >}}
 	
 *	### Poistu
 	
 	Käytä tätä poistuaksesi paint.net:istä. Sinulta kysytään haluatko tallentaa muutokset jos olet muokannut kuvaa. Jos sinulla on useita kuvia joiden muutoksia ei ole tallennettu, sinulta kysytään varmistusta ensin.
 	
-	{{< figure src="/kuvat/unsavedchanges2.png" alt="" >}}
+	{{< figure src="/kuvat/unsavedchanges2.png" alt="Tallenna muutokset" >}}
 

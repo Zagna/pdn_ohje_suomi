@@ -16,7 +16,7 @@ Täällä voit valita aktiivisen työkalun jota voi käyttää kuvan muokkaamise
 
 1.	### Suorakulmainen valinta
 	
-	Voit tämän avulla luoda valinnan joka on suorakulmio tai neliö. Lue lisää [Valintatyökaluissa](Valintatyokalut/).
+	Voit tämän avulla luoda valinnan joka on suorakulmio tai neliö. Lue lisää [Valintatyökaluissa]({{< ref "valintatyokalut.md" >}}).
 	
 1.	### Siirrä valintaa
 	
@@ -24,7 +24,7 @@ Täällä voit valita aktiivisen työkalun jota voi käyttää kuvan muokkaamise
 	
 1.	### Lassovalinta
 	
-	Voit tämän avulla luoda vapaavalintaisen valinnan. Lue lisää [Valintatyökaluissa](Valintatyokalut).
+	Voit tämän avulla luoda vapaavalintaisen valinnan. Lue lisää [Valintatyökaluissa]({{< ref "valintatyokalut.md" >}}).
 	
 1.	### Muokkaa valintaa
 	

@@ -16,13 +16,13 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
 *	### Yleiset
 	
-	{{< figure src="/kuvat/toolbar_commonactions.png" alt="" >}}
+	{{< figure src="/kuvat/toolbar_commonactions.png" alt="Yleiset työkalut" >}}
 
 	Näitä nappeja käytetään tekemään yleisiä komentoja. Vasemmalta oikealle, niiden avulla voi luoda uuden kuvan, avata olemassa olevan, 
 	tallentaa, tulostaa, leikata, kopioida, liittää,rajata, poistaa valinnan, kumota, tehdä uudelleen, näytä ristikko ja näytä viivaimet.
 
 *	### Työkalun valinta
 
-	{{< figure src="/kuvat/toolbar_toolchoicebutton.png" alt="" >}}
+	{{< figure src="/kuvat/toolbar_toolchoicebutton.png" alt="Työkalun valinta" >}}
 	
 	Työkalujen asetukset voi vaihtaa [Asetukset-valikossa]({{< ref "asetukset.md" >}}).

@@ -21,16 +21,16 @@ Tämä valikko sisältää komentoja jotka vaikuttavat kaikkiin tasoihin kuvassa
 
 	Alkuperäinen kuva:
 	
-	{{< figure src="/resurssit/bmw.jpg" alt="" class="border" >}}
+	{{< figure src="/resurssit/bmw.jpg" alt="Alkuperäinen" class="border" >}}
 	
 	Tässä rajattu alue on valittu käyttäen [Lassovalintaa]({{< ref "valintatyokalut.md" >}}):
 	
-	{{< figure src="/resurssit/bmw_selected.jpg" alt="" class="border" >}}
+	{{< figure src="/resurssit/bmw_selected.jpg" alt="Lassovalinta" class="border" >}}
 	
 	Kuva kun olet valinnut Rajaa valintaan komennon. Valinnan rajat päättää kuinka suuri kuvasta tulee joka on suorakulmainen, mutta kaikki pikselit jotka ovat valinnan ulkopuolella, 
 	on läpinäkyviä. Huomaa että shakkilautamallia käytetään vain ilmoittamaan että tietty alue on läpinäkyvä. Se ei ole osa kuvaa.
 	
-	{{< figure src="/resurssit/bmw_irregular_cropped.jpg" alt="" class="border" >}}
+	{{< figure src="/resurssit/bmw_irregular_cropped.jpg" alt="Rajaa valintaan" class="border" >}}
 	
 *	### Muuta kokoa
 
@@ -50,19 +50,19 @@ Tämä valikko sisältää komentoja jotka vaikuttavat kaikkiin tasoihin kuvassa
 	valitsee automaattisesti joko [Bicubic](http://en.wikipedia.org/wiki/Bilinear_interpolation") tai [Super Sampling](http://en.wikipedia.org/wiki/Super_sampling") 
 	riippuen siitä minkä koon määrität uudelle kuvalle.
 	
-	{{< figure src="/kuvat/resizedialog.png" alt="" >}}
+	{{< figure src="/kuvat/resizedialog.png" alt="Muuta kokoa" >}}
 	
 	Alkuperäinen kuva:
 	
-	{{< figure src="/resurssit/bmw.jpg" alt="" class="border" >}}
+	{{< figure src="/resurssit/bmw.jpg" alt="Alkuperäinen" class="border" >}}
 	
 	Suurennoksen jälkeen, käyttäen Muuta kokoa -komentoa:
 	
-	{{< figure src="/resurssit/bmw_after_enlarge.jpg" alt="" class="border" >}}
+	{{< figure src="/resurssit/bmw_after_enlarge.jpg" alt="Suurennettu" class="border" >}}
 	
 	Kutistuksen jälkeen, käyttäen Muuta kokoa -komentoa:
 	
-	{{< figure src="/resurssit/bmw_after_shrink.jpg" alt="" class="border" >}}
+	{{< figure src="/resurssit/bmw_after_shrink.jpg" alt="Kutistettu" class="border" >}}
 	
 	Riippuen kuvan tyypistä mitä kutistat, voit haluta käyttää Terävöitä-tehostetta arvolla 1 tai 2 koon muuttamisen jälkeen.
 	
@@ -71,19 +71,19 @@ Tämä valikko sisältää komentoja jotka vaikuttavat kaikkiin tasoihin kuvassa
 	Tämä komento antaa sinun joko suurentaa tai kutistaa kuvan kankaan kokoa ilman että muutat kuvan kokoa. Se toimii samallalailla kuin Muuta kokoa -valikko, mutta antaa valita 
 	Ankkurin paikan. Jos kankaan koko suurennetaan, uusi alue täytetään taustavärillä.
 	
-	{{< figure src="/kuvat/canvassize.png" alt="" >}}
+	{{< figure src="/kuvat/canvassize.png" alt="Pohjan koko" >}}
 	
 	Alkuperäinen kuva:
 	
-	{{< figure src="/resurssit/bmw.jpg" alt="" class="border" >}}
+	{{< figure src="/resurssit/bmw.jpg" alt="Alkuperäinen" class="border" >}}
 	
 	Pohjan suurennoksen jälkeen käyttäen keskellä olevaa ankkuria (taustaväri on valkoinen tässä tapauksessa):
 	
-	{{< figure src="/resurssit/bmw_after_canvas_size.jpg" alt="" class="border" >}}
+	{{< figure src="/resurssit/bmw_after_canvas_size.jpg" alt="Pohjan suurennos" class="border" >}}
 	
 	Pohjan kutistuksen jälkeen käyttäen keskellä olevaa ankkuria:
 	
-	{{< figure src="/resurssit/bmw_after_canvas_shrink.jpg" alt="" class="border" >}}
+	{{< figure src="/resurssit/bmw_after_canvas_shrink.jpg" alt="Pohjan kutistus" class="border" >}}
 	
 *	### Käännä vaakatasossa<span>, ja</span> Käännä pystytasossa
 	
@@ -91,11 +91,11 @@ Tämä valikko sisältää komentoja jotka vaikuttavat kaikkiin tasoihin kuvassa
 	
 	Alkuperäinen kuva:
 	
-	{{< figure src="/resurssit/bmw.jpg" alt="" class="border" >}}
+	{{< figure src="/resurssit/bmw.jpg" alt="Alkuperäinen" class="border" >}}
 	
 	Kun olet kääntänyt sen vaakasuorassa:
 	
-	{{< figure src="/resurssit/bmw_after_horiz_flip.jpg" alt="" class="border" >}}
+	{{< figure src="/resurssit/bmw_after_horiz_flip.jpg" alt="Kääntäminen" class="border" >}}
 		
 *	### Pyöritä
 	
@@ -103,11 +103,11 @@ Tämä valikko sisältää komentoja jotka vaikuttavat kaikkiin tasoihin kuvassa
 	
 	Alkuperäinen kuva:
 	
-	{{< figure src="/resurssit/bmw.jpg" alt="" class="border" >}}
+	{{< figure src="/resurssit/bmw.jpg" alt="Alkuperäinen" class="border" >}}
 	
 	Sen jälkeen kun se on pyöritetty 90 astetta myötäpäivään:
 	
-	{{< figure src="/resurssit/bmw_after_90_cw_rotate.jpg" alt="" class="border" >}}
+	{{< figure src="/resurssit/bmw_after_90_cw_rotate.jpg" alt="Kuvan pyöritys" class="border" >}}
 	
 *	### Yhdistä tasot
 	

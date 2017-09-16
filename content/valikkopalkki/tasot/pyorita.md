@@ -44,4 +44,4 @@ On myös kaksi valintaa:
 
 Jos käytät kaikkia näitä komentoja, voit saada fantastisia muokkauksia kuviisi. Seuraava kuva luotiin käyttämällä monia paint.netin ominaisuuksia, mukaan lukien Pyöritä / Lähennä:
 
-{{< figure src="/resurssit/reflect_small.jpg" alt="" >}}
+{{< figure src="/resurssit/reflect_small.jpg" alt="Toimintojen esimerkki" >}}

@@ -31,7 +31,7 @@ Samallalailla kuin [Täyttö]({{< ref "taytto.md" >}}), Taikasauvan tulosta voi 
 Joskus ei ole mahdollista valita tietty alue vain yhdellä kerralla. Saadaksesi valinnan joka ei ole yhtä ja samaa väriä. Tehdäksesi valintoja kuin tämä, se toimii hyvin kun käytät 
 toistuvasti Taikasauvaa alhaisella Toleranssi asetuksella, laajentaen valintaa pikku hiljaa kunnes olet saanut kaiken.
 
-{{< vihje "Voit laajentaa valintaa klikkaamalla samalla kun Ctrl-nappi on alhaalla." >}}
+{{% vihje %}}Voit laajentaa valintaa klikkaamalla samalla kun Ctrl-nappi on alhaalla.{{% /vihje %}}
 
 {{< figure class="border magic2" src="/resurssit/magicwand_collect.jpg" caption="Taikasauva jota käytettiin monta kertaa, laajentaen valintaa pienin aluein joka kerta valiten uuden alueen kun Ctrl-nappi on alhaalla." >}}
 
@@ -40,7 +40,7 @@ toistuvasti Taikasauvaa alhaisella Toleranssi asetuksella, laajentaen valintaa p
 Se toimii myös hyvin kun teet alustavan valinnan työkalulla kuten lassovalinta, sen jälkeen käytät Taikasauvaa tarkentaaksesi valintaa. Tämä metodi toimii hyvin kun kohteen 
 ympärillä puuttuu yksityiskohtia.
 
-{{< vihje "Voit vähentää valintaa klikkaamalla oikealla hiiren napilla." >}}
+{{% vihje %}}Voit vähentää valintaa klikkaamalla oikealla hiiren napilla.{{% /vihje %}}
 
 {{< figure class="magic2" src="/resurssit/magicwand_exclude.jpg" caption="Alustava valinta tehtiin lassotyökalulla, ja sen jälkeen Taikasauvaa käytettiinn sulkemaan pois alueet joita ei ole tarkoitettu ottaa mukaan, klikkaamalla poissuljettavaan alueeseen oikealla hiiren napilla." >}}
 

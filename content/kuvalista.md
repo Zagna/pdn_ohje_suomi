@@ -23,6 +23,6 @@ Valkoinen nuoli listan vasemmalla puolella näkyy kun sinulla on vähintään ka
 Voit sulkea kuvan valitsemalla sen ja sen jälkeen valitsemalla 'X' joka ilmestyy pikkukuvan oikeaan ylänurkkaan. Tämä on mukava oikotie [Tiedosto &rarr; Sulje]({{< ref "tiedosto.md#sulje" >}}) 
  komennolle.
 
-{{< vihje "Voit myös käyttää Ctrl + W tai Ctrl + F4 komentoja." >}}
+{{% vihje %}}Voit myös käyttää Ctrl + W tai Ctrl + F4 komentoja.{{% /vihje %}}
 
 Kun kuvassa on tallentamattomia muutoksia, sen yläpuolella näkyy oranssi tähti.

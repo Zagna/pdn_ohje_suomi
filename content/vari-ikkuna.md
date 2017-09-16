@@ -15,7 +15,7 @@ väripyörää tai palettia. paint.net mahdollistaa kahden värin valitsemisen, 
 valittu ja voi muokata. Eräät työkalut, kuten [Sivellin]({{< ref "sivellin.md" >}}) ja tietyt [Muototyökalut]({{< ref "muodot.md" >}}), käyttävät edusta- tai taustaväriä 
 piirtämisessä, riippuen siitä millä hiiren napilla piirrät.
 
-{{< vihje "Voit myös käyttää pikanäppäintä C vaihtaaksesi edusta ja taustavärin välillä nopeasti." >}}
+{{% vihje %}}Voit myös käyttää pikanäppäintä C vaihtaaksesi edusta ja taustavärin välillä nopeasti.{{% /vihje %}}
 
 {{< figure src="/kuvat/colorswindowless.png" alt="Värit" >}}
 

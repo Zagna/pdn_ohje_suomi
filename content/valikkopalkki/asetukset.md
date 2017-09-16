@@ -39,7 +39,7 @@ Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
 
 	Tämä valikko antaa sinun valita mitä kieltä paint.net käyttää.
 
-	{{< figure src="/kuvat/settings3.png" alt="" >}}
+	{{< figure src="/kuvat/settings3.png" alt="Kielen asetukset" >}}
 
 	Tätä voi käyttää kaikkien työkalujen oletusarvojen asettamiseen. Voit myös vaihtaa mikä työkalu on valittu kun paint.net käynnistetään. "Palauta" nappi palauttaa 
 	kaikki arvot oletusarvoihin, kun "Lataa työkalupalkista" ottaa työkalupalkin nykyiset asetukset ja ottaa ne käyttöön.
@@ -50,7 +50,7 @@ Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
 	
 *	### Muodot, sivellin, tyyli ja täyttö
 	
-	{{< figure src="/kuvat/toolbar_shapesbrushesfill.png" alt="" >}}
+	{{< figure src="/kuvat/toolbar_shapesbrushesfill.png" alt="Muodot, sivellin, tyyli ja täyttö" >}}
 	
 	[Muototyökalut]({{< ref "muodot.md" >}}) käyttävät näitä asetuksia. Voit valita piirretäänkö muoto ääriviivalla, täytettynä, vai kummatkin, siveltimen koko sekä piirtotyylin. 
 	
@@ -58,7 +58,7 @@ Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
 	
 *	### Valintatyökalut
 	
-	{{< figure src="/kuvat/toolbar_selectionmode.png" alt="" >}}
+	{{< figure src="/kuvat/toolbar_selectionmode.png" alt="Valintatyökalut" >}}
 	
 	"Valintatila" osa työkalupalkista antaa sinun valita tilan jota valintatyökalut käyttävät. Kun valitse valintatyökalulla se joko korvaa olemassa olevan valinnan, 
 	lisää siihen, vähentää siitä tai kääntää aluen jonka yli se tulee.
@@ -69,7 +69,7 @@ Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
 	
 *	### Teksti
 	
-	{{< figure src="/kuvat/toolbar_text.png" alt="" >}}
+	{{< figure src="/kuvat/toolbar_text.png" alt="Tekstityökalu" >}}
 	
 	Täta osaa työkalupalkista käyttää vain [Teksti]({{< ref "tekstityokalu.md" >}}), ja se antaa sinun asettaa fontin, koon, pehmeyden sekä tyylin.
 	
@@ -79,7 +79,7 @@ Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
 	
 *	### Väriliukuma
 	
-	{{< figure src="/kuvat/toolbar_gradient.png" alt="" >}}
+	{{< figure src="/kuvat/toolbar_gradient.png" alt="Väriliukuma" >}}
 	
 	[Väriliukumalla]({{< ref "variliukuma.md" >}}) on 7 erilaista liukumaa jota se voi käyttää, sekä se voi toimia joko väritilassa tai erikoisessa läpinäkyvyystilassa. 
 	
@@ -87,7 +87,7 @@ Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
 	
 *	### Taikasauva, täyttö ja uudelleen väritys
 	
-	{{< figure src="/kuvat/toolbar_magicwandpaintbucket.png" alt="" >}}
+	{{< figure src="/kuvat/toolbar_magicwandpaintbucket.png" alt="Taikasauva, täyttö ja uudelleen väritys" >}}
 	
 	Toleranssi vaikuttaa miten [Taikasauva]({{< ref "taikasauva.md" >}}), [Täyttö]({{< ref "taytto.md" >}}) sekä [Uudelleen väritys]({{< ref "uudelleen_varitys.md" >}}) toimivat. 
 	Se määrää miten samanväriset värit lasketaan mukaan kun työkalua käytetään. Jos se on asetettu 0%, vain tarkalleen tiettyä väriä käytetään. Jos se on 100%, kaikki värit 
@@ -97,7 +97,7 @@ Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
 	
 *	### Väripoimija
 	
-	{{< figure src="/kuvat/toolbar_colorpicker.png" alt="" >}}
+	{{< figure src="/kuvat/toolbar_colorpicker.png" alt="Väripoimija" >}}
 	
 	[Väripoimijan]({{< ref "pikselityokalut.md" >}}) voi asettaa vaihtamaan [Kynään]({{< ref "pikselityokalut.md" >}}) tai edelliseen työkaluun värin poimimisen jälkeen. 
 	
@@ -105,14 +105,14 @@ Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
 	
 *	### Siirrä valittuja pikseleitä
 	
-	{{< figure src="/kuvat/toolbar_moveselectedpixels.png" alt="" >}}
+	{{< figure src="/kuvat/toolbar_moveselectedpixels.png" alt="Siirrä valittuja pikseleitä" >}}
 	
 	[Siirrä valintaa]({{< ref "siirtotyokalut.md" >}}) -työkalun voi asettaa käyttämään joko "pehmeää" (bilinear) tai "pikseloitua" (lähin naapuri) näytteistystä. 
 	Pehmeä laatu on yleensä suositeltua ellei sinulla ole tarkkaa tarvetta käyttää pikseloitua laatua.
 	
 *	### Rasterisaatio
 	
-	{{< figure src="/kuvat/toolbar_rasterization.png" alt="" >}}
+	{{< figure src="/kuvat/toolbar_rasterization.png" alt="Rasterisaatio" >}}
 	
 	Moneen työkaluun vaikuttaa yksi tai kummatkin näistä valinnoista jotka vaikuttavat siihen miten piirtäminen toimii. Voit käyttää näitä joko painamalla itse nappia vaihtaaksesi 
 	asetusta, tai painamalla nuolta saadaksesi valikon vaihtoehdoista.
@@ -120,7 +120,7 @@ Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
 	Ensimmäinen nappi asettaa onko [reunan pehmennys](http://en.wikipedia.org/wiki/Antialiasing) käytössä. Ympyrä vasemmalla on piirretty reunan pehmennys päällä kun 
 	oikealla oleva ympyrä on piirretty ilman reunan pehmennystä. Se on selkeästi "rösöisempi":
 	
-	{{< figure src="/resurssit/aavsnoaa.png" alt="" >}}
+	{{< figure src="/resurssit/aavsnoaa.png" alt="Pehmennys päällä ja pois" >}}
 	
 	Seuraava nappi asettaa [sekoitustilan](http://en.wikipedia.org/wiki/Alpha_compositing). Normaali sekoitus toimii siten että jokainen piirrettävä pikseli sekoitetaan 
 	tasolla jo olemassa oleviin pikseleihin. Ylikirjoitus toimii siten että jokainen piirrettävä pikseli korvaa jo olemassa olevat pikselit. Alla olevassa kuvassa, viiva piirrettiin 
@@ -128,7 +128,7 @@ Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
 	sekä viiva näkyvät. Toinen viiva oikealla, on piirretty Ylikirjoituksen kanssa. Auto ei ole enää näkyvä missä viiva piirrettiin ja ruudukko näkyy joka tarkoittaa että se osa 
 	kuvasta on läpinäkyvä.
 	
-	{{< figure src="/resurssit/bmw_ab_vs_noab.jpg" alt="" class="border" >}}
+	{{< figure src="/resurssit/bmw_ab_vs_noab.jpg" alt="Sekoitustila" class="border" >}}
 	
 	Ylikirjoitus on hyödyllinen [Kynän]({{< ref "pikselityokalut.md" >}}) kanssa kun haluat muokata kuvia pikselitasolla.
 	

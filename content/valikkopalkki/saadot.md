@@ -31,7 +31,7 @@ Tätä kuvaa tullaan käyttämään esittämään, mitä eri säädöt tekevät:
 		<li><a href="#Levels">Sävyala</a></li>		
 	</ul>
 	<div id="AutoLevel">
-		<p>Tätä voit käyttää värien tasoittamiseen, eli liian tumma tai kirkas kuva tuodaan takaisin normaaliin tasoon. Tämä on sama kuin käyttäisi <a href="Savyala/">Sävyala</a>-säätöä ja valitsisi &ldquo;Auto&rdquo;-komennon.</p>
+		<p>Tätä voit käyttää värien tasoittamiseen, eli liian tumma tai kirkas kuva tuodaan takaisin normaaliin tasoon. Tämä on sama kuin käyttäisi [Sävyala-säätöä]({{< ref "savyala.md" >}}) ja valitsisi &ldquo;Auto&rdquo;-komennon.</p>
 		<p>Tämän säädön käytön jälkeen, jota ei voi muokata, kuva näyttää tältä:</p>
 		<p class="indent"><img src="/resurssit/lewistonsunset_small_autolevel.jpg" alt="Automaattinen taso" class="border"></p>
 	</div>
@@ -45,7 +45,7 @@ Tätä kuvaa tullaan käyttämään esittämään, mitä eri säädöt tekevät:
 		<p class="indent"><img src="/resurssit/lewistonsunset_small_brighterandmorecontrast.jpg" alt="Kirkas sekä kontrasti" class="border"></p>
 	</div>
 	<div id="Curves">
-		<p>Tämän säädön avulla voi säätää kuvan käyriä. Lisää tästä <a href="Kayrat/">täällä</a>.</p>
+		<p>Tämän säädön avulla voi säätää kuvan käyriä. Lisää tästä [täällä]({{< ref "kayrat.md" >}}).</p>
 	</div>
 	<div id="BlackAndWhite">
 		<p>Tämä säätö poistaa kaikki värit, tehden tasosta mustavalkoisen.</p>
@@ -68,7 +68,7 @@ Tätä kuvaa tullaan käyttämään esittämään, mitä eri säädöt tekevät:
 		<p class="indent"><img class="border" alt="Posterisaatio" src="/resurssit/lewistonsunset_small_posterize.png"></p>
 	</div>
 	<div id="Levels">
-		<p>Tätä säätöä käytetään värien alan ja kuvan gamman muokkaamiseen. Paina <a href="Savyala/">tästä</a> lukeaksesi lisää.</p>
+		<p>Tätä säätöä käytetään värien alan ja kuvan gamman muokkaamiseen. Paina [tästä]({{< ref "savyala.md" >}}) lukeaksesi lisää.</p>
 	</div>
 	<div id="Sepia">
 		<p>Tämä säädös muuttaa kuvan ensin mustavalkoiseksi ja sen jälkeen lisää seepiasävyn. Tätä voi käyttää lisätäksesi kuvaan nostalgisen tunteen.</p>

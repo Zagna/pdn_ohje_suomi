@@ -33,7 +33,7 @@ Kun valitset siirtotyökalun, useita kahvoja, tai nuppeja, ilmestyy valinnan reu
 Kun jompi kumpi näistä työkaluista on valittu, voit suorittaa minkä tahansa näistä kolmesta työstä saadaksesi halutun tuloksen. Voit suorittaa jokaisen työn monta kertaa, voit 
 sekoittaa niitä saadaksesi oikea tuloksen. Huomaa että jokaisessa esimerkissä, kun käytetään Muokkaa valintaa-työkalua, pikselit jotka oli valittu ei vaikuteta.
 
-{{< huom "Kun siirrät pikseleitä ympäriinsä taustakuvatasolla, shakkilautamalli joka jää jälkeen, ilmoittaa että alue on läpinäkyvä. Malli ei ole osa itse kuvaa." >}}
+{{% huom %}}Kun siirrät pikseleitä ympäriinsä taustakuvatasolla, shakkilautamalli joka jää jälkeen, ilmoittaa että alue on läpinäkyvä. Malli ei ole osa itse kuvaa.{{% /huom %}}
 
 <div id="tabs">
 	<ul>
@@ -58,7 +58,9 @@ sekoittaa niitä saadaksesi oikea tuloksen. Huomaa että jokaisessa esimerkissä
 	</div>
 	<div id="Muuta">
 		<p>Siirrä hiiri nupin päälle ja kursori muuttuu kädeksi. Paina ja siirrä muuttaaksesi valinnan kokoa.</p>
-		{{< vihje "Jos siirrät yhtä nurkkanuppia, voit Shift-nappia pohjassa pitämällä pakottaa kuvan säilyttämään kuvasuhteen (valinnan koon mukaan)." >}}
+		
+{{% vihje %}}Jos siirrät yhtä nurkkanuppia, voit Shift-nappia pohjassa pitämällä pakottaa kuvan säilyttämään kuvasuhteen (valinnan koon mukaan).{{% /vihje %}}
+		
 		<figure class="bunder">
 			<img src="/resurssit/movenubs_resizedpixels.jpg" alt="">
 			<figcaption>
@@ -73,8 +75,10 @@ sekoittaa niitä saadaksesi oikea tuloksen. Huomaa että jokaisessa esimerkissä
 		</figure>
 	</div>
 	<div id="Pyorita">
-		<p>Oikea hiiren nappi pohjassa siirrä hiirtä missä vain pyörittääksesi valintaa. Kun pyörität valintaa, ilmaisin ilmestyy valinnan keskelle näyttääkseen pyörimisen keskipisteen ja nykyisen kulman. Se näyttää pieneltä ympyrältä jonka keskeltä kulkee viiva läpi. Huomaa että pyörimiskulma näkyy myös <a href="/Tilapalkki/">Tilapalkissa</a>.</p>
-		{{< vihje "Kun pyörität, voit pakottaa pyörimiskulman 15 asteen kulmiin pitämällä Shift-nappia alhaalla." >}}
+		<p>Oikea hiiren nappi pohjassa siirrä hiirtä missä vain pyörittääksesi valintaa. Kun pyörität valintaa, ilmaisin ilmestyy valinnan keskelle näyttääkseen pyörimisen keskipisteen ja nykyisen kulman. Se näyttää pieneltä ympyrältä jonka keskeltä kulkee viiva läpi. Huomaa että pyörimiskulma näkyy myös [Tilapalkissa]({{< ref "tilapalkki.md" >}}).</p>
+		
+{{% vihje %}}Kun pyörität, voit pakottaa pyörimiskulman 15 asteen kulmiin pitämällä Shift-nappia alhaalla.{{% /vihje %}}
+		
 		<figure class="bunder">
 			<img src="/resurssit/movenubs_rotatedpixels.jpg" alt="">
 			<figcaption>

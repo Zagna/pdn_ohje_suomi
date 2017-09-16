@@ -49,6 +49,8 @@ Temporary Items
 *.txt
 *.log
 *.exe
-404.html
 public/*
 *.zip
+*.yml
+tmp/*
+/404.html

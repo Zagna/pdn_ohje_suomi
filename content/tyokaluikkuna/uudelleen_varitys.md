@@ -14,10 +14,10 @@ tooltip = "resurssit/tyokalut/recolor.png"
 Tätä työkalua voit käyttää vaihtaaksesi yhden värin toiseen. Kun värität vasemmalla hiiren napilla, edustaväri on väri joka tulee uudeksi väriksi ja taustaväri on väri joka tullaan 
 korvaamaan. Jos käytät oikeaa hiiren nappia, roolit ovat käänteiset.
 
-{{< vihje "Voit käyttää vasempaa hiiren nappia kun pidät alhaalla Ctrl-nappia valitaksesi edustavärin. Oikea hiiren nappi ja Ctrl-nappi asettavat taustavärin. Tämä mukavasti toistaa Väripoimijan toimintaa." >}}
+{{% vihje %}}Voit käyttää vasempaa hiiren nappia kun pidät alhaalla Ctrl-nappia valitaksesi edustavärin. Oikea hiiren nappi ja Ctrl-nappi asettavat taustavärin. Tämä mukavasti toistaa Väripoimijan toimintaa.{{% /vihje %}}
 
-Voit muokata uudelleen värityksen herkkyyttä [Toleranssi]({{< ref "asetukset.md#taikasauva-täyttö-ja-uudelleen-väritys" >}}) asetuksella. Jos se on 0%, vain tarkalleen sama väri muutetaan. Jos se on 100%, se toimii 
-pitkälti kuin Sivellin.
+Voit muokata uudelleen värityksen herkkyyttä [Toleranssi]({{< ref "asetukset.md#taikasauva-täyttö-ja-uudelleen-väritys" >}}) asetuksella. Jos se on 0%, vain tarkalleen sama väri
+muutetaan. Jos se on 100%, se toimii pitkälti kuin Sivellin.
 
 Voit myös asettaa siveltimen koon asettamalla [Siveltimen koon työkalupalkissa]({{< ref "asetukset.md#muodot-sivellin-tyyli-ja-täyttö" >}}).
 

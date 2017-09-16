@@ -37,7 +37,7 @@ ja pyörittää, lisätietoja: katso [Siirtotyökalut]({{< ref "siirtotyokalut.m
 
 Luodaksesi uuden valinnan, tai korvataksesi olemassa olevan, piirrä vain vasemmalla hiiren napilla. Toiminta on samanlainen kuin Muototyökaluilla.
 
-{{< vihje "Voit pitää Shift-nappia pohjassa kun käytät Suorakulmaista valintaa tai Ellipsi valintaa pakottaaksesi muodon olemaan joko neliö tai ympyrä, mainitussa järjestyksessä." >}}
+{{% vihje %}}Voit pitää Shift-nappia pohjassa kun käytät Suorakulmaista valintaa tai Ellipsi valintaa pakottaaksesi muodon olemaan joko neliö tai ympyrä, mainitussa järjestyksessä.{{% /vihje %}}
 
 Jos haluat muokata valintaa, voit joko käyttää joko työkalupalkkia tai näppäimistön komentoja jotka esitellään seuraavissa kappaleissa. (Täydellinen lista näppäimistön komennoista 
 on myös saatavilla [täällä]({{< ref "nappaimisto_ja_hiiri.md" >}}).)
@@ -62,23 +62,31 @@ On olemassa viisi erilaista valintatilaa:
 		<p>Tämä antaa sinun helposti valita kaksi kuvan aluetta jotka eivät liity toisiinsa tai jatkaa nykyistä valintaa. Seuraava valinta tehtiin piirtämällä ympyrä Ellipsi valinta-työkalulla, 
 			lisäksi piirtämällä Neliö Suorakulmaisella valinnalla pitäen Ctrl-nappia pohjassa:</p>
 		<p><img src="/resurssit/circlesquareselection.png" alt="Lisää" class=""></p>
-		{{< vihje "Lisätäksesi olemassa olevaan valintaan, pidä Ctrl-nappi pohjassa kun piirrät valinnan." >}}
+		
+{{% vihje %}}Lisätäksesi olemassa olevaan valintaan, pidä Ctrl-nappi pohjassa kun piirrät valinnan.{{% /vihje %}}
+		
 	</div>
 	<div id="Vahenna">
 		<p>Tämä antaa sinun poistaa osia valinnasta joita et halua mukaan. Tämä antaa sinun tehdä seuraavan kaltaisia valintoja, joka tehtiin ensin piirtämällä ympyrä Ellipsi valinta-työkalulla 
 			ja sen jälkeen piirtäen toinen ympyrä sisälle käyttäen oikeaa hiiren nappia:</p>
 		<p><img src="/resurssit/concentriccircleselection.png" alt="Vähennä" class=""></p>
-		{{< vihje "Poistaaksesi osia olemassa olevasta valinnasta, pidä Alt-näppäintä alhaalla piirtäessäsi valintaa." >}}
+		
+{{% vihje %}}Poistaaksesi osia olemassa olevasta valinnasta, pidä Alt-näppäintä alhaalla piirtäessäsi valintaa.{{% /vihje %}}
+		
 	</div>
 	<div id="Leikkaus">
 		<p>Tulos on alue jossa kaksi valintaa ovat päällekkäin. Seuraava esimerkki saatiin piirtämällä sama ympyrä ja neliö kuin alhaalla käänteisen tilan kanssa:</p>
 		<p><img src="/resurssit/intersectselection.png" alt="Leikkaus" class=""></p>
-		{{< vihje "Leikkaus toimii pitämällä Alt-näppäin pohjassa ja piirtäen valinta oikealla hiiren näppäimellä." >}}
+		
+{{% vihje %}}Leikkaus toimii pitämällä Alt-näppäin pohjassa ja piirtäen valinta oikealla hiiren näppäimellä.{{% /vihje %}}
+		
 	</div>
 	<div id="Kaanteinen">
 		<p>Tämä luo uusia valintoja ja poistaa vanhoja valintoja. Voit näin tehdä seuraavanlaisia valintoja, käyttäen Ellipsi valintaa ja Suorakulmaista valintaa:</p>
 		<p><img src="/resurssit/xorselection.png" alt="Käänteinen" class=""></p>
-		{{< vihje "Käänteinen toimii pitämällä Ctrl-näppäin pohjassa ja piirtämällä valinnan oikealla hiiren napilla." >}}
+		
+{{% vihje %}}Käänteinen toimii pitämällä Ctrl-näppäin pohjassa ja piirtämällä valinnan oikealla hiiren napilla.{{% /vihje %}}
+		
 	</div>
 </div>
 

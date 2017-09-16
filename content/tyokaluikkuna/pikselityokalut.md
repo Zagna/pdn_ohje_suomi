@@ -16,7 +16,7 @@ Nämä pikselityökalut sisältävät Kynän ja Väripoimijan.
 
 Kynää voi käyttää piirtääksesi yhden pikselin kerrallaan. Tämä on samanlainen, muttei sama, kuin käyttäisi Sivellintä siveltimen leveydellä 1 ja ilman reunan pehmennystä.
 
-{{< vihje "On hyödyllistä käyttää kynää ristikon kanssa kun olet suurentanut lähelle tehdäksesi pikselikohtaista muokkausta. Seuraavassa esimerkissä kynällä piirretään oikea reuna ikoniin." >}}
+{{% vihje %}}On hyödyllistä käyttää kynää ristikon kanssa kun olet suurentanut lähelle tehdäksesi pikselikohtaista muokkausta. Seuraavassa esimerkissä kynällä piirretään oikea reuna ikoniin.{{% /vihje %}}
 
 {{< figure class="bunder" title="Ennen:" src="/kuvat/penciltool_before.png" >}}
 {{< figure class="bunder" title="Jälkeen:" src="/kuvat/penciltool_after.png" >}}
