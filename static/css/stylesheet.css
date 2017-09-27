@@ -4,6 +4,7 @@
 	font-size: .80em;
 	text-indent: 0;
 	word-spacing: 0;
+	overflow-y: scroll;
 }
 
 a,p,span
@@ -153,6 +154,33 @@ ol
 	margin-left: .5em;
 	margin-top: 0;
 }
+
+#navigation ul > li > ul
+{
+	display:none;
+}
+
+#navigation .plus:before
+{
+	content: "+";
+	margin-right: 2px;
+}
+
+#navigation li
+{
+	margin-left: .2em;
+}
+
+#navigation li.plus
+{
+	margin-left: .4em;
+}
+
+#navigation ul > li:hover > ul, #navigation ul > li.selected > ul
+{
+	display: block;
+}
+
 
 ul, ol
 {

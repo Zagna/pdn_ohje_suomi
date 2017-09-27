@@ -20,37 +20,56 @@ työkaluksi kuvien muokkaamiseen.
 ## paint.netin pääominaisuuksia ovat:
 
 *	### Yksinkertainen ja intuitiivinen käyttöliittymä
-	
+
 	Jokainen ominaisuus ja käyttöliittymän osa suunniteltiin olemaan heti löydettävissä ja/tai helposti opeteltavissa ilman apua. Suunnittelussa otettiin huomioon
 	<a target="_blank" href="http://en.wikipedia.org/wiki/Microsoft_Paint">Paintin</a> ja <a target="_blank" href="http://en.wikipedia.org/wiki/Photoshop">Photoshopin
 	käyttäjät</a>.
+
+*	### Avaa ja muokkaa useita tiedostoja
+
+	paint.net pystyy avaamaan useita tiedostoja kerralla ja käyttää välilehtiä kutein uudenaikainen selain. Esittelevän tekstin sijasta näet päivittyvän pikkukuvan kuvistasi.
 	
+	Välilehdet tekevät navigaatiosta yksinkertaista ja helppoa, tarvitset vain yhden klikkauksen siirtyääksesi toiseen kuvaan. Uutta paint.netissä on että välilehdet voi järjestellä
+	uudestaan vetämällä ja pudottamalla.
+	
+	Jokainen avoinna oleva kuva näkyy erilläänn Windowsin tehtäväpälkin esikatselussa \(tämän voi ottaa pois päältä [Asetukset]({{< ref "asetukset.md" >}}) valikossa\).
+
 *	### Tasot
 
 	Tämä antaa sinun muodostaa yhden täyden kuvan kasasta muita kuvia jotka yhdistetään sekaisin.
+	
+	paint.net tukee monta eri sekoitustilaa, tasojen läpinäkyvyyttä ja tasojen järjestelemistä vetämällä.
 
 *	### Rajaton historia
 
-	Kaikki mitä teet kuvalle, tallennetaan Historiaikkunaan, ja historia on rajoitettu vain vapaan kovalevytilan ja muistin suhteen.
-		
+	Kaikki mitä teet kuvalle, tallennetaan Historiaikkunaan. Historiaikkunaan lista mahdollistaa muokkauksien perumisen vain klikkaamalla tiettyä kohtaa listassa.
+
+	Tapahtumien määrä historiassa on rajoitettu vain vapaan kovalevytilan ja muistin suhteen.
+
 *	### Tuki monille tiedostoformaateille
-	
+
 	Seuraavat tiedostoformaatit on tuettu: <a target="_blank" title="Portable Network Graphics" href="http://fi.wikipedia.org/wiki/PNG">PNG</a>,
 	<a target="_blank" title="Joint Photographic Experts Group" href="http://fi.wikipedia.org/wiki/JPEG">JPEG</a>, <a target="_blank" href="http://fi.wikipedia.org/wiki/BMP">BMP</a>,
-	<a target="_blank" title="Graphic Interchange Format" href="http://fi.wikipedia.org/wiki/GIF">GIF</a>, 
+	<a target="_blank" title="Graphic Interchange Format" href="http://fi.wikipedia.org/wiki/GIF">GIF</a>,
 	<a target="_blank" href="http://en.wikipedia.org/wiki/Truevision_TGA">TGA</a>, <a target="_blank" title="DirectDraw Surface" href="http://en.wikipedia.org/wiki/DirectDraw_Surface">DDS</a>,
-	ja <a target="_blank" title="Tagged Image File Format" href="http://fi.wikipedia.org/wiki/TIFF">TIFF</a>. paint.netin natiivi kuvatyyppi on PDN, joka säilyttää tasot kuvassa.
+	ja <a target="_blank" title="Tagged Image File Format" href="http://fi.wikipedia.org/wiki/TIFF">TIFF</a>.
+	
+	paint.netin natiivi kuvatyyppi on PDN, joka säilyttää tasot kuvassa.
 
 *	### Tehosteet ja säädöt
 
 	Voit soveltaa montaa erikoistehostetta kuvaasi, ja tuki erilaisille säädöille on myös olemassa.
+	
+*	### Automaattiset päivitykset
+
+	Päivitykset ovat ilmaisia ja sisältävät uusia ominaisuuksia, parannuksia ja korjauksia. Uusimpaan versioon päivittäminen on helppoa ja tarvitsee vain pari klikkausta.
 
 *	### Laajennettavuus
-		
+
 	paint.net tukee laajennuksia jotka lisäävät uusia tehosteita, säätöjä ja tiedostotyyppejä.
-	
+
 *	### Ilmainen
-	
+
 	paint.net jaetaan ilman maksua.
 
 Palautetta käännöksestä voi lähettää <a href="mailto:jarno.ruokamo@gmail.com?subject=Palautetta%20käännöksestä">sähköpostilla</a> <img src="/resurssit/fi.png" alt="">.
