@@ -37,9 +37,9 @@ Haluaksesi tehdä automaattisen asennuksen, käytä /auto tai /skipConfig koment
 
 ### Komentorivin komennot
 
-Tämä asennuspaketti tekee seuraavia komentorivin komentoja, missä paint.net.4.0.12.install.exe on asennusohjelma jonka latasit [kotisivulta](http://www.getpaint.net):
+Asennuspaketti käyttää seuraavia komentorivin komentoja, missä paint.net.4.0.17.install.exe on asennusohjelma jonka latasit [kotisivulta](http://www.getpaint.net):
 
-{{% esimerkki %}}paint.net.4.0.12.install.exe [/skipConfig | /auto | /createMsi] [PROPERTY=VALUE resource.]{{% /esimerkki %}}
+{{% esimerkki %}}paint.net.4.0.17.install.exe [/skipConfig | /auto | /createMsi] [PROPERTY=VALUE resource.]{{% /esimerkki %}}
 
 Komentojen kuvaus:
 

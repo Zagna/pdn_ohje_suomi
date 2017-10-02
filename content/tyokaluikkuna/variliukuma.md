@@ -28,7 +28,7 @@ Toinen palkki näyttää miten liukuma vaikuttaa läpinäkyvyystilassa seuraavaa
 {{< figure src="/resurssit/camaro_160.jpg" alt="Camaro" >}}	
 
 <div id="tabs">
-	<ul>
+	<ul class="tabs">
 		<li><a href="#Linear">Lineaari</a></li>
 		<li><a href="#Reflected">Lineaari (Peilattu)</a></li>
 		<li><a href="#Diamond">Timantti</a></li>
@@ -37,26 +37,28 @@ Toinen palkki näyttää miten liukuma vaikuttaa läpinäkyvyystilassa seuraavaa
 		<li><a href="#SpiralM">Spiraali (Myötäpäivään)</a></li>
 		<li><a href="#SpiralV">Spiraali (Vastapäivään)</a></li>
 	</ul>
-	<div id="Linear">
-		<p><img src="/resurssit/gradient_linear.png" alt="" class="border">&nbsp;<img src="/resurssit/gradient_alpha_linear.jpg" alt="" class="border"></p>
-	</div>
-	<div id="Reflected">
-		<p><img src="/resurssit/gradient_linearreflected.png" alt="" class="border">&nbsp;<img src="/resurssit/gradient_alpha_linearreflected.jpg" alt="" class="border"></p>
-	</div>
-	<div id="Diamond">
-		<p><img src="/resurssit/gradient_diamond.png" alt="" class="border">&nbsp;<img src="/resurssit/gradient_alpha_diamond.jpg" alt="" class="border"></p>
-	</div>
-	<div id="Radial">
-		<p><img src="/resurssit/gradient_radial.png" alt="" class="border">&nbsp;<img src="/resurssit/gradient_alpha_radial.jpg" alt="" class="border"></p>
-	</div>
-	<div id="Conical">
-		<p><img src="/resurssit/gradient_conical.png" alt="" class="border">&nbsp;<img src="/resurssit/gradient_alpha_conical.jpg" alt="" class="border"></p>
-	</div>
-	<div id="SpiralM">
-		<p><img src="/resurssit/gradient_spiralm.png" alt="" class="border">&nbsp;<img src="/resurssit/gradient_alpha_spiralm.jpg" alt="" class="border"></p>
-	</div>
-	<div id="SpiralV">
-		<p><img src="/resurssit/gradient_spiralv.png" alt="" class="border">&nbsp;<img src="/resurssit/gradient_alpha_spiralv.jpg" alt="" class="border"></p>
+	<div class="tabcontents">
+		<div id="Linear">
+			<p><img src="/resurssit/gradient_linear.png" alt="" class="border">&nbsp;<img src="/resurssit/gradient_alpha_linear.jpg" alt="" class="border"></p>
+		</div>
+		<div id="Reflected">
+			<p><img src="/resurssit/gradient_linearreflected.png" alt="" class="border">&nbsp;<img src="/resurssit/gradient_alpha_linearreflected.jpg" alt="" class="border"></p>
+		</div>
+		<div id="Diamond">
+			<p><img src="/resurssit/gradient_diamond.png" alt="" class="border">&nbsp;<img src="/resurssit/gradient_alpha_diamond.jpg" alt="" class="border"></p>
+		</div>
+		<div id="Radial">
+			<p><img src="/resurssit/gradient_radial.png" alt="" class="border">&nbsp;<img src="/resurssit/gradient_alpha_radial.jpg" alt="" class="border"></p>
+		</div>
+		<div id="Conical">
+			<p><img src="/resurssit/gradient_conical.png" alt="" class="border">&nbsp;<img src="/resurssit/gradient_alpha_conical.jpg" alt="" class="border"></p>
+		</div>
+		<div id="SpiralM">
+			<p><img src="/resurssit/gradient_spiralm.png" alt="" class="border">&nbsp;<img src="/resurssit/gradient_alpha_spiralm.jpg" alt="" class="border"></p>
+		</div>
+		<div id="SpiralV">
+			<p><img src="/resurssit/gradient_spiralv.png" alt="" class="border">&nbsp;<img src="/resurssit/gradient_alpha_spiralv.jpg" alt="" class="border"></p>
+		</div>
 	</div>
 </div>
 

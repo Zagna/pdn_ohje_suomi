@@ -1,6 +1,6 @@
 
 {{ $currentPage := . }}
-<div id="navigation">
+<nav id="navigation">
 	{{ range .Site.Menus.pdn }}
 		{{ if eq .Identifier "koti" }}<h2>{{ .Name }}</h2>{{ else }}<h3>{{ .Name }}</h3>{{ end }}
 		<ul>
@@ -25,5 +25,5 @@
 			{{ end }}
 		</ul>
 	{{ end }}
-</div>
+</nav>
 

@@ -36,61 +36,63 @@ sekoittaa niitä saadaksesi oikea tuloksen. Huomaa että jokaisessa esimerkissä
 {{% huom %}}Kun siirrät pikseleitä ympäriinsä taustakuvatasolla, shakkilautamalli joka jää jälkeen, ilmoittaa että alue on läpinäkyvä. Malli ei ole osa itse kuvaa.{{% /huom %}}
 
 <div id="tabs">
-	<ul>
+	<ul class="tabs">
 		<li><a href="#Siirra">Siirrä</a></li>
 		<li><a href="#Muuta">Muuta kokoa</a></li>
 		<li><a href="#Pyorita">Pyöritä</a></li>
 	</ul>
-	<div id="Siirra">
-		<p>Siirrä vasemmalla hiiren napilla missä muualla <em>paitsi</em> nupissa siirtääksesi valintaa.</p>
-		<figure class="bunder">
-			<img src="/resurssit/movenubs_movedpixels.jpg" alt="">
-			<figcaption>
-				<h4>Siirrä valintaa</h4>
-			</figcaption>
-		</figure>
-		<figure class="bunder">
-			<img src="/resurssit/movenubs_movedselection.jpg" alt="">
-			<figcaption>
-				<h4>Muokkaa valintaa</h4>
-			</figcaption>
-		</figure>
-	</div>
-	<div id="Muuta">
-		<p>Siirrä hiiri nupin päälle ja kursori muuttuu kädeksi. Paina ja siirrä muuttaaksesi valinnan kokoa.</p>
-		
-{{% vihje %}}Jos siirrät yhtä nurkkanuppia, voit Shift-nappia pohjassa pitämällä pakottaa kuvan säilyttämään kuvasuhteen (valinnan koon mukaan).{{% /vihje %}}
-		
-		<figure class="bunder">
-			<img src="/resurssit/movenubs_resizedpixels.jpg" alt="">
-			<figcaption>
-				<h4>Siirrä valintaa</h4>
-			</figcaption>
-		</figure>
-		<figure class="bunder">
-			<img src="/resurssit/movenubs_resizedselection.jpg" alt="">
-			<figcaption>
-				<h4>Muokkaa valintaa</h4>
-			</figcaption>
-		</figure>
-	</div>
-	<div id="Pyorita">
-		<p>Oikea hiiren nappi pohjassa siirrä hiirtä missä vain pyörittääksesi valintaa. Kun pyörität valintaa, ilmaisin ilmestyy valinnan keskelle näyttääkseen pyörimisen keskipisteen ja nykyisen kulman. Se näyttää pieneltä ympyrältä jonka keskeltä kulkee viiva läpi. Huomaa että pyörimiskulma näkyy myös [Tilapalkissa]({{< ref "tilapalkki.md" >}}).</p>
-		
-{{% vihje %}}Kun pyörität, voit pakottaa pyörimiskulman 15 asteen kulmiin pitämällä Shift-nappia alhaalla.{{% /vihje %}}
-		
-		<figure class="bunder">
-			<img src="/resurssit/movenubs_rotatedpixels.jpg" alt="">
-			<figcaption>
-				<h4>Siirrä valintaa</h4>
-			</figcaption>
-		</figure>
-		<figure class="bunder">
-			<img src="/resurssit/movenubs_rotatedselection.jpg" alt="">
-			<figcaption>
-				<h4>Muokkaa valintaa</h4>
-			</figcaption>
-		</figure>
+	<div class="tabcontents">
+		<div id="Siirra">
+			<p>Siirrä vasemmalla hiiren napilla missä muualla <em>paitsi</em> nupissa siirtääksesi valintaa.</p>
+			<figure class="bunder">
+				<img src="/resurssit/movenubs_movedpixels.jpg" alt="">
+				<figcaption>
+					<h4>Siirrä valintaa</h4>
+				</figcaption>
+			</figure>
+			<figure class="bunder">
+				<img src="/resurssit/movenubs_movedselection.jpg" alt="">
+				<figcaption>
+					<h4>Muokkaa valintaa</h4>
+				</figcaption>
+			</figure>
+		</div>
+		<div id="Muuta">
+			<p>Siirrä hiiri nupin päälle ja kursori muuttuu kädeksi. Paina ja siirrä muuttaaksesi valinnan kokoa.</p>
+			
+	{{% vihje %}}Jos siirrät yhtä nurkkanuppia, voit Shift-nappia pohjassa pitämällä pakottaa kuvan säilyttämään kuvasuhteen (valinnan koon mukaan).{{% /vihje %}}
+			
+			<figure class="bunder">
+				<img src="/resurssit/movenubs_resizedpixels.jpg" alt="">
+				<figcaption>
+					<h4>Siirrä valintaa</h4>
+				</figcaption>
+			</figure>
+			<figure class="bunder">
+				<img src="/resurssit/movenubs_resizedselection.jpg" alt="">
+				<figcaption>
+					<h4>Muokkaa valintaa</h4>
+				</figcaption>
+			</figure>
+		</div>
+		<div id="Pyorita">
+			<p>Oikea hiiren nappi pohjassa siirrä hiirtä missä vain pyörittääksesi valintaa. Kun pyörität valintaa, ilmaisin ilmestyy valinnan keskelle näyttääkseen pyörimisen keskipisteen ja nykyisen kulman. Se näyttää pieneltä ympyrältä jonka keskeltä kulkee viiva läpi. Huomaa että pyörimiskulma näkyy myös [Tilapalkissa]({{< ref "tilapalkki.md" >}}).</p>
+			
+	{{% vihje %}}Kun pyörität, voit pakottaa pyörimiskulman 15 asteen kulmiin pitämällä Shift-nappia alhaalla.{{% /vihje %}}
+			
+			<figure class="bunder">
+				<img src="/resurssit/movenubs_rotatedpixels.jpg" alt="">
+				<figcaption>
+					<h4>Siirrä valintaa</h4>
+				</figcaption>
+			</figure>
+			<figure class="bunder">
+				<img src="/resurssit/movenubs_rotatedselection.jpg" alt="">
+				<figcaption>
+					<h4>Muokkaa valintaa</h4>
+				</figcaption>
+			</figure>
+		</div>
 	</div>
 </div>
 
