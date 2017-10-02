@@ -60,7 +60,7 @@ sekoittaa niitä saadaksesi oikea tuloksen. Huomaa että jokaisessa esimerkissä
 		<div id="Muuta">
 			<p>Siirrä hiiri nupin päälle ja kursori muuttuu kädeksi. Paina ja siirrä muuttaaksesi valinnan kokoa.</p>
 			
-	{{% vihje %}}Jos siirrät yhtä nurkkanuppia, voit Shift-nappia pohjassa pitämällä pakottaa kuvan säilyttämään kuvasuhteen (valinnan koon mukaan).{{% /vihje %}}
+{{% vihje %}}Jos siirrät yhtä nurkkanuppia, voit Shift-nappia pohjassa pitämällä pakottaa kuvan säilyttämään kuvasuhteen (valinnan koon mukaan).{{% /vihje %}}
 			
 			<figure class="bunder">
 				<img src="/resurssit/movenubs_resizedpixels.jpg" alt="">
@@ -78,7 +78,7 @@ sekoittaa niitä saadaksesi oikea tuloksen. Huomaa että jokaisessa esimerkissä
 		<div id="Pyorita">
 			<p>Oikea hiiren nappi pohjassa siirrä hiirtä missä vain pyörittääksesi valintaa. Kun pyörität valintaa, ilmaisin ilmestyy valinnan keskelle näyttääkseen pyörimisen keskipisteen ja nykyisen kulman. Se näyttää pieneltä ympyrältä jonka keskeltä kulkee viiva läpi. Huomaa että pyörimiskulma näkyy myös [Tilapalkissa]({{< ref "tilapalkki.md" >}}).</p>
 			
-	{{% vihje %}}Kun pyörität, voit pakottaa pyörimiskulman 15 asteen kulmiin pitämällä Shift-nappia alhaalla.{{% /vihje %}}
+{{% vihje %}}Kun pyörität, voit pakottaa pyörimiskulman 15 asteen kulmiin pitämällä Shift-nappia alhaalla.{{% /vihje %}}
 			
 			<figure class="bunder">
 				<img src="/resurssit/movenubs_rotatedpixels.jpg" alt="">

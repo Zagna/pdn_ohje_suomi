@@ -1,0 +1,19 @@
+{{ $data := index .Site.Data (.Get 0) }}
+{{ print $data }}
+<div id="tabs">
+	<ul class="tabs">
+	{{ range $data }}
+		{{ print . }}
+		<li><a href="#{{ .id }}">{{ .name }}</a></li>
+	{{ end }}
+	</ul>
+	<div class="tabcontents">
+	{{ range $data }}
+		<div id="{{ .id }}">
+			{{ markdownify .content }}
+		</div>
+	{{ end }}
+	</div>
+</div>
+
+<script type="text/javascript" src="/js/tabcontent.js"></script>

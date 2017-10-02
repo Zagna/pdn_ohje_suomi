@@ -64,7 +64,7 @@ On olemassa viisi erilaista valintatilaa:
 				lisäksi piirtämällä Neliö Suorakulmaisella valinnalla pitäen Ctrl-nappia pohjassa:</p>
 			<p><img src="/resurssit/circlesquareselection.png" alt="Lisää" class=""></p>
 			
-	{{% vihje %}}Lisätäksesi olemassa olevaan valintaan, pidä Ctrl-nappi pohjassa kun piirrät valinnan.{{% /vihje %}}
+{{% vihje %}}Lisätäksesi olemassa olevaan valintaan, pidä Ctrl-nappi pohjassa kun piirrät valinnan.{{% /vihje %}}
 			
 		</div>
 		<div id="Vahenna">
@@ -72,21 +72,21 @@ On olemassa viisi erilaista valintatilaa:
 				ja sen jälkeen piirtäen toinen ympyrä sisälle käyttäen oikeaa hiiren nappia:</p>
 			<p><img src="/resurssit/concentriccircleselection.png" alt="Vähennä" class=""></p>
 			
-	{{% vihje %}}Poistaaksesi osia olemassa olevasta valinnasta, pidä Alt-näppäintä alhaalla piirtäessäsi valintaa.{{% /vihje %}}
+{{% vihje %}}Poistaaksesi osia olemassa olevasta valinnasta, pidä Alt-näppäintä alhaalla piirtäessäsi valintaa.{{% /vihje %}}
 			
 		</div>
 		<div id="Leikkaus">
 			<p>Tulos on alue jossa kaksi valintaa ovat päällekkäin. Seuraava esimerkki saatiin piirtämällä sama ympyrä ja neliö kuin alhaalla käänteisen tilan kanssa:</p>
 			<p><img src="/resurssit/intersectselection.png" alt="Leikkaus" class=""></p>
 			
-	{{% vihje %}}Leikkaus toimii pitämällä Alt-näppäin pohjassa ja piirtäen valinta oikealla hiiren näppäimellä.{{% /vihje %}}
+{{% vihje %}}Leikkaus toimii pitämällä Alt-näppäin pohjassa ja piirtäen valinta oikealla hiiren näppäimellä.{{% /vihje %}}
 			
 		</div>
 		<div id="Kaanteinen">
 			<p>Tämä luo uusia valintoja ja poistaa vanhoja valintoja. Voit näin tehdä seuraavanlaisia valintoja, käyttäen Ellipsi valintaa ja Suorakulmaista valintaa:</p>
 			<p><img src="/resurssit/xorselection.png" alt="Käänteinen" class=""></p>
 			
-	{{% vihje %}}Käänteinen toimii pitämällä Ctrl-näppäin pohjassa ja piirtämällä valinnan oikealla hiiren napilla.{{% /vihje %}}
+{{% vihje %}}Käänteinen toimii pitämällä Ctrl-näppäin pohjassa ja piirtämällä valinnan oikealla hiiren napilla.{{% /vihje %}}
 			
 		</div>
 	</div>

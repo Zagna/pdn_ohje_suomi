@@ -1,0 +1,64 @@
+[[tab]]
+	id = "Multiply"
+	name = "Kerro"
+	content = "Jokaisen pikselin voimakkuus kerrotaan kokoonpanon pikseliarvoon. Tämän sekoitustilan käyttäminen johtaa pikseleihin jotka ovat tummempia kuin alkuperäiset.{{< figure src="/resurssit/blendmode_multiply.jpg" alt="Kerro" class="border" >}}"
+
+[[tab]]
+	id = "Additive"
+	name = "Lisäävä"
+	content = "Jokaisen pikselin värivoimakkuus lisätään kokoonpanon pikselien voimakkuuteen. Tämä aina valaistaa pikseleitä kokoonpanossa, paitsi pikselit jotka ovat täysin mustia tulevat lemaan läpinäkyviä.{{< figure src="/resurssit/blendmode_additive.jpg" alt="Lisäävä" class="border" >}}"
+
+[[tab]]
+	id = "ColorBurn"
+	name = "Värivarjostus"
+	content = "Tämä sekoitustila tekee tummista pikseleistä tummempia. Kirkkaiden pikselien pitää sekoittua muiden kirkkaiden pikselien kanssa pysyäkseen kirkkaina.{{< figure src="/resurssit/blendmode_colorburn.jpg" alt="Värivarjostus" class="border" >}}"
+
+[[tab]]
+	id = "ColorDodge"
+	name = "Värilisävalotus"
+	content = "Tätä voi ajatella värivarjostuksen vastakohtana. Kirkkaat pikselit pysyvät, kun tummat pikselit pitää sekoittua muiden mustien pikselien kanssa.{{< figure src="/resurssit/blendmode_colordodge.jpg" alt="Värilisävalotus" class="border" >}}"
+
+[[tab]]
+	id = "Reflect"
+	name = "Peilattu"
+	content = "Tätä tilaa voi käyttää kiiltävien esineiden tai alueiden lisäämiseen.{{< figure src="/resurssit/blendmode_reflect.jpg" alt="Peilattu" class="border" >}}"
+
+[[tab]]
+	id = "Glow"
+	name = "Hehku"
+	content = "Tämä on käänteinen Peilaus: se vaihtaa tasojen järjestyksen ja sen jälkeen käyttää Peilausta.{{< figure src="/resurssit/blendmode_glow.jpg" alt="Hehku" class="border" >}}"
+
+[[tab]]
+	id = "Overlay"
+	name = "Sulauttava"
+	content = "Tämä on yhdistelmä Näyttöä ja Kertoa riippuen tason pikselien voimakkuudesta. Tummille väreille se toimii kuten Kerro. Kirkkaille väreille se toimii kuin Näyttö.{{< figure src="/resurssit/blendmode_overlay.jpg" alt="Sulauttava" class="border" >}}"
+
+[[tab]]
+	id = "Difference"
+	name = "Erottava"
+	content = "Tämä on Lisäävän vastakohta. Jokaisen tason pikselin voimakkuus vähennetään kokoonpanon pikselien voimakkuudesta johtaen tummempiin väreihin. Koska tämä voi johtaa negatiiviseen voimakkuuteen, jota ei voi näyttää, absoluuttista arvoa käytetään. Täten, &ldquo;valkoinen miinus musta&rdquo; sekä &ldquo;musta miinus valkoinen&rdquo; tuottavat kummatkin valkoista. Tämä voi olla hyödyllinen Pilvi-tehosteen kanssa.{{< figure src="/resurssit/blendmode_difference.jpg" alt="Erottava" class="border" >}}"
+
+[[tab]]
+	id = "Negation"
+	name = "Negatiivi"
+	content = "Ensi silmäyksellä tämä näyttää samalta kuin Erottava, mutta se tuottaa vastakohtaisen tuloksen. Sen sijaan että värin tummenisivat, niistä tulee kirkkaammat.{{< figure src="/resurssit/blendmode_negation.jpg" alt="Negatiivi" class="border" >}}"
+
+[[tab]]
+	id = "Lighten"
+	name = "Kevennä"
+	content = "Kirkkaampi pikseli jommalta kummalta tasolta tai kokoonpanosta käytetään.{{< figure src="/resurssit/blendmode_lighten.jpg" alt="Kevennä" class="border" >}}"
+
+[[tab]]
+	id = "Darken"
+	name = "Tummenna"
+	content = "Tummempi pikseli jommalta kummalta tasolta tai kokoonpanosta käytetään.{{< figure src="/resurssit/blendmode_darken.jpg" alt="Tummenna" class="border" >}}"
+
+[[tab]]
+	id = "Screen"
+	name = "Näyttö"
+	content = "Tätä voi ajatella Kerro-tilan vastakohtana. Se tekee pikseleistä kirkkaampia, mustan ollessa pitkälti läpinäkyvä.{{< figure src="/resurssit/blendmode_screen.jpg" alt="Näyttö" class="border" >}}"
+
+[[tab]]
+	id = "Xor"
+	name = "Xor"
+	content = "Tämä on lyhyesti &ldquo;<a href="http://fi.wikipedia.org/wiki/XOR">poissulkeva tai</a>&rdquo;, joka on kehittynyt sekoitustila jota pääasiallisesti käytetään kuvien analysointiin eikä piirtämiseen tai kuvien muodostamiseen.{{< figure src="/resurssit/blendmode_xor.jpg" alt="Xor" class="border" >}}"
