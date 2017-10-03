@@ -1,34 +1,14 @@
 [[tab]]
-	id = ""
-	name = ""
-	content = ""
+	id = "liskoh"
+	name = "Lisää kohinaa"
+	content = "Tämä lisää kohinaa kuvaan.{{< figure src="/resurssit/porsche_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}{{< figure src="/resurssit/porsche_addnoise.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
 
 [[tab]]
-	id = ""
-	name = ""
-	content = ""
+	id = "medi"
+	name = "Mediaani"
+	content = "Tämä tehoste on hyödyllinen kohinan poistamiseen alhaisella säteellä. Suurella säteellä, se tuottaa sumentavan tehosteen.{{< figure src="/resurssit/porsche_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}{{< figure src="/resurssit/porsche_median.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
 
 [[tab]]
-	id = ""
-	name = ""
-	content = ""
-
-[[tab]]
-	id = ""
-	name = ""
-	content = ""
-
-[[tab]]
-	id = ""
-	name = ""
-	content = ""
-
-[[tab]]
-	id = ""
-	name = ""
-	content = ""
-
-[[tab]]
-	id = ""
-	name = ""
-	content = ""
+	id = "vahkoh"
+	name = "Vähennä kohinaa"
+	content = "Tämä tehoste on hyödyllinen kohinan poistamiseen, etenkin valokuvista ilman yksityiskohtien tai kontrastin häviämistä.{{< figure src="/resurssit/kid_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}{{< figure src="/resurssit/kid_reducenoise.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"

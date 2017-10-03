@@ -1,34 +1,14 @@
 [[tab]]
-	id = ""
-	name = ""
-	content = ""
+	id = "julia"
+	name = "Julian joukko"
+	content = "Tämä tehoste renderoi Julian joukon tasolle.{{< figure src="/resurssit/juliafractal.jpg" class="border" alt="Julia" >}}"
 
 [[tab]]
-	id = ""
-	name = ""
-	content = ""
+	id = "mandel"
+	name = "Mandelbrotin joukko"
+	content = "Tämä tehoste renderoi Mandelbrotin joukon tasolle.{{< figure src="/resurssit/mandelbrotfractal.jpg" class="border" alt="Mandelbrot" >}}"
 
 [[tab]]
-	id = ""
-	name = ""
-	content = ""
-
-[[tab]]
-	id = ""
-	name = ""
-	content = ""
-
-[[tab]]
-	id = ""
-	name = ""
-	content = ""
-
-[[tab]]
-	id = ""
-	name = ""
-	content = ""
-
-[[tab]]
-	id = ""
-	name = ""
-	content = ""
+	id = "pilvi"
+	name = "Pilvi"
+	content = "Tämä renderoi satunnaisen "pilven" tasolle. Voit valita miten haluat sekoittaa sen jo tasolle olevaan kuvaan.{{< figure src="/resurssit/clouds.jpg" class="border" alt="Pilvi" >}}"

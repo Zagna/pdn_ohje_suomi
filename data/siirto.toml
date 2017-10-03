@@ -1,34 +1,14 @@
 [[tab]]
-	id = ""
-	name = ""
-	content = ""
+	id = "siirra"
+	name = "Siirrä"
+	content = "Siirrä vasemmalla hiiren napilla missä muualla *paitsi* nupissa siirtääksesi valintaa.{{< figure src="/resurssit/movenubs_movedpixels.jpg" class="bunder" alt="Siirrä valintaa" caption="Siirrä valintaa" >}}{{< figure src="/resurssit/movenubs_movedselection.jpg" class="bunder" alt="Muokkaa valintaa" caption="Muokkaa valintaa" >}}"
 
 [[tab]]
-	id = ""
-	name = ""
-	content = ""
+	id = "muuta"
+	name = "Muuta"
+	content = "Siirrä hiiri nupin päälle ja kursori muuttuu kädeksi. Paina ja siirrä muuttaaksesi valinnan kokoa.{{% vihje %}}Jos siirrät yhtä nurkkanuppia, voit Shift-nappia pohjassa pitämällä pakottaa kuvan säilyttämään kuvasuhteen (valinnan koon mukaan).{{% /vihje %}}{{< figure src="/resurssit/movenubs_resizedpixels.jpg" class="bunder" alt="Siirrä valintaa" caption="Siirrä valintaa" >}}{{< figure src="/resurssit/movenubs_resizedselection.jpg" class="bunder" alt="Muokkaa valintaa" caption="Muokkaa valintaa" >}}"
 
 [[tab]]
-	id = ""
-	name = ""
-	content = ""
-
-[[tab]]
-	id = ""
-	name = ""
-	content = ""
-
-[[tab]]
-	id = ""
-	name = ""
-	content = ""
-
-[[tab]]
-	id = ""
-	name = ""
-	content = ""
-
-[[tab]]
-	id = ""
-	name = ""
-	content = ""
+	id = "pyorita"
+	name = "Pyöritä"
+	content = "Oikea hiiren nappi pohjassa siirrä hiirtä missä vain pyörittääksesi valintaa. Kun pyörität valintaa, ilmaisin ilmestyy valinnan keskelle näyttääkseen pyörimisen keskipisteen ja nykyisen kulman. Se näyttää pieneltä ympyrältä jonka keskeltä kulkee viiva läpi. Huomaa että pyörimiskulma näkyy myös [Tilapalkissa]({{< ref "tilapalkki.md" >}}).{{% vihje %}}Kun pyörität, voit pakottaa pyörimiskulman 15 asteen kulmiin pitämällä Shift-nappia alhaalla.{{% /vihje %}}{{< figure src="/resurssit/movenubs_rotatedpixels.jpg" class="bunder" alt="Siirrä valintaa" caption="Siirrä valintaa" >}}{{< figure src="/resurssit/movenubs_rotatedselection.jpg" class="bunder" alt="Muokkaa valintaa" caption="Muokkaa valintaa" >}}"

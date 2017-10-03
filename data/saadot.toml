@@ -1,0 +1,62 @@
+[[tab]]
+	id = "auto"
+	name = "Automaattinen taso"
+	content = "Tätä voit käyttää värien tasoittamiseen, eli liian tumma tai kirkas kuva tuodaan takaisin normaaliin tasoon. Tämä on sama kuin käyttäisi [Sävyala-säätöä]({{< ref "savyala.md" >}}) ja valitsisi &ldquo;Auto&rdquo;-komennon.
+			Tämän säädön käytön jälkeen, jota ei voi muokata, kuva näyttää tältä:
+			{{< figure src="/resurssit/lewistonsunset_small_autolevel.jpg" alt="Automaattinen taso" class="border" >}}"
+
+[[tab]]
+	id = "invertoi"
+	name = "Invertoi värit"
+	content = "Tämä säätö on erittäin samanlainen kuin valokuvan negatiivi. Säädön toistaminen johtaa alkuperäiseen kuvaan.
+			Alkuperäinen kuva joka on invertoitu:
+			{{< figure src="/resurssit/lewistonsunset_small_invert.jpg" alt="Invertoitu" class="border" >}}"
+
+[[tab]]
+	id = "kirkont"
+	name = "Kirkkaus / Kontrasti"
+	content = "Tätä voit käyttää saadaksesi kuvan värit joko kirkkaammiksi, tummemmiksi, tai saada värit eroamaan muista niiden ympärillä olevista.
+			Alkuperäinen kuva kirkkaampana:
+			{{< figure src="/resurssit/lewistonsunset_small_brighter.jpg" alt="Kirkas" class="border" >}}
+			Alkuperäinen kuva suuremmalla kontrastilla:
+			{{< figure src="/resurssit/lewistonsunset_small_morecontrast.jpg" alt="Kontrasti" class="border" >}}
+			Alkuperäinen kuva kirkkaampana ja suuremmalla kontrastilla:
+			{{< figure src="/resurssit/lewistonsunset_small_brighterandmorecontrast.jpg" alt="Kirkas sekä kontrasti" class="border" >}}"
+
+[[tab]]
+	id = "kayrat"
+	name = "Käyrät"
+	content = "Tämän säädön avulla voi säätää kuvan käyriä. Lisää tästä [täällä]({{< ref "kayrat.md" >}})."
+
+[[tab]]
+	id = "mustav"
+	name = "Mustavalkoinen"
+	content = "Tämä säätö poistaa kaikki värit, tehden tasosta mustavalkoisen.
+			Alkuperäinen kuva joka on käsitelty:
+			{{< figure src="/resurssit/lewistonsunset_small_desaturate.jpg" alt="Mustavalkoinen" class="border" >}}"
+
+[[tab]]
+	id = "poster"
+	name = "Posterisaatio"
+	content = "Tämä säätö antaa sinun vähentää mahdollisia väriarvoja joita pikselit voivat käyttää. Yleensä jokaisella värikanavalla on 256 mahdollista arvoa (0-255), mutta tämän avulla voit rajoittaa sen 2 ja 64 välillä. Tämä antaa kuvalle &ldquo;posteroidun&rdquo; tai retron ulkonäön.
+			Alkuperäinen kuva posterisaation jälkeen:
+			{{< figure class="border" alt="Posterisaatio" src="/resurssit/lewistonsunset_small_posterize.png" >}}"
+
+[[tab]]
+	id = "seepia"
+	name = "Seepia"
+	content = "Tämä säädös muuttaa kuvan ensin mustavalkoiseksi ja sen jälkeen lisää seepiasävyn. Tätä voi käyttää lisätäksesi kuvaan nostalgisen tunteen.
+			Alkuperäinen kuva Seepia-säädön jälkeen:
+			{{< figure src="/resurssit/lewistonsunset_small_sepia.jpg" alt="Seepia" class="border" >}}"
+
+[[tab]]
+	id = "savyvari"
+	name = "Sävy / Värikylläisyys"
+	content = "Tätä säätöä voidaan käyttää värien kylläisyyden muuttamiseen, samoin sävyn säätämiseen. Lisäksi se mahdollistaa valoisuuden säätämisen, mikä on samanlainen muttei sama kuin kirkkaus.
+			Alkuperäinen kuva sen jälkeen kun Sävy on 88 ja Värikylläisyys on 158:
+			{{< figure src="/resurssit/lewistonsunset_small_huesaturation.jpg" alt="Värikylläs" class="border" >}}"
+
+[[tab]]
+	id = "savyala"
+	name = "Sävyala"
+	content = "Tätä säätöä käytetään värien alan ja kuvan gamman muokkaamiseen. Paina [tästä]({{< ref "savyala.md" >}}) lukeaksesi lisää."

@@ -21,8 +21,8 @@ Tämä alavalikko sisältää tehosteita jotka ovat hyödyllisiä kuvan vääris
 		<li><a href="#Crystal">Kristalloi</a></li>
 		<li><a href="#PolarInversion">Käänteismuunnos</a></li>
 		<li><a href="#Dents">Lommo</a></li>
-		<li><a href="#Bulge">Pikseloi</a></li>
-		<li><a href="#Pixelate">Pullistuma</a></li>
+		<li><a href="#Bulge">Pullistuma</a></li>
+		<li><a href="#Pixelate">Pikseloi</a></li>
 		<li><a href="#Tile">Tiiliheijastus</a></li>
 	</ul>
 	<div class="tabcontents">

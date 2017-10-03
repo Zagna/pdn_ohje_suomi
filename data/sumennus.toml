@@ -1,34 +1,35 @@
 [[tab]]
-	id = ""
-	name = ""
-	content = ""
+	id = "epa"
+	name = "Epäkohdistus"
+	content = "Tämä tehoste näyttää samalta kuin Gauss-sumennus aluksi, mutta antaa utuisemman tai "epätarkan" ulkoasun kuvalle. Matiikan termeillä, se määrittää yhtenäisemmän painotuksen pikseleille kyseisen säteen sisällä.{{< figure src="/resurssit/cass_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}{{< figure src="/resurssit/cass_unfocus.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
 
 [[tab]]
-	id = ""
-	name = ""
-	content = ""
+	id = "gauss"
+	name = "Gauss-sumennus"
+	content = "Tämä lisää yleisen sumennuksen kuvaan käyttäen Gauss kaavaa.{{< figure src="/resurssit/cass_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}{{< figure src="/resurssit/cass_gaussianblur.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
 
 [[tab]]
-	id = ""
-	name = ""
-	content = ""
+	id = "liike"
+	name = "Liike-epäterävyys"
+	content = "Tämä on hyödyllinen suoran liikkeen lisäämiseen kuvaan, kuin kuva olisi otettu pidemmällä valotusajalla.{{< figure src="/resurssit/cass_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}{{< figure src="/resurssit/cass_motionblur.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
 
 [[tab]]
-	id = ""
-	name = ""
-	content = ""
+	id = "pinta"
+	name = "Pintasumennus"
+	content = "Tämä tehoste sumentaa tarkat piirteet tai kohinan kuvasta säilyttäen suureksi osaksi reunat ja kontrastin.{{< figure src="/resurssit/cass_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}{{< figure src="/resurssit/cass_surfaceblur.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
 
 [[tab]]
-	id = ""
-	name = ""
-	content = ""
+	id = "pirsta"
+	name = "Pirstaloi"
+	content = "Kopioita, tai &ldquo;pirstaleita&rdquo;, kuvasta piirretään tiettyjen etäisyyksien päähän tietyssä kulmassa. Tämä on hyödyllinen jos haluat luoda epäselvän tai &ldquo;humalaisen&rdquo; ulkoasun kuvalle.{{< figure src="/resurssit/porsche_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}{{< figure src="/resurssit/porsche_fragment.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
 
 [[tab]]
-	id = ""
-	name = ""
-	content = ""
+	id = "satei"
+	name = "Säteittäinen sumennus"
+	content = "Tämä on samankaltainen kuin liike-epäterävyys, mutta liike on levitetty ympyrän muotoon suoran linja sijasta.{{< figure src="/resurssit/cass_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}{{< figure src="/resurssit/cass_radialblur.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
 
 [[tab]]
-	id = ""
-	name = ""
-	content = ""
+	id = "zoom"
+	name = "Zoom-sumennus"
+	content = "Tämä tehoste antaa mielikuvan liikkeestä tai sumennuksesta kolmannessa ulottuvuudessa, tullen ulos kuvasta.{{< figure src="/resurssit/porsche_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}{{< figure src="/resurssit/porsche_zoomblur.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
+

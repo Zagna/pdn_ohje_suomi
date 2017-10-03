@@ -1,34 +1,36 @@
 [[tab]]
 	id = ""
-	name = ""
-	content = ""
+	name = "Hehku"
+	content = "Tämä tehoste antaa kuvalle hehkua. Voit säätää lopputuloksen kirkkautta sekä kontrastia."
 
 [[tab]]
 	id = ""
-	name = ""
-	content = ""
+	name = "Pehmennä"
+	content = "Tämä on hyödyllinen antamaan hehkuisan ja loisteliaan tehosteen kuvalle."
 
 [[tab]]
 	id = ""
-	name = ""
-	content = ""
+	name = "Punasilmän poistaja"
+	content = "Jos sinulla on valokuva jossa kohteella on "punaiset silmät", silloin tämä tehoste on hyödyllinen niiden poistamiseen. Sinun kannattaa kuitenkin valita kohteen silmät ennen kuin käytätä tätä tehostetta."
 
 [[tab]]
 	id = ""
-	name = ""
-	content = ""
+	name = "Terävöitä"
+	content = "Jos kuvan ulkonäkö on liian pehmeä, voit tällä tehosteella terävöittää reunoja."
 
 [[tab]]
 	id = ""
-	name = ""
-	content = ""
+	name = "Vinjetti"
+	content = "Kuvan reunoja tummennetaan, ihan kuin katsoisit kiikareiden läpi."
 
-[[tab]]
-	id = ""
-	name = ""
-	content = ""
-
-[[tab]]
-	id = ""
-	name = ""
-	content = ""
+{{< figure src="/resurssit/ford_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
+{{< figure src="/resurssit/ford_glow.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
+{{< figure src="/resurssit/cass_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
+{{< figure src="/resurssit/cass_softenportrait.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
+{{< figure src="/resurssit/redeyeeffectbefore.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
+{{< figure src="/resurssit/redeyeeffectselection.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
+{{< figure src="/resurssit/redeyeeffectafter.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
+{{< figure src="/resurssit/porsche_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
+{{< figure src="/resurssit/porsche_sharpen.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
+{{< figure src="/resurssit/ford_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
+{{< figure src="/resurssit/ford_vignette.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"

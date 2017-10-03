@@ -27,8 +27,8 @@ Tätä kuvaa tullaan käyttämään esittämään, mitä eri säädöt tekevät:
 		<li><a href="#BlackAndWhite">Mustavalkoinen</a></li>
 		<li><a href="#Posterize">Posterisaatio</a></li>
 		<li><a href="#Sepia">Seepia</a></li>
-		<li><a href="#HueSaturation">Sävy / Värikylläisyys</a></li>		
-		<li><a href="#Levels">Sävyala</a></li>		
+		<li><a href="#HueSaturation">Sävy / Värikylläisyys</a></li>
+		<li><a href="#Levels">Sävyala</a></li>
 	</ul>
 	<div class="tabcontents">
 		<div id="AutoLevel">
