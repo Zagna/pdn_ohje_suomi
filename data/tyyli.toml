@@ -1,19 +1,63 @@
 [[tab]]
 	id = "korko"
 	name = "Korkokuva"
-	content = "Tämä tehoste tuottaa mustavalkoisen kuvan jossa reunoille on annettu kolmiulotteinen korostus jäljittäen korkokuvaa.{{< figure src="/resurssit/liquidlime_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}{{< figure src="/resurssit/liquidlime_emboss.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
+	content = "Tämä tehoste tuottaa mustavalkoisen kuvan jossa reunoille on annettu kolmiulotteinen korostus jäljittäen korkokuvaa."
+	
+	[[tab.figure]]
+		src="/resurssit/liquidlime_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/liquidlime_emboss.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"
 
 [[tab]]
 	id = "relief"
 	name = "Reliefi"
-	content = "Tämä tehoste on samankaltainen kuin Reunan tunnistus, mutta se sekoittaa lopputuloksen alkuperäiseen kuvaan.{{< figure src="/resurssit/liquidlime_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}{{< figure src="/resurssit/liquidlime_relief.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
+	content = "Tämä tehoste on samankaltainen kuin Reunan tunnistus, mutta se sekoittaa lopputuloksen alkuperäiseen kuvaan."
+	
+	[[tab.figure]]
+		src="/resurssit/liquidlime_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/liquidlime_relief.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"
 
 [[tab]]
 	id = "reuna"
 	name = "Reunan tunnistus"
-	content = "Tämä tehoste korostaa kuvassa olevia reunoja kuin valo olisi suunnattu siihen jostain kulmasta.{{< figure src="/resurssit/liquidlime_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}{{< figure src="/resurssit/liquidlime_edgedetect.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
+	content = "Tämä tehoste korostaa kuvassa olevia reunoja kuin valo olisi suunnattu siihen jostain kulmasta."
+	
+	[[tab.figure]]
+		src="/resurssit/liquidlime_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/liquidlime_edgedetect.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"
 
 [[tab]]
 	id = "aari"
 	name = "Ääriviiva"
-	content = "Tämä tehoste etsii reunat kuvasta ja jäljittää ne annetulla paksuudella.{{< figure src="/resurssit/liquidlime_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}{{< figure src="/resurssit/liquidlime_outline.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
+	content = "Tämä tehoste etsii reunat kuvasta ja jäljittää ne annetulla paksuudella."
+	
+	[[tab.figure]]
+		src="/resurssit/liquidlime_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/liquidlime_outline.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"

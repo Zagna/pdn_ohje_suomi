@@ -1,17 +1,47 @@
 [[tab]]
 	id = "luonnos"
 	name = "Luonnos"
-	content = "Tätä tehostetta voit käyttää saadaksesi kuvan näyttämään kuin se olisi piirretty kynällä.{{< figure src="/resurssit/liquidlime_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}{{< figure src="/resurssit/liquidlime_pencilsketch.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
+	content = "Tätä tehostetta voit käyttää saadaksesi kuvan näyttämään kuin se olisi piirretty kynällä."
 
-	figures = "src="/resurssit/liquidlime_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen"",
-			"src="/resurssit/liquidlime_pencilsketch.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen""
+	[[tab.figure]]
+		src="/resurssit/liquidlime_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/liquidlime_pencilsketch.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"
 
 [[tab]]
 	id = "muste"
 	name = "Musteluonnos"
-	content = "Tätä tehostetta voit käyttää saadaksesi kuvan näyttämään kuin se olisi piirretty mustekynällä.{{< figure src="/resurssit/cass_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}{{< figure src="/resurssit/cass_inksketch.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
+	content = "Tätä tehostetta voit käyttää saadaksesi kuvan näyttämään kuin se olisi piirretty mustekynällä."
+
+	[[tab.figure]]
+		src="/resurssit/cass_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/cass_inksketch.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"
 
 [[tab]]
 	id = "oljy"
 	name = "Öljymaalaus"
-	content = "Tätä tehostetta voit käyttää saadaksesi kuvan näyttämään kuin se olisi öljymaalaus.{{< figure src="/resurssit/cass_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}{{< figure src="/resurssit/cass_oilpainting.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
+	content = "Tätä tehostetta voit käyttää saadaksesi kuvan näyttämään kuin se olisi öljymaalaus."
+	
+	[[tab.figure]]
+		src="/resurssit/cass_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/cass_oilpainting.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"

@@ -1,56 +1,127 @@
 [[tab]]
-	id = ""
+	id = "jaatynyt"
 	name = "Jäätynyt lasi"
 	content = "Tämä saa kuvan näkymään kuin sitä katsottaisiin jäätyneen lasin läpi."
-
+	
+	[[tab.figure]]
+		src="/resurssit/cass_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/cass_frostedglass.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"
+	
 [[tab]]
-	id = ""
+	id = "kierre"
 	name = "Kierre"
 	content = "Tällä tehosteella voit kiertää osan kuvasta, joko myötä- tai vastapäivään."
-
+	
+	[[tab.figure]]
+		src="/resurssit/ford_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/ford_twist.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"
+	
 [[tab]]
-	id = ""
+	id = "cristal"
 	name = "Kristalloi"
 	content = "Tämä muuttaa kuvan näyttämään kuin se olisi kristallien muotoisista muodoista tehty mosaiikki."
-
+	
+	[[tab.figure]]
+		src="/resurssit/ford_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/ford_crystalize.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"
+	
 [[tab]]
-	id = ""
+	id = "kaanteis"
 	name = "Käänteismuunnos"
 	content = "Tämä tuottaa muunnoksen suorakulmaisen ja napakulmakoordinaatiston välillä."
-
+	
+	[[tab.figure]]
+		src="/resurssit/cass_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/cass_polarinversion.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"
+	
 [[tab]]
-	id = ""
+	id = "lommo"
 	name = "Lommo"
 	content = "Tämä tunnettu tehoste saa kuvan näyttämään kuin se olisi lommotun läpinäkyvän metallin takana (teoriassa tietenkin)."
-
+	
+	[[tab.figure]]
+		src="/resurssit/ford_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/ford_dents.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"
+	
 [[tab]]
-	id = ""
+	id = "pullis"
 	name = "Pullistuma"
 	content = "Tätä tehostetta voi käyttää tuomaan osa kuvasta lähemmäksi tai taaemmaksi, kuin kuvaa olisi taivutettu."
-
+	
+	[[tab.figure]]
+		src="/resurssit/ford_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/ford_bulge.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"
+	
 [[tab]]
-	id = ""
+	id = "pikseli"
 	name = "Pikseloi"
-	content = "Tämä tehoste vähentää kuvan laatua ja antaa kuvan jossa jokainen "pikseli" on paljon isompi."
-
+	content = "Tämä tehoste vähentää kuvan laatua ja antaa kuvan jossa jokainen &ldquo;pikseli&rdquo; on paljon isompi."
+	
+	[[tab.figure]]
+		src="/resurssit/cass_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/cass_pixelate.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"
+	
 [[tab]]
-	id = ""
+	id = "tiili"
 	name = "Tiiliheijastus"
 	content = "Tämä saa kuvan näkymään kuin se olisi laatoitetun lasilevyn takana."
-
-{{< figure src="/resurssit/cass_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
-{{< figure src="/resurssit/cass_frostedglass.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
-{{< figure src="/resurssit/ford_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
-{{< figure src="/resurssit/ford_twist.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
-{{< figure src="/resurssit/ford_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
-{{< figure src="/resurssit/ford_crystalize.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
-{{< figure src="/resurssit/cass_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
-{{< figure src="/resurssit/cass_polarinversion.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
-{{< figure src="/resurssit/ford_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
-{{< figure src="/resurssit/ford_dents.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
-{{< figure src="/resurssit/ford_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
-{{< figure src="/resurssit/ford_bulge.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
-{{< figure src="/resurssit/cass_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
-{{< figure src="/resurssit/cass_pixelate.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
-{{< figure src="/resurssit/cass_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
-{{< figure src="/resurssit/cass_tilereflection.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
+	
+	[[tab.figure]]
+		src="/resurssit/cass_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/cass_tilereflection.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"

@@ -22,8 +22,7 @@ työkaluksi kuvien muokkaamiseen.
 *	### Yksinkertainen ja intuitiivinen käyttöliittymä
 
 	Jokainen ominaisuus ja käyttöliittymän osa suunniteltiin olemaan heti löydettävissä ja/tai helposti opeteltavissa ilman apua. Suunnittelussa otettiin huomioon
-	<a target="_blank" href="http://en.wikipedia.org/wiki/Microsoft_Paint">Paintin</a> ja <a target="_blank" href="http://en.wikipedia.org/wiki/Photoshop">Photoshopin
-	käyttäjät</a>.
+	[Paintin](http://en.wikipedia.org/wiki/Microsoft_Paint) ja [Photoshopin](http://en.wikipedia.org/wiki/Photoshop) käyttäjät.
 
 *	### Avaa ja muokkaa useita tiedostoja
 
@@ -48,11 +47,9 @@ työkaluksi kuvien muokkaamiseen.
 
 *	### Tuki monille tiedostoformaateille
 
-	Seuraavat tiedostoformaatit on tuettu: <a target="_blank" title="Portable Network Graphics" href="http://fi.wikipedia.org/wiki/PNG">PNG</a>,
-	<a target="_blank" title="Joint Photographic Experts Group" href="http://fi.wikipedia.org/wiki/JPEG">JPEG</a>, <a target="_blank" href="http://fi.wikipedia.org/wiki/BMP">BMP</a>,
-	<a target="_blank" title="Graphic Interchange Format" href="http://fi.wikipedia.org/wiki/GIF">GIF</a>,
-	<a target="_blank" href="http://en.wikipedia.org/wiki/Truevision_TGA">TGA</a>, <a target="_blank" title="DirectDraw Surface" href="http://en.wikipedia.org/wiki/DirectDraw_Surface">DDS</a>,
-	ja <a target="_blank" title="Tagged Image File Format" href="http://fi.wikipedia.org/wiki/TIFF">TIFF</a>.
+	Seuraavat tiedostoformaatit on tuettu: [PNG](http://fi.wikipedia.org/wiki/PNG), [JPEG](http://fi.wikipedia.org/wiki/JPEG), [BMP](http://fi.wikipedia.org/wiki/BMP),
+	[GIF](http://fi.wikipedia.org/wiki/GIF), [TGA](http://en.wikipedia.org/wiki/Truevision_TGA), [DDS](http://en.wikipedia.org/wiki/DirectDraw_Surface),
+	ja [TIFF](http://fi.wikipedia.org/wiki/TIFF).
 	
 	paint.netin natiivi kuvatyyppi on PDN, joka säilyttää tasot kuvassa.
 
@@ -72,6 +69,6 @@ työkaluksi kuvien muokkaamiseen.
 
 	paint.net jaetaan ilman maksua.
 
-Palautetta käännöksestä voi lähettää <a href="mailto:jarno.ruokamo@gmail.com?subject=Palautetta%20käännöksestä">sähköpostilla</a> <img src="/resurssit/fi.png" alt="">.
+Palautetta käännöksestä voi lähettää [sähköpostilla](mailto:jarno.ruokamo@gmail.com?subject=Palautetta%20käännöksestä) <img src="/resurssit/fi.png" alt="suomilippu" />.
 
 Terveisin, Jarno Ruokamo.

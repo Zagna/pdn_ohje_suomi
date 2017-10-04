@@ -1,36 +1,84 @@
 [[tab]]
-	id = ""
+	id = "hehkuv"
 	name = "Hehku"
 	content = "Tämä tehoste antaa kuvalle hehkua. Voit säätää lopputuloksen kirkkautta sekä kontrastia."
+	
+	[[tab.figure]]
+		src="/resurssit/ford_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/ford_glow.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"
 
 [[tab]]
-	id = ""
+	id = "pehmis"
 	name = "Pehmennä"
 	content = "Tämä on hyödyllinen antamaan hehkuisan ja loisteliaan tehosteen kuvalle."
 
+	[[tab.figure]]
+		src="/resurssit/cass_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/cass_softenportrait.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"
+	
 [[tab]]
-	id = ""
+	id = "psilma"
 	name = "Punasilmän poistaja"
-	content = "Jos sinulla on valokuva jossa kohteella on "punaiset silmät", silloin tämä tehoste on hyödyllinen niiden poistamiseen. Sinun kannattaa kuitenkin valita kohteen silmät ennen kuin käytätä tätä tehostetta."
+	content = "Jos sinulla on valokuva jossa kohteella on &ldquo;punaiset silmät&rdquo;, silloin tämä tehoste on hyödyllinen niiden poistamiseen. Sinun kannattaa kuitenkin valita kohteen silmät ennen kuin käytätä tätä tehostetta."
 
+	[[tab.figure]]
+		src="/resurssit/redeyeeffectbefore.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/redeyeeffectselection.jpg"
+		class="bunder border"
+		alt="Silmät valittu"
+		caption="Silmät valittu"
+	[[tab.figure]]
+		src="/resurssit/redeyeeffectafter.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"
+	
 [[tab]]
-	id = ""
+	id = "teravin"
 	name = "Terävöitä"
 	content = "Jos kuvan ulkonäkö on liian pehmeä, voit tällä tehosteella terävöittää reunoja."
 
+	[[tab.figure]]
+		src="/resurssit/porsche_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/porsche_sharpen.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"
+
 [[tab]]
-	id = ""
+	id = "vinjetti"
 	name = "Vinjetti"
 	content = "Kuvan reunoja tummennetaan, ihan kuin katsoisit kiikareiden läpi."
 
-{{< figure src="/resurssit/ford_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
-{{< figure src="/resurssit/ford_glow.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
-{{< figure src="/resurssit/cass_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
-{{< figure src="/resurssit/cass_softenportrait.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
-{{< figure src="/resurssit/redeyeeffectbefore.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
-{{< figure src="/resurssit/redeyeeffectselection.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
-{{< figure src="/resurssit/redeyeeffectafter.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
-{{< figure src="/resurssit/porsche_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
-{{< figure src="/resurssit/porsche_sharpen.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
-{{< figure src="/resurssit/ford_original.jpg" class="bunder border" alt="Alkuperäinen" caption="Alkuperäinen" >}}
-{{< figure src="/resurssit/ford_vignette.jpg" class="bunder border" alt="Jälkeen" caption="Jälkeen" >}}"
+	[[tab.figure]]
+		src="/resurssit/ford_original.jpg"
+		class="bunder border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/ford_vignette.jpg"
+		class="bunder border"
+		alt="Jälkeen"
+		caption="Jälkeen"

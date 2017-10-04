@@ -239,6 +239,7 @@ figcaption h4
 
 .recolor2, .magic2, .curves2, .levels
 {
+	display: block;
 	margin: 1em auto;
 }
 
@@ -246,6 +247,18 @@ figcaption h4
 {
 	float: right;
 	margin: 0.5em;
+}
+
+.curves3
+{
+	margin-left: 10%;
+	float: left;
+}
+
+.curves4
+{
+	margin-right: 10%;
+	float: right
 }
 
 .bunder

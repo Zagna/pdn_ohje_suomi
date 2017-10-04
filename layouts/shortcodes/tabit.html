@@ -1,15 +1,17 @@
 {{ $data := index .Site.Data (.Get 0) }}
 <div id="tabs">
 	<ul class="tabs">
-	{{ range $data }}
-		{{ print . }}
+	{{ range $data.tab }}
 		<li><a href="#{{ .id }}">{{ .name }}</a></li>
 	{{ end }}
 	</ul>
 	<div class="tabcontents">
-	{{ range $data }}
+	{{ range $data.tab }}
 		<div id="{{ .id }}">
-			{{ markdownify .content }}
+			{{ if .content }}<p>{{ markdownify .content }}</p>{{ end }}
+			{{ range .figure }}
+				{{ partial "fig.html" . }}
+			{{ end }}
 		</div>
 	{{ end }}
 	</div>
