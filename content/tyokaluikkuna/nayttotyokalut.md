@@ -13,7 +13,7 @@ tooltip = "resurssit/tyokalut/view.png"
 
 Kuvan näyttämiseen on olemassa kaksi työkalua, Suurennuskerroin ja Panoroi. Ne vaikuttavat vain siihen miten kuva näkyy ikkunassa mutteivät muokkaa kuvaa itsessään.
 
-## Suurennuskerroin <img src="/resurssit/tyokalut/zoom.png" alt="suurennuskerroin" />
+### Suurennuskerroin <img src="/resurssit/tyokalut/zoom.png" alt="suurennuskerroin" />
 
 Suurennuskerroimella voit joko kohdistaa (tai suurentaa) kuvaa, tai kaukaistaa (pienentää) kuvaa.
 
@@ -25,7 +25,7 @@ Suurennuskerroin-työkalun ollessa käytössä, hiirellä klikkaamalla ja piirt�
 
 {{% vihje %}}Kun Suurennuskerroin-työkalu on käytössä, kuvaa voi panoroida pitämällä hiiren rulla alhaalla ja siirtämällä hiirtä.{{% /vihje %}}
 
-## Panoroi <img src="/resurssit/tyokalut/pan.png" alt="panoroi" />
+### Panoroi <img src="/resurssit/tyokalut/pan.png" alt="panoroi" />
 
 Panoroi-työkalu mahdollistaa kuvan siirtämisen. Hyöty on suurin kun kuva on suurempi kuin pääikkuna (erityisesti kun kuva on suurennettu).
 
@@ -35,7 +35,7 @@ Klikkaa ja vedä hiirellä siirtääksesi kuvaa.
 
 {{% vihje %}}Kuvaa voi siirtää pystysuuntaisesti hiiren rullalla. Pitämällä Shift-näppäin alhaalla rulla siirtää vaakasuuntaisesti.{{% /vihje %}}
 
-## Ylivieritys
+### Ylivieritys
 
 Versiosta 4.0.10 eteenpäin on ollut mahdollista vierittää kuvaa ikkunan reunan yli.
 
@@ -43,7 +43,21 @@ Versiosta 4.0.10 eteenpäin on ollut mahdollista vierittää kuvaa ikkunan reuna
 
 Ylivierityksen määrä riippuu kuvan koosta. Pienet kuvat voi siirtää kunnes puolet kuvasta on ikkunan ulkopuolella.
 
+<figure>
+	 <video width="640" height="360" autoplay loop>
+		<source type="video/webm" src="/vid/view1.webm">
+	 </video>
+	 <figcaption>Kuvan panorointi käyttäen vasenta hiiren nappia ja välilyöntiä</figcaption>
+</figure>
+
 Isompana näkyvät kuvat siirtyvät kunnes kuvan reuna osuu ikkunan keskikohtaan.
+
+<figure>
+	 <video width="640" height="360" autoplay loop>
+		<source type="video/webm" src="/vid/view2.webm">
+	 </video>
+	 <figcaption>Kuvan panorointi käyttäen vasenta hiiren nappia ja välilyöntiä</figcaption>
+</figure>
 
 Kuvia voi siirtää myös ↑ ← ↓ → nuolinäppäimillä kun Välilyönti-näppäin on pidetty alhaalla.
 
@@ -53,6 +67,6 @@ Kuvat joita esitetään yli 1000% suurennoksella liikkuvat pikselin murto-osia k
 
 Jos Ctrl ja Välilyönti -näppäimet ovat alhaalla yhtä aikaa, kuvan siirtyminen on kerrattu kymmenellä.
 
-## Kuvan keskittäminen
+### Kuvan keskittäminen
 
 Kuvan keskittäminen on helpointa painamalla Ctrl+B kahdesti. Ensimmäinen painallus kohdistaa kuvan ikkunan kokoon ja toinen painallus palauttaa edellisen suurennuskertoimen.
