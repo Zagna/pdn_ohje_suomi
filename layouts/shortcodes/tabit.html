@@ -10,7 +10,12 @@
 		<div id="{{ .id }}">
 			{{ if .content }}<p>{{ markdownify .content }}</p>{{ end }}
 			{{ range .figure }}
-				{{ partial "fig.html" . }}
+				<figure class="{{ .class }}">
+					<img src="{{ .src }}" alt="{{ .alt }}">
+					<figcaption>
+						<h4>{{ .caption }}</h4>
+					</figcaption>
+				</figure>
 			{{ end }}
 			{{ if .vihje }}
 			<div class="tip">
