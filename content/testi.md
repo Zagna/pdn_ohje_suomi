@@ -19,8 +19,6 @@ title = "Testaus"
 
 {{% tabit "artistinen" %}}
 
-{{% tabit "kohina" %}}
-
 {{% tabit "liukuma" %}}
 
 {{% tabit "render" %}}
@@ -40,4 +38,6 @@ title = "Testaus"
 {{% tabit "valinta" %}}
 
 {{% tabit "valokuva" %}}
+
+{{% tabit "kohina" %}}
 

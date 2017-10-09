@@ -17,7 +17,9 @@
 [[tab]]
 	id = "muuta"
 	name = "Muuta"
-	content = "Siirrä hiiri nupin päälle ja kursori muuttuu kädeksi. Paina ja siirrä muuttaaksesi valinnan kokoa.{{% vihje %}}Jos siirrät yhtä nurkkanuppia, voit Shift-nappia pohjassa pitämällä pakottaa kuvan säilyttämään kuvasuhteen (valinnan koon mukaan).{{% /vihje %}}"
+	content = "Siirrä hiiri nupin päälle ja kursori muuttuu kädeksi. Paina ja siirrä muuttaaksesi valinnan kokoa."
+	vihje = "Jos siirrät yhtä nurkkanuppia, voit Shift-nappia pohjassa pitämällä pakottaa kuvan säilyttämään kuvasuhteen (valinnan koon mukaan)."
+	
 	
 	[[tab.figure]]
 		src="/resurssit/movenubs_resizedpixels.jpg"
@@ -33,7 +35,8 @@
 [[tab]]
 	id = "pyorita"
 	name = "Pyöritä"
-	content = "Oikea hiiren nappi pohjassa siirrä hiirtä missä vain pyörittääksesi valintaa. Kun pyörität valintaa, ilmaisin ilmestyy valinnan keskelle näyttääkseen pyörimisen keskipisteen ja nykyisen kulman. Se näyttää pieneltä ympyrältä jonka keskeltä kulkee viiva läpi. Huomaa että pyörimiskulma näkyy myös [Tilapalkissa]({{< ref \"tilapalkki.md\" >}}).{{% vihje %}}Kun pyörität, voit pakottaa pyörimiskulman 15 asteen kulmiin pitämällä Shift-nappia alhaalla.{{% /vihje %}}"
+	content = "Oikea hiiren nappi pohjassa siirrä hiirtä missä vain pyörittääksesi valintaa. Kun pyörität valintaa, ilmaisin ilmestyy valinnan keskelle näyttääkseen pyörimisen keskipisteen ja nykyisen kulman. Se näyttää pieneltä ympyrältä jonka keskeltä kulkee viiva läpi. Huomaa että pyörimiskulma näkyy myös [Tilapalkissa](/tilapalkki/)."
+	vihje ="Kun pyörität, voit pakottaa pyörimiskulman 15 asteen kulmiin pitämällä Shift-nappia alhaalla."
 	
 	[[tab.figure]]
 		src="/resurssit/movenubs_rotatedpixels.jpg"

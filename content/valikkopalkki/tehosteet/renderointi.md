@@ -14,32 +14,4 @@ Tämä alavalikko sisältää tehosteita jotka tuottavat renderointeja jotka kor
 
 {{< figure src="/kuvat/effectsrendermenu.png" alt="Renderointi efektit" >}}
 
-<div id="tabs">
-	<ul class="tabs">
-		<li><a href="#Julia">Julian joukko</a></li>
-		<li><a href="#Mandelbrot">Mandelbrotin joukko</a></li>
-		<li><a href="#Cloud">Pilvi</a></li>
-	</ul>
-	<div class="tabcontents">
-		<div id="Julia">
-			<p>Tämä tehoste renderoi Julian joukon tasolle.</p>
-			<figure class="border">
-				<img src="/resurssit/juliafractal.jpg" alt="">
-			</figure>
-		</div>
-		<div id="Mandelbrot">
-			<p>Tämä tehoste renderoi Mandelbrotin joukon tasolle.</p>
-			<figure class="border">
-				<img src="/resurssit/mandelbrotfractal.jpg" alt="">
-			</figure>
-		</div>
-		<div id="Cloud">
-			<p>Tämä renderoi satunnaisen "pilven" tasolle. Voit valita miten haluat sekoittaa sen jo tasolle olevaan kuvaan.</p>
-			<figure class="border">
-				<img src="/resurssit/clouds.jpg" alt="">
-			</figure>
-		</div>
-	</div>
-</div>
-
-{{< tabs >}}
+{{% tabit "render" %}}

@@ -15,16 +15,16 @@ paint.netin käyttöliittymä on jaettu 10 alueeseen:
 {{< figure src="/kuvat/mainwindow.png" alt="Pääikkuna" size="80%" >}}
 
 1.	### Nimipalkki
-
+	
 	Tämä kertoo auki olevan kuvan nimen, tämän hetkisen suurennuksen määrän ja paint.netin versionumeron.
 	
 1.	### [Valikkopalkki]({{< ref "valikkopalkki.md" >}})
-
+	
 	Tämän avulla pystyt käyttämään erinäisiä valikoiden komentoja. Yleensä, komennot joita voit käyttää, esitetään **Valikko &rarr; Komento** tavalla.
 	Esimerkiksi, **Tiedosto &rarr; Poistu** tarkoittaa että valitse Tiedostovalikko, ja sen jälkeen paina Poistu komentoa.
 	
 1.	### [Työkalupalkki]({{< ref "tyokalupalkki.md" >}})
-
+	
 	Suoraan valikoiden alapuolelta löydät monta ikonia ja ohjainta joiden avulla voit suorittaa erinäisiä komentoja ja muokata globaaleja asetuksia.
 	
 1.	### [Kuvalista]({{< ref "kuvalista.md" >}})
@@ -37,18 +37,18 @@ paint.netin käyttöliittymä on jaettu 10 alueeseen:
 	
 	Kuva on näkyvillä tässä, ja se on alue missä voit piirtää ja tehdä muita toimintoja.
 	
-	{{% vihje %}}Uutta paint.net 4.0.10+ on mahdollisuus vierittää kuvan reunaa ikkunan reunan yli. Tarkista 
+	{{% vihje %}}Uutta paint.net 4.0.10+ on mahdollisuus vierittää kuvan reunaa ikkunan reunan yli. Tarkista [näyttötyokalut]({{< ref "nayttotyokalut.md" >}}).{{% /vihje %}}
 	
 1.	### [Työkaluikkuna]({{< ref "tyokaluikkuna.md" >}})
 	
 	Tässä aktiivinen työkalu on korostettu, ja mistä voit valita muita työkaluja.
 	
 1.	### [Historiaikkuna]({{< ref "historiaikkuna.md" >}})
-
+	
 	Kaikki mitä olet tehnyt kuvaan sen jälkeen kun avasit sen näkyy tässä ikkunassa.
 	
 1.	### [Tasoikkuna]({{< ref "tasoikkuna.md" >}})
-
+	
 	Jokainen kuva koostuu vähintään yhdestä tasosta, ja tällä ikkunalla hallitset niitä. Tasojen ominaisuudet voi tarkistaa tuplaklikkaamalla.
 	
 	{{% vihje %}}Uutta paint.netissä on mahdollisuus järjestellä tasot ikkunassa klikkaamalla ja vetämällä. Klikkaa, pidä ja siirrä taso haluamaasi kohtaan.{{% /vihje %}}

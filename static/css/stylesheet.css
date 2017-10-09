@@ -280,28 +280,22 @@ figcaption h4
 	text-align: center;
 }
 
-.unattend
+table
 {
 	width: 100%;
+}
+
+table tbody tr td:first-child
+{
+	width: 45%;
 }
 
 .unattend2
 {
-	width: 25%;
+	width: 25% !important;
 }
 
-.colhelp
-{
-	width: 40%;
-}
-
-table.kbm
-{
-	width: 100%;
-	font-size: 100%;
-}
-
-.kbm thead tr th
+table thead tr th
 {
 	text-decoration: underline;
 	font-size: 108%;

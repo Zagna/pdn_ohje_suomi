@@ -26,7 +26,7 @@ Käyttämällä /createMSI komentorivi parametriä, voit luoda MSI paketteja jot
 Kaksi MSI pakettia luodaan kun käytät tätä komentoa, yksi kummallekkin prosessoriarkkitehtuurille (x86 ja x64). x86 MSI on tarkoitettu 32-bittisille Intel/AMD järjestelmille
 ja on yleisin käytetty paketti. x64 MSI on Intel/AMD järjestelmille joilla on kummatkin, 64-bittinen prosessori sekä 64-bittinen &ldquo;x64&rdquo; versio Windowsista.
 
-{{% varoitus %}}"Huomaa että x86 MSI (PaintDotNet.x86.msi) ei toimi ollenkaan 64-bittisille järjestelmillä, joten muista suunnitella julkaisut asiallisesti.{{% /varoitus %}}
+{{% varoitus %}}Huomaa että x86 MSI (PaintDotNet.x86.msi) ei toimi ollenkaan 64-bittisille järjestelmillä, joten muista suunnitella julkaisut asiallisesti.{{% /varoitus %}}
 
 Myös, MSI ominaisuudet toista seuraavassa taulukossa voi käyttää muuttamaan asetuksia komentorivillä kun käytät komentoa /createMsi. Nämä MSI ominaisuudet lisätään automaattisesti
 luotavaan MSI'hin jolloin tulevia muutoksia ei tarvitse tehdä.
@@ -39,7 +39,7 @@ Haluaksesi tehdä automaattisen asennuksen, käytä /auto tai /skipConfig koment
 
 Asennuspaketti käyttää seuraavia komentorivin komentoja, missä paint.net.4.0.17.install.exe on asennusohjelma jonka latasit [kotisivulta](http://www.getpaint.net):
 
-{{% esimerkki %}}paint.net.4.0.17.install.exe [/skipConfig | /auto | /createMsi] [PROPERTY=VALUE resource.]{{% /esimerkki %}}
+{{% esimerkki %}}paint.net.4.0.17.install.exe [/skipConfig | /auto | /createMsi] [PROPERTY=VALUE]{{% /esimerkki %}}
 
 Komentojen kuvaus:
 
@@ -49,7 +49,12 @@ Komentojen kuvaus:
 			<p>/skipConfig</p>
 		</td>
 		<td>
-			<p>Ohittaa asetukset ja asennuskansion. Käyttää MSI ominaisuuksia seuraavassa järjestyksessä: 1. komentorivin asetukset, 2. rekisteri HKLM\Software\paint.net, 3. oletusasetukset</p>
+			<p>Ohittaa asetukset ja asennuskansion. Käyttää MSI ominaisuuksia seuraavassa järjestyksessä:</p>
+			<ol>
+				<li>komentorivin asetukset</li>
+				<li>rekisteri HKLM\Software\paint.net</li>
+				<li>oletusasetukset</li>
+			</ol>
 		</td>
 	</tr>
 	<tr>
@@ -77,7 +82,7 @@ Komentojen kuvaus:
 		<td>
 			<p>Asettaa MSI ominaisuuden nimeltä PROPERTY arvolla VALUE. Voit määrittää useita arvoja. Alhaalla on lista mahdollista arvoista.</p>
 			
-{{% huom %}}Jos VALUE sisältää välilyönnin, sinun pitää sulkea koko PROPERTY=VALUE teksti sitaatteihin. Esimerkiksi kuvitteellinen TEST ominaisuus arvolla &ldquo;1 2 3&rdquo;, sinun pitää käyttää &ldquo;TEST=1 2 3&rdquo; komentorivillä, mukaan lukien sitaatit.{{% /huom %}}
+{{% huom %}}Jos VALUE sisältää välilyönnin, pitää koko PROPERTY=VALUE teksti sulkea sitaatteihin. Esimerkiksi kuvitteellinen TEST ominaisuus arvolla &ldquo;1 2 3&rdquo;, pitää käyttää &ldquo;TEST=1 2 3&rdquo; komentorivillä, mukaan lukien sitaatit.{{% /huom %}}
 		
 		</td>
 	</tr>
@@ -186,7 +191,8 @@ Asentaaksesi paint.netin kansioon D:\PDN ja ilman työpöydän pikakuvaketta:
 
 {{% esimerkki %}}paint.net.4.0.17.install.exe /auto TARGETDIR=D:\PDN DESKTOPSHORTCUT=0{{% /esimerkki %}}
 
-Asentaaksesi paint.netin kansioon E:\Image Apps\paint.net, ja tarkistamaan betaversioita päivityksen yhteydessä. **Huom:** Koko TARGETDIR arvo pitää olla sitaateissa jos kansionimessä on 
-yksi tai enemmän välilyöntejä!
+Asentaaksesi paint.netin kansioon E:\Image Apps\paint.net, ja tarkistamaan betaversioita päivityksen yhteydessä.
+
+{{% huom %}}Koko TARGETDIR arvo pitää olla sitaateissa jos kansionimessä on yksi tai enemmän välilyöntejä!{{% /huom %}}
 
 {{% esimerkki %}}paint.net.4.0.17.install.exe /auto &ldquo;TARGETDIR=E:\Image Apps\paint.net&rdquo; CHECKFORBETAS=1{{% /esimerkki %}}

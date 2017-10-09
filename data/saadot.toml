@@ -1,7 +1,7 @@
 [[tab]]
 	id = "auto"
 	name = "Automaattinen taso"
-	content = "Tätä voit käyttää värien tasoittamiseen, eli liian tumma tai kirkas kuva tuodaan takaisin normaaliin tasoon. Tämä on sama kuin käyttäisi [Sävyala-säätöä]({{< ref \"savyala.md\" >}}) ja valitsisi &ldquo;Auto&rdquo;-komennon. Tämän säädön käytön jälkeen, jota ei voi muokata, kuva näyttää tältä:"
+	content = "Tätä voit käyttää värien tasoittamiseen, eli liian tumma tai kirkas kuva tuodaan takaisin normaaliin tasoon. Tämä on sama kuin käyttäisi [Sävyala-säätöä](/valikkopalkki/saadot/savyala/) ja valitsisi &ldquo;Auto&rdquo;-komennon. Tämän säädön käytön jälkeen, jota ei voi muokata, kuva näyttää tältä:"
 
 	[[tab.figure]]
 		src="/resurssit/lewistonsunset_small_autolevel.jpg"
@@ -43,7 +43,7 @@
 [[tab]]
 	id = "kayrat"
 	name = "Käyrät"
-	content = "Tämän säädön avulla voi säätää kuvan käyriä. Lisää tästä [täällä]({{< ref \"kayrat.md\" >}})."
+	content = "Tämän säädön avulla voi säätää kuvan käyriä. Lisää tästä [täällä](/valikkopalkki/saadot/kayrat/)."
 
 [[tab]]
 	id = "mustav"
@@ -92,4 +92,4 @@
 [[tab]]
 	id = "savyala"
 	name = "Sävyala"
-	content = "Tätä säätöä käytetään värien alan ja kuvan gamman muokkaamiseen. Paina [tästä]({{< ref \"savyala.md\" >}}) lukeaksesi lisää."
+	content = "Tätä säätöä käytetään värien alan ja kuvan gamman muokkaamiseen. Paina [tästä](/valikkopalkki/saadot/savyala/) lukeaksesi lisää."
