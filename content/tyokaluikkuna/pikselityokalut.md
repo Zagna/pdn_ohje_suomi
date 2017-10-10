@@ -22,4 +22,4 @@ Kynää voi käyttää piirtääksesi yhden pikselin kerrallaan. Tämä on saman
 {{< figure class="bunder" title="Jälkeen:" src="/kuvat/penciltool_after.png" >}}
 
 Väripoimijalla voit siirtää valitun tason hiiren kursorin alla olevan pikselin joko edusta- tai taustaväriksi. Jos painat vasemmalla hiiren napilla, valitset edustavärin. 
-Hiiren oikealla napilla valitset taustavärin. Tämän työkalun kanssa [Ristikko]({{< ref "nayta.md#ristikko" >}}) on hyödyllinen.
+Hiiren oikealla napilla valitset taustavärin. Tämän työkalun kanssa [Ristikko]({{< relref "nayta.md#ristikko" >}}) on hyödyllinen.

@@ -20,7 +20,7 @@ ja käyttämällä hiiren rullaa.
 
 Valkoinen nuoli listan vasemmalla puolella näkyy kun sinulla on vähintään kaksi kuvaa avoinna, ja kun painat sitä näät listan jossa näkyy jokainen kuva sekä tiedostonimi.
 
-Voit sulkea kuvan valitsemalla sen ja sen jälkeen valitsemalla 'X' joka ilmestyy pikkukuvan oikeaan ylänurkkaan. Tämä on mukava oikotie [Tiedosto &rarr; Sulje]({{< ref "tiedosto.md#sulje" >}}) 
+Voit sulkea kuvan valitsemalla sen ja sen jälkeen valitsemalla 'X' joka ilmestyy pikkukuvan oikeaan ylänurkkaan. Tämä on mukava oikotie [Tiedosto &rarr; Sulje]({{< relref "tiedosto.md#sulje" >}}) 
  komennolle.
 
 {{% vihje %}}Voit myös käyttää Ctrl + W tai Ctrl + F4 komentoja.{{% /vihje %}}

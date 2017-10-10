@@ -8,7 +8,7 @@
 	<div class="tabcontents">
 	{{ range $data.tab }}
 		<div id="{{ .id }}">
-			{{ if .content }}<p>{{ markdownify .content }}</p>{{ end }}
+			{{ with .content }}<p>{{ markdownify . }}</p>{{ end }}
 			{{ range .figure }}
 				<figure class="{{ .class }}">
 					<img src="{{ .src }}" alt="{{ .alt }}">
@@ -17,10 +17,10 @@
 					</figcaption>
 				</figure>
 			{{ end }}
-			{{ if .vihje }}
+			{{ with .vihje }}
 			<div class="tip">
 				<h3>Vihje</h3>
-				<p>{{ .vihje }}</p>
+				<p>{{ . }}</p>
 			</div>
 			{{ end }}
 		</div>

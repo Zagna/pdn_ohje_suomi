@@ -39,13 +39,13 @@ Klikkaa ja vedä hiirellä siirtääksesi kuvaa.
 
 Versiosta 4.0.10 eteenpäin on ollut mahdollista vierittää kuvaa ikkunan reunan yli.
 
-{{% vihje %}}Tämä asetus on mahdollistaa pistää pois päältä [Asetuksista]({{< ref "asetukset.md" >}}).{{% /vihje %}}
+{{% vihje %}}Tämä asetus on mahdollistaa pistää pois päältä [Asetuksista]({{< relref "asetukset.md" >}}).{{% /vihje %}}
 
 Ylivierityksen määrä riippuu kuvan koosta. Pienet kuvat voi siirtää kunnes puolet kuvasta on ikkunan ulkopuolella.
 
 <figure>
 	 <video width="640" height="360" autoplay loop>
-		<source type="video/webm" src="/vid/view1.webm">
+		<source type="video/mp4" src="/vid/view1.mp4">
 	 </video>
 	 <figcaption>Kuvan panorointi käyttäen vasenta hiiren nappia ja välilyöntiä</figcaption>
 </figure>
@@ -54,7 +54,7 @@ Isompana näkyvät kuvat siirtyvät kunnes kuvan reuna osuu ikkunan keskikohtaan
 
 <figure>
 	 <video width="640" height="360" autoplay loop>
-		<source type="video/webm" src="/vid/view2.webm">
+		<source type="video/mp4" src="/vid/view2.mp4">
 	 </video>
 	 <figcaption>Kuvan panorointi käyttäen vasenta hiiren nappia ja välilyöntiä</figcaption>
 </figure>

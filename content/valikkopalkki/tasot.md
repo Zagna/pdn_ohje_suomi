@@ -38,14 +38,14 @@ Komennot tässä valikossa vaikuttavat vain aktiiviseen tasoon, joka näkyy Taso
 
 	Näiden valintojen avulla voit kääntää aktiivisen tason joko pysty- tai vaakatasossa.
 	
-*	### [Pyöritä / Lähennä]({{< ref "pyorita.md" >}})
+*	### [Pyöritä / Lähennä]({{< relref "pyorita.md" >}})
 	Tämän komennon avulla voit pyörittää ja panoroida kaikissa kolmessa ulottuvuudessa.
 	
 *	### Tason ominaisuudet
 
 	Tämä komento tuo valikon, jonka avulla voit määrittää, miten taso sekoittuu toisten tasojen kanssa mitkä ovat sen alla Tasoikkunan listassa. Voit määrittää nimen, näkyvyyden, sekoitustilan sekä peittävyyden tason.
 	
-	Saatavilla on neljätoista (14) [sekoitustilaa]({{< ref "sekoitustilat.md" >}}):: Normaali, Kerro, Lisäävä, Värivarjostus, Värilisävalotus, Peilattu, Hehku, Sulauttava, Negatiivi, Erottava, Näyttö, Kevennä, Tummenna ja Xor.
+	Saatavilla on neljätoista (14) [sekoitustilaa]({{< relref "sekoitustilat.md" >}}):: Normaali, Kerro, Lisäävä, Värivarjostus, Värilisävalotus, Peilattu, Hehku, Sulauttava, Negatiivi, Erottava, Näyttö, Kevennä, Tummenna ja Xor.
 	
 	Peittävyyttä voi hallita liukuohjaimen avulla.
 	

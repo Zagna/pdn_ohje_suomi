@@ -15,13 +15,13 @@ Nämä komennot antavat sinun piilottaa ja näyttää kelluvat työkaluikkunat.
 {{< figure src="/kuvat/windows.png" alt="Ikkuna valikko" >}}
 
 *	### Työkalut
-	Tämä asettaa [Työkaluikkunan]({{< ref "tyokaluikkuna.md" >}}) on näkyväksi.
+	Tämä asettaa [Työkaluikkunan]({{< relref "tyokaluikkuna.md" >}}) on näkyväksi.
 	
 *	### Historia
-	Tämä asettaa [Historiaikkunan]({{< ref "historiaikkuna.md" >}}) on näkyväksi.
+	Tämä asettaa [Historiaikkunan]({{< relref "historiaikkuna.md" >}}) on näkyväksi.
 	
 *	### Tasot
-	Tämä asettaa [Tasoikkunan]({{< ref "tasoikkuna.md" >}}) on näkyväksi.
+	Tämä asettaa [Tasoikkunan]({{< relref "tasoikkuna.md" >}}) on näkyväksi.
 	
 *	### Värit
-	Tämä asettaa [Väri-ikkunan]({{< ref "vari-ikkuna.md" >}}) on näkyväksi.
+	Tämä asettaa [Väri-ikkunan]({{< relref "vari-ikkuna.md" >}}) on näkyväksi.

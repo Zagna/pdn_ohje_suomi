@@ -13,23 +13,23 @@ title = "Muokkaa"
 Muokkaa-komennot mahdollistavat kuvan historian, kuvan valitun alueen, valitun alueen itse sekä leikepöydän muokkauksen.
 
 Tärkeä asia mikä tulisi huomata on että valituissa alueissa suoritetut piirrot jäävät valintojen sisälle. Esimerkiksi jos valitset 
-[Ellipsi valinta]({{< ref "valintatyokalut.md" >}}) työkalulla tietyn pyöreän alueen keskellä kuvaa, et pysty piirtämään mitään sen ympyrän 
-ulkopuolelle niin kauan kuin valinta on aktiivinen. [Tehosteet]({{< ref "tehosteet.md" >}}) ja [Säädöt]({{< ref "saadot.md" >}}) vaikuttavat myös vain valittuun alueeseen.
+[Ellipsi valinta]({{< relref "valintatyokalut.md" >}}) työkalulla tietyn pyöreän alueen keskellä kuvaa, et pysty piirtämään mitään sen ympyrän 
+ulkopuolelle niin kauan kuin valinta on aktiivinen. [Tehosteet]({{< relref "tehosteet.md" >}}) ja [Säädöt]({{< relref "saadot.md" >}}) vaikuttavat myös vain valittuun alueeseen.
 
 {{< figure src="/kuvat/editmenu.png" alt="Muokkaa valikko" >}}
 
 *	### Kumoa
 
-	Tämä kumoaa viimeisimmän suoritetun työn jonka olet tehnyt. Tämän voi tehdä myös [Historiaikkunan]({{< ref "historiaikkuna.md" >}}) kautta.
+	Tämä kumoaa viimeisimmän suoritetun työn jonka olet tehnyt. Tämän voi tehdä myös [Historiaikkunan]({{< relref "historiaikkuna.md" >}}) kautta.
 	
 *	### Uudelleen
 	
-	Tämä toistaa viimeisimmän suoritetun työn jonka sinä olet kumonnut. Tämän voi tehdä [Historiaikkunan]({{< ref "historiaikkuna.md" >}}) kautta.
+	Tämä toistaa viimeisimmän suoritetun työn jonka sinä olet kumonnut. Tämän voi tehdä [Historiaikkunan]({{< relref "historiaikkuna.md" >}}) kautta.
 	
 *	### Leikkaa
 	
 *	Tämän avulla, voit siirtää valitun alueen aktiivisesta tasosta leikepöydälle. Voit valita alueen tasosta käyttämällä 
-	[Suorakulmainen valinta, Lassovalinta, Ellipsi valinta]({{< ref "valintatyokalut.md" >}}), tai [Taikasauva]({{< ref "taikasauva.md" >}}) työkaluilla. 
+	[Suorakulmainen valinta, Lassovalinta, Ellipsi valinta]({{< relref "valintatyokalut.md" >}}), tai [Taikasauva]({{< relref "taikasauva.md" >}}) työkaluilla. 
 	Kun olet tehnyt Leikkaa operaation, valittu alue tasosta siirretään leikepöydälle ja korvataan läpinäkyvillä pikseleillä. Nykyinen valittu alue myös poistetaan.
 	
 *	### Kopioi
@@ -38,9 +38,9 @@ ulkopuolelle niin kauan kuin valinta on aktiivinen. [Tehosteet]({{< ref "tehoste
 	
 *	### Liitä
 	
-	Jos leikepöydällä on kuva, tämä komento liittää sen valitulle tasolle. Liitetyt pikselit tullaan valituksi ja [Siirrä valintaa]({{< ref "siirtotyokalut.md" >}}) työkalu tulee 
+	Jos leikepöydällä on kuva, tämä komento liittää sen valitulle tasolle. Liitetyt pikselit tullaan valituksi ja [Siirrä valintaa]({{< relref "siirtotyokalut.md" >}}) työkalu tulee 
 	automaattisesti valituksi. Tämän jälkeen voit joko siirtää, skaalata tai pyörittää pikseleitä haluttuun paikkaan ja muotoon. Jos liitettävä kuva on joko liian leveä tai 
-	korkea nykyiselle pohjan koolle, sinulta kysytään haluatko muuttaa pohjan kokoa. Kyseessä on oikotie [Kuva **&rarr;** Pohjan koko]({{< ref "kuva.md" >}})
+	korkea nykyiselle pohjan koolle, sinulta kysytään haluatko muuttaa pohjan kokoa. Kyseessä on oikotie [Kuva **&rarr;** Pohjan koko]({{< relref "kuva.md" >}})
 	komentoon joka varmistaa että liitettävä kuva mahtuu.
 	
 	{{< figure src="/kuvat/pastequestion.png" alt="Liitä kysymys" >}}

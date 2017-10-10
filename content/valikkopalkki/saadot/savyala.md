@@ -18,7 +18,13 @@ esiintyy kuvassa. Harmaapiste esittää värien keskiarvoa koko kuvassa.
 	<img src="/kuvat/levels1.png" alt="">
 </p>
 
-Jokaista väripistettä voi muokata käyttäen Sävyalaa. Yllä olevassa valikossa, on 5 numerista valintaa ja 5 väriliukua. Kaksi vasemmalla puolella 'Sisääntulo' osassa tarkoittaa sisääntulon valko- ja mustapistettä. Näitä värejä voi muokata käyttäen joko numeerisia valintoja, likuja tai kaksoisklikkaamalla värilaatikkoa. Valkopiste tällä puolella on väri mikä tulisi asettaa tulemaan valkopiste oikealle puolelle. Kun säädös on ajettu, värit jotka ovat kuvassa yhtä kirkkaita tai kirkkaampia kuin tämä väri säädetään olemaan sama kuin ulostulon valkopiste (yllä olevassa kuvassa, ulostulon valkopiste on jätetty oletusarvolle, valkoiseen.) Vastaavasti, sisääntulon mustapiste on asetettu myös, jolloin kaikkein tummimmat värit kuvassa säädetään täysin mustaksi. Muuttamalla valkopistettä hieman tummemmaksi, teemme samasta tummasta väristä täysin valkoista ulostulossa, ja muuttamalla mustapistettä hieman kirkkaammaksi, teemme kaikista niistä tummista väreistä täysin tummia. Myös, valikossa ylhäällä, harmaapiste on siirretty hieman kirkkaammaksi. Vaikka tämä ei vaikuta kuvan valkoiseen tai mustaan, se nostaa kuvan värejä yleisesti kirkkaammiksi.</p>
+Jokaista väripistettä voi muokata käyttäen Sävyalaa. Yllä olevassa valikossa, on 5 numerista valintaa ja 5 väriliukua. Kaksi vasemmalla puolella 'Sisääntulo' osassa tarkoittaa
+sisääntulon valko- ja mustapistettä. Näitä värejä voi muokata käyttäen joko numeerisia valintoja, likuja tai kaksoisklikkaamalla värilaatikkoa. Valkopiste tällä puolella on väri
+mikä tulisi asettaa tulemaan valkopiste oikealle puolelle. Kun säädös on ajettu, värit jotka ovat kuvassa yhtä kirkkaita tai kirkkaampia kuin tämä väri säädetään olemaan sama kuin
+ulostulon valkopiste (yllä olevassa kuvassa, ulostulon valkopiste on jätetty oletusarvolle, valkoiseen.) Vastaavasti, sisääntulon mustapiste on asetettu myös, jolloin kaikkein
+tummimmat värit kuvassa säädetään täysin mustaksi. Muuttamalla valkopistettä hieman tummemmaksi, teemme samasta tummasta väristä täysin valkoista ulostulossa, ja muuttamalla
+mustapistettä hieman kirkkaammaksi, teemme kaikista niistä tummista väreistä täysin tummia. Myös, valikossa ylhäällä, harmaapiste on siirretty hieman kirkkaammaksi. Vaikka tämä ei
+vaikuta kuvan valkoiseen tai mustaan, se nostaa kuvan värejä yleisesti kirkkaammiksi.
 
 <p class="centered levels">
 	<img src="/resurssit/lewistonsunset_small.jpg" alt="" class="border">&nbsp;<img src="/resurssit/lewistonsunset_small_levels1.jpg" alt="" class="border">

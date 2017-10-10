@@ -43,7 +43,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
 	{{< figure src="/kuvat/toolbar_toolchoicebutton.png" alt="Työkalun valinta" >}}
 	
-	Työkalujen asetukset voi vaihtaa [Asetukset-valikossa]({{< ref "asetukset.md" >}}).
+	Työkalujen asetukset voi vaihtaa [Asetukset-valikossa]({{< relref "asetukset.md" >}}).
 	
 *	### Oletustyökalu
 	
@@ -53,9 +53,9 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 	
 	{{< figure src="/kuvat/toolbar_shapesbrushesfill.png" alt="Muodot, sivellin, tyyli ja täyttö" >}}
 	
-	[Muototyökalut]({{< ref "muodot.md" >}}) käyttävät näitä asetuksia. Voit valita piirretäänkö muoto ääriviivalla, täytettynä, vai kummatkin, siveltimen koko sekä piirtotyylin. 
+	[Muototyökalut]({{< relref "muodot.md" >}}) käyttävät näitä asetuksia. Voit valita piirretäänkö muoto ääriviivalla, täytettynä, vai kummatkin, siveltimen koko sekä piirtotyylin. 
 	
-	[Viiva/Käyrä -työkalu]({{< ref "viiva_kayra.md" >}}) antaa sinun asettaa tyylin, viivan päiden tyylit sekä joko viiva tai piste muodon.
+	[Viiva/Käyrä -työkalu]({{< relref "viiva_kayra.md" >}}) antaa sinun asettaa tyylin, viivan päiden tyylit sekä joko viiva tai piste muodon.
 	
 *	### Valintatyökalut
 	
@@ -72,7 +72,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 	
 	{{< figure src="/kuvat/toolbar_text.png" alt="Tekstityökalu" >}}
 	
-	Täta osaa työkalupalkista käyttää vain [Teksti]({{< ref "tekstityokalu.md" >}}), ja se antaa sinun asettaa fontin, koon, pehmeyden sekä tyylin.
+	Täta osaa työkalupalkista käyttää vain [Teksti]({{< relref "tekstityokalu.md" >}}), ja se antaa sinun asettaa fontin, koon, pehmeyden sekä tyylin.
 	
 	On saatavilla kolme eri tapaa näyttää teksti, "Pehmeä", "Terävä (Modern)" ja "Terävä (Klassinen)". Pehmeä sopii parhaiten keskikokoiseen ja isoon tekstiin. 
 	Pienillä koilla se saattaa näyttää epäselvältä tai sekavalta, paitsi tämä riippuu paljolti mikä fontti on käytössä. Terävä sopii hyvin pienen kokoiseen tekstiin; suurena se ei 
@@ -82,7 +82,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 	
 	{{< figure src="/kuvat/toolbar_gradient.png" alt="Väriliukuma" >}}
 	
-	[Väriliukumalla]({{< ref "variliukuma.md" >}}) on 7 erilaista liukumaa jota se voi käyttää, sekä se voi toimia joko väritilassa tai erikoisessa läpinäkyvyystilassa. 
+	[Väriliukumalla]({{< relref "variliukuma.md" >}}) on 7 erilaista liukumaa jota se voi käyttää, sekä se voi toimia joko väritilassa tai erikoisessa läpinäkyvyystilassa. 
 	
 	Lisäksi on mahdollista peilata tai kiertää.
 	
@@ -90,7 +90,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 	
 	{{< figure src="/kuvat/toolbar_magicwandpaintbucket.png" alt="Taikasauva, täyttö ja uudelleen väritys" >}}
 	
-	Toleranssi vaikuttaa miten [Taikasauva]({{< ref "taikasauva.md" >}}), [Täyttö]({{< ref "taytto.md" >}}) sekä [Uudelleen väritys]({{< ref "uudelleen_varitys.md" >}}) toimivat. 
+	Toleranssi vaikuttaa miten [Taikasauva]({{< relref "taikasauva.md" >}}), [Täyttö]({{< relref "taytto.md" >}}) sekä [Uudelleen väritys]({{< relref "uudelleen_varitys.md" >}}) toimivat. 
 	Se määrää miten samanväriset värit lasketaan mukaan kun työkalua käytetään. Jos se on asetettu 0%, vain tarkalleen tiettyä väriä käytetään. Jos se on 100%, kaikki värit 
 	lasketaan mukaan. Oletusarvo on 50%. 
 	
@@ -100,7 +100,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 	
 	{{< figure src="/kuvat/toolbar_colorpicker.png" alt="Väripoimija" >}}
 	
-	[Väripoimijan]({{< ref "pikselityokalut.md" >}}) voi asettaa vaihtamaan [Kynään]({{< ref "pikselityokalut.md" >}}) tai edelliseen työkaluun värin poimimisen jälkeen. 
+	[Väripoimijan]({{< relref "pikselityokalut.md" >}}) voi asettaa vaihtamaan [Kynään]({{< relref "pikselityokalut.md" >}}) tai edelliseen työkaluun värin poimimisen jälkeen. 
 	
 	Näytteistyksen voi asettaa pysymään tasolla tai koskemaan koko kuvaa sekä näytepisteiden määrää voi muuttaa.
 	
@@ -108,7 +108,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 	
 	{{< figure src="/kuvat/toolbar_moveselectedpixels.png" alt="Siirrä valittuja pikseleitä" >}}
 	
-	[Siirrä valintaa]({{< ref "siirtotyokalut.md" >}}) -työkalun voi asettaa käyttämään joko "pehmeää" (bilinear) tai "pikseloitua" (lähin naapuri) näytteistystä. 
+	[Siirrä valintaa]({{< relref "siirtotyokalut.md" >}}) -työkalun voi asettaa käyttämään joko "pehmeää" (bilinear) tai "pikseloitua" (lähin naapuri) näytteistystä. 
 	Pehmeä laatu on yleensä suositeltua ellei sinulla ole tarkkaa tarvetta käyttää pikseloitua laatua.
 	
 *	### Rasterisaatio
@@ -131,4 +131,4 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 	
 	{{< figure src="/resurssit/bmw_ab_vs_noab.jpg" alt="Sekoitustila" class="border" >}}
 	
-	Ylikirjoitus on hyödyllinen [Kynän]({{< ref "pikselityokalut.md" >}}) kanssa kun haluat muokata kuvia pikselitasolla.
+	Ylikirjoitus on hyödyllinen [Kynän]({{< relref "pikselityokalut.md" >}}) kanssa kun haluat muokata kuvia pikselitasolla.

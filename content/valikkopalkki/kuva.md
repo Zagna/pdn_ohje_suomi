@@ -10,7 +10,7 @@ title = "Kuva"
 
 +++
 
-Tämä valikko sisältää komentoja jotka vaikuttavat kaikkiin tasoihin kuvassa. Tämä on vastakohta [Tasovalikolle]({{< ref "tasot.md" >}}) joka vaikuttaa vain aktiiviseen tasoon.
+Tämä valikko sisältää komentoja jotka vaikuttavat kaikkiin tasoihin kuvassa. Tämä on vastakohta [Tasovalikolle]({{< relref "tasot.md" >}}) joka vaikuttaa vain aktiiviseen tasoon.
 
 {{< figure src="/kuvat/imagemenu.png" alt="Kuva valikko" >}}
 
@@ -23,7 +23,7 @@ Tämä valikko sisältää komentoja jotka vaikuttavat kaikkiin tasoihin kuvassa
 	
 	{{< figure src="/resurssit/bmw.jpg" alt="Alkuperäinen" class="border" >}}
 	
-	Tässä rajattu alue on valittu käyttäen [Lassovalintaa]({{< ref "valintatyokalut.md" >}}):
+	Tässä rajattu alue on valittu käyttäen [Lassovalintaa]({{< relref "valintatyokalut.md" >}}):
 	
 	{{< figure src="/resurssit/bmw_selected.jpg" alt="Lassovalinta" class="border" >}}
 	
@@ -85,7 +85,7 @@ Tämä valikko sisältää komentoja jotka vaikuttavat kaikkiin tasoihin kuvassa
 	
 	{{< figure src="/resurssit/bmw_after_canvas_shrink.jpg" alt="Pohjan kutistus" class="border" >}}
 	
-*	### Käännä vaakatasossa<span>, ja</span> Käännä pystytasossa
+*	### Käännä vaakatasossa, ja Käännä pystytasossa
 	
 	Nämä antavat sinun kääntää kuva joko vaaka- tai pystysuorassa.
 	

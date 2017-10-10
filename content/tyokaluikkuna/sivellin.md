@@ -11,7 +11,7 @@ tooltip = "resurssit/tyokalut/paintbrush.png"
 
 +++
 
-Tämä on yksi tärkeimmistä piirtotyökaluista. Voit asettaa siveltimen leveyden ja täyttötyylin [työkalupalkista]({{< ref "tyokalupalkki.md" >}}).
+Tämä on yksi tärkeimmistä piirtotyökaluista. Voit asettaa siveltimen leveyden ja täyttötyylin [työkalupalkista]({{< relref "tyokalupalkki.md" >}}).
 
 Piirtääksesi tällä työkalulla, vain klikkaa vasemmalla napilla ja siirrä hiirtä.
 

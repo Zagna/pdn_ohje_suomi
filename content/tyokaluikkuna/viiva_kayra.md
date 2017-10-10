@@ -16,7 +16,7 @@ yksinkertaisesti täysin suora käyrä; täten, työkalu piirtää aina käyrä,
 
 Viivan piirtäminen on yksinkertaista: vain paina mistä haluat aloittaa, siirrä hiirtä haluamaasi kohtaan ja irrota hiiren nappi.
 
-{{% vihje %}}Painamalla Shift-nappia ennen kuin irrotat napin, voit pakottaa viivan 15 asteen kulmiin. Tämän jälkeen, näet neljä kahvaa, tai <em>nuppia</em>, viivalla.{{% /vihje %}}
+{{% vihje %}}Painamalla Shift-nappia ennen kuin irrotat napin, voit pakottaa viivan 15 asteen kulmiin. Tämän jälkeen, näet neljä kahvaa, tai *nuppia*, viivalla.{{% /vihje %}}
 
 Jos haluat vain piirtää viivan, voit painaa nyt Enter-nappia viimeistelläksesi viivan. Voit myös piirtää muualla aloittaaksesi uuden viivan.
 

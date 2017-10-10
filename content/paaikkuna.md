@@ -18,46 +18,46 @@ paint.netin käyttöliittymä on jaettu 10 alueeseen:
 	
 	Tämä kertoo auki olevan kuvan nimen, tämän hetkisen suurennuksen määrän ja paint.netin versionumeron.
 	
-1.	### [Valikkopalkki]({{< ref "valikkopalkki.md" >}})
+1.	### [Valikkopalkki]({{< relref "valikkopalkki.md" >}})
 	
 	Tämän avulla pystyt käyttämään erinäisiä valikoiden komentoja. Yleensä, komennot joita voit käyttää, esitetään **Valikko &rarr; Komento** tavalla.
 	Esimerkiksi, **Tiedosto &rarr; Poistu** tarkoittaa että valitse Tiedostovalikko, ja sen jälkeen paina Poistu komentoa.
 	
-1.	### [Työkalupalkki]({{< ref "tyokalupalkki.md" >}})
+1.	### [Työkalupalkki]({{< relref "tyokalupalkki.md" >}})
 	
 	Suoraan valikoiden alapuolelta löydät monta ikonia ja ohjainta joiden avulla voit suorittaa erinäisiä komentoja ja muokata globaaleja asetuksia.
 	
-1.	### [Kuvalista]({{< ref "kuvalista.md" >}})
+1.	### [Kuvalista]({{< relref "kuvalista.md" >}})
 	
 	Jokaisesta avatusta kuvasta näkyy pikkukuva kuvalistassa. Tämä toimii kuten välilehdet selaimessa: vain paina kuvaa valitaksesi sen.
 	
-	{{% vihje %}}Uutta paint.netissä on mahdollisuus järjestää [kuvalista]({{< ref "kuvalista.md" >}}) uusiksi vetämällä ja siirtämällä. Klikkaa ja vedä pikkukuva haluamaasi kohtaan [kuvalistassa]({{< ref "kuvalista.md" >}}).{{% /vihje %}}
+	{{% vihje %}}Uutta paint.netissä on mahdollisuus järjestää [kuvalista]({{< relref "kuvalista.md" >}}) uusiksi vetämällä ja siirtämällä. Klikkaa ja vedä pikkukuva haluamaasi kohtaan [kuvalistassa]({{< relref "kuvalista.md" >}}).{{% /vihje %}}
 	
 1.	### Kuvan pohja
 	
 	Kuva on näkyvillä tässä, ja se on alue missä voit piirtää ja tehdä muita toimintoja.
 	
-	{{% vihje %}}Uutta paint.net 4.0.10+ on mahdollisuus vierittää kuvan reunaa ikkunan reunan yli. Tarkista [näyttötyokalut]({{< ref "nayttotyokalut.md" >}}).{{% /vihje %}}
+	{{% vihje %}}Uutta paint.net 4.0.10+ on mahdollisuus vierittää kuvan reunaa ikkunan reunan yli. Tarkista [näyttötyokalut]({{< relref "nayttotyokalut.md" >}}).{{% /vihje %}}
 	
-1.	### [Työkaluikkuna]({{< ref "tyokaluikkuna.md" >}})
+1.	### [Työkaluikkuna]({{< relref "tyokaluikkuna.md" >}})
 	
 	Tässä aktiivinen työkalu on korostettu, ja mistä voit valita muita työkaluja.
 	
-1.	### [Historiaikkuna]({{< ref "historiaikkuna.md" >}})
+1.	### [Historiaikkuna]({{< relref "historiaikkuna.md" >}})
 	
 	Kaikki mitä olet tehnyt kuvaan sen jälkeen kun avasit sen näkyy tässä ikkunassa.
 	
-1.	### [Tasoikkuna]({{< ref "tasoikkuna.md" >}})
+1.	### [Tasoikkuna]({{< relref "tasoikkuna.md" >}})
 	
 	Jokainen kuva koostuu vähintään yhdestä tasosta, ja tällä ikkunalla hallitset niitä. Tasojen ominaisuudet voi tarkistaa tuplaklikkaamalla.
 	
 	{{% vihje %}}Uutta paint.netissä on mahdollisuus järjestellä tasot ikkunassa klikkaamalla ja vetämällä. Klikkaa, pidä ja siirrä taso haluamaasi kohtaan.{{% /vihje %}}
 	
-1.	### [Väri-ikkuna]({{< ref "vari-ikkuna.md" >}})
+1.	### [Väri-ikkuna]({{< relref "vari-ikkuna.md" >}})
 	
 	Värit joilla piirrät asetetaan pääasiallisesti täällä. Se koostuu väripyörästä ja kirkkausliukuohjaimesta. Jos sinä olet laajentanut ikkunan "Lisää" napilla se myös 
 	näyttää lisää asetuksia tarkempaa kontrollia ja tarkkaa väriarvon asettamista varten.
 	
-1.	### [Tilapalkki]({{< ref "tilapalkki.md" >}})
+1.	### [Tilapalkki]({{< relref "tilapalkki.md" >}})
 	
 	Tämä alue on jaettu moneen osaan. Ensin vasemmalla, näkyy lyhyt ohje ja tilateksti. Seuraava on kääntämistila (jos käynnissä), kuvan koko ja kursorin sijainti kuvassa.

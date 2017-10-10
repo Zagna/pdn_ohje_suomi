@@ -15,9 +15,9 @@ title = "Käyrät"
 </p>
 
 Käyrät-säätöä voi käyttää värien muokkaamiseen suurella määrällä ohjattavuutta. Käyrät antavat sinun hienosäätää jokaisen sävyn voimakkuutta kuvassa. Tarkemmin, sitä voi 
-myös käyttää tuomaan esiin tai piilottamaan tiettyjä sävyaloja kuvasta, tavoilla joilla [Sävyala]({{< ref "savyala.md" >}}) ja [Kirkkaus / Kontrasti]({{< ref "saadot.md" >}}) eivät voi.
+myös käyttää tuomaan esiin tai piilottamaan tiettyjä sävyaloja kuvasta, tavoilla joilla [Sävyala]({{< relref "savyala.md" >}}) ja [Kirkkaus / Kontrasti]({{< relref "saadot.md" >}}) eivät voi.
 
-Toisin kuin [Sävyala]({{< ref "savyala.md" >}}) ja [Kirkkaus / Kontrasti]({{< ref "saadot.md" >}}), Käyrillä voi vapaasti muokata kuinka kirkkaita kaikki eri sävyt voivat 
+Toisin kuin [Sävyala]({{< relref "savyala.md" >}}) ja [Kirkkaus / Kontrasti]({{< relref "saadot.md" >}}), Käyrillä voi vapaasti muokata kuinka kirkkaita kaikki eri sävyt voivat 
 olla kuvassa. Itseasiassa, kuvan värit voi täysin invertoida käyttäen Käyriä.
 
 ### Käyttöliittymä
@@ -65,7 +65,7 @@ että kuvassa on vahvemmat värit, syvemmät tummat osat eikä näytä yhtä har
 ### Muut mahdollisuudet
 
 Kuten aiemmin mainittiin, voit käyttää Käyriä kuvan invertoimiseen. Esimerkissä alhaalla, auton kuva muokattiin käyttäen Käyriä tuottaaksen kuvan mikä ei ole mahdollista muilla 
-säädöillä, kuten [Sävyala]({{< ref "savyala.md" >}}) tai Sävy / Värikylläisyys:
+säädöillä, kuten [Sävyala]({{< relref "savyala.md" >}}) tai Sävy / Värikylläisyys:
 
 <p class="centered curves2">
 	<img src="/kuvat/curvesextreme.png" alt="Käyrä-Sin">
