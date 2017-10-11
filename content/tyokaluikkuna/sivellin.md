@@ -18,6 +18,6 @@ Piirtääksesi tällä työkalulla, vain klikkaa vasemmalla napilla ja siirrä h
 Kun käytät Kiinteä sivellin -piirtotyyliä, edustaväriä käytetään. Joillain piirtotyyleillä, kumpaakin edusta- ja taustaväriä käytetään eri osiin tyylistä. 
 Jos käytät oikeaa hiiren nappia piirtämiseen, edusta- ja taustavärin roolit vaihdetaan.
 
-Seuraava esimerkki näyttää siveltimen käyttöä mustana, sinisenä ja kolmella eri piirtotyylillä.
+Seuraava esimerkki näyttää siveltimen käyttöä mustana, vihreänä ja kolmella eri piirtotyylillä.
 
-{{< figure src="/resurssit/brushstyles.png" alt="Siveltimen tyylit" >}}
+{{< figure src="/resurssit/sivellin.jpg" alt="Siveltimen tyylit" >}}

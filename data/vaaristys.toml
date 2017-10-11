@@ -4,12 +4,12 @@
 	content = "Tämä saa kuvan näkymään kuin sitä katsottaisiin jäätyneen lasin läpi."
 	
 	[[tab.figure]]
-		src="/resurssit/cass_original.jpg"
+		src="/resurssit/tehoste.jpg"
 		class="bunder border"
 		alt="Alkuperäinen"
 		caption="Alkuperäinen"
 	[[tab.figure]]
-		src="/resurssit/cass_frostedglass.jpg"
+		src="/resurssit/jaatynytlasi.jpg"
 		class="bunder border"
 		alt="Jälkeen"
 		caption="Jälkeen"
@@ -20,12 +20,12 @@
 	content = "Tällä tehosteella voit kiertää osan kuvasta, joko myötä- tai vastapäivään."
 	
 	[[tab.figure]]
-		src="/resurssit/ford_original.jpg"
+		src="/resurssit/tehoste.jpg"
 		class="bunder border"
 		alt="Alkuperäinen"
 		caption="Alkuperäinen"
 	[[tab.figure]]
-		src="/resurssit/ford_twist.jpg"
+		src="/resurssit/kierre.jpg"
 		class="bunder border"
 		alt="Jälkeen"
 		caption="Jälkeen"
@@ -36,12 +36,12 @@
 	content = "Tämä muuttaa kuvan näyttämään kuin se olisi kristallien muotoisista muodoista tehty mosaiikki."
 	
 	[[tab.figure]]
-		src="/resurssit/ford_original.jpg"
+		src="/resurssit/tehoste.jpg"
 		class="bunder border"
 		alt="Alkuperäinen"
 		caption="Alkuperäinen"
 	[[tab.figure]]
-		src="/resurssit/ford_crystalize.jpg"
+		src="/resurssit/kristalloi.jpg"
 		class="bunder border"
 		alt="Jälkeen"
 		caption="Jälkeen"
@@ -52,12 +52,12 @@
 	content = "Tämä tuottaa muunnoksen suorakulmaisen ja napakulmakoordinaatiston välillä."
 	
 	[[tab.figure]]
-		src="/resurssit/cass_original.jpg"
+		src="/resurssit/tehoste.jpg"
 		class="bunder border"
 		alt="Alkuperäinen"
 		caption="Alkuperäinen"
 	[[tab.figure]]
-		src="/resurssit/cass_polarinversion.jpg"
+		src="/resurssit/kaanteismuunnos.jpg"
 		class="bunder border"
 		alt="Jälkeen"
 		caption="Jälkeen"
@@ -68,12 +68,12 @@
 	content = "Tämä tunnettu tehoste saa kuvan näyttämään kuin se olisi lommotun läpinäkyvän metallin takana (teoriassa tietenkin)."
 	
 	[[tab.figure]]
-		src="/resurssit/ford_original.jpg"
+		src="/resurssit/tehoste.jpg"
 		class="bunder border"
 		alt="Alkuperäinen"
 		caption="Alkuperäinen"
 	[[tab.figure]]
-		src="/resurssit/ford_dents.jpg"
+		src="/resurssit/lommo.jpg"
 		class="bunder border"
 		alt="Jälkeen"
 		caption="Jälkeen"
@@ -84,12 +84,12 @@
 	content = "Tätä tehostetta voi käyttää tuomaan osa kuvasta lähemmäksi tai taaemmaksi, kuin kuvaa olisi taivutettu."
 	
 	[[tab.figure]]
-		src="/resurssit/ford_original.jpg"
+		src="/resurssit/tehoste.jpg"
 		class="bunder border"
 		alt="Alkuperäinen"
 		caption="Alkuperäinen"
 	[[tab.figure]]
-		src="/resurssit/ford_bulge.jpg"
+		src="/resurssit/pullistuma.jpg"
 		class="bunder border"
 		alt="Jälkeen"
 		caption="Jälkeen"
@@ -100,12 +100,12 @@
 	content = "Tämä tehoste vähentää kuvan laatua ja antaa kuvan jossa jokainen &ldquo;pikseli&rdquo; on paljon isompi."
 	
 	[[tab.figure]]
-		src="/resurssit/cass_original.jpg"
+		src="/resurssit/tehoste.jpg"
 		class="bunder border"
 		alt="Alkuperäinen"
 		caption="Alkuperäinen"
 	[[tab.figure]]
-		src="/resurssit/cass_pixelate.jpg"
+		src="/resurssit/pikseloi.jpg"
 		class="bunder border"
 		alt="Jälkeen"
 		caption="Jälkeen"
@@ -116,12 +116,12 @@
 	content = "Tämä saa kuvan näkymään kuin se olisi laatoitetun lasilevyn takana."
 	
 	[[tab.figure]]
-		src="/resurssit/cass_original.jpg"
+		src="/resurssit/tehoste.jpg"
 		class="bunder border"
 		alt="Alkuperäinen"
 		caption="Alkuperäinen"
 	[[tab.figure]]
-		src="/resurssit/cass_tilereflection.jpg"
+		src="/resurssit/tiiliheijastus.jpg"
 		class="bunder border"
 		alt="Jälkeen"
 		caption="Jälkeen"

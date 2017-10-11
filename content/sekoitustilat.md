@@ -17,8 +17,8 @@ tai kaksoisklikkaamalla tasoa). Saat seuraavan valikon:
 
 Tätä aihetta varten seuraavia kahta kuvaa käytetään taustakuvaksi sekä ensimmäiseksi tasoksi taustakuvan yläpuolella:
 
-{{< figure class="border" src="/resurssit/blendmodes_layer1.jpg" title="Taustakuva Kuva autosta" caption="(\"Pohja taso\")" >}}
-{{< figure class="border" src="/resurssit/blendmodes_layer2.jpg" title="Taso 1 - Kuva Seattlesta" caption="(\"Päällinen taso\")" >}}
+{{< figure class="border" src="/resurssit/kemijoki.jpg" title="Taustakuva - Kuva Rovaniemestä (1972)" caption="(\"Pohja taso\")" >}}
+{{< figure class="border" src="/resurssit/ruisleipa.jpg" title="Taso 1 - Kuva ruisleivästä" caption="(\"Päällinen taso\")" >}}
 
 Kaikki sekoitustilat eivät ole helppoja ymmärtää, ja tämän takia suosittelemme että kokeilette ja käytätte [foorumia](http://www.getpaint.net/redirect/forum.html) kysymysten ja vinkkien 
 muodossa. Jokainen sekoitustila selostetaan kuvan kanssa edellä mainittujen kuvien kanssa, sekoitustila valittuna ja peittävyys asetettuna täyteen.

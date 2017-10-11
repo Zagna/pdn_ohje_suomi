@@ -4,12 +4,12 @@
 	content = "Tämä tehoste antaa kuvalle hehkua. Voit säätää lopputuloksen kirkkautta sekä kontrastia."
 	
 	[[tab.figure]]
-		src="/resurssit/ford_original.jpg"
+		src="/resurssit/tehoste.jpg"
 		class="bunder border"
 		alt="Alkuperäinen"
 		caption="Alkuperäinen"
 	[[tab.figure]]
-		src="/resurssit/ford_glow.jpg"
+		src="/resurssit/hehku.jpg"
 		class="bunder border"
 		alt="Jälkeen"
 		caption="Jälkeen"
@@ -20,12 +20,12 @@
 	content = "Tämä on hyödyllinen antamaan hehkuisan ja loisteliaan tehosteen kuvalle."
 
 	[[tab.figure]]
-		src="/resurssit/cass_original.jpg"
+		src="/resurssit/tehoste.jpg"
 		class="bunder border"
 		alt="Alkuperäinen"
 		caption="Alkuperäinen"
 	[[tab.figure]]
-		src="/resurssit/cass_softenportrait.jpg"
+		src="/resurssit/pehmenna.jpg"
 		class="bunder border"
 		alt="Jälkeen"
 		caption="Jälkeen"
@@ -36,17 +36,17 @@
 	content = "Jos sinulla on valokuva jossa kohteella on &ldquo;punaiset silmät&rdquo;, silloin tämä tehoste on hyödyllinen niiden poistamiseen. Sinun kannattaa kuitenkin valita kohteen silmät ennen kuin käytätä tätä tehostetta."
 
 	[[tab.figure]]
-		src="/resurssit/redeyeeffectbefore.jpg"
+		src="/resurssit/punasilma.jpg"
 		class="bunder border"
 		alt="Alkuperäinen"
 		caption="Alkuperäinen"
 	[[tab.figure]]
-		src="/resurssit/redeyeeffectselection.jpg"
+		src="/resurssit/silmatvalittu.jpg"
 		class="bunder border"
 		alt="Silmät valittu"
 		caption="Silmät valittu"
 	[[tab.figure]]
-		src="/resurssit/redeyeeffectafter.jpg"
+		src="/resurssit/naama.jpg"
 		class="bunder border"
 		alt="Jälkeen"
 		caption="Jälkeen"
@@ -57,12 +57,12 @@
 	content = "Jos kuvan ulkonäkö on liian pehmeä, voit tällä tehosteella terävöittää reunoja."
 
 	[[tab.figure]]
-		src="/resurssit/porsche_original.jpg"
+		src="/resurssit/tehoste.jpg"
 		class="bunder border"
 		alt="Alkuperäinen"
 		caption="Alkuperäinen"
 	[[tab.figure]]
-		src="/resurssit/porsche_sharpen.jpg"
+		src="/resurssit/teravoita.jpg"
 		class="bunder border"
 		alt="Jälkeen"
 		caption="Jälkeen"
@@ -73,12 +73,12 @@
 	content = "Kuvan reunoja tummennetaan, ihan kuin katsoisit kiikareiden läpi."
 
 	[[tab.figure]]
-		src="/resurssit/ford_original.jpg"
+		src="/resurssit/tehoste.jpg"
 		class="bunder border"
 		alt="Alkuperäinen"
 		caption="Alkuperäinen"
 	[[tab.figure]]
-		src="/resurssit/ford_vignette.jpg"
+		src="/resurssit/vinjetti.jpg"
 		class="bunder border"
 		alt="Jälkeen"
 		caption="Jälkeen"

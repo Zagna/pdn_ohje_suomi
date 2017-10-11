@@ -23,5 +23,5 @@ Voit myös asettaa siveltimen koon asettamalla [Siveltimen koon työkalupalkissa
 
 Taidokas uudelleen värityksen käyttö voi johtaa kiinnostaviin tuloksiin. Seuraava on yksi sellainen esimerkki:
 
-{{< figure class="bunder" title="Ennen Uudelleen väritystä" src="/resurssit/recoloringbefore.jpg" >}}
-{{< figure class="bunder" title="Uudelleen värityksen jälkeen" src="/resurssit/recoloringafter.jpg" >}}
+{{< figure class="bunder" title="Ennen Uudelleen väritystä" src="/resurssit/naama.jpg" >}}
+{{< figure class="bunder" title="Uudelleen värityksen jälkeen" src="/resurssit/uudelleenvaritys.jpg" >}}

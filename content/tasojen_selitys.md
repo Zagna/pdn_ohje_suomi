@@ -12,14 +12,14 @@ title = "Tasojen selitys"
 
 Tätä aihetta varten seuraavia kahta kuvaa käytetään taustakuvaksi sekä ensimmäiseksi tasoksi taustakuvan yläpuolella:
 
-{{< figure class="border" src="/resurssit/blendmodes_layer1.jpg" title="Taustakuva Kuva autosta" caption="(\"Pohja taso\")" >}}
-{{< figure class="border" src="/resurssit/blendmodes_layer2.jpg" title="Taso 1 - Kuva Seattlesta" caption="(\"Päällinen taso\")" >}}
+{{< figure class="border" src="/resurssit/kemijoki.jpg" title="Taustakuva - Kuva Rovaniemestä (1972)" caption="(\"Pohja taso\")" >}}
+{{< figure class="border" src="/resurssit/ruisleipa.jpg" title="Taso 1 - Kuva ruisleivästä" caption="(\"Päällinen taso\")" >}}
 
 Voit ajatella "tasoja" kasana läpinäkyviä sivuja jotka, kun asetettu päällekkäin muodostavat kokonaisen kuvan. paint.net näyttää tämän kasan kuin katsoisit sitä ylhäältä
 ilman perspektiiviä (tasot eivät "pienene" kun ne ovat kasan pohjalla, mikä sijoittaisi ne "kauemmaksi"). Nähdäksesi miten tasot toimivat paremmin, voi olla
 helpompaa nähdä tasot vierestä kuin ylhäältä:
 
-{{< figure src="/resurssit/layerstack3d.jpg" alt="Tasot päällekkäin" >}}
+{{< figure src="/resurssit/3d_ruisleipa.jpg" alt="Tasot päällekkäin" >}}
 
 ### Pikselit ja läpinäkyvyys
 
@@ -43,8 +43,8 @@ tason peittävyys on kuin himmennin tason jokaiselle pikselille.
 
 Esimerkkinä, jos asetamme päällisen tason päittävyyden 255:sta askelin 0:aan, saamme seuraavat kuvat jotka esitetään konseptina sekä miten ne näkyvät näytöllä:
 
-{{< figure src="/resurssit/layerstack3d.jpg" title="Taso 1 peittävyys 255 (100%)" caption="Täysin peittävä: Autoa ei näe." >}}
+{{< figure src="/resurssit/3d_ruisleipa.jpg" title="Taso 1 peittävyys 255 (100%)" caption="Täysin peittävä: Rovaniemeä ei näe." >}}
 
-{{< figure src="/resurssit/layerstack3d_128.jpg" title="Taso 1 peittävyys 128 (noin 50%)" caption="Osittain läpinäkyvä: Seattle on osittain näkyvä." >}}
+{{< figure src="/resurssit/3d_ruisleipa_50.jpg" title="Taso 1 peittävyys 128 (noin 50%)" caption="Osittain läpinäkyvä: Rovaniemi on osittain näkyvä." >}}
 
-{{< figure src="/resurssit/layerstack3d_0.jpg" title="Taso 1 peittävyys 0 (0%)" caption="Täysin läpinäkyvä: Seattle ei enää näy." >}}
+{{< figure src="/resurssit/3d_ruisleipa_0.jpg" title="Taso 1 peittävyys 0 (0%)" caption="Täysin läpinäkyvä: Ruisleipä ei enää näy." >}}

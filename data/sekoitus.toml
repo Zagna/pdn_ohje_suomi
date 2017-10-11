@@ -4,7 +4,7 @@
 	content = "Jokaisen pikselin voimakkuus kerrotaan kokoonpanon pikseliarvoon. Tämän sekoitustilan käyttäminen johtaa pikseleihin jotka ovat tummempia kuin alkuperäiset."
 	
 	[[tab.figure]]
-		src="/resurssit/blendmode_multiply.jpg"
+		src="/resurssit/kerro.jpg"
 		alt="Kerro"
 		class="border"
 
@@ -14,7 +14,7 @@
 	content = "Jokaisen pikselin värivoimakkuus lisätään kokoonpanon pikselien voimakkuuteen. Tämä aina valaistaa pikseleitä kokoonpanossa, paitsi pikselit jotka ovat täysin mustia tulevat lemaan läpinäkyviä."
 	
 	[[tab.figure]]
-		src="/resurssit/blendmode_additive.jpg"
+		src="/resurssit/lisaava.jpg"
 		alt="Lisäävä"
 		class="border"
 
@@ -24,7 +24,7 @@
 	content = "Tämä sekoitustila tekee tummista pikseleistä tummempia. Kirkkaiden pikselien pitää sekoittua muiden kirkkaiden pikselien kanssa pysyäkseen kirkkaina."
 	
 	[[tab.figure]]
-		src="/resurssit/blendmode_colorburn.jpg"
+		src="/resurssit/varivarjostus.jpg"
 		alt="Värivarjostus"
 		class="border"
 
@@ -34,7 +34,7 @@
 	content = "Tätä voi ajatella värivarjostuksen vastakohtana. Kirkkaat pikselit pysyvät, kun tummat pikselit pitää sekoittua muiden mustien pikselien kanssa."
 	
 	[[tab.figure]]
-		src="/resurssit/blendmode_colordodge.jpg"
+		src="/resurssit/varilisavalotus.jpg"
 		alt="Värilisävalotus"
 		class="border"
 
@@ -44,7 +44,7 @@
 	content = "Tätä tilaa voi käyttää kiiltävien esineiden tai alueiden lisäämiseen."
 	
 	[[tab.figure]]
-		src="/resurssit/blendmode_reflect.jpg"
+		src="/resurssit/peilattu.jpg"
 		alt="Peilattu"
 		class="border"
 
@@ -54,7 +54,7 @@
 	content = "Tämä on käänteinen Peilaus: se vaihtaa tasojen järjestyksen ja sen jälkeen käyttää Peilausta."
 	
 	[[tab.figure]]
-		src="/resurssit/blendmode_glow.jpg"
+		src="/resurssit/hehku_sekoitus.jpg"
 		alt="Hehku"
 		class="border"
 
@@ -64,7 +64,7 @@
 	content = "Tämä on yhdistelmä Näyttöä ja Kertoa riippuen tason pikselien voimakkuudesta. Tummille väreille se toimii kuten Kerro. Kirkkaille väreille se toimii kuin Näyttö."
 	
 	[[tab.figure]]
-		src="/resurssit/blendmode_overlay.jpg"
+		src="/resurssit/sulauttava.jpg"
 		alt="Sulauttava"
 		class="border"
 
@@ -74,7 +74,7 @@
 	content = "Tämä on Lisäävän vastakohta. Jokaisen tason pikselin voimakkuus vähennetään kokoonpanon pikselien voimakkuudesta johtaen tummempiin väreihin. Koska tämä voi johtaa negatiiviseen voimakkuuteen, jota ei voi näyttää, absoluuttista arvoa käytetään. Täten, &ldquo;valkoinen miinus musta&rdquo; sekä &ldquo;musta miinus valkoinen&rdquo; tuottavat kummatkin valkoista. Tämä voi olla hyödyllinen Pilvi-tehosteen kanssa."
 	
 	[[tab.figure]]
-		src="/resurssit/blendmode_difference.jpg"
+		src="/resurssit/erottava.jpg"
 		alt="Erottava"
 		class="border"
 
@@ -84,7 +84,7 @@
 	content = "Ensi silmäyksellä tämä näyttää samalta kuin Erottava, mutta se tuottaa vastakohtaisen tuloksen. Sen sijaan että värin tummenisivat, niistä tulee kirkkaammat."
 	
 	[[tab.figure]]
-		src="/resurssit/blendmode_negation.jpg"
+		src="/resurssit/negatiivi.jpg"
 		alt="Negatiivi"
 		class="border"
 
@@ -94,7 +94,7 @@
 	content = "Kirkkaampi pikseli jommalta kummalta tasolta tai kokoonpanosta käytetään."
 	
 	[[tab.figure]]
-		src="/resurssit/blendmode_lighten.jpg"
+		src="/resurssit/kevenna.jpg"
 		alt="Kevennä"
 		class="border"
 
@@ -104,7 +104,7 @@
 	content = "Tummempi pikseli jommalta kummalta tasolta tai kokoonpanosta käytetään."
 	
 	[[tab.figure]]
-		src="/resurssit/blendmode_darken.jpg"
+		src="/resurssit/tummenna.jpg"
 		alt="Tummenna"
 		class="border"
 
@@ -114,7 +114,7 @@
 	content = "Tätä voi ajatella Kerro-tilan vastakohtana. Se tekee pikseleistä kirkkaampia, mustan ollessa pitkälti läpinäkyvä."
 	
 	[[tab.figure]]
-		src="/resurssit/blendmode_screen.jpg"
+		src="/resurssit/naytto.jpg"
 		alt="Näyttö"
 		class="border"
 
@@ -124,6 +124,6 @@
 	content = "Tämä on lyhyesti &ldquo;[poissulkeva tai](http://fi.wikipedia.org/wiki/XOR)&rdquo;, joka on kehittynyt sekoitustila jota pääasiallisesti käytetään kuvien analysointiin eikä piirtämiseen tai kuvien muodostamiseen."
 	
 	[[tab.figure]]
-		src="/resurssit/blendmode_xor.jpg"
+		src="/resurssit/xor.jpg"
 		alt="Xor"
 		class="border"
