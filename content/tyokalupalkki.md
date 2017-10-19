@@ -123,12 +123,5 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 	
 	{{< figure src="/resurssit/aavsnoaa.png" alt="Pehmennys päällä ja pois" >}}
 	
-	Seuraava nappi asettaa [sekoitustilan](http://en.wikipedia.org/wiki/Alpha_compositing). Normaali sekoitus toimii siten että jokainen piirrettävä pikseli sekoitetaan 
-	tasolla jo olemassa oleviin pikseleihin. Ylikirjoitus toimii siten että jokainen piirrettävä pikseli korvaa jo olemassa olevat pikselit. Alla olevassa kuvassa, viiva piirrettiin 
-	kahdesti alfa-arvolla 128, joka tarkoittaa noin 50% läpinäkyvyyttä. Viiva vasemmalla on piirretty Normaalin sekoituksen kanssa ja täten sekoittuu kuvaan autosta. Kummatkin auto 
-	sekä viiva näkyvät. Toinen viiva oikealla, on piirretty Ylikirjoituksen kanssa. Auto ei ole enää näkyvä missä viiva piirrettiin ja ruudukko näkyy joka tarkoittaa että se osa 
-	kuvasta on läpinäkyvä.
-	
-	{{< figure src="/resurssit/bmw_ab_vs_noab.jpg" alt="Sekoitustila" class="border" >}}
-	
-	Ylikirjoitus on hyödyllinen [Kynän]({{< relref "pikselityokalut.md" >}}) kanssa kun haluat muokata kuvia pikselitasolla.
+	Seuraava nappi asettaa [sekoitustilan](http://en.wikipedia.org/wiki/Alpha_compositing). Tästä voi lukea lisää [sekoitustiloista]({{< relref "sekoitustilat.md" >}}).
+

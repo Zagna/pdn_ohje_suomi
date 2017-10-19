@@ -13,7 +13,7 @@ tooltip = "resurssit/tyokalut/select.png"
 
 Seuraavat työkalut käsitellään tässä osassa:
 
-{{< figure src="/kuvat/movetools.png" alt="Siirtotyökalut" >}}
+{{< figure src="/kuvat/siirtotyokalut.png" alt="Siirtotyökalut" >}}
 
 *	### Siirrä valintaa
 

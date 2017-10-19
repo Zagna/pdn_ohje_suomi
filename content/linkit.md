@@ -22,6 +22,9 @@ Tämä on paras paikka kysymyksille miten paint.netiä käytetään, ilmoittaa b
 
 paint.netin blogista löydät erinäisiä ilmoituksia ohjelmasta sekä kehittäjistä.
 
-### paint.net sähköposti: <img src="/resurssit/email.png" /> (vain englanniksi)
+### paint.net sähköposti:
 
-On suotavaa lähettää virheilmoitukset, palautteet, lisenssi ja jakelu kysymykset tähän sähköpostiosoitteeseen. Jos sinulla on "miten" tyyppisiä kysymyksiä, keskustelu sopii siihen paremmin.
+{{< figure src="/resurssit/email.png" alt="sähköpostiosoite" caption="vain englanniksi" >}}
+
+On suotavaa lähettää virheilmoitukset, palautteet, lisenssi ja jakelu kysymykset tähän sähköpostiosoitteeseen. Jos sinulla on "miten" tyyppisiä kysymyksiä,
+[keskustelu](https://www.getpaint.net/redirect/forum.html) sopii siihen paremmin.

@@ -19,12 +19,12 @@ Jokaisen liukumatyypin voi valita Väriliukuman osasta työkalupalkissa:
 
 {{< figure src="/kuvat/toolbar_gradienttool.png" alt="Väriliukuma" >}}	
 
-Ensimmäinen palkki liukumia näyttää miltä se näyttää väritilassa piirtäessä mustavalkoisena:
+Ensimmäinen kuva välilehdessä näyttää miltä se näyttää väritilassa piirtäessä mustavalkoisena:
 
-Toinen palkki näyttää miten liukuma vaikuttaa läpinäkyvyystilassa seuraavaan kuvaan:
+Toinen kuva välilehdessä näyttää miten liukuma vaikuttaa läpinäkyvyystilassa seuraavaan kuvaan:
 
 {{% huom %}}Shakkilautamalli tarkoittaa läpinäkyvyyttä.{{% /huom %}}
 
-{{< figure src="/resurssit/camaro_160.jpg" alt="Camaro" >}}	
+{{< figure src="/resurssit/ruisleipa.jpg" alt="Ruisleipä" class="border" >}}	
 
 {{% tabit "liukuma" %}}

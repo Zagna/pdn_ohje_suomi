@@ -11,7 +11,7 @@ title = "Käyrät"
 +++
 
 <p class="curves">
-	<img src="/kuvat/curvesnull.png" alt="Käyrät-Null">
+	<img src="/kuvat/kayra0.png" alt="Käyrät-Null">
 </p>
 
 Käyrät-säätöä voi käyttää värien muokkaamiseen suurella määrällä ohjattavuutta. Käyrät antavat sinun hienosäätää jokaisen sävyn voimakkuutta kuvassa. Tarkemmin, sitä voi 
@@ -36,11 +36,11 @@ Alla on esimerkki miten Käyriä käytetään kuvan muokkaamiseen. Alkuperäinen
 sävyt tulisi tummentaa lisää ja valoisat sävyt kirkastaa. Lopputulos on kuva missä on syvemmät tummat ja vahvemmat kirkkaat, kuitenkin ylläpitäen alkuperäisen kuvan muodon.
 
 <p class="clear centered curves2">
-	<img src="/kuvat/curvesluminosity.png" alt="Käyrät-Luminosity">
+	<img src="/kuvat/kayra1.png" alt="Käyrät-Luminosity">
 </p>
 
 <p class="centered curves2">
-	<img src="/resurssit/curvessamplebase.jpg" alt="Koira1" class="border">&nbsp;<img src="/resurssit/curvessampleluminosity.jpg" alt="Koira2" class="border">
+	<img src="/resurssit/tehoste.jpg" alt="Koira1" class="border">&nbsp;<img src="/resurssit/tehoste_kayra1.jpg" alt="Koira2" class="border">
 </p>
 
 ### Monikanavasäädöt
@@ -51,26 +51,25 @@ vetolaatikosta "RGB" valikon yläosassa.
 Kun tämä tila on valittu, uudet kontrollipisteet vaikuttavat valittuihin värikanaviin jotka voi valita käyttäen valikkoja alaosassa. Muokkaaksesi yksittäisiä tai tiettjä kanavia, 
 valitse ne vain käyttäen valikkoja.
 
-Alla oleva kuva on muokattu Käyrillä nostaakseen kontrastia ja värikylläisyyttä, tarkentaen jo valmiiksi kylläisiin osiin kuten koiran turkki alentaen punaisen kirkkautta. Huomaa 
-että kuvassa on vahvemmat värit, syvemmät tummat osat eikä näytä yhtä harmaalta kuin alkuperäinen.
+Alla oleva kuva on muokattu Käyrillä vahvistamaan koiran turkin punaisen voimakkuutta.
 
 <p class="centered curves2">
-	<img src="/kuvat/curvesrgb.png" alt="Käyrät-Mix">
+	<img src="/kuvat/kayra2.png" alt="Käyrät-Mix">
 </p>
 
 <p class="centered curves2">
-	<img src="/resurssit/curvessamplebase.jpg" alt="Koira3" class="border">&nbsp;<img src="/resurssit/curvessamplergb.jpg" alt="Koira4" class="border">
+	<img src="/resurssit/tehoste.jpg" alt="Koira3" class="border">&nbsp;<img src="/resurssit/tehoste_kayra2.jpg" alt="Koira4" class="border">
 </p>
 
 ### Muut mahdollisuudet
 
-Kuten aiemmin mainittiin, voit käyttää Käyriä kuvan invertoimiseen. Esimerkissä alhaalla, auton kuva muokattiin käyttäen Käyriä tuottaaksen kuvan mikä ei ole mahdollista muilla 
+Kuten aiemmin mainittiin, voit käyttää Käyriä kuvan invertoimiseen. Esimerkissä alhaalla, ruisleivän kuva muokattiin käyttäen Käyriä tuottaaksen kuvan mikä ei ole mahdollista muilla 
 säädöillä, kuten [Sävyala]({{< relref "savyala.md" >}}) tai Sävy / Värikylläisyys:
 
 <p class="centered curves2">
-	<img src="/kuvat/curvesextreme.png" alt="Käyrä-Sin">
+	<img src="/kuvat/kayra3.png" alt="Käyrä-Sin">
 </p>
 
 <p class="centered curves2">
-	<img src="/resurssit/curvesbmwbase.jpg" alt="BMW-Perus" class="border">&nbsp;<img src="/resurssit/curvesbmwextreme.jpg" alt="BMW-Jälkeen" class="border">
+	<img src="/resurssit/ruisleipa.jpg" alt="Ruisleipä" class="border">&nbsp;<img src="/resurssit/ruisleipa_kayra3.jpg" alt="Ruisleipä käyrät" class="border">
 </p>

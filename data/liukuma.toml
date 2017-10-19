@@ -3,11 +3,11 @@
 	name = "Lineaari"
 	
 	[[tab.figure]]
-		src="/resurssit/gradient_linear.png"
+		src="/resurssit/lineaari_esim.jpg"
 		alt="Lineaari"
 		class="border"
 	[[tab.figure]]
-		src="/resurssit/gradient_alpha_linear.jpg"
+		src="/resurssit/lineaari.jpg"
 		alt="Lineaari"
 		class="border"
 
@@ -16,11 +16,11 @@
 	name = "Lineaari (Peilattu)"
 	
 	[[tab.figure]]
-		src="/resurssit/gradient_linearreflected.png"
+		src="/resurssit/lineaari_peilattu_esim.jpg"
 		alt="Lineaari (Peilattu)"
 		class="border"
 	[[tab.figure]]
-		src="/resurssit/gradient_alpha_linearreflected.jpg"
+		src="/resurssit/lineaari_peilattu.jpg"
 		alt="Lineaari (Peilattu)"
 		class="border"
 
@@ -29,11 +29,11 @@
 	name = "Timantti"
 	
 	[[tab.figure]]
-		src="/resurssit/gradient_diamond.png"
+		src="/resurssit/timantti_esim.jpg"
 		alt="Timantti"
 		class="border"
 	[[tab.figure]]
-		src="/resurssit/gradient_alpha_diamond.jpg"
+		src="/resurssit/timantti.jpg"
 		alt="Timantti"
 		class="border"
 
@@ -42,11 +42,11 @@
 	name = "Säteittäinen"
 	
 	[[tab.figure]]
-		src="/resurssit/gradient_radial.png"
+		src="/resurssit/sateittainen_esim.jpg"
 		alt="Säteittäinen"
 		class="border"
 	[[tab.figure]]
-		src="/resurssit/gradient_alpha_radial.jpg"
+		src="/resurssit/sateittainen.jpg"
 		alt="Säteittäinen"
 		class="border"
 
@@ -55,11 +55,11 @@
 	name = "Kartio"
 	
 	[[tab.figure]]
-		src="/resurssit/gradient_conical.png"
+		src="/resurssit/kartio_esim.jpg"
 		alt="Kartio"
 		class="border"
 	[[tab.figure]]
-		src="/resurssit/gradient_alpha_conical.jpg"
+		src="/resurssit/kartio.jpg"
 		alt="Kartio"
 		class="border"
 
@@ -68,11 +68,11 @@
 	name = "Spiraali (Myötäpäivään)"
 	
 	[[tab.figure]]
-		src="/resurssit/gradient_spiralm.png"
+		src="/resurssit/spiraali_m_esim.jpg"
 		alt="Spiraali (Myötäpäivään)"
 		class="border"
 	[[tab.figure]]
-		src="/resurssit/gradient_alpha_spiralm.jpg"
+		src="/resurssit/spiraali_m.jpg"
 		alt="Spiraali (Myötäpäivään)"
 		class="border"
 
@@ -81,10 +81,10 @@
 	name = "Spiraali (Vastapäivään)"
 	
 	[[tab.figure]]
-		src="/resurssit/gradient_spiralv.png"
+		src="/resurssit/spiraali_v_esim.jpg"
 		alt="Spiraali (Vastapäivään)"
 		class="border"
 	[[tab.figure]]
-		src="/resurssit/gradient_alpha_spiralv.jpg"
+		src="/resurssit/spiraali_v.jpg"
 		alt="Spiraali (Vastapäivään)"
 		class="border"

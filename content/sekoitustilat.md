@@ -29,3 +29,18 @@ kun työstät kuvaa. Kuitenkin, tässä aihessa meidän pitää viitata kokoonpa
 Sekoitustilan oletus on Normaali. Jokainen pikseli sekoitetaan kokoonpanoon sen alfa-arvon mukaan. Normaalin lisäksi on myös olemassa alla olevat sekoitustilat.
 
 {{% tabit "sekoitus" %}}
+
+### Työkalujen sekoitustilat
+
+Tasojen lisäksi työkalut [Täyttö]({{< relref "taytto.md" >}}), [Sivellin]({{< relref "sivellin.md" >}}), [Kynä]({{< relref "pikselityokalut.md" >}}), [Kloonaus]({{< relref "kloonaus.md" >}}),
+[Muodot]({{< relref "muodot.md" >}}), [Väriliukuma]({{< relref "variliukuma.md" >}}) sekä [Viiva/Käyrä]({{< relref "viiva_kayra.md" >}}) voivat käyttää sekoitustiloja.
+Työkalujen kanssa aiemmin mainittujen tilojen lisäksi on saatavilla myös Korvaava tila.
+
+#### Korvaava
+
+Normaali sekoitus toimii siten että jokainen piirrettävä pikseli sekoitetaan tasolla jo olemassa oleviin pikseleihin. Korvaava sekoitus toimii siten että jokainen piirrettävä pikseli
+korvaa jo olemassa olevat pikselit. Alla olevassa kuvassa, viiva piirrettiin kahdesti alfa-arvolla 128, joka tarkoittaa noin 50% läpinäkyvyyttä. Viiva vasemmalla on piirretty
+Normaalin sekoituksen kanssa ja täten sekoittuu kuvaan autosta. Kummatkin leipä sekä viiva näkyvät. Toinen viiva oikealla, on piirretty Korvaavan kanssa. Leipä ei ole enää näkyvä
+missä viiva piirrettiin ja ruudukko mikä näkyy tarkoittaa että se osa kuvasta on läpinäkyvä.
+
+{{< figure src="/resurssit/ruisleipa_alpha.jpg" alt="Sekoitustila" class="border" >}}

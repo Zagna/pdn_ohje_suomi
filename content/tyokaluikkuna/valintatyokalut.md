@@ -12,7 +12,7 @@ title = "Valintatyökalut"
 
 Neljä valintatyökalua on saatavilla. Katsomme niistä kolmea jotka ovat listattu alhaalla:
 
-{{< figure src="/kuvat/selectiontools.png" alt="Valintatyökalut" >}}	
+{{< figure src="/kuvat/valintatyokalut.png" alt="Valintatyökalut" >}}	
 
 *	Suorakulmainen valinta
 *	Lassovalinta

@@ -19,7 +19,7 @@ Voit ajatella "tasoja" kasana läpinäkyviä sivuja jotka, kun asetettu päälle
 ilman perspektiiviä (tasot eivät "pienene" kun ne ovat kasan pohjalla, mikä sijoittaisi ne "kauemmaksi"). Nähdäksesi miten tasot toimivat paremmin, voi olla
 helpompaa nähdä tasot vierestä kuin ylhäältä:
 
-{{< figure src="/resurssit/3d_ruisleipa.jpg" alt="Tasot päällekkäin" >}}
+{{< figure src="/resurssit/3d_ruisleipa_100.jpg" alt="Tasot päällekkäin" >}}
 
 ### Pikselit ja läpinäkyvyys
 
@@ -43,7 +43,7 @@ tason peittävyys on kuin himmennin tason jokaiselle pikselille.
 
 Esimerkkinä, jos asetamme päällisen tason päittävyyden 255:sta askelin 0:aan, saamme seuraavat kuvat jotka esitetään konseptina sekä miten ne näkyvät näytöllä:
 
-{{< figure src="/resurssit/3d_ruisleipa.jpg" title="Taso 1 peittävyys 255 (100%)" caption="Täysin peittävä: Rovaniemeä ei näe." >}}
+{{< figure src="/resurssit/3d_ruisleipa_100.jpg" title="Taso 1 peittävyys 255 (100%)" caption="Täysin peittävä: Rovaniemeä ei näe." >}}
 
 {{< figure src="/resurssit/3d_ruisleipa_50.jpg" title="Taso 1 peittävyys 128 (noin 50%)" caption="Osittain läpinäkyvä: Rovaniemi on osittain näkyvä." >}}
 

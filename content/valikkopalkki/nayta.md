@@ -47,7 +47,7 @@ Näytä-valikko sisältää komentoja joita voi käyttää vaihtamaan tapaa mite
 	Tämä valinta antaa sinun joka näyttää tai piilottaa viivoittimet jotka ovat näkyvillä vasemmassa ja yläreunassa. Tämä voi auttaa sinua kohdistamaan piirroksia tiettyihin 
 	kohtiin kuvaan ilman että sinun pitää katsoa kursorin sijaintia tilapalkissa. Kun valinta on aktiivinen, sen sykkivä reuna korostetaan viivoittimissa.
 	
-	{{< figure src="/resurssit/rulers.jpg" alt="Viivoitin" class="border" >}}
+	{{< figure src="/resurssit/viivain.jpg" alt="Viivoitin" class="border" >}}
 	
 *	### Pikseliä, Tuumaa, ja Senttimetriä
 	
