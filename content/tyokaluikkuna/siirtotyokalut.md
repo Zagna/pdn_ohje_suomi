@@ -31,7 +31,7 @@ Kun valitset siirtotyökalun, useita kahvoja, tai nuppeja, ilmestyy valinnan reu
 
 {{< figure src="/resurssit/movenubs.jpg" alt="Siirtonupit" >}}
 
-Kun jompi kumpi näistä työkaluista on valittu, voit suorittaa minkä tahansa näistä kolmesta työstä saadaksesi halutun tuloksen. Voit suorittaa jokaisen työn monta kertaa, voit 
+Kun jompi kumpi näistä työkaluista on valittu, voit suorittaa minkä tahansa näistä neljästä työstä saadaksesi halutun tuloksen. Voit suorittaa jokaisen työn monta kertaa, voit 
 sekoittaa niitä saadaksesi oikea tuloksen. Huomaa että jokaisessa esimerkissä, kun käytetään Muokkaa valintaa-työkalua, pikselit jotka oli valittu ei vaikuteta.
 
 {{% huom %}}Kun siirrät pikseleitä ympäriinsä taustakuvatasolla, shakkilautamalli joka jää jälkeen, ilmoittaa että alue on läpinäkyvä. Malli ei ole osa itse kuvaa.{{% /huom %}}

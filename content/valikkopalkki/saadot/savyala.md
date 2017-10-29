@@ -15,7 +15,7 @@ sisääntulon ja ulostulon valkopisteeseen, harmaapisteeseen ja mustapisteeseen.
 esiintyy kuvassa. Harmaapiste esittää värien keskiarvoa koko kuvassa.
 
 <p class="centered levels">
-	<img src="/kuvat/levels1.png" alt="">
+	<img src="/kuvat/levels1.png" alt="Käyrät1">
 </p>
 
 Jokaista väripistettä voi muokata käyttäen Sävyalaa. Yllä olevassa valikossa, on 5 numerista valintaa ja 5 väriliukua. Kaksi vasemmalla puolella 'Sisääntulo' osassa tarkoittaa
@@ -27,7 +27,7 @@ mustapistettä hieman kirkkaammaksi, teemme kaikista niistä tummista väreistä
 vaikuta kuvan valkoiseen tai mustaan, se nostaa kuvan värejä yleisesti kirkkaammiksi.
 
 <p class="centered levels">
-	<img src="/resurssit/lewistonsunset_small.jpg" alt="" class="border">&nbsp;<img src="/resurssit/lewistonsunset_small_levels1.jpg" alt="" class="border">
+	<img src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät2" class="border">&nbsp;<img src="/resurssit/lewistonsunset_small_levels1.jpg" alt="Käyrät3" class="border">
 </p>
 
 Nämä säädöt venyvät koko kuvan alaan, nähtäen helposti histogrammeista mitkä ovat kummallakin puolella. Histogrammi vasemmalla näyttää kuvan värialan ennen mitään muokkausta, 
@@ -44,9 +44,9 @@ kaksi kerrallaan). Alla olevassa kuvassa, gamma on säädetty vihreän ja sinise
 kuvassa, kuten voi nähdä alla olevassa kuvassa.
 
 <p class="centered levels">
-	<img src="/kuvat/levels2.png" alt="">
+	<img src="/kuvat/levels2.png" alt="Käyrät4">
 </p>
 
 <p class="centered levels">
-	<img src="/resurssit/lewistonsunset_small.jpg" alt="" class="border">&nbsp;<img src="/resurssit/lewistonsunset_small_levels2.jpg" alt="" class="border">
+	<img src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät5" class="border">&nbsp;<img src="/resurssit/lewistonsunset_small_levels2.jpg" alt="Käyrät6" class="border">
 </p>

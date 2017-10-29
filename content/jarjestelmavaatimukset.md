@@ -27,4 +27,4 @@ ja parempaan tehokkuuteen vähemmän kovalevyn käytön takia.
 
 Laitteistopohjainen kiihdytys (GPU) Direct2D:n avulla on tuettu. Tämä parantaa suorituskykyä joillain järjestelmillä.
 
-Jos näet virheitä kuvien näytössä, on suositeltavaa poistaa se käytöstä \(<img src="/resurssit/tyokalut/tools.png" /> [Asetukset &rarr; Käyttöliittymä]({{< relref "asetukset.md" >}})\).
+Jos näet virheitä kuvien näytössä, on suositeltavaa poistaa se käytöstä \(<img src="/resurssit/tyokalut/tools.png" alt="Työkalut" /> [Asetukset &rarr; Käyttöliittymä]({{< relref "asetukset.md" >}})\).

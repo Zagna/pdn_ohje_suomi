@@ -48,3 +48,19 @@
 		class="bunder"
 		alt="Muokkaa valintaa"
 		caption="Muokkaa valintaa"
+
+[[tab]]
+	id = "kopioi"
+	name = "Kopioi"
+	content = "Ctrl-nappi pohjassa voit **Siirrä valintaa** -työkalua käyttämällä kopioida valitun alueen."
+	
+	[[tab.figure]]
+		src="/resurssit/move_copy1.jpg"
+		class="bunder"
+		alt="Alue valittu"
+		caption="Alue valittu"
+	[[tab.figure]]
+		src="/resurssit/move_copy2.jpg"
+		class="bunder"
+		alt="Valinta kopioitu"
+		caption="Valinta kopioitu"

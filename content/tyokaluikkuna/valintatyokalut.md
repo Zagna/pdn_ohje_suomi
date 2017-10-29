@@ -23,7 +23,7 @@ Nämä työkalut ovat päätavat alueiden valitsemiseen muokkausta, poistamista,
 muotojen piirtämisessä Muototyökaluilla.
 
 Yksinkertaisesti piirrä valinta vasemmalla hiiren napilla ja siirrä hiirtä kunnes muoto on sopiva. Poistaaksesi valinnan voit joko klikata missä tahansa kun valintatyökalu 
-on valittu tai voit käyttää [Muokkaa **&rarr;** Poista valinta]({{< relref "muokkaa.md" >}}) (myös [Työkalupalkissa]({{< relref "asetukset.md#valintatyokalut" >}})).
+on valittu tai voit käyttää [Muokkaa **&rarr;** Poista valinta]({{< relref "muokkaa.md" >}}) (myös [Työkalupalkissa]({{< relref "tyokalupalkki.md#valintatyökalut" >}})).
 
 Kun valinta on aktiivinen kuvassa, katkoviivainen piirretään näyttämään missä valinta on. Jos valintatyökalu on valittu, valinnassa on myös sininen korostus helpottamaan 
 alueen näkemistä. Jos valitset muun työkalun, sininen korostus poistetaan jotta voit erottaa värit helpommin.

@@ -45,7 +45,7 @@ Jos piirrät oikealla hiiren napilla, edusta- ja taustavärin roolit ovat kään
 
 ### Muodon siirtäminen
 
-Ennen kuin Muoto on viimeistelty pohjalle, sitä voi siirtää kuvan alueella. Klikkaa ja vedä neljän nuolen ikonia hiirellä <img src="/resurssit/movecursor.png" />.
+Ennen kuin Muoto on viimeistelty pohjalle, sitä voi siirtää kuvan alueella. Klikkaa ja vedä neljän nuolen ikonia hiirellä <img src="/resurssit/movecursor.png" alt="Kursori" />.
 
 Muotoa voi siirtää myös käyttämällä keskellä olevaa osoitinta. Se muuttuu neljäksi nuoleksi. Klikkaa ja vedä siirtääksesi Muotoa.
 
@@ -62,7 +62,7 @@ Voit siirtää pistettä klikkaamalla sitä (sen voi sijoittaa kohteen sisälle 
 Pyöritä Muotoa Pisteen mukaan klikkaamalla oikealla hiiren näppäimellä ja vetämällä. Toinen vaihtoehto on sijoittaa kursori juuri Muodon reunalle kunnes siitä tulee
 käyrä kahden nuolen ikoni. Tämä tarkoittaa että Muotoa voi pyörittää keskuksen kohdalta klikkaamalla ja vetämällä vasemmalla hiiren näppäimellä.
 
-{{< figure src="/resurssit/rotatecursor.png" alt="" >}}
+{{< figure src="/resurssit/rotatecursor.png" alt="Pyöritä" >}}
 
 Jos Shift-näppäin on alhaalla, pyörityksen kulma on rajoitettu 15 asteen kertoimiin.
 

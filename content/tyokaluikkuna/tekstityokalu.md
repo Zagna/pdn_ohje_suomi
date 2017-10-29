@@ -12,7 +12,7 @@ tooltip = "resurssit/tyokalut/text.png"
 +++
 
 Tätä työkalua käytetään tekstin lisäämiseen tasoon. Kun työkalu on valittu, voit klikata missä vain pohjalla asettaaksesi tekstikursorin. Kun tekstikursori vilkkuu, voit 
-lisätä tekstiä. [Teksti asetuksia työkalupalkissa]({{< relref "asetukset.md#teksti" >}}) voi käyttää asettamaan fontin, fontin koon ja asettelun sekä pehmeyden.
+lisätä tekstiä. [Teksti asetuksia työkalupalkissa]({{< relref "tyokalupalkki.md#teksti" >}}) voi käyttää asettamaan fontin, fontin koon ja asettelun sekä pehmeyden.
 
 {{< figure src="/kuvat/texttool_using.png" alt="Teksti työkalun käyttö" >}}
 
