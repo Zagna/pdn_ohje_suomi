@@ -12,9 +12,11 @@
 			{{ range .figure }}
 				<figure class="{{ .class }}">
 					<img src="{{ .src }}" alt="{{ .alt }}">
+					{{ with .caption }}
 					<figcaption>
-						<h4>{{ .caption }}</h4>
+						<h4>{{ . }}</h4>
 					</figcaption>
+					{{ end }}
 				</figure>
 			{{ end }}
 			{{ with .vihje }}

@@ -21,7 +21,9 @@ Voit ajatella että Taikasauva toimii samallalailla kuin Täyttö, mutta sen sij
 Samallalailla kuin [Täyttö]({{< relref "taytto.md" >}}), Taikasauvan tulosta voi säätää vaihtamalla [Toleranssia]({{< relref "tyokalupalkki.md#taikasauva-täyttö-ja-uudelleen-väritys" >}}). Alla näet esityksen tästä säädöstä.
 
 {{< figure class="border magic" src="/resurssit/magicwand_tol25.jpg" caption="Taikasauva toleranssiasetuksella 15%. Valinta ei valitse tarpeeksi kuvasta: toleranssi on liian pieni." >}}
+
 {{< figure class="border magic" src="/resurssit/magicwand_tol50.jpg" caption="Taikasauva toleranssiasetuksella 45%. Valinta valitsee liikaa kuvasta: toleranssi on liian suuri." >}}
+
 {{< figure class="border magic2" src="/resurssit/magicwand_tol31.jpg" caption="Taikasauva toleranssiasetuksella 25%. Valinta valitsee juuri sopivasti kuvasta." >}}
 
 ## Kehittynyt käyttö

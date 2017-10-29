@@ -13,6 +13,7 @@ title = "Tasojen selitys"
 Tätä aihetta varten seuraavia kahta kuvaa käytetään taustakuvaksi sekä ensimmäiseksi tasoksi taustakuvan yläpuolella:
 
 {{< figure class="border" src="/resurssit/kemijoki.jpg" title="Taustakuva - Kuva Rovaniemestä (1972)" caption="(\"Pohja taso\")" >}}
+
 {{< figure class="border" src="/resurssit/ruisleipa.jpg" title="Taso 1 - Kuva ruisleivästä" caption="(\"Päällinen taso\")" >}}
 
 Voit ajatella "tasoja" kasana läpinäkyviä sivuja jotka, kun asetettu päällekkäin muodostavat kokonaisen kuvan. paint.net näyttää tämän kasan kuin katsoisit sitä ylhäältä
