@@ -63,7 +63,7 @@ p
 	padding-top: 2em;
 	width: 90%;
 	margin: auto;
-	min-width: 740px;
+	min-width: 700px;
 	max-width: 1200px;
 }
 
@@ -95,6 +95,9 @@ p
 {
 	float: right;
 	width: 78%;
+	margin: 0;
+	padding: 0;
+	z-index: 8;
 }
 
 #content h3 span
@@ -138,47 +141,14 @@ ol
 
 #navigation
 {
-	width: 20%;
+	width: 18%;
 	float: left;
-	padding-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 #navigation h2
 {
 	margin-top: 0em;
-}
-
-#navigation ul
-{
-	list-style: none;
-	margin-left: .5em;
-	margin-top: 0;
-}
-
-#navigation ul > li > ul
-{
-	display:none;
-}
-
-#navigation .plus:before
-{
-	content: "+";
-	margin-right: 2px;
-}
-
-#navigation li
-{
-	margin-left: .2em;
-}
-
-#navigation li.plus
-{
-	margin-left: .4em;
-}
-
-#navigation ul > li:hover > ul, #navigation ul > li.selected > ul
-{
-	display: block;
 }
 
 ul, ol

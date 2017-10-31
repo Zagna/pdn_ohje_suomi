@@ -15,7 +15,7 @@
 		caption="Muokkaa valintaa"
 
 [[tab]]
-	id = "muuta"
+	id = "muutas"
 	name = "Muuta"
 	content = "Siirrä hiiri nupin päälle ja kursori muuttuu kädeksi. Paina ja siirrä muuttaaksesi valinnan kokoa."
 	vihje = "Jos siirrät yhtä nurkkanuppia, voit Shift-nappia pohjassa pitämällä pakottaa kuvan säilyttämään kuvasuhteen (valinnan koon mukaan)."

@@ -3,15 +3,15 @@
 <nav id="navigation">
 	{{ range .Site.Menus.pdn }}
 		{{ if eq .Identifier "koti" }}<h2>{{ .Name }}</h2>{{ else }}<h3>{{ .Name }}</h3>{{ end }}
-		<ul>
+		<ul id="{{ .Identifier }}" class="menu-v">
 		{{ range .Children }}
-			<li class="{{ if $currentPage.HasMenuCurrent "pdn" . }}selected{{ end }} {{ if .HasChildren }}plus{{ end }}"><a href="{{ .URL }}">{{ .Name }}</a>
+			<li><a href="{{ .URL }}">{{ .Name }}</a>
 			{{ if .HasChildren }}
-				<ul>
+				<ul class="sub">
 				{{ range .Children }}
-					<li class="{{ if $currentPage.HasMenuCurrent "pdn" . }}selected{{ end }} {{ if .HasChildren }}plus{{ end }}"><a href="{{ .URL }}">{{ .Name }}</a>
+					<li><a href="{{ .URL }}">{{ .Name }}</a>
 					{{ if .HasChildren }}
-					<ul>
+					<ul class="sub">
 						{{ range .Children }}
 						<li><a href="{{ .URL }}">{{ .Name }}</a></li>
 						{{ end }}
