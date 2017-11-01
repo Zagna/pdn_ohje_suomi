@@ -31,7 +31,7 @@ työkaluksi kuvien muokkaamiseen.
 	Välilehdet tekevät navigaatiosta yksinkertaista ja helppoa, tarvitset vain yhden klikkauksen siirtyääksesi toiseen kuvaan. Uutta paint.netissä on että välilehdet voi järjestellä
 	uudestaan vetämällä ja pudottamalla.
 	
-	Jokainen avoinna oleva kuva näkyy erillään Windowsin tehtäväpälkin esikatselussa \(tämän voi ottaa pois päältä [Asetukset]({{< relref "asetukset.md" >}}) valikossa\).
+	Jokainen avoinna oleva kuva näkyy erillään Windowsin tehtäväpälkin esikatselussa \(tämän voi ottaa pois päältä <img style="vertical-align: middle;" src="/resurssit/tyokalut/tools.png" alt="Työkalut" />[Asetukset]({{< relref "asetukset.md" >}}) valikossa\).
 
 *	### Tasot
 
@@ -69,6 +69,6 @@ työkaluksi kuvien muokkaamiseen.
 
 	paint.net jaetaan ilman maksua.
 
-Palautetta käännöksestä voi lähettää [sähköpostilla](mailto:jarno.ruokamo@gmail.com?subject=Palautetta%20k%C3%A4%C3%A4nn%C3%B6ksest%C3%A4) <img src="/resurssit/fi.png" alt="suomilippu" />.
+Palautetta käännöksestä voi lähettää [sähköpostilla](mailto:jarno.ruokamo@gmail.com?subject=Palautetta%20k%C3%A4%C3%A4nn%C3%B6ksest%C3%A4) <img style="vertical-align: middle;" src="/resurssit/fi.png" alt="suomilippu" />.
 
 Terveisin, Jarno Ruokamo.

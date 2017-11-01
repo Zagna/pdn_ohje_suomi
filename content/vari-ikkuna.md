@@ -12,7 +12,8 @@ title = "Väri-ikkuna"
 
 Tällä ikkunalla on kaksi tilaa: "Vähemmän" ja "Enemmän". Oletuksena paint.net käynnistyy väri-ikkuna Vähemmän tilassa. Tässä tilassa voit helposti valita pohjavärin käyttäen joko 
 väripyörää tai palettia. paint.net mahdollistaa kahden värin valitsemisen, edusta- ja taustavärin, ja voit käyttää alasvetolaatikkoa väri-ikkunan yläreunassa valitsemaan kumpi on 
-valittu ja voi muokata. Eräät työkalut, kuten [Sivellin]({{< relref "sivellin.md" >}}) ja tietyt [Muototyökalut]({{< relref "muodot.md" >}}), käyttävät edusta- tai taustaväriä 
+valittu ja voi muokata. Eräät työkalut, kuten <img style="vertical-align: middle;" src="/resurssit/tyokalut/paintbrush.png" alt="Työkalut" />[Sivellin]({{< relref "sivellin.md" >}})
+ja tietyt <img style="vertical-align: middle;" src="/resurssit/tyokalut/shapes.png" alt="Työkalut" />[Muototyökalut]({{< relref "muodot.md" >}}), käyttävät edusta- tai taustaväriä 
 piirtämisessä, riippuen siitä millä hiiren napilla piirrät.
 
 {{% vihje %}}Voit myös käyttää pikanäppäintä C vaihtaaksesi edusta ja taustavärin välillä nopeasti.{{% /vihje %}}

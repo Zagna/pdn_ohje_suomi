@@ -24,7 +24,7 @@ Seuraavat työkalut käsitellään tässä osassa:
 	Tällä voit liikuttaa, pyörittää ja skaalata valintaa, mutta *ei* pikseleitä jotka ovat valinnassa. Tämä on hyödyllistä valinnan tarkentamisessa. Kun tämä työkalu on käytössä, 
 	valintaan lisätään sininen korostus jotta voisit nähdä valinnan tarkemmin.
 	
-Ensimmäiseksi sinun tulee olla varma ennen kuin valitset yhden näistä työkaluista että sinulla on aktiivinen valinta. Katso [Valintatyökaluista]({{< relref "valintatyokalut.md" >}}) miten 
+Ensimmäiseksi sinun tulee olla varma ennen kuin valitset yhden näistä työkaluista että sinulla on aktiivinen valinta. Katso <img style="vertical-align: middle;" src="/resurssit/tyokalut/select.png" alt="Työkalut" />[Valintatyökaluista]({{< relref "valintatyokalut.md" >}}) miten 
 luot ja muokkaat niitä. Jokainen siirto, koon muutto ja pyöritys mitä teet valintaan lisätään [Historiaikkunaan]({{< relref "historiaikkuna.md" >}}).
 
 Kun valitset siirtotyökalun, useita kahvoja, tai nuppeja, ilmestyy valinnan reunoihin ja nurkkiin, esimerkkinä:

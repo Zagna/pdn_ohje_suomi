@@ -33,8 +33,15 @@ Sekoitustilan oletus on Normaali. Jokainen pikseli sekoitetaan kokoonpanoon sen 
 
 ### Työkalujen sekoitustilat
 
-Tasojen lisäksi työkalut [Täyttö]({{< relref "taytto.md" >}}), [Sivellin]({{< relref "sivellin.md" >}}), [Kynä]({{< relref "pikselityokalut.md" >}}), [Kloonaus]({{< relref "kloonaus.md" >}}),
-[Muodot]({{< relref "muodot.md" >}}), [Väriliukuma]({{< relref "variliukuma.md" >}}) sekä [Viiva/Käyrä]({{< relref "viiva_kayra.md" >}}) voivat käyttää sekoitustiloja.
+Tasojen lisäksi työkalut
+<img style="vertical-align: middle;" src="/resurssit/tyokalut/paintbucket.png" alt="Työkalut" />[Täyttö]({{< relref "taytto.md" >}}),
+<img style="vertical-align: middle;" src="/resurssit/tyokalut/paintbrush.png" alt="Työkalut" />[Sivellin]({{< relref "sivellin.md" >}}),
+<img style="vertical-align: middle;" src="/resurssit/tyokalut/pencil.png" alt="Työkalut" />[Kynä]({{< relref "pikselityokalut.md" >}}),
+<img style="vertical-align: middle;" src="/resurssit/tyokalut/clonestamp.png" alt="Työkalut" />[Kloonaus]({{< relref "kloonaus.md" >}}),
+<img style="vertical-align: middle;" src="/resurssit/tyokalut/shapes.png" alt="Työkalut" />[Muodot]({{< relref "muodot.md" >}}),
+<img style="vertical-align: middle;" src="/resurssit/tyokalut/gradient.png" alt="Työkalut" />[Väriliukuma]({{< relref "variliukuma.md" >}}) sekä
+<img style="vertical-align: middle;" src="/resurssit/tyokalut/linecurve.png" alt="Työkalut" />[Viiva/Käyrä]({{< relref "viiva_kayra.md" >}}) voivat käyttää sekoitustiloja.
+
 Työkalujen kanssa aiemmin mainittujen tilojen lisäksi on saatavilla myös Korvaava tila.
 
 #### Korvaava

@@ -13,7 +13,7 @@ tooltip = "resurssit/tyokalut/view.png"
 
 Kuvan näyttämiseen on olemassa kaksi työkalua, Suurennuskerroin ja Panoroi. Ne vaikuttavat vain siihen miten kuva näkyy ikkunassa mutteivät muokkaa kuvaa itsessään.
 
-### Suurennuskerroin <img src="/resurssit/tyokalut/zoom.png" alt="suurennuskerroin" />
+### Suurennuskerroin <img style="vertical-align: middle;" src="/resurssit/tyokalut/zoom.png" alt="suurennuskerroin" />
 
 Suurennuskerroimella voit joko kohdistaa (tai suurentaa) kuvaa, tai kaukaistaa (pienentää) kuvaa.
 
@@ -25,7 +25,7 @@ Suurennuskerroin-työkalun ollessa käytössä, hiirellä klikkaamalla ja piirt�
 
 {{% vihje %}}Kun Suurennuskerroin-työkalu on käytössä, kuvaa voi panoroida pitämällä hiiren rulla alhaalla ja siirtämällä hiirtä.{{% /vihje %}}
 
-### Panoroi <img src="/resurssit/tyokalut/pan.png" alt="panoroi" />
+### Panoroi <img style="vertical-align: middle;" src="/resurssit/tyokalut/pan.png" alt="panoroi" />
 
 Panoroi-työkalu mahdollistaa kuvan siirtämisen. Hyöty on suurin kun kuva on suurempi kuin pääikkuna (erityisesti kun kuva on suurennettu).
 
@@ -39,7 +39,7 @@ Klikkaa ja vedä hiirellä siirtääksesi kuvaa.
 
 Versiosta 4.0.10 eteenpäin on ollut mahdollista vierittää kuvaa ikkunan reunan yli.
 
-{{% vihje %}}Tämä asetus on mahdollistaa pistää pois päältä [Asetuksista]({{< relref "asetukset.md" >}}).{{% /vihje %}}
+{{% vihje %}}Tämä asetus on mahdollistaa pistää pois päältä <img style="vertical-align: middle;" src="/resurssit/tyokalut/tools.png" alt="Työkalut" />[Asetuksista]({{< relref "asetukset.md" >}}).{{% /vihje %}}
 
 Ylivierityksen määrä riippuu kuvan koosta. Pienet kuvat voi siirtää kunnes puolet kuvasta on ikkunan ulkopuolella.
 

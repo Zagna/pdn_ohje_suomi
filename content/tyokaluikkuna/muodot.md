@@ -45,7 +45,7 @@ Jos piirrät oikealla hiiren napilla, edusta- ja taustavärin roolit ovat kään
 
 ### Muodon siirtäminen
 
-Ennen kuin Muoto on viimeistelty pohjalle, sitä voi siirtää kuvan alueella. Klikkaa ja vedä neljän nuolen ikonia hiirellä <img src="/resurssit/movecursor.png" alt="Kursori" />.
+Ennen kuin Muoto on viimeistelty pohjalle, sitä voi siirtää kuvan alueella. Klikkaa ja vedä neljän nuolen ikonia hiirellä <img style="vertical-align: middle;" src="/resurssit/movecursor.png" alt="Kursori" />.
 
 Muotoa voi siirtää myös käyttämällä keskellä olevaa osoitinta. Se muuttuu neljäksi nuoleksi. Klikkaa ja vedä siirtääksesi Muotoa.
 
