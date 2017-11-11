@@ -12,10 +12,10 @@ title = "Järjestelmävaatimukset"
 
 ### Vähimmäisvaatimukset
 
-*	Windows 7 SP1 tai uudempi (8, 8.1, 10)
-*	.NET Framework 4.6
+*	Windows 7 SP1 tai uudempi (8.1, 10)
+*	.NET Framework 4.7
 *	1GHz prosessori
-*	1 Gt RAM-muistia
+*	1Gt RAM-muistia
 *	1024 x 768 näytön resoluutio
 *	200+ Mt kiintolevytilaa
 

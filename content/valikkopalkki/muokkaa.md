@@ -37,6 +37,10 @@ ulkopuolelle niin kauan kuin valinta on aktiivinen. [Tehosteet]({{< relref "teho
 	
 	Tämä on samanlainen kuin Leikkaa, mutta valittu alue jää aktiiviselle tasolle eikä valittua aluetta poisteta.
 	
+*	### Kopioi yhdistettynä
+	
+	Tämä on sama kuin Kopioi mutta kopioi valitun alueen yhdistettynä jokaiselta tasolta.
+	
 *	### Liitä
 	
 	Jos leikepöydällä on kuva, tämä komento liittää sen valitulle tasolle. Liitetyt pikselit tullaan valituksi ja <img style="vertical-align: middle;" src="/resurssit/tyokalut/moveselection.png" alt="Työkalut" />[Siirrä valintaa]({{< relref "siirtotyokalut.md" >}}) työkalu tulee 

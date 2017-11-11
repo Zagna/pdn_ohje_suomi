@@ -54,3 +54,5 @@ public/*
 *.yml
 tmp/*
 /404.html
+svg.*
+*.svg
