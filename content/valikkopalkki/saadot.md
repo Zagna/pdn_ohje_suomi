@@ -4,9 +4,9 @@ draft = false
 title = "Säädot"
 
 [menu.pdn]
-	parent = "vpalkki"
-	identifier = "saadot"
-	weight = 330
+    parent = "vpalkki"
+    identifier = "saadot"
+    weight = 330
 
 +++
 

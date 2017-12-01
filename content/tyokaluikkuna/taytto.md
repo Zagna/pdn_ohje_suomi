@@ -5,21 +5,24 @@ title = "Täyttö"
 tooltip = "resurssit/tyokalut/paintbucket.png"
 
 [menu.pdn]
-	parent = "tikkuna"
-	identifier = "taytto"
-	weight = 381
+    parent = "tikkuna"
+    identifier = "taytto"
+    weight = 381
 
 +++
 
-Tätä työkalua käytetään täyttämään alue tietyllä värillä. Voit asettaa kursorin alueen päälle jonka haluat täyttää värillä ja sen jälkeen painaa vasenta hiiren nappia täyttääksesi 
-edustavärillä, tai oikeaa hiiren nappia täyttääksesi taustavärillä.
+Tätä työkalua käytetään täyttämään alue tietyllä värillä. Voit asettaa kursorin alueen päälle jonka haluat täyttää värillä ja sen
+jälkeen painaa vasenta hiiren nappia täyttääksesi edustavärillä, tai oikeaa hiiren nappia täyttääksesi taustavärillä.
 
-Alue joka täyttyy määriytyy ympäröivän alueen värin perusteella. [Toleranssi asetus]({{< relref "tyokalupalkki.md" >}}#taikasauva-t%C3%A4ytt%C3%B6-ja-uudelleen-v%C3%A4ritys) työkaluikkunassa määrittää ympäröivän värin laajuuden.
+Alue joka täyttyy määriytyy ympäröivän alueen värin perusteella.
+[Toleranssi asetus]({{< relref "tyokalupalkki.md" >}}#taikasauva-t%C3%A4ytt%C3%B6-ja-uudelleen-v%C3%A4ritys) työkaluikkunassa
+määrittää ympäröivän värin laajuuden.
 
 Täyttö myös käyttää sitä piirtotyyliä minkä valitset [Työkalupalkissa]({{< relref "tyokalupalkki.md" >}}#muodot-sivellin-tyyli-ja-t%C3%A4ytt%C3%B6).
 
-Alla olevassa esimerkissä piirrettiin kaksi ympyrää. Toleranssi asetettiin 75% varmistaakseen että pehmennetyt ympyrän reunat täytetään myös. Täyttöä käytettiin kolme kertaa: 
-kerran kummankin ympyrän sisälle ja kerran ympyröiden väliin jääneeseen alueeseen.
+Alla olevassa esimerkissä piirrettiin kaksi ympyrää. Toleranssi asetettiin 75% varmistaakseen että pehmennetyt ympyrän reunat
+täytetään myös. Täyttöä käytettiin kolme kertaa: kerran kummankin ympyrän sisälle ja kerran ympyröiden väliin jääneeseen
+alueeseen.
 
 **Ennen:**
 

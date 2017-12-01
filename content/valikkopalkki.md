@@ -4,9 +4,9 @@ draft = false
 title = "Valikkopalkki"
 
 [menu.pdn]
-	parent = "kliittyma"
-	identifier = "vpalkki"
-	weight = 310
+    parent = "kliittyma"
+    identifier = "vpalkki"
+    weight = 310
 
 +++
 
@@ -14,42 +14,42 @@ title = "Valikkopalkki"
 
 Saatavilla on yhdeksän ylätason valikkoa ja pikapainikkeet ikkunoille paint.netissä:
 
-1.	### [Tiedosto]({{< relref "tiedosto.md" >}})
+1. ### [Tiedosto]({{< relref "tiedosto.md" >}})
 
-	Nämä komennot antaa avata, hankkia ja tallentaa kuvia. Valikot toimivat samallalailla kuin muissa ohjelmissa.
-	
-1.	### [Muokkaa]({{< relref "muokkaa.md" >}})
+    Nämä komennot antaa avata, hankkia ja tallentaa kuvia. Valikot toimivat samallalailla kuin muissa ohjelmissa.
 
-	Näillä komennoilla voit muokata kuvan historiaa, valittua alaa, itse valintaa ja leikepöytää.
+1. ### [Muokkaa]({{< relref "muokkaa.md" >}})
 
-1.	### [Näytä]({{< relref "nayta.md" >}})
+    Näillä komennoilla voit muokata kuvan historiaa, valittua alaa, itse valintaa ja leikepöytää.
 
-	Nämä komennot vaikuttavat siihen miten kuva tai alue näytetään.
-	
-1.	### [Kuva]({{< relref "kuva.md" >}})
+1. ### [Näytä]({{< relref "nayta.md" >}})
 
-	Nämä komennot vaikuttavat koko kuvaan, kaikkiin tasoihin.
-	
-1.	### [Tasot]({{< relref "tasot.md" >}})
+    Nämä komennot vaikuttavat siihen miten kuva tai alue näytetään.
 
-	Nämä komennot vaikuttavat vain aktiiviseen tasoon.
-	
-1.	### [Säädöt]({{< relref "saadot.md" >}})
+1. ### [Kuva]({{< relref "kuva.md" >}})
 
-	Sisältää säätöjä joilla voi muokata nykyistä tasoa.
-	
-1.	### [Tehosteet]({{< relref "tehosteet.md" >}})
+    Nämä komennot vaikuttavat koko kuvaan, kaikkiin tasoihin.
 
-	Sisältää tehosteita joita voi käyttää nykyisen tason muokkaukseen.
-	
-1.	### [Ikkunat]({{< relref "ikkunat.md" >}})
+1. ### [Tasot]({{< relref "tasot.md" >}})
 
-	Nämä komennot antavat sinun piilottaa tai näyttää kelluvat ikkunat.
-	
-1.	### [Asetukset]({{< relref "asetukset.md" >}})
+    Nämä komennot vaikuttavat vain aktiiviseen tasoon.
 
-	Sisältää ohjelman asetukset.
-			
-1.	### [Ohje]({{< relref "ohje.md" >}})
+1. ### [Säädöt]({{< relref "saadot.md" >}})
 
-	Antaa nopean pääsyn tähän ohjeeseen, tavan lähettää palautetta tai virheilmoituksen ja pääsyn Tietoja-valikkoon.
+    Sisältää säätöjä joilla voi muokata nykyistä tasoa.
+
+1. ### [Tehosteet]({{< relref "tehosteet.md" >}})
+
+    Sisältää tehosteita joita voi käyttää nykyisen tason muokkaukseen.
+
+1. ### [Ikkunat]({{< relref "ikkunat.md" >}})
+
+    Nämä komennot antavat sinun piilottaa tai näyttää kelluvat ikkunat.
+
+1. ### [Asetukset]({{< relref "asetukset.md" >}})
+
+    Sisältää ohjelman asetukset.
+
+1. ### [Ohje]({{< relref "ohje.md" >}})
+
+    Antaa nopean pääsyn tähän ohjeeseen, tavan lähettää palautetta tai virheilmoituksen ja pääsyn Tietoja-valikkoon.

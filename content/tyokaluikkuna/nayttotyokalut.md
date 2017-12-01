@@ -5,13 +5,14 @@ title = "Näytön työkalut"
 tooltip = "resurssit/tyokalut/view.png"
 
 [menu.pdn]
-	parent = "tikkuna"
-	identifier = "naytto"
-	weight = 384
+    parent = "tikkuna"
+    identifier = "naytto"
+    weight = 384
 
 +++
 
-Kuvan näyttämiseen on olemassa kaksi työkalua, Suurennuskerroin ja Panoroi. Ne vaikuttavat vain siihen miten kuva näkyy ikkunassa mutteivät muokkaa kuvaa itsessään.
+Kuvan näyttämiseen on olemassa kaksi työkalua, Suurennuskerroin ja Panoroi. Ne vaikuttavat vain siihen miten kuva näkyy
+ikkunassa mutteivät muokkaa kuvaa itsessään.
 
 ### Suurennuskerroin <img style="vertical-align: middle;" src="/resurssit/tyokalut/zoom.png" alt="suurennuskerroin" />
 
@@ -44,29 +45,31 @@ Versiosta 4.0.10 eteenpäin on ollut mahdollista vierittää kuvaa ikkunan reuna
 Ylivierityksen määrä riippuu kuvan koosta. Pienet kuvat voi siirtää kunnes puolet kuvasta on ikkunan ulkopuolella.
 
 <figure>
-	 <video width="640" height="360" autoplay loop>
-		<source type="video/mp4" src="/vid/view1.mp4">
-	 </video>
-	 <figcaption>Kuvan panorointi käyttäen vasenta hiiren nappia ja välilyöntiä</figcaption>
+    <video width="640" height="360" autoplay loop>
+        <source type="video/mp4" src="/vid/view1.mp4">
+    </video>
+    <figcaption>Kuvan panorointi käyttäen vasenta hiiren nappia ja välilyöntiä</figcaption>
 </figure>
 
 Isompana näkyvät kuvat siirtyvät kunnes kuvan reuna osuu ikkunan keskikohtaan.
 
 <figure>
-	 <video width="640" height="360" autoplay loop>
-		<source type="video/mp4" src="/vid/view2.mp4">
-	 </video>
-	 <figcaption>Kuvan panorointi käyttäen vasenta hiiren nappia ja välilyöntiä</figcaption>
+    <video width="640" height="360" autoplay loop>
+        <source type="video/mp4" src="/vid/view2.mp4">
+    </video>
+    <figcaption>Kuvan panorointi käyttäen vasenta hiiren nappia ja välilyöntiä</figcaption>
 </figure>
 
 Kuvia voi siirtää myös ↑ ← ↓ → nuolinäppäimillä kun Välilyönti-näppäin on pidetty alhaalla.
 
 Kuvan vierityksen määrä nuolinäppäimillä riippuu siitä kuinka suuri Suurennuskerroin on.
 
-Kuvat joita esitetään yli 1000% suurennoksella liikkuvat pikselin murto-osia kerrallaan. Pienemmällä suurrennoksella kuvat siirtyvät useamman pikselin kerrallaan.
+Kuvat joita esitetään yli 1000% suurennoksella liikkuvat pikselin murto-osia kerrallaan. Pienemmällä suurrennoksella kuvat
+siirtyvät useamman pikselin kerrallaan.
 
 Jos Ctrl ja Välilyönti -näppäimet ovat alhaalla yhtä aikaa, kuvan siirtyminen on kerrattu kymmenellä.
 
 ### Kuvan keskittäminen
 
-Kuvan keskittäminen on helpointa painamalla Ctrl+B kahdesti. Ensimmäinen painallus kohdistaa kuvan ikkunan kokoon ja toinen painallus palauttaa edellisen suurennuskertoimen.
+Kuvan keskittäminen on helpointa painamalla Ctrl+B kahdesti. Ensimmäinen painallus kohdistaa kuvan ikkunan kokoon ja toinen
+painallus palauttaa edellisen suurennuskertoimen.

@@ -4,9 +4,9 @@ draft = false
 title = "Tehosteet"
 
 [menu.pdn]
-	parent = "vpalkki"
-	identifier = "tehosteet"
-	weight = 340
+    parent = "vpalkki"
+    identifier = "tehosteet"
+    weight = 340
 
 +++
 
@@ -14,35 +14,34 @@ Tämä valikko sisältää monta komentoa, joilla voit sisältää erilaisia teh
 
 {{< figure src="/kuvat/effectsmenu.png" alt="Tehosteet valikko" >}}
 
-## Järjestys
+### Järjestys
 
 Sisäänrakennetut tehosteet on jaettu seitsemään alavalikkoon:
 
-*	### [Artistinen]({{< relref "artistinen.md" >}})
+* ### [Artistinen]({{< relref "artistinen.md" >}})
 
-	Näiden on tarkoitus antaa tuloksena jotain joka on piirretty perinteisillä tavoilla kuten musteella, kynällä ja öljyllä.
-	
-*	### [Kohina]({{< relref "kohina.md" >}})
+    Näiden on tarkoitus antaa tuloksena jotain joka on piirretty perinteisillä tavoilla kuten musteella, kynällä ja öljyllä.
 
-	Näiden on tarkoitus joko lisätä tai poistaa ääntä kuvasta.
-		
-*	### [Renderointi]({{< relref "renderointi.md" >}})	
+* ### [Kohina]({{< relref "kohina.md" >}})
 
-	Nämä yleensä korvaavat kuvan joka on jo olemassa pohjalla.
-	
-*	### [Sumennus]({{< relref "sumennus.md" >}})
+    Näiden on tarkoitus joko lisätä tai poistaa ääntä kuvasta.
 
-	Näiden on tarkoitus sumentaa kuvaa erinäisillä tavoilla.
-		
-*	### [Tyyli]({{< relref "tyyli.md" >}})
+* ### [Renderointi]({{< relref "renderointi.md" >}})
 
-	Nämä tuottavat tyylikkäitä näkyjä jotka ovat hyödyllisiä reunojen löytämiseen jäljitystä varten, tai pelien tekstuurien tuottamiseen (esim. bump map).
-		
-*	### [Valokuva]({{< relref "valokuva.md" >}})
+    Nämä yleensä korvaavat kuvan joka on jo olemassa pohjalla.
 
-	Nämä ovat kaikkein hyödyllisimpiä valokuvien kanssa.
-		
-*	### [Vääristys]({{< relref "vaaristys.md" >}})
-	
-	Näiden on tarkoitus vääristää kuvaa, yleensä tunnistamattomaksi asti.
+* ### [Sumennus]({{< relref "sumennus.md" >}})
 
+    Näiden on tarkoitus sumentaa kuvaa erinäisillä tavoilla.
+
+* ### [Tyyli]({{< relref "tyyli.md" >}})
+
+    Nämä tuottavat tyylikkäitä näkyjä jotka ovat hyödyllisiä reunojen löytämiseen jäljitystä varten, tai pelien tekstuurien tuottamiseen (esim. bump map).
+
+* ### [Valokuva]({{< relref "valokuva.md" >}})
+
+    Nämä ovat kaikkein hyödyllisimpiä valokuvien kanssa.
+
+* ### [Vääristys]({{< relref "vaaristys.md" >}})
+
+    Näiden on tarkoitus vääristää kuvaa, yleensä tunnistamattomaksi asti.

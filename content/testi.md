@@ -4,8 +4,8 @@ draft = true
 title = "Testaus"
 
 [menu.pdn]
-	parent = "koti"
-	weight = 107
+    parent = "koti"
+    weight = 107
 
 +++
 
@@ -40,4 +40,3 @@ title = "Testaus"
 {{% tabit "valokuva" %}}
 
 {{% tabit "kohina" %}}
-

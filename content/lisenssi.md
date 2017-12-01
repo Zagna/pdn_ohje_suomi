@@ -4,9 +4,9 @@ draft = false
 title = "Lisenssi"
 
 [menu.pdn]
-	parent = "muuta"
-	identifier = "lisenssi"
-	weight = 404
+    parent = "muuta"
+    identifier = "lisenssi"
+    weight = 404
 
 +++
 

@@ -4,9 +4,9 @@ draft = false
 title = "Valokuva"
 
 [menu.pdn]
-	parent = "tehosteet"
-	identifier = "vkuva"
-	weight = 346
+    parent = "tehosteet"
+    identifier = "vkuva"
+    weight = 346
 
 +++
 

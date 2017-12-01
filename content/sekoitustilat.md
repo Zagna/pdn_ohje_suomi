@@ -4,14 +4,14 @@ draft = false
 title = "Sekoitustilat"
 
 [menu.pdn]
-	parent = "konsepti"
-	identifier = "sek_tilat"
-	weight = 202
+    parent = "konsepti"
+    identifier = "sek_tilat"
+    weight = 202
 
 +++
 
-Tason sekoitustila määrää miten se sekoitetaan alla oleviin tasoihin. Vaihtaaksesi tason sekoitustilan valitse taso ja avaa sen ominaisuudet (Tasovalikon tai Ominaisuudet napin kautta, 
-tai kaksoisklikkaamalla tasoa). Saat seuraavan valikon:
+Tason sekoitustila määrää miten se sekoitetaan alla oleviin tasoihin. Vaihtaaksesi tason sekoitustilan valitse taso ja avaa sen
+ominaisuudet (Tasovalikon tai Ominaisuudet napin kautta, tai kaksoisklikkaamalla tasoa). Saat seuraavan valikon:
 
 {{< figure src="/kuvat/layerproperties.png" alt="Tason ominaisuudet" >}}
 
@@ -21,13 +21,15 @@ Tätä aihetta varten seuraavia kahta kuvaa käytetään taustakuvaksi sekä ens
 
 {{< figure class="border" src="/resurssit/ruisleipa.jpg" title="Taso 1 - Kuva ruisleivästä" caption="(\"Päällinen taso\")" >}}
 
-Kaikki sekoitustilat eivät ole helppoja ymmärtää, ja tämän takia suosittelemme että kokeilette ja käytätte [foorumia](http://www.getpaint.net/redirect/forum.html) kysymysten ja vinkkien 
+Kaikki sekoitustilat eivät ole helppoja ymmärtää, ja tämän takia suosittelemme että kokeilette ja käytätte [foorumia](http://www.getpaint.net/redirect/forum.html) kysymysten ja vinkkien
 muodossa. Jokainen sekoitustila selostetaan kuvan kanssa edellä mainittujen kuvien kanssa, sekoitustila valittuna ja peittävyys asetettuna täyteen.
 
-Alla olevissa aiheissa, käytämme termiä *kokoonpano*. Tämä viittaa lopputulokseen kaikkien nykyisen tason alla olevien sekoitukseen. "Lopullinen" kokoonpano on mitä näet näytöllä 
-kun työstät kuvaa. Kuitenkin, tässä aihessa meidän pitää viitata kokoonpanoon kun sitä koostaan, taso tasolta.
+Alla olevissa aiheissa, käytämme termiä *kokoonpano*. Tämä viittaa lopputulokseen kaikkien nykyisen tason alla olevien sekoitukseen.
+"Lopullinen" kokoonpano on mitä näet näytöllä kun työstät kuvaa. Kuitenkin, tässä aihessa meidän pitää viitata kokoonpanoon kun sitä
+koostaan, taso tasolta.
 
-Sekoitustilan oletus on Normaali. Jokainen pikseli sekoitetaan kokoonpanoon sen alfa-arvon mukaan. Normaalin lisäksi on myös olemassa alla olevat sekoitustilat.
+Sekoitustilan oletus on Normaali. Jokainen pikseli sekoitetaan kokoonpanoon sen alfa-arvon mukaan. Normaalin lisäksi on myös olemassa
+alla olevat sekoitustilat.
 
 {{% tabit "sekoitus" %}}
 
@@ -40,15 +42,17 @@ Tasojen lisäksi työkalut
 <img style="vertical-align: middle;" src="/resurssit/tyokalut/clonestamp.png" alt="Työkalut" />[Kloonaus]({{< relref "kloonaus.md" >}}),
 <img style="vertical-align: middle;" src="/resurssit/tyokalut/shapes.png" alt="Työkalut" />[Muodot]({{< relref "muodot.md" >}}),
 <img style="vertical-align: middle;" src="/resurssit/tyokalut/gradient.png" alt="Työkalut" />[Väriliukuma]({{< relref "variliukuma.md" >}}) sekä
-<img style="vertical-align: middle;" src="/resurssit/tyokalut/linecurve.png" alt="Työkalut" />[Viiva/Käyrä]({{< relref "viiva_kayra.md" >}}) voivat käyttää sekoitustiloja.
+<img style="vertical-align: middle;" src="/resurssit/tyokalut/linecurve.png" alt="Työkalut" />[Viiva/Käyrä]({{< relref "viiva_kayra.md" >}})
+voivat käyttää sekoitustiloja.
 
 Työkalujen kanssa aiemmin mainittujen tilojen lisäksi on saatavilla myös Korvaava tila.
 
 #### Korvaava
 
-Normaali sekoitus toimii siten että jokainen piirrettävä pikseli sekoitetaan tasolla jo olemassa oleviin pikseleihin. Korvaava sekoitus toimii siten että jokainen piirrettävä pikseli
-korvaa jo olemassa olevat pikselit. Alla olevassa kuvassa, viiva piirrettiin kahdesti alfa-arvolla 128, joka tarkoittaa noin 50% läpinäkyvyyttä. Viiva vasemmalla on piirretty
-Normaalin sekoituksen kanssa ja täten sekoittuu kuvaan autosta. Kummatkin leipä sekä viiva näkyvät. Toinen viiva oikealla, on piirretty Korvaavan kanssa. Leipä ei ole enää näkyvä
-missä viiva piirrettiin ja ruudukko mikä näkyy tarkoittaa että se osa kuvasta on läpinäkyvä.
+Normaali sekoitus toimii siten että jokainen piirrettävä pikseli sekoitetaan tasolla jo olemassa oleviin pikseleihin. Korvaava sekoitus
+toimii siten että jokainen piirrettävä pikseli korvaa jo olemassa olevat pikselit. Alla olevassa kuvassa, viiva piirrettiin kahdesti
+alfa-arvolla 128, joka tarkoittaa noin 50% läpinäkyvyyttä. Viiva vasemmalla on piirretty Normaalin sekoituksen kanssa ja täten sekoittuu
+kuvaan autosta. Kummatkin leipä sekä viiva näkyvät. Toinen viiva oikealla, on piirretty Korvaavan kanssa. Leipä ei ole enää näkyvä missä
+viiva piirrettiin ja ruudukko mikä näkyy tarkoittaa että se osa kuvasta on läpinäkyvä.
 
 {{< figure src="/resurssit/ruisleipa_alpha.jpg" alt="Sekoitustila" class="border" >}}

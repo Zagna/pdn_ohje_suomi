@@ -4,9 +4,9 @@ draft = false
 title = "Kohina"
 
 [menu.pdn]
-	parent = "tehosteet"
-	identifier = "kohina"
-	weight = 342
+    parent = "tehosteet"
+    identifier = "kohina"
+    weight = 342
 
 +++
 

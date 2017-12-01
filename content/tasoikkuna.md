@@ -4,49 +4,49 @@ draft = false
 title = "Tasoikkuna"
 
 [menu.pdn]
-	parent = "kliittyma"
-	identifier = "tasoikkuna"
-	weight = 391
+    parent = "kliittyma"
+    identifier = "tasoikkuna"
+    weight = 391
 
 +++
 
-Tämä ikkuna antaa sinun hallita useita tasoja joita kuva voi sisältää paint.netissä. Aina on olemassa vähintään yksi aktiivinen taso ja kaikki piirtämiset ja tehosteet vaikuttavat 
-yhteen tasoon. Jokaiselle tasolle voi antaa nimen, sekä voi määrittää sekoitustilan ja peittävyyden. Voit myös asettaa tason näkyväksi tai piilotetuksi käyttämällä tason vieressä 
-olevaa valintaruutua.
+Tämä ikkuna antaa sinun hallita useita tasoja joita kuva voi sisältää paint.netissä. Aina on olemassa vähintään yksi aktiivinen taso ja kaikki
+piirtämiset ja tehosteet vaikuttavat yhteen tasoon. Jokaiselle tasolle voi antaa nimen, sekä voi määrittää sekoitustilan ja peittävyyden. Voit
+myös asettaa tason näkyväksi tai piilotetuksi käyttämällä tason vieressä olevaa valintaruutua.
 
-Voit ajatella tasoja kuin läpinäkyvinä kuvina jotka on asetettu päällekkäin. Kuvat jotka ovat alemmilla tasoilla näkyy ylempien tasojen läpi, mutta vain jos tasot ylhäällä eivät ole tiellä.
+Voit ajatella tasoja kuin läpinäkyvinä kuvina jotka on asetettu päällekkäin. Kuvat jotka ovat alemmilla tasoilla näkyy ylempien tasojen läpi,
+mutta vain jos tasot ylhäällä eivät ole tiellä.
 
 {{< figure src="/kuvat/layerswindow.png" alt="Tasoikkuna" >}}
 
 Tasoikkunan pohjassa on seitsemän nappia. Vasemmalta oikealle ne ovat:
 
-*	### Lisää uusi taso
+* ### Lisää uusi taso
 
-	Tämä lisää uuden, täysin läpinäkyvän tason kuvaan. Sillä on yleinen nimi joka kertoo sen sijainnista, esim. "Taso 4".
-	
-*	### Poista taso
-	
-	Tämä poistaa valitun tason kuvasta. Et voi poistaa tasoa jos se on ainoa kuvassa.
-	
-*	### Kahdenna taso
-	
-	Tämä kahdentaa valitun tason, kopioiden sen sisällön ja asetukset, ja sijoittaen sen alkuperäisen tason ylle.
-	
-*	### Yhdistä taso alas
+    Tämä lisää uuden, täysin läpinäkyvän tason kuvaan. Sillä on yleinen nimi joka kertoo sen sijainnista, esim. "Taso 4".
 
-	Tämä ottaa valitun tason ja yhdistää sen alla olevaan tasoon.
-	
-*	### Siirrä tasoa ylös
+* ### Poista taso
 
-	Tämä siirtää nykyistä tasoa ylemmäksi tasojen järjestyksessä.
-	
-*	### Siirrä tasoa alas
+    Tämä poistaa valitun tason kuvasta. Et voi poistaa tasoa jos se on ainoa kuvassa.
 
-	Tämä siirtää nykyistä tasoa alemmaksi tasojen järjestyksessä.
-	
-*	### Tason ominaisuudet
+* ### Kahdenna taso
 
-	Tämä näyttää valitun tason asetukset. Voit antaa tasolle nimen, asettaa sen näkyvyyden ja sekoitustilan.
-	
-	{{< figure src="/kuvat/layerproperties.png" alt="Tason ominaisuudet" >}}	
+    Tämä kahdentaa valitun tason, kopioiden sen sisällön ja asetukset, ja sijoittaen sen alkuperäisen tason ylle.
 
+* ### Yhdistä taso alas
+
+    Tämä ottaa valitun tason ja yhdistää sen alla olevaan tasoon.
+
+* ### Siirrä tasoa ylös
+
+    Tämä siirtää nykyistä tasoa ylemmäksi tasojen järjestyksessä.
+
+* ### Siirrä tasoa alas
+
+    Tämä siirtää nykyistä tasoa alemmaksi tasojen järjestyksessä.
+
+* ### Tason ominaisuudet
+
+    Tämä näyttää valitun tason asetukset. Voit antaa tasolle nimen, asettaa sen näkyvyyden ja sekoitustilan.
+
+    {{< figure src="/kuvat/layerproperties.png" alt="Tason ominaisuudet" >}}

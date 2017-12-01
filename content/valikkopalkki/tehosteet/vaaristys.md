@@ -4,9 +4,9 @@ draft = false
 title = "Vääristys"
 
 [menu.pdn]
-	parent = "tehosteet"
-	identifier = "vaaris"
-	weight = 347
+    parent = "tehosteet"
+    identifier = "vaaris"
+    weight = 347
 
 +++
 

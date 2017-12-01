@@ -51,8 +51,6 @@ Temporary Items
 *.exe
 public/*
 *.zip
-*.yml
-tmp/*
 /404.html
 svg.*
 *.svg

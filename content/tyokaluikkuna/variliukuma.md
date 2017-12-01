@@ -5,9 +5,9 @@ title = "Väriliukuma"
 tooltip = "resurssit/tyokalut/gradient.png"
 
 [menu.pdn]
-	parent = "tikkuna"
-	identifier = "vliukuma"
-	weight = 374
+    parent = "tikkuna"
+    identifier = "vliukuma"
+    weight = 374
 
 +++
 
@@ -17,7 +17,7 @@ Väriliukuma antaa sinun piirtää erinäköisiä liukumia. Läpinäkyvyystilall
 
 Jokaisen liukumatyypin voi valita Väriliukuman osasta työkalupalkissa:
 
-{{< figure src="/kuvat/toolbar_gradienttool.png" alt="Väriliukuma" >}}	
+{{< figure src="/kuvat/toolbar_gradienttool.png" alt="Väriliukuma" >}}
 
 Ensimmäinen kuva välilehdessä näyttää miltä se näyttää väritilassa piirtäessä mustavalkoisena:
 
@@ -25,6 +25,6 @@ Toinen kuva välilehdessä näyttää miten liukuma vaikuttaa läpinäkyvyystila
 
 {{% huom %}}Shakkilautamalli tarkoittaa läpinäkyvyyttä.{{% /huom %}}
 
-{{< figure src="/resurssit/ruisleipa.jpg" alt="Ruisleipä" class="border" >}}	
+{{< figure src="/resurssit/ruisleipa.jpg" alt="Ruisleipä" class="border" >}}
 
 {{% tabit "liukuma" %}}

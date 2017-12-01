@@ -4,8 +4,8 @@ draft = false
 title = "paint.netin asennus"
 
 [menu.pdn]
-	parent = "koti"
-	weight = 102
+    parent = "koti"
+    weight = 102
 
 +++
 

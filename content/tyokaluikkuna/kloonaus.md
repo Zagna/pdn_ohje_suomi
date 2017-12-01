@@ -5,9 +5,9 @@ title = "Kloonaus"
 tooltip = "resurssit/tyokalut/clonestamp.png"
 
 [menu.pdn]
-	parent = "tikkuna"
-	identifier = "kloonaus"
-	weight = 382
+    parent = "tikkuna"
+    identifier = "kloonaus"
+    weight = 382
 
 +++
 

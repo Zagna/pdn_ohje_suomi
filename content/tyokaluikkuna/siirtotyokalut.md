@@ -5,9 +5,9 @@ title = "Siirtotyökalut"
 tooltip = "resurssit/tyokalut/select.png"
 
 [menu.pdn]
-	parent = "tikkuna"
-	identifier = "siirto"
-	weight = 372
+    parent = "tikkuna"
+    identifier = "siirto"
+    weight = 372
 
 +++
 
@@ -15,24 +15,28 @@ Seuraavat työkalut käsitellään tässä osassa:
 
 {{< figure src="/kuvat/siirtotyokalut.png" alt="Siirtotyökalut" >}}
 
-*	### Siirrä valintaa
+* ### Siirrä valintaa
 
-	Tällä voit liikuttaa, pyörittää ja skaalata pikseleitä jotka ovat valinnan sisällä. Kun tämä työkalu on käytössä, valintaa korostavaa sinistä ei piirretä jotta näkisit värit tarkemmin.
-	
-*	### Muokkaa valintaa
-	
-	Tällä voit liikuttaa, pyörittää ja skaalata valintaa, mutta *ei* pikseleitä jotka ovat valinnassa. Tämä on hyödyllistä valinnan tarkentamisessa. Kun tämä työkalu on käytössä, 
-	valintaan lisätään sininen korostus jotta voisit nähdä valinnan tarkemmin.
-	
-Ensimmäiseksi sinun tulee olla varma ennen kuin valitset yhden näistä työkaluista että sinulla on aktiivinen valinta. Katso <img style="vertical-align: middle;" src="/resurssit/tyokalut/select.png" alt="Työkalut" />[Valintatyökaluista]({{< relref "valintatyokalut.md" >}}) miten 
-luot ja muokkaat niitä. Jokainen siirto, koon muutto ja pyöritys mitä teet valintaan lisätään [Historiaikkunaan]({{< relref "historiaikkuna.md" >}}).
+    Tällä voit liikuttaa, pyörittää ja skaalata pikseleitä jotka ovat valinnan sisällä. Kun tämä työkalu on käytössä, valintaa korostavaa
+    sinistä ei piirretä jotta näkisit värit tarkemmin.
+
+* ### Muokkaa valintaa
+
+    Tällä voit liikuttaa, pyörittää ja skaalata valintaa, mutta *ei* pikseleitä jotka ovat valinnassa. Tämä on hyödyllistä valinnan
+    tarkentamisessa. Kun tämä työkalu on käytössä, valintaan lisätään sininen korostus jotta voisit nähdä valinnan tarkemmin.
+
+Ensimmäiseksi sinun tulee olla varma ennen kuin valitset yhden näistä työkaluista että sinulla on aktiivinen valinta. Katso
+<img style="vertical-align: middle;" src="/resurssit/tyokalut/select.png" alt="Työkalut" />[Valintatyökaluista]({{< relref "valintatyokalut.md" >}})
+miten luot ja muokkaat niitä. Jokainen siirto, koon muutto ja pyöritys mitä teet valintaan lisätään
+[Historiaikkunaan]({{< relref "historiaikkuna.md" >}}).
 
 Kun valitset siirtotyökalun, useita kahvoja, tai nuppeja, ilmestyy valinnan reunoihin ja nurkkiin, esimerkkinä:
 
 {{< figure src="/resurssit/movenubs.jpg" alt="Siirtonupit" >}}
 
-Kun jompi kumpi näistä työkaluista on valittu, voit suorittaa minkä tahansa näistä neljästä työstä saadaksesi halutun tuloksen. Voit suorittaa jokaisen työn monta kertaa, voit 
-sekoittaa niitä saadaksesi oikea tuloksen. Huomaa että jokaisessa esimerkissä, kun käytetään Muokkaa valintaa-työkalua, pikselit jotka oli valittu ei vaikuteta.
+Kun jompi kumpi näistä työkaluista on valittu, voit suorittaa minkä tahansa näistä neljästä työstä saadaksesi halutun tuloksen.
+Voit suorittaa jokaisen työn monta kertaa, voit sekoittaa niitä saadaksesi oikea tuloksen. Huomaa että jokaisessa esimerkissä,
+kun käytetään Muokkaa valintaa-työkalua, pikselit jotka oli valittu ei vaikuteta.
 
 {{% huom %}}Kun siirrät pikseleitä ympäriinsä taustakuvatasolla, shakkilautamalli joka jää jälkeen, ilmoittaa että alue on läpinäkyvä. Malli ei ole osa itse kuvaa.{{% /huom %}}
 
