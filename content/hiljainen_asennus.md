@@ -23,9 +23,9 @@ asennusohjelmaa käynnistäessä.
 
 ### MSI pohjainen julkaisu
 
-Käyttämällä /createMSI komentorivi parametriä, voit luoda MSI paketteja jotka ovat hyödyllisiä AD/GPO ympäristöissä.
+Käyttämällä /createMSI komentorivi parametria, voit luoda MSI paketteja jotka ovat hyödyllisiä AD/GPO ympäristöissä.
 
-Kaksi MSI pakettia luodaan kun käytät tätä komentoa, yksi kummallekkin prosessoriarkkitehtuurille (x86 ja x64). x86 MSI on tarkoitettu 32-bittisille
+Kaksi MSI pakettia luodaan kun käytät tätä komentoa, yksi kummallekin prosessoriarkkitehtuurille (x86 ja x64). x86 MSI on tarkoitettu 32-bittisille
 Intel/AMD järjestelmille ja on yleisin käytetty paketti. x64 MSI on Intel/AMD järjestelmille joilla on kummatkin, 64-bittinen prosessori sekä
 64-bittinen &ldquo;x64&rdquo; versio Windowsista.
 
@@ -36,7 +36,7 @@ MSI ominaisuudet lisätään automaattisesti luotavaan MSI'hin jolloin tulevia m
 
 ### Automaattinen asennus
 
-Haluaksesi tehdä automaattisen asennuksen, käytä /auto tai /skipConfig komentoriviparametrejä josta kerromme alempana.
+Haluaksesi tehdä automaattisen asennuksen, käytä /auto tai /skipConfig komentoriviparametreja josta kerromme alempana.
 
 ### Komentorivin komennot
 
@@ -75,7 +75,7 @@ Komentojen kuvaus:
             <p>/createMsi</p>
         </td>
         <td>
-            <p>Tämä luo kaksi MSI pakettia työpöydälle kansioon PaintDotNetMsi. Nämä MSIt on tarkoitettu tietylle OS/CPU yhdistelmälle (x86 tai x64).
+            <p>Tämä luo kaksi MSI pakettia työpöydälle kansioon PaintDotNetMsi. Nämä MSIt on tarkoitettu valituille OS/CPU yhdistelmille (x86 tai x64).
             Näitä voi käyttää julkistamiseen käyttäen AD/GPO järjestelmiä ja sisältävät jo asettamasi asetukset käyttäen PROPERTY=VALUE komentorivin
             komentoja (jos asetat).</p>
         </td>
@@ -93,7 +93,7 @@ Komentojen kuvaus:
     </tr>
 </table>
 
-Oletusasennus tarvitsee vain että käytät /auto komentoa. Voit asettaa lisää ominaisuuksia vaihtamalla MSI ominaisuuksi, missä &ldquo;1&rdquo;
+Oletusasennus tarvitsee vain että käytät /auto komentoa. Voit asettaa lisää ominaisuuksia vaihtamalla MSI ominaisuuksia, missä &ldquo;1&rdquo;
 asettaa sen ja &ldquo;0&rdquo; poistaa sen:
 
 <table class="unattend" id="table1">

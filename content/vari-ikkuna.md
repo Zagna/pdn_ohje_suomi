@@ -44,4 +44,4 @@ Toinen avaa vetolaatikon joka tarjoaa komentoja joilla paletteja voi hallita:
 
 Ensimmäiset asiat listassa ovat kaikki tekemäsi paletit jotka olet tallentanut. Valitessasi yhden niistä lataat kyseisen paletin. Viimeiset
 kolme valinnan avulla voit tallentaa nykyisen paletin tiedostoon, avata palettikansion Resurssinhallinnassa, ja viimeisenä palauttaa paletin
-takaisin oletusväreihin. Palettitiedostot ovat vain tekstitiedostoja (*.txt) jotka ovat tallenettu omaan Tiedostot kansioon.
+takaisin oletusväreihin. Palettitiedostot ovat vain tekstitiedostoja (*.txt) jotka ovat tallennettu omaan Tiedostot kansioon.

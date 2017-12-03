@@ -104,7 +104,7 @@ vaikuttaa vain aktiiviseen tasoon.
 
 * ### Pyöritä
 
-    Tämä alavalikko antaa sinulle monta komentoa jolla voit pyörittää kuvaa 90 asteella joko myötäpäivään tai vastapäivään, tai 180 astetta.
+    Tämä alavalikko antaa sinulle monta komentoa jolla voit pyörittää kuvaa 90 asteella joko myötä päivään tai vastapäivään, tai 180 astetta.
 
     Alkuperäinen kuva:
 

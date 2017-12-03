@@ -10,7 +10,7 @@ title = "Tiedosto"
 
 +++
 
-Tiedosto-valikkoa käytetään kuvien avaamiseen, hankkimiseen ja tallentamiseen paint.netissä. Nämä komennot toimivat samanlailla kuin muissa ohjelmissa.
+Tiedosto-valikkoa käytetään kuvien avaamiseen, hankkimiseen ja tallentamiseen paint.netissä. Nämä komennot toimivat saman lailla kuin muissa ohjelmissa.
 
 {{< figure src="/kuvat/filemenu.png" alt="Tiedosto valikko" >}}
 
@@ -25,7 +25,7 @@ Tiedosto-valikkoa käytetään kuvien avaamiseen, hankkimiseen ja tallentamiseen
 
 * ### Avaa
 
-    Tämän avulla voit avata uuden kuvan, mikä myös sulkee nykyisen kuvan mikä on auki. Se toimii samallalailla kuin Avaa muissa ohjelmissa.
+    Tämän avulla voit avata uuden kuvan, mikä myös sulkee nykyisen kuvan mikä on auki. Se toimii samalla lailla kuin Avaa muissa ohjelmissa.
 
 * ### Avaa viimeisin
 

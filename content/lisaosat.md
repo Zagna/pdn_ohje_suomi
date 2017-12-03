@@ -16,8 +16,8 @@ Lisäosat kehittää kolmannen osapuolen henkilöt ja ne julkaistaan [paint.net 
 
 Englanninkielinen lista lisäosista löytyy [keskustelualueelta](https://forums.getpaint.net/forum/37-plugin-index/).
 
-Lisäosat tarjoaa keskustelualeen käyttäjät. paint.netin kehittäjätiimi ei tarjoa tukea niiden käytössä. Jos haluat apua tietyn lisäosan kanssa,
-on parasta että kysyt lisäosan kehittäjältä.
+Lisäosat tarjoaa keskustelualeen käyttäjät. paint.netin kehittäjätiimi ei tarjoa tukea niiden käytössä. Jos haluat apua lisäosan kanssa, on
+parasta että kysyt lisäosan kehittäjältä.
 
 On olemassa kahdenlaista lisäosaa:
 

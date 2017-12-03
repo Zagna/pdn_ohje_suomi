@@ -41,7 +41,7 @@ Tilapalkista löydät ohjeita, työn tilan ja tietoja jotka ovat erittäin hyöd
 
 * ### Suurennuskerroin
 
-    Tämä näyttää käytössä olevan suurennuskerroimen.
+    Tämä näyttää käytössä olevan suurennuskertoimen.
 
 * ### Tarkenna ikkunaan / Oikea koko
 
@@ -49,4 +49,4 @@ Tilapalkista löydät ohjeita, työn tilan ja tietoja jotka ovat erittäin hyöd
 
 * ### Suurennuksen valinta
 
-    Tämä mahdollistaa nopean kuvan suurennuksen ja&nbsp; pienentämisen.
+    Tämä mahdollistaa nopean kuvan suurennuksen ja pienentämisen.

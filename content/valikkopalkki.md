@@ -16,7 +16,7 @@ Saatavilla on yhdeksän ylätason valikkoa ja pikapainikkeet ikkunoille paint.ne
 
 1. ### [Tiedosto]({{< relref "tiedosto.md" >}})
 
-    Nämä komennot antaa avata, hankkia ja tallentaa kuvia. Valikot toimivat samallalailla kuin muissa ohjelmissa.
+    Nämä komennot antaa avata, hankkia ja tallentaa kuvia. Valikot toimivat samalla lailla kuin muissa ohjelmissa.
 
 1. ### [Muokkaa]({{< relref "muokkaa.md" >}})
 

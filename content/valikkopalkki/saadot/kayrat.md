@@ -23,17 +23,17 @@ kuinka kirkkaita kaikki eri sävyt voivat olla kuvassa. Itseasiassa, kuvan väri
 
 ### Käyttöliittymä
 
-Käyrät antavat sinun kartoittaa uudeksi kuvan värit käyttäen nupikoita kuvaajassa, kuten näytetään oikealla ja esimerkeissä alhaalla Kun
+Käyrät antavat sinun kartoittaa uudeksi kuvan värit käyttäen napukoita kuvaajassa, kuten näytetään oikealla ja esimerkeissä alhaalla Kun
 Käyrät-valikko näkyy ensimmäisen kerran, se on oikealla olevan kuvan kaltainen. Tämä kuvaaja on yksinkertainen matemaattinen funktio.
 Vaakasuuntaiset arvot ovat kirkkauden sisääntuloa ja pystysuorat arvot ovat kirkkauden ulostulo.
 
-Simppelisti tämä tarkoittaa että oikean puolen muokkas vaikuttaa kirkkaampaan osaan kuvasta, vasemman puolen muokkaus vaikuttaa tummempaan
+Simppelisti tämä tarkoittaa että oikean puolen muokkaus vaikuttaa kirkkaampaan osaan kuvasta, vasemman puolen muokkaus vaikuttaa tummempaan
 osaan kuvasta. Käyrän siirtäminen oletussijainnin yläpuolelle, kirkastaa aluetta, käyrän siirtäminen alapuolelle tummentaa aluetta.
 
 Kontrollipisteitä käytetään käyrän muokkaamiseen. Pisteitä voi lisätä klikkaamalla missä vain missä ei ole jo pistettä. Pisteitä voi poistaa
 painamalla sitä hiiren oikealla näppäimellä. Siirtääksesi pistettä, vain klikkaa sitä ja siirrä se haluttuun uuteen sijaintiin. Huomaa että
-ei ole mahdollista olla kaksi pistettä samassa vaakatason kohdassa sillä se tarkoittaisi että tiettyä sävyä kirkastettaisiin ja tummennnettaisiin
-yhtäaikaa (mikä ei ole mahdollista).
+ei ole mahdollista olla kaksi pistettä samassa vaakatason kohdassa sillä se tarkoittaisi että tiettyä sävyä kirkastettaisiin ja tummennettaisiin
+yhtä aikaa (mikä ei ole mahdollista).
 
 Alla on esimerkki miten Käyriä käytetään kuvan muokkaamiseen. Alkuperäinen kuva on vasemmalla ja muokattu kuva on oikealla. Käyrä mikä on
 piirretty näyttää että tummemmat sävyt tulisi tummentaa lisää ja valoisat sävyt kirkastaa. Lopputulos on kuva missä on syvemmät tummat ja
@@ -53,7 +53,7 @@ Oletuksena, Käyrät käyttävät värien kirkkautta voimakkuuksien muokkaamisee
 Vihreää ja Sinistä kanavaa valitsemalla vetolaatikosta "RGB" valikon yläosassa.
 
 Kun tämä tila on valittu, uudet kontrollipisteet vaikuttavat valittuihin värikanaviin jotka voi valita käyttäen valikkoja alaosassa.
-Muokkaaksesi yksittäisiä tai tiettjä kanavia, valitse ne vain käyttäen valikkoja.
+Muokataksesi yksittäisiä tai tiettyjä kanavia, valitse ne vain käyttäen valikkoja.
 
 Alla oleva kuva on muokattu Käyrillä vahvistamaan koiran turkin punaisen voimakkuutta.
 
@@ -67,7 +67,7 @@ Alla oleva kuva on muokattu Käyrillä vahvistamaan koiran turkin punaisen voima
 
 ### Muut mahdollisuudet
 
-Kuten aiemmin mainittiin, voit käyttää Käyriä kuvan invertoimiseen. Esimerkissä alhaalla, ruisleivän kuva muokattiin käyttäen Käyriä tuottaaksen
+Kuten aiemmin mainittiin, voit käyttää Käyriä kuvan invertoimiseen. Esimerkissä alhaalla, ruisleivän kuva muokattiin käyttäen Käyriä tuottaakseen
 kuvan mikä ei ole mahdollista muilla säädöillä, kuten [Sävyala]({{< relref "savyala.md" >}}) tai Sävy / Värikylläisyys:
 
 <p class="centered curves2">

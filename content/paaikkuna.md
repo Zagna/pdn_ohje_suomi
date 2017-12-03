@@ -37,7 +37,7 @@ paint.netin käyttöliittymä on jaettu 10 alueeseen:
 
     Kuva on näkyvillä tässä, ja se on alue missä voit piirtää ja tehdä muita toimintoja.
 
-    {{% vihje %}}Uutta paint.net 4.0.10+ on mahdollisuus vierittää kuvan reunaa ikkunan reunan yli. Tarkista [näyttötyokalut]({{< relref "nayttotyokalut.md" >}}).{{% /vihje %}}
+    {{% vihje %}}Uutta paint.net 4.0.10+ on mahdollisuus vierittää kuvan reunaa ikkunan reunan yli. Tarkista [näyttötyökalut]({{< relref "nayttotyokalut.md" >}}).{{% /vihje %}}
 
 1. ### [Työkaluikkuna]({{< relref "tyokaluikkuna.md" >}})
 

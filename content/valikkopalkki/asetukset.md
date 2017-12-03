@@ -58,6 +58,6 @@ Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
     Windows 7:ssä ja uudemmissa, paint.net antaa kaikkien tarkistaa päivitykset. Kuitenkin, jotta voisit asentaa päivitykset, tarvitset
     Järjestelmänvalvojan oikeudet.
 
-* ### Tarkista myös esijulkaistuja (beta) versioita
+* ### Tarkista myös esijulkaistuja (beeta) versioita
 
-    Tämä asetus määrittää etsitäänkö myös mahdollisia alpha, beta tai julkaisukandidaatti-versioita.
+    Tämä asetus määrittää etsitäänkö myös mahdollisia alpha, beeta tai julkaisukandidaatti-versioita.

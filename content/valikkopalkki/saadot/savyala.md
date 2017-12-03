@@ -10,16 +10,16 @@ title = "Sävyala"
 
 +++
 
-Sävyala-sääto antaa sinun muuttaa kuvan värialuetta (tai "valoitusaikaa"), mukaanlukien gamman säätöä, kanavakohtaisesti. Useimmat säädökset mitä
-tehdään liityy kuvan sisääntulon ja ulostulon valkopisteeseen, harmaapisteeseen ja mustapisteeseen. Kuvan valkopiste on kirkkain väri mikä esiintyy
+Sävyala-säätö antaa sinun muuttaa kuvan värialuetta (tai "valoitusaikaa"), mukaan lukien gamman säätöä, kanavakohtaisesti. Useimmat säädökset mitä
+tehdään liittyy kuvan sisääntulon ja ulostulon valkopisteeseen, harmaapisteeseen ja mustapisteeseen. Kuvan valkopiste on kirkkain väri mikä esiintyy
 kuvassa ja mustapiste on kaikkein tummin väri mikä esiintyy kuvassa. Harmaapiste esittää värien keskiarvoa koko kuvassa.
 
 <p class="centered levels">
     <img src="/kuvat/levels1.png" alt="Käyrät1">
 </p>
 
-Jokaista väripistettä voi muokata käyttäen Sävyalaa. Yllä olevassa valikossa, on 5 numerista valintaa ja 5 väriliukua. Kaksi vasemmalla puolella
-'Sisääntulo' osassa tarkoittaa sisääntulon valko- ja mustapistettä. Näitä värejä voi muokata käyttäen joko numeerisia valintoja, likuja tai
+Jokaista väripistettä voi muokata käyttäen Sävyalaa. Yllä olevassa valikossa, on 5 numeerista valintaa ja 5 väriliukua. Kaksi vasemmalla puolella
+'Sisääntulo' osassa tarkoittaa sisääntulon valko- ja mustapistettä. Näitä värejä voi muokata käyttäen joko numeerisia valintoja, liukuja tai
 kaksoisklikkaamalla värilaatikkoa. Valkopiste tällä puolella on väri mikä tulisi asettaa tulemaan valkopiste oikealle puolelle. Kun säädös on
 ajettu, värit jotka ovat kuvassa yhtä kirkkaita tai kirkkaampia kuin tämä väri säädetään olemaan sama kuin ulostulon valkopiste (yllä olevassa
 kuvassa, ulostulon valkopiste on jätetty oletusarvolle, valkoiseen.) Vastaavasti, sisääntulon mustapiste on asetettu myös, jolloin kaikkein tummimmat
@@ -31,7 +31,7 @@ siirretty hieman kirkkaammaksi. Vaikka tämä ei vaikuta kuvan valkoiseen tai mu
     <img src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät2" class="border">&nbsp;<img src="/resurssit/lewistonsunset_small_levels1.jpg" alt="Käyrät3" class="border">
 </p>
 
-Nämä säädöt venyvät koko kuvan alaan, nähtäen helposti histogrammeista mitkä ovat kummallakin puolella. Histogrammi vasemmalla näyttää kuvan
+Nämä säädöt venyvät koko kuvan alaan, näyttäen helposti histogrammeista mitkä ovat kummallakin puolella. Histogrammi vasemmalla näyttää kuvan
 värialan ennen mitään muokkausta, tämä histogrammi näyttää kuin paljon kuvasta on tiettyä väriä. Yllä olevassa kuvassa, histogrammi näyttää
 suuren osan olevan melkein mustaa ja toinen kumpu noin 40% kirkkauden kohdalla. Myös, pieni piikki täysin histogrammin yläreunassa tarkoittaa
 että pieni osa kuvasta on täysin valkoista.
