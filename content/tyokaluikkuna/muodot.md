@@ -38,7 +38,7 @@ Seuraavat työkalut ovat samankaltaisia ja niistä puhumme tällä kertaa:
 {{% vihje %}}Painamalla A voit käydä muotojen läpi kun työkalu on käytössä ( Shift + A vaihtaa takaisin ).{{% /vihje %}}
 
 Jokaiselle näistä työkaluista voi asettaa [asetuksia Työkalupalkissa]({{< relref "tyokalupalkki.md" >}}). Piirtääksesi muodon,
-klikkaa ja siirrä käyttäen vasempaa hiiren nappia. Edustaväriä käytetään ulkoreunaan (jos valittu) ja taustaväriä käytetään
+klikkaa ja siirrä käyttäen vasenta hiiren nappia. Edustaväriä käytetään ulkoreunaan (jos valittu) ja taustaväriä käytetään
 sisustan värittämiseen (jos valittu). Jos piirrät oikealla hiiren napilla, edusta- ja taustavärin roolit ovat käänteiset.
 
 {{% vihje %}}Kun luot muodon, Shift nappi pohjassa muoto käyttää alkuperäistä koon suhdetta.{{% /vihje %}}
@@ -46,11 +46,11 @@ sisustan värittämiseen (jos valittu). Jos piirrät oikealla hiiren napilla, ed
 ### Muodon siirtäminen
 
 Ennen kuin Muoto on viimeistelty pohjalle, sitä voi siirtää kuvan alueella. Klikkaa ja vedä neljän nuolen ikonia hiirellä
-<img style="vertical-align: middle;" src="/resurssit/movecursor.png" alt="Kursori" />.
+{{< tool "movecursor.png" >}}.
 
 Muotoa voi siirtää myös käyttämällä keskellä olevaa osoitinta. Se muuttuu neljäksi nuoleksi. Klikkaa ja vedä siirtääksesi Muotoa.
 
-Näppäimistön nuolinäppäimiä ↑ ← ↓ → voi käyttää muodon siirtämiseen. Yksi näppäimen painaus siirtää kohdetta yhdellä pikselillä
+Näppäimistön nuolinäppäimiä ↑ ← ↓ → voi käyttää muodon siirtämiseen. Yksi näppäimen painatus siirtää kohdetta yhdellä pikselillä
 nuolen suuntaan. Nuolinäppäimien käyttö Ctrl nappi pohjassa siirtää kohdetta 10 pikseliä kerrallaan.
 
 ### Muodon pyörittäminen
@@ -79,7 +79,7 @@ Muodon voi viimeistellä aktiiviselle tasolle seuraavilla tavoilla…
 1. Paina Viimeistele työkalupalkissa.
 1. Piirrä uusi Muoto.
 
-{{% vihje %}}Muodon voi pakottaa olemaan samankokoinen pystyyn ja vaakaan pitämällä Shift nappi pohjassa kun laajennat muotoa.{{% /vihje %}}
+{{% vihje %}}Muodon voi pakottaa olemaan saman kokoinen pystyyn ja vaakaan pitämällä Shift nappi pohjassa kun laajennat muotoa.{{% /vihje %}}
 
 ### Nurkan koko (vain Pyöristetty suorakulmio)
 

@@ -14,7 +14,7 @@ tooltip = "resurssit/tyokalut/paintbucket.png"
 Tätä työkalua käytetään täyttämään alue tietyllä värillä. Voit asettaa kursorin alueen päälle jonka haluat täyttää värillä ja sen
 jälkeen painaa vasenta hiiren nappia täyttääksesi edustavärillä, tai oikeaa hiiren nappia täyttääksesi taustavärillä.
 
-Alue joka täyttyy määriytyy ympäröivän alueen värin perusteella.
+Alue joka täyttyy määräytyy ympäröivän alueen värin perusteella.
 [Toleranssi asetus]({{< relref "tyokalupalkki.md" >}}#taikasauva-t%C3%A4ytt%C3%B6-ja-uudelleen-v%C3%A4ritys) työkaluikkunassa
 määrittää ympäröivän värin laajuuden.
 

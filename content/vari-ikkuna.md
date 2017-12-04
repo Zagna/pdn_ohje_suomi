@@ -12,9 +12,8 @@ title = "Väri-ikkuna"
 
 Tällä ikkunalla on kaksi tilaa: "Vähemmän" ja "Enemmän". Oletuksena paint.net käynnistyy väri-ikkuna Vähemmän tilassa. Tässä tilassa voit helposti
 valita pohjavärin käyttäen joko väripyörää tai palettia. paint.net mahdollistaa kahden värin valitsemisen, edusta- ja taustavärin, ja voit käyttää
-alasvetolaatikkoa väri-ikkunan yläreunassa valitsemaan kumpi on valittu ja voi muokata. Eräät työkalut, kuten
-<img style="vertical-align: middle;" src="/resurssit/tyokalut/paintbrush.png" alt="Työkalut" />[Sivellin]({{< relref "sivellin.md" >}})
-ja tietyt <img style="vertical-align: middle;" src="/resurssit/tyokalut/shapes.png" alt="Työkalut" />[Muototyökalut]({{< relref "muodot.md" >}}),
+alas vetolaatikkoa väri-ikkunan yläreunassa valitsemaan kumpi on valittu ja voi muokata. Eräät työkalut, kuten
+{{< tool "paintbrush.png" >}}[Sivellin]({{< relref "sivellin.md" >}}) ja {{< tool "shapes.png" >}}[Muototyökalut]({{< relref "muodot.md" >}}),
 käyttävät edusta- tai taustaväriä piirtämisessä, riippuen siitä millä hiiren napilla piirrät.
 
 {{% vihje %}}Voit myös käyttää pikanäppäintä C vaihtaaksesi edusta ja taustavärin välillä nopeasti.{{% /vihje %}}
@@ -24,7 +23,7 @@ käyttävät edusta- tai taustaväriä piirtämisessä, riippuen siitä millä h
 Tämä tila antaa sinun valita väripyörässä näkyvistä väreistä tai ensimmäisistä 32 väristä nykyisessä paletissa. Jos painat paletissa oikealla
 hiiren napilla, se asettaa taustavärin.
 
-Jos painat "Lisää &gt;&gt;" nappia, ikkuna laajentuu näyttämään tarkempia asetuksia. Tässä tilassa voit asettaa tarkan arvon jokaiselle värin
+Jos painat "Lisää &gt;&gt;" nappia, ikkuna laajenee näyttämään tarkempia asetuksia. Tässä tilassa voit asettaa tarkan arvon jokaiselle värin
 ominaisuudelle, RGB (Punainen, Vihreä, Sininen) tai HSV (Sävy, Värikylläisyys, Arvo) skaalassa. Värin muokkaaminen hex, eli heksadesimaalin
 avulla on myös mahdollista. Alfaa, tai läpinäkyvyyttä voi myös muokata.
 
@@ -44,4 +43,4 @@ Toinen avaa vetolaatikon joka tarjoaa komentoja joilla paletteja voi hallita:
 
 Ensimmäiset asiat listassa ovat kaikki tekemäsi paletit jotka olet tallentanut. Valitessasi yhden niistä lataat kyseisen paletin. Viimeiset
 kolme valinnan avulla voit tallentaa nykyisen paletin tiedostoon, avata palettikansion Resurssinhallinnassa, ja viimeisenä palauttaa paletin
-takaisin oletusväreihin. Palettitiedostot ovat vain tekstitiedostoja (*.txt) jotka ovat tallennettu omaan Tiedostot kansioon.
+takaisin oletusväreihin. Palettitiedostot ovat vain tekstitiedostoja (*.txt) jotka ovat tallennettu omaan alakansioon Tiedostot kansiossa.

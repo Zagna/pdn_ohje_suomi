@@ -10,7 +10,7 @@ title = "Sävyala"
 
 +++
 
-Sävyala-säätö antaa sinun muuttaa kuvan värialuetta (tai "valoitusaikaa"), mukaan lukien gamman säätöä, kanavakohtaisesti. Useimmat säädökset mitä
+Sävyala-säätö antaa sinun muuttaa kuvan värialuetta (tai "valotusaikaa"), mukaan lukien gamman säätöä, kanavakohtaisesti. Useimmat säädökset mitä
 tehdään liittyy kuvan sisääntulon ja ulostulon valkopisteeseen, harmaapisteeseen ja mustapisteeseen. Kuvan valkopiste on kirkkain väri mikä esiintyy
 kuvassa ja mustapiste on kaikkein tummin väri mikä esiintyy kuvassa. Harmaapiste esittää värien keskiarvoa koko kuvassa.
 

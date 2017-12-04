@@ -29,11 +29,11 @@ kanssa, on se myöhemmin kasvanut tehokkaaksi työkaluksi kuvien muokkaamiseen.
     paint.net pystyy avaamaan useita tiedostoja kerralla ja käyttää välilehtiä kutein uudenaikainen selain. Esittelevän tekstin sijasta näet
     päivittyvän pikkukuvan kuvistasi.
 
-    Välilehdet tekevät navigaatiosta yksinkertaista ja helppoa, tarvitset vain yhden klikkauksen siirtyääksesi toiseen kuvaan. Uutta paint.netissä
+    Välilehdet tekevät navigaatiosta yksinkertaista ja helppoa, tarvitset vain yhden klikkauksen siirtyäksesi toiseen kuvaan. Uutta paint.netissä
     on että välilehdet voi järjestellä uudestaan vetämällä ja pudottamalla.
 
-    Jokainen avoinna oleva kuva näkyy erillään Windowsin tehtäväpälkin esikatselussa \(tämän voi ottaa pois päältä
-    <img style="vertical-align: middle;" src="/resurssit/tyokalut/tools.png" alt="Työkalut" />[Asetukset]({{< relref "asetukset.md" >}}) valikossa\).
+    Jokainen avoinna oleva kuva näkyy erillään Windowsin tehtäväpalkin esikatselussa \(tämän voi ottaa pois päältä
+    {{< tool "tools.png" >}}[Asetukset]({{< relref "asetukset.md" >}}) valikossa\).
 
 * ### Tasot
 

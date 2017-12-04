@@ -16,11 +16,11 @@ muodon. Toisin kuin valintatyökalut, Taikasauva ottaa huomioon kuvassa olevan s
 [Toleranssia]({{< relref "tyokalupalkki.md" >}}#taikasauva-t%C3%A4ytt%C3%B6-ja-uudelleen-v%C3%A4ritys) asetuksen. Monissa tapauksissa,
 valitaksesi alueen sinun pitää vain napsauttaa sitä.
 
-Voit ajatella että Taikasauva toimii samallalailla kuin Täyttö, mutta sen sijaan että se täyttäisi alueen värillä, se valitsee kyseisen alueen.
+Voit ajatella että Taikasauva toimii samalla lailla kuin Täyttö, mutta sen sijaan että se täyttäisi alueen värillä, se valitsee kyseisen alueen.
 
 ### Toleranssi
 
-Samallalailla kuin <img style="vertical-align: middle;" src="/resurssit/tyokalut/paintbucket.png" alt="Työkalut" />
+Samalla lailla kuin {{< tool "paintbucket.png" >}}
 [Täyttö]({{< relref "taytto.md" >}}), Taikasauvan tulosta voi säätää vaihtamalla
 [Toleranssia]({{< relref "tyokalupalkki.md" >}}#taikasauva-t%C3%A4ytt%C3%B6-ja-uudelleen-v%C3%A4ritys). Alla näet esityksen
 tästä säädöstä.
@@ -50,7 +50,7 @@ Tämä metodi toimii hyvin kun kohteen ympärillä puuttuu yksityiskohtia.
 
 {{% vihje %}}Voit vähentää valintaa klikkaamalla oikealla hiiren napilla.{{% /vihje %}}
 
-{{< figure class="magic2" src="/resurssit/magicwand_exclude.jpg" caption="Alustava valinta tehtiin lassotyökalulla, ja sen jälkeen Taikasauvaa käytettiinn sulkemaan pois alueet joita ei ole tarkoitettu ottaa mukaan, klikkaamalla poissuljettavaan alueeseen oikealla hiiren napilla." >}}
+{{< figure class="magic2" src="/resurssit/magicwand_exclude.jpg" caption="Alustava valinta tehtiin lassotyökalulla, ja sen jälkeen Taikasauvaa käytettiin sulkemaan pois alueet joita ei ole tarkoitettu ottaa mukaan, klikkaamalla poissuljettavaan alueeseen oikealla hiiren napilla." >}}
 
 ### Globaali valinta
 

@@ -22,7 +22,7 @@ parasta että kysyt lisäosan kehittäjältä.
 On olemassa kahdenlaista lisäosaa:
 
 * Tiedostotyyppi: tuo tuen uusienkuvaformaattien avaamiseen ja tallentamiseen.
-* Tehosteet: tuo lisää toiminnallisuuksia tehosteiden ja säätöjen muodossa.
+* Tehosteet: tuo lisää toiminnollisuuksia tehosteiden ja säätöjen muodossa.
 
 {{% varoitus %}}Lataa vain lisäosia jotka on julkaistu paint.netin keskustelualueella. Älä *koskaan* lataa lisäosia muualta koska virusten mahdollisuus on korkea muualla. Suosittelemme virustorjunnan käyttöä lisäosien kanssa.{{% /varoitus %}}
 

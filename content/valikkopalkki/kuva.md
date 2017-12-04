@@ -73,7 +73,7 @@ vaikuttaa vain aktiiviseen tasoon.
 
 * ### Pohjan koko
 
-    Tämä komento antaa sinun joko suurentaa tai kutistaa kuvan kankaan kokoa ilman että muutat kuvan kokoa. Se toimii samallalailla kuin Muuta
+    Tämä komento antaa sinun joko suurentaa tai kutistaa kuvan kankaan kokoa ilman että muutat kuvan kokoa. Se toimii samalla lailla kuin Muuta
     kokoa -valikko, mutta antaa valita Ankkurin paikan. Jos kankaan koko suurennetaan, uusi alue täytetään taustavärillä.
 
     {{< figure src="/kuvat/canvassize.png" alt="Pohjan koko" >}}
@@ -104,7 +104,7 @@ vaikuttaa vain aktiiviseen tasoon.
 
 * ### Pyöritä
 
-    Tämä alavalikko antaa sinulle monta komentoa jolla voit pyörittää kuvaa 90 asteella joko myötä päivään tai vastapäivään, tai 180 astetta.
+    Tämä alavalikko antaa sinulle monta komentoa jolla voit pyörittää kuvaa 90 asteella joko myötäpäivään tai vastapäivään, tai 180 astetta.
 
     Alkuperäinen kuva:
 

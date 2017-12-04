@@ -36,13 +36,13 @@ alla olevat sekoitustilat.
 ### Työkalujen sekoitustilat
 
 Tasojen lisäksi työkalut
-<img style="vertical-align: middle;" src="/resurssit/tyokalut/paintbucket.png" alt="Työkalut" />[Täyttö]({{< relref "taytto.md" >}}),
-<img style="vertical-align: middle;" src="/resurssit/tyokalut/paintbrush.png" alt="Työkalut" />[Sivellin]({{< relref "sivellin.md" >}}),
-<img style="vertical-align: middle;" src="/resurssit/tyokalut/pencil.png" alt="Työkalut" />[Kynä]({{< relref "pikselityokalut.md" >}}),
-<img style="vertical-align: middle;" src="/resurssit/tyokalut/clonestamp.png" alt="Työkalut" />[Kloonaus]({{< relref "kloonaus.md" >}}),
-<img style="vertical-align: middle;" src="/resurssit/tyokalut/shapes.png" alt="Työkalut" />[Muodot]({{< relref "muodot.md" >}}),
-<img style="vertical-align: middle;" src="/resurssit/tyokalut/gradient.png" alt="Työkalut" />[Väriliukuma]({{< relref "variliukuma.md" >}}) sekä
-<img style="vertical-align: middle;" src="/resurssit/tyokalut/linecurve.png" alt="Työkalut" />[Viiva/Käyrä]({{< relref "viiva_kayra.md" >}})
+{{< tool "paintbucket.png" >}}[Täyttö]({{< relref "taytto.md" >}}),
+{{< tool "paintbrush.png" >}}[Sivellin]({{< relref "sivellin.md" >}}),
+{{< tool "pencil.png" >}}[Kynä]({{< relref "pikselityokalut.md" >}}),
+{{< tool "clonestamp.png" >}}[Kloonaus]({{< relref "kloonaus.md" >}}),
+{{< tool "shapes.png" >}}[Muodot]({{< relref "muodot.md" >}}),
+{{< tool "gradient.png" >}}[Väriliukuma]({{< relref "variliukuma.md" >}}) sekä
+{{< tool "linecurve.png" >}}[Viiva/Käyrä]({{< relref "viiva_kayra.md" >}})
 voivat käyttää sekoitustiloja.
 
 Työkalujen kanssa aiemmin mainittujen tilojen lisäksi on saatavilla myös Korvaava tila.

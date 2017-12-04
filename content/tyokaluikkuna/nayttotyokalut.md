@@ -14,9 +14,9 @@ tooltip = "resurssit/tyokalut/view.png"
 Kuvan näyttämiseen on olemassa kaksi työkalua, Suurennuskerroin ja Panoroi. Ne vaikuttavat vain siihen miten kuva näkyy
 ikkunassa mutteivät muokkaa kuvaa itsessään.
 
-### Suurennuskerroin <img style="vertical-align: middle;" src="/resurssit/tyokalut/zoom.png" alt="suurennuskerroin" />
+### Suurennuskerroin {{< tool "zoom.png" >}}
 
-Suurennuskerroimella voit joko kohdistaa (tai suurentaa) kuvaa, tai kaukaistaa (pienentää) kuvaa.
+Suurennuskertoimella voit joko kohdistaa (suurentaa) kuvaa, tai loitontaa (pienentää) kuvaa.
 
 Vasemmalla hiiren napilla lähennyt kuvaan ja oikealla hiiren napilla siirryt kauemmaksi.
 
@@ -26,7 +26,7 @@ Suurennuskerroin-työkalun ollessa käytössä, hiirellä klikkaamalla ja piirt�
 
 {{% vihje %}}Kun Suurennuskerroin-työkalu on käytössä, kuvaa voi panoroida pitämällä hiiren rulla alhaalla ja siirtämällä hiirtä.{{% /vihje %}}
 
-### Panoroi <img style="vertical-align: middle;" src="/resurssit/tyokalut/pan.png" alt="panoroi" />
+### Panoroi {{< tool "pan.png" >}}
 
 Panoroi-työkalu mahdollistaa kuvan siirtämisen. Hyöty on suurin kun kuva on suurempi kuin pääikkuna (erityisesti kun kuva on suurennettu).
 
@@ -40,7 +40,7 @@ Klikkaa ja vedä hiirellä siirtääksesi kuvaa.
 
 Versiosta 4.0.10 eteenpäin on ollut mahdollista vierittää kuvaa ikkunan reunan yli.
 
-{{% vihje %}}Tämä asetus on mahdollistaa pistää pois päältä <img style="vertical-align: middle;" src="/resurssit/tyokalut/tools.png" alt="Työkalut" />[Asetuksista]({{< relref "asetukset.md" >}}).{{% /vihje %}}
+{{% vihje %}}Tämä asetus on mahdollistaa pistää pois päältä {{< tool "tools.png" >}}[Asetuksista]({{< relref "asetukset.md" >}}).{{% /vihje %}}
 
 Ylivierityksen määrä riippuu kuvan koosta. Pienet kuvat voi siirtää kunnes puolet kuvasta on ikkunan ulkopuolella.
 
@@ -64,7 +64,7 @@ Kuvia voi siirtää myös ↑ ← ↓ → nuolinäppäimillä kun Välilyönti-n
 
 Kuvan vierityksen määrä nuolinäppäimillä riippuu siitä kuinka suuri Suurennuskerroin on.
 
-Kuvat joita esitetään yli 1000% suurennoksella liikkuvat pikselin murto-osia kerrallaan. Pienemmällä suurrennoksella kuvat
+Kuvat joita esitetään yli 1000% suurennoksella liikkuvat pikselin murto-osia kerrallaan. Pienemmällä suurennoksella kuvat
 siirtyvät useamman pikselin kerrallaan.
 
 Jos Ctrl ja Välilyönti -näppäimet ovat alhaalla yhtä aikaa, kuvan siirtyminen on kerrattu kymmenellä.

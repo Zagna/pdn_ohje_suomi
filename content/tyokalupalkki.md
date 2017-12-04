@@ -44,7 +44,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
     {{< figure src="/kuvat/toolbar_toolchoicebutton.png" alt="Työkalun valinta" >}}
 
-    Työkalujen asetukset voi vaihtaa <img style="vertical-align: middle;" src="/resurssit/tyokalut/tools.png" alt="Työkalut" />
+    Työkalujen asetukset voi vaihtaa {{< tool "tools.png" >}}
     [Asetukset-valikossa]({{< relref "asetukset.md" >}}).
 
 * ### Oletustyökalu
@@ -55,10 +55,10 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
     {{< figure src="/kuvat/toolbar_shapesbrushesfill.png" alt="Muodot, sivellin, tyyli ja täyttö" >}}
 
-    <img style="vertical-align: middle;" src="/resurssit/tyokalut/shapes.png" alt="Työkalut" />[Muototyökalut]({{< relref "muodot.md" >}}) käyttävät
+    {{< tool "shapes.png" >}}[Muototyökalut]({{< relref "muodot.md" >}}) käyttävät
     näitä asetuksia. Voit valita piirretäänkö muoto ääriviivalla, täytettynä, vai kummatkin, siveltimen koko sekä piirtotyylin.
 
-    <img style="vertical-align: middle;" src="/resurssit/tyokalut/linecurve.png" alt="Työkalut" />
+    {{< tool "linecurve.png" >}}
     [Viiva/Käyrä -työkalu]({{< relref "viiva_kayra.md" >}}) antaa sinun asettaa tyylin, viivan päiden tyylit sekä joko viiva tai piste muodon.
 
 * ### Valintatyökalut
@@ -76,7 +76,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
     {{< figure src="/kuvat/toolbar_text.png" alt="Tekstityökalu" >}}
 
-    Täta osaa työkalupalkista käyttää vain <img style="vertical-align: middle;" src="/resurssit/tyokalut/text.png" alt="Työkalut" />
+    Täta osaa työkalupalkista käyttää vain {{< tool "text.png" >}}
     [Teksti]({{< relref "tekstityokalu.md" >}}), ja se antaa sinun asettaa fontin, koon, pehmeyden sekä tyylin.
 
     On saatavilla kolme eri tapaa näyttää teksti, "Pehmeä", "Terävä (Modern)" ja "Terävä (Klassinen)". Pehmeä sopii parhaiten keskikokoiseen ja
@@ -88,7 +88,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
     {{< figure src="/kuvat/toolbar_gradient.png" alt="Väriliukuma" >}}
 
-    <img style="vertical-align: middle;" src="/resurssit/tyokalut/gradient.png" alt="Työkalut" />[Väriliukumalla]({{< relref "variliukuma.md" >}})
+    {{< tool "gradient.png" >}}[Väriliukumalla]({{< relref "variliukuma.md" >}})
     on 7 erilaista liukumaa jota se voi käyttää, sekä se voi toimia joko väritilassa tai erikoisessa läpinäkyvyystilassa.
 
     Lisäksi on mahdollista peilata tai kiertää.
@@ -97,8 +97,8 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
     {{< figure src="/kuvat/toolbar_magicwandpaintbucket.png" alt="Taikasauva, täyttö ja uudelleen väritys" >}}
 
-    Toleranssi vaikuttaa miten <img style="vertical-align: middle;" src="/resurssit/tyokalut/magicwand.png" alt="Työkalut" />
-    [Taikasauva]({{< relref "taikasauva.md" >}}), [Täyttö]({{< relref "taytto.md" >}}) sekä <img style="vertical-align: middle;" src="/resurssit/tyokalut/recolor.png" alt="Työkalut" />[Uudelleen väritys]({{< relref "uudelleen_varitys.md" >}}) toimivat. Se määrää miten samanväriset värit lasketaan mukaan
+    Toleranssi vaikuttaa miten {{< tool "magicwand.png" >}}
+    [Taikasauva]({{< relref "taikasauva.md" >}}), [Täyttö]({{< relref "taytto.md" >}}) sekä {{< tool "recolor.png" >}}[Uudelleen väritys]({{< relref "uudelleen_varitys.md" >}}) toimivat. Se määrää miten samanväriset värit lasketaan mukaan
     kun työkalua käytetään. Jos se on asetettu 0%, vain tarkalleen tiettyä väriä käytetään. Jos se on 100%, kaikki värit lasketaan mukaan. Oletusarvo on 50%.
 
     Näytteistys voi valita tason tai koko kuvan.
@@ -107,8 +107,8 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
     {{< figure src="/kuvat/toolbar_colorpicker.png" alt="Väripoimija" >}}
 
-    <img style="vertical-align: middle;" src="/resurssit/tyokalut/colorpicker.png" alt="Työkalut" />[Väripoimijan]({{< relref "pikselityokalut.md" >}})
-    voi asettaa vaihtamaan <img style="vertical-align: middle;" src="/resurssit/tyokalut/pencil.png" alt="Työkalut" />[Kynään]({{< relref "pikselityokalut.md" >}})
+    {{< tool "colorpicker.png" >}}[Väripoimijan]({{< relref "pikselityokalut.md" >}})
+    voi asettaa vaihtamaan {{< tool "pencil.png" >}}[Kynään]({{< relref "pikselityokalut.md" >}})
     tai edelliseen työkaluun värin poimimisen jälkeen.
 
     Näytteistyksen voi asettaa pysymään tasolla tai koskemaan koko kuvaa sekä näytepisteiden määrää voi muuttaa.
@@ -117,7 +117,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
     {{< figure src="/kuvat/toolbar_moveselectedpixels.png" alt="Siirrä valittuja pikseleitä" >}}
 
-    <img style="vertical-align: middle;" src="/resurssit/tyokalut/moveselectedpixels.png" alt="Työkalut" />[Siirrä valintaa]({{< relref "siirtotyokalut.md" >}})
+    {{< tool "moveselectedpixels.png" >}}[Siirrä valintaa]({{< relref "siirtotyokalut.md" >}})
     -työkalun voi asettaa käyttämään joko "pehmeää" (bilinear) tai "pikseloitua" (lähin naapuri) näytteistystä. Pehmeä laatu on yleensä suositeltua ellei
     sinulla ole tarkkaa tarvetta käyttää pikseloitua laatua.
 

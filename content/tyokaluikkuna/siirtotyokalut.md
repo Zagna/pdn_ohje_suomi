@@ -26,7 +26,7 @@ Seuraavat työkalut käsitellään tässä osassa:
     tarkentamisessa. Kun tämä työkalu on käytössä, valintaan lisätään sininen korostus jotta voisit nähdä valinnan tarkemmin.
 
 Ensimmäiseksi sinun tulee olla varma ennen kuin valitset yhden näistä työkaluista että sinulla on aktiivinen valinta. Katso
-<img style="vertical-align: middle;" src="/resurssit/tyokalut/select.png" alt="Työkalut" />[Valintatyökaluista]({{< relref "valintatyokalut.md" >}})
+{{< tool "select.png" >}}[Valintatyökaluista]({{< relref "valintatyokalut.md" >}})
 miten luot ja muokkaat niitä. Jokainen siirto, koon muutto ja pyöritys mitä teet valintaan lisätään
 [Historiaikkunaan]({{< relref "historiaikkuna.md" >}}).
 
@@ -34,7 +34,7 @@ Kun valitset siirtotyökalun, useita kahvoja, tai nuppeja, ilmestyy valinnan reu
 
 {{< figure src="/resurssit/movenubs.jpg" alt="Siirtonupit" >}}
 
-Kun jompi kumpi näistä työkaluista on valittu, voit suorittaa minkä tahansa näistä neljästä työstä saadaksesi halutun tuloksen.
+Kun jompikumpi näistä työkaluista on valittu, voit suorittaa minkä tahansa näistä neljästä työstä saadaksesi halutun tuloksen.
 Voit suorittaa jokaisen työn monta kertaa, voit sekoittaa niitä saadaksesi oikea tuloksen. Huomaa että jokaisessa esimerkissä,
 kun käytetään Muokkaa valintaa-työkalua, pikselit jotka oli valittu ei vaikuteta.
 

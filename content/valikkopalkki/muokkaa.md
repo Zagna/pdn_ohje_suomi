@@ -31,7 +31,7 @@ myös vain valittuun alueeseen.
 
     Tämän avulla, voit siirtää valitun alueen aktiivisesta tasosta leikepöydälle. Voit valita alueen tasosta käyttämällä
     [Suorakulmainen valinta, Lassovalinta, Ellipsi valinta]({{< relref "valintatyokalut.md" >}}), tai
-    <img style="vertical-align: middle;" src="/resurssit/tyokalut/magicwand.png" alt="Työkalut" />[Taikasauva]({{< relref "taikasauva.md" >}}) työkaluilla.
+    {{< tool "magicwand.png" >}}[Taikasauva]({{< relref "taikasauva.md" >}}) työkaluilla.
     Kun olet tehnyt Leikkaa operaation, valittu alue tasosta siirretään leikepöydälle ja korvataan läpinäkyvillä pikseleillä. Nykyinen valittu alue myös poistetaan.
 
 * ### Kopioi
@@ -45,7 +45,7 @@ myös vain valittuun alueeseen.
 * ### Liitä
 
     Jos leikepöydällä on kuva, tämä komento liittää sen valitulle tasolle. Liitetyt pikselit tullaan valituksi ja
-    <img style="vertical-align: middle;" src="/resurssit/tyokalut/moveselection.png" alt="Työkalut" />[Siirrä valintaa]({{< relref "siirtotyokalut.md" >}})
+    {{< tool "moveselection.png" >}}[Siirrä valintaa]({{< relref "siirtotyokalut.md" >}})
     työkalu tulee automaattisesti valituksi. Tämän jälkeen voit joko siirtää, skaalata tai pyörittää pikseleitä haluttuun paikkaan ja muotoon. Jos
     liitettävä kuva on joko liian leveä tai korkea nykyiselle pohjan koolle, sinulta kysytään haluatko muuttaa pohjan kokoa. Kyseessä on oikotie
     [Kuva **&rarr;** Pohjan koko]({{< relref "kuva.md" >}}) komentoon joka varmistaa että liitettävä kuva mahtuu.
@@ -59,7 +59,7 @@ myös vain valittuun alueeseen.
 * ### Liitä uuteen kuvaan
 
     Tämä on samanlainen kun Liitä, mutta se ensin luo uuden kuvan, valitsee sen ja sen jälkeen liittää leikepöydän sisällön. Uusi kuva on saman
-    kokoienen kuin liitettävä kuva.
+    kokoinen kuin liitettävä kuva.
 
 * ### Poista valittu alue
 

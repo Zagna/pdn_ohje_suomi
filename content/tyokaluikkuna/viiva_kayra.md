@@ -39,7 +39,7 @@ Kun olet valmis käyrän kanssa, voit painaa Enter-nappia viimeistelläksesi kä
 
 ### Tyyli
 
-Työkalupalkista voit asettaa joko alun, viivan sekä lopun tyylin. Alku sekä pää voi olla tasaisia (normaali), kaksi erillaista nuolta tai
+Työkalupalkista voit asettaa joko alun, viivan sekä lopun tyylin. Alku sekä pää voi olla tasaisia (normaali), kaksi erilaista nuolta tai
 pyöristetty. Viivan tyyli voi olla joko kiinteä tai valikoima viivoja tai pisteitä.
 
 {{< figure src="/kuvat/toolbar_shapesbrushesfill.png" alt="Tyylit" >}}
