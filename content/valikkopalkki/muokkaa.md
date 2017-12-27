@@ -6,7 +6,7 @@ title = "Muokkaa"
 [menu.pdn]
     parent = "vpalkki"
     identifier = "muokkaa"
-    weight = 312
+    weight = 302
 
 +++
 

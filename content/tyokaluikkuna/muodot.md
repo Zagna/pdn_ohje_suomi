@@ -7,7 +7,7 @@ tooltip = "resurssit/tyokalut/shapes.png"
 [menu.pdn]
     parent = "tikkuna"
     identifier = "muodot"
-    weight = 378
+    weight = 502
 
 +++
 

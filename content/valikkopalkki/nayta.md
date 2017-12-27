@@ -6,7 +6,7 @@ title = "Näytä"
 [menu.pdn]
     parent = "vpalkki"
     identifier = "nayta"
-    weight = 313
+    weight = 303
 
 +++
 
@@ -48,7 +48,7 @@ Näytä-valikko sisältää komentoja joita voi käyttää vaihtamaan tapaa mite
     piirroksia tiettyihin kohtiin kuvaan ilman että sinun pitää katsoa kursorin sijaintia tilapalkissa. Kun valinta on aktiivinen, sen sykkivä reuna
     korostetaan viivoittimissa.
 
-    {{< figure src="/resurssit/viivain.jpg" alt="Viivoitin" class="border" >}}
+    {{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/resurssit/viivain.jpg" alt="Viivoitin" class="border" >}}
 
 * ### Pikseliä, Tuumaa, ja Senttimetriä
 

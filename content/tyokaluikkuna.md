@@ -5,8 +5,8 @@ title = "Työkaluikkuna"
 
 [menu.pdn]
     parent = "kliittyma"
-    identifier = "tikkuna"
-    weight = 370
+    identifier = "tikkunav"
+    weight = 205
 
 +++
 

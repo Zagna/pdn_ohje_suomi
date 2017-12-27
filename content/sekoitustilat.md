@@ -4,28 +4,31 @@ draft = false
 title = "Sekoitustilat"
 
 [menu.pdn]
-    parent = "konsepti"
+    parent = "koti"
     identifier = "sek_tilat"
-    weight = 202
+    weight = 105
 
 +++
 
 Tason sekoitustila määrää miten se sekoitetaan alla oleviin tasoihin. Vaihtaaksesi tason sekoitustilan valitse taso ja avaa sen
 ominaisuudet (Tasovalikon tai Ominaisuudet napin kautta, tai kaksoisklikkaamalla tasoa). Saat seuraavan valikon:
 
-{{< figure src="/kuvat/layerproperties.png" alt="Tason ominaisuudet" >}}
+{{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/kuvat/layerproperties.png" alt="Tason ominaisuudet" >}}
 
 Tätä aihetta varten seuraavia kahta kuvaa käytetään taustakuvaksi sekä ensimmäiseksi tasoksi taustakuvan yläpuolella:
 
-{{< figure class="border" src="/resurssit/kemijoki.jpg" title="Taustakuva - Kuva Rovaniemestä (1972)" caption="(\"Pohja taso\")" >}}
+<div class="d-flex justify-content-center">
 
-{{< figure class="border" src="/resurssit/ruisleipa.jpg" title="Taso 1 - Kuva ruisleivästä" caption="(\"Päällinen taso\")" >}}
+{{< figure src="/resurssit/kemijoki.jpg" title="Taustakuva - Kuva Rovaniemestä (1972)" caption="(\"Pohja taso\")" >}}
+{{< figure src="/resurssit/ruisleipa.jpg" title="Taso 1 - Kuva ruisleivästä" caption="(\"Päällinen taso\")" >}}
+
+</div>
 
 Kaikki sekoitustilat eivät ole helppoja ymmärtää, ja tämän takia suosittelemme että kokeilette ja käytätte [foorumia](http://www.getpaint.net/redirect/forum.html) kysymysten ja vinkkien
 muodossa. Jokainen sekoitustila selostetaan kuvan kanssa edellä mainittujen kuvien kanssa, sekoitustila valittuna ja peittävyys asetettuna täyteen.
 
 Alla olevissa aiheissa, käytämme termiä *kokoonpano*. Tämä viittaa lopputulokseen kaikkien nykyisen tason alla olevien sekoitukseen.
-"Lopullinen" kokoonpano on mitä näet näytöllä kun työstät kuvaa. Kuitenkin, tässä aihessa meidän pitää viitata kokoonpanoon kun sitä
+"Lopullinen" kokoonpano on mitä näet näytöllä kun työstät kuvaa. Kuitenkin, tässä aiheessa meidän pitää viitata kokoonpanoon kun sitä
 koostaan, taso tasolta.
 
 Sekoitustilan oletus on Normaali. Jokainen pikseli sekoitetaan kokoonpanoon sen alfa-arvon mukaan. Normaalin lisäksi on myös olemassa
@@ -55,4 +58,4 @@ alfa-arvolla 128, joka tarkoittaa noin 50% läpinäkyvyyttä. Viiva vasemmalla o
 kuvaan autosta. Kummatkin leipä sekä viiva näkyvät. Toinen viiva oikealla, on piirretty Korvaavan kanssa. Leipä ei ole enää näkyvä missä
 viiva piirrettiin ja ruudukko mikä näkyy tarkoittaa että se osa kuvasta on läpinäkyvä.
 
-{{< figure src="/resurssit/ruisleipa_alpha.jpg" alt="Sekoitustila" class="border" >}}
+{{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/resurssit/ruisleipa_alpha.jpg" alt="Sekoitustila" >}}

@@ -6,7 +6,7 @@ title = "Säädot"
 [menu.pdn]
     parent = "vpalkki"
     identifier = "saadot"
-    weight = 330
+    weight = 306
 
 +++
 

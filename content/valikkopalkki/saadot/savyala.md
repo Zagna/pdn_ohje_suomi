@@ -4,9 +4,9 @@ draft = false
 title = "Sävyala"
 
 [menu.pdn]
-    parent = "saadot"
+    parent = "sehot"
     identifier = "savyalat"
-    weight = 332
+    weight = 403
 
 +++
 
@@ -14,9 +14,7 @@ Sävyala-säätö antaa sinun muuttaa kuvan värialuetta (tai "valotusaikaa"), m
 tehdään liittyy kuvan sisääntulon ja ulostulon valkopisteeseen, harmaapisteeseen ja mustapisteeseen. Kuvan valkopiste on kirkkain väri mikä esiintyy
 kuvassa ja mustapiste on kaikkein tummin väri mikä esiintyy kuvassa. Harmaapiste esittää värien keskiarvoa koko kuvassa.
 
-<p class="centered levels">
-    <img src="/kuvat/levels1.png" alt="Käyrät1">
-</p>
+{{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/kuvat/levels1.png" alt="Käyrät1" >}}
 
 Jokaista väripistettä voi muokata käyttäen Sävyalaa. Yllä olevassa valikossa, on 5 numeerista valintaa ja 5 väriliukua. Kaksi vasemmalla puolella
 'Sisääntulo' osassa tarkoittaa sisääntulon valko- ja mustapistettä. Näitä värejä voi muokata käyttäen joko numeerisia valintoja, liukuja tai
@@ -27,9 +25,12 @@ värit kuvassa säädetään täysin mustaksi. Muuttamalla valkopistettä hieman
 ja muuttamalla mustapistettä hieman kirkkaammaksi, teemme kaikista niistä tummista väreistä täysin tummia. Myös, valikossa ylhäällä, harmaapiste on
 siirretty hieman kirkkaammaksi. Vaikka tämä ei vaikuta kuvan valkoiseen tai mustaan, se nostaa kuvan värejä yleisesti kirkkaammiksi.
 
-<p class="centered levels">
-    <img src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät2" class="border">&nbsp;<img src="/resurssit/lewistonsunset_small_levels1.jpg" alt="Käyrät3" class="border">
-</p>
+<div class="d-flex justify-content-center">
+
+{{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät2" >}}
+{{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/resurssit/lewistonsunset_small_levels1.jpg" alt="Käyrät3" >}}
+
+</div>
 
 Nämä säädöt venyvät koko kuvan alaan, näyttäen helposti histogrammeista mitkä ovat kummallakin puolella. Histogrammi vasemmalla näyttää kuvan
 värialan ennen mitään muokkausta, tämä histogrammi näyttää kuin paljon kuvasta on tiettyä väriä. Yllä olevassa kuvassa, histogrammi näyttää
@@ -46,10 +47,11 @@ Tähän asti, kaikki säädöt on tehty kaikille kanavilla, punainen, vihreä ja
 kanavat voi säätää erillään (enintään kaksi kerrallaan). Alla olevassa kuvassa, gamma on säädetty vihreän ja sinisen kanavan kohdalla samaan
 aikaan, johtaen syaanin määrän tippumiseen kuvassa. Tämä korostaa punaista kuvassa, kuten voi nähdä alla olevassa kuvassa.
 
-<p class="centered levels">
-    <img src="/kuvat/levels2.png" alt="Käyrät4">
-</p>
+{{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/kuvat/levels2.png" alt="Käyrät4" >}}
 
-<p class="centered levels">
-    <img src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät5" class="border">&nbsp;<img src="/resurssit/lewistonsunset_small_levels2.jpg" alt="Käyrät6" class="border">
-</p>
+<div class="d-flex justify-content-center">
+
+{{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät5" >}}
+{{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/resurssit/lewistonsunset_small_levels2.jpg" alt="Käyrät6" >}}
+
+</div>

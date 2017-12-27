@@ -4,9 +4,9 @@ draft = false
 title = "Sumennus"
 
 [menu.pdn]
-    parent = "tehosteet"
+    parent = "sehot"
     identifier = "sumennus"
-    weight = 344
+    weight = 407
 
 +++
 

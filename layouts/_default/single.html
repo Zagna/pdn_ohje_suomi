@@ -1,16 +1,15 @@
 {{ partial "header.html" . }}
-
-<div id="main-content">
-<div id="content">
-	<h2>{{ .Title }}{{ if .Params.tooltip }} <img alt="{{ .Title }}" src="/{{ .Params.tooltip }}" />{{ end }}</h2>
-	{{ .Content }}
-	
-	{{ partial "footer.html" . }}
-	
+<div class="d-flex d-print-none" id="banner">
+	<a href="/"><h1><span class="text-hide">paint.net</span> <span class="d-print-none" id="ohje">ohje</span></h1></a>
 </div>
-
-{{ partial "menu.html" . }}
-
+<div class="container d-flex flex-column">
+	<div class="p-2 order-2 flex-column" id="content">
+		<h2>{{ .Title }}{{ if .Params.tooltip }} <img alt="{{ .Title }}" src="/{{ .Params.tooltip }}" />{{ end }}</h2>
+		{{ .Content }}
+		{{ partial "footer.html" . }}
+	</div>
+	{{ partial "menu.html" . }}
 </div>
+{{ partial "script.html" . }}
 </body>
 </html>

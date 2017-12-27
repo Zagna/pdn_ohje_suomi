@@ -6,7 +6,7 @@ title = "Tilapalkki"
 [menu.pdn]
     parent = "kliittyma"
     identifier = "tilapalkki"
-    weight = 393
+    weight = 208
 
 +++
 

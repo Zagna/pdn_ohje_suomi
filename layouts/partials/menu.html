@@ -1,29 +1,25 @@
 
-{{ $currentPage := . }}
-<nav id="navigation">
-	{{ range .Site.Menus.pdn }}
-		{{ if eq .Identifier "koti" }}<h2>{{ .Name }}</h2>{{ else }}<h3>{{ .Name }}</h3>{{ end }}
-		<ul id="{{ .Identifier }}" class="menu-v">
-		{{ range .Children }}
-			<li><a href="{{ .URL }}">{{ .Name }}</a>
-			{{ if .HasChildren }}
-				<ul class="sub">
+<nav id="navigation" class="navbar navbar-expand-lg order-1">
+	<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		<ul class="navbar-nav nav-fill w-100">
+		{{ range .Site.Menus.pdn }}
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					{{ .Name }}
+				</a>
+				<div class="dropdown-menu">
 				{{ range .Children }}
-					<li><a href="{{ .URL }}">{{ .Name }}</a>
-					{{ if .HasChildren }}
-					<ul class="sub">
-						{{ range .Children }}
-						<li><a href="{{ .URL }}">{{ .Name }}</a></li>
-						{{ end }}
-					</ul>
+					<a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
+					{{ if or (or ( eq .Identifier "savyalat" ) ( eq .Identifier "lisaosat" )) ( eq .Identifier "sek_tilat" ) }}
+						<div class="dropdown-divider"></div>
 					{{ end }}
-					</li>
 				{{ end }}
-				</ul>
-			{{ end }}
+				</div>
 			</li>
-			{{ end }}
+		{{ end }}
 		</ul>
-	{{ end }}
+	</div>
 </nav>
-

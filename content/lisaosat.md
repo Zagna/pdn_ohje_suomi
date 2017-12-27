@@ -5,6 +5,7 @@ title = "Lisäosien asennus"
 
 [menu.pdn]
     parent = "koti"
+    identifier = "lisaosat"
     weight = 103
 
 +++

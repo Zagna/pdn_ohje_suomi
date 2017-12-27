@@ -7,7 +7,7 @@ tooltip = "resurssit/tyokalut/select.png"
 [menu.pdn]
     parent = "tikkuna"
     identifier = "siirto"
-    weight = 372
+    weight = 506
 
 +++
 

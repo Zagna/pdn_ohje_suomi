@@ -41,7 +41,7 @@ Mukautetun asennuksen vaihtoehdot. Seuraava aloittaa asennuksen.
 
 {{% huom %}}paint.net tarvitsee .NET Frameworkin. Jos vaadittua versiota ei ole asennettu järjestelmään, se asennetaan automaattisesti asennuksen yhteydessä.{{% /huom %}}
 
-Kun asennus on valmis, paina Valmis lopettaaksesi. Jos &#x2611; käynnistä paint.net on valittu, ohjelma käynnistetään asennuksen lopuksi.
+Kun asennus on valmis, paina Valmis lopettaaksesi. Jos &#x2611; Käynnistä paint.net on valittu, ohjelma käynnistetään asennuksen lopuksi.
 
 {{< figure src="/kuvat/asennusosa4.png" alt="paint.net asennus valmis" >}}
 

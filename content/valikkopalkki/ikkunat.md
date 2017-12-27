@@ -6,7 +6,7 @@ title = "Ikkunat"
 [menu.pdn]
     parent = "vpalkki"
     identifier = "ikkunat"
-    weight = 350
+    weight = 308
 
 +++
 

@@ -29,11 +29,11 @@
 		class="bunder border"
 		alt="Jälkeen"
 		caption="Jälkeen"
-	
+
 [[tab]]
 	id = "psilma"
 	name = "Punasilmän poistaja"
-	content = "Jos sinulla on valokuva jossa kohteella on &ldquo;punaiset silmät&rdquo;, silloin tämä tehoste on hyödyllinen niiden poistamiseen. Sinun kannattaa kuitenkin valita kohteen silmät ennen kuin käytätä tätä tehostetta."
+	content = "Jos sinulla on valokuva jossa kohteella on &ldquo;punaiset silmät&rdquo;, silloin tämä tehoste on hyödyllinen niiden poistamiseen.<br/>Sinun kannattaa kuitenkin valita kohteen silmät ennen kuin käytätä tätä tehostetta."
 
 	[[tab.figure]]
 		src="/resurssit/punasilma.jpg"

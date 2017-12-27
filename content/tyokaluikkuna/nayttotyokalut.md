@@ -7,7 +7,7 @@ tooltip = "resurssit/tyokalut/view.png"
 [menu.pdn]
     parent = "tikkuna"
     identifier = "naytto"
-    weight = 384
+    weight = 503
 
 +++
 

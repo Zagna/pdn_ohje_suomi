@@ -6,7 +6,7 @@ title = "Valintatyökalut"
 [menu.pdn]
     parent = "tikkuna"
     identifier = "valinta"
-    weight = 371
+    weight = 512
 
 +++
 

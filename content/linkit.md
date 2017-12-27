@@ -6,7 +6,7 @@ title = "Linkit"
 [menu.pdn]
     parent = "muuta"
     identifier = "linkit"
-    weight = 403
+    weight = 603
 
 +++
 

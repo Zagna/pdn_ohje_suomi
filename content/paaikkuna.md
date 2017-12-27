@@ -6,7 +6,7 @@ title = "Pääikkuna"
 [menu.pdn]
     parent = "kliittyma"
     identifier = "paaikkuna"
-    weight = 302
+    weight = 202
 
 +++
 

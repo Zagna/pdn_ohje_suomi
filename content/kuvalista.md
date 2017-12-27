@@ -6,7 +6,7 @@ title = "Kuvalista"
 [menu.pdn]
     parent = "kliittyma"
     identifier = "kuvalista"
-    weight = 303
+    weight = 203
 
 +++
 

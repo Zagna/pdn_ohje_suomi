@@ -7,7 +7,7 @@ tooltip = "resurssit/tyokalut/gradient.png"
 [menu.pdn]
     parent = "tikkuna"
     identifier = "vliukuma"
-    weight = 374
+    weight = 514
 
 +++
 
@@ -25,6 +25,6 @@ Toinen kuva välilehdessä näyttää miten liukuma vaikuttaa läpinäkyvyystila
 
 {{% huom %}}Shakkilautamalli tarkoittaa läpinäkyvyyttä.{{% /huom %}}
 
-{{< figure src="/resurssit/ruisleipa.jpg" alt="Ruisleipä" class="border" >}}
+{{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/resurssit/ruisleipa.jpg" alt="Ruisleipä" >}}
 
 {{% tabit "liukuma" %}}

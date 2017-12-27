@@ -6,7 +6,7 @@ title = "Tasot"
 [menu.pdn]
     parent = "vpalkki"
     identifier ="tasot"
-    weight = 320
+    weight = 305
 
 +++
 

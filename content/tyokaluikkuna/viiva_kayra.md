@@ -7,7 +7,7 @@ tooltip = "resurssit/tyokalut/linecurve.png"
 [menu.pdn]
     parent = "tikkuna"
     identifier = "viiva"
-    weight = 379
+    weight = 513
 
 +++
 

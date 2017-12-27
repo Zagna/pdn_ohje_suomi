@@ -4,9 +4,9 @@ draft = false
 title = "Renderointi"
 
 [menu.pdn]
-    parent = "tehosteet"
+    parent = "sehot"
     identifier = "render"
-    weight = 343
+    weight = 406
 
 +++
 

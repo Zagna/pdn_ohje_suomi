@@ -5,9 +5,9 @@ title = "Pyöritä / Lähennä"
 tooltip = "resurssit/tyokalut/clonestamp.png"
 
 [menu.pdn]
-    parent = "tasot"
+    parent = "sehot"
     identifier = "pyorita"
-    weight = 321
+    weight = 401
 
 +++
 

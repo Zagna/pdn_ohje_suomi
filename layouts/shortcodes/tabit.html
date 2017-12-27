@@ -1,19 +1,28 @@
+
 {{ $data := index .Site.Data (.Get 0) }}
 <div id="tabs">
-	<ul class="tabs">
-	{{ range $data.tab }}
-		<li><a href="#{{ .id }}">{{ .name }}</a></li>
+	<ul class="nav nav-tabs" role="tablist">
+	{{ range $index, $element := $data.tab }}
+		{{ if eq $index 0 }}
+			<li role="presentation" class="nav-item"><a class="nav-link active" href="#{{ .id }}" role="tab" data-toggle="tab">{{ .name }}</a></li>
+		{{ else }}
+			<li role="presentation" class="nav-item"><a class="nav-link" href="#{{ .id }}" role="tab" data-toggle="tab">{{ .name }}</a></li>
+		{{ end }}
 	{{ end }}
 	</ul>
-	<div class="tabcontents">
-	{{ range $data.tab }}
-		<div id="{{ .id }}">
+	<div class="tab-content">
+	{{ range $index, $element := $data.tab }}
+		{{ if eq $index 0 }}
+			<div role="tabpanel" class="tab-pane fade show active" id="{{ .id }}">
+		{{ else }}
+			<div role="tabpanel" class="tab-pane fade" id="{{ .id }}">
+		{{ end }}
 			{{ with .content }}<p>{{ markdownify . }}</p>{{ end }}
 			{{ range .figure }}
-				<figure class="{{ .class }}">
-					<img src="{{ .src }}" alt="{{ .alt }}">
+				<figure class="figure {{ .class }}">
+					<img class="figure-img img-fluid" src="{{ .src }}" alt="{{ .alt }}">
 					{{ with .caption }}
-					<figcaption>
+					<figcaption class="figure-caption text-center">
 						<h4>{{ . }}</h4>
 					</figcaption>
 					{{ end }}
@@ -29,5 +38,3 @@
 	{{ end }}
 	</div>
 </div>
-
-<script type="text/javascript" src="/js/tabcontent.js"></script>

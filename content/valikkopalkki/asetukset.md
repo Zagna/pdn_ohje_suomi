@@ -7,7 +7,7 @@ tooltip = "resurssit/tyokalut/tools.png"
 [menu.pdn]
     parent = "vpalkki"
     identifier = "asetukset"
-    weight = 351
+    weight = 309
 
 +++
 

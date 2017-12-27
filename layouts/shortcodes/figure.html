@@ -1,0 +1,10 @@
+
+<figure class="figure {{ .Get "oclass" }}">
+	<img src="{{ .Get "src" }}" class="figure-img {{ .Get "class" }}" alt="{{ .Get "alt" }}">
+	{{ if isset .Params "title" }}
+	<figcaption class="figure-caption text-center">
+		<h4>{{ .Get "title" }}</h4>
+		{{ with .Get "caption" }}<p>{{ safeHTML . }}</p>{{ end }}
+	</figcaption>
+	{{ end }}
+</figure>

@@ -6,7 +6,7 @@ title = "Väri-ikkuna"
 [menu.pdn]
     parent = "kliittyma"
     identifier = "vikkuna"
-    weight = 392
+    weight = 207
 
 +++
 

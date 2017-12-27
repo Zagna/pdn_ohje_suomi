@@ -4,9 +4,9 @@ draft = false
 title = "Tyyli"
 
 [menu.pdn]
-    parent = "tehosteet"
+    parent = "sehot"
     identifier = "tyyli"
-    weight = 345
+    weight = 408
 
 +++
 

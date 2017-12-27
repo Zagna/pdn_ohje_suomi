@@ -4,15 +4,13 @@ draft = false
 title = "Käyrät"
 
 [menu.pdn]
-    parent = "saadot"
+    parent = "sehot"
     identifier = "kayrat"
-    weight = 331
+    weight = 402
 
 +++
 
-<p class="curves">
-    <img src="/kuvat/kayra0.png" alt="Käyrät-Null">
-</p>
+{{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/kuvat/kayra0.png" alt="Käyrät-Null" >}}
 
 Käyrät-säätöä voi käyttää värien muokkaamiseen suurella määrällä ohjattavuutta. Käyrät antavat sinun hienosäätää jokaisen sävyn
 voimakkuutta kuvassa. Tarkemmin, sitä voi myös käyttää tuomaan esiin tai piilottamaan tiettyjä sävyaloja kuvasta, tavoilla joilla
@@ -39,13 +37,14 @@ Alla on esimerkki miten Käyriä käytetään kuvan muokkaamiseen. Alkuperäinen
 piirretty näyttää että tummemmat sävyt tulisi tummentaa lisää ja valoisat sävyt kirkastaa. Lopputulos on kuva missä on syvemmät tummat ja
 vahvemmat kirkkaat, kuitenkin ylläpitäen alkuperäisen kuvan muodon.
 
-<p class="clear centered curves2">
-    <img src="/kuvat/kayra1.png" alt="Käyrät-Luminosity">
-</p>
+{{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/kuvat/kayra1.png" alt="Käyrät-Luminosity" >}}
 
-<p class="centered curves2">
-    <img src="/resurssit/tehoste.jpg" alt="Koira1" class="border">&nbsp;<img src="/resurssit/tehoste_kayra1.jpg" alt="Koira2" class="border">
-</p>
+<div class="d-flex justify-content-center">
+
+{{< figure src="/resurssit/tehoste.jpg" alt="Koira1" >}}
+{{< figure src="/resurssit/tehoste_kayra1.jpg" alt="Koira2" >}}
+
+</div>
 
 ### Monikanavasäädöt
 
@@ -57,23 +56,25 @@ Muokataksesi yksittäisiä tai tiettyjä kanavia, valitse ne vain käyttäen val
 
 Alla oleva kuva on muokattu Käyrillä vahvistamaan koiran turkin punaisen voimakkuutta.
 
-<p class="centered curves2">
-    <img src="/kuvat/kayra2.png" alt="Käyrät-Mix">
-</p>
+{{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/kuvat/kayra2.png" alt="Käyrät-Mix" >}}
 
-<p class="centered curves2">
-    <img src="/resurssit/tehoste.jpg" alt="Koira3" class="border">&nbsp;<img src="/resurssit/tehoste_kayra2.jpg" alt="Koira4" class="border">
-</p>
+<div class="d-flex justify-content-center">
+
+{{< figure src="/resurssit/tehoste.jpg" alt="Koira3" >}}
+{{< figure src="/resurssit/tehoste_kayra2.jpg" alt="Koira4" >}}
+
+</div>
 
 ### Muut mahdollisuudet
 
 Kuten aiemmin mainittiin, voit käyttää Käyriä kuvan invertoimiseen. Esimerkissä alhaalla, ruisleivän kuva muokattiin käyttäen Käyriä tuottaakseen
 kuvan mikä ei ole mahdollista muilla säädöillä, kuten [Sävyala]({{< relref "savyala.md" >}}) tai Sävy / Värikylläisyys:
 
-<p class="centered curves2">
-    <img src="/kuvat/kayra3.png" alt="Käyrä-Sin">
-</p>
+{{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/kuvat/kayra3.png" alt="Käyrät-Sin" >}}
 
-<p class="centered curves2">
-    <img src="/resurssit/ruisleipa.jpg" alt="Ruisleipä" class="border">&nbsp;<img src="/resurssit/ruisleipa_kayra3.jpg" alt="Ruisleipä käyrät" class="border">
-</p>
+<div class="d-flex justify-content-center">
+
+{{< figure src="/resurssit/ruisleipa.jpg" alt="Ruisleipä" >}}
+{{< figure src="/resurssit/ruisleipa_kayra3.jpg" alt="Ruisleipä käyrät" >}}
+
+</div>

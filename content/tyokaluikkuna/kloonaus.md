@@ -7,7 +7,7 @@ tooltip = "resurssit/tyokalut/clonestamp.png"
 [menu.pdn]
     parent = "tikkuna"
     identifier = "kloonaus"
-    weight = 382
+    weight = 501
 
 +++
 

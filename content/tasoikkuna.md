@@ -6,7 +6,7 @@ title = "Tasoikkuna"
 [menu.pdn]
     parent = "kliittyma"
     identifier = "tasoikkuna"
-    weight = 391
+    weight = 207
 
 +++
 

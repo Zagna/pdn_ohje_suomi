@@ -4,14 +4,15 @@ draft = false
 title = "Näppäimistön ja hiiren komennot"
 
 [menu.pdn]
-	parent = "kliittyma"
+	parent = "koti"
 	identifier = "nap_hiiri"
-	weight = 301
+	weight = 110
 
 +++
 
 Suuri osa komennoista paint.netissä on helposti käytettävissä näppäimistön avulla. Avuksesi, kaikki komennot on lueteltu tänne.
 
+{.table}
 Yleiset pohjan hallinnat ||
 --- | ---
 Panoroi kuvaa (ei toimi kun kirjoitat Teksti-työkalulla) | Pidä välilyönti + siirrä hiirtä vasen nappi alhaalla
@@ -20,6 +21,7 @@ Vieritä vasemmalle / oikealle | Shift + Hiiren rulla ylös / alas
 Lähennä / Loitonna | Ctrl + Hiiren rulla
 Poista valinta | Esc tai Enter
 
+{.table}
 Kuvalista ja Kuvien navigointi ||
 --- | ---
 Seuraava välilehti | Ctrl + Tab
@@ -28,6 +30,7 @@ Näytä kuvalista | Ctrl + Q
 Vaihda kuvaan #, kuville 1:stä 10:en | Ctrl + *#* or Alt + *#*, missä *#* on 1:stä 9:in kuville 1-9, tai 0 kuvalle 10
 Vieritä kuvalistaa | Hiiren rulla (vain jos hiiren kursori on kuvalistan alueella)
 
+{.table}
 Työkalupalkki ||
 --- | ---
 Laske siveltimen kokoa 1 | &#91;
@@ -35,6 +38,7 @@ Laske siveltimen kokoa 5 | Ctrl + &#91;
 Nosta siveltimen kokoa 1 | &#93;
 Nosta siveltimen kokoa 5 | Ctrl + &#93;
 
+{.table}
 Siirtotyökalut ||
 --- | ---
 Muuta valinnan kokoa | Siirrä yhtä reuna tai nurkka nuppia
@@ -42,6 +46,7 @@ Muuta valinnan kokoa säilyttäen alkuperäinen suhde | Pidä Shift alhaalla kun
 Muokkaa valintaa | Siirrä oikealla hiiren napilla valitsemalle muu kuin nuppi
 Pyöritä valintaa | Siirrä missä vain oikealla hiiren napilla
 
+{.table}
 Valintatyökalut (paitsi Taikasauva) ||
 --- | ---
 {{< huom >}}Kun valinta on aktiivinen, kaikki piirtäminen, ja monta muuta komentoa, piirros ja tehosteet näkyvät vain valinnan sisällä.{{< /huom >}} ||
@@ -54,11 +59,13 @@ Pakota neliöön (Suorakulmainen valinta), tai ympyrään (Ellipsi valinta) | Pi
 Siirrä uutta valintaa kun vielä piirrät sitä | Kun piirrät vasemmalla hiiren napilla, pidä oikea hiiren nappi pohjassa ja siirrä hiirtä
 Siirrä uutta valintaa kun vielä piirrät sitä | Kun piirrät oikealla hiiren napilla, pidä vasen hiiren nappi pohjassa ja siirrä hiirtä
 
+{.table}
 Väri-ikkuna ||
 --- | ---
 Vaihda edusta- ja taustaväri keskenään | X
 Vaihda aktiivinen väri alas vetolaatikossa | C
 
+{.table}
 Taikasauva ||
 --- | ---
 Luo uusi valinta ympäröivistä pikseleistä jotka muistuttavat pikseliä jonka valitsit, korvaten minkä tahansa vanhan valinnan jos se on olemassa (valinta riippuu Toleranssi asetuksesta) | Vasen hiiren nappi
@@ -67,26 +74,31 @@ Lisää nykyiseen valintaan (lisäys) | Ctrl + Vasen hiiren nappi
 Invertoi tietty ala valinnasta (poissulkeva) | Ctrl + Oikea hiiren nappi
 Tee globaali valinta koko tasolle värin ja toleranssin perusteella | Shift pohjassa tee jokin neljästä komennosta ylhäällä
 
+{.table}
 Tekstityökalu ||
 --- | ---
 Väliaikaisesti piilota kursori ja nuppi | Pidä Ctrl pohjassa
 Aseta nupin näkyvyys | Paina Ctrl nopeasti
 Viimeistele teksti ja lisää se tasoon | Esc
 
+{.table}
 Sivellin ||
 --- | ---
 Piirrä edustavärillä | Piirrä vasemmalla hiiren napilla
 Piirrä taustavärillä | Piirrä oikealla hiiren napilla
 
+{.table}
 Pyyhin ||
 --- | ---
 Poistaa kyseisen alueen (asettaa pikselit läpinäkyviksi) | Piirrä joko vasemmalla tai oikealla hiiren napilla
 
+{.table}
 Kloonaus ||
 --- | ---
 Asettaa lähdekohdan | Ctrl + Vasen hiiren nappi
 Kopioi pikselit (lähdekohta pitää asettaa ensin) | Piirrä vasemmalla hiiren napilla
 
+{.table}
 Uudelleen väritä ||
 --- | ---
 Valitse kursorin alla oleva väri ja aseta se edustaväriksi | Ctrl + Vasen hiiren nappi
@@ -94,24 +106,28 @@ Valitse kursorin alla oleva väri ja aseta se taustaväriksi | Ctrl + Oikea hiir
 Piirrä edustavärillä, mutta vain pikseleiden päälle jotka muistuttavat taustaväriä (samankaltaisuus päätetään Toleranssi asetuksen mukaan) | Piirrä vasemmalla hiiren napilla
 Piirrä taustavärillä, mutta vain pikseleiden päälle jotka muistuttavat edustaväriä (samankaltaisuus päätetään Toleranssi asetuksen mukaan) | Piirrä oikealla hiiren napilla
 
+{.table}
 Täyttö ||
 --- | ---
 Täytä ympäröivä alue edustavärillä | Vasen hiiren nappi
 Täytä ympäröivä alue taustavärillä | Oikea hiiren nappi
 Tee globaali täyttö koko tasolle värin ja toleranssin perusteella | Shift pohjassa tee jokin kahdesta komennosta ylhäällä
 
+{.table}
 Muototyökalut ||
 --- | ---
 Piirrä muoto. Ulkoreuna käyttää edustaväriä, sisusta taustaväriä | Piirrä vasemmalla hiiren napilla
 Piirrä muoto. Ulkoreuna käyttää taustaväriä, sisusta edustaväriä | Piirrä vasemmalla hiiren napilla
 Pakota neliöön (Suorakulmio), pyöreä neliö (Pyöreä suorakulmio), ympyrä (Ellipsi) tai 15&deg; kulmaan (Viiva / Kurvi) | Piirrä Shift pohjassa
 
+{.table}
 Viiva/Käyrä -työkalu ||
 --- | ---
 Vaihda alun tyyliä | , (pilkku)
 Vaihda viivan tyyliä | . (piste)
 Vaihda lopun tyyliä | / (kauttaviiva)
 
+{.table}
 Työkalujen pikanäppäimet ||
 --- | ---
 {{< huom >}}Jos enemmän kuin yksi työkalu jakaa tietyn pikanäppäimen, sinun pitää painaa pikanäppäintä monta kertaa käydäksesi läpi kaikki työkalut mitkä ovat osoitettu tietylle pikanäppäimelle.{{< /huom >}} ||
@@ -138,6 +154,7 @@ Pyöreä suorakulmio | O
 Ellipsi | O
 Vapaa muoto | O
 
+{.table}
 Tiedosto ||
 --- | ---
 Uusi | Ctrl + N
@@ -148,6 +165,7 @@ Tallenna nimellä | Ctrl + Shift + S
 Tulosta | Ctrl + P
 Poistu | Alt + F4, tai Alt + F ja X, tai Ctrl + W kun kuvia ei ole auki
 
+{.table}
 Muokkaa ||
 --- | ---
 Kumoa | Ctrl + Z
@@ -163,6 +181,7 @@ Käännä valinta | Ctrl + I
 Valitse kaikki | Ctrl + A
 Poista valinta | Ctrl + D
 
+{.table}
 Kuva ||
 --- | ---
 Rajaa valintaan | Ctrl + Shift + X
@@ -173,6 +192,7 @@ Pyöritä 90&deg; (vastapäivään) | Ctrl + H
 Pyöritä 180&deg; | Ctrl + J
 Yhdistä tasot | Ctrl + Shift + F
 
+{.table}
 Tasot ||
 --- | ---
 Lisää uusi taso | Ctrl + Shift + N
@@ -182,6 +202,7 @@ Yhdistä taso alas | Ctrl + M
 Pyöritä / Lähennä | Ctrl + Shift + Z
 Tason ominaisuudet | F4
 
+{.table}
 Säädöt ||
 --- | ---
 Automaattinen taso | Ctrl + Shift + L
@@ -193,10 +214,12 @@ Invertoi värit | Ctrl + Shift + I
 Sävyala | Ctrl + L
 Seepia | Ctrl + Shift + P
 
+{.table}
 Tehosteet ||
 --- | ---
 Toista viimeisin tehoste | Ctrl + F
 
+{.table}
 Näytä ||
 --- | ---
 Lähennä sisään | Ctrl + +
@@ -205,6 +228,7 @@ Lähennä ikkunaan | Ctrl + B
 Lähennä valintaan | Ctrl + Shift + B
 Oikea koko | Ctrl + Shift + A
 
+{.table}
 Ikkuna ||
 --- | ---
 Työkalut (aseta näkyvyys) | F5
@@ -215,6 +239,7 @@ Näytä kuvalista | Ctrl + Q
 Seuraava välilehti | Ctrl + Tab
 Edellinen välilehti | Ctrl + Shift + Tab
 
+{.table}
 Ohje ||
 --- | ---
 Sisältö | F1

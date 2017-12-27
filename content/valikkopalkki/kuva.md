@@ -6,7 +6,7 @@ title = "Kuva"
 [menu.pdn]
     parent = "vpalkki"
     identifier = "kuva"
-    weight = 314
+    weight = 304
 
 +++
 

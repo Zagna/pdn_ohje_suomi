@@ -7,7 +7,7 @@ tooltip = "resurssit/tyokalut/paintbrush.png"
 [menu.pdn]
     parent = "tikkuna"
     identifier = "sivellin"
-    weight = 375
+    weight = 507
 
 +++
 

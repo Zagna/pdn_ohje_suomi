@@ -6,7 +6,7 @@ title = "Järjestelmävaatimukset"
 [menu.pdn]
     parent = "muuta"
     identifier = "jarjestelma"
-    weight = 402
+    weight = 602
 
 +++
 

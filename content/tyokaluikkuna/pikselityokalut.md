@@ -6,7 +6,7 @@ title = "Pikselityökalut"
 [menu.pdn]
     parent = "tikkuna"
     identifier = "pikselit"
-    weight = 377
+    weight = 504
 
 +++
 

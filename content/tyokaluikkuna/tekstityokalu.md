@@ -7,7 +7,7 @@ tooltip = "resurssit/tyokalut/text.png"
 [menu.pdn]
     parent = "tikkuna"
     identifier = "teksti"
-    weight = 380
+    weight = 509
 
 +++
 

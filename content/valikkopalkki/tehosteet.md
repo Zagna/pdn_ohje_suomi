@@ -5,8 +5,8 @@ title = "Tehosteet"
 
 [menu.pdn]
     parent = "vpalkki"
-    identifier = "tehosteet"
-    weight = 340
+    identifier = "tehosteetv"
+    weight = 307
 
 +++
 

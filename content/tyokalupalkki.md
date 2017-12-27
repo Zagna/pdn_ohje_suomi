@@ -4,9 +4,9 @@ draft = false
 title = "Työkalupalkki"
 
 [menu.pdn]
-parent = "kliittyma"
-identifier = "tpalkki"
-weight = 360
+    parent = "kliittyma"
+    identifier = "tpalkki"
+    weight = 204
 
 +++
 

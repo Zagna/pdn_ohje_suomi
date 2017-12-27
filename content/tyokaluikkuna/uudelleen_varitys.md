@@ -7,7 +7,7 @@ tooltip = "resurssit/tyokalut/recolor.png"
 [menu.pdn]
     parent = "tikkuna"
     identifier = "uudelleen"
-    weight = 383
+    weight = 511
 
 +++
 

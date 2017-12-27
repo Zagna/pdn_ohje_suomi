@@ -6,7 +6,7 @@ title = "Lisenssi"
 [menu.pdn]
     parent = "muuta"
     identifier = "lisenssi"
-    weight = 404
+    weight = 604
 
 +++
 

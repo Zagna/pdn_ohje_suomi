@@ -6,7 +6,7 @@ title = "Historiaikkuna"
 [menu.pdn]
     parent = "kliittyma"
     identifier = "hikkuna"
-    weight = 390
+    weight = 206
 
 +++
 
