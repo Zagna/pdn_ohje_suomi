@@ -7,7 +7,7 @@ body
 	line-height: 1.15;
 }
 
-h1,h2,h3,h4,strong,.bunder
+h1,h2,h3,h4,strong
 {
 	font-weight: bold !important;
 }
@@ -117,6 +117,26 @@ figure
 {
 	display: block;
 	margin-top: 0 !important;
+}
+
+.badge
+{
+	font-size: 100%;
+}
+
+.kbm tbody tr td:first-child
+{
+	width: 45%;
+}
+
+.kbm tbody tr td:nth-child(2)
+{
+	text-align: center;
+}
+
+.fixed
+{
+	font-family: Consolas, monospace;
 }
 
 ol

@@ -17,6 +17,8 @@ myös asettaa tason näkyväksi tai piilotetuksi käyttämällä tason vieressä
 Voit ajatella tasoja kuin läpinäkyvinä kuvina jotka on asetettu päällekkäin. Kuvat jotka ovat alemmilla tasoilla näkyy ylempien tasojen läpi,
 mutta vain jos tasot ylhäällä eivät ole tiellä.
 
+{{% vihje %}}Tasoja on helppo järjestellä uudelleen vain klikkaamalla tasoa ja vetämällä sen haluttuun kohtaan listassa.{{% /vihje %}}
+
 {{< figure src="/kuvat/layerswindow.png" alt="Tasoikkuna" >}}
 
 Tasoikkunan pohjassa on seitsemän nappia. Vasemmalta oikealle ne ovat:

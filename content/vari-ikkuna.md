@@ -16,31 +16,53 @@ alas vetolaatikkoa väri-ikkunan yläreunassa valitsemaan kumpi on valittu ja vo
 {{< tool "paintbrush.png" >}}[Sivellin]({{< relref "sivellin.md" >}}) ja {{< tool "shapes.png" >}}[Muototyökalut]({{< relref "muodot.md" >}}),
 käyttävät edusta- tai taustaväriä piirtämisessä, riippuen siitä millä hiiren napilla piirrät.
 
-{{% vihje %}}Voit myös käyttää pikanäppäintä C vaihtaaksesi edusta ja taustavärin välillä nopeasti.{{% /vihje %}}
+* ### Väri-ikkuna
 
-{{< figure src="/kuvat/colorswindowless.png" alt="Värit" >}}
+    {{< figure src="/kuvat/colorswindowless.png" alt="Värit" >}}
 
-Tämä tila antaa sinun valita väripyörässä näkyvistä väreistä tai ensimmäisistä 32 väristä nykyisessä paletissa. Jos painat paletissa oikealla
-hiiren napilla, se asettaa taustavärin.
+    Tämä tila antaa sinun valita väripyörässä näkyvistä väreistä tai ensimmäisistä 32 väristä nykyisessä paletissa. Jos painat paletissa oikealla
+    hiiren napilla, se asettaa taustavärin.
 
-Jos painat "Lisää &gt;&gt;" nappia, ikkuna laajenee näyttämään tarkempia asetuksia. Tässä tilassa voit asettaa tarkan arvon jokaiselle värin
-ominaisuudelle, RGB (Punainen, Vihreä, Sininen) tai HSV (Sävy, Värikylläisyys, Arvo) skaalassa. Värin muokkaaminen hex, eli heksadesimaalin
-avulla on myös mahdollista. Alfaa, tai läpinäkyvyyttä voi myös muokata.
+    {{% vihje %}}Voit myös käyttää pikanäppäintä C vaihtaaksesi edusta ja taustavärin välillä nopeasti.{{% /vihje %}}
 
-{{< figure src="/kuvat/colorswindowmore.png" alt="Värit-Lisää" >}}
+* ### Avaa &gt;&gt;
 
-### Paletit
+    Jos painat "Avaa &gt;&gt;" nappia, ikkuna laajenee näyttämään tarkempia asetuksia. Tässä tilassa voit asettaa tarkan arvon jokaiselle värin
+    ominaisuudelle, RGB (Punainen, Vihreä, Sininen) tai HSV (Sävy, Värikylläisyys, Arvo) skaalassa. Värin muokkaaminen hex, eli heksadesimaalin
+    avulla on myös mahdollista. Alfaa, tai läpinäkyvyyttä voi myös muokata.
 
-On olemassa kaksi nappia paletin yläpuolella jotka antavat sinun hallita värejä.
+    {{< figure src="/kuvat/colorswindowmore.png" alt="Värit-Lisää" >}}
 
-{{< figure src="/resurssit/palettebuttons.png" alt="Paletit" >}}
+    "Avaa &gt;&gt;" nappi muuttuu "&lt;&lt; Sulje" napiksi jolla voit palata pienempään ikkunaan.
 
-Ensimmäinen lisää nykyisen värin palettiin. Paina nappia ja sen jälkeen valitse paletilla paikka minne lisäät värin.
+* ### Väripyörä
 
-Toinen avaa vetolaatikon joka tarjoaa komentoja joilla paletteja voi hallita:
+    Väripyörän avulla voit valita valitun värin ja värin valitsemiseksi on olemassa kolme aputoimintoa.
 
-{{< figure src="/kuvat/palettemenu.png" alt="Paletit valikko" >}}
+    Jos painat väriä valitessa Ctrl-näppäintä, Värit rajoitetaan samalle piirille väripyörässä.
 
-Ensimmäiset asiat listassa ovat kaikki tekemäsi paletit jotka olet tallentanut. Valitessasi yhden niistä lataat kyseisen paletin. Viimeiset
-kolme valinnan avulla voit tallentaa nykyisen paletin tiedostoon, avata palettikansion Resurssinhallinnassa, ja viimeisenä palauttaa paletin
-takaisin oletusväreihin. Palettitiedostot ovat vain tekstitiedostoja (*.txt) jotka ovat tallennettu omaan alakansioon Tiedostot kansiossa.
+    {{< figure src="/kuvat/colorswindowctrl.png" alt="Värit" title="Väripyörän käyttö Ctrl-näppäimellä" >}}
+
+    Jos painat väriä valitessa Alt-näppäintä, Värit rajoitetaan yhteen säteeseen väripyörässä.
+
+    {{< figure src="/kuvat/colorswindowalt.png" alt="Värit" title="Väripyörän käyttö Alt-näppäimellä" >}}
+
+    Jos painat väriä valitessa Shift-näppäintä, Värit rajoitetaan useaan säteeseen väripyörässä kuin polkupyörän pinnoissa.
+
+    {{< figure src="/kuvat/colorswindowshift.png" alt="Värit" title="Väripyörän käyttö Shift-näppäimellä" >}}
+
+* ### Paletit
+
+    On olemassa kaksi nappia paletin yläpuolella jotka antavat sinun hallita värejä.
+
+    {{< figure src="/resurssit/palettebuttons.png" alt="Paletit" >}}
+
+    Ensimmäinen lisää nykyisen värin palettiin. Paina nappia ja sen jälkeen valitse paletilla paikka minne lisäät värin.
+
+    Toinen avaa vetolaatikon joka tarjoaa komentoja joilla paletteja voi hallita:
+
+    {{< figure src="/kuvat/palettemenu.png" alt="Paletit valikko" >}}
+
+    Ensimmäiset asiat listassa ovat kaikki tekemäsi paletit jotka olet tallentanut. Valitessasi yhden niistä lataat kyseisen paletin. Viimeiset
+    kolme valinnan avulla voit tallentaa nykyisen paletin tiedostoon, avata palettikansion Resurssinhallinnassa, ja viimeisenä palauttaa paletin
+    takaisin oletusväreihin. Palettitiedostot ovat vain tekstitiedostoja (*.txt) jotka ovat tallennettu omaan alakansioon Tiedostot kansiossa.

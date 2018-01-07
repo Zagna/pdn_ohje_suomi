@@ -12,234 +12,234 @@ title = "Näppäimistön ja hiiren komennot"
 
 Suuri osa komennoista paint.netissä on helposti käytettävissä näppäimistön avulla. Avuksesi, kaikki komennot on lueteltu tänne.
 
-{.table}
+{.table .table-sm .kbm}
 Yleiset pohjan hallinnat ||
 --- | ---
-Panoroi kuvaa (ei toimi kun kirjoitat Teksti-työkalulla) | Pidä välilyönti + siirrä hiirtä vasen nappi alhaalla
-Vieritä ylös / alas | Hiiren rulla ylös / alas
-Vieritä vasemmalle / oikealle | Shift + Hiiren rulla ylös / alas
-Lähennä / Loitonna | Ctrl + Hiiren rulla
-Poista valinta | Esc tai Enter
+Panoroi kuvaa (ei toimi kun kirjoitat Teksti-työkalulla) | Pidä <span class="badge badge-secondary">välilyönti</span> + siirrä hiirtä <span class="badge badge-info">vasen nappi</span> alhaalla
+Vieritä ylös / alas | <span class="badge badge-info">Hiiren rulla ylös / alas</span>
+Vieritä vasemmalle / oikealle | <span class="badge badge-secondary">Shift</span> + <span class="badge badge-info">Hiiren rulla ylös / alas</span>
+Lähennä / Loitonna | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-info">Hiiren rulla</span>
+Poista valinta | <span class="badge badge-secondary">Esc</span> tai <span class="badge badge-secondary">Enter</span>
 
-{.table}
+{.table .table-sm .kbm}
 Kuvalista ja Kuvien navigointi ||
 --- | ---
-Seuraava välilehti | Ctrl + Tab
-Edellinen välilehti | Ctrl + Shift + Tab
-Näytä kuvalista | Ctrl + Q
-Vaihda kuvaan #, kuville 1:stä 10:en | Ctrl + *#* or Alt + *#*, missä *#* on 1:stä 9:in kuville 1-9, tai 0 kuvalle 10
-Vieritä kuvalistaa | Hiiren rulla (vain jos hiiren kursori on kuvalistan alueella)
+Seuraava välilehti | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Tab</span>
+Edellinen välilehti | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">Tab</span>
+Näytä kuvalista | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Q</span>
+Vaihda kuvaan *#*, kuville 1:stä 10:en | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">*#*</span> or <span class="badge badge-secondary">Alt</span> + <span class="badge badge-secondary">*#*</span>, missä <span class="badge badge-secondary">*#*</span> on 1:stä 9:in kuville 1-9, tai 0 kuvalle 10
+Vieritä kuvalistaa | <span class="badge badge-info">Hiiren rulla</span> (vain jos hiiren kursori on kuvalistan alueella)
 
-{.table}
+{.table .table-sm .kbm}
 Työkalupalkki ||
 --- | ---
-Laske siveltimen kokoa 1 | &#91;
-Laske siveltimen kokoa 5 | Ctrl + &#91;
-Nosta siveltimen kokoa 1 | &#93;
-Nosta siveltimen kokoa 5 | Ctrl + &#93;
+Laske siveltimen kokoa 1 | <span class="badge badge-secondary">&#91;</span>
+Laske siveltimen kokoa 5 | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">&#91;</span>
+Nosta siveltimen kokoa 1 | <span class="badge badge-secondary">&#93;</span>
+Nosta siveltimen kokoa 5 | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">&#93;</span>
 
-{.table}
+{.table .table-sm .kbm}
 Siirtotyökalut ||
 --- | ---
 Muuta valinnan kokoa | Siirrä yhtä reuna tai nurkka nuppia
-Muuta valinnan kokoa säilyttäen alkuperäinen suhde | Pidä Shift alhaalla kun siirrät yhtä reuna tai nurkka nuppia
-Muokkaa valintaa | Siirrä oikealla hiiren napilla valitsemalle muu kuin nuppi
-Pyöritä valintaa | Siirrä missä vain oikealla hiiren napilla
+Muuta valinnan kokoa säilyttäen alkuperäinen suhde | Pidä <span class="badge badge-secondary">Shift</span> alhaalla kun siirrät yhtä reuna tai nurkka nuppia
+Muokkaa valintaa | Siirrä <span class="badge badge-info">oikealla hiiren napilla</span> valitsemalle muu kuin nuppi
+Pyöritä valintaa | Siirrä missä vain <span class="badge badge-info">oikealla hiiren napilla</span>
 
-{.table}
+{.table .table-sm .kbm}
 Valintatyökalut (paitsi Taikasauva) ||
 --- | ---
 {{< huom >}}Kun valinta on aktiivinen, kaikki piirtäminen, ja monta muuta komentoa, piirros ja tehosteet näkyvät vain valinnan sisällä.{{< /huom >}} ||
-Luo uusi valinta, korvaten olemassa oleva vanha jos se on olemassa | Piirrä vasemmalla hiiren napilla
-Vähennä nykyisestä valinnasta (erotus) | Piirrä Alt + vasemmalla hiiren napilla
-Lisää nykyiseen valintaan (lisäys) | Piirrä Ctrl + vasemmalla hiiren napilla
-Invertoi tietty ala valinnasta (poissulkeva) | Piirrä Ctrl + oikealla hiiren napilla
-Leikkaus nykyisen ja uuden valinnan kanssa | Piirrä Alt + oikealla hiiren napilla
-Pakota neliöön (Suorakulmainen valinta), tai ympyrään (Ellipsi valinta) | Piirrä Shift pohjassa
-Siirrä uutta valintaa kun vielä piirrät sitä | Kun piirrät vasemmalla hiiren napilla, pidä oikea hiiren nappi pohjassa ja siirrä hiirtä
-Siirrä uutta valintaa kun vielä piirrät sitä | Kun piirrät oikealla hiiren napilla, pidä vasen hiiren nappi pohjassa ja siirrä hiirtä
+Luo uusi valinta, korvaten olemassa oleva vanha jos se on olemassa | Piirrä <span class="badge badge-info">vasemmalla hiiren napilla</span>
+Vähennä nykyisestä valinnasta (erotus) | Piirrä <span class="badge badge-secondary">Alt</span> + <span class="badge badge-info">vasemmalla hiiren napilla</span>
+Lisää nykyiseen valintaan (lisäys) | Piirrä <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-info">vasemmalla hiiren napilla</span>
+Invertoi tietty ala valinnasta (poissulkeva) | Piirrä <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-info">oikealla hiiren napilla</span>
+Leikkaus nykyisen ja uuden valinnan kanssa | Piirrä <span class="badge badge-secondary">Alt</span> + <span class="badge badge-info">oikealla hiiren napilla</span>
+Pakota neliöön (Suorakulmainen valinta), tai ympyrään (Ellipsi valinta) | Piirrä <span class="badge badge-secondary">Shift</span> pohjassa
+Siirrä uutta valintaa kun vielä piirrät sitä | Kun piirrät <span class="badge badge-info">vasemmalla hiiren napilla</span>, pidä <span class="badge badge-info">Oikea hiiren nappi</span> pohjassa ja siirrä hiirtä
+Siirrä uutta valintaa kun vielä piirrät sitä | Kun piirrät <span class="badge badge-info">oikealla hiiren napilla</span>, pidä <span class="badge badge-info">Vasen hiiren nappi</span> pohjassa ja siirrä hiirtä
 
-{.table}
+{.table .table-sm .kbm}
 Väri-ikkuna ||
 --- | ---
-Vaihda edusta- ja taustaväri keskenään | X
-Vaihda aktiivinen väri alas vetolaatikossa | C
+Vaihda edusta- ja taustaväri keskenään | <span class="badge badge-secondary">X</span>
+Vaihda aktiivinen väri alas vetolaatikossa | <span class="badge badge-secondary">C</span>
 
-{.table}
+{.table .table-sm .kbm}
 Taikasauva ||
 --- | ---
-Luo uusi valinta ympäröivistä pikseleistä jotka muistuttavat pikseliä jonka valitsit, korvaten minkä tahansa vanhan valinnan jos se on olemassa (valinta riippuu Toleranssi asetuksesta) | Vasen hiiren nappi
-Vähennä nykyisestä valinnasta (erotus) | Oikea hiiren nappi
-Lisää nykyiseen valintaan (lisäys) | Ctrl + Vasen hiiren nappi
-Invertoi tietty ala valinnasta (poissulkeva) | Ctrl + Oikea hiiren nappi
-Tee globaali valinta koko tasolle värin ja toleranssin perusteella | Shift pohjassa tee jokin neljästä komennosta ylhäällä
+Luo uusi valinta ympäröivistä pikseleistä jotka muistuttavat pikseliä jonka valitsit, korvaten minkä tahansa vanhan valinnan jos se on olemassa (valinta riippuu Toleranssi asetuksesta) | <span class="badge badge-info">Vasen hiiren nappi</span>
+Vähennä nykyisestä valinnasta (erotus) | <span class="badge badge-info">Oikea hiiren nappi</span>
+Lisää nykyiseen valintaan (lisäys) | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-info">Vasen hiiren nappi</span>
+Invertoi tietty ala valinnasta (poissulkeva) | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-info">Oikea hiiren nappi</span>
+Tee globaali valinta koko tasolle värin ja toleranssin perusteella | <span class="badge badge-secondary">Shift</span> pohjassa tee jokin neljästä komennosta ylhäällä
 
-{.table}
+{.table .table-sm .kbm}
 Tekstityökalu ||
 --- | ---
-Väliaikaisesti piilota kursori ja nuppi | Pidä Ctrl pohjassa
-Aseta nupin näkyvyys | Paina Ctrl nopeasti
-Viimeistele teksti ja lisää se tasoon | Esc
+Väliaikaisesti piilota kursori ja nuppi | Pidä <span class="badge badge-secondary">Ctrl</span> pohjassa
+Aseta nupin näkyvyys | Napauta <span class="badge badge-secondary">Ctrl</span>
+Viimeistele teksti ja lisää se tasoon | <span class="badge badge-secondary">Esc</span>
 
-{.table}
+{.table .table-sm .kbm}
 Sivellin ||
 --- | ---
-Piirrä edustavärillä | Piirrä vasemmalla hiiren napilla
-Piirrä taustavärillä | Piirrä oikealla hiiren napilla
+Piirrä edustavärillä | Piirrä <span class="badge badge-info">vasemmalla hiiren napilla</span>
+Piirrä taustavärillä | Piirrä <span class="badge badge-info">oikealla hiiren napilla</span>
 
-{.table}
+{.table .table-sm .kbm}
 Pyyhin ||
 --- | ---
-Poistaa kyseisen alueen (asettaa pikselit läpinäkyviksi) | Piirrä joko vasemmalla tai oikealla hiiren napilla
+Poistaa kyseisen alueen (asettaa pikselit läpinäkyviksi) | Piirrä joko <span class="badge badge-info">vasemmalla</span> tai <span class="badge badge-info">oikealla hiiren napilla</span>
 
-{.table}
+{.table .table-sm .kbm}
 Kloonaus ||
 --- | ---
-Asettaa lähdekohdan | Ctrl + Vasen hiiren nappi
-Kopioi pikselit (lähdekohta pitää asettaa ensin) | Piirrä vasemmalla hiiren napilla
+Asettaa lähdekohdan | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-info">Vasen hiiren nappi</span>
+Kopioi pikselit (lähdekohta pitää asettaa ensin) | Piirrä <span class="badge badge-info">vasemmalla hiiren napilla</span>
 
-{.table}
+{.table .table-sm .kbm}
 Uudelleen väritä ||
 --- | ---
-Valitse kursorin alla oleva väri ja aseta se edustaväriksi | Ctrl + Vasen hiiren nappi
-Valitse kursorin alla oleva väri ja aseta se taustaväriksi | Ctrl + Oikea hiiren nappi
-Piirrä edustavärillä, mutta vain pikseleiden päälle jotka muistuttavat taustaväriä (samankaltaisuus päätetään Toleranssi asetuksen mukaan) | Piirrä vasemmalla hiiren napilla
-Piirrä taustavärillä, mutta vain pikseleiden päälle jotka muistuttavat edustaväriä (samankaltaisuus päätetään Toleranssi asetuksen mukaan) | Piirrä oikealla hiiren napilla
+Valitse kursorin alla oleva väri ja aseta se edustaväriksi | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-info">Vasen hiiren nappi</span>
+Valitse kursorin alla oleva väri ja aseta se taustaväriksi | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-info">Oikea hiiren nappi</span>
+Piirrä edustavärillä, mutta vain pikseleiden päälle jotka muistuttavat taustaväriä (samankaltaisuus päätetään Toleranssi asetuksen mukaan) | Piirrä <span class="badge badge-info">vasemmalla hiiren napilla</span>
+Piirrä taustavärillä, mutta vain pikseleiden päälle jotka muistuttavat edustaväriä (samankaltaisuus päätetään Toleranssi asetuksen mukaan) | Piirrä <span class="badge badge-info">oikealla hiiren napilla</span>
 
-{.table}
+{.table .table-sm .kbm}
 Täyttö ||
 --- | ---
-Täytä ympäröivä alue edustavärillä | Vasen hiiren nappi
-Täytä ympäröivä alue taustavärillä | Oikea hiiren nappi
-Tee globaali täyttö koko tasolle värin ja toleranssin perusteella | Shift pohjassa tee jokin kahdesta komennosta ylhäällä
+Täytä ympäröivä alue edustavärillä | <span class="badge badge-info">Vasen hiiren nappi</span>
+Täytä ympäröivä alue taustavärillä | <span class="badge badge-info">Oikea hiiren nappi</span>
+Tee globaali täyttö koko tasolle värin ja toleranssin perusteella | <span class="badge badge-secondary">Shift</span> pohjassa tee jokin kahdesta komennosta ylhäällä
 
-{.table}
+{.table .table-sm .kbm}
 Muototyökalut ||
 --- | ---
-Piirrä muoto. Ulkoreuna käyttää edustaväriä, sisusta taustaväriä | Piirrä vasemmalla hiiren napilla
-Piirrä muoto. Ulkoreuna käyttää taustaväriä, sisusta edustaväriä | Piirrä vasemmalla hiiren napilla
-Pakota neliöön (Suorakulmio), pyöreä neliö (Pyöreä suorakulmio), ympyrä (Ellipsi) tai 15&deg; kulmaan (Viiva / Kurvi) | Piirrä Shift pohjassa
+Piirrä muoto. Ulkoreuna käyttää edustaväriä, sisusta taustaväriä | Piirrä <span class="badge badge-info">vasemmalla hiiren napilla</span>
+Piirrä muoto. Ulkoreuna käyttää taustaväriä, sisusta edustaväriä | Piirrä <span class="badge badge-info">vasemmalla hiiren napilla</span>
+Pakota neliöön (Suorakulmio), pyöreä neliö (Pyöreä suorakulmio), ympyrä (Ellipsi) tai 15&deg; kulmaan (Viiva / Kurvi) | Piirrä <span class="badge badge-secondary">Shift</span> pohjassa
 
-{.table}
+{.table .table-sm .kbm}
 Viiva/Käyrä -työkalu ||
 --- | ---
-Vaihda alun tyyliä | , (pilkku)
-Vaihda viivan tyyliä | . (piste)
-Vaihda lopun tyyliä | / (kauttaviiva)
+Vaihda alun tyyliä | <span class="badge badge-secondary">,</span> (pilkku)
+Vaihda viivan tyyliä | <span class="badge badge-secondary">.</span> (piste)
+Vaihda lopun tyyliä | <span class="badge badge-secondary">/</span> (kauttaviiva)
 
-{.table}
+{.table .table-sm .kbm}
 Työkalujen pikanäppäimet ||
 --- | ---
 {{< huom >}}Jos enemmän kuin yksi työkalu jakaa tietyn pikanäppäimen, sinun pitää painaa pikanäppäintä monta kertaa käydäksesi läpi kaikki työkalut mitkä ovat osoitettu tietylle pikanäppäimelle.{{< /huom >}} ||
-Suorakulmainen valinta | S
-Lassovalinta | S
-Ellipsi valinta | S
-Taikasauva | S
-Siirrä valintaa | M
-Muokkaa valintaa | M
-Suurennuskerroin | Z
-Panoroi (&ldquo;käsi&rdquo;) | H
-Täyttö | F
-Väriliukuma | G
-Sivellin | B
-Pyyhin | E
-Kynä | P
-Väripoiminta | P
-Kloonaus | L
-Uudelleen väritä | R
-Teksti | T
-Viiva / Kurvi | O
-Suorakulmio | O
-Pyöreä suorakulmio | O
-Ellipsi | O
-Vapaa muoto | O
+Suorakulmainen valinta | <span class="badge badge-secondary">S</span>
+Lassovalinta | <span class="badge badge-secondary">S</span>
+Ellipsi valinta | <span class="badge badge-secondary">S</span>
+Taikasauva | <span class="badge badge-secondary">S</span>
+Siirrä valintaa | <span class="badge badge-secondary">M</span>
+Muokkaa valintaa | <span class="badge badge-secondary">M</span>
+Suurennuskerroin | <span class="badge badge-secondary">Z</span>
+Panoroi (&ldquo;käsi&rdquo;) | <span class="badge badge-secondary">H</span>
+Täyttö | <span class="badge badge-secondary">F</span>
+Väriliukuma | <span class="badge badge-secondary">G</span>
+Sivellin | <span class="badge badge-secondary">B</span>
+Pyyhin | <span class="badge badge-secondary">E</span>
+Kynä | <span class="badge badge-secondary">P</span>
+Väripoiminta | <span class="badge badge-secondary">P</span>
+Kloonaus | <span class="badge badge-secondary">L</span>
+Uudelleen väritä | <span class="badge badge-secondary">R</span>
+Teksti | <span class="badge badge-secondary">T</span>
+Viiva / Kurvi | <span class="badge badge-secondary">O</span>
+Suorakulmio | <span class="badge badge-secondary">O</span>
+Pyöreä suorakulmio | <span class="badge badge-secondary">O</span>
+Ellipsi | <span class="badge badge-secondary">O</span>
+Vapaa muoto | <span class="badge badge-secondary">O</span>
 
-{.table}
+{.table .table-sm .kbm}
 Tiedosto ||
 --- | ---
-Uusi | Ctrl + N
-Avaa | Ctrl + O
-Sulje | Ctrl + W, tai Ctrl + F4
-Tallenna | Ctrl + S
-Tallenna nimellä | Ctrl + Shift + S
-Tulosta | Ctrl + P
-Poistu | Alt + F4, tai Alt + F ja X, tai Ctrl + W kun kuvia ei ole auki
+Uusi | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">N</span>
+Avaa | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">O</span>
+Sulje | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">W</span>, tai <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">F4</span>
+Tallenna | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">S</span>
+Tallenna nimellä | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">S</span>
+Tulosta | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">P</span>
+Poistu | <span class="badge badge-secondary">Alt</span> + <span class="badge badge-secondary">F4</span>, tai <span class="badge badge-secondary">Alt</span> + <span class="badge badge-secondary">F</span> ja <span class="badge badge-secondary">X</span>, tai <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">W</span> kun kuvia ei ole auki
 
-{.table}
+{.table .table-sm .kbm}
 Muokkaa ||
 --- | ---
-Kumoa | Ctrl + Z
-Uudelleen | Ctrl + Y
-Leikkaa | Ctrl + X, tai Shift + Delete
-Kopioi | Ctrl + C, tai Ctrl + Insert
-Liitä | Ctrl + V, tai Shift + Insert
-Liitä uuteen tasoon | Ctrl + Shift + V
-Liitä uuteen kuvaan | Ctrl + Alt + V
-Poista valittu alue | Delete
-Täytä valittu alue | Backspace
-Käännä valinta | Ctrl + I
-Valitse kaikki | Ctrl + A
-Poista valinta | Ctrl + D
+Kumoa | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Z</span>
+Uudelleen | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Y</span>
+Leikkaa | <span class="badge badge-secondary">Ctrl</span> + X, tai <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">Delete</span>
+Kopioi | <span class="badge badge-secondary">Ctrl</span> + C, tai <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Insert</span>
+Liitä | <span class="badge badge-secondary">Ctrl</span> + V, tai <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">Insert</span>
+Liitä uuteen tasoon | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">V</span>
+Liitä uuteen kuvaan | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Alt</span> + <span class="badge badge-secondary">V</span>
+Poista valittu alue | <span class="badge badge-secondary">Delete</span>
+Täytä valittu alue | <span class="badge badge-secondary">Backspace</span>
+Käännä valinta | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">I</span>
+Valitse kaikki | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">A</span>
+Poista valinta | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">D</span>
 
-{.table}
+{.table .table-sm .kbm}
 Kuva ||
 --- | ---
-Rajaa valintaan | Ctrl + Shift + X
-Muuta kokoa | Ctrl + R
-Pohjan koko | Ctrl + Shift + R
-Pyöritä 90&deg; (myötäpäivään) | Ctrl + G
-Pyöritä 90&deg; (vastapäivään) | Ctrl + H
-Pyöritä 180&deg; | Ctrl + J
-Yhdistä tasot | Ctrl + Shift + F
+Rajaa valintaan | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">X</span>
+Muuta kokoa | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">R</span>
+Pohjan koko | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">R</span>
+Pyöritä 90&deg; (myötäpäivään) | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">G</span>
+Pyöritä 90&deg; (vastapäivään) | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">H</span>
+Pyöritä 180&deg; | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">J</span>
+Yhdistä tasot | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">F</span>
 
-{.table}
+{.table .table-sm .kbm}
 Tasot ||
 --- | ---
-Lisää uusi taso | Ctrl + Shift + N
-Poista taso | Ctrl + Shift + Delete
-Kahdenna taso | Ctrl + Shift + D
-Yhdistä taso alas | Ctrl + M
-Pyöritä / Lähennä | Ctrl + Shift + Z
-Tason ominaisuudet | F4
+Lisää uusi taso | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">N</span>
+Poista taso | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">Delete</span>
+Kahdenna taso | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">D</span>
+Yhdistä taso alas | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">M</span>
+Pyöritä / Lähennä | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">Z</span>
+Tason ominaisuudet | <span class="badge badge-secondary">F4</span>
 
-{.table}
+{.table .table-sm .kbm}
 Säädöt ||
 --- | ---
-Automaattinen taso | Ctrl + Shift + L
-Kirkkaus / Kontrasti | Ctrl + Shift + C
-Käyrät | Ctrl + Shift + M
-Mustavalkoinen | Ctrl + Shift + G
-Sävy / Värikylläisyys | Ctrl + Shift + U
-Invertoi värit | Ctrl + Shift + I
-Sävyala | Ctrl + L
-Seepia | Ctrl + Shift + P
+Automaattinen taso | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">L</span>
+Kirkkaus / Kontrasti | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">C</span>
+Käyrät | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">M</span>
+Mustavalkoinen | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">G</span>
+Sävy / Värikylläisyys | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">U</span>
+Invertoi värit | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">I</span>
+Sävyala | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">L</span>
+Seepia | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">P</span>
 
-{.table}
+{.table .table-sm .kbm}
 Tehosteet ||
 --- | ---
-Toista viimeisin tehoste | Ctrl + F
+Toista viimeisin tehoste | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">F</span>
 
-{.table}
+{.table .table-sm .kbm}
 Näytä ||
 --- | ---
-Lähennä sisään | Ctrl + +
-Loitonna ulos | Ctrl + -
-Lähennä ikkunaan | Ctrl + B
-Lähennä valintaan | Ctrl + Shift + B
-Oikea koko | Ctrl + Shift + A
+Lähennä sisään | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">+</span>
+Loitonna ulos | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">-</span>
+Lähennä ikkunaan | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">B</span>
+Lähennä valintaan | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">B</span>
+Oikea koko | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">A</span>
 
-{.table}
+{.table .table-sm .kbm}
 Ikkuna ||
 --- | ---
-Työkalut (aseta näkyvyys) | F5
-Historia (aseta näkyvyys) | F6
-Tasot (aseta näkyvyys) | F7
-Värit (aseta näkyvyys) | F8
-Näytä kuvalista | Ctrl + Q
-Seuraava välilehti | Ctrl + Tab
-Edellinen välilehti | Ctrl + Shift + Tab
+Työkalut (aseta näkyvyys) | <span class="badge badge-secondary">F5</span>
+Historia (aseta näkyvyys) | <span class="badge badge-secondary">F6</span>
+Tasot (aseta näkyvyys) | <span class="badge badge-secondary">F7</span>
+Värit (aseta näkyvyys) | <span class="badge badge-secondary">F8</span>
+Näytä kuvalista | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Q</span>
+Seuraava välilehti | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Tab</span>
+Edellinen välilehti | <span class="badge badge-secondary">Ctrl</span> + <span class="badge badge-secondary">Shift</span> + <span class="badge badge-secondary">Tab</span>
 
-{.table}
+{.table .table-sm .kbm}
 Ohje ||
 --- | ---
-Sisältö | F1
+Sisältö | <span class="badge badge-secondary">F1</span>
