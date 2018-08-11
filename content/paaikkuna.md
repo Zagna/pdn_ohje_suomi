@@ -23,7 +23,7 @@ paint.netin käyttöliittymä on jaettu 10 alueeseen:
     Tämän avulla pystyt käyttämään erinäisiä valikoiden komentoja. Yleensä, komennot joita voit käyttää, esitetään **Valikko &rarr; Komento**
     tavalla. Esimerkiksi, **Tiedosto &rarr; Poistu** tarkoittaa että valitse Tiedostovalikko, ja sen jälkeen paina Poistu komentoa.
 
-1. ### [Työkalupalkki]({{< relref "tyokalupalkki.md" >}})
+1. ### [Työkalupalkki]({{< relref "/tyokalupalkki.md" >}})
 
     Suoraan valikoiden alapuolelta löydät monta ikonia ja ohjainta joiden avulla voit suorittaa erinäisiä komentoja ja muokata globaaleja asetuksia.
 

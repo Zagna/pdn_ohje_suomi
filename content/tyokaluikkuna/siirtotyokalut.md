@@ -28,7 +28,7 @@ Seuraavat työkalut käsitellään tässä osassa:
 Ensimmäiseksi sinun tulee olla varma ennen kuin valitset yhden näistä työkaluista että sinulla on aktiivinen valinta. Katso
 {{< tool "select.png" >}}[Valintatyökaluista]({{< relref "valintatyokalut.md" >}})
 miten luot ja muokkaat niitä. Jokainen siirto, koon muutto ja pyöritys mitä teet valintaan lisätään
-[Historiaikkunaan]({{< relref "historiaikkuna.md" >}}).
+[Historiaikkunaan]({{< relref "/historiaikkuna.md" >}}).
 
 Kun valitset siirtotyökalun, useita kahvoja, tai nuppeja, ilmestyy valinnan reunoihin ja nurkkiin, esimerkkinä:
 

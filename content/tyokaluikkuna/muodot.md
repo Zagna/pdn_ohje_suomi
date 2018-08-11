@@ -37,7 +37,7 @@ Seuraavat työkalut ovat samankaltaisia ja niistä puhumme tällä kertaa:
 
 {{% vihje %}}Painamalla A voit käydä muotojen läpi kun työkalu on käytössä ( Shift + A vaihtaa takaisin ).{{% /vihje %}}
 
-Jokaiselle näistä työkaluista voi asettaa [asetuksia Työkalupalkissa]({{< relref "tyokalupalkki.md" >}}). Piirtääksesi muodon,
+Jokaiselle näistä työkaluista voi asettaa [asetuksia Työkalupalkissa]({{< relref "/tyokalupalkki.md" >}}). Piirtääksesi muodon,
 klikkaa ja siirrä käyttäen vasenta hiiren nappia. Edustaväriä käytetään ulkoreunaan (jos valittu) ja taustaväriä käytetään
 sisustan värittämiseen (jos valittu). Jos piirrät oikealla hiiren napilla, edusta- ja taustavärin roolit ovat käänteiset.
 

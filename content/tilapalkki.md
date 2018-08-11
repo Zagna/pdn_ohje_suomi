@@ -28,12 +28,12 @@ Tilapalkista löydät ohjeita, työn tilan ja tietoja jotka ovat erittäin hyöd
 * ### Kuvan koko
 
     Tämä näyttää nykyisen kuvan koon. Se näyttää koon joko pikseleinä, tuumina tai senttimetreinä, riippuen minkä olet valinnut
-    [Kuvavalikossa]({{< relref "kuva.md" >}}) tai [Työkalupalkissa]({{< relref "tyokalupalkki.md" >}}).
+    [Kuvavalikossa]({{< relref "kuva.md" >}}) tai [Työkalupalkissa]({{< relref "/tyokalupalkki.md" >}}).
 
 * ### Kursorin sijainti
 
     Tämä näyttää kursorin sijainnin koordinaateilla. Se näyttää kursorin sijainnin joko pikseleinä, tuumina tai senttimetreinä, riippuen siitä
-    minkä olet valinnut [Kuvavalikossa]({{< relref "kuva.md" >}}) tai [Työkalupalkissa]({{< relref "tyokalupalkki.md" >}}).
+    minkä olet valinnut [Kuvavalikossa]({{< relref "kuva.md" >}}) tai [Työkalupalkissa]({{< relref "/tyokalupalkki.md" >}}).
 
 * ### Mittayksikkö
 
