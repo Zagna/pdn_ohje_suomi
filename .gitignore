@@ -53,4 +53,5 @@ public/*
 *.zip
 /404.html
 svg.*
-*.svg
+svg/*
+resources/*

@@ -17,7 +17,7 @@ Sen kehittäminen aloitettiin vanhemman ylioppilaan suunnitteluprojektina Micros
 sen kanssa alun perin työskentelivät. Alun perin se oli tarkoitettu ilmaiseksi vaihtoehdoksi MS Paint -ohjelman tilalle joka tulee Windowsin
 kanssa, on se myöhemmin kasvanut tehokkaaksi työkaluksi kuvien muokkaamiseen.
 
-### paint.netin pääominaisuuksia ovat:
+### paint.netin pääominaisuuksia ovat
 
 * ### Yksinkertainen ja intuitiivinen käyttöliittymä
 

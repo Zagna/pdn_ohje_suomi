@@ -25,7 +25,7 @@ ja lisäosia täällä.
 
 paint.netin blogista löydät erinäisiä ilmoituksia ohjelmasta sekä kehittäjistä.
 
-### paint.net sähköposti:
+### paint.net sähköposti
 
 {{< figure src="/resurssit/email.png" alt="sähköpostiosoite" caption="vain englanniksi" >}}
 

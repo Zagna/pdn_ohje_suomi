@@ -27,7 +27,7 @@ Kuvalista ja Kuvien navigointi ||
 Seuraava välilehti | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Tab{{< /badge >}}
 Edellinen välilehti | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}Tab{{< /badge >}}
 Näytä kuvalista | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Q{{< /badge >}}
-Vaihda kuvaan *#*, kuville 1:stä 10:en | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}*#*{{< /badge >}} or {{< badge >}}Alt{{< /badge >}} + {{< badge >}}*#*{{< /badge >}}, missä {{< badge >}}*#*{{< /badge >}} on 1:stä 9:in kuville 1-9, tai 0 kuvalle 10
+Vaihda kuvaan #, kuville 1:stä 10:en | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}#{{< /badge >}} or {{< badge >}}Alt{{< /badge >}} + {{< badge >}}#{{< /badge >}}, missä {{< badge >}}#{{< /badge >}} on 1:stä 9:in kuville 1-9, tai 0 kuvalle 10
 Vieritä kuvalistaa | {{< badge2 >}}Hiiren rulla{{< /badge2 >}} (vain jos hiiren kursori on kuvalistan alueella)
 
 {.table .table-sm .kbm}
