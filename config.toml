@@ -2,7 +2,13 @@ baseurl = "http://paintdotnet.arkku.net/"
 languageCode = "fi"
 title = "paint.net suomeksi"
 DefaultContentLanguage = "fi"
-disableKinds = [ "sitemap", "RSS", "tags", "categories" ]
+disableKinds = [ "RSS", "tags", "categories" ]
+enableGitInfo = true
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
 
 [[menu.pdn]]
 	name = "paint.net ohje"

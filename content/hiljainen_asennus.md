@@ -2,6 +2,7 @@
 date = "2015-09-09T18:49:11+03:00"
 draft = false
 title = "Hiljainen asennus"
+version = "4.1.5"
 
 [menu.pdn]
     parent = "muuta"
@@ -40,10 +41,10 @@ Halutaksesi tehdä automaattisen asennuksen, käytä /auto tai /skipConfig komen
 
 ### Komentorivin komennot
 
-Asennuspaketti käyttää seuraavia komentorivin komentoja, missä paint.net.4.0.17.install.exe on asennusohjelma jonka latasit
+Asennuspaketti käyttää seuraavia komentorivin komentoja, missä paint.net.{{< param version >}}.install.exe on asennusohjelma jonka latasit
 [kotisivulta](http://www.getpaint.net):
 
-{{% esimerkki %}}paint.net.4.0.17.install.exe [/skipConfig | /auto | /createMsi] [PROPERTY=VALUE]{{% /esimerkki %}}
+{{% esimerkki %}}paint.net.{{< param version >}}.install.exe [/skipConfig | /auto | /createMsi] [PROPERTY=VALUE]{{% /esimerkki %}}
 
 <table class="table" id="table0">
     <thead>
@@ -204,14 +205,14 @@ asettaa sen ja &ldquo;0&rdquo; poistaa sen:
 
 Asentaaksesi paint.netin oletusasetuksilla, oletuskansioon ilman käyttäjän ohjeita:
 
-{{% esimerkki %}}paint.net.4.0.17.install.exe /auto{{% /esimerkki %}}
+{{% esimerkki %}}paint.net.{{< param version >}}.install.exe /auto{{% /esimerkki %}}
 
 Asentaaksesi paint.netin kansioon D:\PDN ja ilman työpöydän pikakuvaketta:
 
-{{% esimerkki %}}paint.net.4.0.17.install.exe /auto TARGETDIR=D:\PDN DESKTOPSHORTCUT=0{{% /esimerkki %}}
+{{% esimerkki %}}paint.net.{{< param version >}}.install.exe /auto TARGETDIR=D:\PDN DESKTOPSHORTCUT=0{{% /esimerkki %}}
 
 Asentaaksesi paint.netin kansioon E:\Image Apps\paint.net, ja tarkistamaan betaversioita päivityksen yhteydessä.
 
 {{% huom %}}Koko TARGETDIR arvo pitää olla sitaateissa jos kansionimessä on yksi tai enemmän välilyöntejä!{{% /huom %}}
 
-{{% esimerkki %}}paint.net.4.0.17.install.exe /auto &ldquo;TARGETDIR=E:\Image Apps\paint.net&rdquo; CHECKFORBETAS=1{{% /esimerkki %}}
+{{% esimerkki %}}paint.net.{{< param version >}}.install.exe /auto &ldquo;TARGETDIR=E:\Image Apps\paint.net&rdquo; CHECKFORBETAS=1{{% /esimerkki %}}

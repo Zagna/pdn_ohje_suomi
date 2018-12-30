@@ -19,8 +19,8 @@
 		{{ end }}
 			{{ with .content }}<p>{{ markdownify . }}</p>{{ end }}
 			{{ range .figure }}
-				<figure class="figure {{ .class }}">
-					<img class="figure-img img-fluid" src="{{ .src }}" alt="{{ .alt }}">
+				<figure class="figure">
+					<img class="figure-img img-fluid {{ .class }}" src="{{ .src }}" alt="{{ .alt }}">
 					{{ with .caption }}
 					<figcaption class="figure-caption text-center">
 						<h4>{{ . }}</h4>
@@ -31,7 +31,7 @@
 			{{ with .vihje }}
 			<div class="tip">
 				<h3>Vihje</h3>
-				<p>{{ . }}</p>
+				<p class="text-white border-success bg-success">{{ . }}</p>
 			</div>
 			{{ end }}
 		</div>

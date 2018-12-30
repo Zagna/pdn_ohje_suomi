@@ -5,12 +5,12 @@
 	
 	[[tab.figure]]
 		src="/resurssit/movenubs_movedpixels.jpg"
-		class="bunder"
+		class="border"
 		alt="Siirrä valintaa"
 		caption="Siirrä valintaa"
 	[[tab.figure]]
 		src="/resurssit/movenubs_movedselection.jpg"
-		class="bunder"
+		class="border"
 		alt="Muokkaa valintaa"
 		caption="Muokkaa valintaa"
 
@@ -23,12 +23,12 @@
 	
 	[[tab.figure]]
 		src="/resurssit/movenubs_resizedpixels.jpg"
-		class="bunder"
+		class="border"
 		alt="Siirrä valintaa"
 		caption="Siirrä valintaa"
 	[[tab.figure]]
 		src="/resurssit/movenubs_resizedselection.jpg"
-		class="bunder"
+		class="border"
 		alt="Muokkaa valintaa"
 		caption="Muokkaa valintaa"
 
@@ -40,12 +40,12 @@
 	
 	[[tab.figure]]
 		src="/resurssit/movenubs_rotatedpixels.jpg"
-		class="bunder"
+		class="border"
 		alt="Siirrä valintaa"
 		caption="Siirrä valintaa"
 	[[tab.figure]]
 		src="/resurssit/movenubs_rotatedselection.jpg"
-		class="bunder"
+		class="border"
 		alt="Muokkaa valintaa"
 		caption="Muokkaa valintaa"
 
@@ -56,11 +56,11 @@
 	
 	[[tab.figure]]
 		src="/resurssit/move_copy1.jpg"
-		class="bunder"
+		class="border"
 		alt="Alue valittu"
 		caption="Alue valittu"
 	[[tab.figure]]
 		src="/resurssit/move_copy2.jpg"
-		class="bunder"
+		class="border"
 		alt="Valinta kopioitu"
 		caption="Valinta kopioitu"

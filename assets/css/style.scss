@@ -15,43 +15,6 @@ $huom: url(/resurssit/iconnote.png);
 $varoitus: url(/resurssit/iconwarning.png);
 $esim: url(/resurssit/iconexample.png);
 
-//@extend-elements
-//original selectors
-//.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active
-%extend_1 {
-	color: $valkoinen;
-	background-color: $sininen;
-	border-color: $harmaa $harmaa $valkoinen;
-}
-
-//original selectors
-//.tip h3, .note h3, .warning h3, .example h3
-%extend_2 {
-	z-index: 2;
-	position: relative;
-	height: 32px;
-	width: 100px;
-	background: $vihje no-repeat;
-	padding-left: 35px;
-	margin-left: 8px;
-	margin-top: 4px;
-}
-
-//original selectors
-//.tip p, .note p, .warning p, .example p
-%extend_3 {
-	margin-bottom: -16px;
-	z-index: 1;
-	position: relative;
-	top: -20px;
-	padding-left: 40px;
-	padding-right: 5px;
-	border-style: solid;
-	border-width: thick;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 8px;
-}
-
 body {
 	font-size: .85em;
 	text-indent: 0;
@@ -59,47 +22,42 @@ body {
 	overflow-y: scroll;
 	line-height: 1.15;
 }
+h1, h2, h3, h4, strong {
+	font-weight: bold;
+}
 h1 {
-	font-weight: bold !important;
 	margin-top: 1em;
 	margin-bottom: .7em;
 	font-size: 120%;
 }
 h2 {
-	font-weight: bold !important;
 	margin-top: .8em;
 	margin-bottom: .5em;
 	font-size: 115%;
 }
 h3 {
-	font-weight: bold !important;
 	margin-top: .6em;
 	margin-bottom: .3em;
 	font-size: 105%;
 }
 h4 {
-	font-weight: bold !important;
 	margin-top: .4em;
 	margin-bottom: .3em;
 	font-size: 100%;
-}
-strong {
-	font-weight: bold !important;
 }
 p {
 	margin-top: .2em;
 	margin-bottom: .5em;
 	font-size: 100%;
 }
-a {
+a, span {
 	font-size: 100%;
 }
-span {
-	font-size: 100%;
-}
+
 figure {
-	margin: 10px 0 10px 20px;
+	padding: 5px;
 }
+
 #banner {
 	background: $palkki no-repeat center;
 	height: 200px;
@@ -116,69 +74,35 @@ figure {
 		padding-left: 235px;
 		color: $valkoinen;
 		background: $logo no-repeat;
-		font-weight: normal !important;
-		font-size: 3.1em !important;
+		font-weight: normal;
+		font-size: 3.1em;
 		height: 80px;
 	}
 }
-.tab-pane {
-	border-left: 1px solid $harmaa;
-	border-right: 1px solid $harmaa;
-	border-bottom: 1px solid $harmaa;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 0 0 5px 5px;
-	padding: 10px;
-}
+
 .tab-content {
 	margin-bottom: 10px;
+	.tab-pane {
+		border-left: 1px solid $harmaa;
+		border-right: 1px solid $harmaa;
+		border-bottom: 1px solid $harmaa;
+		border-radius: 0 0 5px 5px;
+		padding: 10px;
+	}
 }
+
 .nav-tabs {
-	.nav-item.show .nav-link {
-		@extend %extend_1;
-	}
-	.nav-link.active {
-		@extend %extend_1;
+	.nav-item.show .nav-link, .nav-link.active {
+		color: $valkoinen;
+		background-color: $sininen;
+		border-color: $harmaa $harmaa $valkoinen;
 	}
 }
+
 .nav-link {
 	padding: .4rem .8rem;
 }
-.btn-group {
-	.btn + {
-		.btn {
-			margin-left: 0 !important;
-		}
-		.btn-group {
-			margin-left: 0 !important;
-		}
-	}
-	.btn-group + {
-		.btn {
-			margin-left: 0 !important;
-		}
-		.btn-group {
-			margin-left: 0 !important;
-		}
-	}
-}
-.btn-group-vertical {
-	.btn + {
-		.btn {
-			margin-left: 0 !important;
-		}
-		.btn-group {
-			margin-left: 0 !important;
-		}
-	}
-	.btn-group + {
-		.btn {
-			margin-left: 0 !important;
-		}
-		.btn-group {
-			margin-left: 0 !important;
-		}
-	}
-}
+
 .badge {
 	font-size: 100%;
 }
@@ -194,44 +118,51 @@ ol {
 ul {
 	padding-left: 1em;
 }
-.tip {
+.tip, .note, .warning, .example {
 	h3 {
-		@extend %extend_2;
+		z-index: 2;
+		position: relative;
+		height: 32px;
+		width: 100px;
+		background: $vihje no-repeat;
+		padding-left: 35px;
+		margin-left: 8px;
+		margin-top: 4px;
 	}
 	p {
-		@extend %extend_3;
+		margin-bottom: -16px;
+		z-index: 1;
+		position: relative;
+		top: -20px;
+		padding-left: 40px;
+		padding-right: 5px;
+		border-style: solid;
+		border-width: thick;
+		border-radius: 8px;
+	}
+	.text-white a, a {
+		color: $valkoinen;
+		text-decoration: underline;
 	}
 }
 .note {
 	h3 {
-		@extend %extend_2;
 		background-image: $huom;
-	}
-	p {
-		@extend %extend_3;
 	}
 }
 .warning {
 	h3 {
-		@extend %extend_2;
 		background-image: $varoitus;
-	}
-	p {
-		@extend %extend_3;
 	}
 }
 .example {
 	h3 {
-		@extend %extend_2;
 		background-image: $esim;
-	}
-	p {
-		@extend %extend_3;
 	}
 }
 .dropdown:hover > .dropdown-menu {
 	display: block;
-	margin-top: 0 !important;
+	margin-top: 0;
 	margin-left: 20px;
 }
 .kbm tbody tr td {

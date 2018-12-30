@@ -97,19 +97,19 @@ Täytetty muoto ääriviivalla käyttää edustaväriä ulkoreunaan ja taustavä
 
 Seuraavat kuvat näyttävät miltä muodot näyttävät kun eriä muotopiirto asetuksia on valittu työkalupalkissa:
 
-### Vain ulkoreuna:
+### Vain ulkoreuna
 
 {{< figure src="/kuvat/shapetype_outline.png" alt="Vain ulkoreuna" >}}
 
 {{< figure src="/resurssit/shapes_outline.png" alt="Vain ulkoreuna" >}}
 
-### Vain sisusta:
+### Vain sisusta
 
 {{< figure src="/kuvat/shapetype_interior.png" alt="Vain sisusta" >}}
 
 {{< figure src="/resurssit/shapes_interior.png" alt="Vain sisusta" >}}
 
-### Ulkoreuna ja sisusta:
+### Ulkoreuna ja sisusta
 
 {{< figure src="/kuvat/shapetype_interiorandoutline.png" alt="Ulkoreuna ja sisusta" >}}
 

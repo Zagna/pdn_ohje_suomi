@@ -2,13 +2,13 @@
 <html lang="fi">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="google-site-verification" content="uYbXWkGWj-8ZwVNGC6sTKejkpx2yPgpeYjoQJremS-0" />
 	<title>{{ .Title }} &middot; {{ .Site.Title }}</title>
 	<meta name="author" content="Jarno Ruokamo">
 	<meta name="keywords" content="paint.net,käännös">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	{{ $options := (dict "outputStyle" "compressed") }}
 	{{ $style := resources.Get "css/style.scss" | resources.ToCSS $options }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}">

@@ -21,7 +21,7 @@
 [[tab]]
 	id = "pilvi"
 	name = "Pilvi"
-	content = "Tämä renderoi satunnaisen &ldquo;pilven&rdquo; tasolle.<br/>Voit valita miten haluat sekoittaa sen jo tasolle<br/>olevaan kuvaan."
+	content = "Tämä renderoi satunnaisen &ldquo;pilven&rdquo; tasolle.Voit valita miten haluat sekoittaa sen jo tasolle<br/>olevaan kuvaan."
 
 	[[tab.figure]]
 		src="/resurssit/clouds.jpg"

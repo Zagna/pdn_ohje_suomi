@@ -5,12 +5,12 @@
 
 	[[tab.figure]]
 		src="/resurssit/tehoste.jpg"
-		class="bunder border"
+		class="border"
 		alt="Alkuperäinen"
 		caption="Alkuperäinen"
 	[[tab.figure]]
 		src="/resurssit/lisaakohinaa.jpg"
-		class="bunder border"
+		class="border"
 		alt="Jälkeen"
 		caption="Jälkeen"
 
@@ -21,12 +21,12 @@
 
 	[[tab.figure]]
 		src="/resurssit/tehoste.jpg"
-		class="bunder border"
+		class="border"
 		alt="Alkuperäinen"
 		caption="Alkuperäinen"
 	[[tab.figure]]
 		src="/resurssit/mediaani.jpg"
-		class="bunder border"
+		class="border"
 		alt="Jälkeen"
 		caption="Jälkeen"
 
@@ -37,11 +37,11 @@
 
 	[[tab.figure]]
 		src="/resurssit/tehoste.jpg"
-		class="bunder border"
+		class="border"
 		alt="Alkuperäinen"
 		caption="Alkuperäinen"
 	[[tab.figure]]
 		src="/resurssit/vahennakohinaa.jpg"
-		class="bunder border"
+		class="border"
 		alt="Jälkeen"
 		caption="Jälkeen"
