@@ -39,7 +39,7 @@ vahvemmat kirkkaat, kuitenkin ylläpitäen alkuperäisen kuvan muodon.
 
 {{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/kuvat/kayra1.png" alt="Käyrät-Luminosity" >}}
 
-<div class="d-flex justify-content-center">
+<div class="d-flex flex-wrap justify-content-center">
 
 {{< figure src="/resurssit/tehoste.jpg" alt="Koira1" >}}
 {{< figure src="/resurssit/tehoste_kayra1.jpg" alt="Koira2" >}}
@@ -58,7 +58,7 @@ Alla oleva kuva on muokattu Käyrillä vahvistamaan koiran turkin punaisen voima
 
 {{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/kuvat/kayra2.png" alt="Käyrät-Mix" >}}
 
-<div class="d-flex justify-content-center">
+<div class="d-flex flex-wrap justify-content-center">
 
 {{< figure src="/resurssit/tehoste.jpg" alt="Koira3" >}}
 {{< figure src="/resurssit/tehoste_kayra2.jpg" alt="Koira4" >}}
@@ -72,7 +72,7 @@ kuvan mikä ei ole mahdollista muilla säädöillä, kuten [Sävyala]({{< relref
 
 {{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/kuvat/kayra3.png" alt="Käyrät-Sin" >}}
 
-<div class="d-flex justify-content-center">
+<div class="d-flex flex-wrap justify-content-center">
 
 {{< figure src="/resurssit/ruisleipa.jpg" alt="Ruisleipä" >}}
 {{< figure src="/resurssit/ruisleipa_kayra3.jpg" alt="Ruisleipä käyrät" >}}

@@ -140,8 +140,10 @@ ul {
 		border-width: thick;
 		border-radius: 8px;
 	}
-	.text-white a, a {
+	.text-white a, {
 		color: $valkoinen;
+	}
+	a {
 		text-decoration: underline;
 	}
 }

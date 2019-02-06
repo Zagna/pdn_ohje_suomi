@@ -17,7 +17,7 @@ ominaisuudet (Tasovalikon tai Ominaisuudet napin kautta, tai kaksoisklikkaamalla
 
 Tätä aihetta varten seuraavia kahta kuvaa käytetään taustakuvaksi sekä ensimmäiseksi tasoksi taustakuvan yläpuolella:
 
-<div class="d-flex justify-content-center">
+<div class="d-flex flex-wrap justify-content-center">
 
 {{< figure src="/resurssit/kemijoki.jpg" title="Taustakuva - Kuva Rovaniemestä (1972)" caption="(\"Pohja taso\")" >}}
 {{< figure src="/resurssit/ruisleipa.jpg" title="Taso 1 - Kuva ruisleivästä" caption="(\"Päällinen taso\")" >}}

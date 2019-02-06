@@ -2,7 +2,7 @@ baseurl = "http://paintdotnet.arkku.net/"
 languageCode = "fi"
 title = "paint.net suomeksi"
 DefaultContentLanguage = "fi"
-disableKinds = [ "RSS", "tags", "categories" ]
+disableKinds = [ "RSS", "tags", "categories", "taxonomy", "taxonomyTerm" ]
 enableGitInfo = true
 
 [sitemap]

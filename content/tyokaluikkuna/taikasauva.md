@@ -25,7 +25,7 @@ Samalla lailla kuin {{< tool "paintbucket.png" >}}
 [Toleranssia]({{< relref "/tyokalupalkki.md" >}}#taikasauva-t%C3%A4ytt%C3%B6-ja-uudelleen-v%C3%A4ritys). Alla näet esityksen
 tästä säädöstä.
 
-<div class="d-flex justify-content-center">
+<div class="d-flex flex-wrap justify-content-center">
 
 {{< figure oclass="mx-auto" class="mx-auto" src="/resurssit/magicwand_tol25.jpg" title="Taikasauva toleranssiasetuksella 15%." caption="Valinta ei valitse tarpeeksi kuvasta: toleranssi on liian pieni." >}}
 

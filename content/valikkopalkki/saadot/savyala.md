@@ -6,7 +6,7 @@ title = "Sävyala"
 [menu.pdn]
     parent = "sehot"
     identifier = "savyalat"
-    weight = 403
+    weight = 403 
 
 +++
 
@@ -25,7 +25,7 @@ värit kuvassa säädetään täysin mustaksi. Muuttamalla valkopistettä hieman
 ja muuttamalla mustapistettä hieman kirkkaammaksi, teemme kaikista niistä tummista väreistä täysin tummia. Myös, valikossa ylhäällä, harmaapiste on
 siirretty hieman kirkkaammaksi. Vaikka tämä ei vaikuta kuvan valkoiseen tai mustaan, se nostaa kuvan värejä yleisesti kirkkaammiksi.
 
-<div class="d-flex justify-content-center">
+<div class="d-flex flex-wrap justify-content-center">
 
 {{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät2" >}}
 {{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/resurssit/lewistonsunset_small_levels1.jpg" alt="Käyrät3" >}}
@@ -49,7 +49,7 @@ aikaan, johtaen syaanin määrän tippumiseen kuvassa. Tämä korostaa punaista 
 
 {{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/kuvat/levels2.png" alt="Käyrät4" >}}
 
-<div class="d-flex justify-content-center">
+<div class="d-flex flex-wrap justify-content-center">
 
 {{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät5" >}}
 {{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/resurssit/lewistonsunset_small_levels2.jpg" alt="Käyrät6" >}}

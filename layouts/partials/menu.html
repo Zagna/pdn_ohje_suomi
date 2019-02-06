@@ -5,12 +5,14 @@
 	</button>
 	<div class="collapse navbar-collapse" id="navbarNavDropdown">
 		<ul class="navbar-nav nav-fill w-100">
-		{{ range .Site.Menus.pdn }}
+		{{ $list := .Site.Menus.pdn }}
+		{{ $len := (len $list) }}
+		{{ range $index,$element := $list }}
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					{{ .Name }}
 				</a>
-				{{ if eq .Identifier "muuta" }}
+				{{ if eq (add $index 1) $len }}
 				<div class="dropdown-menu dropdown-menu-right">
 				{{ else }}
 				<div class="dropdown-menu">
