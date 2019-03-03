@@ -20,7 +20,7 @@ Tämä valikko antaa nopea pääsyn ohjeeseen, tavan lähettää palautetta tai 
 
 * ### paint.net kotisivu
 
-    Tämä avaa paint.netin kotisivun, [http://www.getpaint.net](http://www.getpaint.net).
+    Tämä avaa paint.netin kotisivun, [https://www.getpaint.net](https://www.getpaint.net).
 
 * ### paint.net Haku
 
@@ -28,7 +28,7 @@ Tämä valikko antaa nopea pääsyn ohjeeseen, tavan lähettää palautetta tai 
 
 * ### Lahjoita
 
-    Tämä avaa selaimessa sivun jonka kautta voit lahjoittaa, [http://www.getpaint.net/donate.html](http://www.getpaint.net/donate.html).
+    Tämä avaa selaimessa sivun jonka kautta voit lahjoittaa, [https://www.getpaint.net/donate.html](https://www.getpaint.net/donate.html).
 
 * ### Keskustelu
 

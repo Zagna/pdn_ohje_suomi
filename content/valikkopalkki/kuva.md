@@ -50,9 +50,9 @@ vaikuttaa vain aktiiviseen tasoon.
     On olemassa monta interpolointitapaa. "Interpolointi" on prosessi jossa lasketaan mitä uudet pikselit tulisi olla perustuen siihen mitä
     vanhat pikselit ovat. Jotkin algoritmit tuottavat parempia toivottuja tuloksia, mutta kestävät kauemmin suorittaa. On suositeltavaa että
     käytät oletusarvoa, "Paras Laatu", ellei sinulla ole tietty tarve ja ymmärrät mitä muut vaihtoehdot ovat
-    [Bilinear](http://en.wikipedia.org/wiki/Bilinear_interpolation), [Bicubic](http://en.wikipedia.org/wiki/Bicubic_interpolation) ja
-    [Lähin naapuri](http://en.wikipedia.org/wiki/Nearest_neighbor_interpolation). Paras Laatu valitsee automaattisesti joko
-    [Bicubic](http://en.wikipedia.org/wiki/Bilinear_interpolation) tai [Super Sampling](http://en.wikipedia.org/wiki/Super_sampling)
+    [Bilinear](https://en.wikipedia.org/wiki/Bilinear_interpolation), [Bicubic](https://en.wikipedia.org/wiki/Bicubic_interpolation) ja
+    [Lähin naapuri](https://en.wikipedia.org/wiki/Nearest_neighbor_interpolation). Paras Laatu valitsee automaattisesti joko
+    [Bicubic](https://en.wikipedia.org/wiki/Bilinear_interpolation) tai [Super Sampling](https://en.wikipedia.org/wiki/Super_sampling)
     riippuen siitä minkä koon määrität uudelle kuvalle.
 
     {{< figure src="/kuvat/resizedialog.png" alt="Muuta kokoa" >}}

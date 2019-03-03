@@ -22,7 +22,7 @@ kanssa, on se myöhemmin kasvanut tehokkaaksi työkaluksi kuvien muokkaamiseen.
 * ### Yksinkertainen ja intuitiivinen käyttöliittymä
 
     Jokainen ominaisuus ja käyttöliittymän osa suunniteltiin olemaan heti löydettävissä ja/tai helposti opeteltavissa ilman apua. Suunnittelussa
-    otettiin huomioon [Paintin](http://en.wikipedia.org/wiki/Microsoft_Paint) ja [Photoshopin](http://en.wikipedia.org/wiki/Photoshop) käyttäjät.
+    otettiin huomioon [Paintin](https://en.wikipedia.org/wiki/Microsoft_Paint) ja [Photoshopin](https://en.wikipedia.org/wiki/Photoshop) käyttäjät.
 
 * ### Avaa ja muokkaa useita tiedostoja
 
@@ -50,9 +50,9 @@ kanssa, on se myöhemmin kasvanut tehokkaaksi työkaluksi kuvien muokkaamiseen.
 
 * ### Tuki monille tiedostoformaateille
 
-    Seuraavat tiedostoformaatit on tuettu: [PNG](http://fi.wikipedia.org/wiki/PNG), [JPEG](http://fi.wikipedia.org/wiki/JPEG), [BMP](http://fi.wikipedia.org/wiki/BMP),
-    [GIF](http://fi.wikipedia.org/wiki/GIF), [TGA](http://en.wikipedia.org/wiki/Truevision_TGA), [DDS](http://en.wikipedia.org/wiki/DirectDraw_Surface),
-    ja [TIFF](http://fi.wikipedia.org/wiki/TIFF).
+    Seuraavat tiedostoformaatit on tuettu: [PNG](https://fi.wikipedia.org/wiki/PNG), [JPEG](https://fi.wikipedia.org/wiki/JPEG), [BMP](https://fi.wikipedia.org/wiki/BMP),
+    [GIF](https://fi.wikipedia.org/wiki/GIF), [TGA](https://en.wikipedia.org/wiki/Truevision_TGA), [DDS](https://en.wikipedia.org/wiki/DirectDraw_Surface),
+    ja [TIFF](https://fi.wikipedia.org/wiki/TIFF).
 
     paint.netin natiivi kuvatyyppi on PDN, joka säilyttää tasot kuvassa.
 

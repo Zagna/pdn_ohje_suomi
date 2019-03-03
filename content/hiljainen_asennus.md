@@ -11,14 +11,14 @@ version = "4.1.5"
 
 +++
 
-paint.net tukee [hiljaista asennusta](http://en.wikipedia.org/wiki/tableed_installation) minkä avulla voit asentaa paint.netin ilman
+paint.net tukee [hiljaista asennusta](https://en.wikipedia.org/wiki/tableed_installation) minkä avulla voit asentaa paint.netin ilman
 käyttäjän ohjeita. Saatavilla on kaksi vaihtoehtoa hiljaiselle asennukselle. Ensimmäinen on MSI pohjainen julkaisu, suunniteltu käytettäväksi
-[Active Directoryn](http://fi.wikipedia.org/wiki/Active_Directory) sekä [Group Policyn](http://en.wikipedia.org/wiki/Group_policy) kanssa
+[Active Directoryn](https://fi.wikipedia.org/wiki/Active_Directory) sekä [Group Policyn](https://en.wikipedia.org/wiki/Group_policy) kanssa
 asentamaan paint.net monelle käyttäjälle hallitussa verkostossa. Toinen on automaattinen asennus, sopiva yleiselle automaatiolle henkilökohtaiseen
 käyttöön.
 
 Edelliset paint.net versiot jaettiin MSI tiedostoina joiden asetuksia pystyi asettamaan käyttämällä tavallisia
-[Windows Installer](http://en.wikipedia.org/wiki/Microsoft_Installer) asetuksia. Uudet versiot, kuitenkin on jaettu EXE tiedostoina monimutkaisempien
+[Windows Installer](https://en.wikipedia.org/wiki/Microsoft_Installer) asetuksia. Uudet versiot, kuitenkin on jaettu EXE tiedostoina monimutkaisempien
 vaatimusten takia asetusten, käännösten ja päivitysten muodossa. Voit silti tehdä asennuksen MSIn avulla jos käytät /createMSI parametria
 asennusohjelmaa käynnistäessä.
 
@@ -42,7 +42,7 @@ Halutaksesi tehdä automaattisen asennuksen, käytä /auto tai /skipConfig komen
 ### Komentorivin komennot
 
 Asennuspaketti käyttää seuraavia komentorivin komentoja, missä paint.net.{{< param version >}}.install.exe on asennusohjelma jonka latasit
-[kotisivulta](http://www.getpaint.net):
+[kotisivulta](https://www.getpaint.net):
 
 {{% esimerkki %}}paint.net.{{< param version >}}.install.exe [/skipConfig | /auto | /createMsi] [PROPERTY=VALUE]{{% /esimerkki %}}
 

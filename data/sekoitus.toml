@@ -121,7 +121,7 @@
 [[tab]]
 	id = "xor"
 	name = "Xor"
-	content = "Tämä on lyhyesti &ldquo;[poissulkeva tai](http://fi.wikipedia.org/wiki/XOR)&rdquo;, joka on kehittynyt sekoitustila jota pääasiallisesti käytetään kuvien analysointiin eikä piirtämiseen tai kuvien muodostamiseen."
+	content = "Tämä on lyhyesti &ldquo;[poissulkeva tai](https://fi.wikipedia.org/wiki/XOR)&rdquo;, joka on kehittynyt sekoitustila jota pääasiallisesti käytetään kuvien analysointiin eikä piirtämiseen tai kuvien muodostamiseen."
 	
 	[[tab.figure]]
 		src="/resurssit/xor.jpg"

@@ -27,10 +27,10 @@ tasot toimivat paremmin, voi olla helpompaa nähdä tasot vierestä kuin ylhää
 
 ### Pikselit ja läpinäkyvyys
 
-Jokainen taso paint.netissä koostuvat [pikseleistä](http://fi.wikipedia.org/wiki/Pikseli) jotka on tallennettu [RGBA](http://en.wikipedia.org/wiki/RGBA_color_space)
+Jokainen taso paint.netissä koostuvat [pikseleistä](https://fi.wikipedia.org/wiki/Pikseli) jotka on tallennettu [RGBA](https://en.wikipedia.org/wiki/RGBA_color_space)
 muodossa. RGB tarkoittaa red-green-blue (punainen-vihreä-sininen), ja sillä tallennetaan värien voimakkuus. "A" tarkoittaa alfaa ja se tallentaa
 pikselin läpinäkyvyyden. Alfa-arvo voi olla 0:sta (täysin läpinäkyvä) 255:een (täysin peittävä). Jos pikseli on läpinäkyvä, pikselit alla olevista
-tasoita näkyvät läpi. paint.net käyttää tekniikkaa nimeltä [alfakanava](http://fi.wikipedia.org/wiki/Alfakanava), jonka avulla tasoilla varustettu
+tasoita näkyvät läpi. paint.net käyttää tekniikkaa nimeltä [alfakanava](https://fi.wikipedia.org/wiki/Alfakanava), jonka avulla tasoilla varustettu
 kuvan voi näyttää normaalilla tietokoneen näytöllä.
 
 Kuitenkin, läpinäkyviä pikseleitä ei voi näyttää tietokoneen näytöllä. Tämän simuloinniksi, paint.net käyttää shakkilautamallia joka näyttää tältä:

@@ -128,9 +128,9 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
     Moneen työkaluun vaikuttaa yksi tai kummatkin näistä valinnoista jotka vaikuttavat siihen miten piirtäminen toimii. Voit käyttää näitä joko painamalla
     itse nappia vaihtaaksesi asetusta, tai painamalla nuolta saadaksesi valikon vaihtoehdoista.
 
-    Ensimmäinen nappi asettaa onko [reunan pehmennys](http://en.wikipedia.org/wiki/Antialiasing) käytössä. Ympyrä vasemmalla on piirretty reunan pehmennys
+    Ensimmäinen nappi asettaa onko [reunan pehmennys](https://en.wikipedia.org/wiki/Antialiasing) käytössä. Ympyrä vasemmalla on piirretty reunan pehmennys
     päällä kun oikealla oleva ympyrä on piirretty ilman reunan pehmennystä. Se on selkeästi "rösöisempi":
 
     {{< figure src="/resurssit/aavsnoaa.png" alt="Pehmennys päällä ja pois" >}}
 
-    Seuraava nappi asettaa [sekoitustilan](http://en.wikipedia.org/wiki/Alpha_compositing). Tästä voi lukea lisää [sekoitustiloista]({{< relref "sekoitustilat.md" >}}).
+    Seuraava nappi asettaa [sekoitustilan](https://en.wikipedia.org/wiki/Alpha_compositing). Tästä voi lukea lisää [sekoitustiloista]({{< relref "sekoitustilat.md" >}}).

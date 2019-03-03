@@ -10,4 +10,4 @@ title = "Lisenssi"
 
 +++
 
-[Lisenssin](http://www.getpaint.net/license.html) voi löytää paint.netin sivustolta.
+[Lisenssin](https://www.getpaint.net/license.html) voi löytää paint.netin sivustolta.

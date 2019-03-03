@@ -1,4 +1,4 @@
-baseurl = "http://paintdotnet.arkku.net/"
+baseurl = "https://paintdotnet.arkku.net/"
 languageCode = "fi"
 title = "paint.net suomeksi"
 DefaultContentLanguage = "fi"

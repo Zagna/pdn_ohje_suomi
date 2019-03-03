@@ -13,7 +13,7 @@ title = "Lisäosien asennus"
 paint.net mahdollistaa lisäosien asennuksen jotka tuovat lisää ominaisuuksia ja tiedostotyyppejä. Monta lisäosaa on saatavilla, esimerkkeinä
 objektien varjot, väritysapuja ja valokuvien kehittäminen.
 
-Lisäosat kehittää kolmannen osapuolen henkilöt ja ne julkaistaan [paint.net keskustelualueella](http://forums.getpaint.net/index.php?/forum/7-plugins-publishing-only/).
+Lisäosat kehittää kolmannen osapuolen henkilöt ja ne julkaistaan [paint.net keskustelualueella](https://forums.getpaint.net/index.php?/forum/7-plugins-publishing-only/).
 
 Englanninkielinen lista lisäosista löytyy [keskustelualueelta](https://forums.getpaint.net/forum/37-plugin-index/).
 
