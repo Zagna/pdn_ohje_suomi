@@ -1,8 +1,10 @@
 
 <figure class="figure {{ .Get "oclass" }}">
-	<img src="{{ .Get "src" }}" class="figure-img {{ .Get "class" }}" alt="{{ .Get "alt" }}">
+	{{ range split (.Get "src") ";" }}
+		<img src="{{ . }}" class="figure-img img-fluid {{ $.Get "class" }}" alt="{{ $.Get "alt" }}">
+	{{ end }}
 	{{ if isset .Params "title" }}
-	<figcaption class="figure-caption text-center">
+	<figcaption class="figure-caption text-center d-block">
 		<h4>{{ .Get "title" }}</h4>
 		{{ with .Get "caption" }}<p>{{ safeHTML . }}</p>{{ end }}
 	</figcaption>

@@ -45,7 +45,7 @@ hiljaa kunnes olet saanut kaiken.
 
 {{% vihje %}}Voit laajentaa valintaa klikkaamalla samalla kun Ctrl-nappi on alhaalla.{{% /vihje %}}
 
-{{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/resurssit/magicwand_collect.jpg" title="Taikasauvaa käytettiin monta kertaa." caption="Laajentaen valintaa osissa, joka kerta valiten uuden alueen kun Ctrl-nappi on alhaalla." >}}
+{{< figure oclass="text-center d-block" class="mx-auto" src="/resurssit/magicwand_collect.jpg;/resurssit/magicwand_collect2.jpg" title="Taikasauvaa käytettiin monta kertaa." caption="Laajentaen valintaa osissa, joka kerta valiten uuden alueen kun Ctrl-nappi on alhaalla." >}}
 
 ### Poissulkeva valinta
 
@@ -54,7 +54,7 @@ Tämä metodi toimii hyvin kun kohteen ympärillä puuttuu yksityiskohtia.
 
 {{% vihje %}}Voit vähentää valintaa klikkaamalla oikealla hiiren napilla.{{% /vihje %}}
 
-{{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/resurssit/magicwand_exclude.jpg" title="Alustava valinta tehtiin lassotyökalulla." caption="Sen jälkeen Taikasauvaa käytettiin sulkemaan pois alueet joita ei ole tarkoitettu ottaa mukaan, klikkaamalla poissuljettavia alueita oikealla hiiren napilla." >}}
+{{< figure oclass="text-center d-block" class="mx-auto" src="/resurssit/magicwand_exclude.jpg;/resurssit/magicwand_exclude2.jpg" title="Alustava valinta tehtiin lassotyökalulla." caption="Sen jälkeen Taikasauvaa käytettiin sulkemaan pois alueet joita ei ole tarkoitettu ottaa mukaan, klikkaamalla poissuljettavia alueita oikealla hiiren napilla." >}}
 
 ### Globaali valinta
 
@@ -62,4 +62,4 @@ Taikasauva toimii normaalisti rajaamalla valinnan sisältämään vain alueet jo
 On mahdollista, kuitenkin, tehdä valinta joka riippuu vain väristä, unohtaen kaikki rajat ja vaatimukset jatkuvuuteen. Tämän voi
 tehdä painamalla Shift-nappia kun teet minkä tahansa muun Taikasauvan työn (myös valinnan lisäys ja erotus).
 
-{{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/resurssit/magicwand_noncontiguous.png" title="Tämä valinta tehtiin ensin tekemällä Valitse kaikki (Muokkaa → Valitse kaikki)." caption="Sen jälkeen Shift pohjassa sulkien pois kaikki mustat alueet. Huomaa että monista yksittäisistä mustista alueista on valinta poistettu." >}}
+{{< figure oclass="text-center d-block" class="mx-auto" src="/resurssit/magicwand_noncontiguous.png" title="Tämä valinta tehtiin ensin tekemällä Valitse kaikki (Muokkaa → Valitse kaikki)." caption="Sen jälkeen Shift pohjassa sulkien pois kaikki mustat alueet. Huomaa että monista yksittäisistä mustista alueista on valinta poistettu." >}}

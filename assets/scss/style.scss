@@ -1,11 +1,21 @@
-//colors
-$valkoinen: white;
-$harmaa: #ddd;
-$sininen: #007bff;
+@import "bootstrap/bootstrap-reboot";
+@import "bootstrap/bootstrap-grid";
+@import "bootstrap/utilities/sizing";
+@import "bootstrap/utilities/borders";
+@import "bootstrap/utilities/background";
+@import "bootstrap/utilities/text";
+@import "bootstrap/images";
+@import "bootstrap/tables";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/badge";
 
-//fonts
-$konsoli: Consolas;
-$mono: monospace;
+//colors
+$valkoinen: $white;
+$harmaa: $gray-500;
+$sininen: $indigo;
 
 //urls
 $palkki: url(/resurssit/imagebar.jpg);
@@ -107,7 +117,7 @@ figure {
 	font-size: 100%;
 }
 .fixed {
-	font-family: $konsoli, $mono;
+	font-family: $font-family-monospace;
 }
 ol {
 	margin-left: 2em;
@@ -140,7 +150,7 @@ ul {
 		border-width: thick;
 		border-radius: 8px;
 	}
-	.text-white a, {
+	.text-white a {
 		color: $valkoinen;
 	}
 	a {
