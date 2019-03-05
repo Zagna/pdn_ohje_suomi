@@ -79,6 +79,28 @@
 		caption="Jälkeen"
 	
 [[tab]]
+	id = "morfo"
+	name = "Morfologinen"
+	content = "Morfologisella on kaksi toimintoa. Syövytä vähentää yksityskohtia eriävien alueiden välillä. Laajenna kasvattaa alueita eriävien alueiden välillä."
+
+	[[tab.figure]]
+		src="/resurssit/tehoste.jpg"
+		class="border"
+		alt="Alkuperäinen"
+		caption="Alkuperäinen"
+	[[tab.figure]]
+		src="/resurssit/morfo2.jpg"
+		class="border"
+		alt="Syövytä"
+		caption="Syövytä"
+	[[tab.figure]]
+		src="/resurssit/morfo.jpg"
+		class="border"
+		alt="Laajenna"
+		caption="Laajenna"
+
+
+[[tab]]
 	id = "pullis"
 	name = "Pullistuma"
 	content = "Tätä tehostetta voi käyttää tuomaan osa kuvasta lähemmäksi tai taaemmaksi, kuin kuvaa olisi taivutettu."
