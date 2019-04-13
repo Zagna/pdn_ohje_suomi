@@ -23,7 +23,8 @@ Seuraavassa esimerkissä, otettiin kuva kissasta ja kaikki paitsi kissa pyyhitti
 luomalla uusi taso, täyttämällä se sinisellä käyttäen Täyttö-työkalua ja sen jälkeen siirtäen taso alas painamalla Siirrä Tasoa Alas -nappia
 siirtääksesi tason kissan taakse.
 
-<div class="d-flex flex-wrap justify-content-center">
+<div class="level">
+<div class="level-item">
 
 {{< figure oclass="text-center" src="/resurssit/eraser_part1.jpg" title="Alkuperäinen kuva" alt="Pyyhin osa 1" >}}
 
@@ -32,3 +33,5 @@ siirtääksesi tason kissan taakse.
 {{< figure oclass="text-center" src="/resurssit/eraser_part3.jpg" title="Sininen taso alapuolelle" caption="Uusi taso kissan alapuolelle ja sinisellä täyttö." alt="Pyyhin osa 3" >}}
 
 </div>
+</div>
+

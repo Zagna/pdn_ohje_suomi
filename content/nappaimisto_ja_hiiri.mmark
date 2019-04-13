@@ -12,7 +12,7 @@ title = "Näppäimistön ja hiiren komennot"
 
 Suuri osa komennoista paint.netissä on helposti käytettävissä näppäimistön avulla. Avuksesi, kaikki komennot on lueteltu tänne.
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Yleiset pohjan hallinnat ||
 --- | ---
 Panoroi kuvaa (ei toimi kun kirjoitat Teksti-työkalulla) | Pidä {{< badge >}}välilyönti{{< /badge >}} + siirrä hiirtä {{< badge2 >}}vasen nappi{{< /badge2 >}} alhaalla
@@ -21,7 +21,7 @@ Vieritä vasemmalle / oikealle | {{< badge >}}Shift{{< /badge >}} + {{< badge2 >
 Lähennä / Loitonna | {{< badge >}}Ctrl{{< /badge >}} + {{< badge2 >}}Hiiren rulla{{< /badge2 >}}
 Poista valinta | {{< badge >}}Esc{{< /badge >}} tai {{< badge >}}Enter{{< /badge >}}
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Kuvalista ja Kuvien navigointi ||
 --- | ---
 Seuraava välilehti | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Tab{{< /badge >}}
@@ -30,7 +30,7 @@ Näytä kuvalista | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Q{{< /badge >
 Vaihda kuvaan #, kuville 1:stä 10:en | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}#{{< /badge >}} or {{< badge >}}Alt{{< /badge >}} + {{< badge >}}#{{< /badge >}}, missä {{< badge >}}#{{< /badge >}} on 1:stä 9:in kuville 1-9, tai 0 kuvalle 10
 Vieritä kuvalistaa | {{< badge2 >}}Hiiren rulla{{< /badge2 >}} (vain jos hiiren kursori on kuvalistan alueella)
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Työkalupalkki ||
 --- | ---
 Laske siveltimen kokoa 1 | {{< badge >}}&#91;{{< /badge >}}
@@ -38,7 +38,7 @@ Laske siveltimen kokoa 5 | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}&#91;{
 Nosta siveltimen kokoa 1 | {{< badge >}}&#93;{{< /badge >}}
 Nosta siveltimen kokoa 5 | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}&#93;{{< /badge >}}
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Siirtotyökalut ||
 --- | ---
 Muuta valinnan kokoa | Siirrä yhtä reuna tai nurkka nuppia
@@ -46,7 +46,7 @@ Muuta valinnan kokoa säilyttäen alkuperäinen suhde | Pidä {{< badge >}}Shift
 Muokkaa valintaa | Siirrä {{< badge2 >}}oikealla hiiren napilla{{< /badge2 >}} valitsemalle muu kuin nuppi
 Pyöritä valintaa | Siirrä missä vain {{< badge2 >}}oikealla hiiren napilla{{< /badge2 >}}
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Valintatyökalut (paitsi Taikasauva) ||
 --- | ---
 {{< huom >}}Kun valinta on aktiivinen, kaikki piirtäminen, ja monta muuta komentoa, piirros ja tehosteet näkyvät vain valinnan sisällä.{{< /huom >}} ||
@@ -59,13 +59,13 @@ Pakota neliöön (Suorakulmainen valinta), tai ympyrään (Ellipsi valinta) | Pi
 Siirrä uutta valintaa kun vielä piirrät sitä | Kun piirrät {{< badge2 >}}vasemmalla hiiren napilla{{< /badge2 >}}, pidä {{< badge2 >}}Oikea hiiren nappi{{< /badge2 >}} pohjassa ja siirrä hiirtä
 Siirrä uutta valintaa kun vielä piirrät sitä | Kun piirrät {{< badge2 >}}oikealla hiiren napilla{{< /badge2 >}}, pidä {{< badge2 >}}Vasen hiiren nappi{{< /badge2 >}} pohjassa ja siirrä hiirtä
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Väri-ikkuna ||
 --- | ---
 Vaihda edusta- ja taustaväri keskenään | {{< badge >}}X{{< /badge >}}
 Vaihda aktiivinen väri alas vetolaatikossa | {{< badge >}}C{{< /badge >}}
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Taikasauva ||
 --- | ---
 Luo uusi valinta ympäröivistä pikseleistä jotka muistuttavat pikseliä jonka valitsit, korvaten minkä tahansa vanhan valinnan jos se on olemassa (valinta riippuu Toleranssi asetuksesta) | {{< badge2 >}}Vasen hiiren nappi{{< /badge >}}
@@ -74,31 +74,31 @@ Lisää nykyiseen valintaan (lisäys) | {{< badge >}}Ctrl{{< /badge >}} + {{< ba
 Invertoi tietty ala valinnasta (poissulkeva) | {{< badge >}}Ctrl{{< /badge >}} + {{< badge2 >}}Oikea hiiren nappi{{< /badge2 >}}
 Tee globaali valinta koko tasolle värin ja toleranssin perusteella | {{< badge >}}Shift{{< /badge >}} pohjassa tee jokin neljästä komennosta ylhäällä
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Tekstityökalu ||
 --- | ---
 Väliaikaisesti piilota kursori ja nuppi | Pidä {{< badge >}}Ctrl{{< /badge >}} pohjassa
 Aseta nupin näkyvyys | Napauta {{< badge >}}Ctrl{{< /badge >}}
 Viimeistele teksti ja lisää se tasoon | {{< badge >}}Esc{{< /badge >}}
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Sivellin ||
 --- | ---
 Piirrä edustavärillä | Piirrä {{< badge2 >}}vasemmalla hiiren napilla{{< /badge2 >}}
 Piirrä taustavärillä | Piirrä {{< badge2 >}}oikealla hiiren napilla{{< /badge2 >}}
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Pyyhin ||
 --- | ---
 Poistaa kyseisen alueen (asettaa pikselit läpinäkyviksi) | Piirrä joko {{< badge2 >}}vasemmalla{{< /badge2 >}} tai {{< badge2 >}}oikealla hiiren napilla{{< /badge2 >}}
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Kloonaus ||
 --- | ---
 Asettaa lähdekohdan | {{< badge >}}Ctrl{{< /badge >}} + {{< badge2 >}}Vasen hiiren nappi{{< /badge2 >}}
 Kopioi pikselit (lähdekohta pitää asettaa ensin) | Piirrä {{< badge2 >}}vasemmalla hiiren napilla{{< /badge2 >}}
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Uudelleen väritä ||
 --- | ---
 Valitse kursorin alla oleva väri ja aseta se edustaväriksi | {{< badge >}}Ctrl{{< /badge >}} + {{< badge2 >}}Vasen hiiren nappi{{< /badge2 >}}
@@ -106,28 +106,28 @@ Valitse kursorin alla oleva väri ja aseta se taustaväriksi | {{< badge >}}Ctrl
 Piirrä edustavärillä, mutta vain pikseleiden päälle jotka muistuttavat taustaväriä (samankaltaisuus päätetään Toleranssi asetuksen mukaan) | Piirrä {{< badge2 >}}vasemmalla hiiren napilla{{< /badge2 >}}
 Piirrä taustavärillä, mutta vain pikseleiden päälle jotka muistuttavat edustaväriä (samankaltaisuus päätetään Toleranssi asetuksen mukaan) | Piirrä {{< badge2 >}}oikealla hiiren napilla{{< /badge2 >}}
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Täyttö ||
 --- | ---
 Täytä ympäröivä alue edustavärillä | {{< badge2 >}}Vasen hiiren nappi{{< /badge2 >}}
 Täytä ympäröivä alue taustavärillä | {{< badge2 >}}Oikea hiiren nappi{{< /badge2 >}}
 Tee globaali täyttö koko tasolle värin ja toleranssin perusteella | {{< badge >}}Shift{{< /badge >}} pohjassa tee jokin kahdesta komennosta ylhäällä
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Muototyökalut ||
 --- | ---
 Piirrä muoto. Ulkoreuna käyttää edustaväriä, sisusta taustaväriä | Piirrä {{< badge2 >}}vasemmalla hiiren napilla{{< /badge2 >}}
 Piirrä muoto. Ulkoreuna käyttää taustaväriä, sisusta edustaväriä | Piirrä {{< badge2 >}}vasemmalla hiiren napilla{{< /badge2 >}}
 Pakota neliöön (Suorakulmio), pyöreä neliö (Pyöreä suorakulmio), ympyrä (Ellipsi) tai 15&deg; kulmaan (Viiva / Kurvi) | Piirrä {{< badge >}}Shift{{< /badge >}} pohjassa
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Viiva/Käyrä -työkalu ||
 --- | ---
 Vaihda alun tyyliä | {{< badge >}},{{< /badge >}} (pilkku)
 Vaihda viivan tyyliä | {{< badge >}}.{{< /badge >}} (piste)
 Vaihda lopun tyyliä | {{< badge >}}/{{< /badge >}} (kauttaviiva)
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Työkalujen pikanäppäimet ||
 --- | ---
 {{< huom >}}Jos enemmän kuin yksi työkalu jakaa tietyn pikanäppäimen, sinun pitää painaa pikanäppäintä monta kertaa käydäksesi läpi kaikki työkalut mitkä ovat osoitettu tietylle pikanäppäimelle.{{< /huom >}} ||
@@ -154,7 +154,7 @@ Pyöreä suorakulmio | {{< badge >}}O{{< /badge >}}
 Ellipsi | {{< badge >}}O{{< /badge >}}
 Vapaa muoto | {{< badge >}}O{{< /badge >}}
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Tiedosto ||
 --- | ---
 Uusi | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}N{{< /badge >}}
@@ -165,7 +165,7 @@ Tallenna nimellä | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /bad
 Tulosta | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}P{{< /badge >}}
 Poistu | {{< badge >}}Alt{{< /badge >}} + {{< badge >}}F4{{< /badge >}}, tai {{< badge >}}Alt{{< /badge >}} + {{< badge >}}F{{< /badge >}} ja {{< badge >}}X{{< /badge >}}, tai {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}W{{< /badge >}} kun kuvia ei ole auki
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Muokkaa ||
 --- | ---
 Kumoa | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Z{{< /badge >}}
@@ -181,7 +181,7 @@ Käännä valinta | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}I{{< /badge >
 Valitse kaikki | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}A{{< /badge >}}
 Poista valinta | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}D{{< /badge >}}
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Kuva ||
 --- | ---
 Rajaa valintaan | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}X{{< /badge >}}
@@ -192,7 +192,7 @@ Pyöritä 90&deg; (vastapäivään) | {{< badge >}}Ctrl{{< /badge >}} + {{< badg
 Pyöritä 180&deg; | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}J{{< /badge >}}
 Yhdistä tasot | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}F{{< /badge >}}
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Tasot ||
 --- | ---
 Lisää uusi taso | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}N{{< /badge >}}
@@ -202,7 +202,7 @@ Yhdistä taso alas | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}M{{< /badge 
 Pyöritä / Lähennä | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}Z{{< /badge >}}
 Tason ominaisuudet | {{< badge >}}F4{{< /badge >}}
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Säädöt ||
 --- | ---
 Automaattinen taso | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}L{{< /badge >}}
@@ -214,12 +214,12 @@ Invertoi värit | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge
 Sävyala | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}L{{< /badge >}}
 Seepia | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}P{{< /badge >}}
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Tehosteet ||
 --- | ---
 Toista viimeisin tehoste | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}F{{< /badge >}}
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Näytä ||
 --- | ---
 Lähennä sisään | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}+{{< /badge >}}
@@ -228,7 +228,7 @@ Lähennä ikkunaan | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}B{{< /badge 
 Lähennä valintaan | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}B{{< /badge >}}
 Oikea koko | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}A{{< /badge >}}
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Ikkuna ||
 --- | ---
 Työkalut (aseta näkyvyys) | {{< badge >}}F5{{< /badge >}}
@@ -239,7 +239,7 @@ Näytä kuvalista | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Q{{< /badge >
 Seuraava välilehti | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Tab{{< /badge >}}
 Edellinen välilehti | {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}Tab{{< /badge >}}
 
-{.table .table-sm .kbm}
+{.table .is-fullwidth .kbm}
 Ohje ||
 --- | ---
 Sisältö | {{< badge >}}F1{{< /badge >}}

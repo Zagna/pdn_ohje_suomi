@@ -47,6 +47,7 @@ Temporary Items
 .apdisk
 
 *.txt
+!robots.txt
 *.log
 *.exe
 public/*
@@ -55,4 +56,4 @@ public/*
 svg.*
 svg/*
 resources/*
-assets/scss/bootstrap/*
+assets/scss/bulma/*

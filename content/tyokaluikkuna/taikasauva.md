@@ -25,14 +25,24 @@ Samalla lailla kuin {{< tool "paintbucket.png" >}}
 [Toleranssia]({{< relref "/tyokalupalkki.md" >}}#taikasauva-t%C3%A4ytt%C3%B6-ja-uudelleen-v%C3%A4ritys). Alla näet esityksen
 tästä säädöstä.
 
-<div class="d-flex flex-wrap justify-content-center">
+<div class="level">
+<div class="level-item">
 
-{{< figure oclass="mx-auto" class="mx-auto" src="/resurssit/magicwand_tol25.jpg" title="Taikasauva toleranssiasetuksella 15%." caption="Valinta ei valitse tarpeeksi kuvasta: toleranssi on liian pieni." >}}
+{{< figure src="/resurssit/magicwand_tol25.jpg" title="Taikasauva toleranssiasetuksella 15%." caption="Valinta ei valitse tarpeeksi kuvasta: toleranssi on liian pieni." >}}
 
-{{< figure oclass="mx-auto" class="mx-auto" src="/resurssit/magicwand_tol50.jpg" title="Taikasauva toleranssiasetuksella 45%." caption="Valinta valitsee liikaa kuvasta: toleranssi on liian suuri." >}}
+</div>
+<div class="level-item">
 
-{{< figure oclass="mx-auto" class="mx-auto" src="/resurssit/magicwand_tol31.jpg" title="Taikasauva toleranssiasetuksella 25%." caption="Valinta valitsee juuri sopivasti kuvasta." >}}
+{{< figure src="/resurssit/magicwand_tol50.jpg" title="Taikasauva toleranssiasetuksella 45%." caption="Valinta valitsee liikaa kuvasta: toleranssi on liian suuri." >}}
 
+</div>
+</div>
+<div class="level">
+<div class="level-item">
+
+{{< figure src="/resurssit/magicwand_tol31.jpg" title="Taikasauva toleranssiasetuksella 25%." caption="Valinta valitsee juuri sopivasti kuvasta." >}}
+
+</div>
 </div>
 
 ## Kehittynyt käyttö
@@ -45,7 +55,13 @@ hiljaa kunnes olet saanut kaiken.
 
 {{% vihje %}}Voit laajentaa valintaa klikkaamalla samalla kun Ctrl-nappi on alhaalla.{{% /vihje %}}
 
-{{< figure oclass="text-center d-block" class="mx-auto" src="/resurssit/magicwand_collect.jpg;/resurssit/magicwand_collect2.jpg" title="Taikasauvaa käytettiin monta kertaa." caption="Laajentaen valintaa osissa, joka kerta valiten uuden alueen kun Ctrl-nappi on alhaalla." >}}
+<div class="level">
+<div class="level-item">
+
+{{< figure src="/resurssit/magicwand_collect.jpg;/resurssit/magicwand_collect2.jpg" title="Taikasauvaa käytettiin monta kertaa." caption="Laajentaen valintaa osissa, joka kerta valiten uuden alueen kun Ctrl-nappi on alhaalla." >}}
+
+</div>
+</div>
 
 ### Poissulkeva valinta
 
@@ -54,7 +70,13 @@ Tämä metodi toimii hyvin kun kohteen ympärillä puuttuu yksityiskohtia.
 
 {{% vihje %}}Voit vähentää valintaa klikkaamalla oikealla hiiren napilla.{{% /vihje %}}
 
-{{< figure oclass="text-center d-block" class="mx-auto" src="/resurssit/magicwand_exclude.jpg;/resurssit/magicwand_exclude2.jpg" title="Alustava valinta tehtiin lassotyökalulla." caption="Sen jälkeen Taikasauvaa käytettiin sulkemaan pois alueet joita ei ole tarkoitettu ottaa mukaan, klikkaamalla poissuljettavia alueita oikealla hiiren napilla." >}}
+<div class="level">
+<div class="level-item">
+
+{{< figure src="/resurssit/magicwand_exclude.jpg;/resurssit/magicwand_exclude2.jpg" title="Alustava valinta tehtiin lassotyökalulla." caption="Sen jälkeen Taikasauvaa käytettiin sulkemaan pois alueet joita ei ole tarkoitettu ottaa mukaan, klikkaamalla poissuljettavia alueita oikealla hiiren napilla." >}}
+
+</div>
+</div>
 
 ### Globaali valinta
 
@@ -62,4 +84,10 @@ Taikasauva toimii normaalisti rajaamalla valinnan sisältämään vain alueet jo
 On mahdollista, kuitenkin, tehdä valinta joka riippuu vain väristä, unohtaen kaikki rajat ja vaatimukset jatkuvuuteen. Tämän voi
 tehdä painamalla Shift-nappia kun teet minkä tahansa muun Taikasauvan työn (myös valinnan lisäys ja erotus).
 
-{{< figure oclass="text-center d-block" class="mx-auto" src="/resurssit/magicwand_noncontiguous.png" title="Tämä valinta tehtiin ensin tekemällä Valitse kaikki (Muokkaa → Valitse kaikki)." caption="Sen jälkeen Shift pohjassa sulkien pois kaikki mustat alueet. Huomaa että monista yksittäisistä mustista alueista on valinta poistettu." >}}
+<div class="level">
+<div class="level-item">
+
+{{< figure src="/resurssit/magicwand_noncontiguous.png" title="Tämä valinta tehtiin ensin tekemällä Valitse kaikki (Muokkaa → Valitse kaikki)." caption="Sen jälkeen Shift pohjassa sulkien pois kaikki mustat alueet. Huomaa että monista yksittäisistä mustista alueista on valinta poistettu." >}}
+
+</div>
+</div>

@@ -25,6 +25,6 @@ Toinen kuva välilehdessä näyttää miten liukuma vaikuttaa läpinäkyvyystila
 
 {{% huom %}}Shakkilautamalli tarkoittaa läpinäkyvyyttä.{{% /huom %}}
 
-{{< figure oclass="mx-auto d-block" class="mx-auto d-block" src="/resurssit/ruisleipa.jpg" alt="Ruisleipä" >}}
+{{< figure src="/resurssit/ruisleipa.jpg" alt="Ruisleipä" >}}
 
 {{% tabit "liukuma" %}}

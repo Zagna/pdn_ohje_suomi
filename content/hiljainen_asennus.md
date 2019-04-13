@@ -46,8 +46,8 @@ Asennuspaketti käyttää seuraavia komentorivin komentoja, missä paint.net.{{<
 
 {{% esimerkki %}}paint.net.{{< param version >}}.install.exe [/skipConfig | /auto | /createMsi] [PROPERTY=VALUE]{{% /esimerkki %}}
 
-<div class="table-responsive">
-<table class="table" id="table0">
+<div class="table-container">
+<table class="table is-fullwidth" id="table0">
     <thead>
         <tr>
             <th>Komento</th>
@@ -105,8 +105,8 @@ Asennuspaketti käyttää seuraavia komentorivin komentoja, missä paint.net.{{<
 Oletusasennus tarvitsee vain että käytät /auto komentoa. Voit asettaa lisää ominaisuuksia vaihtamalla MSI ominaisuuksia, missä &ldquo;1&rdquo;
 asettaa sen ja &ldquo;0&rdquo; poistaa sen:
 
-<div class="table-responsive">
-<table class="table" id="table1">
+<div class="table-container">
+<table class="table is-fullwidth" id="table1">
     <thead>
         <tr>
             <th>MSI ominaisuuden nimi</th>

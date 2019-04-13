@@ -1,40 +1,41 @@
 
+</div>
 {{ $data := index .Site.Data (.Get 0) }}
-<div id="tabs">
-	<ul class="nav nav-tabs" role="tablist">
+<div class="tabs is-small">
+	<ul>
 	{{ range $index, $element := $data.tab }}
 		{{ if eq $index 0 }}
-			<li role="presentation" class="nav-item"><a class="nav-link active" href="#{{ .id }}" role="tab" data-toggle="tab">{{ .name }}</a></li>
+			<li class="tab-item is-active" id="{{ .id }}"><a href="javascript:rudrSwitchTab('{{ .id }}', 'content-{{ .id }}');">{{ .name }}</a></li>
 		{{ else }}
-			<li role="presentation" class="nav-item"><a class="nav-link" href="#{{ .id }}" role="tab" data-toggle="tab">{{ .name }}</a></li>
+			<li class="tab-item" id="{{ .id }}"><a href="javascript:rudrSwitchTab('{{ .id }}', 'content-{{ .id }}');">{{ .name }}</a></li>
 		{{ end }}
 	{{ end }}
 	</ul>
-	<div class="tab-content">
-	{{ range $index, $element := $data.tab }}
-		{{ if eq $index 0 }}
-			<div role="tabpanel" class="tab-pane fade show active" id="{{ .id }}">
-		{{ else }}
-			<div role="tabpanel" class="tab-pane fade" id="{{ .id }}">
-		{{ end }}
-			{{ with .content }}<p>{{ markdownify . }}</p>{{ end }}
-			{{ range .figure }}
-				<figure class="figure">
-					<img class="figure-img img-fluid {{ .class }}" src="{{ .src }}" alt="{{ .alt }}">
-					{{ with .caption }}
-					<figcaption class="figure-caption text-center">
-						<h4>{{ . }}</h4>
-					</figcaption>
-					{{ end }}
-				</figure>
-			{{ end }}
-			{{ with .vihje }}
-			<div class="tip">
-				<h3>Vihje</h3>
-				<p class="text-white border-success bg-success">{{ . }}</p>
-			</div>
-			{{ end }}
-		</div>
-	{{ end }}
-	</div>
 </div>
+<div class="tab-content">
+{{ range $index, $element := $data.tab }}
+	{{ if eq $index 0 }}
+	<div class="box tab-content-item" id="content-{{ .id }}">
+	{{ else }}
+	<div style="display:none;" class="box tab-content-item" id="content-{{ .id }}">
+	{{ end }}
+		{{ with .content }}<p>{{ markdownify . }}</p>{{ end }}
+		{{ range .figure }}
+			<figure style="display: inline-block;">
+				<img class="{{ .class }}" src="{{ .src }}" alt="{{ .alt }}">
+				{{ with .caption }}
+				<figcaption>
+					<h4>{{ . }}</h4>
+				</figcaption>
+				{{ end }}
+			</figure>
+		{{ end }}
+		{{ with .vihje }}
+		<div class="tip">
+			<h3>Vihje</h3>
+			<p class="notification is-success">{{ . }}</p>
+		</div>
+		{{ end }}
+	</div>
+{{ end }}
+

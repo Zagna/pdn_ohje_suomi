@@ -4,6 +4,7 @@ title = "paint.net suomeksi"
 DefaultContentLanguage = "fi"
 disableKinds = [ "RSS", "tags", "categories", "taxonomy", "taxonomyTerm" ]
 enableGitInfo = true
+enableRobotsTXT = true
 
 [sitemap]
   changefreq = "monthly"

@@ -1,21 +1,41 @@
-@import "bootstrap/bootstrap-reboot";
-@import "bootstrap/bootstrap-grid";
-@import "bootstrap/utilities/sizing";
-@import "bootstrap/utilities/borders";
-@import "bootstrap/utilities/background";
-@import "bootstrap/utilities/text";
-@import "bootstrap/images";
-@import "bootstrap/tables";
-@import "bootstrap/transitions";
-@import "bootstrap/dropdown";
-@import "bootstrap/nav";
-@import "bootstrap/navbar";
-@import "bootstrap/badge";
+@charset "utf-8";
+
+// Update Bulma's global variables
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$notification-padding: .25rem .5rem .25rem .5rem;
+$footer-background-color: #fff;
+$footer-padding: 2rem;
+
+// Import only what you need from Bulma
+// @import "bulma/utilities/_all.sass";
+@import "bulma/utilities/initial-variables.sass";
+@import "bulma/utilities/functions.sass";
+@import "bulma/utilities/derived-variables.sass";
+@import "bulma/utilities/mixins.sass";
+// @import "bulma/base/_all.sass";
+@import "bulma/base/minireset.sass";
+@import "bulma/base/generic.sass";
+// @import "bulma/elements/_all.sass";
+@import "bulma/elements/box.sass";
+@import "bulma/elements/container.sass";
+@import "bulma/elements/content.sass";
+@import "bulma/elements/notification.sass";
+@import "bulma/elements/image.sass";
+@import "bulma/elements/table.sass";
+@import "bulma/elements/tag.sass";
+@import "bulma/elements/title.sass";
+// @import "bulma/components/_all.sass";
+@import "bulma/components/level.sass";
+@import "bulma/components/navbar.sass";
+@import "bulma/components/tabs.sass";
+// @import "bulma/grid/_all.sass";
+@import "bulma/layout/_all.sass";
 
 //colors
 $valkoinen: $white;
-$harmaa: $gray-500;
-$sininen: $indigo;
+$harmaa: $grey-dark;
+$sininen: $blue;
 
 //urls
 $palkki: url(/resurssit/imagebar.jpg);
@@ -29,43 +49,47 @@ body {
 	font-size: .85em;
 	text-indent: 0;
 	word-spacing: 0;
-	overflow-y: scroll;
 	line-height: 1.15;
 }
 h1, h2, h3, h4, strong {
 	font-weight: bold;
 }
 h1 {
-	margin-top: 1em;
-	margin-bottom: .7em;
-	font-size: 120%;
+	margin-top: 1em !important;
+	margin-bottom: .7em !important;
+	font-size: 120% !important;
 }
 h2 {
-	margin-top: .8em;
-	margin-bottom: .5em;
-	font-size: 115%;
+	margin-top: .8em !important;
+	margin-bottom: .5em !important;
+	font-size: 115% !important;
 }
 h3 {
-	margin-top: .6em;
-	margin-bottom: .3em;
-	font-size: 105%;
+	margin-top: .6em !important;
+	margin-bottom: .3em !important;
+	font-size: 105% !important;
 }
 h4 {
-	margin-top: .4em;
-	margin-bottom: .3em;
-	font-size: 100%;
+	margin-top: .4em !important;
+	margin-bottom: .3em !important;
+	font-size: 100% !important;
 }
 p {
-	margin-top: .2em;
-	margin-bottom: .5em;
-	font-size: 100%;
+	margin-top: .2em !important;
+	margin-bottom: .5em !important;
+	font-size: 100% !important;
 }
 a, span {
-	font-size: 100%;
+	font-size: 100% !important;
 }
-
 figure {
-	padding: 5px;
+	margin: .5em 1em 1em 1em !important;
+}
+.footer {
+	margin-top: 2em;
+}
+.fixed {
+	font-family: $family-code;
 }
 
 #banner {
@@ -90,35 +114,6 @@ figure {
 	}
 }
 
-.tab-content {
-	margin-bottom: 10px;
-	.tab-pane {
-		border-left: 1px solid $harmaa;
-		border-right: 1px solid $harmaa;
-		border-bottom: 1px solid $harmaa;
-		border-radius: 0 0 5px 5px;
-		padding: 10px;
-	}
-}
-
-.nav-tabs {
-	.nav-item.show .nav-link, .nav-link.active {
-		color: $valkoinen;
-		background-color: $sininen;
-		border-color: $harmaa $harmaa $valkoinen;
-	}
-}
-
-.nav-link {
-	padding: .4rem .8rem;
-}
-
-.badge {
-	font-size: 100%;
-}
-.fixed {
-	font-family: $font-family-monospace;
-}
 ol {
 	margin-left: 2em;
 	margin-top: 1em;
@@ -149,6 +144,7 @@ ul {
 		border-style: solid;
 		border-width: thick;
 		border-radius: 8px;
+		border-color: $success;
 	}
 	.text-white a {
 		color: $valkoinen;
@@ -161,21 +157,25 @@ ul {
 	h3 {
 		background-image: $huom;
 	}
+	p {
+		border-color: $warning;
+	}
 }
 .warning {
 	h3 {
 		background-image: $varoitus;
+	}
+	p {
+		border-color: $danger;
 	}
 }
 .example {
 	h3 {
 		background-image: $esim;
 	}
-}
-.dropdown:hover > .dropdown-menu {
-	display: block;
-	margin-top: 0;
-	margin-left: 20px;
+	p {
+		border-color: $info;
+	}
 }
 .kbm tbody tr td {
 	&:first-child {

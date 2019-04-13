@@ -1,0 +1,4 @@
+
+<script>
+    function rudrSwitchTab(e,t){var a=document.getElementsByClassName("tab-content-item");for(n=0;n<a.length;n++)a[n].style.display="none";document.getElementById(t).style.display="block";var n;a=document.getElementsByClassName("tab-item");for(n=0;n<a.length;n++)a[n].className="tab-item";document.getElementById(e).className="tab-item is-active"}window.addEventListener("DOMContentLoaded",function(){const e=Array.prototype.slice.call(document.querySelectorAll(".navbar-burger"),0);e.length>0&&e.forEach(e=>{e.addEventListener("click",()=>{const t=e.dataset.target,a=document.getElementById(t);e.classList.toggle("is-active"),a.classList.toggle("is-active")})})});
+</script>
