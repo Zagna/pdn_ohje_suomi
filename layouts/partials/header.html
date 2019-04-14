@@ -6,11 +6,11 @@
 	<meta name="google-site-verification" content="uYbXWkGWj-8ZwVNGC6sTKejkpx2yPgpeYjoQJremS-0" />
 	<title>{{ .Title }} &middot; {{ .Site.Title }}</title>
 	<meta name="author" content="Jarno Ruokamo">
-	<meta name="keywords" content="paint.net,käännös">
-	<meta name="description" content="paint.netin suomenkielisen käännöksen ohje.">
+	<meta name="description" content="{{ .Summary }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	{{ $options := (dict "targetPath" "css/style.css" "outputStyle" "expanded") }}
-	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS $options }}
-	<link rel="stylesheet" href="{{ $style.Permalink }}">
+	{{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed") }}
+	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS $options | resources.Minify }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}?ver=1.1">
 	<link rel="icon" type="image/png" href="/favicon.png">
+	<link rel="canonical" href="{{ .Permalink }}"/>
 </head>

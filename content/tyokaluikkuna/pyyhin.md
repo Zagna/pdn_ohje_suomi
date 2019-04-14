@@ -34,4 +34,3 @@ siirtääksesi tason kissan taakse.
 
 </div>
 </div>
-

@@ -9,11 +9,11 @@ title = "paint.netin asennus"
 
 +++
 
-{{% vihje %}}On suositeltavaa että järjestelmän päivitykset on asennettu ennen paint.netin asennusta. Tarkista Windows Updaten asetukset käyttöjärjestelmästäsi.{{% /vihje %}}
-
 paint.net on suunniteltu helpoksi asentaa.
 
 Kun asennustiedosto on ladattu paint.netin kotisivulta [https://getpaint.net/download.html](https://getpaint.net/download.html), avaa pakattu kansio tuplaklikkaamalla tiedostoa.
+
+{{% vihje %}}On suositeltavaa että järjestelmän päivitykset on asennettu ennen paint.netin asennusta. Tarkista Windows Updaten asetukset käyttöjärjestelmästäsi.{{% /vihje %}}
 
 Klikkaa avautuvassa ikkunassa olevaa asennusohjelmaa.
 

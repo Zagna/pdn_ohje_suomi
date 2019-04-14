@@ -5,11 +5,7 @@ DefaultContentLanguage = "fi"
 disableKinds = [ "RSS", "tags", "categories", "taxonomy", "taxonomyTerm" ]
 enableGitInfo = true
 enableRobotsTXT = true
-
-[sitemap]
-  changefreq = "monthly"
-  filename = "sitemap.xml"
-  priority = 0.5
+summaryLength = 10
 
 [[menu.pdn]]
 	name = "paint.net ohje"

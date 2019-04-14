@@ -19,12 +19,12 @@ kanssa, on se myöhemmin kasvanut tehokkaaksi työkaluksi kuvien muokkaamiseen.
 
 ### paint.netin pääominaisuuksia ovat
 
-* ### Yksinkertainen ja intuitiivinen käyttöliittymä
+* #### Yksinkertainen ja intuitiivinen käyttöliittymä
 
     Jokainen ominaisuus ja käyttöliittymän osa suunniteltiin olemaan heti löydettävissä ja/tai helposti opeteltavissa ilman apua. Suunnittelussa
     otettiin huomioon [Paintin](https://en.wikipedia.org/wiki/Microsoft_Paint) ja [Photoshopin](https://en.wikipedia.org/wiki/Photoshop) käyttäjät.
 
-* ### Avaa ja muokkaa useita tiedostoja
+* #### Avaa ja muokkaa useita tiedostoja
 
     paint.net pystyy avaamaan useita tiedostoja kerralla ja käyttää välilehtiä kutein uudenaikainen selain. Esittelevän tekstin sijasta näet
     päivittyvän pikkukuvan kuvistasi.
@@ -35,20 +35,20 @@ kanssa, on se myöhemmin kasvanut tehokkaaksi työkaluksi kuvien muokkaamiseen.
     Jokainen avoinna oleva kuva näkyy erillään Windowsin tehtäväpalkin esikatselussa \(tämän voi ottaa pois päältä
     {{< tool "tools.png" >}}[Asetukset]({{< relref "asetukset.md" >}}) valikossa\).
 
-* ### Tasot
+* #### Tasot
 
     Tämä antaa sinun muodostaa yhden täyden kuvan kasasta muita kuvia jotka yhdistetään sekaisin.
 
     paint.net tukee monta eri sekoitustilaa, tasojen läpinäkyvyyttä ja tasojen järjestelemistä vetämällä.
 
-* ### Rajaton historia
+* #### Rajaton historia
 
     Kaikki mitä teet kuvalle, tallennetaan Historiaikkunaan. Historiaikkunaan lista mahdollistaa muokkauksien perumisen vain klikkaamalla
     tiettyä kohtaa listassa.
 
     Tapahtumien määrä historiassa on rajoitettu vain vapaan kovalevytilan ja muistin suhteen.
 
-* ### Tuki monille tiedostoformaateille
+* #### Tuki monille tiedostoformaateille
 
     Seuraavat tiedostoformaatit on tuettu: [PNG](https://fi.wikipedia.org/wiki/PNG), [JPEG](https://fi.wikipedia.org/wiki/JPEG), [BMP](https://fi.wikipedia.org/wiki/BMP),
     [GIF](https://fi.wikipedia.org/wiki/GIF), [TGA](https://en.wikipedia.org/wiki/Truevision_TGA), [DDS](https://en.wikipedia.org/wiki/DirectDraw_Surface),
@@ -56,20 +56,20 @@ kanssa, on se myöhemmin kasvanut tehokkaaksi työkaluksi kuvien muokkaamiseen.
 
     paint.netin natiivi kuvatyyppi on PDN, joka säilyttää tasot kuvassa.
 
-* ### Tehosteet ja säädöt
+* #### Tehosteet ja säädöt
 
     Voit soveltaa montaa erikoistehostetta kuvaasi, ja tuki erilaisille säädöille on myös olemassa.
 
-* ### Automaattiset päivitykset
+* #### Automaattiset päivitykset
 
     Päivitykset ovat ilmaisia ja sisältävät uusia ominaisuuksia, parannuksia ja korjauksia. Uusimpaan versioon päivittäminen on helppoa ja
     tarvitsee vain pari klikkausta.
 
-* ### Laajennettavuus
+* #### Laajennettavuus
 
     paint.net tukee laajennuksia jotka lisäävät uusia tehosteita, säätöjä ja tiedostotyyppejä.
 
-* ### Ilmainen
+* #### Ilmainen
 
     paint.net jaetaan ilman maksua.
 
