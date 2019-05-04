@@ -31,13 +31,13 @@ paint.netin käyttöliittymä on jaettu 10 alueeseen:
 
     Jokaisesta avatusta kuvasta näkyy pikkukuva kuvalistassa. Tämä toimii kuten välilehdet selaimessa: vain paina kuvaa valitaksesi sen.
 
-    {{% vihje %}}Uutta paint.netissä on mahdollisuus järjestää [kuvalista]({{< relref "kuvalista.md" >}}) uusiksi vetämällä ja siirtämällä. Klikkaa ja vedä pikkukuva haluamaasi kohtaan [kuvalistassa]({{< relref "kuvalista.md" >}}).{{% /vihje %}}
+    {{< vihje >}}Uutta paint.netissä on mahdollisuus järjestää [kuvalista]({{< relref "kuvalista.md" >}}) uusiksi vetämällä ja siirtämällä. Klikkaa ja vedä pikkukuva haluamaasi kohtaan [kuvalistassa]({{< relref "kuvalista.md" >}}).{{< /vihje >}}
 
 1. ### Kuvan pohja
 
     Kuva on näkyvillä tässä, ja se on alue missä voit piirtää ja tehdä muita toimintoja.
 
-    {{% vihje %}}Uutta paint.net 4.0.10+ on mahdollisuus vierittää kuvan reunaa ikkunan reunan yli. Tarkista [näyttötyökalut]({{< relref "nayttotyokalut.md" >}}).{{% /vihje %}}
+    {{< vihje >}}Uutta paint.net 4.0.10+ on mahdollisuus vierittää kuvan reunaa ikkunan reunan yli. Tarkista [näyttötyökalut]({{< relref "nayttotyokalut.md" >}}).{{< /vihje >}}
 
 1. ### [Työkaluikkuna]({{< relref "tyokaluikkuna.md" >}})
 
@@ -51,7 +51,7 @@ paint.netin käyttöliittymä on jaettu 10 alueeseen:
 
     Jokainen kuva koostuu vähintään yhdestä tasosta, ja tällä ikkunalla hallitset niitä. Tasojen ominaisuudet voi tarkistaa tuplaklikkaamalla.
 
-    {{% vihje %}}Uutta paint.netissä on mahdollisuus järjestellä tasot ikkunassa klikkaamalla ja vetämällä. Klikkaa, pidä ja siirrä taso haluamaasi kohtaan.{{% /vihje %}}
+    {{< vihje >}}Uutta paint.netissä on mahdollisuus järjestellä tasot ikkunassa klikkaamalla ja vetämällä. Klikkaa, pidä ja siirrä taso haluamaasi kohtaan.{{< /vihje >}}
 
 1. ### [Väri-ikkuna]({{< relref "vari-ikkuna.md" >}})
 

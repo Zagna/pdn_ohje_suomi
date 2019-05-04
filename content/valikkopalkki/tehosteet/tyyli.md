@@ -14,4 +14,4 @@ Tämä alavalikko sisältää tehosteita jotka voivat luoda tyyliteltyjä kuvia 
 
 {{< figure src="/kuvat/effectsstylizemenu.png" alt="Tyyli efektit" >}}
 
-{{% tabit "tyyli" %}}
+{{< tabit "tyyli" >}}

@@ -23,8 +23,8 @@ Ensimmäinen kuva välilehdessä näyttää miltä se näyttää väritilassa pi
 
 Toinen kuva välilehdessä näyttää miten liukuma vaikuttaa läpinäkyvyystilassa seuraavaan kuvaan:
 
-{{% huom %}}Shakkilautamalli tarkoittaa läpinäkyvyyttä.{{% /huom %}}
+{{< huom >}}Shakkilautamalli tarkoittaa läpinäkyvyyttä.{{< /huom >}}
 
 {{< figure src="/resurssit/ruisleipa.jpg" alt="Ruisleipä" >}}
 
-{{% tabit "liukuma" %}}
+{{< tabit "liukuma" >}}

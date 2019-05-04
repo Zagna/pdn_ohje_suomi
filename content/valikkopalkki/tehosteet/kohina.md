@@ -14,4 +14,4 @@ Tämä alavalikko sisältää tehosteita jotka ovat hyödyllisiä kohinan lisä�
 
 {{< figure src="/kuvat/effectsnoisemenu.png" alt="Kohina efektit" >}}
 
-{{% tabit "kohina" %}}
+{{< tabit "kohina" >}}

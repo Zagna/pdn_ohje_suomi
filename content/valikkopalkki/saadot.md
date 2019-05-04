@@ -18,4 +18,4 @@ Tätä kuvaa tullaan käyttämään esittämään, mitä eri säädöt tekevät:
 
 {{< figure src="/resurssit/lewistonsunset_small.jpg" alt="Tiedosto valikko" >}}
 
-{{% tabit "saadot" %}}
+{{< tabit "saadot" >}}

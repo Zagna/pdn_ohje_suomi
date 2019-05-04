@@ -36,7 +36,7 @@ koostaan, taso tasolta.
 Sekoitustilan oletus on Normaali. Jokainen pikseli sekoitetaan kokoonpanoon sen alfa-arvon mukaan. Normaalin lisäksi on myös olemassa
 alla olevat sekoitustilat.
 
-{{% tabit "sekoitus" %}}
+{{< tabit "sekoitus" >}}
 
 ### Työkalujen sekoitustilat
 

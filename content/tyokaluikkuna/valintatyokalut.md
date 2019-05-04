@@ -40,7 +40,7 @@ lisätietoja: katso [Siirtotyökalut]({{< relref "/tyokaluikkuna/siirtotyokalut.
 Luodaksesi uuden valinnan, tai korvataksesi olemassa olevan, piirrä vain vasemmalla hiiren napilla. Toiminta on samanlainen kuin
 Muototyökaluilla.
 
-{{% vihje %}}Voit pitää Shift-nappia pohjassa kun käytät Suorakulmaista valintaa tai Ellipsi valintaa pakottaaksesi muodon olemaan joko neliö tai ympyrä, mainitussa järjestyksessä.{{% /vihje %}}
+{{< vihje >}}Voit pitää Shift-nappia pohjassa kun käytät Suorakulmaista valintaa tai Ellipsi valintaa pakottaaksesi muodon olemaan joko neliö tai ympyrä, mainitussa järjestyksessä.{{< /vihje >}}
 
 Jos haluat muokata valintaa, voit joko käyttää joko työkalupalkkia tai näppäimistön komentoja jotka esitellään seuraavissa kappaleissa.
 (Täydellinen lista näppäimistön komennoista on myös saatavilla [täällä]({{< relref "/nappaimisto_ja_hiiri.mmark" >}}).)
@@ -49,4 +49,4 @@ On olemassa viisi erilaista valintatilaa:
 
 {{< figure src="/kuvat/selectionmode.png" alt="Valintatila" >}}
 
-{{% tabit "valinta" %}}
+{{< tabit "valinta" >}}

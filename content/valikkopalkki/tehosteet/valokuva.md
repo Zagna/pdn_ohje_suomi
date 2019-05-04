@@ -14,4 +14,4 @@ Tämä alavalikko sisältää tehosteita joita yleensä käytetään valokuvien 
 
 {{< figure src="/kuvat/effectsphotomenu.png" alt="Valokuva efektit" >}}
 
-{{% tabit "valokuva" %}}
+{{< tabit "valokuva" >}}

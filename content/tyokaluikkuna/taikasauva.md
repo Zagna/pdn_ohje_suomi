@@ -53,7 +53,7 @@ Joskus ei ole mahdollista valita tietty alue vain yhdellä kerralla. Saadaksesi 
 valintoja kuin tämä, se toimii hyvin kun käytät toistuvasti Taikasauvaa alhaisella Toleranssi asetuksella, laajentaen valintaa pikku
 hiljaa kunnes olet saanut kaiken.
 
-{{% vihje %}}Voit laajentaa valintaa klikkaamalla samalla kun Ctrl-nappi on alhaalla.{{% /vihje %}}
+{{< vihje >}}Voit laajentaa valintaa klikkaamalla samalla kun Ctrl-nappi on alhaalla.{{< /vihje >}}
 
 <div class="level">
 <div class="level-item">
@@ -68,7 +68,7 @@ hiljaa kunnes olet saanut kaiken.
 Se toimii myös hyvin kun teet alustavan valinnan työkalulla kuten lassovalinta, sen jälkeen käytät Taikasauvaa tarkentaaksesi valintaa.
 Tämä metodi toimii hyvin kun kohteen ympärillä puuttuu yksityiskohtia.
 
-{{% vihje %}}Voit vähentää valintaa klikkaamalla oikealla hiiren napilla.{{% /vihje %}}
+{{< vihje >}}Voit vähentää valintaa klikkaamalla oikealla hiiren napilla.{{< /vihje >}}
 
 <div class="level">
 <div class="level-item">

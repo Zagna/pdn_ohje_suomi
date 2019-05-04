@@ -25,7 +25,7 @@ On olemassa kahdenlaista lisäosaa:
 * Tiedostotyyppi: tuo tuen uusienkuvaformaattien avaamiseen ja tallentamiseen.
 * Tehosteet: tuo lisää toiminnollisuuksia tehosteiden ja säätöjen muodossa.
 
-{{% varoitus %}}Lataa vain lisäosia jotka on julkaistu paint.netin keskustelualueella. Älä *koskaan* lataa lisäosia muualta koska virusten mahdollisuus on korkea muualla. Suosittelemme virustorjunnan käyttöä lisäosien kanssa.{{% /varoitus %}}
+{{< varoitus >}}Lataa vain lisäosia jotka on julkaistu paint.netin keskustelualueella. Älä *koskaan* lataa lisäosia muualta koska virusten mahdollisuus on korkea muualla. Suosittelemme virustorjunnan käyttöä lisäosien kanssa.{{< /varoitus >}}
 
 Lisäosien tiedostopääte on ".DLL". Eräät lisäosien kehittäjät pakkaavat tiedostot .ZIP tai .RAR muotoon. Pakatut tiedostot tulee purkaa ennen
 .DLL muotoon ennen asennusta.
@@ -38,7 +38,7 @@ Jos olet ladannut **Tehoste** lisäosan, siirrä purettu .DLL tiedosto **Effects
 
 Käynnistä paint.net lisäosan asennuksen jälkeen uudestaan jos paint.net oli jo päällä.
 
-{{% huom %}}paint.net tarkistaa uudet lisäosat vain käynnistyksen aikana. Ohjelma pitää käynnistää uudestaan uusia lisäosia varten.{{% /huom %}}
+{{< huom >}}paint.net tarkistaa uudet lisäosat vain käynnistyksen aikana. Ohjelma pitää käynnistää uudestaan uusia lisäosia varten.{{< /huom >}}
 
 Uudet Tehoste-lisäosat löytyvät Tehosteet valikosta. Jos lisäosaa ei löydy mistään, tarkista Asetukset valikko mahdollisia virheitä varten.
 

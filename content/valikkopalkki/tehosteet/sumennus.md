@@ -14,4 +14,4 @@ Tämä alavalikko sisältää tehosteita jotka ovat hyödyllisiä kuvan sumentam
 
 {{< figure src="/kuvat/effectsblursmenu.png" alt="Sumennus efektit" >}}
 
-{{% tabit "sumennus" %}}
+{{< tabit "sumennus" >}}

@@ -30,7 +30,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
     Ristikko näkyy kuvan päällä missä jokainen solu on yhden pikselin kokoinen. Ristikko on hyödyllinen suurennetun kuvan kanssa kun yksittäisten
     pikselin muokkausta vaaditaan.
 
-    {{% huom %}}Ristikko ei näy alle 200% suurennoksella.{{% /huom %}}
+    {{< huom >}}Ristikko ei näy alle 200% suurennoksella.{{< /huom >}}
 
 * #### Viivaimet
 

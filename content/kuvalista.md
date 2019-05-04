@@ -24,6 +24,6 @@ jokainen kuva sekä tiedostonimi.
 Voit sulkea kuvan valitsemalla sen ja sen jälkeen valitsemalla 'X' joka ilmestyy pikkukuvan oikeaan ylänurkkaan. Tämä on mukava oikotie
 [Tiedosto &rarr; Sulje]({{< relref "tiedosto.md#sulje" >}}) komennolle.
 
-{{% vihje %}}Voit myös käyttää Ctrl + W tai Ctrl + F4 komentoja.{{% /vihje %}}
+{{< vihje >}}Voit myös käyttää Ctrl + W tai Ctrl + F4 komentoja.{{< /vihje >}}
 
 Kun kuvassa on tallentamattomia muutoksia, sen yläpuolella näkyy oranssi tähti.

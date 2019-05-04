@@ -23,7 +23,7 @@ käyttävät edusta- tai taustaväriä piirtämisessä, riippuen siitä millä h
     Tämä tila antaa sinun valita väripyörässä näkyvistä väreistä tai ensimmäisistä 32 väristä nykyisessä paletissa. Jos painat paletissa oikealla
     hiiren napilla, se asettaa taustavärin.
 
-    {{% vihje %}}Voit myös käyttää pikanäppäintä C vaihtaaksesi edusta ja taustavärin välillä nopeasti.{{% /vihje %}}
+    {{< vihje >}}Voit myös käyttää pikanäppäintä C vaihtaaksesi edusta ja taustavärin välillä nopeasti.{{< /vihje >}}
 
 * ### Avaa &gt; &gt;
 

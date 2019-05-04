@@ -20,11 +20,11 @@ Suurennuskertoimella voit joko kohdistaa (suurentaa) kuvaa, tai loitontaa (piene
 
 Vasemmalla hiiren napilla lähennyt kuvaan ja oikealla hiiren napilla siirryt kauemmaksi.
 
-{{% vihje %}}Hiiren rullan käyttö Ctrl-napin kanssa toistaa suurennuskerroin-työkalun toiminnan.{{% /vihje %}}
+{{< vihje >}}Hiiren rullan käyttö Ctrl-napin kanssa toistaa suurennuskerroin-työkalun toiminnan.{{< /vihje >}}
 
 Suurennuskerroin-työkalun ollessa käytössä, hiirellä klikkaamalla ja piirtämällä suorakulmion, ikkuna kohdistaa piirrettyyn kohtaan.
 
-{{% vihje %}}Kun Suurennuskerroin-työkalu on käytössä, kuvaa voi panoroida pitämällä hiiren rulla alhaalla ja siirtämällä hiirtä.{{% /vihje %}}
+{{< vihje >}}Kun Suurennuskerroin-työkalu on käytössä, kuvaa voi panoroida pitämällä hiiren rulla alhaalla ja siirtämällä hiirtä.{{< /vihje >}}
 
 ### Panoroi {{< tool "pan.png" >}}
 
@@ -32,15 +32,15 @@ Panoroi-työkalu mahdollistaa kuvan siirtämisen. Hyöty on suurin kun kuva on s
 
 Klikkaa ja vedä hiirellä siirtääksesi kuvaa.
 
-{{% vihje %}}Panoroi-työkalun toiminta on saatavilla muiden työkalujen kanssa. Paina vain Välilyönti alas ja siirrä kuvaa klikkaamalla ja vedä.{{% /vihje %}}
+{{< vihje >}}Panoroi-työkalun toiminta on saatavilla muiden työkalujen kanssa. Paina vain Välilyönti alas ja siirrä kuvaa klikkaamalla ja vedä.{{< /vihje >}}
 
-{{% vihje %}}Kuvaa voi siirtää pystysuuntaisesti hiiren rullalla. Pitämällä Shift-näppäin alhaalla rulla siirtää vaakasuuntaisesti.{{% /vihje %}}
+{{< vihje >}}Kuvaa voi siirtää pystysuuntaisesti hiiren rullalla. Pitämällä Shift-näppäin alhaalla rulla siirtää vaakasuuntaisesti.{{< /vihje >}}
 
 ### Ylivieritys
 
 Versiosta 4.0.10 eteenpäin on ollut mahdollista vierittää kuvaa ikkunan reunan yli.
 
-{{% vihje %}}Tämä asetus on mahdollistaa pistää pois päältä {{< tool "tools.png" >}}[Asetuksista]({{< relref "asetukset.md" >}}).{{% /vihje %}}
+{{< vihje >}}Tämä asetus on mahdollistaa pistää pois päältä {{< tool "tools.png" >}}[Asetuksista]({{< relref "asetukset.md" >}}).{{< /vihje >}}
 
 Ylivierityksen määrä riippuu kuvan koosta. Pienet kuvat voi siirtää kunnes puolet kuvasta on ikkunan ulkopuolella.
 

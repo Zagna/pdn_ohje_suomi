@@ -14,4 +14,4 @@ Tämä alavalikko sisältää tehosteita jotka ovat hyödyllisiä kuvan vääris
 
 {{< figure src="/kuvat/effectsdistortmenu.png" alt="Vääristys efektit" >}}
 
-{{% tabit "vaaristys" %}}
+{{< tabit "vaaristys" >}}

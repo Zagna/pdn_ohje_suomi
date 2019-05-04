@@ -35,13 +35,13 @@ Seuraavat työkalut ovat samankaltaisia ja niistä puhumme tällä kertaa:
 
   * Salama, Ruksi, Kerro, Ratas, Sydän
 
-{{% vihje %}}Painamalla A voit käydä muotojen läpi kun työkalu on käytössä ( Shift + A vaihtaa takaisin ).{{% /vihje %}}
+{{< vihje >}}Painamalla A voit käydä muotojen läpi kun työkalu on käytössä ( Shift + A vaihtaa takaisin ).{{< /vihje >}}
 
 Jokaiselle näistä työkaluista voi asettaa [asetuksia Työkalupalkissa]({{< relref "/tyokalupalkki.md" >}}). Piirtääksesi muodon,
 klikkaa ja siirrä käyttäen vasenta hiiren nappia. Edustaväriä käytetään ulkoreunaan (jos valittu) ja taustaväriä käytetään
 sisustan värittämiseen (jos valittu). Jos piirrät oikealla hiiren napilla, edusta- ja taustavärin roolit ovat käänteiset.
 
-{{% vihje %}}Kun luot muodon, Shift nappi pohjassa muoto käyttää alkuperäistä koon suhdetta.{{% /vihje %}}
+{{< vihje >}}Kun luot muodon, Shift nappi pohjassa muoto käyttää alkuperäistä koon suhdetta.{{< /vihje >}}
 
 ### Muodon siirtäminen
 
@@ -79,7 +79,7 @@ Muodon voi viimeistellä aktiiviselle tasolle seuraavilla tavoilla…
 1. Paina Viimeistele työkalupalkissa.
 1. Piirrä uusi Muoto.
 
-{{% vihje %}}Muodon voi pakottaa olemaan saman kokoinen pystyyn ja vaakaan pitämällä Shift nappi pohjassa kun laajennat muotoa.{{% /vihje %}}
+{{< vihje >}}Muodon voi pakottaa olemaan saman kokoinen pystyyn ja vaakaan pitämällä Shift nappi pohjassa kun laajennat muotoa.{{< /vihje >}}
 
 ### Nurkan koko (vain Pyöristetty suorakulmio)
 
@@ -87,7 +87,7 @@ Versiosta 4.0.11 alkaen Pyöristetyllä suorakulmiolla on uusi asetus työkalupa
 
 Nurkan koko on säde jota käytetään muodon nurkissa. Pienet arvot tuottavat teräviä kulmia ja isot arvot pyöriä kulmia.
 
-{{% vihje %}}Kun Nurkan koko on valittuna työkalupalkissa, nuolinäppäimet ylös ↑ ja alas ↓ muuttavat sitä.<br/>Muuttuvat luvut tulevat suoraan alas vedettävästä valikosta. Arvot saattavat muuttua kerralla enemmän kuin 1 riippuen kuinka suuri nurkan koko on sillä hetkellä.{{% /vihje %}}
+{{< vihje >}}Kun Nurkan koko on valittuna työkalupalkissa, nuolinäppäimet ylös ↑ ja alas ↓ muuttavat sitä.<br/>Muuttuvat luvut tulevat suoraan alas vedettävästä valikosta. Arvot saattavat muuttua kerralla enemmän kuin 1 riippuen kuinka suuri nurkan koko on sillä hetkellä.{{< /vihje >}}
 
 ### Piirtotila
 

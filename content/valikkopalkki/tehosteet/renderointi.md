@@ -14,4 +14,4 @@ Tämä alavalikko sisältää tehosteita jotka tuottavat renderointeja jotka kor
 
 {{< figure src="/kuvat/effectsrendermenu.png" alt="Renderointi efektit" >}}
 
-{{% tabit "render" %}}
+{{< tabit "render" >}}

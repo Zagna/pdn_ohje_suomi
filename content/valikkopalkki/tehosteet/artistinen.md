@@ -14,4 +14,4 @@ Tämä alavalikko sisältää tehosteita joiden on tarkoitus antaa tuloksena jot
 
 {{< figure src="/kuvat/effectsartisticmenu.png" alt="Efektit valikko" >}}
 
-{{% tabit "artistinen" %}}
+{{< tabit "artistinen" >}}

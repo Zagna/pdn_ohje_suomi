@@ -9,34 +9,34 @@ title = "Testaus"
 
 +++
 
-{{% huom %}}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dictum aliquam risus eu dapibus. Mauris facilisis quis turpis posuere sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Suspendisse lectus mi, fringilla in commodo ut, facilisis ut urna. Phasellus cursus mauris purus, id varius purus iaculis at. Integer tristique pulvinar dui feugiat aliquet. Pellentesque rhoncus, dui commodo auctor suscipit, erat enim mollis orci, non faucibus dolor ex nec lacus. Maecenas mi erat, luctus vel felis ut, volutpat fermentum quam.{{% /huom %}}
+{{< huom >}}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dictum aliquam risus eu dapibus. Mauris facilisis quis turpis posuere sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Suspendisse lectus mi, fringilla in commodo ut, facilisis ut urna. Phasellus cursus mauris purus, id varius purus iaculis at. Integer tristique pulvinar dui feugiat aliquet. Pellentesque rhoncus, dui commodo auctor suscipit, erat enim mollis orci, non faucibus dolor ex nec lacus. Maecenas mi erat, luctus vel felis ut, volutpat fermentum quam.{{< /huom >}}
 
-{{% vihje %}}Suspendisse sagittis ex orci, eget consequat mi varius id. Ut mollis enim at ex condimentum blandit. Donec facilisis augue finibus, euismod augue non, consequat ante. Donec ultricies, ipsum quis dapibus varius, est ligula fermentum urna, a laoreet nunc tellus sed quam. Ut tincidunt nibh urna, vitae luctus arcu molestie luctus. Quisque vitae volutpat sem, cursus ornare nibh. Quisque ac dapibus sem. Curabitur commodo magna sit amet interdum tristique. {{% /vihje %}}
+{{< vihje >}}Suspendisse sagittis ex orci, eget consequat mi varius id. Ut mollis enim at ex condimentum blandit. Donec facilisis augue finibus, euismod augue non, consequat ante. Donec ultricies, ipsum quis dapibus varius, est ligula fermentum urna, a laoreet nunc tellus sed quam. Ut tincidunt nibh urna, vitae luctus arcu molestie luctus. Quisque vitae volutpat sem, cursus ornare nibh. Quisque ac dapibus sem. Curabitur commodo magna sit amet interdum tristique. {{< /vihje >}}
 
-{{% varoitus %}}Suspendisse sagittis ex orci, eget consequat mi varius id. Ut mollis enim at ex condimentum blandit. Donec facilisis augue finibus, euismod augue non, consequat ante. Donec ultricies, ipsum quis dapibus varius, est ligula fermentum urna, a laoreet nunc tellus sed quam. Ut tincidunt nibh urna, vitae luctus arcu molestie luctus. Quisque vitae volutpat sem, cursus ornare nibh. Quisque ac dapibus sem. Curabitur commodo magna sit amet interdum tristique. {{% /varoitus %}}
+{{< varoitus >}}Suspendisse sagittis ex orci, eget consequat mi varius id. Ut mollis enim at ex condimentum blandit. Donec facilisis augue finibus, euismod augue non, consequat ante. Donec ultricies, ipsum quis dapibus varius, est ligula fermentum urna, a laoreet nunc tellus sed quam. Ut tincidunt nibh urna, vitae luctus arcu molestie luctus. Quisque vitae volutpat sem, cursus ornare nibh. Quisque ac dapibus sem. Curabitur commodo magna sit amet interdum tristique. {{< /varoitus >}}
 
-{{% esimerkki %}}Suspendisse sagittis ex orci, eget consequat mi varius id. Ut mollis enim at ex condimentum blandit. Donec facilisis augue finibus, euismod augue non, consequat ante. Donec ultricies, ipsum quis dapibus varius, est ligula fermentum urna, a laoreet nunc tellus sed quam. Ut tincidunt nibh urna, vitae luctus arcu molestie luctus. Quisque vitae volutpat sem, cursus ornare nibh. Quisque ac dapibus sem. Curabitur commodo magna sit amet interdum tristique. {{% /esimerkki %}}
+{{< esimerkki >}}Suspendisse sagittis ex orci, eget consequat mi varius id. Ut mollis enim at ex condimentum blandit. Donec facilisis augue finibus, euismod augue non, consequat ante. Donec ultricies, ipsum quis dapibus varius, est ligula fermentum urna, a laoreet nunc tellus sed quam. Ut tincidunt nibh urna, vitae luctus arcu molestie luctus. Quisque vitae volutpat sem, cursus ornare nibh. Quisque ac dapibus sem. Curabitur commodo magna sit amet interdum tristique. {{< /esimerkki >}}
 
-{{% tabit "artistinen" %}}
+{{< tabit "artistinen" >}}
 
-{{% tabit "liukuma" %}}
+{{< tabit "liukuma" >}}
 
-{{% tabit "render" %}}
+{{< tabit "render" >}}
 
-{{% tabit "saadot" %}}
+{{< tabit "saadot" >}}
 
-{{% tabit "sekoitus" %}}
+{{< tabit "sekoitus" >}}
 
-{{% tabit "siirto" %}}
+{{< tabit "siirto" >}}
 
-{{% tabit "sumennus" %}}
+{{< tabit "sumennus" >}}
 
-{{% tabit "tyyli" %}}
+{{< tabit "tyyli" >}}
 
-{{% tabit "vaaristys" %}}
+{{< tabit "vaaristys" >}}
 
-{{% tabit "valinta" %}}
+{{< tabit "valinta" >}}
 
-{{% tabit "valokuva" %}}
+{{< tabit "valokuva" >}}
 
-{{% tabit "kohina" %}}
+{{< tabit "kohina" >}}

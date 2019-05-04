@@ -38,6 +38,6 @@ Kun jompikumpi näistä työkaluista on valittu, voit suorittaa minkä tahansa n
 Voit suorittaa jokaisen työn monta kertaa, voit sekoittaa niitä saadaksesi oikea tuloksen. Huomaa että jokaisessa esimerkissä,
 kun käytetään Muokkaa valintaa-työkalua, pikselit jotka oli valittu ei vaikuteta.
 
-{{% huom %}}Kun siirrät pikseleitä ympäriinsä taustakuvatasolla, shakkilautamalli joka jää jälkeen, ilmoittaa että alue on läpinäkyvä. Malli ei ole osa itse kuvaa.{{% /huom %}}
+{{< huom >}}Kun siirrät pikseleitä ympäriinsä taustakuvatasolla, shakkilautamalli joka jää jälkeen, ilmoittaa että alue on läpinäkyvä. Malli ei ole osa itse kuvaa.{{< /huom >}}
 
-{{% tabit "siirto" %}}
+{{< tabit "siirto" >}}
