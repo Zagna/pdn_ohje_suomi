@@ -34,7 +34,7 @@ Myös, kaikki piirtäminen on rajoitettu valintaan jonka valitset. Tähän sisä
 
 Nämä työkalut myös antavat mahdollisuuden neljään eri yhdistämistapaan: lisäys, erotus, leikkaus ja käänteinen. Ensimmäiset kolme tilaa
 tunnetaan myös yhdistävä, vähentävä, ja poissulkeva. Nopea ohje näihin komentoihin, katso
-[Näppäimistön ja hiiren komennot]({{< relref "/nappaimisto_ja_hiiri.mmark" >}}). Lisäksi, valintoja voi siirtää, muuttaa kokoa ja pyörittää,
+[Näppäimistön ja hiiren komennot]({{< relref "/nappaimisto-ja-hiiri.mmark" >}}). Lisäksi, valintoja voi siirtää, muuttaa kokoa ja pyörittää,
 lisätietoja: katso [Siirtotyökalut]({{< relref "/tyokaluikkuna/siirtotyokalut.md" >}}).
 
 Luodaksesi uuden valinnan, tai korvataksesi olemassa olevan, piirrä vain vasemmalla hiiren napilla. Toiminta on samanlainen kuin
@@ -43,7 +43,7 @@ Muototyökaluilla.
 {{< vihje >}}Voit pitää Shift-nappia pohjassa kun käytät Suorakulmaista valintaa tai Ellipsi valintaa pakottaaksesi muodon olemaan joko neliö tai ympyrä, mainitussa järjestyksessä.{{< /vihje >}}
 
 Jos haluat muokata valintaa, voit joko käyttää joko työkalupalkkia tai näppäimistön komentoja jotka esitellään seuraavissa kappaleissa.
-(Täydellinen lista näppäimistön komennoista on myös saatavilla [täällä]({{< relref "/nappaimisto_ja_hiiri.mmark" >}}).)
+(Täydellinen lista näppäimistön komennoista on myös saatavilla [täällä]({{< relref "/nappaimisto-ja-hiiri.mmark" >}}).)
 
 On olemassa viisi erilaista valintatilaa:
 

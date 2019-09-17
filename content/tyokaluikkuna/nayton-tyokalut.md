@@ -44,7 +44,7 @@ Versiosta 4.0.10 eteenpäin on ollut mahdollista vierittää kuvaa ikkunan reuna
 
 Ylivierityksen määrä riippuu kuvan koosta. Pienet kuvat voi siirtää kunnes puolet kuvasta on ikkunan ulkopuolella.
 
-<figure>
+<figure style="display: block;">
     <video width="640" height="360" autoplay loop>
         <source type="video/mp4" src="/vid/view1.mp4">
     </video>
@@ -53,7 +53,7 @@ Ylivierityksen määrä riippuu kuvan koosta. Pienet kuvat voi siirtää kunnes 
 
 Isompana näkyvät kuvat siirtyvät kunnes kuvan reuna osuu ikkunan keskikohtaan.
 
-<figure>
+<figure style="display: block;">
     <video width="640" height="360" autoplay loop>
         <source type="video/mp4" src="/vid/view2.mp4">
     </video>

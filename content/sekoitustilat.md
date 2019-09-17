@@ -47,7 +47,7 @@ Tasojen lisäksi työkalut
 {{< tool "clonestamp.png" >}}[Kloonaus]({{< relref "kloonaus.md" >}}),
 {{< tool "shapes.png" >}}[Muodot]({{< relref "muodot.md" >}}),
 {{< tool "gradient.png" >}}[Väriliukuma]({{< relref "variliukuma.md" >}}) sekä
-{{< tool "linecurve.png" >}}[Viiva/Käyrä]({{< relref "viiva_kayra.md" >}})
+{{< tool "linecurve.png" >}}[Viiva/Käyrä]({{< relref "viiva-kayra.md" >}})
 voivat käyttää sekoitustiloja.
 
 Työkalujen kanssa aiemmin mainittujen tilojen lisäksi on saatavilla myös Korvaava tila.

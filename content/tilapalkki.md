@@ -17,7 +17,7 @@ Tilapalkista löydät ohjeita, työn tilan ja tietoja jotka ovat erittäin hyöd
 * ### Ohje ja tila
 
     Aina kun valitset työkalun, tämä osa tilapalkista sisältää pikaohjeen siitä miten voit käyttää työkalua. Tiettyjen työkalujen, kuten
-    {{< tool "linecurve.png" >}}[Viiva/Käyrä -työkalu]({{< relref "viiva_kayra.md" >}})
+    {{< tool "linecurve.png" >}}[Viiva/Käyrä -työkalu]({{< relref "viiva-kayra.md" >}})
     kanssa, samassa tilassa näkyy myös lisätietoja työkalun ominaisuuksista. Monet työkalut myös näyttävät tietoja siitä mitä teet sillä hetkellä, kuten
     valinnan tai muodon koon ja pituuden.
 

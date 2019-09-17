@@ -1,5 +1,5 @@
 
-<figure style="display: inline-block;">
+<figure>
 	{{ range split (.Get "src") ";" }}
 		<img src="{{ . }}" alt="{{ $.Get "alt" }}">
 	{{ end }}

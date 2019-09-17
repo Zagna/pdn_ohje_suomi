@@ -75,7 +75,7 @@ Täällä voit valita aktiivisen työkalun jota voi käyttää kuvan muokkaamise
 
     Tätä työkalua voi käyttää alueiden kopioimiseen tasojen välillä tai samalla tasolla.
 
-1. ### {{< tool "recolor.png" >}}[Uudelleen väritä]({{< relref "uudelleen_varitys.md" >}})
+1. ### {{< tool "recolor.png" >}}[Uudelleen väritä]({{< relref "uudelleen-varitys.md" >}})
 
     Tällä työkalulla voi vaihtaa värin toiseen väriin.
 
@@ -83,7 +83,7 @@ Täällä voit valita aktiivisen työkalun jota voi käyttää kuvan muokkaamise
 
     Tällä työkalulla voit lisätä tekstiä kuvaan.
 
-1. ### {{< tool "linecurve.png" >}}[Viiva/Käyrä]({{< relref "viiva_kayra.md" >}})
+1. ### {{< tool "linecurve.png" >}}[Viiva/Käyrä]({{< relref "viiva-kayra.md" >}})
 
     Voit piirtää suoria tai käyriä viivoja tällä työkalulla.
 

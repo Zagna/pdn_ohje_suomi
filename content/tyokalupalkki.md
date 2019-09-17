@@ -59,7 +59,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
     näitä asetuksia. Voit valita piirretäänkö muoto ääriviivalla, täytettynä, vai kummatkin, siveltimen koko sekä piirtotyylin.
 
     {{< tool "linecurve.png" >}}
-    [Viiva/Käyrä -työkalu]({{< relref "viiva_kayra.md" >}}) antaa sinun asettaa tyylin, viivan päiden tyylit sekä joko viiva tai piste muodon.
+    [Viiva/Käyrä -työkalu]({{< relref "viiva-kayra.md" >}}) antaa sinun asettaa tyylin, viivan päiden tyylit sekä joko viiva tai piste muodon.
 
 * ### Valintatyökalut
 
@@ -98,7 +98,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
     {{< figure src="/kuvat/toolbar_magicwandpaintbucket.png" alt="Taikasauva, täyttö ja uudelleen väritys" >}}
 
     Toleranssi vaikuttaa miten {{< tool "magicwand.png" >}}
-    [Taikasauva]({{< relref "taikasauva.md" >}}), [Täyttö]({{< relref "taytto.md" >}}) sekä {{< tool "recolor.png" >}}[Uudelleen väritys]({{< relref "uudelleen_varitys.md" >}}) toimivat. Se määrää miten samanväriset värit lasketaan mukaan
+    [Taikasauva]({{< relref "taikasauva.md" >}}), [Täyttö]({{< relref "taytto.md" >}}) sekä {{< tool "recolor.png" >}}[Uudelleen väritys]({{< relref "uudelleen-varitys.md" >}}) toimivat. Se määrää miten samanväriset värit lasketaan mukaan
     kun työkalua käytetään. Jos se on asetettu 0%, vain tarkalleen tiettyä väriä käytetään. Jos se on 100%, kaikki värit lasketaan mukaan. Oletusarvo on 50%.
 
     Näytteistys voi valita tason tai koko kuvan.
