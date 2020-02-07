@@ -2,7 +2,8 @@
 date = "2015-09-09T18:47:08+03:00"
 draft = false
 title = "Väriliukuma"
-tooltip = "resurssit/tyokalut/gradient.png"
+tooltip = "gradient"
+tabs = true
 
 [menu.pdn]
     parent = "tikkuna"

@@ -2,7 +2,7 @@
 date = "2015-09-09T18:47:31+03:00"
 draft = false
 title = "Muodot"
-tooltip = "resurssit/tyokalut/shapes.png"
+tooltip = "shapes"
 
 [menu.pdn]
     parent = "tikkuna"
@@ -46,7 +46,7 @@ sisustan värittämiseen (jos valittu). Jos piirrät oikealla hiiren napilla, ed
 ### Muodon siirtäminen
 
 Ennen kuin Muoto on viimeistelty pohjalle, sitä voi siirtää kuvan alueella. Klikkaa ja vedä neljän nuolen ikonia hiirellä
-{{< tool "movecursor.png" >}}.
+{{< tool "movecursor" >}}.
 
 Muotoa voi siirtää myös käyttämällä keskellä olevaa osoitinta. Se muuttuu neljäksi nuoleksi. Klikkaa ja vedä siirtääksesi Muotoa.
 

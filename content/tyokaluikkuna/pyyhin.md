@@ -2,7 +2,7 @@
 date = "2015-09-09T18:47:20+03:00"
 draft = false
 title = "Pyyhin"
-tooltip = "resurssit/tyokalut/eraser.png"
+tooltip = "eraser"
 
 [menu.pdn]
     parent = "tikkuna"
@@ -14,7 +14,7 @@ tooltip = "resurssit/tyokalut/eraser.png"
 Tämä työkalu on hyödyllinen osien poistamiseen kuvasta. Huomaa että se toimii kuitenkin niin että se muuttaa tason alueet läpinäkyviksi.
 Tämä johtaa shakkilautamallin näkymiseen. Tätä mallia käytetään näyttämään että alue on läpinäkyvä -- se ei ole osa kuvaa.
 
-{{< huom >}}MS Paintin pyyhin toimii muuttamalla alueen valkoiseksi. Jos haluat tämän tuloksen, suosittelemme käyttämään {{< tool "paintbrush.png" >}}[Sivellin-työkalua]({{< relref "sivellin.md" >}}) ja valitse valkoinen väriksi [Väri-ikkunassa]({{< relref "/vari-ikkuna.md" >}}).{{< /huom >}}
+{{< huom >}}MS Paintin pyyhin toimii muuttamalla alueen valkoiseksi. Jos haluat tämän tuloksen, suosittelemme käyttämään {{< tool "paintbrush" >}}[Sivellin-työkalua]({{< relref "sivellin.md" >}}) ja valitse valkoinen väriksi [Väri-ikkunassa]({{< relref "/vari-ikkuna.md" >}}).{{< /huom >}}
 
 Tämä työkalu on myös hyödyllinen kun teet töitä useiden tasojen kanssa. Jos sinulla on osia tasossa jotka haluat näkyvän läpi alempaan
 tasoon, voit käyttää pyyhintä näihin ylempiin tasoihin.

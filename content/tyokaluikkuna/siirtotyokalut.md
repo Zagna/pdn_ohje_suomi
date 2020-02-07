@@ -2,7 +2,8 @@
 date = "2015-09-09T18:46:56+03:00"
 draft = false
 title = "Siirtotyökalut"
-tooltip = "resurssit/tyokalut/select.png"
+tooltip = "select"
+tabs = true
 
 [menu.pdn]
     parent = "tikkuna"
@@ -26,7 +27,7 @@ Seuraavat työkalut käsitellään tässä osassa:
     tarkentamisessa. Kun tämä työkalu on käytössä, valintaan lisätään sininen korostus jotta voisit nähdä valinnan tarkemmin.
 
 Ensimmäiseksi sinun tulee olla varma ennen kuin valitset yhden näistä työkaluista että sinulla on aktiivinen valinta. Katso
-{{< tool "select.png" >}}[Valintatyökaluista]({{< relref "valintatyokalut.md" >}})
+{{< tool "select" >}}[Valintatyökaluista]({{< relref "valintatyokalut.md" >}})
 miten luot ja muokkaat niitä. Jokainen siirto, koon muutto ja pyöritys mitä teet valintaan lisätään
 [Historiaikkunaan]({{< relref "/historiaikkuna.md" >}}).
 

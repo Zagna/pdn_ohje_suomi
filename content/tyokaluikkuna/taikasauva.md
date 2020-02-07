@@ -2,7 +2,7 @@
 date = "2015-09-09T18:47:01+03:00"
 draft = false
 title = "Taikasauva"
-tooltip = "resurssit/tyokalut/magicwand.png"
+tooltip = "magicwand"
 
 [menu.pdn]
     parent = "tikkuna"
@@ -20,7 +20,7 @@ Voit ajatella että Taikasauva toimii samalla lailla kuin Täyttö, mutta sen si
 
 ### Toleranssi
 
-Samalla lailla kuin {{< tool "paintbucket.png" >}}
+Samalla lailla kuin {{< tool "paintbucket" >}}
 [Täyttö]({{< relref "taytto.md" >}}), Taikasauvan tulosta voi säätää vaihtamalla
 [Toleranssia]({{< relref "/tyokalupalkki.md" >}}#taikasauva-t%C3%A4ytt%C3%B6-ja-uudelleen-v%C3%A4ritys). Alla näet esityksen
 tästä säädöstä.

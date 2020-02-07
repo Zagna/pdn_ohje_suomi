@@ -2,7 +2,7 @@
 date = "2015-09-09T18:48:14+03:00"
 draft = false
 title = "Täyttö"
-tooltip = "resurssit/tyokalut/paintbucket.png"
+tooltip = "paintbucket"
 
 [menu.pdn]
     parent = "tikkuna"

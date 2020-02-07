@@ -42,6 +42,7 @@ $vihje: url(/resurssit/icontip.png);
 $huom: url(/resurssit/iconnote.png);
 $varoitus: url(/resurssit/iconwarning.png);
 $esim: url(/resurssit/iconexample.png);
+$sprite: url(/resurssit/tyokalut/css_sprites.png);
 
 body {
 	font-size: .85em;
@@ -183,4 +184,116 @@ ul {
 	&:nth-child(2) {
 		text-align: center;
 	}
+}
+
+.tools {
+	background-image: $sprite;
+	margin: 0 3px;
+}
+
+.bg-clonestamp, .bg-colorpicker, .bg-lassoselect, .bg-linecurve, .bg-magicwand, .bg-paintbrush, .bg-paintbucket, .bg-pencil, .bg-recolor, .bg-zoom, .bg-eraser, .bg-tools {
+	width: 16px; height: 16px;
+}
+
+.bg-clonestamp {
+	background-position: -118px -10px;
+}
+
+.bg-colorpicker {
+	background-position: -118px -46px;
+}
+
+.bg-ellipticalselect {
+    width: 14px; height: 14px;
+	background-position: -190px -115px;
+}
+
+.bg-lassoselect {
+	background-position: -10px -93px;
+}
+
+.bg-linecurve {
+	background-position: -46px -93px;
+}
+
+.bg-magicwand {
+	background-position: -82px -93px;
+}
+
+.bg-movecursor {
+    width: 23px; height: 23px;
+	background-position: -10px -50px;
+}
+
+.bg-moveselectedpixels {
+    width: 14px; height: 15px;
+	background-position: -190px -45px;
+}
+
+.bg-moveselection {
+    width: 14px; height: 15px;
+	background-position: -190px -80px;
+}
+
+.bg-paintbrush {
+	background-position: -118px -93px;
+}
+
+.bg-paintbucket {
+	background-position: -154px -10px;
+}
+
+.bg-pencil {
+	background-position: -154px -46px;
+}
+
+.bg-recolor {
+	background-position: -154px -82px;
+}
+
+.bg-rectangleselect {
+    width: 15px; height: 15px;
+	background-position: -190px -10px;
+}
+
+.bg-text {
+    width: 15px; height: 16px;
+	background-position: -118px -129px;
+}
+
+.bg-zoom {
+	background-position: -10px -129px;
+}
+
+.bg-gradient {
+    width: 16px; height: 15px;
+	background-position: -153px -129px;
+}
+
+.bg-eraser {
+	background-position: -46px -129px;
+}
+
+.bg-pan {
+    width: 13px; height: 15px;
+	background-position: -10px -165px;
+}
+
+.bg-shapes {
+    width: 34px; height: 20px;
+	background-position: -10px -10px;
+}
+
+.bg-tools {
+	background-position: -82px -129px;
+}
+
+.bg-view {
+    width: 34px; height: 16px;
+	background-position: -64px -10px;
+}
+
+.bg-select {
+    width: 30px; height: 15px;
+	background-position: -53px -50px;
 }

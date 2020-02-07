@@ -2,7 +2,7 @@
 date = "2015-09-09T18:48:08+03:00"
 draft = false
 title = "Tekstityökalu"
-tooltip = "resurssit/tyokalut/text.png"
+tooltip = "text"
 
 [menu.pdn]
     parent = "tikkuna"

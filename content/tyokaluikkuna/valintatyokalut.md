@@ -2,6 +2,7 @@
 date = "2015-09-09T18:46:49+03:00"
 draft = false
 title = "Valintatyökalut"
+tabs = true
 
 [menu.pdn]
     parent = "tikkuna"

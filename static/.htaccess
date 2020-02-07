@@ -1,4 +1,5 @@
 Header set Cache-Control "max-age=604800, public"
+AddCharset UTF-8 .html
 
 RewriteEngine On
 RewriteRule ^index\.html$ / [R=301,L]
@@ -6,3 +7,5 @@ RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^www.paintdotnet\.arkku\.net$ [NC]
 RewriteRule ^(.*)$ https://paintdotnet.arkku.net/$1 [R=301,L]
+
+AddOutputFilter DEFLATE svg

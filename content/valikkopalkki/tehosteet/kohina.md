@@ -2,6 +2,7 @@
 date = "2015-09-09T18:45:42+03:00"
 draft = false
 title = "Kohina"
+tabs = true
 
 [menu.pdn]
     parent = "sehot"

@@ -2,6 +2,7 @@
 date = "2015-09-09T18:42:00+03:00"
 draft = false
 title = "Sekoitustilat"
+tabs = true
 
 [menu.pdn]
     parent = "koti"
@@ -41,13 +42,13 @@ alla olevat sekoitustilat.
 ### Työkalujen sekoitustilat
 
 Tasojen lisäksi työkalut
-{{< tool "paintbucket.png" >}}[Täyttö]({{< relref "taytto.md" >}}),
-{{< tool "paintbrush.png" >}}[Sivellin]({{< relref "sivellin.md" >}}),
-{{< tool "pencil.png" >}}[Kynä]({{< relref "pikselityokalut.md" >}}),
-{{< tool "clonestamp.png" >}}[Kloonaus]({{< relref "kloonaus.md" >}}),
-{{< tool "shapes.png" >}}[Muodot]({{< relref "muodot.md" >}}),
-{{< tool "gradient.png" >}}[Väriliukuma]({{< relref "variliukuma.md" >}}) sekä
-{{< tool "linecurve.png" >}}[Viiva/Käyrä]({{< relref "viiva-kayra.md" >}})
+{{< tool "paintbucket" >}}[Täyttö]({{< relref "taytto.md" >}}),
+{{< tool "paintbrush" >}}[Sivellin]({{< relref "sivellin.md" >}}),
+{{< tool "pencil" >}}[Kynä]({{< relref "pikselityokalut.md" >}}),
+{{< tool "clonestamp" >}}[Kloonaus]({{< relref "kloonaus.md" >}}),
+{{< tool "shapes" >}}[Muodot]({{< relref "muodot.md" >}}),
+{{< tool "gradient" >}}[Väriliukuma]({{< relref "variliukuma.md" >}}) sekä
+{{< tool "linecurve" >}}[Viiva/Käyrä]({{< relref "viiva-kayra.md" >}})
 voivat käyttää sekoitustiloja.
 
 Työkalujen kanssa aiemmin mainittujen tilojen lisäksi on saatavilla myös Korvaava tila.
