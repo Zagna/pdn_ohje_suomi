@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
     <meta name="language" content="finnish"> 
 	<meta name="google-site-verification" content="uYbXWkGWj-8ZwVNGC6sTKejkpx2yPgpeYjoQJremS-0" />
-	<title>{{ .Title }} &middot; {{ .Site.Title }}</title>
 	<meta name="author" content="Jarno Ruokamo">
 	<meta name="description" content="{{ .Summary }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,5 +11,5 @@
 	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS $options }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}?v=4">
 	<link rel="icon" type="image/png" href="/favicon.png">
-	<link rel="canonical" href="{{ .Permalink }}"/>
-</head>
+
+

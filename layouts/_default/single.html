@@ -1,4 +1,7 @@
 {{ partialCached "header.html" . }}
+	<link rel="canonical" href="{{ .Permalink }}"/>
+	<title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+</head>
 <body>
 <section class="hero">
 	<div class="hero-body" style="background-image: url('/resurssit/imagebar.jpg');">
