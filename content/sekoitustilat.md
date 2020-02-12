@@ -7,7 +7,7 @@ tabs = true
 [menu.pdn]
     parent = "koti"
     identifier = "sek_tilat"
-    weight = 105
+    weight = 106
 
 +++
 

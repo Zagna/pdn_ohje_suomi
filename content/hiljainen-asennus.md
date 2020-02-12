@@ -2,7 +2,7 @@
 date = "2015-09-09T18:49:11+03:00"
 draft = false
 title = "Hiljainen asennus"
-version = "4.1.5"
+version = "4.2.9"
 
 [menu.pdn]
     parent = "muuta"
@@ -11,7 +11,7 @@ version = "4.1.5"
 
 +++
 
-paint.net tukee [hiljaista asennusta](https://en.wikipedia.org/wiki/tableed_installation) minkä avulla voit asentaa paint.netin ilman
+paint.net tukee hiljaista asennusta minkä avulla voit asentaa paint.netin ilman
 käyttäjän ohjeita. Saatavilla on kaksi vaihtoehtoa hiljaiselle asennukselle. Ensimmäinen on MSI pohjainen julkaisu, suunniteltu käytettäväksi
 [Active Directoryn](https://fi.wikipedia.org/wiki/Active_Directory) sekä [Group Policyn](https://en.wikipedia.org/wiki/Group_policy) kanssa
 asentamaan paint.net monelle käyttäjälle hallitussa verkostossa. Toinen on automaattinen asennus, sopiva yleiselle automaatiolle henkilökohtaiseen
