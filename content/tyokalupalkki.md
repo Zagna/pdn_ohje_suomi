@@ -123,7 +123,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
 * ### Rasterisaatio
 
-    {{< figure src="/kuvat/toolbar_rasterization" alt="Rasterisaatio" >}}
+    {{< figure src="/kuvat/toolbar_rasterization.png" alt="Rasterisaatio" >}}
 
     Moneen työkaluun vaikuttaa yksi tai kummatkin näistä valinnoista jotka vaikuttavat siihen miten piirtäminen toimii. Voit käyttää näitä joko painamalla
     itse nappia vaihtaaksesi asetusta, tai painamalla nuolta saadaksesi valikon vaihtoehdoista.
