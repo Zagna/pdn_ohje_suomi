@@ -23,7 +23,7 @@
 			{{ end }}
 			{{ range .Children }}
 				<a class="navbar-item" href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
-				{{ if or (or ( eq .Identifier "savyalat" ) ( eq .Identifier "lisaosat" )) ( eq .Identifier "sek_tilat" ) }}
+				{{ if or (or ( eq .Identifier "savyalat" ) ( eq .Identifier "protokolla" )) ( eq .Identifier "sek_tilat" ) }}
 				<hr class="navbar-divider">
 				{{ end }}
 			{{ end }}
