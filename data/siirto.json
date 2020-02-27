@@ -1,0 +1,77 @@
+{
+	"tab": [{
+			"content": "Siirrä vasemmalla hiiren napilla missä muualla *paitsi* nupissa siirtääksesi valintaa.",
+			"id": "siirra",
+			"name": "Siirrä",
+			"figure": [{
+					"alt": "Siirrä valintaa",
+					"caption": "Siirrä valintaa",
+					"class": "border",
+					"src": "/resurssit/movenubs_movedpixels.jpg"
+				},
+				{
+					"alt": "Muokkaa valintaa",
+					"caption": "Muokkaa valintaa",
+					"class": "border",
+					"src": "/resurssit/movenubs_movedselection.jpg"
+				}
+			]
+		},
+		{
+			"content": "Siirrä hiiri nupin päälle ja kursori muuttuu kädeksi. Paina ja siirrä muuttaaksesi valinnan kokoa.",
+			"id": "muutas",
+			"name": "Muuta",
+			"vihje": "Jos siirrät yhtä nurkkanuppia, voit Shift-nappia pohjassa pitämällä pakottaa kuvan säilyttämään kuvasuhteen (valinnan koon mukaan).",
+			"figure": [{
+					"alt": "Siirrä valintaa",
+					"caption": "Siirrä valintaa",
+					"class": "border",
+					"src": "/resurssit/movenubs_resizedpixels.jpg"
+				},
+				{
+					"alt": "Muokkaa valintaa",
+					"caption": "Muokkaa valintaa",
+					"class": "border",
+					"src": "/resurssit/movenubs_resizedselection.jpg"
+				}
+			]
+		},
+		{
+			"content": "Oikea hiiren nappi pohjassa siirrä hiirtä missä vain pyörittääksesi valintaa. Kun pyörität valintaa, ilmaisin ilmestyy valinnan keskelle näyttääkseen pyörimisen keskipisteen ja nykyisen kulman. Se näyttää pieneltä ympyrältä jonka keskeltä kulkee viiva läpi. Huomaa että pyörimiskulma näkyy myös [Tilapalkissa](/tilapalkki/).",
+			"id": "pyorita",
+			"name": "Pyöritä",
+			"vihje": "Kun pyörität, voit pakottaa pyörimiskulman 15 asteen kulmiin pitämällä Shift-nappia alhaalla.",
+			"figure": [{
+					"alt": "Siirrä valintaa",
+					"caption": "Siirrä valintaa",
+					"class": "border",
+					"src": "/resurssit/movenubs_rotatedpixels.jpg"
+				},
+				{
+					"alt": "Muokkaa valintaa",
+					"caption": "Muokkaa valintaa",
+					"class": "border",
+					"src": "/resurssit/movenubs_rotatedselection.jpg"
+				}
+			]
+		},
+		{
+			"content": "Ctrl-nappi pohjassa voit **Siirrä valintaa** -työkalua käyttämällä kopioida valitun alueen.",
+			"id": "kopioi",
+			"name": "Kopioi",
+			"figure": [{
+					"alt": "Alue valittu",
+					"caption": "Alue valittu",
+					"class": "border",
+					"src": "/resurssit/move_copy1.jpg"
+				},
+				{
+					"alt": "Valinta kopioitu",
+					"caption": "Valinta kopioitu",
+					"class": "border",
+					"src": "/resurssit/move_copy2.jpg"
+				}
+			]
+		}
+	]
+}

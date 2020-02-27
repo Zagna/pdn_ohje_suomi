@@ -1,0 +1,57 @@
+{
+	"tab": [{
+			"content": "Tämä tehoste lisää kohinaa kuvaan.",
+			"id": "liskoh",
+			"name": "Lisää kohinaa",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/lisaakohinaa.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tämä tehoste on hyödyllinen kohinan poistamiseen alhaisella säteellä. Suurella säteellä, se tuottaa sumentavan tehosteen.",
+			"id": "medi",
+			"name": "Mediaani",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/mediaani.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tämä tehoste on hyödyllinen kohinan poistamiseen, etenkin valokuvista ilman yksityiskohtien tai kontrastin häviämistä.",
+			"id": "vahkoh",
+			"name": "Vähennä kohinaa",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/vahennakohinaa.jpg"
+				}
+			]
+		}
+	]
+}

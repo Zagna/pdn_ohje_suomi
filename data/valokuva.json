@@ -1,0 +1,99 @@
+{
+	"tab": [{
+			"content": "Tämä tehoste antaa kuvalle hehkua. Voit säätää lopputuloksen kirkkautta sekä kontrastia.",
+			"id": "hehkuv",
+			"name": "Hehku",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/hehku.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tämä on hyödyllinen antamaan hehkuisan ja loisteliaan tehosteen kuvalle.",
+			"id": "pehmis",
+			"name": "Pehmennä",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/pehmenna.jpg"
+				}
+			]
+		},
+		{
+			"content": "Jos sinulla on valokuva jossa kohteella on &ldquo;punaiset silmät&rdquo;, silloin tämä tehoste on hyödyllinen niiden poistamiseen.<br/>Sinun kannattaa kuitenkin valita kohteen silmät ennen kuin käytätä tätä tehostetta.",
+			"id": "psilma",
+			"name": "Punasilmän poistaja",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/punasilma.jpg"
+				},
+				{
+					"alt": "Silmät valittu",
+					"caption": "Silmät valittu",
+					"class": "border",
+					"src": "/resurssit/silmatvalittu.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/naama.jpg"
+				}
+			]
+		},
+		{
+			"content": "Jos kuvan ulkonäkö on liian pehmeä, voit tällä tehosteella terävöittää reunoja.",
+			"id": "teravin",
+			"name": "Terävöitä",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/teravoita.jpg"
+				}
+			]
+		},
+		{
+			"content": "Kuvan reunoja tummennetaan, ihan kuin katsoisit kiikareiden läpi.",
+			"id": "vinjetti",
+			"name": "Vinjetti",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/vinjetti.jpg"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"tab": [{
+			"content": "Tätä tehostetta voit käyttää saadaksesi kuvan näyttämään kuin se olisi piirretty kynällä.",
+			"id": "luonnos",
+			"name": "Luonnos",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/luonnos.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tätä tehostetta voit käyttää saadaksesi kuvan näyttämään kuin se olisi piirretty mustekynällä.",
+			"id": "muste",
+			"name": "Musteluonnos",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/musteluonnos.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tätä tehostetta voit käyttää saadaksesi kuvan näyttämään kuin se olisi öljymaalaus.",
+			"id": "oljy",
+			"name": "Öljymaalaus",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/oljymaalaus.jpg"
+				}
+			]
+		}
+	]
+}

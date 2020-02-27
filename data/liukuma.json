@@ -1,0 +1,108 @@
+{
+	"tab": [{
+			"id": "lineaari",
+			"name": "Lineaari",
+			"figure": [{
+					"alt": "Lineaari",
+					"class": "border",
+					"src": "/resurssit/lineaari_esim.jpg"
+				},
+				{
+					"alt": "Lineaari",
+					"class": "border",
+					"src": "/resurssit/lineaari.jpg"
+				}
+			]
+		},
+		{
+			"id": "peilattu",
+			"name": "Lineaari (Peilattu)",
+			"figure": [{
+					"alt": "Lineaari (Peilattu)",
+					"class": "border",
+					"src": "/resurssit/lineaari_peilattu_esim.jpg"
+				},
+				{
+					"alt": "Lineaari (Peilattu)",
+					"class": "border",
+					"src": "/resurssit/lineaari_peilattu.jpg"
+				}
+			]
+		},
+		{
+			"id": "timantti",
+			"name": "Timantti",
+			"figure": [{
+					"alt": "Timantti",
+					"class": "border",
+					"src": "/resurssit/timantti_esim.jpg"
+				},
+				{
+					"alt": "Timantti",
+					"class": "border",
+					"src": "/resurssit/timantti.jpg"
+				}
+			]
+		},
+		{
+			"id": "sateit",
+			"name": "Säteittäinen",
+			"figure": [{
+					"alt": "Säteittäinen",
+					"class": "border",
+					"src": "/resurssit/sateittainen_esim.jpg"
+				},
+				{
+					"alt": "Säteittäinen",
+					"class": "border",
+					"src": "/resurssit/sateittainen.jpg"
+				}
+			]
+		},
+		{
+			"id": "kartio",
+			"name": "Kartio",
+			"figure": [{
+					"alt": "Kartio",
+					"class": "border",
+					"src": "/resurssit/kartio_esim.jpg"
+				},
+				{
+					"alt": "Kartio",
+					"class": "border",
+					"src": "/resurssit/kartio.jpg"
+				}
+			]
+		},
+		{
+			"id": "spiraali1",
+			"name": "Spiraali (Myötäpäivään)",
+			"figure": [{
+					"alt": "Spiraali (Myötäpäivään)",
+					"class": "border",
+					"src": "/resurssit/spiraali_m_esim.jpg"
+				},
+				{
+					"alt": "Spiraali (Myötäpäivään)",
+					"class": "border",
+					"src": "/resurssit/spiraali_m.jpg"
+				}
+			]
+		},
+		{
+			"id": "spiraali2",
+			"name": "Spiraali (Vastapäivään)",
+			"figure": [{
+					"alt": "Spiraali (Vastapäivään)",
+					"class": "border",
+					"src": "/resurssit/spiraali_v_esim.jpg"
+				},
+				{
+					"alt": "Spiraali (Vastapäivään)",
+					"class": "border",
+					"src": "/resurssit/spiraali_v.jpg"
+				}
+			]
+		}
+	]
+}

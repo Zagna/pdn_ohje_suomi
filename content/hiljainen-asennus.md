@@ -94,9 +94,7 @@ Asennuspaketti käyttää seuraavia komentorivin komentoja, missä paint.net.{{<
             </td>
             <td>
                 <p>Asettaa MSI ominaisuuden nimeltä PROPERTY arvolla VALUE. Voit määrittää useita arvoja. Alhaalla on lista mahdollista arvoista.</p>
-
-{{< huom >}}Jos VALUE sisältää välilyönnin, pitää koko PROPERTY=VALUE teksti sulkea sitaatteihin. Esimerkiksi kuvitteellinen TEST ominaisuus arvolla &ldquo;1 2 3&rdquo;, pitää käyttää &ldquo;TEST=1 2 3&rdquo; komentorivillä, mukaan lukien sitaatit.{{< /huom >}}
-
+                {{< huom >}}Jos VALUE sisältää välilyönnin, pitää koko PROPERTY=VALUE teksti sulkea sitaatteihin. Esimerkiksi kuvitteellinen TEST ominaisuus arvolla &ldquo;1 2 3&rdquo;, pitää käyttää &ldquo;TEST=1 2 3&rdquo; komentorivillä, mukaan lukien sitaatit.{{< /huom >}}
             </td>
         </tr>
     </tbody>

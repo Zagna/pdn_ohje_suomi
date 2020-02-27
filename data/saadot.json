@@ -1,0 +1,102 @@
+{
+	"tab": [{
+			"content": "Tätä voit käyttää värien tasoittamiseen, eli liian tumma tai kirkas kuva tuodaan takaisin normaaliin tasoon. Tämä on sama kuin käyttäisi [Sävyala-säätöä](/valikkopalkki/saadot/savyala/) ja valitsisi &ldquo;Auto&rdquo;-komennon. Tämän säädön käytön jälkeen, jota ei voi muokata, kuva näyttää tältä:",
+			"id": "auto",
+			"name": "Automaattinen taso",
+			"figure": [{
+				"alt": "Automaattinen taso",
+				"class": "border saadot",
+				"src": "/resurssit/lewistonsunset_small_autolevel.jpg"
+			}]
+		},
+		{
+			"content": "Tämä säätö on erittäin samanlainen kuin valokuvan negatiivi. Säädön toistaminen johtaa alkuperäiseen kuvaan.",
+			"id": "invertoi",
+			"name": "Invertoi värit",
+			"figure": [{
+				"alt": "Invertoitu",
+				"caption": "Alkuperäinen kuva joka on invertoitu",
+				"class": "border saadot",
+				"src": "/resurssit/lewistonsunset_small_invert.jpg"
+			}]
+		},
+		{
+			"content": "Tätä voit käyttää saadaksesi kuvan värit joko kirkkaammiksi, tummemmiksi, tai saada värit eroamaan muista niiden ympärillä olevista.",
+			"id": "kirkont",
+			"name": "Kirkkaus / Kontrasti",
+			"figure": [{
+					"alt": "Kirkas",
+					"caption": "Alkuperäinen kuva kirkkaampana",
+					"class": "border saadot",
+					"src": "/resurssit/lewistonsunset_small_brighter.jpg"
+				},
+				{
+					"alt": "Kontrasti",
+					"caption": "Alkuperäinen kuva suuremmalla kontrastilla",
+					"class": "border saadot",
+					"src": "/resurssit/lewistonsunset_small_morecontrast.jpg"
+				},
+				{
+					"alt": "Kirkas sekä kontrasti",
+					"caption": "Alkuperäinen kuva kirkkaampana ja suuremmalla kontrastilla",
+					"class": "border saadot",
+					"src": "/resurssit/lewistonsunset_small_brighterandmorecontrast.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tämän säädön avulla voi säätää kuvan käyriä. Lisää tästä [täällä](/valikkopalkki/saadot/kayrat/).",
+			"id": "kayrat",
+			"name": "Käyrät"
+		},
+		{
+			"content": "Tämä säätö poistaa kaikki värit, tehden tasosta mustavalkoisen.",
+			"id": "mustav",
+			"name": "Mustavalkoinen",
+			"figure": [{
+				"alt": "Mustavalkoinen",
+				"caption": "Alkuperäinen kuva joka on käsitelty",
+				"class": "border saadot",
+				"src": "/resurssit/lewistonsunset_small_desaturate.jpg"
+			}]
+		},
+		{
+			"content": "Tämä säätö antaa sinun vähentää mahdollisia väriarvoja joita pikselit voivat käyttää. Yleensä jokaisella värikanavalla on 256 mahdollista arvoa (0-255), mutta tämän avulla voit rajoittaa sen 2 ja 64 välillä. Tämä antaa kuvalle &ldquo;posteroidun&rdquo; tai retron ulkonäön.",
+			"id": "poster",
+			"name": "Posterisaatio",
+			"figure": [{
+				"alt": "Posterisaatio",
+				"caption": "Alkuperäinen kuva posterisaation jälkeen",
+				"class": "border saadot",
+				"src": "/resurssit/lewistonsunset_small_posterize.png"
+			}]
+		},
+		{
+			"content": "Tämä säädös muuttaa kuvan ensin mustavalkoiseksi ja sen jälkeen lisää seepiasävyn. Tätä voi käyttää lisätäksesi kuvaan nostalgisen tunteen.",
+			"id": "seepia",
+			"name": "Seepia",
+			"figure": [{
+				"alt": "Seepia",
+				"caption": "Alkuperäinen kuva Seepia-säädön jälkeen",
+				"class": "border saadot",
+				"src": "/resurssit/lewistonsunset_small_sepia.jpg"
+			}]
+		},
+		{
+			"content": "Tätä säätöä voidaan käyttää värien kylläisyyden muuttamiseen, samoin sävyn säätämiseen. Lisäksi se mahdollistaa valoisuuden säätämisen, mikä on samanlainen muttei sama kuin kirkkaus.",
+			"id": "savyvari",
+			"name": "Sävy / Värikylläisyys",
+			"figure": [{
+				"alt": "Värikylläs",
+				"caption": "Alkuperäinen kuva sen jälkeen kun Sävy on 88 ja Värikylläisyys on 158",
+				"class": "border saadot",
+				"src": "/resurssit/lewistonsunset_small_huesaturation.jpg"
+			}]
+		},
+		{
+			"content": "Tätä säätöä käytetään värien alan ja kuvan gamman muokkaamiseen. Paina [tästä](/valikkopalkki/saadot/savyala/) lukeaksesi lisää.",
+			"id": "savyala",
+			"name": "Sävyala"
+		}
+	]
+}

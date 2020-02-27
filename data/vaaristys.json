@@ -1,0 +1,171 @@
+{
+	"tab": [{
+			"content": "Tämä saa kuvan näkymään kuin sitä katsottaisiin jäätyneen lasin läpi.",
+			"id": "jaatynyt",
+			"name": "Jäätynyt lasi",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/jaatynytlasi.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tällä tehosteella voit kiertää osan kuvasta, joko myötä- tai vastapäivään.",
+			"id": "kierre",
+			"name": "Kierre",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/kierre.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tämä muuttaa kuvan näyttämään kuin se olisi kristallien muotoisista muodoista tehty mosaiikki.",
+			"id": "cristal",
+			"name": "Kristalloi",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/kristalloi.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tämä tuottaa muunnoksen suorakulmaisen ja napakulmakoordinaatiston välillä.",
+			"id": "kaanteis",
+			"name": "Käänteismuunnos",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/kaanteismuunnos.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tämä tunnettu tehoste saa kuvan näyttämään kuin se olisi lommotun läpinäkyvän metallin takana (teoriassa tietenkin).",
+			"id": "lommo",
+			"name": "Lommo",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/lommo.jpg"
+				}
+			]
+		},
+		{
+			"content": "Morfologisella on kaksi toimintoa. Syövytä vähentää yksityskohtia eriävien alueiden välillä. Laajenna kasvattaa alueita eriävien alueiden välillä.",
+			"id": "morfo",
+			"name": "Morfologinen",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Syövytä",
+					"caption": "Syövytä",
+					"class": "border",
+					"src": "/resurssit/morfo2.jpg"
+				},
+				{
+					"alt": "Laajenna",
+					"caption": "Laajenna",
+					"class": "border",
+					"src": "/resurssit/morfo.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tätä tehostetta voi käyttää tuomaan osa kuvasta lähemmäksi tai taaemmaksi, kuin kuvaa olisi taivutettu.",
+			"id": "pullis",
+			"name": "Pullistuma",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/pullistuma.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tämä tehoste vähentää kuvan laatua ja antaa kuvan jossa jokainen &ldquo;pikseli&rdquo; on paljon isompi.",
+			"id": "pikseli",
+			"name": "Pikseloi",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/pikseloi.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tämä saa kuvan näkymään kuin se olisi laatoitetun lasilevyn takana.",
+			"id": "tiili",
+			"name": "Tiiliheijastus",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/tiiliheijastus.jpg"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,75 @@
+{
+	"tab": [{
+			"content": "Tämä tehoste tuottaa mustavalkoisen kuvan jossa reunoille on annettu kolmiulotteinen korostus jäljittäen korkokuvaa.",
+			"id": "korko",
+			"name": "Korkokuva",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/korkokuva.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tämä tehoste on samankaltainen kuin Reunan tunnistus, mutta se sekoittaa lopputuloksen alkuperäiseen kuvaan.",
+			"id": "relief",
+			"name": "Reliefi",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/reliefi.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tämä tehoste korostaa kuvassa olevia reunoja kuin valo olisi suunnattu siihen jostain kulmasta.",
+			"id": "reuna",
+			"name": "Reunan tunnistus",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/reunantunnistus.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tämä tehoste etsii reunat kuvasta ja jäljittää ne annetulla paksuudella.",
+			"id": "aari",
+			"name": "Ääriviiva",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/aariviiva.jpg"
+				}
+			]
+		}
+	]
+}

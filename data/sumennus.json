@@ -1,0 +1,129 @@
+{
+	"tab": [{
+			"content": "Tämä tehoste näyttää samalta kuin Gauss-sumennus aluksi, mutta antaa utuisemman tai &ldquo;epätarkan&rdquo; ulkoasun kuvalle. Matiikan termeillä, se määrittää yhtenäisemmän painotuksen pikseleille kyseisen säteen sisällä.",
+			"id": "epa",
+			"name": "Epäkohdistus",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/epakohdistus.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tämä lisää yleisen sumennuksen kuvaan käyttäen Gauss kaavaa.",
+			"id": "gauss",
+			"name": "Gauss-sumennus",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/gausssumennus.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tämä on hyödyllinen suoran liikkeen lisäämiseen kuvaan, kuin kuva olisi otettu pidemmällä valotusajalla.",
+			"id": "liike",
+			"name": "Liike-epäterävyys",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/liikeepateravyys.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tämä tehoste sumentaa tarkat piirteet tai kohinan kuvasta säilyttäen suureksi osaksi reunat ja kontrastin.",
+			"id": "pinta",
+			"name": "Pintasumennus",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/pintasumennus.jpg"
+				}
+			]
+		},
+		{
+			"content": "Kopioita, tai &ldquo;pirstaleita&rdquo;, kuvasta piirretään tiettyjen etäisyyksien päähän tietyssä kulmassa. Tämä on hyödyllinen jos haluat luoda epäselvän tai &ldquo;humalaisen&rdquo; ulkoasun kuvalle.",
+			"id": "pirsta",
+			"name": "Pirstaloi",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/pirstaloi.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tämä on samankaltainen kuin liike-epäterävyys, mutta liike on levitetty ympyrän muotoon suoran linja sijasta.",
+			"id": "satei",
+			"name": "Säteittäinen sumennus",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/sateittainensumennus.jpg"
+				}
+			]
+		},
+		{
+			"content": "Tämä tehoste antaa mielikuvan liikkeestä tai sumennuksesta kolmannessa ulottuvuudessa, tullen ulos kuvasta.",
+			"id": "zoom",
+			"name": "Zoom-sumennus",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/resurssit/tehoste.jpg"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/resurssit/zoomsumennus.jpg"
+				}
+			]
+		}
+	]
+}

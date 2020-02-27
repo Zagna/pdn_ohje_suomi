@@ -1,0 +1,133 @@
+{
+	"tab": [{
+			"content": "Jokaisen pikselin voimakkuus kerrotaan kokoonpanon pikseliarvoon. Tämän sekoitustilan käyttäminen johtaa pikseleihin jotka ovat tummempia kuin alkuperäiset.",
+			"id": "kerro",
+			"name": "Kerro",
+			"figure": [{
+				"alt": "Kerro",
+				"class": "border",
+				"src": "/resurssit/kerro.jpg"
+			}]
+		},
+		{
+			"content": "Jokaisen pikselin värivoimakkuus lisätään kokoonpanon pikselien voimakkuuteen. Tämä aina valaistaa pikseleitä kokoonpanossa, paitsi pikselit jotka ovat täysin mustia tulevat lemaan läpinäkyviä.",
+			"id": "lisaava",
+			"name": "Lisäävä",
+			"figure": [{
+				"alt": "Lisäävä",
+				"class": "border",
+				"src": "/resurssit/lisaava.jpg"
+			}]
+		},
+		{
+			"content": "Tämä sekoitustila tekee tummista pikseleistä tummempia. Kirkkaiden pikselien pitää sekoittua muiden kirkkaiden pikselien kanssa pysyäkseen kirkkaina.",
+			"id": "varjostus",
+			"name": "Värivarjostus",
+			"figure": [{
+				"alt": "Värivarjostus",
+				"class": "border",
+				"src": "/resurssit/varivarjostus.jpg"
+			}]
+		},
+		{
+			"content": "Tätä voi ajatella värivarjostuksen vastakohtana. Kirkkaat pikselit pysyvät, kun tummat pikselit pitää sekoittua muiden mustien pikselien kanssa.",
+			"id": "valotus",
+			"name": "Värilisävalotus",
+			"figure": [{
+				"alt": "Värilisävalotus",
+				"class": "border",
+				"src": "/resurssit/varilisavalotus.jpg"
+			}]
+		},
+		{
+			"content": "Tätä tilaa voi käyttää kiiltävien esineiden tai alueiden lisäämiseen.",
+			"id": "peilaus",
+			"name": "Peilattu",
+			"figure": [{
+				"alt": "Peilattu",
+				"class": "border",
+				"src": "/resurssit/peilattu.jpg"
+			}]
+		},
+		{
+			"content": "Tämä on käänteinen Peilaus: se vaihtaa tasojen järjestyksen ja sen jälkeen käyttää Peilausta.",
+			"id": "hehkus",
+			"name": "Hehku",
+			"figure": [{
+				"alt": "Hehku",
+				"class": "border",
+				"src": "/resurssit/hehku_sekoitus.jpg"
+			}]
+		},
+		{
+			"content": "Tämä on yhdistelmä Näyttöä ja Kertoa riippuen tason pikselien voimakkuudesta. Tummille väreille se toimii kuten Kerro. Kirkkaille väreille se toimii kuin Näyttö.",
+			"id": "sulautus",
+			"name": "Sulauttava",
+			"figure": [{
+				"alt": "Sulauttava",
+				"class": "border",
+				"src": "/resurssit/sulauttava.jpg"
+			}]
+		},
+		{
+			"content": "Tämä on Lisäävän vastakohta. Jokaisen tason pikselin voimakkuus vähennetään kokoonpanon pikselien voimakkuudesta johtaen tummempiin väreihin. Koska tämä voi johtaa negatiiviseen voimakkuuteen, jota ei voi näyttää, absoluuttista arvoa käytetään. Täten, &ldquo;valkoinen miinus musta&rdquo; sekä &ldquo;musta miinus valkoinen&rdquo; tuottavat kummatkin valkoista. Tämä voi olla hyödyllinen Pilvi-tehosteen kanssa.",
+			"id": "erotus",
+			"name": "Erottava",
+			"figure": [{
+				"alt": "Erottava",
+				"class": "border",
+				"src": "/resurssit/erottava.jpg"
+			}]
+		},
+		{
+			"content": "Ensi silmäyksellä tämä näyttää samalta kuin Erottava, mutta se tuottaa vastakohtaisen tuloksen. Sen sijaan että värin tummenisivat, niistä tulee kirkkaammat.",
+			"id": "nega",
+			"name": "Negatiivi",
+			"figure": [{
+				"alt": "Negatiivi",
+				"class": "border",
+				"src": "/resurssit/negatiivi.jpg"
+			}]
+		},
+		{
+			"content": "Kirkkaampi pikseli jommalta kummalta tasolta tai kokoonpanosta käytetään.",
+			"id": "kevyt",
+			"name": "Kevennä",
+			"figure": [{
+				"alt": "Kevennä",
+				"class": "border",
+				"src": "/resurssit/kevenna.jpg"
+			}]
+		},
+		{
+			"content": "Tummempi pikseli jommalta kummalta tasolta tai kokoonpanosta käytetään.",
+			"id": "tumma",
+			"name": "Tummenna",
+			"figure": [{
+				"alt": "Tummenna",
+				"class": "border",
+				"src": "/resurssit/tummenna.jpg"
+			}]
+		},
+		{
+			"content": "Tätä voi ajatella Kerro-tilan vastakohtana. Se tekee pikseleistä kirkkaampia, mustan ollessa pitkälti läpinäkyvä.",
+			"id": "naytto",
+			"name": "Näyttö",
+			"figure": [{
+				"alt": "Näyttö",
+				"class": "border",
+				"src": "/resurssit/naytto.jpg"
+			}]
+		},
+		{
+			"content": "Tämä on lyhyesti &ldquo;[poissulkeva tai](https://fi.wikipedia.org/wiki/XOR)&rdquo;, joka on kehittynyt sekoitustila jota pääasiallisesti käytetään kuvien analysointiin eikä piirtämiseen tai kuvien muodostamiseen.",
+			"id": "xor",
+			"name": "Xor",
+			"figure": [{
+				"alt": "Xor",
+				"class": "border",
+				"src": "/resurssit/xor.jpg"
+			}]
+		}
+	]
+}
