@@ -1,13 +1,14 @@
 {{ partialCached "header.html" . }}
 	<link rel="canonical" href="{{ .Permalink }}"/>
 	<title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+	<meta name="description" content="{{ .Summary }}">
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6Z3D64" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <section class="hero">
-	<div class="hero-body" style="background-image: url('{{ "/resurssit/imagebar.jpg" | absURL }}');">
+	<div class="hero-body" style="background-image: url('/resurssit/imagebar.jpg');">
 		<div class="container">
 			<div class="level">
 				<div class="level-item">

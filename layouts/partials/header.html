@@ -8,11 +8,10 @@
     <meta name="language" content="finnish"> 
 	<meta name="google-site-verification" content="t3xUkhKOWLb532C1C_urt42xSTx7WnKgg6WgO5MPC6s" />
 	<meta name="author" content="Jarno Ruokamo">
-	<meta name="description" content="{{ .Summary }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	{{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed") }}
 	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS $options }}
-	<link rel="stylesheet" href="{{ $style.Permalink }}?v=4">
-	<link rel="icon" type="image/png" href="{{ "favicon.png" | absURL }}">
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}?v=5">
+	<link rel="icon" type="image/png" href="/favicon.png">
 
 
