@@ -25,4 +25,4 @@ leveydellä 1 ja ilman reunan pehmennystä.
 
 Väripoimijalla voit siirtää valitun tason hiiren kursorin alla olevan pikselin joko edusta- tai taustaväriksi. Jos painat vasemmalla
 hiiren napilla, valitset edustavärin. Hiiren oikealla napilla valitset taustavärin. Tämän työkalun kanssa
-[Ristikko]({{< relref "nayta.md#ristikko" >}}) on hyödyllinen.
+[Ristikko]({{< relref "nayta#ristikko" >}}) on hyödyllinen.

@@ -18,30 +18,30 @@ Tämä valikko sisältää monta komentoa, joilla voit sisältää erilaisia teh
 
 Sisäänrakennetut tehosteet on jaettu seitsemään alavalikkoon:
 
-* #### [Artistinen]({{< relref "artistinen.md" >}})
+* #### [Artistinen]({{< relref "artistinen" >}})
 
     Näiden on tarkoitus antaa tuloksena jotain joka on piirretty perinteisillä tavoilla kuten musteella, kynällä ja öljyllä.
 
-* #### [Kohina]({{< relref "kohina.md" >}})
+* #### [Kohina]({{< relref "kohina" >}})
 
     Näiden on tarkoitus joko lisätä tai poistaa ääntä kuvasta.
 
-* #### [Renderointi]({{< relref "renderointi.md" >}})
+* #### [Renderointi]({{< relref "renderointi" >}})
 
     Nämä yleensä korvaavat kuvan joka on jo olemassa pohjalla.
 
-* #### [Sumennus]({{< relref "sumennus.md" >}})
+* #### [Sumennus]({{< relref "sumennus" >}})
 
     Näiden on tarkoitus sumentaa kuvaa erinäisillä tavoilla.
 
-* #### [Tyyli]({{< relref "tyyli.md" >}})
+* #### [Tyyli]({{< relref "tyyli" >}})
 
     Nämä tuottavat tyylikkäitä näkyjä jotka ovat hyödyllisiä reunojen löytämiseen jäljitystä varten, tai pelien tekstuurien tuottamiseen (esim. bump map).
 
-* #### [Valokuva]({{< relref "valokuva.md" >}})
+* #### [Valokuva]({{< relref "valokuva" >}})
 
     Nämä ovat kaikkein hyödyllisimpiä valokuvien kanssa.
 
-* #### [Vääristys]({{< relref "vaaristys.md" >}})
+* #### [Vääristys]({{< relref "vaaristys" >}})
 
     Näiden on tarkoitus vääristää kuvaa, yleensä tunnistamattomaksi asti.

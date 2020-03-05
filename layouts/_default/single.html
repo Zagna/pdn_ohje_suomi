@@ -13,9 +13,7 @@
 			<div class="level">
 				<div class="level-item">
 					<img src="/favicon.png" alt="paint.net ohje" />
-					<h1 class="title" style="font-weight: 600; text-shadow: 0px 0px 10px black; color: white; font-size: 1.5rem !important;">
-						paint.net ohje
-					</h1>
+					<h1 class="title" style="font-weight: 600; text-shadow: 0px 0px 10px black; color: white; font-size: 1.5rem !important;">paint.net ohje</h1>
 				</div>
 			</div>
 		</div>
@@ -31,6 +29,7 @@
 	</div>
 </section>
 {{ partialCached "menu.html" . }}
-{{ if .Params.tabs }} {{ partialCached "script.min.html" . }} {{ end }}
+{{ if .Params.tabs }} <script src="/js/tabs.min.js"></script> {{ end }}
+<script src="/js/nav.min.js"></script>
 </body>
 </html>

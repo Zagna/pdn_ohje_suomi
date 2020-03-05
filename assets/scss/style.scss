@@ -186,6 +186,15 @@ ul {
 	}
 }
 
+.tabs-content li {
+    display: none;
+    list-style: none;
+}
+
+.tabs-content li.is-active {
+    display: block;
+}
+
 .tools {
 	background-image: $sprite;
 	margin: 0 3px;

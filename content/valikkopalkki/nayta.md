@@ -54,4 +54,4 @@ Näytä-valikko sisältää komentoja joita voi käyttää vaihtamaan tapaa mite
 
     Tämä antaa sinun valita miten kuvien koordinaatit näytetään sinulle erinäisissä paikoissa käyttöliittymää mukaan lukien viivoitin ja tilapalkki.
     Oletusarvo on pikseli. Jos valitset tuumat tai senttimetrit, ylimääräisiä laskuja tarvitaan muuntamaan pikselimäärät tuumiin ja senttimetreihin.
-    Nämä laskut riippuvat kuvan resoluutiosta, jonka voit asettaa [Kuva **&rarr;** Muuta kokoa]({{< relref "kuva.md#muuta-kokoa" >}}) komennolla.
+    Nämä laskut riippuvat kuvan resoluutiosta, jonka voit asettaa [Kuva **&rarr;** Muuta kokoa]({{< relref "kuva#muuta-kokoa" >}}) komennolla.

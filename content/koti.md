@@ -33,7 +33,7 @@ kanssa, on se myöhemmin kasvanut tehokkaaksi työkaluksi kuvien muokkaamiseen.
     on että välilehdet voi järjestellä uudestaan vetämällä ja pudottamalla.
 
     Jokainen avoinna oleva kuva näkyy erillään Windowsin tehtäväpalkin esikatselussa \(tämän voi ottaa pois päältä
-    {{< tool "tools" >}}[Asetukset]({{< relref "asetukset.md" >}}) valikossa\).
+    {{< tool "tools" >}}[Asetukset]({{< relref "asetukset" >}}) valikossa\).
 
 * #### Tasot
 

@@ -13,7 +13,7 @@ tooltip = "magicwand"
 
 Taikasauva on työkalu jonka avulla voit valita tietyn värisiä alueita samalla tavalla kuin muut valintatyökalut valitsevat tietyn
 muodon. Toisin kuin valintatyökalut, Taikasauva ottaa huomioon kuvassa olevan sisällön ja sen hetkisen
-[Toleranssia]({{< relref "/tyokalupalkki.md" >}}#taikasauva-t%C3%A4ytt%C3%B6-ja-uudelleen-v%C3%A4ritys) asetuksen. Monissa tapauksissa,
+[Toleranssia]({{< relref "/tyokalupalkki" >}}#taikasauva-t%C3%A4ytt%C3%B6-ja-uudelleen-v%C3%A4ritys) asetuksen. Monissa tapauksissa,
 valitaksesi alueen sinun pitää vain napsauttaa sitä.
 
 Voit ajatella että Taikasauva toimii samalla lailla kuin Täyttö, mutta sen sijaan että se täyttäisi alueen värillä, se valitsee kyseisen alueen.
@@ -21,8 +21,8 @@ Voit ajatella että Taikasauva toimii samalla lailla kuin Täyttö, mutta sen si
 ### Toleranssi
 
 Samalla lailla kuin {{< tool "paintbucket" >}}
-[Täyttö]({{< relref "taytto.md" >}}), Taikasauvan tulosta voi säätää vaihtamalla
-[Toleranssia]({{< relref "/tyokalupalkki.md" >}}#taikasauva-t%C3%A4ytt%C3%B6-ja-uudelleen-v%C3%A4ritys). Alla näet esityksen
+[Täyttö]({{< relref "taytto" >}}), Taikasauvan tulosta voi säätää vaihtamalla
+[Toleranssia]({{< relref "/tyokalupalkki" >}}#taikasauva-t%C3%A4ytt%C3%B6-ja-uudelleen-v%C3%A4ritys). Alla näet esityksen
 tästä säädöstä.
 
 <div class="level">

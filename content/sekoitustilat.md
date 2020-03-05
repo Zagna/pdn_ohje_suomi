@@ -42,13 +42,13 @@ alla olevat sekoitustilat.
 ### Työkalujen sekoitustilat
 
 Tasojen lisäksi työkalut
-{{< tool "paintbucket" >}}[Täyttö]({{< relref "taytto.md" >}}),
-{{< tool "paintbrush" >}}[Sivellin]({{< relref "sivellin.md" >}}),
-{{< tool "pencil" >}}[Kynä]({{< relref "pikselityokalut.md" >}}),
-{{< tool "clonestamp" >}}[Kloonaus]({{< relref "kloonaus.md" >}}),
-{{< tool "shapes" >}}[Muodot]({{< relref "muodot.md" >}}),
-{{< tool "gradient" >}}[Väriliukuma]({{< relref "variliukuma.md" >}}) sekä
-{{< tool "linecurve" >}}[Viiva/Käyrä]({{< relref "viiva-kayra.md" >}})
+{{< tool "paintbucket" >}}[Täyttö]({{< relref "taytto" >}}),
+{{< tool "paintbrush" >}}[Sivellin]({{< relref "sivellin" >}}),
+{{< tool "pencil" >}}[Kynä]({{< relref "pikselityokalut" >}}),
+{{< tool "clonestamp" >}}[Kloonaus]({{< relref "kloonaus" >}}),
+{{< tool "shapes" >}}[Muodot]({{< relref "muodot" >}}),
+{{< tool "gradient" >}}[Väriliukuma]({{< relref "variliukuma" >}}) sekä
+{{< tool "linecurve" >}}[Viiva/Käyrä]({{< relref "viiva-kayra" >}})
 voivat käyttää sekoitustiloja.
 
 Työkalujen kanssa aiemmin mainittujen tilojen lisäksi on saatavilla myös Korvaava tila.

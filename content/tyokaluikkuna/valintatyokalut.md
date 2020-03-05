@@ -18,25 +18,25 @@ Neljä valintatyökalua on saatavilla. Katsomme niistä kolmea jotka ovat listat
 * Suorakulmainen valinta
 * Lassovalinta
 * Ellipsi valinta
-* [Taikasauva]({{< relref "/tyokaluikkuna/taikasauva.md" >}})
+* [Taikasauva]({{< relref "/tyokaluikkuna/taikasauva" >}})
 
 Nämä työkalut ovat päätavat alueiden valitsemiseen muokkausta, poistamista, kopiointia tai rajausta varten. Työkalujen käyttö on helppoa ja
 siinä käytetään samoja tapoja kuin muotojen piirtämisessä Muototyökaluilla.
 
 Yksinkertaisesti piirrä valinta vasemmalla hiiren napilla ja siirrä hiirtä kunnes muoto on sopiva. Poistaaksesi valinnan voit joko klikata
-missä tahansa kun valintatyökalu on valittu tai voit käyttää [Muokkaa **&rarr;** Poista valinta]({{< relref "/valikkopalkki/muokkaa.md" >}})
-(myös [Työkalupalkissa]({{< relref "/tyokalupalkki.md" >}}#valintaty%C3%B6kalut)).
+missä tahansa kun valintatyökalu on valittu tai voit käyttää [Muokkaa **&rarr;** Poista valinta]({{< relref "/valikkopalkki/muokkaa" >}})
+(myös [Työkalupalkissa]({{< relref "/tyokalupalkki" >}}#valintaty%C3%B6kalut)).
 
 Kun valinta on aktiivinen kuvassa, katkoviivainen piirretään näyttämään missä valinta on. Jos valintatyökalu on valittu, valinnassa on myös
 sininen korostus helpottamaan alueen näkemistä. Jos valitset muun työkalun, sininen korostus poistetaan jotta voit erottaa värit helpommin.
 
-Myös, kaikki piirtäminen on rajoitettu valintaan jonka valitset. Tähän sisältyy myös [Tehosteet]({{< relref "/valikkopalkki/tehosteet.md" >}}) ja
-[Säädöt]({{< relref "/valikkopalkki/saadot.md" >}}). Tämä voi olla erittäin hyödyllistä jos haluat rajoittaa piirtämisen tiettyyn alueeseen kuvasta.
+Myös, kaikki piirtäminen on rajoitettu valintaan jonka valitset. Tähän sisältyy myös [Tehosteet]({{< relref "/valikkopalkki/tehosteet" >}}) ja
+[Säädöt]({{< relref "/valikkopalkki/saadot" >}}). Tämä voi olla erittäin hyödyllistä jos haluat rajoittaa piirtämisen tiettyyn alueeseen kuvasta.
 
 Nämä työkalut myös antavat mahdollisuuden neljään eri yhdistämistapaan: lisäys, erotus, leikkaus ja käänteinen. Ensimmäiset kolme tilaa
 tunnetaan myös yhdistävä, vähentävä, ja poissulkeva. Nopea ohje näihin komentoihin, katso
 [Näppäimistön ja hiiren komennot]({{< relref "/nappaimisto-ja-hiiri.mmark" >}}). Lisäksi, valintoja voi siirtää, muuttaa kokoa ja pyörittää,
-lisätietoja: katso [Siirtotyökalut]({{< relref "/tyokaluikkuna/siirtotyokalut.md" >}}).
+lisätietoja: katso [Siirtotyökalut]({{< relref "/tyokaluikkuna/siirtotyokalut" >}}).
 
 Luodaksesi uuden valinnan, tai korvataksesi olemassa olevan, piirrä vain vasemmalla hiiren napilla. Toiminta on samanlainen kuin
 Muototyökaluilla.

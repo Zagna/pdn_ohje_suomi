@@ -14,42 +14,42 @@ title = "Valikkopalkki"
 
 Saatavilla on yhdeksän ylätason valikkoa ja pikapainikkeet ikkunoille paint.netissä:
 
-1. ### [Tiedosto]({{< relref "tiedosto.md" >}})
+1. ### [Tiedosto]({{< relref "tiedosto" >}})
 
     Nämä komennot antaa avata, hankkia ja tallentaa kuvia. Valikot toimivat samalla lailla kuin muissa ohjelmissa.
 
-1. ### [Muokkaa]({{< relref "muokkaa.md" >}})
+1. ### [Muokkaa]({{< relref "muokkaa" >}})
 
     Näillä komennoilla voit muokata kuvan historiaa, valittua alaa, itse valintaa ja leikepöytää.
 
-1. ### [Näytä]({{< relref "nayta.md" >}})
+1. ### [Näytä]({{< relref "nayta" >}})
 
     Nämä komennot vaikuttavat siihen miten kuva tai alue näytetään.
 
-1. ### [Kuva]({{< relref "kuva.md" >}})
+1. ### [Kuva]({{< relref "kuva" >}})
 
     Nämä komennot vaikuttavat koko kuvaan, kaikkiin tasoihin.
 
-1. ### [Tasot]({{< relref "tasot.md" >}})
+1. ### [Tasot]({{< relref "tasot" >}})
 
     Nämä komennot vaikuttavat vain aktiiviseen tasoon.
 
-1. ### [Säädöt]({{< relref "saadot.md" >}})
+1. ### [Säädöt]({{< relref "saadot" >}})
 
     Sisältää säätöjä joilla voi muokata nykyistä tasoa.
 
-1. ### [Tehosteet]({{< relref "tehosteet.md" >}})
+1. ### [Tehosteet]({{< relref "tehosteet" >}})
 
     Sisältää tehosteita joita voi käyttää nykyisen tason muokkaukseen.
 
-1. ### [Ikkunat]({{< relref "ikkunat.md" >}})
+1. ### [Ikkunat]({{< relref "ikkunat" >}})
 
     Nämä komennot antavat sinun piilottaa tai näyttää kelluvat ikkunat.
 
-1. ### [Asetukset]({{< relref "asetukset.md" >}})
+1. ### [Asetukset]({{< relref "asetukset" >}})
 
     Sisältää ohjelman asetukset.
 
-1. ### [Ohje]({{< relref "ohje.md" >}})
+1. ### [Ohje]({{< relref "ohje" >}})
 
     Antaa nopean pääsyn tähän ohjeeseen, tavan lähettää palautetta tai virheilmoituksen ja pääsyn Tietoja-valikkoon.

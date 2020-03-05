@@ -1,41 +1,46 @@
 
 </div>
 {{ $data := index .Site.Data (.Get 0) }}
-<div class="tabs is-small">
-	<ul>
-	{{ range $index, $element := $data.tab }}
-		{{ if eq $index 0 }}
-			<li class="tab-item is-active" id="{{ .id }}"><a href="javascript:rudrSwitchTab('{{ .id }}', 'content-{{ .id }}');">{{ .name }}</a></li>
-		{{ else }}
-			<li class="tab-item" id="{{ .id }}"><a href="javascript:rudrSwitchTab('{{ .id }}', 'content-{{ .id }}');">{{ .name }}</a></li>
+<div class="tabs-wrapper">
+	<div class="tabs is-small">
+		<ul>
+		{{ range $index, $element := $data.tab }}
+			{{ if eq $index 0 }}
+				<li class="tab-item is-active"><a>{{ .name }}</a></li>
+			{{ else }}
+				<li class="tab-item"><a>{{ .name }}</a></li>
+			{{ end }}
 		{{ end }}
-	{{ end }}
-	</ul>
-</div>
-<div class="tab-content">
-{{ range $index, $element := $data.tab }}
-	{{ if eq $index 0 }}
-	<div class="box tab-content-item" id="content-{{ .id }}">
-	{{ else }}
-	<div style="display:none;" class="box tab-content-item" id="content-{{ .id }}">
-	{{ end }}
-		{{ with .content }}<p>{{ markdownify . }}</p>{{ end }}
-		{{ range .figure }}
-			<figure style="display: inline-block;">
-				<img class="{{ .class }}" src="{{ .src }}" alt="{{ .alt }}">
-				{{ with .caption }}
-				<figcaption>
-					<h4>{{ . }}</h4>
-				</figcaption>
-				{{ end }}
-			</figure>
-		{{ end }}
-		{{ with .vihje }}
-		<div class="tip">
-			<h3>Vihje</h3>
-			<p class="notification is-success">{{ . }}</p>
-		</div>
-		{{ end }}
+		</ul>
 	</div>
-{{ end }}
-
+	<div class="tabs-content">
+		<ul>
+			{{ range $index, $element := $data.tab }}
+				{{ if eq $index 0 }}
+				<li class="is-active">
+				{{ else }}
+				<li>
+				{{ end }}
+					<div class="box tab-content-item">
+					{{ with .content }}<p>{{ markdownify . }}</p>{{ end }}
+					{{ range .figure }}
+						<figure style="display: inline-block;">
+							<img class="{{ .class }}" src="{{ .src }}" alt="{{ .alt }}">
+							{{ with .caption }}
+							<figcaption>
+								<h4>{{ . }}</h4>
+							</figcaption>
+							{{ end }}
+						</figure>
+					{{ end }}
+					{{ with .vihje }}
+						<div class="tip">
+							<h3>Vihje</h3>
+							<p class="notification is-success">{{ . }}</p>
+						</div>
+					{{ end }}
+					</div>
+				</li>
+			{{ end }}
+		</ul>
+	</div>

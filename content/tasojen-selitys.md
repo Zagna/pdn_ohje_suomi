@@ -52,7 +52,7 @@ Kuitenkin, läpinäkyviä pikseleitä ei voi näyttää tietokoneen näytöllä.
 </div>
 
 Jos näet tämän, se tarkoittaa että osa kuvastasi on läpinäkyvä -- shakkilautamalli ei ole osa kuvaa. Voit ajatella että shakkilautamalli virtuaalinen
-taustakuva, tai "taso 0", joka on aina [Tasoikkunassa]({{< relref "tasoikkuna.md" >}}) olevien tasojen alla. Kuitenkin, kuten aiemmin mainitsimme,
+taustakuva, tai "taso 0", joka on aina [Tasoikkunassa]({{< relref "tasoikkuna" >}}) olevien tasojen alla. Kuitenkin, kuten aiemmin mainitsimme,
 se ei ole osa kuvaa. Jos tallennat kuvan ja katsot sitä tai avaat sen toisella ohjelmalla on shakkilautamalli poissa (paitsi jos tämä toinen ohjelma
 myös käyttää shakkilautamallia läpinäkyvyyden esittämiseen).
 

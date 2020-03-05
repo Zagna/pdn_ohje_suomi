@@ -40,7 +40,7 @@ Klikkaa ja vedä hiirellä siirtääksesi kuvaa.
 
 Versiosta 4.0.10 eteenpäin on ollut mahdollista vierittää kuvaa ikkunan reunan yli.
 
-{{< vihje >}}Tämä asetus on mahdollistaa pistää pois päältä {{< tool "tools" >}}[Asetuksista]({{< relref "asetukset.md" >}}).{{< /vihje >}}
+{{< vihje >}}Tämä asetus on mahdollistaa pistää pois päältä {{< tool "tools" >}}[Asetuksista]({{< relref "asetukset" >}}).{{< /vihje >}}
 
 Ylivierityksen määrä riippuu kuvan koosta. Pienet kuvat voi siirtää kunnes puolet kuvasta on ikkunan ulkopuolella.
 
