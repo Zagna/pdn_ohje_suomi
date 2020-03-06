@@ -26,23 +26,17 @@ Samalla lailla kuin {{< tool "paintbucket" >}}
 tästä säädöstä.
 
 <div class="level">
-<div class="level-item">
-
-{{< figure src="/resurssit/magicwand_tol25.jpg" title="Taikasauva toleranssiasetuksella 15%." caption="Valinta ei valitse tarpeeksi kuvasta: toleranssi on liian pieni." >}}
-
-</div>
-<div class="level-item">
-
-{{< figure src="/resurssit/magicwand_tol50.jpg" title="Taikasauva toleranssiasetuksella 45%." caption="Valinta valitsee liikaa kuvasta: toleranssi on liian suuri." >}}
-
-</div>
+    <div class="level-item">
+        {{< figure src="/resurssit/magicwand_tol25.jpg" title="Taikasauva toleranssiasetuksella 15%." caption="Valinta ei valitse tarpeeksi kuvasta: toleranssi on liian pieni." >}}
+    </div>
+    <div class="level-item">
+        {{< figure src="/resurssit/magicwand_tol50.jpg" title="Taikasauva toleranssiasetuksella 45%." caption="Valinta valitsee liikaa kuvasta: toleranssi on liian suuri." >}}
+    </div>
 </div>
 <div class="level">
-<div class="level-item">
-
-{{< figure src="/resurssit/magicwand_tol31.jpg" title="Taikasauva toleranssiasetuksella 25%." caption="Valinta valitsee juuri sopivasti kuvasta." >}}
-
-</div>
+    <div class="level-item">
+        {{< figure src="/resurssit/magicwand_tol31.jpg" title="Taikasauva toleranssiasetuksella 25%." caption="Valinta valitsee juuri sopivasti kuvasta." >}}
+    </div>
 </div>
 
 ## Kehittynyt käyttö
@@ -56,11 +50,9 @@ hiljaa kunnes olet saanut kaiken.
 {{< vihje >}}Voit laajentaa valintaa klikkaamalla samalla kun Ctrl-nappi on alhaalla.{{< /vihje >}}
 
 <div class="level">
-<div class="level-item">
-
-{{< figure src="/resurssit/magicwand_collect.jpg;/resurssit/magicwand_collect2.jpg" title="Taikasauvaa käytettiin monta kertaa." caption="Laajentaen valintaa osissa, joka kerta valiten uuden alueen kun Ctrl-nappi on alhaalla." >}}
-
-</div>
+    <div class="level-item">
+        {{< figure src="/resurssit/magicwand_collect.jpg;/resurssit/magicwand_collect2.jpg" title="Taikasauvaa käytettiin monta kertaa." caption="Laajentaen valintaa osissa, joka kerta valiten uuden alueen kun Ctrl-nappi on alhaalla." >}}
+    </div>
 </div>
 
 ### Poissulkeva valinta
@@ -71,11 +63,9 @@ Tämä metodi toimii hyvin kun kohteen ympärillä puuttuu yksityiskohtia.
 {{< vihje >}}Voit vähentää valintaa klikkaamalla oikealla hiiren napilla.{{< /vihje >}}
 
 <div class="level">
-<div class="level-item">
-
-{{< figure src="/resurssit/magicwand_exclude.jpg;/resurssit/magicwand_exclude2.jpg" title="Alustava valinta tehtiin lassotyökalulla." caption="Sen jälkeen Taikasauvaa käytettiin sulkemaan pois alueet joita ei ole tarkoitettu ottaa mukaan, klikkaamalla poissuljettavia alueita oikealla hiiren napilla." >}}
-
-</div>
+    <div class="level-item">
+        {{< figure src="/resurssit/magicwand_exclude.jpg;/resurssit/magicwand_exclude2.jpg" title="Alustava valinta tehtiin lassotyökalulla." caption="Sen jälkeen Taikasauvaa käytettiin sulkemaan pois alueet joita ei ole tarkoitettu ottaa mukaan, klikkaamalla poissuljettavia alueita oikealla hiiren napilla." >}}
+    </div>
 </div>
 
 ### Globaali valinta
@@ -85,9 +75,7 @@ On mahdollista, kuitenkin, tehdä valinta joka riippuu vain väristä, unohtaen 
 tehdä painamalla Shift-nappia kun teet minkä tahansa muun Taikasauvan työn (myös valinnan lisäys ja erotus).
 
 <div class="level">
-<div class="level-item">
-
-{{< figure src="/resurssit/magicwand_noncontiguous.png" title="Tämä valinta tehtiin ensin tekemällä Valitse kaikki (Muokkaa → Valitse kaikki)." caption="Sen jälkeen Shift pohjassa sulkien pois kaikki mustat alueet. Huomaa että monista yksittäisistä mustista alueista on valinta poistettu." >}}
-
-</div>
+    <div class="level-item">
+        {{< figure src="/resurssit/magicwand_noncontiguous.png" title="Tämä valinta tehtiin ensin tekemällä Valitse kaikki (Muokkaa → Valitse kaikki)." caption="Sen jälkeen Shift pohjassa sulkien pois kaikki mustat alueet. Huomaa että monista yksittäisistä mustista alueista on valinta poistettu." >}}
+    </div>
 </div>

@@ -15,11 +15,9 @@ tehdään liittyy kuvan sisääntulon ja ulostulon valkopisteeseen, harmaapistee
 kuvassa ja mustapiste on kaikkein tummin väri mikä esiintyy kuvassa. Harmaapiste esittää värien keskiarvoa koko kuvassa.
 
 <div class="level">
-<div class="level-item">
-
-{{< figure src="/kuvat/levels1.png" alt="Käyrät1" >}}
-
-</div>
+    <div class="level-item">
+        {{< figure src="/kuvat/levels1.png" alt="Käyrät1" >}}
+    </div>
 </div>
 
 Jokaista väripistettä voi muokata käyttäen Sävyalaa. Yllä olevassa valikossa, on 5 numeerista valintaa ja 5 väriliukua. Kaksi vasemmalla puolella
@@ -32,12 +30,10 @@ ja muuttamalla mustapistettä hieman kirkkaammaksi, teemme kaikista niistä tumm
 siirretty hieman kirkkaammaksi. Vaikka tämä ei vaikuta kuvan valkoiseen tai mustaan, se nostaa kuvan värejä yleisesti kirkkaammiksi.
 
 <div class="level">
-<div class="level-item">
-
-{{< figure src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät2" >}}
-{{< figure src="/resurssit/lewistonsunset_small_levels1.jpg" alt="Käyrät3" >}}
-
-</div>
+    <div class="level-item">
+        {{< figure src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät2" >}}
+        {{< figure src="/resurssit/lewistonsunset_small_levels1.jpg" alt="Käyrät3" >}}
+    </div>
 </div>
 
 Nämä säädöt venyvät koko kuvan alaan, näyttäen helposti histogrammeista mitkä ovat kummallakin puolella. Histogrammi vasemmalla näyttää kuvan
@@ -56,18 +52,14 @@ kanavat voi säätää erillään (enintään kaksi kerrallaan). Alla olevassa k
 aikaan, johtaen syaanin määrän tippumiseen kuvassa. Tämä korostaa punaista kuvassa, kuten voi nähdä alla olevassa kuvassa.
 
 <div class="level">
-<div class="level-item">
-
-{{< figure src="/kuvat/levels2.png" alt="Käyrät4" >}}
-
-</div>
+    <div class="level-item">
+        {{< figure src="/kuvat/levels2.png" alt="Käyrät4" >}}
+    </div>
 </div>
 
 <div class="level">
-<div class="level-item">
-
-{{< figure src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät5" >}}
-{{< figure src="/resurssit/lewistonsunset_small_levels2.jpg" alt="Käyrät6" >}}
-
-</div>
+    <div class="level-item">
+        {{< figure src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät5" >}}
+        {{< figure src="/resurssit/lewistonsunset_small_levels2.jpg" alt="Käyrät6" >}}
+    </div>
 </div>

@@ -1,5 +1,4 @@
 
-</div>
 {{ $data := index .Site.Data (.Get 0) }}
 <div class="tabs-wrapper">
 	<div class="tabs is-small">
@@ -22,7 +21,7 @@
 				<li>
 				{{ end }}
 					<div class="box tab-content-item">
-					{{ with .content }}<p>{{ markdownify . }}</p>{{ end }}
+					{{ with .content }}<p>{{ $.Page.RenderString . }}</p>{{ end }}
 					{{ range .figure }}
 						<figure style="display: inline-block;">
 							<img class="{{ .class }}" src="{{ .src }}" alt="{{ .alt }}">
@@ -44,3 +43,4 @@
 			{{ end }}
 		</ul>
 	</div>
+</div>

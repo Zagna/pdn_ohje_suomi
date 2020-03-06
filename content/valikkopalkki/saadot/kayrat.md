@@ -11,11 +11,9 @@ title = "Käyrät"
 +++
 
 <div class="level">
-<div class="level-item">
-
-{{< figure src="/kuvat/kayra0.png" alt="Käyrät-Null" >}}
-
-</div>
+    <div class="level-item">
+        {{< figure src="/kuvat/kayra0.png" alt="Käyrät-Null" >}}
+    </div>
 </div>
 
 Käyrät-säätöä voi käyttää värien muokkaamiseen suurella määrällä ohjattavuutta. Käyrät antavat sinun hienosäätää jokaisen sävyn
@@ -44,22 +42,17 @@ piirretty näyttää että tummemmat sävyt tulisi tummentaa lisää ja valoisat
 vahvemmat kirkkaat, kuitenkin ylläpitäen alkuperäisen kuvan muodon.
 
 <div class="level">
-<div class="level-item">
-
-{{< figure src="/kuvat/kayra1.png" alt="Käyrät-Luminosity" >}}
-
-</div>
+    <div class="level-item">
+        {{< figure src="/kuvat/kayra1.png" alt="Käyrät-Luminosity" >}}
+    </div>
 </div>
 
 <div class="level">
-<div class="level-item">
-
-{{< figure src="/resurssit/tehoste.jpg" alt="Koira1" >}}
-{{< figure src="/resurssit/tehoste_kayra1.jpg" alt="Koira2" >}}
-
+    <div class="level-item">
+        {{< figure src="/resurssit/tehoste.jpg" alt="Koira1" >}}
+        {{< figure src="/resurssit/tehoste_kayra1.jpg" alt="Koira2" >}}
+    </div>
 </div>
-</div>
-
 
 ### Monikanavasäädöt
 
@@ -72,20 +65,16 @@ Muokataksesi yksittäisiä tai tiettyjä kanavia, valitse ne vain käyttäen val
 Alla oleva kuva on muokattu Käyrillä vahvistamaan koiran turkin punaisen voimakkuutta.
 
 <div class="level">
-<div class="level-item">
-
-{{< figure src="/kuvat/kayra2.png" alt="Käyrät-Mix" >}}
-
-</div>
+    <div class="level-item">
+        {{< figure src="/kuvat/kayra2.png" alt="Käyrät-Mix" >}}
+    </div>
 </div>
 
 <div class="level">
-<div class="level-item">
-
-{{< figure src="/resurssit/tehoste.jpg" alt="Koira3" >}}
-{{< figure src="/resurssit/tehoste_kayra2.jpg" alt="Koira4" >}}
-
-</div>
+    <div class="level-item">
+        {{< figure src="/resurssit/tehoste.jpg" alt="Koira3" >}}
+        {{< figure src="/resurssit/tehoste_kayra2.jpg" alt="Koira4" >}}
+    </div>
 </div>
 
 ### Muut mahdollisuudet
@@ -94,18 +83,14 @@ Kuten aiemmin mainittiin, voit käyttää Käyriä kuvan invertoimiseen. Esimerk
 kuvan mikä ei ole mahdollista muilla säädöillä, kuten [Sävyala]({{< relref "savyala" >}}) tai Sävy / Värikylläisyys:
 
 <div class="level">
-<div class="level-item">
-
-{{< figure src="/kuvat/kayra3.png" alt="Käyrät-Sin" >}}
-
-</div>
+    <div class="level-item">
+        {{< figure src="/kuvat/kayra3.png" alt="Käyrät-Sin" >}}
+    </div>
 </div>
 
 <div class="level">
-<div class="level-item">
-
-{{< figure src="/resurssit/ruisleipa.jpg" alt="Ruisleipä" >}}
-{{< figure src="/resurssit/ruisleipa_kayra3.jpg" alt="Ruisleipä käyrät" >}}
-
-</div>
+    <div class="level-item">
+        {{< figure src="/resurssit/ruisleipa.jpg" alt="Ruisleipä" >}}
+        {{< figure src="/resurssit/ruisleipa_kayra3.jpg" alt="Ruisleipä käyrät" >}}
+    </div>
 </div>

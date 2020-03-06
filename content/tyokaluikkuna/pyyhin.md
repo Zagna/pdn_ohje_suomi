@@ -24,13 +24,9 @@ luomalla uusi taso, täyttämällä se sinisellä käyttäen Täyttö-työkalua 
 siirtääksesi tason kissan taakse.
 
 <div class="level">
-<div class="level-item">
-
-{{< figure oclass="text-center" src="/resurssit/eraser_part1.jpg" title="Alkuperäinen kuva" alt="Pyyhin osa 1" >}}
-
-{{< figure oclass="text-center" src="/resurssit/eraser_part2.jpg" title="Pyyhkimen käyttö" caption="Pyyhkimellä on poistettu kaikki muu kuin kissa.<br>Shakkilautamalli esittää läpinäkyvää osaa kuvasta." alt="Pyyhin osa 2" >}}
-
-{{< figure oclass="text-center" src="/resurssit/eraser_part3.jpg" title="Sininen taso alapuolelle" caption="Uusi taso kissan alapuolelle ja sinisellä täyttö." alt="Pyyhin osa 3" >}}
-
-</div>
+    <div class="level-item">
+        {{< figure oclass="text-center" src="/resurssit/eraser_part1.jpg" title="Alkuperäinen kuva" alt="Pyyhin osa 1" >}}
+        {{< figure oclass="text-center" src="/resurssit/eraser_part2.jpg" title="Pyyhkimen käyttö" caption="Pyyhkimellä on poistettu kaikki muu kuin kissa.<br>Shakkilautamalli esittää läpinäkyvää osaa kuvasta." alt="Pyyhin osa 2" >}}
+        {{< figure oclass="text-center" src="/resurssit/eraser_part3.jpg" title="Sininen taso alapuolelle" caption="Uusi taso kissan alapuolelle ja sinisellä täyttö." alt="Pyyhin osa 3" >}}
+    </div>
 </div>

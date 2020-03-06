@@ -25,8 +25,6 @@ täytetään myös. Täyttöä käytettiin kolme kertaa: kerran kummankin ympyr�
 alueeseen.
 
 <div class="d-flex flex-wrap justify-content-center">
-
-{{< figure src="/kuvat/paintbucket_beforefill.png" title="Ennen"  alt="Täyttö ennen" >}}
-{{< figure src="/kuvat/paintbucket_afterfill.png" title="Jälkeen" alt="Täyttö jälkeen" >}}
-
+    {{< figure src="/kuvat/paintbucket_beforefill.png" title="Ennen"  alt="Täyttö ennen" >}}
+    {{< figure src="/kuvat/paintbucket_afterfill.png" title="Jälkeen" alt="Täyttö jälkeen" >}}
 </div>
