@@ -14,8 +14,8 @@ Tätä aihetta varten seuraavia kahta kuvaa käytetään taustakuvaksi sekä ens
 
 <div class="level">
     <div class="level-item">
-        {{< figure src="/resurssit/kemijoki.jpg" title="Taustakuva - Kuva Rovaniemestä (1972)" caption="(\"Pohja taso\")" >}}
-        {{< figure src="/resurssit/ruisleipa.jpg" title="Taso 1 - Kuva ruisleivästä" caption="(\"Päällinen taso\")" >}}
+        {{< figure src="/resurssit/kemijoki.jpg" title="Taustakuva - Kuva Rovaniemestä (1972)" caption="(\"Pohja taso\")" alt="Pohja" >}}
+        {{< figure src="/resurssit/ruisleipa.jpg" title="Taso 1 - Kuva ruisleivästä" caption="(\"Päällinen taso\")" alt="Päällinen" >}}
     </div>
 </div>
 
@@ -59,18 +59,18 @@ Esimerkkinä, jos asetamme päällisen tason päittävyyden 255:sta askelin 0:aa
 
 <div class="level">
     <div class="level-item">
-        {{< figure src="/resurssit/3d_ruisleipa_100.jpg" title="Taso 1 peittävyys 255 (100%)" caption="Täysin peittävä: Rovaniemeä ei näe." >}}
+        {{< figure src="/resurssit/3d_ruisleipa_100.jpg" title="Taso 1 peittävyys 255 (100%)" caption="Täysin peittävä: Rovaniemeä ei näe." alt="Ei näy" >}}
     </div>
 </div>
 
 <div class="level">
     <div class="level-item">
-        {{< figure src="/resurssit/3d_ruisleipa_50.jpg" title="Taso 1 peittävyys 128 (noin 50%)" caption="Osittain läpinäkyvä: Rovaniemi on osittain näkyvä." >}}
+        {{< figure src="/resurssit/3d_ruisleipa_50.jpg" title="Taso 1 peittävyys 128 (noin 50%)" caption="Osittain läpinäkyvä: Rovaniemi on osittain näkyvä." alt="Osittain näkyy" >}}
     </div>
 </div>
 
 <div class="level">
     <div class="level-item">
-        {{< figure src="/resurssit/3d_ruisleipa_0.jpg" title="Taso 1 peittävyys 0 (0%)" caption="Täysin läpinäkyvä: Ruisleipä ei enää näy." >}}
+        {{< figure src="/resurssit/3d_ruisleipa_0.jpg" title="Taso 1 peittävyys 0 (0%)" caption="Täysin läpinäkyvä: Ruisleipä ei enää näy." alt="Ei näe" >}}
     </div>
 </div>
