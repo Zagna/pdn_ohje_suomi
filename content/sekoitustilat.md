@@ -20,8 +20,8 @@ Tätä aihetta varten seuraavia kahta kuvaa käytetään taustakuvaksi sekä ens
 
 <div class="level">
     <div class="level-item">
-        {{< figure src="/resurssit/kemijoki.jpg" title="Taustakuva - Kuva Rovaniemestä (1972)" caption="(\"Pohja taso\")" >}}
-        {{< figure src="/resurssit/ruisleipa.jpg" title="Taso 1 - Kuva ruisleivästä" caption="(\"Päällinen taso\")" >}}
+        {{< figure src="/resurssit/kemijoki.jpg" title="Taustakuva - Kuva Rovaniemestä (1972)" caption="(\"Pohja taso\")" alt="Pohja" >}}
+        {{< figure src="/resurssit/ruisleipa.jpg" title="Taso 1 - Kuva ruisleivästä" caption="(\"Päällinen taso\")" alt="Päällinen" >}}
     </div>
 </div>
 
