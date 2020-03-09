@@ -27,15 +27,15 @@ tästä säädöstä.
 
 <div class="level">
     <div class="level-item">
-        {{< figure src="/resurssit/magicwand_tol25.jpg" title="Taikasauva toleranssiasetuksella 15%." caption="Valinta ei valitse tarpeeksi kuvasta: toleranssi on liian pieni." >}}
+        {{< figure src="/resurssit/magicwand_tol25.jpg" title="Taikasauva toleranssiasetuksella 15%." caption="Valinta ei valitse tarpeeksi kuvasta: toleranssi on liian pieni." alt="Pieni toleranssi" >}}
     </div>
     <div class="level-item">
-        {{< figure src="/resurssit/magicwand_tol50.jpg" title="Taikasauva toleranssiasetuksella 45%." caption="Valinta valitsee liikaa kuvasta: toleranssi on liian suuri." >}}
+        {{< figure src="/resurssit/magicwand_tol50.jpg" title="Taikasauva toleranssiasetuksella 45%." caption="Valinta valitsee liikaa kuvasta: toleranssi on liian suuri." alt="Suuri toleranssi" >}}
     </div>
 </div>
 <div class="level">
     <div class="level-item">
-        {{< figure src="/resurssit/magicwand_tol31.jpg" title="Taikasauva toleranssiasetuksella 25%." caption="Valinta valitsee juuri sopivasti kuvasta." >}}
+        {{< figure src="/resurssit/magicwand_tol31.jpg" title="Taikasauva toleranssiasetuksella 25%." caption="Valinta valitsee juuri sopivasti kuvasta." alt="Sopiva toleranssi" >}}
     </div>
 </div>
 
@@ -51,7 +51,7 @@ hiljaa kunnes olet saanut kaiken.
 
 <div class="level">
     <div class="level-item">
-        {{< figure src="/resurssit/magicwand_collect.jpg;/resurssit/magicwand_collect2.jpg" title="Taikasauvaa käytettiin monta kertaa." caption="Laajentaen valintaa osissa, joka kerta valiten uuden alueen kun Ctrl-nappi on alhaalla." >}}
+        {{< figure src="/resurssit/magicwand_collect.jpg;/resurssit/magicwand_collect2.jpg" title="Taikasauvaa käytettiin monta kertaa." caption="Laajentaen valintaa osissa, joka kerta valiten uuden alueen kun Ctrl-nappi on alhaalla." alt="Toistuva taikasauva" >}}
     </div>
 </div>
 
@@ -64,7 +64,7 @@ Tämä metodi toimii hyvin kun kohteen ympärillä puuttuu yksityiskohtia.
 
 <div class="level">
     <div class="level-item">
-        {{< figure src="/resurssit/magicwand_exclude.jpg;/resurssit/magicwand_exclude2.jpg" title="Alustava valinta tehtiin lassotyökalulla." caption="Sen jälkeen Taikasauvaa käytettiin sulkemaan pois alueet joita ei ole tarkoitettu ottaa mukaan, klikkaamalla poissuljettavia alueita oikealla hiiren napilla." >}}
+        {{< figure src="/resurssit/magicwand_exclude.jpg;/resurssit/magicwand_exclude2.jpg" title="Alustava valinta tehtiin lassotyökalulla." caption="Sen jälkeen Taikasauvaa käytettiin sulkemaan pois alueet joita ei ole tarkoitettu ottaa mukaan, klikkaamalla poissuljettavia alueita oikealla hiiren napilla." alt="Poissulkeva" >}}
     </div>
 </div>
 
@@ -76,6 +76,6 @@ tehdä painamalla Shift-nappia kun teet minkä tahansa muun Taikasauvan työn (m
 
 <div class="level">
     <div class="level-item">
-        {{< figure src="/resurssit/magicwand_noncontiguous.png" title="Tämä valinta tehtiin ensin tekemällä Valitse kaikki (Muokkaa → Valitse kaikki)." caption="Sen jälkeen Shift pohjassa sulkien pois kaikki mustat alueet. Huomaa että monista yksittäisistä mustista alueista on valinta poistettu." >}}
+        {{< figure src="/resurssit/magicwand_noncontiguous.png" title="Tämä valinta tehtiin ensin tekemällä Valitse kaikki (Muokkaa → Valitse kaikki)." caption="Sen jälkeen Shift pohjassa sulkien pois kaikki mustat alueet. Huomaa että monista yksittäisistä mustista alueista on valinta poistettu." alt="Globaali" >}}
     </div>
 </div>
