@@ -11,7 +11,7 @@ tooltip = "shapes"
 
 +++
 
-Seuraavat työkalut ovat samankaltaisia ja niistä puhumme tällä kertaa:
+Seuraavat työkalut ovat samankaltaisia ja niistä puhumme tällä kertaa:<!--more-->
 
 {{< figure src="/kuvat/shapetools.png" alt="Muodot" >}}
 
