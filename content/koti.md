@@ -73,7 +73,6 @@ kanssa, on se myöhemmin kasvanut tehokkaaksi työkaluksi kuvien muokkaamiseen.
 
     paint.net jaetaan ilman maksua.
 
-Palautetta käännöksestä voi lähettää [sähköpostilla](mailto:jarno.ruokamo@gmail.com?subject=Palautetta%20k%C3%A4%C3%A4nn%C3%B6ksest%C3%A4)
-<img style="vertical-align: middle;" src="/resurssit/fi.png" alt="suomilippu" />.
+Palautetta käännöksestä voi lähettää [lomakkeella]({{< relref "palaute" >}}) <img style="vertical-align: middle;" src="/resurssit/fi.png" alt="suomilippu" />.
 
 Terveisin, Jarno Ruokamo.

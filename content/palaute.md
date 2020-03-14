@@ -1,0 +1,56 @@
++++
+date = "2015-09-09T18:42:31+03:00"
+draft = false
+title = "Palaute"
++++
+
+<form name="palaute" method="POST" data-netlify="true" action="/kiitos-palautteesta/">
+    <div class="field is-horizontal">
+        <div class="field-label is-normal">
+            <label class="label">Nimi</label>
+        </div>
+        <div class="field-body">
+            <div class="field">
+                <div class="control">
+                    <input name="nimi" class="input" type="text" placeholder="Nimi">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="field is-horizontal">
+        <div class="field-label is-normal">
+            <label class="label">Sähköposti</label>
+        </div>
+        <div class="field-body">
+            <div class="field">
+                <div class="control">
+                    <input name="email" class="input" type="text" placeholder="Sähköposti">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="field is-horizontal">
+        <div class="field-label is-normal">
+            <label class="label">Palaute</label>
+        </div>
+        <div class="field-body">
+            <div class="field">
+                <div class="control">
+                    <textarea rows="5" class="textarea" type="text" placeholder="Palaute"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="field is-horizontal">
+        <div class="field-label">
+            <!-- Left empty for spacing -->
+        </div>
+        <div class="field-body">
+            <div class="field">
+                <div class="control">
+                    <button class="button is-primary">Lähetä palaute</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
