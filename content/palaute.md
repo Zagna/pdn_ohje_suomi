@@ -48,7 +48,7 @@ title = "Palaute"
         <div class="field-body">
             <div class="field">
                 <div class="control">
-                    <button class="button is-primary">Lähetä palaute</button>
+                    <button type="submit" class="button is-primary">Lähetä palaute</button>
                 </div>
             </div>
         </div>
