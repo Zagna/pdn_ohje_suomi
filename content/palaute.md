@@ -51,7 +51,7 @@ title = "Palaute"
                     <button type="submit" class="button is-primary">Lähetä palaute</button>
                 </div>
             </div>
+            <div data-netlify-recaptcha="true"></div>
         </div>
     </div>
-    <div data-netlify-recaptcha="true"></div>
 </form>
