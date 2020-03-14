@@ -4,7 +4,7 @@ draft = false
 title = "Palaute"
 +++
 
-<form name="palaute" method="POST" data-netlify="true" action="/kiitos-palautteesta/">
+<form name="palaute" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/kiitos-palautteesta/">
     <div class="field is-horizontal">
         <div class="field-label is-normal">
             <label class="label">Nimi</label>
@@ -53,4 +53,5 @@ title = "Palaute"
             </div>
         </div>
     </div>
+    <div data-netlify-recaptcha="true"></div>
 </form>
