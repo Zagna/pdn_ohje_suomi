@@ -8,12 +8,12 @@
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <section class="hero">
-	<div class="hero-body" style="background-image: url('/resurssit/imagebar.jpg');">
+	<div class="hero-body">
 		<div class="container">
 			<div class="level">
 				<div class="level-item">
 					<a href="/"><img src="/favicon.png" alt="paint.net ohje" /></a>
-					<a href="/"><h1 class="title" style="font-weight: 600; text-shadow: 0px 0px 10px black; color: white; font-size: 1.5rem !important;">paint.net ohje</h1></a>
+					<a href="/"><h1 class="title">paint.net ohje</h1></a>
 				</div>
 			</div>
 		</div>
@@ -22,7 +22,7 @@
 <section class="section">
 	<div class="container">
 		<div class="content">
-			<h2>{{ .Title }}{{ if .Params.tooltip }} <img src="/resurssit/tyokalut/pixel.png" style="vertical-align: middle;" class="tools bg-{{ .Params.tooltip }}" alt="{{ .Title }}" />{{ end }}</h2>
+			<h2>{{ .Title }}{{ if .Params.tooltip }} <img src="/resurssit/tyokalut/pixel.png" class="tools bg-{{ .Params.tooltip }}" alt="{{ .Title }}" />{{ end }}</h2>
 			{{ .Content }}
 		</div>
 		{{ partialCached "footer.html" . }}

@@ -23,7 +23,7 @@
 					<div class="box tab-content-item">
 					{{ with .content }}<p>{{ $.Page.RenderString . }}</p>{{ end }}
 					{{ range .figure }}
-						<figure style="display: inline-block;">
+						<figure>
 							<img class="{{ .class }}" src="{{ .src }}" alt="{{ .alt }}">
 							{{ with .caption }}
 							<figcaption>

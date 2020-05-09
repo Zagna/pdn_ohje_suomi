@@ -93,9 +93,16 @@ figure {
 }
 .footer {
 	margin-top: 2em;
+	> div.content {
+		text-align: center;
+	}
 }
 .fixed {
 	font-family: $family-code;
+}
+
+#navbar {
+	justify-content: center;
 }
 
 #banner {
@@ -118,6 +125,17 @@ figure {
 		font-size: 3.1em;
 		height: 80px;
 	}
+}
+
+.hero-body {
+	background-image: url('/resurssit/imagebar.jpg');
+}
+
+h1.title {
+	font-weight: 600;
+	text-shadow: 0px 0px 10px black;
+	color: white;
+	font-size: 1.5rem !important;
 }
 
 ol {
@@ -194,14 +212,17 @@ ul {
 
 .tabs-content li {
     display: none;
-    list-style: none;
-}
-
-.tabs-content li.is-active {
-    display: block;
+	list-style: none;
+	&.is-active {
+		display: block;
+	}
+	figure {
+		display: inline-block;
+	}
 }
 
 .tools {
+	vertical-align: middle;
 	background-image: $sprite;
 	margin: 0 3px;
 }
