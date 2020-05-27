@@ -36,7 +36,7 @@ title = "Palaute"
         <div class="field-body">
             <div class="field">
                 <div class="control">
-                    <textarea rows="5" class="textarea" type="text" placeholder="Palaute"></textarea>
+                    <textarea rows="5" class="textarea" placeholder="Palaute"></textarea>
                 </div>
             </div>
         </div>
