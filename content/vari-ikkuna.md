@@ -25,15 +25,15 @@ käyttävät edusta- tai taustaväriä piirtämisessä, riippuen siitä millä h
 
     {{< vihje >}}Voit myös käyttää pikanäppäintä C vaihtaaksesi edusta ja taustavärin välillä nopeasti.{{< /vihje >}}
 
-* ### Avaa &raquo;
+* ### Avaa >>
 
-    Jos painat "Avaa &raquo;" nappia, ikkuna laajenee näyttämään tarkempia asetuksia. Tässä tilassa voit asettaa tarkan arvon jokaiselle värin
+    Jos painat "Avaa >>" nappia, ikkuna laajenee näyttämään tarkempia asetuksia. Tässä tilassa voit asettaa tarkan arvon jokaiselle värin
     ominaisuudelle, RGB (Punainen, Vihreä, Sininen) tai HSV (Sävy, Värikylläisyys, Arvo) skaalassa. Värin muokkaaminen hex, eli heksadesimaalin
     avulla on myös mahdollista. Alfaa, tai läpinäkyvyyttä voi myös muokata.
 
     {{< figure src="/kuvat/colorswindowmore.png" alt="Värit-Lisää" >}}
 
-    "Avaa &raquo;" nappi muuttuu "&laquo; Sulje" napiksi jolla voit palata pienempään ikkunaan.
+    "Avaa >>" nappi muuttuu "<< Sulje" napiksi jolla voit palata pienempään ikkunaan.
 
 * ### Väripyörä
 
