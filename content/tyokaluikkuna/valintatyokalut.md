@@ -25,7 +25,7 @@ siinä käytetään samoja tapoja kuin muotojen piirtämisessä Muototyökaluill
 
 Yksinkertaisesti piirrä valinta vasemmalla hiiren napilla ja siirrä hiirtä kunnes muoto on sopiva. Poistaaksesi valinnan voit joko klikata
 missä tahansa kun valintatyökalu on valittu tai voit käyttää [Muokkaa **&rarr;** Poista valinta]({{< relref "/valikkopalkki/muokkaa" >}})
-(myös [Työkalupalkissa]({{< relref "/tyokalupalkki" >}}#valintaty%C3%B6kalut)).
+(myös [Työkalupalkissa]({{< relref "/tyokalupalkki#valintatyökalut" >}})).
 
 Kun valinta on aktiivinen kuvassa, katkoviivainen piirretään näyttämään missä valinta on. Jos valintatyökalu on valittu, valinnassa on myös
 sininen korostus helpottamaan alueen näkemistä. Jos valitset muun työkalun, sininen korostus poistetaan jotta voit erottaa värit helpommin.
