@@ -308,13 +308,13 @@ Uudelleen
 : {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Y{{< /badge >}}
 
 Leikkaa
-: {{< badge >}}Ctrl{{< /badge >}} + X, tai {{< badge >}}Shift{{< /badge >}} + {{< badge >}}Delete{{< /badge >}}
+: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}X{{< /badge >}}, tai {{< badge >}}Shift{{< /badge >}} + {{< badge >}}Delete{{< /badge >}}
 
 Kopioi
-: {{< badge >}}Ctrl{{< /badge >}} + C, tai {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Insert{{< /badge >}}
+: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}C{{< /badge >}}, tai {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Insert{{< /badge >}}
 
 Liitä
-: {{< badge >}}Ctrl{{< /badge >}} + V, tai {{< badge >}}Shift{{< /badge >}} + {{< badge >}}Insert{{< /badge >}}
+: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}V{{< /badge >}}, tai {{< badge >}}Shift{{< /badge >}} + {{< badge >}}Insert{{< /badge >}}
 
 Liitä uuteen tasoon
 : {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}V{{< /badge >}}

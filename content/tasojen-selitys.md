@@ -12,22 +12,18 @@ title = "Tasojen selitys"
 
 Tätä aihetta varten seuraavia kahta kuvaa käytetään taustakuvaksi sekä ensimmäiseksi tasoksi taustakuvan yläpuolella:
 
-<div class="level">
-    <div class="level-item">
-        {{< figure src="/resurssit/kemijoki.jpg" title="Taustakuva - Kuva Rovaniemestä (1972)" caption="(\"Pohja taso\")" alt="Pohja" >}}
-        {{< figure src="/resurssit/ruisleipa.jpg" title="Taso 1 - Kuva ruisleivästä" caption="(\"Päällinen taso\")" alt="Päällinen" >}}
-    </div>
-</div>
+{{< level >}}
+    {{< figure src="/resurssit/kemijoki.jpg" title="Taustakuva - Kuva Rovaniemestä (1972)" caption="(\"Pohja taso\")" alt="Pohja" >}}
+    {{< figure src="/resurssit/ruisleipa.jpg" title="Taso 1 - Kuva ruisleivästä" caption="(\"Päällinen taso\")" alt="Päällinen" >}}
+{{< /level >}}
 
 Voit ajatella "tasoja" kasana läpinäkyviä sivuja jotka, kun asetettu päällekkäin muodostavat kokonaisen kuvan. paint.net näyttää tämän kasan kuin
 katsoisit sitä ylhäältä ilman perspektiiviä (tasot eivät "pienene" kun ne ovat kasan pohjalla, mikä sijoittaisi ne "kauemmaksi"). Nähdäksesi miten
 tasot toimivat paremmin, voi olla helpompaa nähdä tasot vierestä kuin ylhäältä:
 
-<div class="level">
-    <div class="level-item">
-        {{< figure src="/resurssit/3d_ruisleipa_100.jpg" alt="Tasot päällekkäin" >}}
-    </div>
-</div>
+{{< level >}}
+    {{< figure src="/resurssit/3d_ruisleipa_100.jpg" alt="Tasot päällekkäin" >}}
+{{< /level >}}
 
 ### Pikselit ja läpinäkyvyys
 
@@ -39,11 +35,9 @@ kuvan voi näyttää normaalilla tietokoneen näytöllä.
 
 Kuitenkin, läpinäkyviä pikseleitä ei voi näyttää tietokoneen näytöllä. Tämän simuloinniksi, paint.net käyttää shakkilautamallia joka näyttää tältä:
 
-<div class="level">
-    <div class="level-item">
-        {{< figure src="/resurssit/transparentcheckerboard.png" alt="Shakkilauta" >}}
-    </div>
-</div>
+{{< level >}}
+    {{< figure src="/resurssit/transparentcheckerboard.png" alt="Shakkilauta" >}}
+{{< /level >}}
 
 Jos näet tämän, se tarkoittaa että osa kuvastasi on läpinäkyvä -- shakkilautamalli ei ole osa kuvaa. Voit ajatella että shakkilautamalli virtuaalinen
 taustakuva, tai "taso 0", joka on aina [Tasoikkunassa]({{< relref "tasoikkuna" >}}) olevien tasojen alla. Kuitenkin, kuten aiemmin mainitsimme,
@@ -57,20 +51,14 @@ samaksi. Voit ajatella että tason peittävyys on kuin himmennin tason jokaisell
 
 Esimerkkinä, jos asetamme päällisen tason päittävyyden 255:sta askelin 0:aan, saamme seuraavat kuvat jotka esitetään konseptina sekä miten ne näkyvät näytöllä:
 
-<div class="level">
-    <div class="level-item">
-        {{< figure src="/resurssit/3d_ruisleipa_100.jpg" title="Taso 1 peittävyys 255 (100%)" caption="Täysin peittävä: Rovaniemeä ei näe." alt="Ei näy" >}}
-    </div>
-</div>
+{{< level >}}
+    {{< figure src="/resurssit/3d_ruisleipa_100.jpg" title="Taso 1 peittävyys 255 (100%)" caption="Täysin peittävä: Rovaniemeä ei näe." alt="Ei näy" >}}
+{{< /level >}}
 
-<div class="level">
-    <div class="level-item">
-        {{< figure src="/resurssit/3d_ruisleipa_50.jpg" title="Taso 1 peittävyys 128 (noin 50%)" caption="Osittain läpinäkyvä: Rovaniemi on osittain näkyvä." alt="Osittain näkyy" >}}
-    </div>
-</div>
+{{< level >}}
+    {{< figure src="/resurssit/3d_ruisleipa_50.jpg" title="Taso 1 peittävyys 128 (noin 50%)" caption="Osittain läpinäkyvä: Rovaniemi on osittain näkyvä." alt="Osittain näkyy" >}}
+{{< /level >}}
 
-<div class="level">
-    <div class="level-item">
-        {{< figure src="/resurssit/3d_ruisleipa_0.jpg" title="Taso 1 peittävyys 0 (0%)" caption="Täysin läpinäkyvä: Ruisleipä ei enää näy." alt="Ei näe" >}}
-    </div>
-</div>
+{{< level >}}
+    {{< figure src="/resurssit/3d_ruisleipa_0.jpg" title="Taso 1 peittävyys 0 (0%)" caption="Täysin läpinäkyvä: Ruisleipä ei enää näy." alt="Ei näe" >}}
+{{< /level >}}

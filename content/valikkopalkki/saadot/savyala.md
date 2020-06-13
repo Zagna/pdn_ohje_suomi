@@ -14,11 +14,9 @@ Sävyala-säätö antaa sinun muuttaa kuvan värialuetta (tai "valotusaikaa"), m
 tehdään liittyy kuvan sisääntulon ja ulostulon valkopisteeseen, harmaapisteeseen ja mustapisteeseen. Kuvan valkopiste on kirkkain väri mikä esiintyy
 kuvassa ja mustapiste on kaikkein tummin väri mikä esiintyy kuvassa. Harmaapiste esittää värien keskiarvoa koko kuvassa.
 
-<div class="level">
-    <div class="level-item">
-        {{< figure src="/kuvat/levels1.png" alt="Käyrät1" >}}
-    </div>
-</div>
+{{< level >}}
+    {{< figure src="/kuvat/levels1.png" alt="Käyrät1" >}}
+{{< /level >}}
 
 Jokaista väripistettä voi muokata käyttäen Sävyalaa. Yllä olevassa valikossa, on 5 numeerista valintaa ja 5 väriliukua. Kaksi vasemmalla puolella
 'Sisääntulo' osassa tarkoittaa sisääntulon valko- ja mustapistettä. Näitä värejä voi muokata käyttäen joko numeerisia valintoja, liukuja tai
@@ -29,12 +27,10 @@ värit kuvassa säädetään täysin mustaksi. Muuttamalla valkopistettä hieman
 ja muuttamalla mustapistettä hieman kirkkaammaksi, teemme kaikista niistä tummista väreistä täysin tummia. Myös, valikossa ylhäällä, harmaapiste on
 siirretty hieman kirkkaammaksi. Vaikka tämä ei vaikuta kuvan valkoiseen tai mustaan, se nostaa kuvan värejä yleisesti kirkkaammiksi.
 
-<div class="level">
-    <div class="level-item">
-        {{< figure src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät2" >}}
-        {{< figure src="/resurssit/lewistonsunset_small_levels1.jpg" alt="Käyrät3" >}}
-    </div>
-</div>
+{{< level >}}
+    {{< figure src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät2" >}}
+    {{< figure src="/resurssit/lewistonsunset_small_levels1.jpg" alt="Käyrät3" >}}
+{{< /level >}}
 
 Nämä säädöt venyvät koko kuvan alaan, näyttäen helposti histogrammeista mitkä ovat kummallakin puolella. Histogrammi vasemmalla näyttää kuvan
 värialan ennen mitään muokkausta, tämä histogrammi näyttää kuin paljon kuvasta on tiettyä väriä. Yllä olevassa kuvassa, histogrammi näyttää
@@ -51,15 +47,11 @@ Tähän asti, kaikki säädöt on tehty kaikille kanavilla, punainen, vihreä ja
 kanavat voi säätää erillään (enintään kaksi kerrallaan). Alla olevassa kuvassa, gamma on säädetty vihreän ja sinisen kanavan kohdalla samaan
 aikaan, johtaen syaanin määrän tippumiseen kuvassa. Tämä korostaa punaista kuvassa, kuten voi nähdä alla olevassa kuvassa.
 
-<div class="level">
-    <div class="level-item">
-        {{< figure src="/kuvat/levels2.png" alt="Käyrät4" >}}
-    </div>
-</div>
+{{< level >}}
+    {{< figure src="/kuvat/levels2.png" alt="Käyrät4" >}}
+{{< /level >}}
 
-<div class="level">
-    <div class="level-item">
-        {{< figure src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät5" >}}
-        {{< figure src="/resurssit/lewistonsunset_small_levels2.jpg" alt="Käyrät6" >}}
-    </div>
-</div>
+{{< level >}}
+    {{< figure src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät5" >}}
+    {{< figure src="/resurssit/lewistonsunset_small_levels2.jpg" alt="Käyrät6" >}}
+{{< /level >}}

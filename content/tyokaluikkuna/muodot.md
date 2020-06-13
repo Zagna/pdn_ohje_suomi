@@ -87,7 +87,8 @@ Versiosta 4.0.11 alkaen Pyöristetyllä suorakulmiolla on uusi asetus työkalupa
 
 Nurkan koko on säde jota käytetään muodon nurkissa. Pienet arvot tuottavat teräviä kulmia ja isot arvot pyöriä kulmia.
 
-{{< vihje >}}Kun Nurkan koko on valittuna työkalupalkissa, nuolinäppäimet ylös ↑ ja alas ↓ muuttavat sitä.<br/>Muuttuvat luvut tulevat suoraan alas vedettävästä valikosta. Arvot saattavat muuttua kerralla enemmän kuin 1 riippuen kuinka suuri nurkan koko on sillä hetkellä.{{< /vihje >}}
+{{< vihje >}}Kun Nurkan koko on valittuna työkalupalkissa, nuolinäppäimet ylös ↑ ja alas ↓ muuttavat sitä.  
+Muuttuvat luvut tulevat suoraan alas vedettävästä valikosta. Arvot saattavat muuttua kerralla enemmän kuin 1 riippuen kuinka suuri nurkan koko on sillä hetkellä.{{< /vihje >}}
 
 ### Piirtotila
 
