@@ -13,6 +13,6 @@ tabs = true
 
 Tämä alavalikko sisältää tehosteita jotka tuottavat renderointeja jotka korvaavat olemassa olevan kuvan.
 
-{{< figure src="/kuvat/effectsrendermenu.png" alt="Renderointi efektit" >}}
+{{< figure src="/kuvat/effectsrendermenu.png" alt="Renderointi efektit" >}}{{< /figure >}}
 
 {{< tabit "render" >}}

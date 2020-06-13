@@ -14,7 +14,7 @@ paintdotnet: protokolla voi käyttää ohjelman käynnistämiseen komentorivilt�
 
 ### Käyttö
 
-Protokollan käyttö onnistuu menemällä Käynnistä &rarr; Suorita (tai {{< badge >}}Windows + R{{< /badge >}}) ja kirjoita paintdotnet:"tiedoston sijainti.jpg"
+Protokollan käyttö onnistuu menemällä Käynnistä &rarr; Suorita (tai {{< badge >}}Windows{{< /badge >}} + {{< badge >}}R{{< /badge >}}) ja kirjoita paintdotnet:"tiedoston sijainti.jpg"
 ja paina {{< badge >}}Enteriä{{< /badge >}}. Ohjelma käynnistyy ja kuva aukeaa.
 
 Jos paint.net on jo auki, kuva aukeaa käytössä olevassa ikkunassa.

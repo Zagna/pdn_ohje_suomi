@@ -15,7 +15,7 @@ Tätä työkalua käytetään tekstin lisäämiseen tasoon. Kun työkalu on vali
 Kun tekstikursori vilkkuu, voit lisätä tekstiä. [Teksti asetuksia työkalupalkissa]({{< relref "/tyokalupalkki#teksti" >}}) voi käyttää
 asettamaan fontin, fontin koon ja asettelun sekä pehmeyden.
 
-{{< figure src="/kuvat/texttool_using.png" alt="Teksti työkalun käyttö" >}}
+{{< figure src="/kuvat/texttool_using.png" alt="Teksti työkalun käyttö" >}}{{< /figure >}}
 
 Voit asettaa tekstin värin asettamalla edustavärin [Väri-ikkunassa]({{< relref "/vari-ikkuna" >}}). Teksti myös käyttää nykyistä
 piirtotyyliä, reunan pehmennys ja alfasekoitus asetuksia. Kun kirjoitat, voit huomata vilkkuvan tekstikursorin alapuolella olevan kontrollin.

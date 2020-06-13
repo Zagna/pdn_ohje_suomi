@@ -13,6 +13,6 @@ tabs = true
 
 Tämä alavalikko sisältää tehosteita joita yleensä käytetään valokuvien parannukseen.
 
-{{< figure src="/kuvat/effectsphotomenu.png" alt="Valokuva efektit" >}}
+{{< figure src="/kuvat/effectsphotomenu.png" alt="Valokuva efektit" >}}{{< /figure >}}
 
 {{< tabit "valokuva" >}}

@@ -13,7 +13,7 @@ tooltip = "clonestamp"
 
 Tämä valikko mahdollistaa vapaiden muunnoksien teon 3 akselilla (X, Y, ja Z).
 
-{{< figure src="/kuvat/rotatezoom.png" alt="Pyöritä" >}}
+{{< figure src="/kuvat/rotatezoom.png" alt="Pyöritä" >}}{{< /figure >}}
 
 Voit muokata näitä kolmea aluetta:
 
@@ -45,4 +45,4 @@ On myös kaksi valintaa:
 Jos käytät kaikkia näitä komentoja, voit saada fantastisia muokkauksia kuviisi. Seuraava kuva luotiin käyttämällä monia paint.netin ominaisuuksia,
 mukaan lukien Pyöritä / Lähennä:
 
-{{< figure src="/resurssit/reflect_small.jpg" alt="Toimintojen esimerkki" >}}
+{{< figure src="/resurssit/reflect_small.jpg" alt="Toimintojen esimerkki" >}}{{< /figure >}}

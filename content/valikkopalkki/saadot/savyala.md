@@ -15,7 +15,7 @@ tehdään liittyy kuvan sisääntulon ja ulostulon valkopisteeseen, harmaapistee
 kuvassa ja mustapiste on kaikkein tummin väri mikä esiintyy kuvassa. Harmaapiste esittää värien keskiarvoa koko kuvassa.
 
 {{< level >}}
-    {{< figure src="/kuvat/levels1.png" alt="Käyrät1" >}}
+    {{< figure src="/kuvat/levels1.png" alt="Käyrät1" >}}{{< /figure >}}
 {{< /level >}}
 
 Jokaista väripistettä voi muokata käyttäen Sävyalaa. Yllä olevassa valikossa, on 5 numeerista valintaa ja 5 väriliukua. Kaksi vasemmalla puolella
@@ -28,8 +28,8 @@ ja muuttamalla mustapistettä hieman kirkkaammaksi, teemme kaikista niistä tumm
 siirretty hieman kirkkaammaksi. Vaikka tämä ei vaikuta kuvan valkoiseen tai mustaan, se nostaa kuvan värejä yleisesti kirkkaammiksi.
 
 {{< level >}}
-    {{< figure src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät2" >}}
-    {{< figure src="/resurssit/lewistonsunset_small_levels1.jpg" alt="Käyrät3" >}}
+    {{< figure src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät2" >}}{{< /figure >}}
+    {{< figure src="/resurssit/lewistonsunset_small_levels1.jpg" alt="Käyrät3" >}}{{< /figure >}}
 {{< /level >}}
 
 Nämä säädöt venyvät koko kuvan alaan, näyttäen helposti histogrammeista mitkä ovat kummallakin puolella. Histogrammi vasemmalla näyttää kuvan
@@ -48,10 +48,10 @@ kanavat voi säätää erillään (enintään kaksi kerrallaan). Alla olevassa k
 aikaan, johtaen syaanin määrän tippumiseen kuvassa. Tämä korostaa punaista kuvassa, kuten voi nähdä alla olevassa kuvassa.
 
 {{< level >}}
-    {{< figure src="/kuvat/levels2.png" alt="Käyrät4" >}}
+    {{< figure src="/kuvat/levels2.png" alt="Käyrät4" >}}{{< /figure >}}
 {{< /level >}}
 
 {{< level >}}
-    {{< figure src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät5" >}}
-    {{< figure src="/resurssit/lewistonsunset_small_levels2.jpg" alt="Käyrät6" >}}
+    {{< figure src="/resurssit/lewistonsunset_small.jpg" alt="Käyrät5" >}}{{< /figure >}}
+    {{< figure src="/resurssit/lewistonsunset_small_levels2.jpg" alt="Käyrät6" >}}{{< /figure >}}
 {{< /level >}}

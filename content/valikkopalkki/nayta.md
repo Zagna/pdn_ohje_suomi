@@ -12,7 +12,7 @@ title = "Näytä"
 
 Näytä-valikko sisältää komentoja joita voi käyttää vaihtamaan tapaa miten kuva tai työalue näytetään sinulle.
 
-{{< figure src="/kuvat/viewmenu.png" alt="Näytä valikko" >}}
+{{< figure src="/kuvat/viewmenu.png" alt="Näytä valikko" >}}{{< /figure >}}
 
 * ### Suurenna
 
@@ -40,7 +40,7 @@ Näytä-valikko sisältää komentoja joita voi käyttää vaihtamaan tapaa mite
     Ristikko on näkyvä vain kun kerroin on 200% tai enemmän.
     Tältä kangas näyttää kun ristikko on valittu. Huomaa että jokaisen pikselin ympärillä on pisteittäinen suorakulmio:
 
-    {{< figure src="/resurssit/grid.png" alt="Ristikko" >}}
+    {{< figure src="/resurssit/grid.png" alt="Ristikko" >}}{{< /figure >}}
 
 * ### Viivoitin
 
@@ -48,7 +48,7 @@ Näytä-valikko sisältää komentoja joita voi käyttää vaihtamaan tapaa mite
     piirroksia tiettyihin kohtiin kuvaan ilman että sinun pitää katsoa kursorin sijaintia tilapalkissa. Kun valinta on aktiivinen, sen sykkivä reuna
     korostetaan viivoittimissa.
 
-    {{< figure src="/resurssit/viivain.jpg" alt="Viivoitin" class="border" >}}
+    {{< figure src="/resurssit/viivain.jpg" alt="Viivoitin" class="border" >}}{{< /figure >}}
 
 * ### Pikseliä, Tuumaa, ja Senttimetriä
 

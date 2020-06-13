@@ -12,7 +12,7 @@ title = "Kuvalista"
 
 Kuvalista näytetään yläoikeassa. Se näyttää pikkukuvan jokaisesta avoinna olevasta kuvasta ja antaa sinun vaihtaa niiden välillä nopeasti.
 
-{{< figure src="/resurssit/imagelist.png" alt="Kuvalista" >}}
+{{< figure src="/resurssit/imagelist.png" alt="Kuvalista" >}}{{< /figure >}}
 
 Vaihtaaksesi kuvaan, vain valitse se. Voit myös käyttää Ctrl + Tab siirtyäksesi seuraavaan kuvaan listalla tai Ctrl + Shift + Tab siirtyäksesi
 edelliseen. Jos ei ole tarpeeksi tilaa jokaisen kuvan näyttämiseen, musta nuoli näkyy listan puolilla. Nämä nuolet antavat sinun pyörittää

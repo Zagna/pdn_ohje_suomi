@@ -10,7 +10,7 @@ title = "Valikkopalkki"
 
 +++
 
-{{< figure src="/kuvat/menubar.png" alt="Valikkopalkki" >}}
+{{< figure src="/kuvat/menubar.png" alt="Valikkopalkki" >}}{{< /figure >}}
 
 Saatavilla on yhdeksän ylätason valikkoa ja pikapainikkeet ikkunoille paint.netissä:
 

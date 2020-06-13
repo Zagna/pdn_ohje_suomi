@@ -13,6 +13,6 @@ tabs = true
 
 Tämä alavalikko sisältää tehosteita jotka ovat hyödyllisiä kuvan sumentamisessa eri tavoilla.
 
-{{< figure src="/kuvat/effectsblursmenu.png" alt="Sumennus efektit" >}}
+{{< figure src="/kuvat/effectsblursmenu.png" alt="Sumennus efektit" >}}{{< /figure >}}
 
 {{< tabit "sumennus" >}}

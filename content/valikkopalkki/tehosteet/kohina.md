@@ -13,6 +13,6 @@ tabs = true
 
 Tämä alavalikko sisältää tehosteita jotka ovat hyödyllisiä kohinan lisäämisessä tai poistamisessa.
 
-{{< figure src="/kuvat/effectsnoisemenu.png" alt="Kohina efektit" >}}
+{{< figure src="/kuvat/effectsnoisemenu.png" alt="Kohina efektit" >}}{{< /figure >}}
 
 {{< tabit "kohina" >}}

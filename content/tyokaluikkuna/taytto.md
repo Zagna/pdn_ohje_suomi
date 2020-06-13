@@ -25,6 +25,6 @@ täytetään myös. Täyttöä käytettiin kolme kertaa: kerran kummankin ympyr�
 alueeseen.
 
 {{< level >}}
-    {{< figure src="/kuvat/paintbucket_beforefill.png" title="Ennen"  alt="Täyttö ennen" >}}
-    {{< figure src="/kuvat/paintbucket_afterfill.png" title="Jälkeen" alt="Täyttö jälkeen" >}}
+    {{< figure src="/kuvat/paintbucket_beforefill.png" title="Ennen"  alt="Täyttö ennen" >}}{{< /figure >}}
+    {{< figure src="/kuvat/paintbucket_afterfill.png" title="Jälkeen" alt="Täyttö jälkeen" >}}{{< /figure >}}
 {{< /level >}}

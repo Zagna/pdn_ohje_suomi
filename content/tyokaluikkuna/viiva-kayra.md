@@ -22,18 +22,18 @@ Jos haluat vain piirtää viivan, voit painaa nyt Enter-nappia viimeistelläkses
 
 Kahvat sykkivät jotta voit huomata ne helposti kuvassa:
 
-{{< figure src="/resurssit/line_step1.png" alt="Viiva osa 1" >}}
+{{< figure src="/resurssit/line_step1.png" alt="Viiva osa 1" >}}{{< /figure >}}
 
 Tällä hetkellä, voit *käyristää viivan* siirtämällä nuppeja. Voit valita splini ja Bézier käyrien välillä työkalupalkista löytyvällä
 painikkeella. Splinin kanssa käyrä piirretään jokaisen pisteen läpi, Bézier käyrä menee alla esitetyllä tavalla.
 
 Esimerkki splini käyrä:
 
-{{< figure src="/resurssit/line_spline.png" alt="Splini" >}}
+{{< figure src="/resurssit/line_spline.png" alt="Splini" >}}{{< /figure >}}
 
 Esimerkki Bézier-käyrä. Huomaa että käyrä ei mene kahden keskimmäisen nupin läpi:
 
-{{< figure src="/resurssit/line_bezier.png" alt="Bezier" >}}
+{{< figure src="/resurssit/line_bezier.png" alt="Bezier" >}}{{< /figure >}}
 
 Kun olet valmis käyrän kanssa, voit painaa Enter-nappia viimeistelläksesi käyrän. Tai, voit piirtää muualla aloittaaksesi uuden viivan.
 
@@ -42,8 +42,8 @@ Kun olet valmis käyrän kanssa, voit painaa Enter-nappia viimeistelläksesi kä
 Työkalupalkista voit asettaa joko alun, viivan sekä lopun tyylin. Alku sekä pää voi olla tasaisia (normaali), kaksi erilaista nuolta tai
 pyöristetty. Viivan tyyli voi olla joko kiinteä tai valikoima viivoja tai pisteitä.
 
-{{< figure src="/kuvat/toolbar_shapesbrushesfill.png" alt="Tyylit" >}}
+{{< figure src="/kuvat/toolbar_shapesbrushesfill.png" alt="Tyylit" >}}{{< /figure >}}
 
 Näiden avulla, voit piirtää seuraavia viivoja:
 
-{{< figure src="/resurssit/lineexamples.png" alt="Esimerkit" >}}
+{{< figure src="/resurssit/lineexamples.png" alt="Esimerkit" >}}{{< /figure >}}

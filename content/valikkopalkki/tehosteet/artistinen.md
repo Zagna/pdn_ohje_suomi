@@ -13,6 +13,6 @@ tabs = true
 
 Tämä alavalikko sisältää tehosteita joiden on tarkoitus antaa tuloksena jotain joka on piirretty perinteisillä tavoilla kuten musteella, kynällä ja öljyllä.
 
-{{< figure src="/kuvat/effectsartisticmenu.png" alt="Efektit valikko" >}}
+{{< figure src="/kuvat/effectsartisticmenu.png" alt="Efektit valikko" >}}{{< /figure >}}
 
 {{< tabit "artistinen" >}}

@@ -14,7 +14,7 @@ tabs = true
 
 Seuraavat työkalut käsitellään tässä osassa:
 
-{{< figure src="/kuvat/siirtotyokalut.png" alt="Siirtotyökalut" >}}
+{{< figure src="/kuvat/siirtotyokalut.png" alt="Siirtotyökalut" >}}{{< /figure >}}
 
 * ### Siirrä valintaa
 
@@ -33,7 +33,7 @@ miten luot ja muokkaat niitä. Jokainen siirto, koon muutto ja pyöritys mitä t
 
 Kun valitset siirtotyökalun, useita kahvoja, tai nuppeja, ilmestyy valinnan reunoihin ja nurkkiin, esimerkkinä:
 
-{{< figure src="/resurssit/movenubs.jpg" alt="Siirtonupit" >}}
+{{< figure src="/resurssit/movenubs.jpg" alt="Siirtonupit" >}}{{< /figure >}}
 
 Kun jompikumpi näistä työkaluista on valittu, voit suorittaa minkä tahansa näistä neljästä työstä saadaksesi halutun tuloksen.
 Voit suorittaa jokaisen työn monta kertaa, voit sekoittaa niitä saadaksesi oikea tuloksen. Huomaa että jokaisessa esimerkissä,

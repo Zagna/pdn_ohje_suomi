@@ -19,7 +19,7 @@ mutta vain jos tasot ylhäällä eivät ole tiellä.
 
 {{< vihje >}}Tasoja on helppo järjestellä uudelleen vain klikkaamalla tasoa ja vetämällä sen haluttuun kohtaan listassa.{{< /vihje >}}
 
-{{< figure src="/kuvat/layerswindow.png" alt="Tasoikkuna" >}}
+{{< figure src="/kuvat/layerswindow.png" alt="Tasoikkuna" >}}{{< /figure >}}
 
 Tasoikkunan pohjassa on seitsemän nappia. Vasemmalta oikealle ne ovat:
 
@@ -51,4 +51,4 @@ Tasoikkunan pohjassa on seitsemän nappia. Vasemmalta oikealle ne ovat:
 
     Tämä näyttää valitun tason asetukset. Voit antaa tasolle nimen, asettaa sen näkyvyyden ja sekoitustilan.
 
-    {{< figure src="/kuvat/layerproperties.png" alt="Tason ominaisuudet" >}}
+    {{< figure src="/kuvat/layerproperties.png" alt="Tason ominaisuudet" >}}{{< /figure >}}

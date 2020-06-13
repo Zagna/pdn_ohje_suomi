@@ -12,7 +12,7 @@ title = "Pääikkuna"
 
 paint.netin käyttöliittymä on jaettu 10 alueeseen:
 
-{{< figure src="/kuvat/mainwindow.png" alt="Pääikkuna" size="80%" >}}
+{{< figure src="/kuvat/mainwindow.png" alt="Pääikkuna" size="80%" >}}{{< /figure >}}
 
 1. ### Nimipalkki
 

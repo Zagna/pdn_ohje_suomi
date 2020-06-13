@@ -12,7 +12,7 @@ title = "Tilapalkki"
 
 Tilapalkista löydät ohjeita, työn tilan ja tietoja jotka ovat erittäin hyödyllistä kun teet töitä paint.netin avulla.
 
-{{< figure src="/kuvat/statusbar.png" alt="Tilapalkki" >}}
+{{< figure src="/kuvat/statusbar.png" alt="Tilapalkki" >}}{{< /figure >}}
 
 * ### Ohje ja tila
 
