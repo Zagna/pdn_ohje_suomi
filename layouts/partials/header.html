@@ -13,7 +13,7 @@
 	<meta name="author" content="Jarno Ruokamo">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	{{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed") }}
-	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS $options }}
+	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS $options | resources.PostCSS }}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}?v=5">
 	<link rel="icon" type="image/png" href="/favicon.png">
 

@@ -2,7 +2,6 @@
 date = "2015-09-09T18:49:11+03:15"
 draft = false
 title = "Yleistä / Ominaisuuksia"
-url = "/"
 
 [menu.pdn]
     parent = "koti"

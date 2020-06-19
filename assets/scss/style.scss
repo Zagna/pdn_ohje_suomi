@@ -118,15 +118,20 @@ figure {
 
 #navbar {
 	justify-content: center;
+	a {
+		color: $black;
+	}
 }
 
-.hero-body {
-	background-image: url('/resurssit/imagebar.jpg');
-	h1.title {
-		font-weight: 600;
-		text-shadow: 0px 0px 10px black;
-		color: white;
-		font-size: 1.5rem !important;
+section.hero {
+	background-color: #005577;
+	.hero-body {
+		background-image: url('/resurssit/imagebar.jpg');
+		h1.title {
+			font-weight: 600;
+			color: white;
+			font-size: 1.5rem !important;
+		}
 	}
 }
 
@@ -338,5 +343,15 @@ figure {
 	.bg-select {
 		width: 30px; height: 15px;
 		background-position: -53px -50px;
+	}
+
+	table {
+		tbody {
+			tr {
+				td:first-child, td[align] {
+					font-family: $family-code;	
+				}
+			}
+		}
 	}
 }

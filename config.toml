@@ -1,15 +1,10 @@
 languageCode = "fi"
 title = "paint.net suomeksi"
 DefaultContentLanguage = "fi"
-disableKinds = [ "RSS", "tags", "categories", "taxonomy", "taxonomyTerm" ]
+disableKinds = [ "RSS", "tags", "categories", "taxonomy", "taxonomyTerm", "section", "404" ]
 enableGitInfo = true
 enableRobotsTXT = true
 summaryLength = 10
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
 
 [[menu.pdn]]
 	name = "paint.net ohje"

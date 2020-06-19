@@ -2,7 +2,7 @@
 date = "2015-09-09T18:49:11+03:00"
 draft = false
 title = "Hiljainen asennus"
-version = "4.2.9"
+version = "4.2.12"
 
 [menu.pdn]
     parent = "muuta"
@@ -46,166 +46,25 @@ Asennuspaketti käyttää seuraavia komentorivin komentoja, missä paint.net.{{<
 
 {{< esimerkki >}}paint.net.{{< param version >}}.install.exe [/skipConfig | /auto | /createMsi] [PROPERTY=VALUE]{{< /esimerkki >}}
 
-<div class="table-container">
-
-<table class="table is-fullwidth" id="table0">
-    <thead>
-        <tr>
-            <th>Komento</th>
-            <th>Kuvaus</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td class="fixed">
-                <p>/skipConfig</p>
-            </td>
-            <td>
-                <p>Ohittaa asetukset ja asennuskansion. Käyttää MSI ominaisuuksia seuraavassa järjestyksessä:</p>
-                <ol>
-                    <li>komentorivin asetukset</li>
-                    <li>rekisteri HKLM\Software\paint.net</li>
-                    <li>oletusasetukset</li>
-                </ol>
-            </td>
-        </tr>
-        <tr>
-            <td class="fixed">
-                <p>/auto</p>
-            </td>
-            <td>
-                <p>Sama kuin /skipConfig, mutta ei näytä viimeistä velhon sivua joka kertoo asennuksen loppuneen. Tämä mahdollistaa täysin automaattisen
-                asennuksen joka ei tarvitse käyttäjän ohjeita ollenkaan.</p>
-            </td>
-        </tr>
-        <tr>
-            <td class="fixed">
-                <p>/createMsi</p>
-            </td>
-            <td>
-                <p>Tämä luo kaksi MSI pakettia työpöydälle kansioon PaintDotNetMsi. Nämä MSIt on tarkoitettu valituille OS/CPU yhdistelmille (x86 tai x64).
-                Näitä voi käyttää julkistamiseen käyttäen AD/GPO järjestelmiä ja sisältävät jo asettamasi asetukset käyttäen PROPERTY=VALUE komentorivin
-                komentoja (jos asetat).</p>
-            </td>
-        </tr>
-        <tr>
-            <td class="fixed">
-                <p>PROPERTY=VALUE</p>
-            </td>
-            <td>
-                <p>Asettaa MSI ominaisuuden nimeltä PROPERTY arvolla VALUE. Voit määrittää useita arvoja. Alhaalla on lista mahdollista arvoista.</p>
-                {{< huom >}}Jos VALUE sisältää välilyönnin, pitää koko PROPERTY=VALUE teksti sulkea sitaatteihin. Esimerkiksi kuvitteellinen TEST ominaisuus arvolla "1 2 3", pitää käyttää "TEST=1 2 3" komentorivillä, mukaan lukien sitaatit.{{< /huom >}}
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-</div>
+| Komento | Kuvaus |
+|-|-|
+| /skipConfig | Ohittaa asetukset ja asennuskansion. Käyttää MSI ominaisuuksia seuraavassa järjestyksessä: {{< list items="komentorivin asetukset;rekisteri HKLM\Software\paint.net;oletusasetukset" >}} |
+| /auto | Sama kuin /skipConfig, mutta ei näytä viimeistä velhon sivua joka kertoo asennuksen loppuneen. Tämä mahdollistaa täysin automaattisen asennuksen joka |ei tarvitse käyttäjän ohjeita ollenkaan. |
+| /createMsi | Tämä luo kaksi MSI pakettia työpöydälle kansioon PaintDotNetMsi. Nämä MSIt on tarkoitettu valituille OS/CPU yhdistelmille (x86 tai x64). Näitä voi käyttää julkistamiseen käyttäen AD/GPO järjestelmiä ja sisältävät jo asettamasi asetukset käyttäen PROPERTY=VALUE komentorivin komentoja (jos asetat). |
+| PROPERTY=VALUE | Asettaa MSI ominaisuuden nimeltä PROPERTY arvolla VALUE. Voit määrittää useita arvoja. Alhaalla on lista mahdollista arvoista.  {{< huom >}}Jos VALUE sisältää välilyönnin, pitää koko PROPERTY=VALUE teksti sulkea sitaatteihin. Esimerkiksi kuvitteellinen TEST ominaisuus arvolla "1 2 3", pitää käyttää "TEST=1 2 3" komentorivillä, mukaan lukien sitaatit.{{< /huom >}} |
 
 Oletusasennus tarvitsee vain että käytät /auto komentoa. Voit asettaa lisää ominaisuuksia vaihtamalla MSI ominaisuuksia, missä "1"
 asettaa sen ja "0" poistaa sen:
 
-<div class="table-container">
-
-<table class="table is-fullwidth" id="table1">
-    <thead>
-        <tr>
-            <th>MSI ominaisuuden nimi</th>
-            <th>Oletusarvo</th>
-            <th>Kuvaus</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td class="fixed">
-                <p>TARGETDIR</p>
-            </td>
-            <td class="text-center fixed">
-                <p>%PROGRAMFILES%\paint.net</p>
-            </td>
-            <td>
-                <p>Aseta kansio minne asennat paint.netin. %PROGRAMFILES% tarkoittaa yleensä C:\Program Files.</p>
-            </td>
-        </tr>
-        <tr>
-            <td class="fixed">
-                <p>CHECKFORUPDATES</p>
-            </td>
-            <td class="text-center fixed">
-                <p>1<br>(0 kun /createMsi on asetettu)</p>
-            </td>
-            <td>
-                <p>Pistää päälle (1) tai pois päältä (0) automaattiset päivitykset. Huomaa että päivitysten tarkistus on päällä ja sallitty vain
-                käyttäjille jotka ovat Järjestelmänvalvojien ryhmässä. Ei ole mahdollista päivittää käyttäjillä jotka eivät ole Järjestelmänvalvojien
-                ryhmässä.</p>
-            </td>
-        </tr>
-        <tr>
-            <td class="fixed">
-                <p>CHECKFORBETAS</p>
-            </td>
-            <td class="text-center fixed">
-                <p>0</p>
-            </td>
-            <td>
-                <p>Kun päivityksiä tarkisteaan, tarkista myös "beta" versio.</p>
-            </td>
-        </tr>
-        <tr>
-            <td class="fixed">
-                <p>JPGPNGBMPEDITOR</p>
-            </td>
-            <td class="text-center fixed">
-                <p>1</p>
-            </td>
-            <td>
-                <p>Asettaa oletusmuokkaajan JPG, PNG ja BMP kuville. Huomaa että tämä asettaa paint.netin "Muokkaa" komennolle muttei
-                vaikuta normaaliin kaksoisklikkauksen toimintaan Windowsissa.</p>
-            </td>
-        </tr>
-        <tr>
-            <td class="fixed">
-                <p>TGAEDITOR</p>
-            </td>
-            <td class="text-center fixed">
-                <p>1</p>
-            </td>
-            <td>
-                <p>Asettaa oletusmuokkaajan TGA kuville.Huomaa että tämä asettaa paint.netin "Muokkaa" komennolle muttei vaikuta
-                normaaliin kaksoisklikkauksen toimintaan Windowsissa.</p>
-            </td>
-        </tr>
-        <tr>
-            <td class="fixed">
-                <p>DESKTOPSHORTCUT</p>
-            </td>
-            <td class="text-center fixed">
-                <p>1</p>
-            </td>
-            <td>
-                <p>Luo työpöydälle paint.net pikakuvakkeen.</p>
-            </td>
-        </tr>
-        <tr>
-            <td class="fixed">
-                <p>PROGRAMSGROUP</p>
-            </td>
-            <td class="text-center fixed">
-                <p>(tyhjä)</p>
-            </td>
-            <td>
-                <p>Tämä asettaa mihinkä kansioon Käynnistä-valikon Ohjelmat ryhmään paint.netin pikakuvake luodaan. Oletuksena tämä on tyhjä jolloin pikakuvake
-                luodaan juureen muiden pikakuvakkeiden kuten Media Player ja Internet Explorer kanssa.</p>
-                <p>Tätä yleensä käytetään siirtämään paint.netin pikakuvake ryhmiin kuten "Grafiikkaohjelmat". Jos haluat sijoittaa pikakuvakkeen
-                ryhmän sisällä olevaan ryhmään, käytä samanlaista komentoa kuin tiedostonimen kanssa. Esimerkkinä jos haluat pikakuvakkeen Grafiikka ryhmään
-                Ohjelmat ryhmässä (esim. "Käynnistä &rarr; Kaikki ohjelmat &rarr; Ohjelmat &rarr; Grafiikka") aseta
-                "PROGRAMSGROUP=Ohjelmat\Grafiikka".</p>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-</div>
+| MSI ominaisuus | Oletusarvo | Kuvaus |
+|-|:-:|-|
+| TARGETDIR | %PROGRAMFILES%\paint.net | Aseta kansio minne asennat paint.netin. %PROGRAMFILES% tarkoittaa yleensä C:\Program Files. |
+| CHECKFORUPDATES | 1 (0 kun /createMsi on asetettu) | Pistää päälle (1) tai pois päältä (0) automaattiset päivitykset. Huomaa että päivitysten tarkistus on päällä ja sallitty vain käyttäjille jotka ovat Järjestelmänvalvojien ryhmässä. Ei ole mahdollista päivittää käyttäjillä jotka eivät ole Järjestelmänvalvojien ryhmässä. |
+| CHECKFORBETAS | 0 | Kun päivityksiä tarkisteaan, tarkista myös "beta" versio. |
+| JPGPNGBMPEDITOR |     1     | Asettaa oletusmuokkaajan JPG, PNG ja BMP kuville. Huomaa että tämä asettaa paint.netin "Muokkaa" komennolle muttei vaikuta normaaliin kaksoisklikkauksen toimintaan Windowsissa. |
+| TGAEDITOR |     1     | Asettaa oletusmuokkaajan TGA kuville.Huomaa että tämä asettaa paint.netin "Muokkaa" komennolle muttei vaikuta normaaliin kaksoisklikkauksen toimintaan Windowsissa. |
+| DESKTOPSHORTCUT |     1     | Luo työpöydälle paint.net pikakuvakkeen. |
+| PROGRAMSGROUP | (tyhjä) | Tämä asettaa mihinkä kansioon Käynnistä-valikon Ohjelmat ryhmään paint.netin pikakuvake luodaan. Oletuksena tämä on tyhjä jolloin pikakuvake luodaan juureen muiden pikakuvakkeiden kuten Media Player ja Internet Explorer kanssa. Tätä yleensä käytetään siirtämään paint.netin pikakuvake ryhmiin kuten "Grafiikkaohjelmat". Jos haluat sijoittaa pikakuvakkeen ryhmän sisällä olevaan ryhmään, käytä samanlaista komentoa kuin tiedostonimen kanssa. Esimerkkinä jos haluat pikakuvakkeen Grafiikka ryhmään Ohjelmat ryhmässä (esim. "Käynnistä → Kaikki ohjelmat → Ohjelmat → Grafiikka") aseta "PROGRAMSGROUP=Ohjelmat\Grafiikka". |
 
 ### Esimerkkejä
 

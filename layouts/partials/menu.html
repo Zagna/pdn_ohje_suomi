@@ -7,30 +7,29 @@
 			<span aria-hidden="true"></span>
 		</a>
 	</div>
-	<div id="navbar" class="navbar-menu">
-
+	<ul id="navbar" class="navbar-menu">
 	{{ $list := .Site.Menus.pdn }}
 	{{ $len := (len $list) }}
 	{{ range $index,$element := $list }}
-		<div class="navbar-item has-dropdown is-hoverable">
+		<li class="navbar-item has-dropdown is-hoverable">
 			<a class="navbar-link" title="{{ .Name }}">
 				{{ .Name }}
 			</a>
 			{{ if eq (add $index 1) $len }}
-			<div class="navbar-dropdown is-boxed is-right">
+			<ul class="navbar-dropdown is-boxed is-right">
 			{{ else }}
-			<div class="navbar-dropdown is-boxed">
+			<ul class="navbar-dropdown is-boxed">
 			{{ end }}
 			{{ range .Children }}
-				<a class="navbar-item" href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
+				<li class="navbar-item">
+					<a href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
+				</li>
 				{{ if or (or ( eq .Identifier "savyalat" ) ( eq .Identifier "protokolla" )) ( eq .Identifier "sek_tilat" ) }}
 				<hr class="navbar-divider">
 				{{ end }}
 			{{ end }}
-			</div>
+			</ul>
 		</div>
 	{{ end }}
-
-	</div>
-	
+	</ul>
 </nav>
