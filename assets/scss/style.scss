@@ -236,114 +236,109 @@ section.hero {
 		vertical-align: middle;
 		background-image: $sprite;
 		margin: 0 3px;
-	}
-	
-	.bg-clonestamp, .bg-colorpicker, .bg-lassoselect, .bg-linecurve, .bg-magicwand, .bg-paintbrush, .bg-paintbucket, .bg-pencil, .bg-recolor, .bg-zoom, .bg-eraser, .bg-tools {
-		width: 16px; height: 16px;
+		width: 16px;
+		height: 16px;
 	}
 	
 	.bg-clonestamp {
-		background-position: -118px -10px;
+		background-position: -1px -48px;
 	}
 	
 	.bg-colorpicker {
-		background-position: -118px -46px;
+		background-position: -19px -48px;
 	}
 	
 	.bg-ellipticalselect {
-		width: 14px; height: 14px;
-		background-position: -190px -115px;
+		background-position: -37px -48px;
+	}
+
+	.bg-eraser {
+		background-position: -55px -48px;
+	}
+
+	.bg-gradient {
+		background-position: -73px -1px;
 	}
 	
 	.bg-lassoselect {
-		background-position: -10px -93px;
+		background-position: -73px -19px;
 	}
 	
 	.bg-linecurve {
-		background-position: -46px -93px;
+		background-position: -73px -37px;
 	}
 	
 	.bg-magicwand {
-		background-position: -82px -93px;
+		background-position: -1px -66px;
 	}
 	
 	.bg-movecursor {
-		width: 23px; height: 23px;
-		background-position: -10px -50px;
+		width: 23px;
+		height: 23px;
+		background-position: -1px -23px;
 	}
 	
 	.bg-moveselectedpixels {
-		width: 14px; height: 15px;
-		background-position: -190px -45px;
+		background-position: -19px -66px;
 	}
 	
 	.bg-moveselection {
-		width: 14px; height: 15px;
-		background-position: -190px -80px;
+		background-position: -37px -66px;
 	}
 	
 	.bg-paintbrush {
-		background-position: -118px -93px;
+		background-position: -55px -66px;
 	}
 	
 	.bg-paintbucket {
-		background-position: -154px -10px;
+		background-position: -73px -66px;
+	}
+
+	.bg-pan {
+		background-position: -91px -1px;
 	}
 	
 	.bg-pencil {
-		background-position: -154px -46px;
+		background-position: -91px -19px;
 	}
-	
+
 	.bg-recolor {
-		background-position: -154px -82px;
+		background-position: -91px -37px;
 	}
 	
 	.bg-rectangleselect {
-		width: 15px; height: 15px;
-		background-position: -190px -10px;
+		background-position: -91px -55px;
+	}
+
+	.bg-select {
+		width: 30px;
+		height: 15px;
+		background-position: -26px -23px;
+	}
+
+	.bg-shapes {
+		width: 34px;
+		height: 20px;
+		background-position: -1px -1px;
 	}
 	
 	.bg-text {
-		width: 15px; height: 16px;
-		background-position: -118px -129px;
+		background-position: -1px -84px;
+	}
+
+	.bg-tools {
+		background-position: -19px -84px;
+	}
+
+	.bg-view {
+		width: 34px;
+		height: 16px;
+		background-position: -37px -1px;
 	}
 	
 	.bg-zoom {
-		background-position: -10px -129px;
-	}
-	
-	.bg-gradient {
-		width: 16px; height: 15px;
-		background-position: -153px -129px;
-	}
-	
-	.bg-eraser {
-		background-position: -46px -129px;
-	}
-	
-	.bg-pan {
-		width: 13px; height: 15px;
-		background-position: -10px -165px;
-	}
-	
-	.bg-shapes {
-		width: 34px; height: 20px;
-		background-position: -10px -10px;
-	}
-	
-	.bg-tools {
-		background-position: -82px -129px;
-	}
-	
-	.bg-view {
-		width: 34px; height: 16px;
-		background-position: -64px -10px;
-	}
-	
-	.bg-select {
-		width: 30px; height: 15px;
-		background-position: -53px -50px;
-	}
+		background-position: -37px -84px;
+	}	
 
 	table {
 		tbody {
