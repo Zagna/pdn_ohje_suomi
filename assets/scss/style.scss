@@ -10,6 +10,7 @@ $primary: #008571;
 $success: #008571;
 $info: #287cb8;
 $danger: #da3a42;
+$navbar-dropdown-arrow: $info;
 
 // Import only what you need from Bulma
 // @import "../../node_modules/bulma/sass/utilities/all";
@@ -121,6 +122,16 @@ figure {
 	a {
 		color: $black;
 	}
+	.navbar-dropdown {
+		.navbar-item {
+			padding: 0;
+			a {
+				width: 100%;
+				padding: 0.375rem 1rem;
+			}
+		}		
+	}
+	
 }
 
 section.hero {
