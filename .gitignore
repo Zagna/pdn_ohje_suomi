@@ -52,7 +52,6 @@ Temporary Items
 *.exe
 public/*
 *.zip
-/404.html
 svg.*
 svg/*
 resources/*
