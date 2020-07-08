@@ -9,6 +9,4 @@
 	{{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed") }}
 	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS $options }}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}?v=6">
-	<link rel="icon" type="image/png" href="/resurssit/favicon.png">
-
-
+	
