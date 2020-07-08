@@ -34,4 +34,4 @@ summaryLength = 10
 [[menu.pdn]]
 	name = "Muuta"
 	identifier = "muuta"
-	weight = 600	
+	weight = 600

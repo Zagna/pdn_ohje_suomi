@@ -12,34 +12,34 @@ $info: #287cb8;
 $danger: #da3a42;
 
 // Import only what you need from Bulma
-// @import "bulma/utilities/all";
-@import "bulma/utilities/initial-variables";
-@import "bulma/utilities/functions";
-@import "bulma/utilities/derived-variables";
-@import "bulma/utilities/mixins";
-@import "bulma/utilities/controls";
-// @import "bulma/base/all";
-@import "bulma/base/minireset";
-@import "bulma/base/generic";
-// @import "bulma/elements/all";
-@import "bulma/elements/box";
-@import "bulma/elements/button";
-@import "bulma/elements/container";
-@import "bulma/elements/content";
-@import "bulma/elements/notification";
-@import "bulma/elements/table";
-@import "bulma/elements/tag";
-// @import "bulma/form/all";
-@import "bulma/form/shared";
-@import "bulma/form/input-textarea";
-@import "bulma/form/tools";
-// @import "bulma/components/all";
-@import "bulma/components/level";
-@import "bulma/components/navbar";
-@import "bulma/components/tabs";
-// @import "bulma/grid/all";
-// @import "bulma/helpers/all"
-@import "bulma/layout/all";
+// @import "../../node_modules/bulma/sass/utilities/all";
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+@import "../../node_modules/bulma/sass/utilities/functions";
+@import "../../node_modules/bulma/sass/utilities/derived-variables";
+@import "../../node_modules/bulma/sass/utilities/mixins";
+@import "../../node_modules/bulma/sass/utilities/controls";
+// @import "../../node_modules/bulma/sass/base/all";
+@import "../../node_modules/bulma/sass/base/minireset";
+@import "../../node_modules/bulma/sass/base/generic";
+// @import "../../node_modules/bulma/sass/elements/all";
+@import "../../node_modules/bulma/sass/elements/box";
+@import "../../node_modules/bulma/sass/elements/button";
+@import "../../node_modules/bulma/sass/elements/container";
+@import "../../node_modules/bulma/sass/elements/content";
+@import "../../node_modules/bulma/sass/elements/notification";
+@import "../../node_modules/bulma/sass/elements/table";
+@import "../../node_modules/bulma/sass/elements/tag";
+// @import "../../node_modules/bulma/sass/form/all";
+@import "../../node_modules/bulma/sass/form/shared";
+@import "../../node_modules/bulma/sass/form/input-textarea";
+@import "../../node_modules/bulma/sass/form/tools";
+// @import "../../node_modules/bulma/sass/components/all";
+@import "../../node_modules/bulma/sass/components/level";
+@import "../../node_modules/bulma/sass/components/navbar";
+@import "../../node_modules/bulma/sass/components/tabs";
+// @import "../../node_modules/bulma/sass/grid/all";
+// @import "../../node_modules/bulma/sass/helpers/all"
+@import "../../node_modules/bulma/sass/layout/all";
 
 //colors
 $valkoinen: $white;
