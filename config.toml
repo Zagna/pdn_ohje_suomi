@@ -2,9 +2,9 @@ languageCode = "fi"
 title = "paint.net suomeksi"
 DefaultContentLanguage = "fi"
 disableKinds = [ "RSS", "tags", "categories", "taxonomy", "taxonomyTerm", "section", "404" ]
-enableGitInfo = true
 enableRobotsTXT = true
 summaryLength = 10
+googleAnalytics = "UA-158488951-1"
 
 [[menu.pdn]]
 	name = "paint.net ohje"
