@@ -5,9 +5,7 @@
   "main": " ",
   "dependencies": {},
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
-    "bulma": "^0.9.0",
-    "postcss-cli": "^7.1.1"
+    "bulma": "^0.9.0"
   },
   "scripts": {
     "build": "postcss public/css/style.css -o public/css/style.css"
