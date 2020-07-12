@@ -1,0 +1,31 @@
+{{ partialCached "header.html" . }}
+	<title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+	<meta name="description" content="{{ .Summary }}">
+</head>
+<body>
+<section class="hero">
+	<div class="hero-body">
+		<div class="container">
+			<div class="level">
+				<div class="level-item">
+					<a href="/"><img id="favicon" src="/resurssit/favicon.png" alt="paint.net ohje" /></a>
+					<a href="/"><h1 class="title">paint.net ohje</h1></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section">
+	<div class="container">
+		<div class="content">
+			<h2>{{ .Title }}{{ if .Params.tooltip }} <img src="/resurssit/tyokalut/pixel.png" class="tools bg-{{ .Params.tooltip }}" alt="{{ .Title }}" />{{ end }}</h2>
+			{{ .Content }}
+		</div>
+		{{ partialCached "footer.html" . }}
+	</div>
+</section>
+{{ partialCached "menu.html" . }}
+{{ if .Params.tabs }} <script src="/js/tabs.js"></script> {{ end }}
+<script src="/js/nav.js"></script>
+</body>
+</html>

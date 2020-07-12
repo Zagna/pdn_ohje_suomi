@@ -5,6 +5,7 @@
   "main": " ",
   "dependencies": {},
   "devDependencies": {
+    "@vizuaalog/bulmajs": "^0.11.0",
     "bulma": "^0.9.0"
   },
   "scripts": {
