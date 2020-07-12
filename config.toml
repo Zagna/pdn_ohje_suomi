@@ -6,35 +6,37 @@ enableRobotsTXT = true
 summaryLength = 10
 googleAnalytics = "UA-158488951-1"
 
-[[menu.pdn]]
-	name = "paint.net ohje"
-	identifier = "koti"
-	weight = 100
+[menu]
 
-[[menu.pdn]]
-	name = "Käyttöliittymä"
-	identifier = "kliittyma"
-	weight = 200
+	[[menu.pdn]]
+		name = "paint.net ohje"
+		identifier = "koti"
+		weight = 100
 
-[[menu.pdn]]
-	name = "Valikkopalkki"
-	identifier = "vpalkki"
-	weight = 300
+	[[menu.pdn]]
+		name = "Käyttöliittymä"
+		identifier = "kliittyma"
+		weight = 200
 
-[[menu.pdn]]
-	name = "Säädöt ja tehosteet"
-	identifier = "sehot"
-	weight = 400
+	[[menu.pdn]]
+		name = "Valikkopalkki"
+		identifier = "vpalkki"
+		weight = 300
 
-[[menu.pdn]]
-	name = "Työkaluikkuna"
-	identifier = "tikkuna"
-	weight = 500
+	[[menu.pdn]]
+		name = "Säädöt ja tehosteet"
+		identifier = "sehot"
+		weight = 400
 
-[[menu.pdn]]
-	name = "Muuta"
-	identifier = "muuta"
-	weight = 600
+	[[menu.pdn]]
+		name = "Työkaluikkuna"
+		identifier = "tikkuna"
+		weight = 500
+
+	[[menu.pdn]]
+		name = "Muuta"
+		identifier = "muuta"
+		weight = 600
 
 [module]
 
@@ -57,10 +59,6 @@ googleAnalytics = "UA-158488951-1"
 	[[module.mounts]]
 		source = "assets"
 		target = "assets"
-
-	[[module.mounts]]
-		source = "i18n"
-		target = "i18n"
 
 	[[module.mounts]]
 		source = "archetypes"

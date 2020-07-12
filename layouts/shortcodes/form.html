@@ -1,37 +1,37 @@
 
-<form name="palaute" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/kiitos-palautteesta/">
+<form name="Palaute" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/kiitos-palautteesta/">
     <div class="field is-horizontal">
         <div class="field-label is-normal">
-            <label class="label">Nimi</label>
+            <label class="label" for="palaute-nimi">Nimi</label>
         </div>
         <div class="field-body">
             <div class="field">
                 <div class="control">
-                    <input name="nimi" class="input" type="text" placeholder="Nimi">
+                    <input id="palaute-nimi" name="nimi" class="input" type="text" placeholder="Nimi">
                 </div>
             </div>
         </div>
     </div>
     <div class="field is-horizontal">
         <div class="field-label is-normal">
-            <label class="label">Sähköposti</label>
+            <label class="label" for="palaute-email">Sähköposti</label>
         </div>
         <div class="field-body">
             <div class="field">
                 <div class="control">
-                    <input name="email" class="input" type="text" placeholder="Sähköposti">
+                    <input id="palaute-email" name="email" class="input" type="text" placeholder="Sähköposti">
                 </div>
             </div>
         </div>
     </div>
     <div class="field is-horizontal">
         <div class="field-label is-normal">
-            <label class="label">Palaute</label>
+            <label class="label" for="palaute-text">Palaute</label>
         </div>
         <div class="field-body">
             <div class="field">
                 <div class="control">
-                    <textarea rows="5" class="textarea" placeholder="Palaute"></textarea>
+                    <textarea id="palaute-text" rows="5" class="textarea" placeholder="Palaute"></textarea>
                 </div>
             </div>
         </div>
