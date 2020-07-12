@@ -110,6 +110,10 @@ figure {
 	margin-top: 2em;
 	> div.content {
 		text-align: center;
+		img {
+			display: block;
+			margin: 1em auto;
+		}
 	}
 }
 
@@ -142,6 +146,7 @@ section.hero {
 			font-weight: 600;
 			color: white;
 			font-size: 1.5rem !important;
+			margin-left: .3em;
 		}
 	}
 }
