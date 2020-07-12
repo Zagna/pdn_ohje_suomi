@@ -8,17 +8,11 @@
     "@vizuaalog/bulmajs": "^0.11.0",
     "bulma": "^0.9.0"
   },
-  "scripts": {
-    "build": "postcss public/css/style.css -o public/css/style.css"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Zagna/pdn_ohje_suomi.git"
   },
   "author": "Jarno Ruokamo",
   "license": "CC-BY-ND-4.0",
-  "bugs": {
-    "url": "https://github.com/Zagna/pdn_ohje_suomi/issues"
-  },
-  "homepage": "https://github.com/Zagna/pdn_ohje_suomi#readme"
+  "homepage": "https://github.com/Zagna/pdn_ohje_suomi"
 }

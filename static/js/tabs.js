@@ -1,1 +1,0 @@
-F:/PDN/node_modules/@vizuaalog/bulmajs/dist/tabs.js
