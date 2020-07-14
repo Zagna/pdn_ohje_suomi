@@ -25,7 +25,10 @@
 	</div>
 </section>
 {{ partialCached "menu.html" . }}
-{{ if .Params.tabs }} <script src="/bulmajs/tabs.js"></script> {{ end }}
+{{ if .Params.tabs }}
+{{ $js := resources.Get "js/tabs.js" | js.Build }}
+<script src="{{ $js.RelPermalink }}"></script>
+{{ end }}
 <script src="/js/nav.js"></script>
 </body>
 </html>

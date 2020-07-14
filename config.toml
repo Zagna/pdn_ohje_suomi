@@ -65,5 +65,5 @@ googleAnalytics = "UA-158488951-1"
 		target = "archetypes"
 
 	[[module.mounts]]
-		source = "node_modules/@vizuaalog/bulmajs/dist/"
-		target = "static/bulmajs/"
+		source = "node_modules/bulma/sass"
+		target = "assets/scss/bulma"
