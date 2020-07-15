@@ -31,8 +31,8 @@ kanssa, on se myöhemmin kasvanut tehokkaaksi työkaluksi kuvien muokkaamiseen.
     Välilehdet tekevät navigaatiosta yksinkertaista ja helppoa, tarvitset vain yhden klikkauksen siirtyäksesi toiseen kuvaan. Uutta paint.netissä
     on että välilehdet voi järjestellä uudestaan vetämällä ja pudottamalla.
 
-    Jokainen avoinna oleva kuva näkyy erillään Windowsin tehtäväpalkin esikatselussa \(tämän voi ottaa pois päältä
-    {{< tool "tools" >}}[Asetukset]({{< relref "asetukset" >}}) valikossa\).
+    Jokainen avoinna oleva kuva näkyy erillään Windowsin tehtäväpalkin esikatselussa (tämän voi ottaa pois päältä
+    {{< tool "tools" >}}[Asetukset]({{% relref "asetukset" %}}) valikossa).
 
 * #### Tasot
 

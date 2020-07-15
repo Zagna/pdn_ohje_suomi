@@ -16,9 +16,9 @@ title = "Käyrät"
 
 Käyrät-säätöä voi käyttää värien muokkaamiseen suurella määrällä ohjattavuutta. Käyrät antavat sinun hienosäätää jokaisen sävyn
 voimakkuutta kuvassa. Tarkemmin, sitä voi myös käyttää tuomaan esiin tai piilottamaan tiettyjä sävyaloja kuvasta, tavoilla joilla
-[Sävyala]({{< relref "savyala" >}}) ja [Kirkkaus / Kontrasti]({{< relref "saadot" >}}) eivät voi.
+[Sävyala]({{% relref "savyala" %}}) ja [Kirkkaus / Kontrasti]({{% relref "saadot" %}}) eivät voi.
 
-Toisin kuin [Sävyala]({{< relref "savyala" >}}) ja [Kirkkaus / Kontrasti]({{< relref "saadot" >}}), Käyrillä voi vapaasti muokata
+Toisin kuin [Sävyala]({{% relref "savyala" %}}) ja [Kirkkaus / Kontrasti]({{% relref "saadot" %}}), Käyrillä voi vapaasti muokata
 kuinka kirkkaita kaikki eri sävyt voivat olla kuvassa. Itseasiassa, kuvan värit voi täysin invertoida käyttäen Käyriä.
 
 ### Käyttöliittymä
@@ -70,7 +70,7 @@ Alla oleva kuva on muokattu Käyrillä vahvistamaan koiran turkin punaisen voima
 ### Muut mahdollisuudet
 
 Kuten aiemmin mainittiin, voit käyttää Käyriä kuvan invertoimiseen. Esimerkissä alhaalla, ruisleivän kuva muokattiin käyttäen Käyriä tuottaakseen
-kuvan mikä ei ole mahdollista muilla säädöillä, kuten [Sävyala]({{< relref "savyala" >}}) tai Sävy / Värikylläisyys:
+kuvan mikä ei ole mahdollista muilla säädöillä, kuten [Sävyala]({{% relref "savyala" %}}) tai Sävy / Värikylläisyys:
 
 {{< level >}}
     {{< figure src="/kuvat/kayra3.png" alt="Käyrät-Sin" >}}{{< /figure >}}

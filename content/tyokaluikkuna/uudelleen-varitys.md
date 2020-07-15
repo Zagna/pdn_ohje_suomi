@@ -16,10 +16,10 @@ väriksi ja taustaväri on väri joka tullaan korvaamaan. Jos käytät oikeaa hi
 
 {{< vihje >}}Voit käyttää vasenta hiiren nappia kun pidät alhaalla Ctrl-nappia valitaksesi edustavärin. Oikea hiiren nappi ja Ctrl-nappi asettavat taustavärin. Tämä mukavasti toistaa Väripoimijan toimintaa.{{< /vihje >}}
 
-Voit muokata uudelleen värityksen herkkyyttä [Toleranssi]({{< relref "/tyokalupalkki#taikasauva-täyttö-ja-uudelleen-väritys" >}})
+Voit muokata uudelleen värityksen herkkyyttä [Toleranssi]({{% relref "/tyokalupalkki#taikasauva-täyttö-ja-uudelleen-väritys" %}})
 asetuksella. Jos se on 0%, vain tarkalleen sama väri muutetaan. Jos se on 100%, se toimii pitkälti kuin Sivellin.
 
-Voit myös asettaa siveltimen koon asettamalla [Siveltimen koon työkalupalkissa]({{< relref "/tyokalupalkki#muodot-sivellin-tyyli-ja-täyttö" >}}).
+Voit myös asettaa siveltimen koon asettamalla [Siveltimen koon työkalupalkissa]({{% relref "/tyokalupalkki#muodot-sivellin-tyyli-ja-täyttö" %}}).
 
 Taidokas uudelleen värityksen käyttö voi johtaa kiinnostaviin tuloksiin. Seuraava on yksi sellainen esimerkki:
 

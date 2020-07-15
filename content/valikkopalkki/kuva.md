@@ -10,7 +10,7 @@ title = "Kuva"
 
 +++
 
-Tämä valikko sisältää komentoja jotka vaikuttavat kaikkiin tasoihin kuvassa. Tämä on vastakohta [Tasovalikolle]({{< relref "tasot" >}}) joka
+Tämä valikko sisältää komentoja jotka vaikuttavat kaikkiin tasoihin kuvassa. Tämä on vastakohta [Tasovalikolle]({{% relref "tasot" %}}) joka
 vaikuttaa vain aktiiviseen tasoon.
 
 {{< figure src="/kuvat/imagemenu.png" alt="Kuva valikko" >}}{{< /figure >}}
@@ -24,7 +24,7 @@ vaikuttaa vain aktiiviseen tasoon.
 
     {{< figure src="/resurssit/ruisleipa.jpg" alt="Alkuperäinen" class="border" >}}{{< /figure >}}
 
-    Tässä rajattu alue on valittu käyttäen [Lassovalintaa]({{< relref "valintatyokalut" >}}):
+    Tässä rajattu alue on valittu käyttäen [Lassovalintaa]({{% relref "valintatyokalut" %}}):
 
     {{< figure src="/resurssit/ruisleipa_lasso.jpg" alt="Lassovalinta" class="border" >}}{{< /figure >}}
 

@@ -14,7 +14,7 @@ tooltip = "view"
 Kuvan näyttämiseen on olemassa kaksi työkalua, Suurennuskerroin ja Panoroi. Ne vaikuttavat vain siihen miten kuva näkyy
 ikkunassa mutteivät muokkaa kuvaa itsessään.
 
-### Suurennuskerroin {{< tool "zoom" >}}
+### Suurennuskerroin {{< tool "zoom" >}} {#suurennuskerroin}
 
 Suurennuskertoimella voit joko kohdistaa (suurentaa) kuvaa, tai loitontaa (pienentää) kuvaa.
 
@@ -26,7 +26,7 @@ Suurennuskerroin-työkalun ollessa käytössä, hiirellä klikkaamalla ja piirt�
 
 {{< vihje >}}Kun Suurennuskerroin-työkalu on käytössä, kuvaa voi panoroida pitämällä hiiren rulla alhaalla ja siirtämällä hiirtä.{{< /vihje >}}
 
-### Panoroi {{< tool "pan" >}}
+### Panoroi {{< tool "pan" >}} {#panoroi}
 
 Panoroi-työkalu mahdollistaa kuvan siirtämisen. Hyöty on suurin kun kuva on suurempi kuin pääikkuna (erityisesti kun kuva on suurennettu).
 
@@ -40,7 +40,7 @@ Klikkaa ja vedä hiirellä siirtääksesi kuvaa.
 
 Versiosta 4.0.10 eteenpäin on ollut mahdollista vierittää kuvaa ikkunan reunan yli.
 
-{{< vihje >}}Tämä asetus on mahdollistaa pistää pois päältä {{< tool "tools" >}}[Asetuksista]({{< relref "asetukset" >}}).{{< /vihje >}}
+{{< vihje >}}Tämä asetus on mahdollistaa pistää pois päältä [Asetuksista]({{% relref "asetukset" %}}).{{< /vihje >}}
 
 Ylivierityksen määrä riippuu kuvan koosta. Pienet kuvat voi siirtää kunnes puolet kuvasta on ikkunan ulkopuolella.
 

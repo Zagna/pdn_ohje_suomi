@@ -36,7 +36,7 @@
 			]
 		},
 		{
-			"content": "Jos sinulla on valokuva jossa kohteella on &ldquo;punaiset silmät&rdquo;, silloin tämä tehoste on hyödyllinen niiden poistamiseen.<br/>Sinun kannattaa kuitenkin valita kohteen silmät ennen kuin käytätä tätä tehostetta.",
+			"content": "Jos sinulla on valokuva jossa kohteella on &ldquo;punaiset silmät&rdquo;, silloin tämä tehoste on hyödyllinen niiden poistamiseen. Kannattaa kuitenkin valita kohteen silmät ennen kuin käytätä tätä tehostetta.",
 			"id": "psilma",
 			"name": "Punasilmän poistaja",
 			"figure": [{
