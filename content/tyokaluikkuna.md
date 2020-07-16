@@ -14,27 +14,27 @@ Täällä voit valita aktiivisen työkalun jota voi käyttää kuvan muokkaamise
 
 {{< figure src="/kuvat/toolswindow_annotated.png" alt="Työkalut" >}}{{< /figure >}}
 
-1. ### {{< tool "rectangleselect" >}}Suorakulmainen valinta {#suorakulmainen-valinta}
+1. ### {{< tool "rectangleselect" >}}[Suorakulmainen valinta]({{% relref "valintatyokalut" %}}) {#suorakulmainen-valinta}
 
-    Voit tämän avulla luoda valinnan joka on suorakulmio tai neliö. Lue lisää [Valintatyökaluissa]({{% relref "valintatyokalut" %}}).
+    Voit tämän avulla luoda valinnan joka on suorakulmio tai neliö.
 
-1. ### {{< tool "moveselectedpixels" >}}Siirrä valintaa {#siirrä-valintaa}
+1. ### {{< tool "moveselectedpixels" >}}[Siirrä valintaa]({{% relref "siirtotyokalut" %}}) {#siirrä-valintaa}
 
-    Voit tämän avulla siirtää pikseleitä jotka on valittu käyttäen erinäisiä Valintatyökaluja. Lue lisää [Siirtotyökaluissa]({{% relref "siirtotyokalut" %}}).
+    Voit tämän avulla siirtää pikseleitä jotka on valittu käyttäen erinäisiä Valintatyökaluja.
 
-1. ### {{< tool "lassoselect" >}}Lassovalinta {#lassovalinta}
+1. ### {{< tool "lassoselect" >}}[Lassovalinta]({{< relref "valintatyokalut" >}}) {#lassovalinta}
 
-    Voit tämän avulla luoda vapaavalintaisen valinnan. Lue lisää [Valintatyökaluissa]({{< relref "valintatyokalut" >}}).
+    Voit tämän avulla luoda vapaavalintaisen valinnan.
 
-1. ### {{< tool "moveselection" >}}Muokkaa valintaa {#muokkaa-valintaa}
+1. ### {{< tool "moveselection" >}}[Muokkaa valintaa]({{< relref "siirtotyokalut" >}}) {#muokkaa-valintaa}
 
-    Voit tämän avulla siirtää valintaa ilman että vaikutat valittuihin pikseleihin. Lue lisää [Siirtotyökaluissa]({{< relref "siirtotyokalut" >}}).
+    Voit tämän avulla siirtää valintaa ilman että vaikutat valittuihin pikseleihin.
 
-1. ### {{< tool "ellipticalselect" >}}Ellipsi valinta {#ellipsi-valinta}
+1. ### {{< tool "ellipticalselect" >}}[Ellipsi valinta]({{< relref "valintatyokalut" >}}) {#ellipsi-valinta}
 
-    Voit tämän avulla luoda joko ellipsin tai pyöreän valinnan. Lue lisää [Valintatyökaluissa]({{< relref "valintatyokalut" >}}).
+    Voit tämän avulla luoda joko ellipsin tai pyöreän valinnan.
 
-1. ### {{< tool "zoom" >}}Suurennuskerroin {#suurennuskerroin}
+1. ### {{< tool "zoom" >}}[Suurennuskerroin] {#suurennuskerroin}
 
     Tällä työkalulla voi joko suurentaa (vasen nappi), pienentää (oikea nappi) tai tarkentaa tiettyyn alueeseen (piirrä alue).
 
@@ -42,7 +42,7 @@ Täällä voit valita aktiivisen työkalun jota voi käyttää kuvan muokkaamise
 
     Tätä voi käyttää valitsemaan alueita jotka ovat samanvärisiä.
 
-1. ### {{< tool "pan" >}}Panoroi({{< relref "siirtotyokalut" >}}) {#panoroi}
+1. ### {{< tool "pan" >}}[Panoroi]({{< relref "siirtotyokalut" >}}) {#panoroi}
 
     Tämän työkalun avulla voit vierittää, tai *panoroida* kuvaa. Tätä ominaisuutta voi myös käyttää muitten työkalujen aikana: paina vain välilyöntiä
     ja sen jälkeen paina hiiren nappia ja siirrä.
@@ -63,13 +63,13 @@ Täällä voit valita aktiivisen työkalun jota voi käyttää kuvan muokkaamise
 
     Voit käyttää tätä työkalua osien pyyhkimiseen (alueet asetetaan läpinäkyviksi).
 
-1. ### {{< tool "pencil" >}}Kynä {#kynä}
+1. ### {{< tool "pencil" >}}[Kynä]({{< relref "pikselityokalut" >}}) {#kynä}
 
-    Tämä antaa sinun muokata kuvaa pikseli pikseliltä. Lue lisää [Pikselityökaluissa]({{< relref "pikselityokalut" >}}).
+    Tämä antaa sinun muokata kuvaa pikseli pikseliltä.
 
-1. ### {{< tool "colorpicker" >}}Väripoimija {#väripoimija}
+1. ### {{< tool "colorpicker" >}}[Väripoimija]({{< relref "pikselityokalut" >}}) {#väripoimija}
 
-    Tällä työkalulla voit poimia värin aktiiviselta tasolta ja asettaa sen edusta- tai taustaväriksi. Lue lisää [Pikselityökaluissa]({{< relref "pikselityokalut" >}}).
+    Tällä työkalulla voit poimia värin aktiiviselta tasolta ja asettaa sen edusta- tai taustaväriksi.
 
 1. ### {{< tool "clonestamp" >}}[Kloonaus]({{< relref "kloonaus" >}}) {#kloonaus}
 
