@@ -13,34 +13,34 @@ $danger: #da3a42;
 $navbar-dropdown-arrow: $info;
 
 // Import only what you need from Bulma
-// @import "../../node_modules/bulma/sass/utilities/all";
-@import "../../node_modules/bulma/sass/utilities/initial-variables";
-@import "../../node_modules/bulma/sass/utilities/functions";
-@import "../../node_modules/bulma/sass/utilities/derived-variables";
-@import "../../node_modules/bulma/sass/utilities/mixins";
-@import "../../node_modules/bulma/sass/utilities/controls";
-// @import "../../node_modules/bulma/sass/base/all";
-@import "../../node_modules/bulma/sass/base/minireset";
-@import "../../node_modules/bulma/sass/base/generic";
-// @import "../../node_modules/bulma/sass/elements/all";
-@import "../../node_modules/bulma/sass/elements/box";
-@import "../../node_modules/bulma/sass/elements/button";
-@import "../../node_modules/bulma/sass/elements/container";
-@import "../../node_modules/bulma/sass/elements/content";
-@import "../../node_modules/bulma/sass/elements/notification";
-@import "../../node_modules/bulma/sass/elements/table";
-@import "../../node_modules/bulma/sass/elements/tag";
-// @import "../../node_modules/bulma/sass/form/all";
-@import "../../node_modules/bulma/sass/form/shared";
-@import "../../node_modules/bulma/sass/form/input-textarea";
-@import "../../node_modules/bulma/sass/form/tools";
-// @import "../../node_modules/bulma/sass/components/all";
-@import "../../node_modules/bulma/sass/components/level";
-@import "../../node_modules/bulma/sass/components/navbar";
-@import "../../node_modules/bulma/sass/components/tabs";
-// @import "../../node_modules/bulma/sass/grid/all";
-// @import "../../node_modules/bulma/sass/helpers/all"
-@import "../../node_modules/bulma/sass/layout/all";
+// @import "utilities/all";
+@import "utilities/initial-variables";
+@import "utilities/functions";
+@import "utilities/derived-variables";
+@import "utilities/mixins";
+@import "utilities/controls";
+// @import "base/all";
+@import "base/minireset";
+@import "base/generic";
+// @import "elements/all";
+@import "elements/box";
+@import "elements/button";
+@import "elements/container";
+@import "elements/content";
+@import "elements/notification";
+@import "elements/table";
+@import "elements/tag";
+// @import "form/all";
+@import "form/shared";
+@import "form/input-textarea";
+@import "form/tools";
+// @import "components/all";
+@import "components/level";
+@import "components/navbar";
+@import "components/tabs";
+// @import "grid/all";
+// @import "helpers/all"
+@import "layout/all";
 
 //colors
 $valkoinen: $white;

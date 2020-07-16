@@ -37,33 +37,3 @@ googleAnalytics = "UA-158488951-1"
 		name = "Muuta"
 		identifier = "muuta"
 		weight = 600
-
-[module]
-
-	[[module.mounts]]
-		source = "content"
-		target = "content"
-
-	[[module.mounts]]
-		source = "static"
-		target = "static"
-
-	[[module.mounts]]
-		source = "layouts"
-		target = "layouts"
-
-	[[module.mounts]]
-		source = "data"
-		target = "data"
-
-	[[module.mounts]]
-		source = "assets"
-		target = "assets"
-
-	[[module.mounts]]
-		source = "archetypes"
-		target = "archetypes"
-
-	[[module.mounts]]
-		source = "node_modules/bulma/sass"
-		target = "assets/scss/bulma"
