@@ -14,27 +14,27 @@ Täällä voit valita aktiivisen työkalun jota voi käyttää kuvan muokkaamise
 
 {{< figure src="/kuvat/toolswindow_annotated.png" alt="Työkalut" >}}{{< /figure >}}
 
-1. ### {{< tool "rectangleselect" >}}[Suorakulmainen valinta]({{% relref "valintatyokalut" %}}) {#suorakulmainen-valinta}
+1. ### {{< tool "rectangleselect" >}}[Suorakulmainen valinta]({{% relref "valintatyokalut#suorakulmainen-valinta" %}}) {#suorakulmainen-valinta}
 
     Voit tämän avulla luoda valinnan joka on suorakulmio tai neliö.
 
-1. ### {{< tool "moveselectedpixels" >}}[Siirrä valintaa]({{% relref "siirtotyokalut" %}}) {#siirrä-valintaa}
+1. ### {{< tool "moveselectedpixels" >}}[Siirrä valintaa]({{% relref "siirtotyokalut#siirrä-valintaa" %}}) {#siirrä-valintaa}
 
     Voit tämän avulla siirtää pikseleitä jotka on valittu käyttäen erinäisiä Valintatyökaluja.
 
-1. ### {{< tool "lassoselect" >}}[Lassovalinta]({{< relref "valintatyokalut" >}}) {#lassovalinta}
+1. ### {{< tool "lassoselect" >}}[Lassovalinta]({{< relref "valintatyokalut#lassovalinta" >}}) {#lassovalinta}
 
     Voit tämän avulla luoda vapaavalintaisen valinnan.
 
-1. ### {{< tool "moveselection" >}}[Muokkaa valintaa]({{< relref "siirtotyokalut" >}}) {#muokkaa-valintaa}
+1. ### {{< tool "moveselection" >}}[Muokkaa valintaa]({{< relref "siirtotyokalut#muokkaa-valintaa" >}}) {#muokkaa-valintaa}
 
     Voit tämän avulla siirtää valintaa ilman että vaikutat valittuihin pikseleihin.
 
-1. ### {{< tool "ellipticalselect" >}}[Ellipsi valinta]({{< relref "valintatyokalut" >}}) {#ellipsi-valinta}
+1. ### {{< tool "ellipticalselect" >}}[Ellipsi valinta]({{< relref "valintatyokalut#ellipsi-valinta" >}}) {#ellipsi-valinta}
 
     Voit tämän avulla luoda joko ellipsin tai pyöreän valinnan.
 
-1. ### {{< tool "zoom" >}}[Suurennuskerroin] {#suurennuskerroin}
+1. ### {{< tool "zoom" >}}[Suurennuskerroin]({{< relref "nayton-tyokalut#suurennuskerroin" >}}) {#suurennuskerroin}
 
     Tällä työkalulla voi joko suurentaa (vasen nappi), pienentää (oikea nappi) tai tarkentaa tiettyyn alueeseen (piirrä alue).
 
@@ -42,7 +42,7 @@ Täällä voit valita aktiivisen työkalun jota voi käyttää kuvan muokkaamise
 
     Tätä voi käyttää valitsemaan alueita jotka ovat samanvärisiä.
 
-1. ### {{< tool "pan" >}}[Panoroi]({{< relref "siirtotyokalut" >}}) {#panoroi}
+1. ### {{< tool "pan" >}}[Panoroi]({{< relref "nayton-tyokalut#panoroi" >}}) {#panoroi}
 
     Tämän työkalun avulla voit vierittää, tai *panoroida* kuvaa. Tätä ominaisuutta voi myös käyttää muitten työkalujen aikana: paina vain välilyöntiä
     ja sen jälkeen paina hiiren nappia ja siirrä.
@@ -63,11 +63,11 @@ Täällä voit valita aktiivisen työkalun jota voi käyttää kuvan muokkaamise
 
     Voit käyttää tätä työkalua osien pyyhkimiseen (alueet asetetaan läpinäkyviksi).
 
-1. ### {{< tool "pencil" >}}[Kynä]({{< relref "pikselityokalut" >}}) {#kynä}
+1. ### {{< tool "pencil" >}}[Kynä]({{< relref "pikselityokalut#kynä" >}}) {#kynä}
 
     Tämä antaa sinun muokata kuvaa pikseli pikseliltä.
 
-1. ### {{< tool "colorpicker" >}}[Väripoimija]({{< relref "pikselityokalut" >}}) {#väripoimija}
+1. ### {{< tool "colorpicker" >}}[Väripoimija]({{< relref "pikselityokalut#väripoimija" >}}) {#väripoimija}
 
     Tällä työkalulla voit poimia värin aktiiviselta tasolta ja asettaa sen edusta- tai taustaväriksi.
 

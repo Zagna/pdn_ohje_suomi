@@ -56,6 +56,10 @@ $varoitus: url(/resurssit/iconwarning.png);
 $esim: url(/resurssit/iconexample.png);
 $sprite: url(/resurssit/tyokalut/css_sprites.png);
 
+html {
+	scroll-padding-top: $navbar-height;
+}
+
 body {
 	font-size: .85em;
 	text-indent: 0;
