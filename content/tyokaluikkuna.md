@@ -14,15 +14,15 @@ Täällä voit valita aktiivisen työkalun jota voi käyttää kuvan muokkaamise
 
 {{< figure src="/kuvat/toolswindow_annotated.png" alt="Työkalut" >}}{{< /figure >}}
 
-1. ### {{< tool "rectangleselect" >}}[Suorakulmainen valinta]({{% relref "valintatyokalut#suorakulmainen-valinta" %}}) {#suorakulmainen-valinta}
+1. ### {{< tool "rectangleselect" >}}[Suorakulmainen valinta]({{< relref "valintatyokalut" >}}) {#suorakulmainen-valinta}
 
     Voit tämän avulla luoda valinnan joka on suorakulmio tai neliö.
 
-1. ### {{< tool "moveselectedpixels" >}}[Siirrä valintaa]({{% relref "siirtotyokalut#siirrä-valintaa" %}}) {#siirrä-valintaa}
+1. ### {{< tool "moveselectedpixels" >}}[Siirrä valintaa]({{< relref "siirtotyokalut#siirrä-valintaa" >}}) {#siirrä-valintaa}
 
     Voit tämän avulla siirtää pikseleitä jotka on valittu käyttäen erinäisiä Valintatyökaluja.
 
-1. ### {{< tool "lassoselect" >}}[Lassovalinta]({{< relref "valintatyokalut#lassovalinta" >}}) {#lassovalinta}
+1. ### {{< tool "lassoselect" >}}[Lassovalinta]({{< relref "valintatyokalut" >}}) {#lassovalinta}
 
     Voit tämän avulla luoda vapaavalintaisen valinnan.
 
@@ -30,7 +30,7 @@ Täällä voit valita aktiivisen työkalun jota voi käyttää kuvan muokkaamise
 
     Voit tämän avulla siirtää valintaa ilman että vaikutat valittuihin pikseleihin.
 
-1. ### {{< tool "ellipticalselect" >}}[Ellipsi valinta]({{< relref "valintatyokalut#ellipsi-valinta" >}}) {#ellipsi-valinta}
+1. ### {{< tool "ellipticalselect" >}}[Ellipsi valinta]({{< relref "valintatyokalut" >}}) {#ellipsi-valinta}
 
     Voit tämän avulla luoda joko ellipsin tai pyöreän valinnan.
 
@@ -63,11 +63,11 @@ Täällä voit valita aktiivisen työkalun jota voi käyttää kuvan muokkaamise
 
     Voit käyttää tätä työkalua osien pyyhkimiseen (alueet asetetaan läpinäkyviksi).
 
-1. ### {{< tool "pencil" >}}[Kynä]({{< relref "pikselityokalut#kynä" >}}) {#kynä}
+1. ### {{< tool "pencil" >}}[Kynä]({{< relref "pikselityokalut" >}}) {#kynä}
 
     Tämä antaa sinun muokata kuvaa pikseli pikseliltä.
 
-1. ### {{< tool "colorpicker" >}}[Väripoimija]({{< relref "pikselityokalut#väripoimija" >}}) {#väripoimija}
+1. ### {{< tool "colorpicker" >}}[Väripoimija]({{< relref "pikselityokalut" >}}) {#väripoimija}
 
     Tällä työkalulla voit poimia värin aktiiviselta tasolta ja asettaa sen edusta- tai taustaväriksi.
 
