@@ -6,6 +6,6 @@
 	<meta name="language" content="finnish"> 
 	<meta name="author" content="Jarno Ruokamo">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	{{ $options := (dict "targetPath" "css/style.css" "includePaths" (slice "node_modules/bulma/sass")) }}
-	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS $options }}
+	{{ $options := (dict "includePaths" (slice "node_modules/bulma/sass")) }}
+	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS $options | resources.Minify }}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}?v={{ now.Format "20060102" }}">	
