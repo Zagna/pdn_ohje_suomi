@@ -28,5 +28,3 @@ window.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
-
-import Tabs from '@vizuaalog/bulmajs';

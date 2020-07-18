@@ -1,2 +1,4 @@
-{{ $js := resources.Get "js/app.js" | js.Build }}
-<script src="{{ $js.RelPermalink }}"></script>
+{{ $nav := resources.Get "js/nav.js" | js.Build }}
+<script src="{{ $nav.RelPermalink }}"></script>
+{{ $tab := resources.Get "js/tab.js" | js.Build }}
+<script src="{{ $tab.RelPermalink }}"></script>
