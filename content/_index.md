@@ -72,4 +72,6 @@ kanssa, on se myöhemmin kasvanut tehokkaaksi työkaluksi kuvien muokkaamiseen.
 
     paint.net jaetaan ilman maksua.
 
+Palautetta käännöksestä voi lähettää [lomakkeella]({{< relref "palaute" >}}) ![suomilippu](/resurssit/fi.png).
+
 Terveisin, Jarno Ruokamo.
