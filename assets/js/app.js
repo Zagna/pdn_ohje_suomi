@@ -8,5 +8,5 @@ window.addEventListener('DOMContentLoaded', function() {
 
 });
 
-import Tabs from '@vizuaalog/bulmajs';
-import Navbar from '@vizuaalog/bulmajs';
+import Tabs from '@vizuaalog/bulmajs/src/plugins/tabs';
+import Navbar from '@vizuaalog/bulmajs/src/plugins/navbar';
