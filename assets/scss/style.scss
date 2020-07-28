@@ -145,7 +145,7 @@ figure {
 section.hero {
 	background-color: #005577;
 	.hero-body {
-		background-image: url('/resurssit/imagebar.jpg');
+		background-image: $palkki;
 		h1.title {
 			font-weight: 600;
 			color: white;
