@@ -8,4 +8,4 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	{{ $options := (dict "includePaths" (slice "node_modules/bulma/sass")) }}
 	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS $options | resources.Minify }}
-	<link rel="stylesheet" href="{{ $style.RelPermalink }}?v={{ now.Format "20060102" }}">	
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}">	
