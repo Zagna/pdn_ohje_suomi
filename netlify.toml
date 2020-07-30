@@ -38,4 +38,4 @@ HUGO_ENABLEGITINFO = "true"
         X-Content-Type-Options = "nosniff"
         Content-Security-Policy = '''
         default-src 'self' d33wubrfki0l68.cloudfront.net;
-        script-src www.google-analytics.com;'''
+        script-src d33wubrfki0l68.cloudfront.net www.google-analytics.com unsafe-inline;'''
