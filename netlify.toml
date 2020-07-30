@@ -39,5 +39,5 @@ HUGO_ENABLEGITINFO = "true"
         Content-Security-Policy = '''
         default-src 'self' https://d33wubrfki0l68.cloudfront.net;
         script-src https://d33wubrfki0l68.cloudfront.net https://www.google-analytics.com 'sha256-b8bOZQyhrO/ROt709TBjmBBnTLMCX4ALyEAJ/L716f8=';
-        img-src: https://www.google-analytics.com;
+        img-src: https://d33wubrfki0l68.cloudfront.net https://www.google-analytics.com;
         connect-src: https://www.google-analytics.com;'''
