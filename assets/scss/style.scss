@@ -186,6 +186,7 @@ section.hero {
 			padding-left: 35px;
 			margin-left: 8px;
 			margin-top: 4px;
+			background-size: contain;
 		}
 		p {
 			margin-bottom: -16px;
@@ -277,7 +278,7 @@ section.hero {
 		
 		@media (min-resolution: $retina-dpi) {
 			background-image: $sprite2;
-			background-size: 41px 378px;
+			background-size: 41px 336px;
 		}
 		
 		&.clonestamp {
