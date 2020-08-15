@@ -273,7 +273,7 @@ section.hero {
 		background-image: $sprite;
 		width: 16px;
 		height: 16px;
-		filter: drop-shadow(0 0 1px $grey-lighter);
+		filter: drop-shadow(0 0 1px $grey);
 		
 		@media (min-resolution: $retina-dpi) {
 			background-image: $sprite2;
