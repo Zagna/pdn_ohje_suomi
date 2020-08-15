@@ -6,7 +6,7 @@ tabs = true
 
 [menu.pdn]
     parent = "koti"
-    weight = 107
+    weight = 120
 
 +++
 

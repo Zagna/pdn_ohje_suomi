@@ -11,6 +11,7 @@ $success: #008571;
 $info: #287cb8;
 $danger: #da3a42;
 $navbar-dropdown-arrow: $info;
+$retina-dpi: 144dpi;
 
 // Import only what you need from Bulma
 // @import "utilities/all";
@@ -42,19 +43,18 @@ $navbar-dropdown-arrow: $info;
 // @import "helpers/all"
 @import "layout/all";
 
-//colors
-$valkoinen: $white;
-$harmaa: $grey-dark;
-$sininen: $blue;
-
 //urls
 $palkki: url(/resurssit/imagebar.jpg);
-$logo: url(/resurssit/logo2.png);
-$vihje: url(/resurssit/icontip.png);
-$huom: url(/resurssit/iconnote.png);
-$varoitus: url(/resurssit/iconwarning.png);
-$esim: url(/resurssit/iconexample.png);
-$sprite: url(/resurssit/tyokalut/css_sprites.png);
+$vihje: url(/resurssit/tip.png);
+$vihje2: url(/resurssit/tip@2x.png);
+$huom: url(/resurssit/note.png);
+$huom2: url(/resurssit/note@2x.png);
+$varoitus: url(/resurssit/warning.png);
+$varoitus2: url(/resurssit/warning@2x.png);
+$esim: url(/resurssit/example.png);
+$esim2: url(/resurssit/example@2x.png);
+$sprite: url(/resurssit/tyokalut/tool_sprite.png);
+$sprite2: url(/resurssit/tyokalut/tool_sprite@2x.png);
 
 html {
 	scroll-padding-top: $navbar-height;
@@ -121,10 +121,6 @@ figure {
 	}
 }
 
-.fixed {
-	font-family: $family-code;
-}
-
 #navbar {
 	justify-content: center;
 	a {
@@ -139,7 +135,6 @@ figure {
 			}
 		}		
 	}
-	
 }
 
 section.hero {
@@ -156,7 +151,6 @@ section.hero {
 }
 
 .content {
-
 	dl {
 		display: grid;
 		grid-template-columns: 45fr 55fr;
@@ -188,8 +182,7 @@ section.hero {
 			z-index: 2;
 			position: relative;
 			height: 32px;
-			width: 100px;
-			background: $vihje no-repeat;
+			background-repeat: no-repeat;
 			padding-left: 35px;
 			margin-left: 8px;
 			margin-top: 4px;
@@ -204,19 +197,33 @@ section.hero {
 			border-style: solid;
 			border-width: thick;
 			border-radius: 8px;
-			border-color: $success;
 		}
 		.text-white a {
-			color: $valkoinen;
+			color: $white;
 		}
 		a {
 			text-decoration: underline;
 		}
 	}
 
+	.tip {
+		h3 {
+			background-image: $vihje;
+			@media (min-resolution: $retina-dpi) {
+				background-image: $vihje2;
+			}
+		}
+		p {
+			border-color: $success;
+		}
+	}
+
 	.note {
 		h3 {
 			background-image: $huom;
+			@media (min-resolution: $retina-dpi) {
+				background-image: $huom2;
+			}
 		}
 		p {
 			border-color: $warning;
@@ -226,6 +233,9 @@ section.hero {
 	.warning {
 		h3 {
 			background-image: $varoitus;
+			@media (min-resolution: $retina-dpi) {
+				background-image: $varoitus2;
+			}
 		}
 		p {
 			border-color: $danger;
@@ -235,6 +245,9 @@ section.hero {
 	.example {
 		h3 {
 			background-image: $esim;
+			@media (min-resolution: $retina-dpi) {
+				background-image: $esim2;
+			}
 		}
 		p {
 			border-color: $info;
@@ -251,115 +264,99 @@ section.hero {
 			display: inline-block;
 		}
 	}
-	
-	.tools {
+		
+	.tool {
 		vertical-align: middle;
-		background-image: $sprite;
 		margin: 0 3px;
+		display: inline-block;
+		background-repeat: no-repeat;
+		background-image: $sprite;
 		width: 16px;
 		height: 16px;
+		filter: drop-shadow(0 0 1px $grey-lighter);
+		
+		@media (min-resolution: $retina-dpi) {
+			background-image: $sprite2;
+			background-size: 41px 378px;
+		}
+		
+		&.clonestamp {
+			background-position: 0 0;
+		}
+		&.colorpicker {
+			background-position: 0 -17px;
+		}
+		&.ellipticalselect {
+			background-position: 0 -34px;
+		}
+		&.eraser {
+			background-position: 0 -51px;
+		}
+		&.gradient {
+			background-position: 0 -68px;
+		}
+		&.lassoselect {
+			background-position: 0 -85px;
+		}
+		&.linecurve {
+			background-position: 0 -102px;
+		}
+		&.magicwand {
+			background-position: 0 -119px;
+		}
+		&.movecursor {
+			background-position: 0 -136px;
+			width: 25px;
+			height: 25px;
+		}
+		&.moveselectedpixels {
+			background-position: 0 -247px;
+		}
+		&.moveselection {
+			background-position: -16px -247px;
+		}
+		&.paintbrush {
+			background-position: 0 -162px;
+		}
+		&.paintbucket {
+			background-position: 0 -179px;
+		}
+		&.pan {
+			background-position: -16px -319px;
+		}
+		&.pencil {
+			background-position: 0 -196px;
+		}
+		&.recolor {
+			background-position: 0 -213px;
+		}
+		&.rectangleselect {
+			background-position: 0 -230px;
+		}
+		&.select {
+			background-position: 0 -247px;
+			width: 32px;
+		}
+		&.shapes {
+			background-position: 0 -264px;
+			width: 41px;
+			height: 20px;
+		}
+		&.text {
+			background-position: 0 -285px;
+		}
+		&.tools {
+			background-position: 0 -302px;
+		}
+		&.view {
+			background-position: 0 -319px;
+			width: 32px;
+		}
+		&.zoom {
+			background-position: 0 -319px;
+		}
 	}
 	
-	.bg-clonestamp {
-		background-position: -1px -48px;
-	}
-	
-	.bg-colorpicker {
-		background-position: -19px -48px;
-	}
-	
-	.bg-ellipticalselect {
-		background-position: -37px -48px;
-	}
-
-	.bg-eraser {
-		background-position: -55px -48px;
-	}
-
-	.bg-gradient {
-		background-position: -73px -1px;
-	}
-	
-	.bg-lassoselect {
-		background-position: -73px -19px;
-	}
-	
-	.bg-linecurve {
-		background-position: -73px -37px;
-	}
-	
-	.bg-magicwand {
-		background-position: -1px -66px;
-	}
-	
-	.bg-movecursor {
-		width: 23px;
-		height: 23px;
-		background-position: -1px -23px;
-	}
-	
-	.bg-moveselectedpixels {
-		background-position: -19px -66px;
-	}
-	
-	.bg-moveselection {
-		background-position: -37px -66px;
-	}
-	
-	.bg-paintbrush {
-		background-position: -55px -66px;
-	}
-	
-	.bg-paintbucket {
-		background-position: -73px -66px;
-	}
-
-	.bg-pan {
-		background-position: -91px -1px;
-	}
-	
-	.bg-pencil {
-		background-position: -91px -19px;
-	}
-
-	.bg-recolor {
-		background-position: -91px -37px;
-	}
-	
-	.bg-rectangleselect {
-		background-position: -91px -55px;
-	}
-
-	.bg-select {
-		width: 30px;
-		height: 15px;
-		background-position: -26px -23px;
-	}
-
-	.bg-shapes {
-		width: 34px;
-		height: 20px;
-		background-position: -1px -1px;
-	}
-	
-	.bg-text {
-		background-position: -1px -84px;
-	}
-
-	.bg-tools {
-		background-position: -19px -84px;
-	}
-
-	.bg-view {
-		width: 34px;
-		height: 16px;
-		background-position: -37px -1px;
-	}
-	
-	.bg-zoom {
-		background-position: -37px -84px;
-	}	
-
 	table {
 		tbody {
 			tr {
@@ -368,5 +365,14 @@ section.hero {
 				}
 			}
 		}
+	}
+}
+
+@media print {
+	.hero, nav {
+		display: none;
+	}
+	html.has-navbar-fixed-top, .section {
+		padding: 0;
 	}
 }
