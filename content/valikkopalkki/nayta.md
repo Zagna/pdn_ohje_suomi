@@ -48,7 +48,7 @@ Näytä-valikko sisältää komentoja joita voi käyttää vaihtamaan tapaa mite
     piirroksia tiettyihin kohtiin kuvaan ilman että sinun pitää katsoa kursorin sijaintia tilapalkissa. Kun valinta on aktiivinen, sen sykkivä reuna
     korostetaan viivoittimissa.
 
-    {{< figure src="/resurssit/viivain.jpg" alt="Viivoitin" class="border" >}}{{< /figure >}}
+    {{< figure src="/resurssit/viivain.jpg" alt="Viivoitin" >}}{{< /figure >}}
 
 * ### Pikseliä, Tuumaa, ja Senttimetriä
 

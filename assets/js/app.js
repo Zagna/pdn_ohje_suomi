@@ -1,5 +1,4 @@
 window.addEventListener('DOMContentLoaded', function() {
-
 	var link = document.createElement('link');
 	link.type = 'image/x-icon';
 	link.rel = 'shortcut icon';

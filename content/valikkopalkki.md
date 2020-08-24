@@ -6,7 +6,7 @@ title = "Valikkopalkki"
 [menu.pdn]
     parent = "kliittyma"
     identifier = "vpalkkiv"
-    weight = 310
+    weight = 202
 
 +++
 

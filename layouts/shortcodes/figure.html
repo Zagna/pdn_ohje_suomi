@@ -7,7 +7,9 @@
 	{{ if isset .Params "title" }}
 	<figcaption>
 		<h4>{{ .Get "title" }}</h4>
-		<p>{{ $.Page.RenderString .Inner }}</p>
+		{{ with .Inner }}
+			<p>{{ $.Page.RenderString . }}</p>
+		{{ end }}
 	</figcaption>
 	{{ end }}
 </figure>

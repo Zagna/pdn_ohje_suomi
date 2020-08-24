@@ -27,13 +27,13 @@ käyttävät edusta- tai taustaväriä piirtämisessä, riippuen siitä millä h
 
 * ### Avaa >>
 
-    Jos painat "Avaa >>" nappia, ikkuna laajenee näyttämään tarkempia asetuksia. Tässä tilassa voit asettaa tarkan arvon jokaiselle värin
+    Jos painat {{< badge >}}Avaa >>{{< /badge >}} nappia, ikkuna laajenee näyttämään tarkempia asetuksia. Tässä tilassa voit asettaa tarkan arvon jokaiselle värin
     ominaisuudelle, RGB (Punainen, Vihreä, Sininen) tai HSV (Sävy, Värikylläisyys, Arvo) skaalassa. Värin muokkaaminen hex, eli heksadesimaalin
     avulla on myös mahdollista. Alfaa, tai läpinäkyvyyttä voi myös muokata.
 
     {{< figure src="/kuvat/colorswindowmore.png" alt="Värit-Lisää" >}}{{< /figure >}}
 
-    "Avaa >>" nappi muuttuu "<< Sulje" napiksi jolla voit palata pienempään ikkunaan.
+    {{< badge >}}Avaa >>{{< /badge >}} nappi muuttuu {{< badge >}}<< Sulje{{< /badge >}} napiksi jolla voit palata pienempään ikkunaan.
 
 * ### Väripyörä
 

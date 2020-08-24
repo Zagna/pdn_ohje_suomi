@@ -22,17 +22,17 @@ vaikuttaa vain aktiiviseen tasoon.
 
     Alkuperäinen kuva:
 
-    {{< figure src="/resurssit/ruisleipa.jpg" alt="Alkuperäinen" class="border" >}}{{< /figure >}}
+    {{< figure src="/resurssit/ruisleipa.jpg" alt="Alkuperäinen" >}}{{< /figure >}}
 
     Tässä rajattu alue on valittu käyttäen [Lassovalintaa]({{% relref "valintatyokalut" %}}):
 
-    {{< figure src="/resurssit/ruisleipa_lasso.jpg" alt="Lassovalinta" class="border" >}}{{< /figure >}}
+    {{< figure src="/resurssit/ruisleipa_lasso.jpg" alt="Lassovalinta" >}}{{< /figure >}}
 
     Kuva kun olet valinnut Rajaa valintaan komennon. Valinnan rajat päättää kuinka suuri kuvasta tulee joka on suorakulmainen, mutta kaikki
     pikselit jotka ovat valinnan ulkopuolella, on läpinäkyviä. Huomaa että shakkilautamallia käytetään vain ilmoittamaan että tietty alue on
     läpinäkyvä. Se ei ole osa kuvaa.
 
-    {{< figure src="/resurssit/ruisleipa_rajaa.jpg" alt="Rajaa valintaan" class="border" >}}{{< /figure >}}
+    {{< figure src="/resurssit/ruisleipa_rajaa.jpg" alt="Rajaa valintaan" >}}{{< /figure >}}
 
 * ### Muuta kokoa
 
@@ -59,15 +59,15 @@ vaikuttaa vain aktiiviseen tasoon.
 
     Alkuperäinen kuva:
 
-    {{< figure src="/resurssit/ruisleipa.jpg" alt="Alkuperäinen" class="border" >}}{{< /figure >}}
+    {{< figure src="/resurssit/ruisleipa.jpg" alt="Alkuperäinen" >}}{{< /figure >}}
 
     Suurennoksen jälkeen, käyttäen Muuta kokoa -komentoa:
 
-    {{< figure src="/resurssit/ruisleipa_muuta_iso.jpg" alt="Suurennettu" class="border" >}}{{< /figure >}}
+    {{< figure src="/resurssit/ruisleipa_muuta_iso.jpg" alt="Suurennettu" >}}{{< /figure >}}
 
     Kutistuksen jälkeen, käyttäen Muuta kokoa -komentoa:
 
-    {{< figure src="/resurssit/ruisleipa_muuta_pieni.jpg" alt="Kutistettu" class="border" >}}{{< /figure >}}
+    {{< figure src="/resurssit/ruisleipa_muuta_pieni.jpg" alt="Kutistettu" >}}{{< /figure >}}
 
     Riippuen kuvan tyypistä mitä kutistat, voit haluta käyttää Terävöitä-tehostetta arvolla 1 tai 2 koon muuttamisen jälkeen.
 
@@ -80,15 +80,15 @@ vaikuttaa vain aktiiviseen tasoon.
 
     Alkuperäinen kuva:
 
-    {{< figure src="/resurssit/ruisleipa.jpg" alt="Alkuperäinen" class="border" >}}{{< /figure >}}
+    {{< figure src="/resurssit/ruisleipa.jpg" alt="Alkuperäinen" >}}{{< /figure >}}
 
     Pohjan suurennoksen jälkeen käyttäen keskellä olevaa ankkuria (taustaväri on valkoinen tässä tapauksessa):
 
-    {{< figure src="/resurssit/ruisleipa_pohja_iso.jpg" alt="Pohjan suurennos" class="border" >}}{{< /figure >}}
+    {{< figure src="/resurssit/ruisleipa_pohja_iso.jpg" alt="Pohjan suurennos" >}}{{< /figure >}}
 
     Pohjan kutistuksen jälkeen käyttäen keskellä olevaa ankkuria:
 
-    {{< figure src="/resurssit/ruisleipa_pohja_pieni.jpg" alt="Pohjan kutistus" class="border" >}}{{< /figure >}}
+    {{< figure src="/resurssit/ruisleipa_pohja_pieni.jpg" alt="Pohjan kutistus" >}}{{< /figure >}}
 
 * ### Käännä vaakatasossa, ja Käännä pystytasossa
 
@@ -96,11 +96,11 @@ vaikuttaa vain aktiiviseen tasoon.
 
     Alkuperäinen kuva:
 
-    {{< figure src="/resurssit/ruisleipa.jpg" alt="Alkuperäinen" class="border" >}}{{< /figure >}}
+    {{< figure src="/resurssit/ruisleipa.jpg" alt="Alkuperäinen" >}}{{< /figure >}}
 
     Kun olet kääntänyt sen vaakasuorassa:
 
-    {{< figure src="/resurssit/ruisleipa_kaanna.jpg" alt="Kääntäminen" class="border" >}}{{< /figure >}}
+    {{< figure src="/resurssit/ruisleipa_kaanna.jpg" alt="Kääntäminen" >}}{{< /figure >}}
 
 * ### Pyöritä
 
@@ -108,11 +108,11 @@ vaikuttaa vain aktiiviseen tasoon.
 
     Alkuperäinen kuva:
 
-    {{< figure src="/resurssit/ruisleipa.jpg" alt="Alkuperäinen" class="border" >}}{{< /figure >}}
+    {{< figure src="/resurssit/ruisleipa.jpg" alt="Alkuperäinen" >}}{{< /figure >}}
 
     Sen jälkeen kun se on pyöritetty 90 astetta myötäpäivään:
 
-    {{< figure src="/resurssit/ruisleipa_oikea_90.jpg" alt="Kuvan pyöritys" class="border" >}}{{< /figure >}}
+    {{< figure src="/resurssit/ruisleipa_oikea_90.jpg" alt="Kuvan pyöritys" >}}{{< /figure >}}
 
 * ### Yhdistä tasot
 

@@ -6,7 +6,7 @@ title = "Tasojen selitys"
 [menu.pdn]
     parent = "koti"
     identifier = "taso_seli"
-    weight = 105
+    weight = 106
 
 +++
 
