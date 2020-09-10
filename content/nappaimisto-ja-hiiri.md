@@ -1,5 +1,4 @@
 +++
-date = "2015-09-09T18:42:22+03:00"
 draft = false
 title = "Näppäimistön ja hiiren komennot"
 

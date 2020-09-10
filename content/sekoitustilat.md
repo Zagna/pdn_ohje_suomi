@@ -1,8 +1,6 @@
 +++
-date = "2015-09-09T18:42:00+03:00"
 draft = false
 title = "Sekoitustilat"
-tabs = true
 
 [menu.pdn]
     parent = "koti"

@@ -1,8 +1,6 @@
 +++
-date = "2015-09-09T18:45:49+03:00"
 draft = false
 title = "Renderointi"
-tabs = true
 
 [menu.pdn]
     parent = "sehot"

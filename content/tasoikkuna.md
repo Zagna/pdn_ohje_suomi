@@ -1,5 +1,4 @@
 +++
-date = "2015-09-09T18:48:48+03:00"
 draft = false
 title = "Tasoikkuna"
 

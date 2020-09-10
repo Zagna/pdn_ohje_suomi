@@ -1,5 +1,4 @@
 +++
-date = "2015-09-09T18:43:54+03:00"
 draft = false
 title = "Käyrät"
 

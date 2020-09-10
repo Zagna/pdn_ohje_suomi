@@ -1,5 +1,4 @@
 +++
-date = "2015-09-09T18:47:01+03:00"
 draft = false
 title = "Taikasauva"
 tooltip = "magicwand"

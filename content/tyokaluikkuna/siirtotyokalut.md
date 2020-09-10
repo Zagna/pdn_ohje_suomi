@@ -1,9 +1,7 @@
 ﻿+++
-date = "2015-09-09T18:46:56+03:00"
 draft = false
 title = "Siirtotyökalut"
 tooltip = "select"
-tabs = true
 
 [menu.pdn]
     parent = "tikkuna"

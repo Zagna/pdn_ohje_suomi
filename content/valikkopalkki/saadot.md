@@ -1,8 +1,6 @@
 +++
-date = "2015-09-09T18:43:44+03:00"
 draft = false
 title = "Säädot"
-tabs = true
 
 [menu.pdn]
     parent = "vpalkki"

@@ -1,5 +1,4 @@
 +++
-date = "2015-09-09T18:47:20+03:00"
 draft = false
 title = "Pyyhin"
 tooltip = "eraser"

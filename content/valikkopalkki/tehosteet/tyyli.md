@@ -1,8 +1,6 @@
 +++
-date = "2015-09-09T18:46:00+03:00"
 draft = false
 title = "Tyyli"
-tabs = true
 
 [menu.pdn]
     parent = "sehot"

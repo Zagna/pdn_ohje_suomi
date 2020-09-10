@@ -1,5 +1,4 @@
 +++
-date = "2015-09-09T18:46:16+03:00"
 draft = false
 title = "Ikkunat"
 

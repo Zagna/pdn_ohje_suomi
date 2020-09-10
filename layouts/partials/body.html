@@ -1,4 +1,5 @@
 {{ partialCached "header.html" . }}
+	{{ template "_internal/opengraph.html" . }}
 	<title>{{ .Title }} &middot; {{ .Site.Title }}</title>
 	<meta name="description" content="{{ .Summary }}">
 </head>

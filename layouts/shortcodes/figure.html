@@ -2,7 +2,7 @@
 <figure>
 	{{ range split (.Get "src") ";" }}
 		{{ $imgData := imageConfig (printf "%s%s" "/static" .) }}
-		<img src="{{ . }}"  width="{{ $imgData.Width }}" height="{{ $imgData.Height }}" alt="{{ $.Get "alt" }}">
+		<img loading="lazy" src="{{ . }}"  width="{{ $imgData.Width }}" height="{{ $imgData.Height }}" alt="{{ $.Get "alt" }}">
 	{{ end }}
 	{{ if isset .Params "title" }}
 	<figcaption>

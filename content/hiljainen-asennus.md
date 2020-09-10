@@ -1,5 +1,4 @@
 +++
-date = "2015-09-09T18:49:11+03:00"
 draft = false
 title = "Hiljainen asennus"
 version = "4.2.12"
