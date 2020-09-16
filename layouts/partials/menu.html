@@ -11,7 +11,7 @@
 	{{ $len := (len $list) }}
 	{{ range $index,$element := $list }}
 		<li class="navbar-item has-dropdown is-hoverable">
-			<a class="navbar-link" title="{{ .Name }}">
+			<a class="navbar-link">
 				{{ .Name }}
 			</a>
 			{{ if eq (add $index 1) $len }}
@@ -21,7 +21,7 @@
 			{{ end }}
 			{{ range .Children }}
 				<li class="navbar-item">
-					<a href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
+					<a href="{{ .URL }}">{{ .Name }}</a>
 				</li>
 				{{ if or (or ( eq .Identifier "savyalat" ) ( eq .Identifier "protokolla" )) ( eq .Identifier "taso_seli" ) }}
 				<hr class="navbar-divider">
