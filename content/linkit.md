@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Linkit"
+title = "Linkkejä"
 
 [menu.pdn]
     parent = "muuta"
