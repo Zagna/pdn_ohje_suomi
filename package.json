@@ -2,11 +2,10 @@
   "name": "paintnet-ohje",
   "version": "1.0.0",
   "description": "paint.net ohje suomeksi",
-  "main": " ",
   "dependencies": {},
   "devDependencies": {
     "@vizuaalog/bulmajs": "^0.11.0",
-    "bulma": "^0.9.0"
+    "bulma": "^0.9.1"
   },
   "repository": {
     "type": "git",
