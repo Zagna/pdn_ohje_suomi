@@ -108,6 +108,9 @@ a, span {
 figure {
 	margin: .5em 1em 1em 1em !important;
 	display: inline-block !important;
+	figcaption {
+		padding-top: 4px;
+	}
 }
 
 .footer {

@@ -4,7 +4,6 @@ DefaultContentLanguage = "fi"
 disableKinds = [ "RSS", "tags", "categories", "taxonomy", "taxonomyTerm", "section", "404" ]
 enableRobotsTXT = true
 summaryLength = 10
-googleAnalytics = "UA-158488951-1"
 
 [params]
 	images = ["/kuvat/pdn-some.jpg"]
