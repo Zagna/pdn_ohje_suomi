@@ -375,8 +375,18 @@ section.hero {
 	table {
 		tbody {
 			tr {
-				td:first-child, td[align] {
+				td:first-child {
 					font-family: $family-code;	
+				}
+			}
+		}
+	}
+	table:nth-of-type(2) {
+		tbody {
+			tr {
+				td:nth-child(2) {
+					font-family: $family-code;
+					text-align: center;
 				}
 			}
 		}

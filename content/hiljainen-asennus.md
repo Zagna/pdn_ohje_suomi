@@ -56,7 +56,7 @@ Oletusasennus tarvitsee vain että käytät /auto komentoa. Voit asettaa lisää
 asettaa sen ja "0" poistaa sen:
 
 | MSI ominaisuus | Oletusarvo | Kuvaus |
-|-|:-:|-|
+|-|-|-|
 | TARGETDIR | %PROGRAMFILES%\paint.net | Aseta kansio minne asennat paint.netin. %PROGRAMFILES% tarkoittaa yleensä C:\Program Files. |
 | CHECKFORUPDATES | 1 (0 kun /createMsi on asetettu) | Pistää päälle (1) tai pois päältä (0) automaattiset päivitykset. Huomaa että päivitysten tarkistus on päällä ja sallitty vain käyttäjille jotka ovat Järjestelmänvalvojien ryhmässä. Ei ole mahdollista päivittää käyttäjillä jotka eivät ole Järjestelmänvalvojien ryhmässä. |
 | CHECKFORBETAS | 0 | Kun päivityksiä tarkisteaan, tarkista myös "beta" versio. |

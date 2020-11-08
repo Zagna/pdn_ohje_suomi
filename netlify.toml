@@ -3,7 +3,7 @@ publish = "public"
 command = "hugo --gc --minify -b $URL"
 
 [context.production.environment]
-HUGO_VERSION = "0.76.5"
+HUGO_VERSION = "0.78.1"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
@@ -14,3 +14,4 @@ HUGO_ENABLEGITINFO = "true"
         X-XSS-Protection = "1; mode=block"
         Referrer-Policy = "no-referrer"
         X-Content-Type-Options = "nosniff"
+        Content-Security-Policy = "default-src 'none'; script-src https://d33wubrfki0l68.cloudfront.net https://www.googletagmanager.com; img-src https://d33wubrfki0l68.cloudfront.net; style-src https://d33wubrfki0l68.cloudfront.net; media-src https://d33wubrfki0l68.cloudfront.net; form-action: 'self';"

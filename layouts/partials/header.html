@@ -14,5 +14,5 @@
 	<meta name="author" content="Jarno Ruokamo">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	{{ $options := (dict "includePaths" (slice "node_modules/bulma/sass")) }}
-	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS $options | resources.Minify }}
-	<link rel="stylesheet" href="{{ $style.RelPermalink }}">	
+	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS $options | resources.Minify | resources.Fingerprint }}
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" media="all">
