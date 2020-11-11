@@ -1,14 +1,13 @@
 [build]
-publish = "public"
-HUGO_VERSION = "0.78.1"
+    publish = "public"
 
-[context.production.environment]
+[context.production]
     command = "hugo --gc --minify -b $URL"
-    HUGO_ENV = "production"
-    HUGO_ENABLEGITINFO = "true"
+    environment = { HUGO_ENABLEGITINFO = "true", HUGO_VERSION = "0.78.1" }
 
 [context.deploy-preview]
-    command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+    command = "hugo --minify -b $DEPLOY_PRIME_URL"
+    environment = { HUGO_VERSION = "0.78.1" }
 
 [[headers]]
     for = "/*"
@@ -17,4 +16,4 @@ HUGO_VERSION = "0.78.1"
         X-XSS-Protection = "1; mode=block"
         Referrer-Policy = "no-referrer"
         X-Content-Type-Options = "nosniff"
-        Content-Security-Policy = "default-src 'self' https://d33wubrfki0l68.cloudfront.net;"
+        Content-Security-Policy = "default-src 'self' https://d33wubrfki0l68.cloudfront.net https://www.googletagmanager.com;"
