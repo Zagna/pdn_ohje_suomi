@@ -1,6 +1,6 @@
 /*
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "no-referrer"
-    Content-Security-Policy = "default-src; script-src 'self' https://www.googletagmanager.com; style-src 'self'; img-src 'self' https://www.googletagmanager.com; media-src 'self'; object-src; form-action 'self';"
+    X-Frame-Options = DENY
+    X-XSS-Protection = 1; mode=block
+    X-Content-Type-Options = nosniff
+    Referrer-Policy = no-referrer
+    Content-Security-Policy = default-src; script-src 'self' https://www.googletagmanager.com; style-src 'self'; img-src 'self' https://www.googletagmanager.com; media-src 'self'; object-src; form-action 'self';
