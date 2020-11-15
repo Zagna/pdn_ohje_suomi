@@ -3,9 +3,12 @@
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QC4L0PSHZL"></script>
-	{{ $js := resources.Get "js/ga.js" | js.Build (dict "minify" true) }}
-	{{ $secureJS := $js | resources.Fingerprint }}
-	<script async src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-QC4L0PSHZL');
+	</script>
 	<meta charset="utf-8">
 	<meta name="language" content="fi"> 
 	<meta name="author" content="Jarno Ruokamo">
