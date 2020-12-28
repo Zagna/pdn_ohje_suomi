@@ -1,3 +1,3 @@
 {{ $js := resources.Get "js/app.js" | js.Build (dict "minify" true) }}
 {{ $secureJS := $js | resources.Fingerprint }}
-<script src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}" crossorigin="anonymous"></script>
+<script src="{{ $secureJS.RelPermalink }}"></script>
