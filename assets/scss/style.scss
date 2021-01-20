@@ -62,6 +62,7 @@ $esim2: url(/resurssit/example@2x.png);
 $sprite: url(/resurssit/tyokalut/tool_sprite.png);
 $sprite2: url(/resurssit/tyokalut/tool_sprite@2x.png);
 
+/* purgecss start ignore */
 html {
 	scroll-padding-top: $navbar-height;
 }
@@ -420,3 +421,4 @@ section.hero {
 		padding: 0;
 	}
 }
+/* purgecss end ignore */
