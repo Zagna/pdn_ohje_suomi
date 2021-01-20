@@ -41,7 +41,9 @@ $retina-dpi: 144dpi;
 @import "components/tabs";
 // @import "grid/all";
 // @import "helpers/all"
-@import "layout/all";
+// @import "layout/all";
+@import "layout/section.sass";
+@import "layout/footer.sass";
 
 //urls
 $palkki: url(/resurssit/imagebar.jpg);
@@ -144,13 +146,23 @@ figure {
 
 section.hero {
 	background-color: #005577;
+	height: 150px;
+	align-items: stretch;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	.hero-body {
+		flex-grow: 1;
+  		flex-shrink: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
 		background-image: $palkki3;
 
 		@media screen and (min-width: 720px) {
 			background-image: $palkki2;
 		}
-
 		@media screen and (min-width: 1200px) {
 			background-image: $palkki;
 		}
