@@ -12,6 +12,10 @@ $info: #287cb8;
 $danger: #da3a42;
 $navbar-dropdown-arrow: $info;
 $retina-dpi: 144dpi;
+$hero-body-padding: 0;
+$hero-body-padding-small: 0;
+$hero-body-padding-medium: 0;
+$hero-body-padding-large: 0;
 
 // Import only what you need from Bulma
 // @import "utilities/all";
@@ -41,9 +45,7 @@ $retina-dpi: 144dpi;
 @import "components/tabs";
 // @import "grid/all";
 // @import "helpers/all"
-// @import "layout/all";
-@import "layout/section.sass";
-@import "layout/footer.sass";
+@import "layout/all";
 
 //urls
 $palkki: url(/resurssit/imagebar.jpg);
@@ -147,13 +149,7 @@ figure {
 section.hero {
 	background-color: #005577;
 	height: 150px;
-	align-items: stretch;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 	.hero-body {
-		flex-grow: 1;
-  		flex-shrink: 0;
 		display: flex;
 		justify-content: center;
 		align-items: center;
