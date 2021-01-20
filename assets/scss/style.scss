@@ -45,6 +45,8 @@ $retina-dpi: 144dpi;
 
 //urls
 $palkki: url(/resurssit/imagebar.jpg);
+$palkki2: url(/resurssit/imagebar_1200.jpg);
+$palkki3: url(/resurssit/imagebar_720.jpg);
 $vihje: url(/resurssit/tip.png);
 $vihje2: url(/resurssit/tip@2x.png);
 $huom: url(/resurssit/note.png);
@@ -143,7 +145,16 @@ figure {
 section.hero {
 	background-color: #005577;
 	.hero-body {
-		background-image: $palkki;
+		background-image: $palkki3;
+
+		@media screen and (min-width: 720px) {
+			background-image: $palkki2;
+		}
+
+		@media screen and (min-width: 1200px) {
+			background-image: $palkki;
+		}
+
 		background-position: center;
 		.level-item {
 			a {
