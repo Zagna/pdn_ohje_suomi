@@ -24,7 +24,8 @@
 					{{ with .content }}<p>{{ $.Page.RenderString . }}</p>{{ end }}
 					{{ range .figure }}
 						<figure>
-							<img loading="lazy" class="{{ .class }}" src="{{ .src }}" alt="{{ .alt }}">
+							{{ $imgData := imageConfig (printf "%s%s" "/static" .src) }}
+							<img loading="lazy" class="{{ .class }}" width="{{ $imgData.Width }}" height="{{ $imgData.Height }}" src="{{ .src }}" alt="{{ .alt }}">
 							{{ with .caption }}
 							<figcaption>
 								<h4>{{ . }}</h4>

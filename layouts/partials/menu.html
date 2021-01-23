@@ -24,7 +24,7 @@
 					<a href="{{ .URL }}">{{ .Name }}</a>
 				</li>
 				{{ if or (or ( eq .Identifier "savyalat" ) ( eq .Identifier "protokolla" )) ( eq .Identifier "taso_seli" ) }}
-				<hr class="navbar-divider">
+				<li class="navbar-divider">
 				{{ end }}
 			{{ end }}
 			</ul>
