@@ -4,28 +4,32 @@
 	<meta name="description" content="{{ .Summary }}">
 </head>
 <body>
-<section class="hero">
-	<div class="hero-body">
-		<div class="container">
-			<div class="level">
-				<div class="level-item">
-					<a href="/"><img loading="lazy" id="favicon" src="/resurssit/favicon.png" srcset="/resurssit/favicon@2x.png 2x" alt="paint.net logo" width="48" height="48" />
-					<h1 class="title">paint.net ohje</h1></a>
+	<section class="hero">
+		<div class="hero-body">
+			<div class="container">
+				<div class="level">
+					<div class="level-item"> 
+						<a href="/">
+							<picture>
+								<source type="image/webp" srcset="/resurssit/favicon.webp, /resurssit/favicon@2x.webp 2x">
+								<img loading="eager" id="favicon" src="/resurssit/favicon.png" srcset="/resurssit/favicon@2x.png 2x" alt="paint.net logo" width="48" height="48" />
+							</picture>
+						<h1 class="title">paint.net ohje</h1></a>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
-<section class="section">
-	<div class="container">
-		<div class="content">
-			<h2>{{ .Title }}{{ if .Params.tooltip }} <span class="tool {{ .Params.tooltip }}"></span>{{ end }}</h2>
-			{{ .Content }}
+	</section>
+	<section class="section">
+		<div class="container">
+			<div class="content">
+				<h2>{{ .Title }}{{ if .Params.tooltip }} <span class="tool {{ .Params.tooltip }}"></span>{{ end }}</h2>
+				{{ .Content }}
+			</div>
+			{{ partialCached "footer.html" . }}
 		</div>
-		{{ partialCached "footer.html" . }}
-	</div>
-</section>
-{{ partialCached "menu.html" . }}
-{{ partialCached "script.html" . }}
+	</section>
+	{{ partialCached "menu.html" . }}
+	{{ partialCached "script.html" . }}
 </body>
 </html>

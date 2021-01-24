@@ -2,7 +2,11 @@
 <figure>
 	{{ range split (.Get "src") ";" }}
 		{{ $imgData := imageConfig (printf "%s%s" "/static" .) }}
-		<img loading="lazy" src="{{ . }}" width="{{ $imgData.Width }}" height="{{ $imgData.Height }}" alt="{{ $.Get "alt" }}">
+		{{ $file := split (.) "." }}
+		<picture>
+			<source type="image/webp" srcset="{{ index $file 0 | safeURL }}.webp">
+			<img loading="lazy" src="{{ . }}" width="{{ $imgData.Width }}" height="{{ $imgData.Height }}" alt="{{ $.Get "alt" }}">
+		</picture>
 	{{ end }}
 	{{ if isset .Params "title" }}
 	<figcaption>

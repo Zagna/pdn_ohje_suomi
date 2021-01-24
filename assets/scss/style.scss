@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 // Update Bulma's global variables
+$family-sans-serif: "Calibri", "Helvetica", "Arial", sans-serif;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 $notification-padding-ltr: .25rem .5rem .25rem .5rem;
@@ -48,19 +49,32 @@ $hero-body-padding-large: 0;
 @import "layout/all";
 
 //urls
-$palkki: url(/resurssit/imagebar.jpg);
-$palkki2: url(/resurssit/imagebar_1200.jpg);
-$palkki3: url(/resurssit/imagebar_720.jpg);
-$vihje: url(/resurssit/tip.png);
-$vihje2: url(/resurssit/tip@2x.png);
-$huom: url(/resurssit/note.png);
-$huom2: url(/resurssit/note@2x.png);
-$varoitus: url(/resurssit/warning.png);
-$varoitus2: url(/resurssit/warning@2x.png);
-$esim: url(/resurssit/example.png);
-$esim2: url(/resurssit/example@2x.png);
-$sprite: url(/resurssit/tyokalut/tool_sprite.png);
-$sprite2: url(/resurssit/tyokalut/tool_sprite@2x.png);
+$palkki: url(/resurssit/imagebar.webp);
+$palkki2: url(/resurssit/imagebar_1200.webp);
+$palkki3: url(/resurssit/imagebar_720.webp);
+$palkki_j: url(/resurssit/imagebar.jpg);
+$palkki2_j: url(/resurssit/imagebar_1200.jpg);
+$palkki3_j: url(/resurssit/imagebar_720.jpg);
+$vihje: url(/resurssit/tip.webp);
+$vihje2: url(/resurssit/tip@2x.webp);
+$huom: url(/resurssit/note.webp);
+$huom2: url(/resurssit/note@2x.webp);
+$varoitus: url(/resurssit/warning.webp);
+$varoitus2: url(/resurssit/warning@2x.webp);
+$esim: url(/resurssit/example.webp);
+$esim2: url(/resurssit/example@2x.webp);
+$vihje_p: url(/resurssit/tip.png);
+$vihje2_p: url(/resurssit/tip@2x.png);
+$huom_p: url(/resurssit/note.png);
+$huom2_p: url(/resurssit/note@2x.png);
+$varoitus_p: url(/resurssit/warning.png);
+$varoitus2_p: url(/resurssit/warning@2x.png);
+$esim_p: url(/resurssit/example.png);
+$esim2_p: url(/resurssit/example@2x.png);
+$sprite: url(/resurssit/tool_sprite.webp);
+$sprite2: url(/resurssit/tool_sprite@2x.webp);
+$sprite_p: url(/resurssit/tool_sprite.png);
+$sprite2_p: url(/resurssit/tool_sprite@2x.png);
 
 /* purgecss start ignore */
 html {
@@ -177,11 +191,10 @@ section.hero {
 					font-size: 1.5rem !important;
 					display: inline;
 					margin: 0 0 0 .3em !important;
+					text-shadow: 0 0 15px black;
 				}
 			}
-			
 		}
-		
 	}
 }
 
@@ -253,7 +266,6 @@ section.hero {
 			border-color: $success;
 		}
 	}
-
 	.note {
 		h3 {
 			background-image: $huom;
@@ -265,7 +277,6 @@ section.hero {
 			border-color: $warning;
 		}
 	}
-
 	.warning {
 		h3 {
 			background-image: $varoitus;
@@ -277,7 +288,6 @@ section.hero {
 			border-color: $danger;
 		}
 	}
-
 	.example {
 		h3 {
 			background-image: $esim;
@@ -411,6 +421,63 @@ section.hero {
 				}
 			}
 		}
+	}
+}
+
+
+body.no-webp {
+	section.hero {
+		.hero-body {
+			background-image: $palkki3_j;
+
+			@media screen and (min-width: 720px) {
+				background-image: $palkki2_j;
+			}
+			@media screen and (min-width: 1200px) {
+				background-image: $palkki_j;
+			}
+		}
+	}
+	.content {
+		.tool {
+			background-image: $sprite_p;
+			
+			@media (min-resolution: $retina-dpi) {
+				background-image: $sprite2_p;
+			}
+		}
+		.tip {
+			h3 {
+				background-image: $vihje_p;
+				@media (min-resolution: $retina-dpi) {
+					background-image: $vihje2_p;
+				}
+			}
+		}
+		.note {
+			h3 {
+				background-image: $huom_p;
+				@media (min-resolution: $retina-dpi) {
+					background-image: $huom2_p;
+				}
+			}
+		}
+		.warning {
+			h3 {
+				background-image: $varoitus_p;
+				@media (min-resolution: $retina-dpi) {
+					background-image: $varoitus2_p;
+				}
+			}
+		}
+		.example {
+			h3 {
+				background-image: $esim_p;
+				@media (min-resolution: $retina-dpi) {
+					background-image: $esim2_p;
+				}
+			}
+		}	
 	}
 }
 

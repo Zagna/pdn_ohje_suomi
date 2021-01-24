@@ -25,7 +25,15 @@
 					{{ range .figure }}
 						<figure>
 							{{ $imgData := imageConfig (printf "%s%s" "/static" .src) }}
-							<img loading="lazy" class="{{ .class }}" width="{{ $imgData.Width }}" height="{{ $imgData.Height }}" src="{{ .src }}" alt="{{ .alt }}">
+							{{ $file := split (.src) "." }}
+							<picture>
+								<source type="image/webp" srcset="{{ index $file 0 | safeURL }}.webp">
+							{{ if eq $index 0 }}
+								<img loading="eager" class="{{ .class }}" width="{{ $imgData.Width }}" height="{{ $imgData.Height }}" src="{{ .src }}" alt="{{ .alt }}">
+							{{ else }}
+								<img loading="lazy" class="{{ .class }}" width="{{ $imgData.Width }}" height="{{ $imgData.Height }}" src="{{ .src }}" alt="{{ .alt }}">
+							{{ end }}
+							</picture>
 							{{ with .caption }}
 							<figcaption>
 								<h4>{{ . }}</h4>
