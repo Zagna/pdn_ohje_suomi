@@ -15,5 +15,8 @@
   },
   "author": "Jarno Ruokamo",
   "license": "CC-BY-ND-4.0",
-  "homepage": "https://github.com/Zagna/pdn_ohje_suomi"
+  "homepage": "https://github.com/Zagna/pdn_ohje_suomi",
+  "dependencies": {
+    "supports-webp": "^2.0.1"
+  }
 }

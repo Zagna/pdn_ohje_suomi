@@ -10,22 +10,14 @@ window.addEventListener('DOMContentLoaded', function () {
 		if (event.target.classList.contains('navbar-link')) event.target.parentNode.classList.add('is-active');
 	}, false);
 
-	if (!support_format_webp()) {
-		document.body.classList.add("no-webp");
-	}
+	supportsWebP.then(supported => {
+		if (!supported) {
+			document.body.classList.add("no-webp");
+		}
+	});
 });
 
-function support_format_webp() {
-	var elem = document.createElement('canvas');
 
-	if (!!(elem.getContext && elem.getContext('2d'))) {
-		// was able or not to get WebP representation
-		return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
-	} else {
-		// very old browser like IE 8, canvas not supported
-		return false;
-	}
-}
-
+import supportsWebP from 'supports-webp';
 import Tabs from '@vizuaalog/bulmajs/src/plugins/tabs';
 import Navbar from '@vizuaalog/bulmajs/src/plugins/navbar';
