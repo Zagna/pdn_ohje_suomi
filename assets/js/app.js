@@ -2,7 +2,13 @@ window.addEventListener('DOMContentLoaded', function () {
 	var link = document.createElement('link');
 	link.type = 'image/x-icon';
 	link.rel = 'shortcut icon';
-	link.href = document.getElementById('favicon').currentSrc;
+	var favicon = document.getElementById('favicon');
+	if (favicon.currentSrc) {
+		link.href = favicon.currentSrc;
+	}
+	else {
+		link.href = favicon.getAttribute('src');
+	}
 	document.getElementsByTagName('head')[0].appendChild(link);
 
 	document.addEventListener('touchend', function (event) {

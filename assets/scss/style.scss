@@ -19,34 +19,7 @@ $hero-body-padding-medium: 0;
 $hero-body-padding-large: 0;
 
 // Import only what you need from Bulma
-// @import "utilities/all";
-@import "utilities/initial-variables";
-@import "utilities/functions";
-@import "utilities/derived-variables";
-@import "utilities/mixins";
-@import "utilities/controls";
-// @import "base/all";
-@import "base/minireset";
-@import "base/generic";
-// @import "elements/all";
-@import "elements/box";
-@import "elements/button";
-@import "elements/container";
-@import "elements/content";
-@import "elements/notification";
-@import "elements/table";
-@import "elements/tag";
-// @import "form/all";
-@import "form/shared";
-@import "form/input-textarea";
-@import "form/tools";
-// @import "components/all";
-@import "components/level";
-@import "components/navbar";
-@import "components/tabs";
-// @import "grid/all";
-// @import "helpers/all"
-@import "layout/all";
+@import "bulma";
 
 //urls
 $palkki: url(/resurssit/imagebar.webp);
