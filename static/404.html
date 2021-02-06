@@ -1,50 +1,76 @@
 <!doctype html>
 <html lang="fi">
+
 <head>
 	<meta charset="utf-8">
-    <meta name="language" content="finnish"> 
+	<meta name="language" content="finnish">
 	<meta name="author" content="Jarno Ruokamo">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="/scss/style.min.css">
+	<link rel="stylesheet" href="/404.min.css">
 	<link rel="icon" type="image/png" href="/resurssit/favicon.png">
 	<title>404 ei löytynyt &middot; paint.net suomeksi</title>
 </head>
+
 <body>
 
-<section class="hero">
-	<div class="hero-body">
-		<div class="container">
-			<div class="level">
-				<div class="level-item">
-					<a href="/"><img src="/resurssit/favicon.png" alt="paint.net ohje" /></a>
-					<a href="/"><h1 class="title">paint.net ohje</h1></a>
+	<section class="hero">
+		<div class="hero-body">
+			<div class="container">
+				<div class="level">
+					<div class="level-item">
+						<a href="/">
+							<picture>
+								<source type="image/webp"
+									srcset="/resurssit/favicon.webp, /resurssit/favicon@2x.webp 2x">
+								<img loading="eager" id="favicon" src="/resurssit/favicon.png"
+									srcset="/resurssit/favicon@2x.png 2x" alt="paint.net logo" width="48" height="48" />
+							</picture>
+							<h1 class="title">paint.net ohje</h1>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
-<section class="section">
-	<div class="container">
-		<div class="content">
-			<h2>Hups:</h2>
-			<p>Linkki oli viallinen tai sivu puuttuu. Tämä johtuu mahdollisesti tällä hetkellä meneillään olevasta mutoksesta.</p>
+	</section>
+	<section class="section">
+		<div class="container">
+			<div class="content">
+				<h2>Hups:</h2>
+				<p>Linkki oli viallinen tai sivu puuttuu. Tämä johtuu mahdollisesti tällä hetkellä meneillään olevasta
+					mutoksesta.</p>
+
+			</div>
+
+			<footer class="footer">
+				<div class="content">
+					<p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#"
+						class="license-text">
+						<span rel="dct:title">paint.net ohje</span>, jonka tekijä on
+						<a rel="cc:attributionURL" href="https://paintdotnet.netlify.app"><span
+								rel="cc:attributionName">Jarno Ruokamo</span></a>, on lisensoitu CC BY-NC 4.0
+						<a href="https://creativecommons.org/licenses/by-nc/4.0">
+							<picture>
+								<source type="image/webp" srcset="/resurssit/cc40.webp, /resurssit/cc40@2x.webp 2x">
+								<img loading="lazy" src="/resurssit/cc40.png" srcset="/resurssit/cc40@2x.png 2x"
+									alt="CC" width="75" height="24" />
+							</picture>
+						</a>
+					</p>
+					<p>
+						<a href="https://bulma.io">
+							<picture>
+								<source type="image/webp" srcset="/resurssit/bulma.webp, /resurssit/bulma@2x.webp 2x">
+								<img loading="lazy" src="/resurssit/bulma.png" srcset="/resurssit/bulma@2x.png 2x"
+									alt="Made with Bulma" width="128" height="24" />
+							</picture>
+						</a>
+					</p>
+				</div>
+			</footer>
 
 		</div>
-		
-		<footer class="footer">
-			<div class="content">
-				<p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">
-					<span rel="dct:title">paint.net ohje</span>, jonka tekijä on
-					<a rel="cc:attributionURL" href="https://paintdotnet.netlify.app"><span rel="cc:attributionName">Jarno Ruokamo</span></a>, on lisensoitu CC BY-NC 4.0
-					<a href="https://creativecommons.org/licenses/by-nc/4.0">
-						<img src="/resurssit/cc40.png" />
-					</a>
-				</p>
-			</div>
-		</footer>
-
-	</div>
-</section>
+	</section>
 
 </body>
+
 </html>
