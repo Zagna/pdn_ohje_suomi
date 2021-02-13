@@ -7,5 +7,4 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	{{ $options := (dict "includePaths" (slice "node_modules/bulma")) }}
 	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS $options | postCSS | resources.Minify | resources.Fingerprint }}
-	
-	<link rel="stylesheet" href="{{ $style.RelPermalink }}" media="all" onload="">
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}" media="all">

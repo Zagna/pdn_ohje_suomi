@@ -56,3 +56,5 @@ svg.*
 svg/*
 resources/*
 node_modules/*
+# Local Netlify folder
+.netlify

@@ -375,6 +375,18 @@ section.hero {
 			background-position: 0 -319px;
 		}
 	}
+
+	table {
+		display: block;
+		max-width: fit-content;
+		margin: 0 auto;
+		overflow-x: auto;
+		.tip, .note, .warning, .example {
+			p {
+				margin-bottom: 0 !important;
+			}
+		}
+	}
 	
 	table {
 		tbody {
