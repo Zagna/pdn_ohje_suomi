@@ -172,6 +172,9 @@ section.hero {
 }
 
 .content {
+	a {
+		text-decoration: underline;
+	}
 	dl {
 		display: grid;
 		grid-template-columns: 45fr 55fr;
@@ -222,9 +225,6 @@ section.hero {
 		}
 		.text-white a {
 			color: $white;
-		}
-		a {
-			text-decoration: underline;
 		}
 	}
 
