@@ -11,9 +11,9 @@
 	{{ $len := (len $list) }}
 	{{ range $index,$element := $list }}
 		<li class="navbar-item has-dropdown is-hoverable">
-			<a class="navbar-link">
+			<span class="navbar-link">
 				{{ .Name }}
-			</a>
+			</span>
 			{{ if eq (add $index 1) $len }}
 			<ul class="navbar-dropdown is-boxed is-right">
 			{{ else }}
