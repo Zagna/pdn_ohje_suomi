@@ -15,15 +15,14 @@ window.addEventListener('DOMContentLoaded', function () {
 		document.querySelectorAll('.navbar-item.has-dropdown').forEach(el => el.classList.remove('is-active'));
 		if (event.target.classList.contains('navbar-link')) event.target.parentNode.classList.add('is-active');
 	}, false);
-
-	supportsWebP.then(supported => {
-		if (!supported) {
-			document.body.classList.add("no-webp");
-		}
-	});
 });
 
+supportsWebP.then(supported => {
+	if (!supported) {
+		document.body.classList.add("no-webp");
+	}
+});
 
 import supportsWebP from 'supports-webp';
-import Tabs from '@vizuaalog/bulmajs/src/plugins/tabs';
-import Navbar from '@vizuaalog/bulmajs/src/plugins/navbar';
+import '@vizuaalog/bulmajs/src/plugins/tabs';
+import '@vizuaalog/bulmajs/src/plugins/navbar';
