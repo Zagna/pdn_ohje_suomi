@@ -1,4 +1,6 @@
-
+$palkki: url(/resurssit/imagebar.webp);
+$palkki2: url(/resurssit/imagebar_1200.webp);
+$palkki3: url(/resurssit/imagebar_720.webp);
 
 body,
 h1,
@@ -272,6 +274,14 @@ section.hero {
 		justify-content: center;
 		align-items: center;
 		width: 100%;
+		background-image: $palkki3;
+		@media screen and (min-width: 720px) {
+			background-image: $palkki2;
+		}
+		@media screen and (min-width: 1200px) {
+			background-image: $palkki;
+		}
+		background-position: center;
 
 		.level-item {
 			a {

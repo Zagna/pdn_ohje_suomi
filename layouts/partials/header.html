@@ -5,7 +5,7 @@
 	<meta name="language" content="fi"> 
 	<meta name="author" content="Jarno Ruokamo">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	{{ with resources.Get "scss/crit.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+	{{ with resources.Get "scss/crit.scss" | resources.ToCSS | resources.Minify }}
 	<style>{{ .Content | safeCSS }}</style>
 	{{ end }}
 	{{ $options := (dict "includePaths" (slice "node_modules/bulma")) }}

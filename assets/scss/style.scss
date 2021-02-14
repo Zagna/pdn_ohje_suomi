@@ -115,23 +115,6 @@ figure {
 	}
 }
 
-section.hero {
-
-	.hero-body {
-
-		background-image: $palkki3;
-
-		@media screen and (min-width: 720px) {
-			background-image: $palkki2;
-		}
-		@media screen and (min-width: 1200px) {
-			background-image: $palkki;
-		}
-
-		background-position: center;
-	}
-}
-
 .content {
 	a {
 		text-decoration: underline;
