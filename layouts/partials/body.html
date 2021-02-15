@@ -3,6 +3,7 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="{{ .Title }}" />
 	<meta property="og:description" content="{{ .Summary }}" />
+	<meta name="description" content="{{ .Summary }}" />
 	{{- with $.Site.Params.images -}}
 	<meta property="og:image" content="{{ index . 0 | absURL }}"/>
 	{{ end }}

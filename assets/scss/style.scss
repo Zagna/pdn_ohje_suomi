@@ -50,6 +50,22 @@ $sprite_p: url(/resurssit/tool_sprite.png);
 $sprite2_p: url(/resurssit/tool_sprite@2x.png);
 
 /* purgecss start ignore */
+html {
+	scroll-padding-top: $navbar-height;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	font-size: .85em;
+	text-indent: 0;
+	word-spacing: 0;
+	line-height: 1.15;
+}
+
+h1, h2, h3, h4, strong {
+	font-weight: bold;
+}
+
 h1 {
 	margin-top: 1em !important;
 	margin-bottom: .7em !important;
@@ -104,6 +120,10 @@ figure {
 }
 
 #navbar {
+	justify-content: center;
+	a {
+		color: $black;
+	}
 	.navbar-dropdown {
 		.navbar-item {
 			padding: 0;
@@ -112,6 +132,42 @@ figure {
 				padding: 0.375rem 1rem;
 			}
 		}		
+	}
+}
+
+section.hero {
+	background-color: #005577;
+	height: 150px;
+	.hero-body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		background-image: $palkki3;
+
+		@media screen and (min-width: 720px) {
+			background-image: $palkki2;
+		}
+		@media screen and (min-width: 1200px) {
+			background-image: $palkki;
+		}
+
+		background-position: center;
+		.level-item {
+			a {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				h1.title {
+					font-weight: 600;
+					color: white;
+					font-size: 1.5rem !important;
+					display: inline;
+					margin: 0 0 0 .3em !important;
+					text-shadow: 0 0 15px black;
+				}
+			}
+		}
 	}
 }
 
