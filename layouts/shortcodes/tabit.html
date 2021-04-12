@@ -5,9 +5,9 @@
 		<ul>
 		{{ range $index, $element := $data.tab }}
 			{{ if eq $index 0 }}
-				<li class="tab-item is-active"><a>{{ .name }}</a></li>
+				<li class="tab-item is-active"><label for="tab-toggle-{{ $index }}">{{ .name }}</label></li>
 			{{ else }}
-				<li class="tab-item"><a>{{ .name }}</a></li>
+				<li class="tab-item"><label for="tab-toggle-{{ $index }}">{{ .name }}</label></li>
 			{{ end }}
 		{{ end }}
 		</ul>
@@ -15,11 +15,12 @@
 	<div class="tabs-content">
 		<ul>
 			{{ range $index, $element := $data.tab }}
-				{{ if eq $index 0 }}
-				<li class="is-active">
-				{{ else }}
 				<li>
-				{{ end }}
+					{{ if eq $index 0 }}
+						<input class="tab-radio" name="tabit" type="radio" id="tab-toggle-{{ $index }}" checked>
+					{{ else }}
+						<input class="tab-radio" name="tabit" type="radio" id="tab-toggle-{{ $index }}">
+					{{ end }}
 					<div class="box tab-content-item">
 					{{ with .content }}<p>{{ $.Page.RenderString . }}</p>{{ end }}
 					{{ range .figure }}

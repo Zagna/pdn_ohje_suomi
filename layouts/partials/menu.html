@@ -1,10 +1,11 @@
 <nav class="navbar is-fixed-top" aria-label="main navigation">
+	<input id="navbar-toggle" class="navbar-toggle" type="checkbox">
 	<div class="navbar-brand">
-		<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+		<label role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" for="navbar-toggle">
 			<span aria-hidden="true"></span>
 			<span aria-hidden="true"></span>
 			<span aria-hidden="true"></span>
-		</a>
+		</label>
 	</div>
 	<ul id="navbar" class="navbar-menu">
 	{{ $list := .Site.Menus.pdn }}

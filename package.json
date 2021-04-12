@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "paint.net ohje suomeksi",
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^4.0.0",
-    "@vizuaalog/bulmajs": "^0.12.0",
-    "bulma": "^0.9.1",
-    "postcss": "^8.2.4",
-    "postcss-cli": "^8.3.1",
-    "supports-webp": "^2.0.1"
+    "@fullhuman/postcss-purgecss": "^4.0",
+    "bulma": "^0.9",
+    "postcss": "^8.2",
+    "postcss-cli": "^8.3",
+    "supports-webp": "^2.0"
   },
   "repository": {
     "type": "git",

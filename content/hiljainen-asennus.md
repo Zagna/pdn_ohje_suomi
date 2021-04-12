@@ -75,8 +75,8 @@ Asentaaksesi paint.netin kansioon D:\PDN ja ilman työpöydän pikakuvaketta:
 
 {{< esimerkki >}}paint.net.{{< param version >}}.install.exe /auto TARGETDIR=D:\PDN DESKTOPSHORTCUT=0{{< /esimerkki >}}
 
-Asentaaksesi paint.netin kansioon E:\Image Apps\paint.net, ja tarkistamaan betaversioita päivityksen yhteydessä.
+Asentaaksesi paint.netin kansioon E:\Grafiikka\paint.net, ja tarkistamaan betaversioita päivityksen yhteydessä.
 
 {{< huom >}}Koko TARGETDIR arvo pitää olla sitaateissa jos kansionimessä on yksi tai enemmän välilyöntejä!{{< /huom >}}
 
-{{< esimerkki >}}paint.net.{{< param version >}}.install.exe /auto "TARGETDIR=E:\Image Apps\paint.net" CHECKFORBETAS=1{{< /esimerkki >}}
+{{< esimerkki >}}paint.net.{{< param version >}}.install.exe /auto "TARGETDIR=E:\Grafiikka\paint.net" CHECKFORBETAS=1{{< /esimerkki >}}
