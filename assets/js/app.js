@@ -9,6 +9,11 @@ for (var i = 0; i < elements.length; i++) {
 	}, false);
 }
 
+document.addEventListener('touchend', function (event) {
+	document.querySelectorAll('.navbar-item.has-dropdown').forEach(el => el.classList.remove('is-active'));
+	if (event.target.classList.contains('navbar-link')) event.target.parentNode.classList.add('is-active');
+}, false);
+
 supportsWebP.then(supported => {
 	if (!supported) {
 		document.body.classList.add("no-webp");
