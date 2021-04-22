@@ -158,7 +158,7 @@ nav {
 	}
 }
 
-section.hero {
+header.hero {
 	background-color: #005577;
 	height: 150px;
 	.hero-body {
@@ -194,7 +194,7 @@ section.hero {
 	}
 }
 
-.content {
+section .content {
 	a {
 		text-decoration: underline;
 	}
@@ -466,7 +466,7 @@ section.hero {
 }
 
 body.no-webp {
-	section.hero {
+	header.hero {
 		.hero-body {
 			background-image: $palkki3_j;
 

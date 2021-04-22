@@ -1,4 +1,7 @@
-{{ partialCached "header.html" . }}
+<!doctype html>
+<html lang="fi" class="has-navbar-fixed-top">
+<head>
+	{{ partialCached "header.html" . }}
 	<meta property="og:url" content="{{ .Permalink }}" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="{{ .Title }}" />
@@ -11,30 +14,25 @@
 	<title>{{ .Title }} &middot; {{ .Site.Title }}</title>
 </head>
 <body>
-	<section class="hero">
-		<div class="hero-body">
-			<div class="container">
-				<div class="level">
-					<div class="level-item"> 
-						<a href="/">
-							<picture>
-								<source type="image/webp" srcset="/resurssit/favicon.webp, /resurssit/favicon@2x.webp 2x">
-								<img loading="eager" id="favicon" src="/resurssit/favicon.png" srcset="/resurssit/favicon@2x.png 2x" alt="paint.net logo" width="48" height="48" />
-							</picture>
-						<h1 class="title">paint.net ohje</h1></a>
-					</div>
-				</div>
+	<header class="hero">
+		<div class="hero-body level">
+			<div class="container level-item"> 
+				<a href="/">
+					<picture>
+						<source type="image/webp" srcset="/resurssit/favicon.webp, /resurssit/favicon@2x.webp 2x">
+						<img loading="eager" id="favicon" src="/resurssit/favicon.png" srcset="/resurssit/favicon@2x.png 2x" alt="paint.net logo" width="48" height="48" />
+					</picture>
+					<h1 class="title">paint.net ohje</h1>
+				</a>
 			</div>
 		</div>
-	</section>
-	<section class="section">
-		<div class="container">
-			<div class="content">
-				<h2>{{ .Title }}{{ if .Params.tooltip }} <span class="tool {{ .Params.tooltip }}"></span>{{ end }}</h2>
-				{{ .Content }}
-			</div>
-			{{ partialCached "footer.html" . }}
+	</header>
+	<section class="container section">
+		<div class="content">
+			<h2>{{ .Title }}{{ if .Params.tooltip }} <span class="tool {{ .Params.tooltip }}"></span>{{ end }}</h2>
+			{{ .Content }}
 		</div>
+		{{ partialCached "footer.html" . }}
 	</section>
 	{{ partialCached "menu.html" . }}
 	{{ partialCached "script.html" . }}

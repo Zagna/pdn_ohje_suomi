@@ -12,9 +12,7 @@
 	{{ $len := (len $list) }}
 	{{ range $index,$element := $list }}
 		<li class="navbar-item has-dropdown is-hoverable">
-			<span class="navbar-link">
-				{{ .Name }}
-			</span>
+			<span class="navbar-link">{{ .Name }}</span>
 			{{ if eq (add $index 1) $len }}
 			<ul class="navbar-dropdown is-boxed is-right">
 			{{ else }}
@@ -25,7 +23,7 @@
 					<a href="{{ .URL }}">{{ .Name }}</a>
 				</li>
 				{{ if or (or ( eq .Identifier "savyalat" ) ( eq .Identifier "protokolla" )) ( eq .Identifier "taso_seli" ) }}
-				<li class="navbar-divider">
+				<li class="navbar-divider"></li>
 				{{ end }}
 			{{ end }}
 			</ul>
