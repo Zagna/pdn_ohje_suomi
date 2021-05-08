@@ -3,4 +3,4 @@
     X-XSS-Protection: 1; mode=block
     X-Content-Type-Options: nosniff
     Referrer-Policy: no-referrer
-    Content-Security-Policy: script-src 'self'
+    Content-Security-Policy: script-src 'self' sha256-e9db5c107682460b42717673d2ae3d16add732bb9d0170353fbaf8124ab3e253
