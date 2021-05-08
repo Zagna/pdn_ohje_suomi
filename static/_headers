@@ -3,4 +3,4 @@
     X-XSS-Protection: 1; mode=block
     X-Content-Type-Options: nosniff
     Referrer-Policy: no-referrer
-    Content-Security-Policy: script-src 'self' 'sha256-Vz1OQ8HHl2LUeK/aylSnscMVfH1CPAAK+CbeUVBJ5JY='
+    Content-Security-Policy: default-src 'none'; script-src 'self' 'sha256-Vz1OQ8HHl2LUeK/aylSnscMVfH1CPAAK+CbeUVBJ5JY='; connect-src 'self'; img-src 'self'; style-src 'self';base-uri 'self';form-action 'self'
