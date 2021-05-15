@@ -8,4 +8,3 @@
 {{ $style := resources.Get "scss/style.scss" | resources.ToCSS $options | postCSS | resources.Minify | resources.Fingerprint }}
 <link rel="preload" href="{{ $style.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <link rel="icon" href="/resurssit/favicon.webp">
-<script data-goatcounter="https://zagna.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
