@@ -11,7 +11,7 @@ title = "Ohje"
 
 Tämä valikko antaa nopea pääsyn ohjeeseen, tavan lähettää palautetta tai virheilmoituksia paint.netin tekijöille, pääsyn netissä saatavaan aineistoon, kielen vaihtamisen sekä tietoja tekijöistä.
 
-{{< figure src="/kuvat/helpmenu.png" alt="Ohje valikko" >}}{{< /figure >}}
+{{< figure src="ui/helpmenu.webp" alt="Ohje valikko" >}}{{< /figure >}}
 
 * ### Sisältö
 
@@ -62,4 +62,4 @@ Tämä valikko antaa nopea pääsyn ohjeeseen, tavan lähettää palautetta tai 
 
     Tämä näyttää tietoja paint.netistä.
 
-    {{< figure src="/kuvat/aboutdialog.png" alt="Tietoja" >}}{{< /figure >}}
+    {{< figure src="ui/aboutdialog.webp" alt="Tietoja" >}}{{< /figure >}}

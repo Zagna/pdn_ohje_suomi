@@ -11,6 +11,6 @@ title = "Valokuva"
 
 Tämä alavalikko sisältää tehosteita joita yleensä käytetään valokuvien parannukseen.
 
-{{< figure src="/kuvat/effectsphotomenu.png" alt="Valokuva efektit" >}}{{< /figure >}}
+{{< figure src="ui/effectsphotomenu.webp" alt="Valokuva efektit" >}}{{< /figure >}}
 
 {{< tabit "valokuva" >}}

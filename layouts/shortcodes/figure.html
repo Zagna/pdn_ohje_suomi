@@ -1,11 +1,16 @@
 
 <figure>
 	{{ range split (.Get "src") ";" }}
-		{{ $imgData := imageConfig (printf "%s%s" "/static" .) }}
-		{{ $file := split (.) "." }}
+		{{ $image := resources.Get . }}
+		{{ $convert := "" }}
+		{{ if in . "img" }}
+			{{ $convert = $image.Resize ( printf "%dx%d jpg" $image.Width $image.Height ) }}
+		{{ else }}
+			{{ $convert = $image.Resize ( printf "%dx%d png" $image.Width $image.Height ) }}
+		{{ end }}
 		<picture>
-			<source type="image/webp" srcset="{{ index $file 0 | safeURL }}.webp">
-			<img loading="lazy" src="{{ . }}" width="{{ $imgData.Width }}" height="{{ $imgData.Height }}" alt="{{ $.Get "alt" }}">
+			<source type="image/webp" srcset="{{ $image.RelPermalink }}">
+			<img loading="lazy" src="{{ $convert.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $.Get "alt" }}">
 		</picture>
 	{{ end }}
 	{{ if isset .Params "title" }}

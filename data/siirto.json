@@ -7,13 +7,13 @@
 					"alt": "Siirrä valintaa",
 					"caption": "Siirrä valintaa",
 					"class": "border",
-					"src": "/resurssit/movenubs_movedpixels.jpg"
+					"src": "/img/movenubs_movedpixels.webp"
 				},
 				{
 					"alt": "Muokkaa valintaa",
 					"caption": "Muokkaa valintaa",
 					"class": "border",
-					"src": "/resurssit/movenubs_movedselection.jpg"
+					"src": "/img/movenubs_movedselection.webp"
 				}
 			]
 		},
@@ -26,13 +26,13 @@
 					"alt": "Siirrä valintaa",
 					"caption": "Siirrä valintaa",
 					"class": "border",
-					"src": "/resurssit/movenubs_resizedpixels.jpg"
+					"src": "/img/movenubs_resizedpixels.webp"
 				},
 				{
 					"alt": "Muokkaa valintaa",
 					"caption": "Muokkaa valintaa",
 					"class": "border",
-					"src": "/resurssit/movenubs_resizedselection.jpg"
+					"src": "/img/movenubs_resizedselection.webp"
 				}
 			]
 		},
@@ -45,13 +45,13 @@
 					"alt": "Siirrä valintaa",
 					"caption": "Siirrä valintaa",
 					"class": "border",
-					"src": "/resurssit/movenubs_rotatedpixels.jpg"
+					"src": "/img/movenubs_rotatedpixels.webp"
 				},
 				{
 					"alt": "Muokkaa valintaa",
 					"caption": "Muokkaa valintaa",
 					"class": "border",
-					"src": "/resurssit/movenubs_rotatedselection.jpg"
+					"src": "/img/movenubs_rotatedselection.webp"
 				}
 			]
 		},
@@ -63,13 +63,13 @@
 					"alt": "Alue valittu",
 					"caption": "Alue valittu",
 					"class": "border",
-					"src": "/resurssit/move_copy1.jpg"
+					"src": "/img/move_copy1.webp"
 				},
 				{
 					"alt": "Valinta kopioitu",
 					"caption": "Valinta kopioitu",
 					"class": "border",
-					"src": "/resurssit/move_copy2.jpg"
+					"src": "/img/move_copy2.webp"
 				}
 			]
 		}

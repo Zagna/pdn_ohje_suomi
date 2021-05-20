@@ -11,6 +11,6 @@ title = "Sumennus"
 
 Tämä alavalikko sisältää tehosteita jotka ovat hyödyllisiä kuvan sumentamisessa eri tavoilla.
 
-{{< figure src="/kuvat/effectsblursmenu.png" alt="Sumennus efektit" >}}{{< /figure >}}
+{{< figure src="ui/effectsblursmenu.webp" alt="Sumennus efektit" >}}{{< /figure >}}
 
 {{< tabit "sumennus" >}}

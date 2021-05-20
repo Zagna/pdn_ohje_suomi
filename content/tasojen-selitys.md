@@ -13,8 +13,8 @@ title = "Tasojen selitys"
 Tätä aihetta varten seuraavia kahta kuvaa käytetään taustakuvaksi sekä ensimmäiseksi tasoksi taustakuvan yläpuolella:
 
 {{< level >}}
-    {{< figure src="/resurssit/kemijoki.jpg" title="Taustakuva - Kuva Rovaniemestä (1972)" alt="Pohja" >}}("Pohja taso"){{< /figure >}}
-    {{< figure src="/resurssit/ruisleipa.jpg" title="Taso 1 - Kuva ruisleivästä" alt="Päällinen" >}}("Päällinen taso"){{< /figure >}}
+    {{< figure src="img/kemijoki.webp" title="Taustakuva - Kuva Rovaniemestä (1972)" alt="Pohja" >}}("Pohja taso"){{< /figure >}}
+    {{< figure src="img/ruisleipa.webp" title="Taso 1 - Kuva ruisleivästä" alt="Päällinen" >}}("Päällinen taso"){{< /figure >}}
 {{< /level >}}
 
 Voit ajatella "tasoja" kasana läpinäkyviä sivuja jotka, kun asetettu päällekkäin muodostavat kokonaisen kuvan. paint.net näyttää tämän kasan kuin
@@ -22,7 +22,7 @@ katsoisit sitä ylhäältä ilman perspektiiviä (tasot eivät "pienene" kun ne 
 tasot toimivat paremmin, voi olla helpompaa nähdä tasot vierestä kuin ylhäältä:
 
 {{< level >}}
-    {{< figure src="/resurssit/3d_ruisleipa_100.jpg" alt="Tasot päällekkäin" >}}{{< /figure >}}
+    {{< figure src="img/3d_ruisleipa_100.webp" alt="Tasot päällekkäin" >}}{{< /figure >}}
 {{< /level >}}
 
 ### Pikselit ja läpinäkyvyys
@@ -36,7 +36,7 @@ kuvan voi näyttää normaalilla tietokoneen näytöllä.
 Kuitenkin, läpinäkyviä pikseleitä ei voi näyttää tietokoneen näytöllä. Tämän simuloinniksi, paint.net käyttää shakkilautamallia joka näyttää tältä:
 
 {{< level >}}
-    {{< figure src="/resurssit/transparentcheckerboard.png" alt="Shakkilauta" >}}{{< /figure >}}
+    {{< figure src="png/transparentcheckerboard.webp" alt="Shakkilauta" >}}{{< /figure >}}
 {{< /level >}}
 
 Jos näet tämän, se tarkoittaa että osa kuvastasi on läpinäkyvä -- shakkilautamalli ei ole osa kuvaa. Voit ajatella että shakkilautamalli virtuaalinen
@@ -52,13 +52,13 @@ samaksi. Voit ajatella että tason peittävyys on kuin himmennin tason jokaisell
 Esimerkkinä, jos asetamme päällisen tason päittävyyden 255:sta askelin 0:aan, saamme seuraavat kuvat jotka esitetään konseptina sekä miten ne näkyvät näytöllä:
 
 {{< level >}}
-    {{< figure src="/resurssit/3d_ruisleipa_100.jpg" title="Taso 1 peittävyys 255 (100%)" alt="Ei näy" >}}Täysin peittävä: Rovaniemeä ei näe.{{< /figure >}}
+    {{< figure src="img/3d_ruisleipa_100.webp" title="Taso 1 peittävyys 255 (100%)" alt="Ei näy" >}}Täysin peittävä: Rovaniemeä ei näe.{{< /figure >}}
 {{< /level >}}
 
 {{< level >}}
-    {{< figure src="/resurssit/3d_ruisleipa_50.jpg" title="Taso 1 peittävyys 128 (noin 50%)" alt="Osittain näkyy" >}}Osittain läpinäkyvä: Rovaniemi on osittain näkyvä.{{< /figure >}}
+    {{< figure src="img/3d_ruisleipa_50.webp" title="Taso 1 peittävyys 128 (noin 50%)" alt="Osittain näkyy" >}}Osittain läpinäkyvä: Rovaniemi on osittain näkyvä.{{< /figure >}}
 {{< /level >}}
 
 {{< level >}}
-    {{< figure src="/resurssit/3d_ruisleipa_0.jpg" title="Taso 1 peittävyys 0 (0%)" alt="Ei näe" >}}Täysin läpinäkyvä: Ruisleipä ei enää näy.{{< /figure >}}
+    {{< figure src="img/3d_ruisleipa_0.webp" title="Taso 1 peittävyys 0 (0%)" alt="Ei näe" >}}Täysin läpinäkyvä: Ruisleipä ei enää näy.{{< /figure >}}
 {{< /level >}}

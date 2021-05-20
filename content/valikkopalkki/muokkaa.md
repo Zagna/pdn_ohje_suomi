@@ -16,7 +16,7 @@ Tärkeä asia mikä tulisi huomata on että valituissa alueissa suoritetut piirr
 ulkopuolelle niin kauan kuin valinta on aktiivinen. [Tehosteet]({{% relref "tehosteet" %}}) ja [Säädöt]({{% relref "saadot" %}}) vaikuttavat
 myös vain valittuun alueeseen.
 
-{{< figure src="/kuvat/editmenu.png" alt="Muokkaa valikko" >}}{{< /figure >}}
+{{< figure src="ui/editmenu.webp" alt="Muokkaa valikko" >}}{{< /figure >}}
 
 * ### Kumoa
 
@@ -49,7 +49,7 @@ myös vain valittuun alueeseen.
     liitettävä kuva on joko liian leveä tai korkea nykyiselle pohjan koolle, sinulta kysytään haluatko muuttaa pohjan kokoa. Kyseessä on oikotie
     [Kuva **&rarr;** Pohjan koko]({{% relref "kuva" %}}) komentoon joka varmistaa että liitettävä kuva mahtuu.
 
-    {{< figure src="/kuvat/pastequestion.png" alt="Liitä kysymys" >}}{{< /figure >}}
+    {{< figure src="ui/pastequestion.webp" alt="Liitä kysymys" >}}{{< /figure >}}
 
 * ### Liitä uuteen tasoon
 

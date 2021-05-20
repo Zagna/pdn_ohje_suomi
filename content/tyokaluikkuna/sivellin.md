@@ -19,4 +19,4 @@ eri osiin tyylistä. Jos käytät oikeaa hiiren nappia piirtämiseen, edusta- ja
 
 Seuraava esimerkki näyttää siveltimen käyttöä mustana, vihreänä ja kolmella eri piirtotyylillä.
 
-{{< figure src="/resurssit/sivellin.jpg" alt="Siveltimen tyylit" >}}{{< /figure >}}
+{{< figure src="img/sivellin.webp" alt="Siveltimen tyylit" >}}{{< /figure >}}

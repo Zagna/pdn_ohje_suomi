@@ -11,6 +11,6 @@ title = "Vääristys"
 
 Tämä alavalikko sisältää tehosteita jotka ovat hyödyllisiä kuvan vääristämiseen, yleensä siten ettei kuvaa voi enää tunnistaa.
 
-{{< figure src="/kuvat/effectsdistortmenu.png" alt="Vääristys efektit" >}}{{< /figure >}}
+{{< figure src="ui/effectsdistortmenu.webp" alt="Vääristys efektit" >}}{{< /figure >}}
 
 {{< tabit "vaaristys" >}}

@@ -5,12 +5,12 @@
 			"figure": [{
 					"alt": "Lineaari",
 					"class": "border",
-					"src": "/resurssit/lineaari_esim.jpg"
+					"src": "/img/lineaari_esim.webp"
 				},
 				{
 					"alt": "Lineaari",
 					"class": "border",
-					"src": "/resurssit/lineaari.jpg"
+					"src": "/img/lineaari.webp"
 				}
 			]
 		},
@@ -20,12 +20,12 @@
 			"figure": [{
 					"alt": "Lineaari (Peilattu)",
 					"class": "border",
-					"src": "/resurssit/lineaari_peilattu_esim.jpg"
+					"src": "/img/lineaari_peilattu_esim.webp"
 				},
 				{
 					"alt": "Lineaari (Peilattu)",
 					"class": "border",
-					"src": "/resurssit/lineaari_peilattu.jpg"
+					"src": "/img/lineaari_peilattu.webp"
 				}
 			]
 		},
@@ -35,12 +35,12 @@
 			"figure": [{
 					"alt": "Timantti",
 					"class": "border",
-					"src": "/resurssit/timantti_esim.jpg"
+					"src": "/img/timantti_esim.webp"
 				},
 				{
 					"alt": "Timantti",
 					"class": "border",
-					"src": "/resurssit/timantti.jpg"
+					"src": "/img/timantti.webp"
 				}
 			]
 		},
@@ -50,12 +50,12 @@
 			"figure": [{
 					"alt": "Säteittäinen",
 					"class": "border",
-					"src": "/resurssit/sateittainen_esim.jpg"
+					"src": "/img/sateittainen_esim.webp"
 				},
 				{
 					"alt": "Säteittäinen",
 					"class": "border",
-					"src": "/resurssit/sateittainen.jpg"
+					"src": "/img/sateittainen.webp"
 				}
 			]
 		},
@@ -65,12 +65,12 @@
 			"figure": [{
 					"alt": "Kartio",
 					"class": "border",
-					"src": "/resurssit/kartio_esim.jpg"
+					"src": "/img/kartio_esim.webp"
 				},
 				{
 					"alt": "Kartio",
 					"class": "border",
-					"src": "/resurssit/kartio.jpg"
+					"src": "/img/kartio.webp"
 				}
 			]
 		},
@@ -80,12 +80,12 @@
 			"figure": [{
 					"alt": "Spiraali (Myötäpäivään)",
 					"class": "border",
-					"src": "/resurssit/spiraali_m_esim.jpg"
+					"src": "/img/spiraali_m_esim.webp"
 				},
 				{
 					"alt": "Spiraali (Myötäpäivään)",
 					"class": "border",
-					"src": "/resurssit/spiraali_m.jpg"
+					"src": "/img/spiraali_m.webp"
 				}
 			]
 		},
@@ -95,12 +95,12 @@
 			"figure": [{
 					"alt": "Spiraali (Vastapäivään)",
 					"class": "border",
-					"src": "/resurssit/spiraali_v_esim.jpg"
+					"src": "/img/spiraali_v_esim.webp"
 				},
 				{
 					"alt": "Spiraali (Vastapäivään)",
 					"class": "border",
-					"src": "/resurssit/spiraali_v.jpg"
+					"src": "/img/spiraali_v.webp"
 				}
 			]
 		}

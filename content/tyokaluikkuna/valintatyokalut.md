@@ -11,7 +11,7 @@ title = "Valintatyökalut"
 
 Neljä valintatyökalua on saatavilla. Katsomme niistä kolmea jotka ovat listattu alhaalla:
 
-{{< figure src="/kuvat/valintatyokalut.png" alt="Valintatyökalut" >}}{{< /figure >}}
+{{< figure src="ui/valintatyokalut.webp" alt="Valintatyökalut" >}}{{< /figure >}}
 
 * Suorakulmainen valinta
 * Lassovalinta
@@ -46,6 +46,6 @@ Jos haluat muokata valintaa, voit joko käyttää joko työkalupalkkia tai näpp
 
 On olemassa viisi erilaista valintatilaa:
 
-{{< figure src="/kuvat/selectionmode.png" alt="Valintatila" >}}{{< /figure >}}
+{{< figure src="ui/selectionmode.webp" alt="Valintatila" >}}{{< /figure >}}
 
 {{< tabit "valinta" >}}

@@ -25,32 +25,32 @@ $palkki_tab_leveys: 1200px;
 $palkki_mob_leveys: 720px;
 
 //urls
-$palkki: url(/resurssit/imagebar.webp);
-$palkki2: url(/resurssit/imagebar_1200.webp);
-$palkki3: url(/resurssit/imagebar_720.webp);
-$palkki_j: url(/resurssit/imagebar.jpg);
-$palkki2_j: url(/resurssit/imagebar_1200.jpg);
-$palkki3_j: url(/resurssit/imagebar_720.jpg);
-$vihje: url(/resurssit/tip.webp);
-$vihje2: url(/resurssit/tip@2x.webp);
-$huom: url(/resurssit/note.webp);
-$huom2: url(/resurssit/note@2x.webp);
-$varoitus: url(/resurssit/warning.webp);
-$varoitus2: url(/resurssit/warning@2x.webp);
-$esim: url(/resurssit/example.webp);
-$esim2: url(/resurssit/example@2x.webp);
-$vihje_p: url(/resurssit/tip.png);
-$vihje2_p: url(/resurssit/tip@2x.png);
-$huom_p: url(/resurssit/note.png);
-$huom2_p: url(/resurssit/note@2x.png);
-$varoitus_p: url(/resurssit/warning.png);
-$varoitus2_p: url(/resurssit/warning@2x.png);
-$esim_p: url(/resurssit/example.png);
-$esim2_p: url(/resurssit/example@2x.png);
-$sprite: url(/resurssit/tool_sprite.webp);
-$sprite2: url(/resurssit/tool_sprite@2x.webp);
-$sprite_p: url(/resurssit/tool_sprite.png);
-$sprite2_p: url(/resurssit/tool_sprite@2x.png);
+$palkki: url(/img/imagebar.webp);
+$palkki2: url(/img/imagebar_1200.webp);
+$palkki3: url(/img/imagebar_720.webp);
+$palkki_j: url(/img/imagebar.jpg);
+$palkki2_j: url(/img/imagebar_1200.jpg);
+$palkki3_j: url(/img/imagebar_720.jpg);
+$vihje: url(/img/tip.webp);
+$vihje2: url(/img/tip@2x.webp);
+$huom: url(/img/note.webp);
+$huom2: url(/img/note@2x.webp);
+$varoitus: url(/img/warning.webp);
+$varoitus2: url(/img/warning@2x.webp);
+$esim: url(/img/example.webp);
+$esim2: url(/img/example@2x.webp);
+$vihje_p: url(/img/tip.png);
+$vihje2_p: url(/img/tip@2x.png);
+$huom_p: url(/img/note.png);
+$huom2_p: url(/img/note@2x.png);
+$varoitus_p: url(/img/warning.png);
+$varoitus2_p: url(/img/warning@2x.png);
+$esim_p: url(/img/example.png);
+$esim2_p: url(/img/example@2x.png);
+$sprite: url(/img/tool_sprite.webp);
+$sprite2: url(/img/tool_sprite@2x.webp);
+$sprite_p: url(/img/tool_sprite.png);
+$sprite2_p: url(/img/tool_sprite@2x.png);
 
 /* purgecss start ignore */
 html {
@@ -191,7 +191,7 @@ header.hero {
 	}
 	
 	figure {
-		margin: .5em 1em 1em 1em;
+		margin: .5em 1em 1em 1em !important;
 		display: inline-block;
 		figcaption {
 			padding-top: 4px;

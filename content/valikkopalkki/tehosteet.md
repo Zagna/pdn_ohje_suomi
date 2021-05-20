@@ -11,7 +11,7 @@ title = "Tehosteet"
 
 Tämä valikko sisältää monta komentoa, joilla voit sisältää erilaisia tehosteita kuviisi.
 
-{{< figure src="/kuvat/effectsmenu.png" alt="Tehosteet valikko" >}}{{< /figure >}}
+{{< figure src="ui/effectsmenu.webp" alt="Tehosteet valikko" >}}{{< /figure >}}
 
 ### Järjestys
 

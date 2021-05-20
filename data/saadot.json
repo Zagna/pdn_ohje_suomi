@@ -6,7 +6,7 @@
 			"figure": [{
 				"alt": "Automaattinen taso",
 				"class": "border saadot",
-				"src": "/resurssit/lewistonsunset_small_autolevel.jpg"
+				"src": "/img/lewistonsunset_small_autolevel.webp"
 			}]
 		},
 		{
@@ -17,7 +17,7 @@
 				"alt": "Invertoitu",
 				"caption": "Alkuperäinen kuva joka on invertoitu",
 				"class": "border saadot",
-				"src": "/resurssit/lewistonsunset_small_invert.jpg"
+				"src": "/img/lewistonsunset_small_invert.webp"
 			}]
 		},
 		{
@@ -28,19 +28,19 @@
 					"alt": "Kirkas",
 					"caption": "Alkuperäinen kuva kirkkaampana",
 					"class": "border saadot",
-					"src": "/resurssit/lewistonsunset_small_brighter.jpg"
+					"src": "/img/lewistonsunset_small_brighter.webp"
 				},
 				{
 					"alt": "Kontrasti",
 					"caption": "Alkuperäinen kuva suuremmalla kontrastilla",
 					"class": "border saadot",
-					"src": "/resurssit/lewistonsunset_small_morecontrast.jpg"
+					"src": "/img/lewistonsunset_small_morecontrast.webp"
 				},
 				{
 					"alt": "Kirkas sekä kontrasti",
 					"caption": "Alkuperäinen kuva kirkkaampana ja suuremmalla kontrastilla",
 					"class": "border saadot",
-					"src": "/resurssit/lewistonsunset_small_brighterandmorecontrast.jpg"
+					"src": "/img/lewistonsunset_small_brighterandmorecontrast.webp"
 				}
 			]
 		},
@@ -57,7 +57,7 @@
 				"alt": "Mustavalkoinen",
 				"caption": "Alkuperäinen kuva joka on käsitelty",
 				"class": "border saadot",
-				"src": "/resurssit/lewistonsunset_small_desaturate.jpg"
+				"src": "/img/lewistonsunset_small_desaturate.webp"
 			}]
 		},
 		{
@@ -68,7 +68,7 @@
 				"alt": "Posterisaatio",
 				"caption": "Alkuperäinen kuva posterisaation jälkeen",
 				"class": "border saadot",
-				"src": "/resurssit/lewistonsunset_small_posterize.png"
+				"src": "/png/lewistonsunset_small_posterize.webp"
 			}]
 		},
 		{
@@ -79,7 +79,7 @@
 				"alt": "Seepia",
 				"caption": "Alkuperäinen kuva Seepia-säädön jälkeen",
 				"class": "border saadot",
-				"src": "/resurssit/lewistonsunset_small_sepia.jpg"
+				"src": "/img/lewistonsunset_small_sepia.webp"
 			}]
 		},
 		{
@@ -90,7 +90,7 @@
 				"alt": "Värikylläs",
 				"caption": "Alkuperäinen kuva sen jälkeen kun Sävy on 88 ja Värikylläisyys on 158",
 				"class": "border saadot",
-				"src": "/resurssit/lewistonsunset_small_huesaturation.jpg"
+				"src": "/img/lewistonsunset_small_huesaturation.webp"
 			}]
 		},
 		{

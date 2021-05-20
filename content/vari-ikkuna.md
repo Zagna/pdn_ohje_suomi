@@ -17,7 +17,7 @@ käyttävät edusta- tai taustaväriä piirtämisessä, riippuen siitä millä h
 
 * ### Väri-ikkuna
 
-    {{< figure src="/kuvat/colorswindowless.png" alt="Värit" >}}{{< /figure >}}
+    {{< figure src="ui/colorswindowless.webp" alt="Värit" >}}{{< /figure >}}
 
     Tämä tila antaa sinun valita väripyörässä näkyvistä väreistä tai ensimmäisistä 32 väristä nykyisessä paletissa. Jos painat paletissa oikealla
     hiiren napilla, se asettaa taustavärin.
@@ -30,7 +30,7 @@ käyttävät edusta- tai taustaväriä piirtämisessä, riippuen siitä millä h
     ominaisuudelle, RGB (Punainen, Vihreä, Sininen) tai HSV (Sävy, Värikylläisyys, Arvo) skaalassa. Värin muokkaaminen hex, eli heksadesimaalin
     avulla on myös mahdollista. Alfaa, tai läpinäkyvyyttä voi myös muokata.
 
-    {{< figure src="/kuvat/colorswindowmore.png" alt="Värit-Lisää" >}}{{< /figure >}}
+    {{< figure src="ui/colorswindowmore.webp" alt="Värit-Lisää" >}}{{< /figure >}}
 
     {{< badge >}}Avaa >>{{< /badge >}} nappi muuttuu {{< badge >}}<< Sulje{{< /badge >}} napiksi jolla voit palata pienempään ikkunaan.
 
@@ -40,27 +40,27 @@ käyttävät edusta- tai taustaväriä piirtämisessä, riippuen siitä millä h
 
     Jos painat väriä valitessa Ctrl-näppäintä, Värit rajoitetaan samalle piirille väripyörässä.
 
-    {{< figure src="/kuvat/colorswindowctrl.png" alt="Värit" title="Väripyörän käyttö Ctrl-näppäimellä" >}}{{< /figure >}}
+    {{< figure src="ui/colorswindowctrl.webp" alt="Värit" title="Väripyörän käyttö Ctrl-näppäimellä" >}}{{< /figure >}}
 
     Jos painat väriä valitessa Alt-näppäintä, Värit rajoitetaan yhteen säteeseen väripyörässä.
 
-    {{< figure src="/kuvat/colorswindowalt.png" alt="Värit" title="Väripyörän käyttö Alt-näppäimellä" >}}{{< /figure >}}
+    {{< figure src="ui/colorswindowalt.webp" alt="Värit" title="Väripyörän käyttö Alt-näppäimellä" >}}{{< /figure >}}
 
     Jos painat väriä valitessa Shift-näppäintä, Värit rajoitetaan useaan säteeseen väripyörässä kuin polkupyörän pinnoissa.
 
-    {{< figure src="/kuvat/colorswindowshift.png" alt="Värit" title="Väripyörän käyttö Shift-näppäimellä" >}}{{< /figure >}}
+    {{< figure src="ui/colorswindowshift.webp" alt="Värit" title="Väripyörän käyttö Shift-näppäimellä" >}}{{< /figure >}}
 
 * ### Paletit
 
     On olemassa kaksi nappia paletin yläpuolella jotka antavat sinun hallita värejä.
 
-    {{< figure src="/resurssit/palettebuttons.png" alt="Paletit" >}}{{< /figure >}}
+    {{< figure src="png/palettebuttons.webp" alt="Paletit" >}}{{< /figure >}}
 
     Ensimmäinen lisää nykyisen värin palettiin. Paina nappia ja sen jälkeen valitse paletilla paikka minne lisäät värin.
 
     Toinen avaa vetolaatikon joka tarjoaa komentoja joilla paletteja voi hallita:
 
-    {{< figure src="/kuvat/palettemenu.png" alt="Paletit valikko" >}}{{< /figure >}}
+    {{< figure src="ui/palettemenu.webp" alt="Paletit valikko" >}}{{< /figure >}}
 
     Ensimmäiset asiat listassa ovat kaikki tekemäsi paletit jotka olet tallentanut. Valitessasi yhden niistä lataat kyseisen paletin. Viimeiset
     kolme valinnan avulla voit tallentaa nykyisen paletin tiedostoon, avata palettikansion Resurssinhallinnassa, ja viimeisenä palauttaa paletin

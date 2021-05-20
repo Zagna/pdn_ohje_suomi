@@ -12,7 +12,7 @@ tooltip = "shapes"
 
 Seuraavat työkalut ovat samankaltaisia ja niistä puhumme tällä kertaa:<!--more-->
 
-{{< figure src="/kuvat/shapetools.png" alt="Muodot" >}}{{< /figure >}}
+{{< figure src="ui/shapetools.webp" alt="Muodot" >}}{{< /figure >}}
 
 * ### Perus
 
@@ -63,7 +63,7 @@ Pyöritä Muotoa Pisteen mukaan klikkaamalla oikealla hiiren näppäimellä ja v
 Muodon reunalle kunnes siitä tulee käyrä kahden nuolen ikoni. Tämä tarkoittaa että Muotoa voi pyörittää keskuksen kohdalta klikkaamalla
 ja vetämällä vasemmalla hiiren näppäimellä.
 
-{{< figure src="/resurssit/rotatecursor.png" alt="Pyöritä" >}}{{< /figure >}}
+{{< figure src="png/rotatecursor.webp" alt="Pyöritä" >}}{{< /figure >}}
 
 Jos Shift-näppäin on alhaalla, pyörityksen kulma on rajoitettu 15 asteen kertoimiin.
 
@@ -99,18 +99,18 @@ Seuraavat kuvat näyttävät miltä muodot näyttävät kun eriä muotopiirto as
 
 ### Vain ulkoreuna
 
-{{< figure src="/kuvat/shapetype_outline.png" alt="Vain ulkoreuna" >}}{{< /figure >}}
+{{< figure src="ui/shapetype_outline.webp" alt="Vain ulkoreuna" >}}{{< /figure >}}
 
-{{< figure src="/resurssit/shapes_outline.png" alt="Vain ulkoreuna" >}}{{< /figure >}}
+{{< figure src="png/shapes_outline.webp" alt="Vain ulkoreuna" >}}{{< /figure >}}
 
 ### Vain sisusta
 
-{{< figure src="/kuvat/shapetype_interior.png" alt="Vain sisusta" >}}{{< /figure >}}
+{{< figure src="ui/shapetype_interior.webp" alt="Vain sisusta" >}}{{< /figure >}}
 
-{{< figure src="/resurssit/shapes_interior.png" alt="Vain sisusta" >}}{{< /figure >}}
+{{< figure src="png/shapes_interior.webp" alt="Vain sisusta" >}}{{< /figure >}}
 
 ### Ulkoreuna ja sisusta
 
-{{< figure src="/kuvat/shapetype_interiorandoutline.png" alt="Ulkoreuna ja sisusta" >}}{{< /figure >}}
+{{< figure src="ui/shapetype_interiorandoutline.webp" alt="Ulkoreuna ja sisusta" >}}{{< /figure >}}
 
-{{< figure src="/resurssit/shapes_outlineandinterior.png" alt="Ulkoreuna ja sisusta" >}}{{< /figure >}}
+{{< figure src="png/shapes_outlineandinterior.webp" alt="Ulkoreuna ja sisusta" >}}{{< /figure >}}

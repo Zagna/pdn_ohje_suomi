@@ -18,8 +18,8 @@ Voit vaihtaa kloonattavan alueen kokoa ja kovuutta vaihtamalla kyseisiä asetuks
 
 Alla olevassa kuvassa, osa appelsiinista on kloonattu omenan päälle. Kun piirrät, ympyrä ilmoittaa mistä alueesta kopioit.
 
-{{< figure src="/resurssit/clonestampbefore.jpg" alt="Kloonaus Omena" >}}{{< /figure >}}
+{{< figure src="img/clonestampbefore.webp" alt="Kloonaus Omena" >}}{{< /figure >}}
 
 Kloonatun osan koon muuttamisen jälkeen omenan päällä on appelsiiniraita:
 
-{{< figure src="/resurssit/clonestampresult.jpg" alt="Kloonaus Omena valmis" >}}{{< /figure >}}
+{{< figure src="img/clonestampresult.webp" alt="Kloonaus Omena valmis" >}}{{< /figure >}}

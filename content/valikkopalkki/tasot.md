@@ -9,7 +9,7 @@ title = "Tasot"
 
 +++
 
-{{< figure src="/kuvat/layersmenu.png" alt="Tasot valikko" >}}{{< /figure >}}
+{{< figure src="ui/layersmenu.webp" alt="Tasot valikko" >}}{{< /figure >}}
 
 Komennot tässä valikossa vaikuttavat vain aktiiviseen tasoon, joka näkyy Tasoikkunassa.
 
@@ -52,4 +52,4 @@ Komennot tässä valikossa vaikuttavat vain aktiiviseen tasoon, joka näkyy Taso
 
     Peittävyyttä voi hallita liukuohjaimen avulla.
 
-    {{< figure src="/kuvat/layerproperties.png" alt="Tason ominaisuudet" >}}{{< /figure >}}
+    {{< figure src="ui/layerproperties.webp" alt="Tason ominaisuudet" >}}{{< /figure >}}

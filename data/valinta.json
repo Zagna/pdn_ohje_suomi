@@ -5,7 +5,7 @@
 			"name": "Korvaa",
 			"figure": [{
 				"alt": "Korvaa",
-				"src": "/resurssit/circleselection.png"
+				"src": "/png/circleselection.webp"
 			}]
 		},
 		{
@@ -15,7 +15,7 @@
 			"vihje": "Lisätäksesi olemassa olevaan valintaan, pidä Ctrl-nappi pohjassa kun piirrät valinnan.",
 			"figure": [{
 				"alt": "Lisää",
-				"src": "/resurssit/circlesquareselection.png"
+				"src": "/png/circlesquareselection.webp"
 			}]
 		},
 		{
@@ -25,7 +25,7 @@
 			"vihje": "Poistaaksesi osia olemassa olevasta valinnasta, pidä Alt-näppäintä alhaalla piirtäessäsi valintaa.",
 			"figure": [{
 				"alt": "Vähennä",
-				"src": "/resurssit/concentriccircleselection.png"
+				"src": "/png/concentriccircleselection.webp"
 			}]
 		},
 		{
@@ -35,7 +35,7 @@
 			"vihje": "Leikkaus toimii pitämällä Alt-näppäin pohjassa ja piirtäen valinta oikealla hiiren näppäimellä.",
 			"figure": [{
 				"alt": "Leikkaus",
-				"src": "/resurssit/intersectselection.png"
+				"src": "/png/intersectselection.webp"
 			}]
 		},
 		{
@@ -45,7 +45,7 @@
 			"vihje": "Käänteinen toimii pitämällä Ctrl-näppäin pohjassa ja piirtämällä valinnan oikealla hiiren napilla.",
 			"figure": [{
 				"alt": "Käänteinen",
-				"src": "/resurssit/xorselection.png"
+				"src": "/png/xorselection.webp"
 			}]
 		}
 	]

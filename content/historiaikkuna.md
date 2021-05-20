@@ -16,7 +16,7 @@ Joka kerta kun teet toiminnon joka muuttaa kuvaa tai kun luot tai muokkaat valin
 toimintoja, ne näkyvät listan pohjassa harmaalla pohjalla ja ne voidaan tehdä uudelleen käyttämällä Uudelleen toimintoa. Jos teet
 jonkun uuden toiminnon, kaikki toiminnot jotka olisit voinut tehdä uudelleen poistetaan tehdäkseen tilaa uusille toiminnoille.
 
-{{< figure src="/kuvat/historywindow.png" alt="Historiaikkuna" >}}{{< /figure >}}
+{{< figure src="ui/historywindow.webp" alt="Historiaikkuna" >}}{{< /figure >}}
 
 Vasemmalta oikealle, napit ovat:
 

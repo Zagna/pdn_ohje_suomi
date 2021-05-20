@@ -7,13 +7,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/epakohdistus.jpg"
+					"src": "/img/epakohdistus.webp"
 				}
 			]
 		},
@@ -25,13 +25,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/gausssumennus.jpg"
+					"src": "/img/gausssumennus.webp"
 				}
 			]
 		},
@@ -43,13 +43,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/liikeepateravyys.jpg"
+					"src": "/img/liikeepateravyys.webp"
 				}
 			]
 		},
@@ -61,13 +61,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/pintasumennus.jpg"
+					"src": "/img/pintasumennus.webp"
 				}
 			]
 		},
@@ -79,13 +79,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/pirstaloi.jpg"
+					"src": "/img/pirstaloi.webp"
 				}
 			]
 		},
@@ -97,13 +97,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/sateittainensumennus.jpg"
+					"src": "/img/sateittainensumennus.webp"
 				}
 			]
 		},
@@ -115,13 +115,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/zoomsumennus.jpg"
+					"src": "/img/zoomsumennus.webp"
 				}
 			]
 		}

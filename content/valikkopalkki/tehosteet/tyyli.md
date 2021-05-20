@@ -11,6 +11,6 @@ title = "Tyyli"
 
 Tämä alavalikko sisältää tehosteita jotka voivat luoda tyyliteltyjä kuvia jotka ovat hyödyllisiä reunojen löytämiseen tai erinäisten tekstuurien luomiseen.
 
-{{< figure src="/kuvat/effectsstylizemenu.png" alt="Tyyli efektit" >}}{{< /figure >}}
+{{< figure src="ui/effectsstylizemenu.webp" alt="Tyyli efektit" >}}{{< /figure >}}
 
 {{< tabit "tyyli" >}}

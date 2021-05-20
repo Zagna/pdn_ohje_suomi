@@ -6,7 +6,7 @@
 			"figure": [{
 				"alt": "Julia",
 				"class": "border",
-				"src": "/resurssit/juliafractal.jpg"
+				"src": "/img/juliafractal.webp"
 			}]
 		},
 		{
@@ -16,7 +16,7 @@
 			"figure": [{
 				"alt": "Mandelbrot",
 				"class": "border",
-				"src": "/resurssit/mandelbrotfractal.jpg"
+				"src": "/img/mandelbrotfractal.webp"
 			}]
 		},
 		{
@@ -26,7 +26,7 @@
 			"figure": [{
 				"alt": "Pilvi",
 				"class": "border",
-				"src": "/resurssit/clouds.jpg"
+				"src": "/img/clouds.webp"
 			}]
 		},
 		{
@@ -36,7 +36,7 @@
 			"figure": [{
 				"alt": "Turbulenssi",
 				"class": "border",
-				"src": "/resurssit/turbs.jpg"
+				"src": "/img/turbs.webp"
 			}]
 		}
 	]

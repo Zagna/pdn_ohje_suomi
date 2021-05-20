@@ -7,13 +7,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/hehku.jpg"
+					"src": "/img/hehku.webp"
 				}
 			]
 		},
@@ -25,13 +25,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/pehmenna.jpg"
+					"src": "/img/pehmenna.webp"
 				}
 			]
 		},
@@ -43,19 +43,19 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/punasilma.jpg"
+					"src": "/img/punasilma.webp"
 				},
 				{
 					"alt": "Silmät valittu",
 					"caption": "Silmät valittu",
 					"class": "border",
-					"src": "/resurssit/silmatvalittu.jpg"
+					"src": "/img/silmatvalittu.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/naama.jpg"
+					"src": "/img/naama.webp"
 				}
 			]
 		},
@@ -67,13 +67,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/teravoita.jpg"
+					"src": "/img/teravoita.webp"
 				}
 			]
 		},
@@ -85,13 +85,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/vinjetti.jpg"
+					"src": "/img/vinjetti.webp"
 				}
 			]
 		}

@@ -11,7 +11,7 @@ title = "Tiedosto"
 
 Tiedosto-valikkoa käytetään kuvien avaamiseen, hankkimiseen ja tallentamiseen paint.netissä. Nämä komennot toimivat saman lailla kuin muissa ohjelmissa.
 
-{{< figure src="/kuvat/filemenu.png" alt="Tiedosto valikko" >}}{{< /figure >}}
+{{< figure src="ui/filemenu.webp" alt="Tiedosto valikko" >}}{{< /figure >}}
 
 * ### Uusi
 
@@ -20,7 +20,7 @@ Tiedosto-valikkoa käytetään kuvien avaamiseen, hankkimiseen ja tallentamiseen
     Uuden kuvan koko myös näytetään laatikon yläruudussa; tätä voi käyttää havaitsemaan kuinka paljon muistia kuva käyttää, mutta se ei näytä kuinka
     iso se tulee olemaan kun tallennat sen kovalevylle (yleensä se on pienempi).
 
-    {{< figure src="/kuvat/newdialog.png" alt="Uusi tiedosto" >}}{{< /figure >}}
+    {{< figure src="ui/newdialog.webp" alt="Uusi tiedosto" >}}{{< /figure >}}
 
 * ### Avaa
 
@@ -36,13 +36,13 @@ Tiedosto-valikkoa käytetään kuvien avaamiseen, hankkimiseen ja tallentamiseen
     Tässä alavalikossa on kaksi valintaa: Tuo leikepöydältä, ja Tuo skannerista tai kamerasta. Nämä mahdollistavat uuden kuvan luomisen joka tuo
     kuvan joko leikepöydältä, skannerista tai kamerasta joka tukee Windows Image Acquitision 2.0:aa (WIA).
 
-    {{< figure src="/kuvat/acquiremenu.png" alt="Hanki" >}}{{< /figure >}}
+    {{< figure src="ui/acquiremenu.webp" alt="Hanki" >}}{{< /figure >}}
 
 * ### Sulje
 
     Tämä sulkee valitun kuvan. Jos olet tehnyt muutoksia joita ei ole tallennettu, sinulta kysytään varmistusta ennen tallentamista:
 
-    {{< figure src="/kuvat/unsavedchanges1.png" alt="Sulje" >}}{{< /figure >}}
+    {{< figure src="ui/unsavedchanges1.webp" alt="Sulje" >}}{{< /figure >}}
 
 * ### Tallenna
 
@@ -53,7 +53,7 @@ Tiedosto-valikkoa käytetään kuvien avaamiseen, hankkimiseen ja tallentamiseen
     ja muita asetuksia. Valikko näyttää katsauksen miltä kuva näyttää kun sen lataa toisessa ohjelmassa (tai paint.netissä) sen jälkeen kun se on
     tallennettu. Kuvan koko näytetään katsauksen yläpuolella. Voit käyttää katsausta saavuttamaan toivotun kuvan laadun.
 
-    {{< figure src="/kuvat/saveconfigdialog.jpg" alt="Tallenna" >}}{{< /figure >}}
+    {{< figure src="img/saveconfigdialog.webp" alt="Tallenna" >}}{{< /figure >}}
 
 * ### Tallenna nimellä
 
@@ -64,10 +64,10 @@ Tiedosto-valikkoa käytetään kuvien avaamiseen, hankkimiseen ja tallentamiseen
     Tämä antaa sinun tulostaa kuvan käyttäen Windowsin sisäänrakennettua Tulosta kuvia -toimintoa. Se esittää yksinkertaisen velhopohjaisen käyttöliittymän minkä avulla voit käydä tulostuksen läpi.
     Windows 7:ssä, Tulosta kuvia -käyttöliittymä näyttää tältä:
 
-    {{< figure src="/kuvat/printwizard.jpg" alt="Tulostamisen avustaja" >}}{{< /figure >}}
+    {{< figure src="img/printwizard.webp" alt="Tulostamisen avustaja" >}}{{< /figure >}}
 
 * ### Poistu
 
     Käytä tätä poistuaksesi paint.net:istä. Sinulta kysytään haluatko tallentaa muutokset jos olet muokannut kuvaa. Jos sinulla on useita kuvia joiden muutoksia ei ole tallennettu, sinulta kysytään varmistusta ensin.
 
-    {{< figure src="/kuvat/unsavedchanges2.png" alt="Tallenna muutokset" >}}{{< /figure >}}
+    {{< figure src="ui/unsavedchanges2.webp" alt="Tallenna muutokset" >}}{{< /figure >}}

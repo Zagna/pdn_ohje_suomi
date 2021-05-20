@@ -7,7 +7,7 @@ summaryLength = 10
 googleAnalytics = "G-QC4L0PSHZL"
 
 [params]
-	images = ["/kuvat/pdn-some.jpg"]
+	images = ["/pdn-some.jpg"]
 
 [menu]
 

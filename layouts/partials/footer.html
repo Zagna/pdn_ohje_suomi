@@ -5,16 +5,24 @@
 			<a rel="cc:attributionURL" href="https://paintdotnet.netlify.app"><span rel="cc:attributionName">Jarno Ruokamo</span></a>, on lisensoitu CC BY-NC 4.0
 			<a href="https://creativecommons.org/licenses/by-nc/4.0">
 				<picture>
-					<source type="image/webp" srcset="/resurssit/cc40.webp, /resurssit/cc40@2x.webp 2x">
-					<img loading="lazy" src="/resurssit/cc40.png" srcset="/resurssit/cc40@2x.png 2x" alt="CC" width="75" height="24" />
+					{{ $cc2 := resources.Get "png/cc40.webp" }}
+					{{ $cc := $cc2.Resize "75x25" }}
+					{{ $png2 := $cc2.Resize "150x50 png" }}
+					{{ $png := $cc2.Resize "75x25 png" }}
+					<source type="image/webp" srcset="{{ $cc.RelPermalink }}, {{ $cc2.RelPermalink }} 2x">
+					<img loading="lazy" src="{{ $png.RelPermalink }}" srcset="{{ $png2.RelPermalink }} 2x" alt="Creative Commons" width="{{ $cc.Width }}" height="{{ $cc.Height }}" />
 				</picture>
 			</a>
 		</p>
 		<p>
 			<a href="https://bulma.io">
 				<picture>
-					<source type="image/webp" srcset="/resurssit/bulma.webp, /resurssit/bulma@2x.webp 2x">
-					<img loading="lazy" src="/resurssit/bulma.png" srcset="/resurssit/bulma@2x.png 2x" alt="Made with Bulma" width="128" height="24" />
+					{{ $bulma2 := resources.Get "png/bulma.webp" }}
+					{{ $bulma := $bulma2.Resize "128x24" }}
+					{{ $png2 := $bulma2.Resize "256x48 png" }}
+					{{ $png := $bulma2.Resize "128x24 png" }}
+					<source type="image/webp" srcset="{{ $bulma.RelPermalink }}, {{ $bulma2.RelPermalink }} 2x">
+					<img loading="lazy" src="{{ $png.RelPermalink }}" srcset="{{ $png2.RelPermalink }} 2x" alt="Made with Bulma" width="{{ $bulma.Width }}" height="{{ $bulma.Height }}" />
 				</picture>
 			</a>
 		</p>

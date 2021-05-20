@@ -10,7 +10,7 @@ tooltip = "linecurve"
 
 +++
 
-Tätä työkalua käytetään viivojen ja kurvien tekemiseen. Nämä kaksi ominaisuutta on yhdistetty yhdeksi työkaluksi koska on mahdollista
+Tätä työkalua käytetään viivojen ja kurvien tekemiseen. Nämä kaksi ominaisuutta on yhdistetty yhdeksi työkaluksi<!--more--> koska on mahdollista
 väittää että viiva on yksinkertaisesti täysin suora käyrä; täten, työkalu piirtää aina käyrä, mutta "viivoihin" ei ole asetettu käyrää.
 
 Viivan piirtäminen on yksinkertaista: vain paina mistä haluat aloittaa, siirrä hiirtä haluamaasi kohtaan ja irrota hiiren nappi.
@@ -21,18 +21,18 @@ Jos haluat vain piirtää viivan, voit painaa nyt Enter-nappia viimeistelläkses
 
 Kahvat sykkivät jotta voit huomata ne helposti kuvassa:
 
-{{< figure src="/resurssit/line_step1.png" alt="Viiva osa 1" >}}{{< /figure >}}
+{{< figure src="png/line_step1.webp" alt="Viiva osa 1" >}}{{< /figure >}}
 
 Tällä hetkellä, voit *käyristää viivan* siirtämällä nuppeja. Voit valita splini ja Bézier käyrien välillä työkalupalkista löytyvällä
 painikkeella. Splinin kanssa käyrä piirretään jokaisen pisteen läpi, Bézier käyrä menee alla esitetyllä tavalla.
 
 Esimerkki splini käyrä:
 
-{{< figure src="/resurssit/line_spline.png" alt="Splini" >}}{{< /figure >}}
+{{< figure src="png/line_spline.webp" alt="Splini" >}}{{< /figure >}}
 
 Esimerkki Bézier-käyrä. Huomaa että käyrä ei mene kahden keskimmäisen nupin läpi:
 
-{{< figure src="/resurssit/line_bezier.png" alt="Bezier" >}}{{< /figure >}}
+{{< figure src="png/line_bezier.webp" alt="Bezier" >}}{{< /figure >}}
 
 Kun olet valmis käyrän kanssa, voit painaa Enter-nappia viimeistelläksesi käyrän. Tai, voit piirtää muualla aloittaaksesi uuden viivan.
 
@@ -41,8 +41,8 @@ Kun olet valmis käyrän kanssa, voit painaa Enter-nappia viimeistelläksesi kä
 Työkalupalkista voit asettaa joko alun, viivan sekä lopun tyylin. Alku sekä pää voi olla tasaisia (normaali), kaksi erilaista nuolta tai
 pyöristetty. Viivan tyyli voi olla joko kiinteä tai valikoima viivoja tai pisteitä.
 
-{{< figure src="/kuvat/toolbar_shapesbrushesfill.png" alt="Tyylit" >}}{{< /figure >}}
+{{< figure src="ui/toolbar_shapesbrushesfill.webp" alt="Tyylit" >}}{{< /figure >}}
 
 Näiden avulla, voit piirtää seuraavia viivoja:
 
-{{< figure src="/resurssit/lineexamples.png" alt="Esimerkit" >}}{{< /figure >}}
+{{< figure src="png/lineexamples.webp" alt="Esimerkit" >}}{{< /figure >}}

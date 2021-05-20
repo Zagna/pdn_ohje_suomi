@@ -25,14 +25,19 @@
 					{{ with .content }}<p>{{ $.Page.RenderString . }}</p>{{ end }}
 					{{ range .figure }}
 						<figure>
-							{{ $imgData := imageConfig (printf "%s%s" "/static" .src) }}
-							{{ $file := split (.src) "." }}
-							<picture>
-								<source type="image/webp" srcset="{{ index $file 0 | safeURL }}.webp">
-							{{ if eq $index 0 }}
-								<img loading="eager" class="{{ .class }}" width="{{ $imgData.Width }}" height="{{ $imgData.Height }}" src="{{ .src }}" alt="{{ .alt }}">
+							{{ $image := resources.Get .src }}
+							{{ $convert := "" }}
+							{{ if in .src "img" }}
+								{{ $convert = $image.Resize ( printf "%dx%d jpg" $image.Width $image.Height ) }}
 							{{ else }}
-								<img loading="lazy" class="{{ .class }}" width="{{ $imgData.Width }}" height="{{ $imgData.Height }}" src="{{ .src }}" alt="{{ .alt }}">
+								{{ $convert = $image.Resize ( printf "%dx%d png" $image.Width $image.Height ) }}
+							{{ end }}
+							<picture>
+								<source type="image/webp" srcset="{{ $image.RelPermalink }}">
+							{{ if eq $index 0 }}
+								<img loading="eager" class="{{ .class }}" width="{{ $image.Width }}" height="{{ $image.Height }}" src="{{ $convert.RelPermalink }}" alt="{{ .alt }}">
+							{{ else }}
+								<img loading="lazy" class="{{ .class }}" width="{{ $image.Width }}" height="{{ $image.Height }}" src="{{ $convert.RelPermalink }}" alt="{{ .alt }}">
 							{{ end }}
 							</picture>
 							{{ with .caption }}

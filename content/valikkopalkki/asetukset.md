@@ -12,7 +12,7 @@ tooltip = "tools"
 
 Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
 
-{{< figure src="/kuvat/settings1.png" alt="Asetukset" >}}{{< /figure >}}
+{{< figure src="ui/settings1.webp" alt="Asetukset" >}}{{< /figure >}}
 
 * ### Laitteistopohjainen kiihdytys (GPU)
 
@@ -38,12 +38,12 @@ Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
 
     Tämä valikko antaa sinun valita mitä kieltä paint.net käyttää.
 
-    {{< figure src="/kuvat/settings3.png" alt="Kielen asetukset" >}}{{< /figure >}}
+    {{< figure src="ui/settings3.webp" alt="Kielen asetukset" >}}{{< /figure >}}
 
     Tätä voi käyttää kaikkien työkalujen oletusarvojen asettamiseen. Voit myös vaihtaa mikä työkalu on valittu kun paint.net käynnistetään.
     "Palauta" nappi palauttaa kaikki arvot oletusarvoihin, kun "Lataa työkalupalkista" ottaa työkalupalkin nykyiset asetukset ja ottaa ne käyttöön.
 
-    {{< figure src="/kuvat/settings2.png" alt="Päivitys" >}}{{< /figure >}}
+    {{< figure src="ui/settings2.webp" alt="Päivitys" >}}{{< /figure >}}
 
 * ### Automaattisesti tarkista päivityksiä kun käynnistät paint.net
 

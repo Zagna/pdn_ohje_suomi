@@ -11,6 +11,6 @@ title = "Renderointi"
 
 Tämä alavalikko sisältää tehosteita jotka tuottavat renderointeja jotka korvaavat olemassa olevan kuvan.
 
-{{< figure src="/kuvat/effectsrendermenu.png" alt="Renderointi efektit" >}}{{< /figure >}}
+{{< figure src="ui/effectsrendermenu.webp" alt="Renderointi efektit" >}}{{< /figure >}}
 
 {{< tabit "render" >}}

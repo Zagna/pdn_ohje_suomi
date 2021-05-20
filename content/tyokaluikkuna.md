@@ -11,7 +11,7 @@ title = "Työkaluikkuna"
 
 Täällä voit valita aktiivisen työkalun jota voi käyttää kuvan muokkaamiseen.
 
-{{< figure src="/kuvat/toolswindow_annotated.png" alt="Työkalut" >}}{{< /figure >}}
+{{< figure src="ui/toolswindow_annotated.webp" alt="Työkalut" >}}{{< /figure >}}
 
 1. ### {{< tool "rectangleselect" >}}[Suorakulmainen valinta]({{< relref "valintatyokalut" >}}) {#suorakulmainen-valinta}
 

@@ -6,7 +6,7 @@
 			"figure": [{
 				"alt": "Kerro",
 				"class": "border",
-				"src": "/resurssit/kerro.jpg"
+				"src": "/img/kerro.webp"
 			}]
 		},
 		{
@@ -16,7 +16,7 @@
 			"figure": [{
 				"alt": "Lisäävä",
 				"class": "border",
-				"src": "/resurssit/lisaava.jpg"
+				"src": "/img/lisaava.webp"
 			}]
 		},
 		{
@@ -26,7 +26,7 @@
 			"figure": [{
 				"alt": "Värivarjostus",
 				"class": "border",
-				"src": "/resurssit/varivarjostus.jpg"
+				"src": "/img/varivarjostus.webp"
 			}]
 		},
 		{
@@ -36,7 +36,7 @@
 			"figure": [{
 				"alt": "Värilisävalotus",
 				"class": "border",
-				"src": "/resurssit/varilisavalotus.jpg"
+				"src": "/img/varilisavalotus.webp"
 			}]
 		},
 		{
@@ -46,7 +46,7 @@
 			"figure": [{
 				"alt": "Peilattu",
 				"class": "border",
-				"src": "/resurssit/peilattu.jpg"
+				"src": "/img/peilattu.webp"
 			}]
 		},
 		{
@@ -56,7 +56,7 @@
 			"figure": [{
 				"alt": "Hehku",
 				"class": "border",
-				"src": "/resurssit/hehku_sekoitus.jpg"
+				"src": "/img/hehku_sekoitus.webp"
 			}]
 		},
 		{
@@ -66,7 +66,7 @@
 			"figure": [{
 				"alt": "Sulauttava",
 				"class": "border",
-				"src": "/resurssit/sulauttava.jpg"
+				"src": "/img/sulauttava.webp"
 			}]
 		},
 		{
@@ -76,7 +76,7 @@
 			"figure": [{
 				"alt": "Erottava",
 				"class": "border",
-				"src": "/resurssit/erottava.jpg"
+				"src": "/img/erottava.webp"
 			}]
 		},
 		{
@@ -86,7 +86,7 @@
 			"figure": [{
 				"alt": "Negatiivi",
 				"class": "border",
-				"src": "/resurssit/negatiivi.jpg"
+				"src": "/img/negatiivi.webp"
 			}]
 		},
 		{
@@ -96,7 +96,7 @@
 			"figure": [{
 				"alt": "Kevennä",
 				"class": "border",
-				"src": "/resurssit/kevenna.jpg"
+				"src": "/img/kevenna.webp"
 			}]
 		},
 		{
@@ -106,7 +106,7 @@
 			"figure": [{
 				"alt": "Tummenna",
 				"class": "border",
-				"src": "/resurssit/tummenna.jpg"
+				"src": "/img/tummenna.webp"
 			}]
 		},
 		{
@@ -116,7 +116,7 @@
 			"figure": [{
 				"alt": "Näyttö",
 				"class": "border",
-				"src": "/resurssit/naytto.jpg"
+				"src": "/img/naytto.webp"
 			}]
 		},
 		{
@@ -126,7 +126,7 @@
 			"figure": [{
 				"alt": "Xor",
 				"class": "border",
-				"src": "/resurssit/xor.jpg"
+				"src": "/img/xor.webp"
 			}]
 		}
 	]

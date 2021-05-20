@@ -11,6 +11,6 @@ title = "Kohina"
 
 Tämä alavalikko sisältää tehosteita jotka ovat hyödyllisiä kohinan lisäämisessä tai poistamisessa.
 
-{{< figure src="/kuvat/effectsnoisemenu.png" alt="Kohina efektit" >}}{{< /figure >}}
+{{< figure src="ui/effectsnoisemenu.webp" alt="Kohina efektit" >}}{{< /figure >}}
 
 {{< tabit "kohina" >}}

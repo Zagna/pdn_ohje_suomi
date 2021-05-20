@@ -7,13 +7,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/jaatynytlasi.jpg"
+					"src": "/img/jaatynytlasi.webp"
 				}
 			]
 		},
@@ -25,13 +25,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/kierre.jpg"
+					"src": "/img/kierre.webp"
 				}
 			]
 		},
@@ -43,13 +43,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/kristalloi.jpg"
+					"src": "/img/kristalloi.webp"
 				}
 			]
 		},
@@ -61,13 +61,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/kaanteismuunnos.jpg"
+					"src": "/img/kaanteismuunnos.webp"
 				}
 			]
 		},
@@ -79,13 +79,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/lommo.jpg"
+					"src": "/img/lommo.webp"
 				}
 			]
 		},
@@ -97,19 +97,19 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Syövytä",
 					"caption": "Syövytä",
 					"class": "border",
-					"src": "/resurssit/morfo2.jpg"
+					"src": "/img/morfo2.webp"
 				},
 				{
 					"alt": "Laajenna",
 					"caption": "Laajenna",
 					"class": "border",
-					"src": "/resurssit/morfo.jpg"
+					"src": "/img/morfo.webp"
 				}
 			]
 		},
@@ -121,13 +121,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/pullistuma.jpg"
+					"src": "/img/pullistuma.webp"
 				}
 			]
 		},
@@ -139,13 +139,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/pikseloi.jpg"
+					"src": "/img/pikseloi.webp"
 				}
 			]
 		},
@@ -157,13 +157,13 @@
 					"alt": "Alkuperäinen",
 					"caption": "Alkuperäinen",
 					"class": "border",
-					"src": "/resurssit/tehoste.jpg"
+					"src": "/img/tehoste.webp"
 				},
 				{
 					"alt": "Jälkeen",
 					"caption": "Jälkeen",
 					"class": "border",
-					"src": "/resurssit/tiiliheijastus.jpg"
+					"src": "/img/tiiliheijastus.webp"
 				}
 			]
 		}

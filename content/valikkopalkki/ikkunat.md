@@ -11,7 +11,7 @@ title = "Ikkunat"
 
 Nämä komennot antavat sinun piilottaa ja näyttää kelluvat työkaluikkunat.
 
-{{< figure src="/kuvat/windows.png" alt="Ikkuna valikko" >}}{{< /figure >}}
+{{< figure src="ui/windows.webp" alt="Ikkuna valikko" >}}{{< /figure >}}
 
 * ### Työkalut
 

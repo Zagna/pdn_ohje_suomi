@@ -11,11 +11,11 @@ title = "Työkalupalkki"
 
 Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten kuva näytetään ja asetukset monien työkalujen lopputulokseen.
 
-{{< figure src="/kuvat/toolbar.png" alt="Työkalupalkki" >}}{{< /figure >}}
+{{< figure src="ui/toolbar.webp" alt="Työkalupalkki" >}}{{< /figure >}}
 
 * ### Yleiset
 
-    {{< figure src="/kuvat/toolbar_commonactions.png" alt="Yleiset työkalut" >}}{{< /figure >}}
+    {{< figure src="ui/toolbar_commonactions.webp" alt="Yleiset työkalut" >}}{{< /figure >}}
 
     Näitä nappeja käytetään tekemään yleisiä komentoja. Vasemmalta oikealle, niiden avulla voi luoda uuden kuvan, avata olemassa olevan,
     tallentaa, tulostaa, leikata, kopioida, liittää,rajata, poistaa valinnan, kumota ja tehdä uudelleen
@@ -41,7 +41,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
 * ### Työkalun valinta
 
-    {{< figure src="/kuvat/toolbar_toolchoicebutton.png" alt="Työkalun valinta" >}}{{< /figure >}}
+    {{< figure src="ui/toolbar_toolchoicebutton.webp" alt="Työkalun valinta" >}}{{< /figure >}}
 
     Työkalujen asetukset voi vaihtaa {{< tool "tools" >}}[Asetukset-valikossa]({{% relref "asetukset" %}}).
 
@@ -51,7 +51,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
 * ### Muodot, sivellin, tyyli ja täyttö
 
-    {{< figure src="/kuvat/toolbar_shapesbrushesfill.png" alt="Muodot, sivellin, tyyli ja täyttö" >}}{{< /figure >}}
+    {{< figure src="ui/toolbar_shapesbrushesfill.webp" alt="Muodot, sivellin, tyyli ja täyttö" >}}{{< /figure >}}
 
     {{< tool "shapes" >}}[Muototyökalut]({{% relref "muodot" %}}) käyttävät
     näitä asetuksia. Voit valita piirretäänkö muoto ääriviivalla, täytettynä, vai kummatkin, siveltimen koko sekä piirtotyylin.
@@ -61,7 +61,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
 * ### Valintatyökalut
 
-    {{< figure src="/kuvat/toolbar_selectionmode.png" alt="Valintatyökalut" >}}{{< /figure >}}
+    {{< figure src="ui/toolbar_selectionmode.webp" alt="Valintatyökalut" >}}{{< /figure >}}
 
     "Valintatila" osa työkalupalkista antaa sinun valita tilan jota valintatyökalut käyttävät. Kun valitse valintatyökalulla se joko korvaa
     olemassa olevan valinnan, lisää siihen, vähentää siitä tai kääntää aluen jonka yli se tulee.
@@ -72,7 +72,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
 * ### Teksti
 
-    {{< figure src="/kuvat/toolbar_text.png" alt="Tekstityökalu" >}}{{< /figure >}}
+    {{< figure src="ui/toolbar_text.webp" alt="Tekstityökalu" >}}{{< /figure >}}
 
     Täta osaa työkalupalkista käyttää vain {{< tool "text" >}}
     [Teksti]({{% relref "tekstityokalu" %}}), ja se antaa sinun asettaa fontin, koon, pehmeyden sekä tyylin.
@@ -84,7 +84,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
 * ### Väriliukuma
 
-    {{< figure src="/kuvat/toolbar_gradient.png" alt="Väriliukuma" >}}{{< /figure >}}
+    {{< figure src="ui/toolbar_gradient.webp" alt="Väriliukuma" >}}{{< /figure >}}
 
     {{< tool "gradient" >}}[Väriliukumalla]({{% relref "variliukuma" %}})
     on 7 erilaista liukumaa jota se voi käyttää, sekä se voi toimia joko väritilassa tai erikoisessa läpinäkyvyystilassa.
@@ -93,7 +93,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
 * ### Taikasauva, täyttö ja uudelleen väritys
 
-    {{< figure src="/kuvat/toolbar_magicwandpaintbucket.png" alt="Taikasauva, täyttö ja uudelleen väritys" >}}{{< /figure >}}
+    {{< figure src="ui/toolbar_magicwandpaintbucket.webp" alt="Taikasauva, täyttö ja uudelleen väritys" >}}{{< /figure >}}
 
     Toleranssi vaikuttaa miten {{< tool "magicwand" >}}
     [Taikasauva]({{% relref "taikasauva" %}}), [Täyttö]({{% relref "taytto" %}}) sekä {{< tool "recolor" >}}[Uudelleen väritys]({{% relref "uudelleen-varitys" %}}) toimivat. Se määrää miten samanväriset värit lasketaan mukaan
@@ -103,7 +103,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
 * ### Väripoimija
 
-    {{< figure src="/kuvat/toolbar_colorpicker.png" alt="Väripoimija" >}}{{< /figure >}}
+    {{< figure src="ui/toolbar_colorpicker.webp" alt="Väripoimija" >}}{{< /figure >}}
 
     {{< tool "colorpicker" >}}[Väripoimijan]({{% relref "pikselityokalut" %}})
     voi asettaa vaihtamaan {{< tool "pencil" >}}[Kynään]({{% relref "pikselityokalut" %}})
@@ -113,7 +113,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
 * ### Siirrä valittuja pikseleitä
 
-    {{< figure src="/kuvat/toolbar_moveselectedpixels.png" alt="Siirrä valittuja pikseleitä" >}}{{< /figure >}}
+    {{< figure src="ui/toolbar_moveselectedpixels.webp" alt="Siirrä valittuja pikseleitä" >}}{{< /figure >}}
 
     {{< tool "moveselectedpixels" >}}[Siirrä valintaa]({{% relref "siirtotyokalut" %}})
     -työkalun voi asettaa käyttämään joko "pehmeää" (bilinear) tai "pikseloitua" (lähin naapuri) näytteistystä. Pehmeä laatu on yleensä suositeltua ellei
@@ -121,7 +121,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
 
 * ### Rasterisaatio
 
-    {{< figure src="/kuvat/toolbar_rasterization.png" alt="Rasterisaatio" >}}{{< /figure >}}
+    {{< figure src="ui/toolbar_rasterization.webp" alt="Rasterisaatio" >}}{{< /figure >}}
 
     Moneen työkaluun vaikuttaa yksi tai kummatkin näistä valinnoista jotka vaikuttavat siihen miten piirtäminen toimii. Voit käyttää näitä joko painamalla
     itse nappia vaihtaaksesi asetusta, tai painamalla nuolta saadaksesi valikon vaihtoehdoista.
@@ -129,6 +129,6 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
     Ensimmäinen nappi asettaa onko [reunan pehmennys](https://en.wikipedia.org/wiki/Antialiasing) käytössä. Ympyrä vasemmalla on piirretty reunan pehmennys
     päällä kun oikealla oleva ympyrä on piirretty ilman reunan pehmennystä. Se on selkeästi "rösöisempi":
 
-    {{< figure src="/resurssit/aavsnoaa.png" alt="Pehmennys päällä ja pois" >}}{{< /figure >}}
+    {{< figure src="png/aavsnoaa.webp" alt="Pehmennys päällä ja pois" >}}{{< /figure >}}
 
     Seuraava nappi asettaa [sekoitustilan](https://en.wikipedia.org/wiki/Alpha_compositing). Tästä voi lukea lisää [sekoitustiloista]({{% relref "sekoitustilat" %}}).
