@@ -1,3 +1,2 @@
 {{ $js := resources.Get "js/app.js" | js.Build (dict "minify" true) | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" defer></script>
-<script data-goatcounter="https://zagna.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
