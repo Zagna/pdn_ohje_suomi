@@ -101,16 +101,16 @@ Seuraavat kuvat näyttävät miltä muodot näyttävät kun eriä muotopiirto as
 
 {{< figure src="ui/shapetype_outline.webp" alt="Vain ulkoreuna" >}}{{< /figure >}}
 
-{{< figure src="png/shapes_outline.webp" alt="Vain ulkoreuna" >}}{{< /figure >}}
+{{< figure src="png/shapes_outline.webp" alt="Vain ulkoreuna esimerkki" >}}{{< /figure >}}
 
 ### Vain sisusta
 
 {{< figure src="ui/shapetype_interior.webp" alt="Vain sisusta" >}}{{< /figure >}}
 
-{{< figure src="png/shapes_interior.webp" alt="Vain sisusta" >}}{{< /figure >}}
+{{< figure src="png/shapes_interior.webp" alt="Vain sisusta esimerkki" >}}{{< /figure >}}
 
 ### Ulkoreuna ja sisusta
 
 {{< figure src="ui/shapetype_interiorandoutline.webp" alt="Ulkoreuna ja sisusta" >}}{{< /figure >}}
 
-{{< figure src="png/shapes_outlineandinterior.webp" alt="Ulkoreuna ja sisusta" >}}{{< /figure >}}
+{{< figure src="png/shapes_outlineandinterior.webp" alt="Ulkoreuna ja sisusta esimerkki" >}}{{< /figure >}}

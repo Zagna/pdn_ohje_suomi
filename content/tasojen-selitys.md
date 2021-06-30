@@ -1,5 +1,4 @@
 +++
-date = "2015-09-09T18:41:52+03:00"
 draft = false
 title = "Tasojen selitys"
 

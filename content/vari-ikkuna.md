@@ -40,15 +40,15 @@ käyttävät edusta- tai taustaväriä piirtämisessä, riippuen siitä millä h
 
     Jos painat väriä valitessa Ctrl-näppäintä, Värit rajoitetaan samalle piirille väripyörässä.
 
-    {{< figure src="ui/colorswindowctrl.webp" alt="Värit" title="Väripyörän käyttö Ctrl-näppäimellä" >}}{{< /figure >}}
+    {{< figure src="ui/colorswindowctrl.webp" alt="Värit ja Ctrl" title="Väripyörän käyttö Ctrl-näppäimellä" >}}{{< /figure >}}
 
     Jos painat väriä valitessa Alt-näppäintä, Värit rajoitetaan yhteen säteeseen väripyörässä.
 
-    {{< figure src="ui/colorswindowalt.webp" alt="Värit" title="Väripyörän käyttö Alt-näppäimellä" >}}{{< /figure >}}
+    {{< figure src="ui/colorswindowalt.webp" alt="Värit ja Alt" title="Väripyörän käyttö Alt-näppäimellä" >}}{{< /figure >}}
 
     Jos painat väriä valitessa Shift-näppäintä, Värit rajoitetaan useaan säteeseen väripyörässä kuin polkupyörän pinnoissa.
 
-    {{< figure src="ui/colorswindowshift.webp" alt="Värit" title="Väripyörän käyttö Shift-näppäimellä" >}}{{< /figure >}}
+    {{< figure src="ui/colorswindowshift.webp" alt="Värit ja Shift" title="Väripyörän käyttö Shift-näppäimellä" >}}{{< /figure >}}
 
 * ### Paletit
 
