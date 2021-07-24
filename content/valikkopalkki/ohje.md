@@ -4,7 +4,7 @@ title = "Ohje"
 
 [menu.pdn]
     parent = "vpalkki"
-    identifier = "ohje"
+    identifier = "ohjev"
     weight = 310
 
 +++

@@ -4,7 +4,7 @@ title = "Tiedosto"
 
 [menu.pdn]
     parent = "vpalkki"
-    identifier = "tiedosto"
+    identifier = "tiedostov"
     weight = 301
 
 +++

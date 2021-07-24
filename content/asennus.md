@@ -4,6 +4,7 @@ title = "paint.netin asennus"
 
 [menu.pdn]
     parent = "koti"
+    identifier = "asennus"
     weight = 102
 
 +++

@@ -4,7 +4,7 @@ title = "Säädot"
 
 [menu.pdn]
     parent = "vpalkki"
-    identifier = "saadot"
+    identifier = "saadotv"
     weight = 306
 
 +++

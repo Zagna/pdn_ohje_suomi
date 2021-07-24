@@ -4,7 +4,7 @@ title = "Näytä"
 
 [menu.pdn]
     parent = "vpalkki"
-    identifier = "nayta"
+    identifier = "naytav"
     weight = 303
 
 +++

@@ -50,11 +50,9 @@ Temporary Items
 !robots.txt
 *.log
 *.exe
-public/*
 *.zip
-svg.*
-svg/*
-resources/*
-node_modules/*
+/public
+/resources
+/node_modules
 # Local Netlify folder
 .netlify

@@ -5,7 +5,7 @@ tooltip = "tools"
 
 [menu.pdn]
     parent = "vpalkki"
-    identifier = "asetukset"
+    identifier = "asetuksetv"
     weight = 309
 
 +++

@@ -7,14 +7,13 @@
     "bulma": "^0.9",
     "postcss": "^8.2",
     "postcss-cli": "^8.3",
-    "postcss-csso": "^5.0.1",
-    "supports-webp": "^2.0"
+    "postcss-csso": "^5.0.1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Zagna/pdn_ohje_suomi.git"
   },
   "author": "Jarno Ruokamo",
-  "license": "CC-BY-ND-4.0",
+  "license": "CC-BY-SA-4.0",
   "homepage": "https://github.com/Zagna/pdn_ohje_suomi"
 }
