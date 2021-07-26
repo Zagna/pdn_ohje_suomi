@@ -19,6 +19,19 @@
 		margin-bottom: 1.5rem
 	}
 
+	.navbar-burger {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		appearance: none;
+		background: 0 0;
+		border: 0;
+		color: currentColor;
+		font-family: inherit;
+		font-size: 1em;
+		margin: 0;
+		padding: 0
+	}
+
 	body,
 	h1,
 	h2,
@@ -97,7 +110,7 @@
 	}
 
 	a {
-		color: #3273dc;
+		color: #485fc7;
 		text-decoration: none
 	}
 
@@ -346,14 +359,18 @@
 		}
 
 		.navbar-dropdown {
-			display: none
+			display: none;
 		}
 	}
 
 	.is-sr-only {
+		border: 0 !important;
+		clip: rect(0, 0, 0, 0) !important;
 		height: .01em !important;
 		overflow: hidden !important;
 		padding: 0 !important;
+		position: absolute !important;
+		white-space: nowrap !important;
 		width: .01em !important
 	}
 
@@ -370,8 +387,21 @@
 		padding: 0
 	}
 
+	@media screen and (min-width:769px),
+	print {
+		.hero-body {
+			padding: 3rem
+		}
+	}
+
 	.section {
 		padding: 3rem 1.5rem
+	}
+
+	@media screen and (min-width:1024px) {
+		.section {
+			padding: 3rem
+		}
 	}
 
 	.footer {
