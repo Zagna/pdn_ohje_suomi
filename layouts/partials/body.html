@@ -1,18 +1,3 @@
-<!doctype html>
-<html lang="fi" class="has-navbar-fixed-top">
-<head>
-	{{ partialCached "header.html" . }}
-	<meta property="og:url" content="{{ .Permalink }}" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="{{ .Title }}" />
-	<meta property="og:description" content="{{ .Summary }}" />
-	<meta name="description" content="{{ .Summary }}" />
-	{{- with $.Site.Params.images -}}
-	<meta property="og:image" content="{{ index . 0 | absURL }}"/>
-	{{ end }}
-	<meta property="article:modified_time" {{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | printf "content=%q" | safeHTMLAttr }} />
-	<title>{{ .Title }} &middot; {{ .Site.Title }}</title>
-</head>
 <body>
 	{{ partialCached "hero.html" . }}
 	<section class="container section">
@@ -25,4 +10,3 @@
 	{{ partialCached "menu.html" . }}
 	{{ partialCached "script.html" . }}
 </body>
-</html>
