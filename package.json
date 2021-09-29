@@ -1,11 +1,9 @@
 {
   "name": "paintnet-ohje",
-  "version": "1.0.0",
   "description": "paint.net ohje suomeksi",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^4.0",
     "bulma": "^0.9",
-    "postcss": "^8.2",
     "postcss-cli": "^8.3",
     "postcss-csso": "^5.0.1"
   },
@@ -15,5 +13,5 @@
   },
   "author": "Jarno Ruokamo",
   "license": "CC-BY-SA-4.0",
-  "homepage": "https://github.com/Zagna/pdn_ohje_suomi"
+  "homepage": "https://paint.ruokamo.eu"
 }
