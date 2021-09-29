@@ -1,6 +1,7 @@
 +++
 draft = false
 title = "Palaute"
+noindex = true
 
 [menu.pdn]
     parent = "muuta"
