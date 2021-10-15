@@ -1,28 +1,26 @@
-<nav class="navbar is-fixed-top" aria-label="main navigation">
-	<input id="navbar-toggle" class="navbar-toggle" type="checkbox">
-	<div class="navbar-brand">
-		<label role="button" class="navbar-burger" aria-label="Avaa valikko" aria-expanded="false" for="navbar-toggle">
-			<span aria-hidden="true"></span>
-			<span aria-hidden="true"></span>
-			<span aria-hidden="true"></span>
-			<span class="is-sr-only">Avaa valikko</span>
-		</label>
-	</div>
-	<ul id="navbar" class="navbar-menu">
+<nav class="bar" aria-label="main navigation">
+	<input id="toggle" type="checkbox" />
+	<label role="button" aria-label="Avaa valikko" aria-expanded="false" for="toggle">
+		<span aria-hidden="true"></span>
+		<span aria-hidden="true"></span>
+		<span aria-hidden="true"></span>
+		<span class="sr">Avaa valikko</span>
+	</label>
+	<ul>
 	{{ range $index,$element := .Site.Menus.pdn }}
-		<li class="navbar-item has-dropdown is-hoverable">
-			<span id="{{ .Identifier }}" class="navbar-link">{{ .Name }}</span>
+		<li class="dropdown">
+			<span id="{{ .Identifier }}" class="link">{{ .Name }}</span>
 			{{ if eq .Identifier "muuta" }}
-				<ul class="navbar-dropdown is-boxed is-right">
+				<ul class="right">
 			{{ else }}
-				<ul class="navbar-dropdown is-boxed">
+				<ul>
 			{{ end }}
 			{{ range .Children }}
-				<li class="navbar-item">
+				<li>
 					<a id="{{ .Identifier }}" href="{{ .URL }}">{{ .Name }}</a>
 				</li>
 				{{ if or (or ( eq .Identifier "savyalat" ) ( eq .Identifier "protokolla" )) ( eq .Identifier "taso_seli" ) }}
-					<li class="navbar-divider" aria-hidden="true"></li>
+					<li class="divider" aria-hidden="true"></li>
 				{{ end }}
 			{{ end }}
 			</ul>

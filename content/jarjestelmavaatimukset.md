@@ -11,20 +11,22 @@ title = "Järjestelmävaatimukset"
 
 ### Klassinen paint.net
 
-* Windows 7 SP1 -käyttöympäristöpäivityksellä
+* Windows 7 SP1 [-käyttöympäristöpäivityksellä](https://www.microsoft.com/fi-fi/download/details.aspx?id=36805)
 * tai Windows 8.1
 * tai Windows 10 versio 1607
-* .NET Framework 4.7.1
+* tai Windows 11
+* .NET Framework 5.0, tämä tulee asennuksen mukana
 * 1GHz prosessori
-* 1Gt RAM-muistia
+* 1Gt RAM-muistia (2Gt suositeltu)
 * 1024 x 768 näytön resoluutio
 * 200+ Mt kiintolevytilaa
 
 ### Microsoft storen paint.net
 
 * Windows 10 versio 1703 tai uudempi
+* tai Windows 11
 * DirectX versio 10
-* .NET Framework 4.7.1, tämä asennetaan automaatitsesti
+* .NET Framework 5.0, tämä tulee asennuksen mukana
 * 1GHz 64-bittinen prosessori SSE tuella
 * 1Gt RAM-muistia (2Gt suositeltu)
 * 1024 x 768 näytön resoluutio

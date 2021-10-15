@@ -1,30 +1,8 @@
-<footer class="footer">
-	<div class="content">
-		<p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">
-			<span rel="dct:title">paint.net ohje</span>, jonka tekijä on
-			<a rel="cc:attributionURL" href="https://paintdotnet.netlify.app"><span rel="cc:attributionName">Jarno Ruokamo</span></a>, on lisensoitu CC BY-SA 4.0
-			<a href="https://creativecommons.org/licenses/by-sa/4.0">
-				<picture>
-					{{ $cc2 := resources.Get "png/cc40.webp" }}
-					{{ $cc := $cc2.Resize "75x25" }}
-					{{ $png2 := $cc2.Resize "150x50 png" }}
-					{{ $png := $cc2.Resize "75x25 png" }}
-					<source type="image/webp" srcset="{{ $cc.RelPermalink }}, {{ $cc2.RelPermalink }} 2x">
-					<img loading="lazy" src="{{ $png.RelPermalink }}" srcset="{{ $png2.RelPermalink }} 2x" alt="Creative Commons" width="{{ $cc.Width }}" height="{{ $cc.Height }}" />
-				</picture>
-			</a>
-		</p>
-		<p>
-			<a href="https://bulma.io">
-				<picture>
-					{{ $bulma2 := resources.Get "png/bulma.webp" }}
-					{{ $bulma := $bulma2.Resize "128x24" }}
-					{{ $png2 := $bulma2.Resize "256x48 png" }}
-					{{ $png := $bulma2.Resize "128x24 png" }}
-					<source type="image/webp" srcset="{{ $bulma.RelPermalink }}, {{ $bulma2.RelPermalink }} 2x">
-					<img loading="lazy" src="{{ $png.RelPermalink }}" srcset="{{ $png2.RelPermalink }} 2x" alt="Made with Bulma" width="{{ $bulma.Width }}" height="{{ $bulma.Height }}" />
-				</picture>
-			</a>
-		</p>
+<footer>
+	<div xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#">
+		<p><span rel="dct:title">paint.net ohje</span>, jonka tekijä on <a rel="cc:attributionURL" href="https://paintdotnet.netlify.app"><span rel="cc:attributionName">Jarno Ruokamo</span></a>, on lisensoitu CC BY-SA 4.0</p>
+		<a href="https://creativecommons.org/licenses/by-sa/4.0">
+			<img loading="lazy" src="/svg/ccbysa.svg" alt="Creative Commons" width="87" height="30" />
+		</a>
 	</div>
 </footer>

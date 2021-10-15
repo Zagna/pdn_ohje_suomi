@@ -1,27 +1,25 @@
 
 {{ $data := index .Site.Data (.Get 0) }}
-<div class="tabs-wrapper">
-	<div class="tabs is-small">
-		<ul>
+<section class="tabs-wrapper">
+	<ul class="tabs">
 		{{ range $index, $element := $data.tab }}
 			{{ if eq $index 0 }}
-				<li class="tab-item is-active"><label for="tab-toggle-{{ $index }}">{{ .name }}</label></li>
+				<li class="tab active"><label for="tab-toggle-{{ $index }}">{{ .name }}</label></li>
 			{{ else }}
-				<li class="tab-item"><label for="tab-toggle-{{ $index }}">{{ .name }}</label></li>
+				<li class="tab"><label for="tab-toggle-{{ $index }}">{{ .name }}</label></li>
 			{{ end }}
 		{{ end }}
-		</ul>
-	</div>
-	<div class="tabs-content">
+	</ul>
+	<div class="content">
 		<ul>
 			{{ range $index, $element := $data.tab }}
 				<li>
 					{{ if eq $index 0 }}
-						<input class="tab-radio" name="tabit" type="radio" id="tab-toggle-{{ $index }}" checked>
+						<input name="tabit" type="radio" id="tab-toggle-{{ $index }}" checked>
 					{{ else }}
-						<input class="tab-radio" name="tabit" type="radio" id="tab-toggle-{{ $index }}">
+						<input name="tabit" type="radio" id="tab-toggle-{{ $index }}">
 					{{ end }}
-					<div class="box tab-content-item">
+					<div>
 					{{ with .content }}<p>{{ $.Page.RenderString . }}</p>{{ end }}
 					{{ range .figure }}
 						<figure>
@@ -50,7 +48,7 @@
 					{{ with .vihje }}
 						<div class="tip">
 							<h3>Vihje</h3>
-							<p class="notification is-success">{{ . }}</p>
+							<p>{{ . }}</p>
 						</div>
 					{{ end }}
 					</div>
@@ -58,4 +56,4 @@
 			{{ end }}
 		</ul>
 	</div>
-</div>
+</section>

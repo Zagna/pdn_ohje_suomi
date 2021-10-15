@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Hiljainen asennus"
-version = "4.2.12"
+version = "4.3.2"
 
 [menu.pdn]
     parent = "muuta"
@@ -77,6 +77,6 @@ Asentaaksesi paint.netin kansioon D:\PDN ja ilman työpöydän pikakuvaketta:
 
 Asentaaksesi paint.netin kansioon E:\Grafiikka\paint.net, ja tarkistamaan betaversioita päivityksen yhteydessä.
 
-{{< huom >}}Koko TARGETDIR arvo pitää olla sitaateissa jos kansionimessä on yksi tai enemmän välilyöntejä!{{< /huom >}}
+{{< huom >}}Koko TARGETDIR arvo pitää olla sitaateissa jos kansionimessä on edes yksi välilyönti!{{< /huom >}}
 
 {{< esimerkki >}}paint.net.{{< param version >}}.install.exe /auto "TARGETDIR=E:\Grafiikka\paint.net" CHECKFORBETAS=1{{< /esimerkki >}}

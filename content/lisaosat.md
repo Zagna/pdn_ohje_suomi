@@ -42,3 +42,11 @@ Käynnistä paint.net lisäosan asennuksen jälkeen uudestaan jos paint.net oli 
 Uudet Tehoste-lisäosat löytyvät Tehosteet valikosta. Jos lisäosaa ei löydy mistään, tarkista Asetukset valikko mahdollisia virheitä varten.
 
 Uudet tiedostotyypit näkyvät vain tiedostoja avatessa ja tallentaessa. Jos tiedostotyyppiä ei näy, tarkista Asetukset valikko mahdollisia virheitä varten.
+
+## Microsoft Storen versio
+
+Jos olet ostanut maksullisen version Microsoft Storesta, lisäosat pitää asentaa käyttäjätunnuksesi Tiedostot-kansion sisälle.
+
+Luo **paint.net App Files** -kansio ja sen sisään kansiot **Effects**, **FileTypes** ja **Shapes**.
+
+Tehosteiden lisäosat kansioon Effects, tiedostojen lisäosat kansioon Filetypes ja muodot kansioon Shapes.

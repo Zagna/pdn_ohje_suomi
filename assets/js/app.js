@@ -19,14 +19,22 @@ supportsWebP.then(supported => {
 	}
 });
 
-document.querySelectorAll(".tab-radio").forEach(radio =>
-	radio.addEventListener('change', function (event) {
-		document.querySelectorAll('.tab-item').forEach(item => item.classList.remove('is-active'));
-		event.target.labels[0].parentElement.classList.add('is-active');
+document.querySelectorAll(".tabs-wrapper input[type='radio']").forEach(radio =>
+	radio.addEventListener('change', function(event) {
+		document.querySelectorAll('.tab').forEach(item => item.classList.remove('active'));
+		event.target.labels[0].parentElement.classList.add('active');
 	}, false)
 );
 
-document.addEventListener('touchend', function (event) {
-	document.querySelectorAll('.navbar-item.has-dropdown').forEach(navitem => navitem.classList.remove('is-active'));
-	if (event.target.classList.contains('navbar-link')) event.target.parentNode.classList.add('is-active');
+document.addEventListener('touchend', function(event) {
+	document.querySelectorAll('.dropdown').forEach(navitem => navitem.classList.remove('active'));
+	if (event.target.classList.contains('link')) event.target.parentNode.classList.add('active');
 }, false);
+
+document.querySelector('#dark').addEventListener('change', function(event) {
+	document.body.classList.toggle('light');
+});
+
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+	document.body.classList.add('light');
+}

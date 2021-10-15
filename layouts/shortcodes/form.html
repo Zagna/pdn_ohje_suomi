@@ -1,52 +1,13 @@
 
 <form name="Palaute" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/kiitos-palautteesta/" enctype="application/x-www-form-urlencoded">
-    <div class="field is-horizontal">
-        <div class="field-label is-normal">
-            <label class="label" for="palaute-nimi">Nimi</label>
-        </div>
-        <div class="field-body">
-            <div class="field">
-                <div class="control">
-                    <input id="palaute-nimi" name="Nimi" class="input" type="text" placeholder="Nimi">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="field is-horizontal">
-        <div class="field-label is-normal">
-            <label class="label" for="palaute-email">Sähköposti</label>
-        </div>
-        <div class="field-body">
-            <div class="field">
-                <div class="control">
-                    <input id="palaute-email" name="Sähkoposti" class="input" type="text" placeholder="Sähköposti">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="field is-horizontal">
-        <div class="field-label is-normal">
-            <label class="label" for="palaute-text">Palaute</label>
-        </div>
-        <div class="field-body">
-            <div class="field">
-                <div class="control">
-                    <textarea id="palaute-text" name="Palaute" rows="5" class="textarea" placeholder="Palaute"></textarea>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="field is-horizontal">
-        <div class="field-label">
-            <!-- Left empty for spacing -->
-        </div>
-        <div class="field-body">
-            <div class="field">
-                <div class="control">
-                    <button type="submit" class="button is-primary">Lähetä palaute</button>
-                </div>
-            </div>
-            <div data-netlify-recaptcha="true"></div>
-        </div>
-    </div>
+    <fieldset>
+        <label class="label" for="palaute-nimi">Nimi</label>
+        <input id="palaute-nimi" name="Nimi" class="input" type="text" placeholder="Nimi">
+        <label class="label" for="palaute-email">Sähköposti</label>
+        <input id="palaute-email" name="Sähkoposti" class="input" type="text" placeholder="Sähköposti">
+        <label class="label" for="palaute-text">Palaute</label>
+        <textarea id="palaute-text" name="Palaute" rows="5" class="textarea" placeholder="Palaute"></textarea>
+        <button type="submit">Lähetä palaute</button>
+        <div data-netlify-recaptcha="true"></div>
+    </fieldset>
 </form>

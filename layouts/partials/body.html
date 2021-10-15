@@ -1,12 +1,11 @@
 <body>
 	{{ partialCached "hero.html" . }}
-	<section class="container section">
-		<div class="content">
-			<h2>{{ .Title }}{{ if .Params.tooltip }} <span class="tool {{ .Params.tooltip }}"></span>{{ end }}</h2>
-			{{ .Content }}
-		</div>
-		{{ partialCached "footer.html" . }}
-	</section>
+	<main>
+		<h2 id="{{ .Title | urlize }}">{{ .Title }}{{ if .Params.tooltip }} <span class="tool {{ .Params.tooltip }}"></span>{{ end }}</h2>
+		{{ .Content }}
+	</main>
+	{{ partialCached "footer.html" . }}
 	{{ partialCached "menu.html" . }}
 	{{ partialCached "script.html" . }}
+	{{ partialCached "toggle.html" . }}
 </body>
