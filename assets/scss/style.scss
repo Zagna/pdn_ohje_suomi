@@ -37,13 +37,14 @@ body {
 	--font-family: Calibri, Helvetica, Arial, sans-serif;
 	--font-family-code: monospace;
 	--purple: #c45cef;
-	--success: #008571;
+	--success: #087;
 	--info: #287cb8;
 	--danger: #da3a42;
 	--warning: #ffe08a;
-	--white: white;
+	--white: #fff;
 	--black: #222;
 	--grey: #aaa;
+	--header-bg: #057;
 	--background-color: var(--black);
 	--text-color: var(--white);
 	--inactive: var(--grey);
@@ -248,7 +249,7 @@ nav.bar {
 }
 
 header {
-	background-color: #005577;
+	background-color: var(--header-bg);
 	margin-top: var(--navbar-height);
 	height: var(--header-height);
 	display: flex;
@@ -352,7 +353,7 @@ main {
 		grid-template-columns: 45fr 55fr;
 		margin-top: 1rem;
 		dt, dd {
-			border-top: 1px solid #dbdbdb;
+			border-top: 1px solid var(--grey);
 			padding: .5rem .75rem;
 		}
 		dd {
