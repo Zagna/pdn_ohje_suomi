@@ -63,6 +63,10 @@ body.light {
 	--purple: #a74dcc;
 }
 
+html {
+	background-color: var(--background-color);
+}
+
 body {
 	transition: color .2s ease-in-out, background-color .2s ease-in-out;
 	color: var(--text-color);
