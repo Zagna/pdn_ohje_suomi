@@ -38,3 +38,13 @@ document.querySelector('#dark').addEventListener('change', function(event) {
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
 	document.body.classList.add('light');
 }
+
+window.addEventListener("scroll", function() {
+	toggle = document.getElementById("toggle");
+	var y = window.scrollY;
+	if (y > 200) {
+		toggle.className = "hide"
+	} else {
+		toggle.className = ""
+	}
+});
