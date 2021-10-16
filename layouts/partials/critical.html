@@ -2,27 +2,23 @@
 	body {
 		--header-height: 150px;
 		--navbar-height: 3.5rem;
-		--font-family: Calibri, Helvetica, Arial,
-			sans-serif;
+		--font-family: Calibri, Helvetica, Arial, sans-serif;
 		--font-family-code: monospace;
 		--purple: #c45cef;
 		--success: #087;
 		--info: #287cb8;
 		--danger: #da3a42;
-		--warning:
-			#ffe08a;
+		--warning: #ffe08a;
 		--white: #fff;
 		--black: #222;
 		--grey: #aaa;
 		--header-bg: #057;
 		--background-color: var(--black);
-		--text-color:
-			var(--white);
+		--text-color: var(--white);
 		--inactive: var(--grey);
 		--shadow-color: var(--grey);
 		--navbar-bg-color: var(--black);
-		--hamburger-color:
-			var(--white)
+		--hamburger-color: var(--white)
 	}
 
 	html {
@@ -93,6 +89,10 @@
 		transform: rotate(-45deg);
 		transform-origin: center;
 		width: .5rem
+	}
+
+	nav.bar>ul>li>ul {
+		display: none;
 	}
 
 	nav.bar>ul li {
@@ -270,6 +270,13 @@
 		width: 16px;
 		height: 16px;
 		filter: drop-shadow(0 0 1px var(--grey))
+	}
+
+	@media (min-resolution:144dpi) {
+		main .tool {
+			background-image: url(/img/tool_sprite@2x.webp);
+			background-size: 41px 336px
+		}
 	}
 
 	main .tool.tools {
