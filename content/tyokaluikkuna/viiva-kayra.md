@@ -10,7 +10,7 @@ tooltip = "linecurve"
 
 +++
 
-Tätä työkalua käytetään viivojen ja kurvien tekemiseen. Nämä kaksi ominaisuutta on yhdistetty yhdeksi työkaluksi<!--more--> koska on mahdollista
+Tätä työkalua käytetään viivojen ja kurvien tekemiseen. Kyseiset ominaisuudet on yhdistetty yhdeksi työkaluksi<!--more--> koska on mahdollista
 väittää että viiva on yksinkertaisesti täysin suora käyrä; täten, työkalu piirtää aina käyrä, mutta "viivoihin" ei ole asetettu käyrää.
 
 Viivan piirtäminen on yksinkertaista: vain paina mistä haluat aloittaa, siirrä hiirtä haluamaasi kohtaan ja irrota hiiren nappi.

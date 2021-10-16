@@ -72,7 +72,7 @@ vaikuttaa vain aktiiviseen tasoon.
 
 * ### Pohjan koko
 
-    Tämä komento antaa sinun joko suurentaa tai kutistaa kuvan kankaan kokoa ilman että muutat kuvan kokoa. Se toimii samalla lailla kuin Muuta
+    Tällä komennolla voit joko suurentaa tai kutistaa kuvan kankaan kokoa ilman että muutat kuvan kokoa. Se toimii samalla lailla kuin Muuta
     kokoa -valikko, mutta antaa valita Ankkurin paikan. Jos kankaan koko suurennetaan, uusi alue täytetään taustavärillä.
 
     {{< figure src="ui/canvassize.webp" alt="Pohjan koko" >}}{{< /figure >}}
@@ -91,7 +91,7 @@ vaikuttaa vain aktiiviseen tasoon.
 
 * ### Käännä vaakatasossa, ja Käännä pystytasossa
 
-    Nämä antavat sinun kääntää kuva joko vaaka- tai pystysuorassa.
+    Näillä komennoilla voit kääntää kuva joko vaaka- tai pystysuorassa.
 
     Alkuperäinen kuva:
 

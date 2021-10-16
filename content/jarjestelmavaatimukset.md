@@ -33,7 +33,7 @@ title = "Järjestelmävaatimukset"
 * 200+ Mt kiintolevytilaa
 
 Huomaa että paint.net käyttää kiintolevyä väliaikaistiedostojen tallentamiseen jotka liittyvät kumoamiseen ja toistamiseen. Tämän takia,
-kiintolevyvaatimukset riippuvat siitä mitä tehtäviä suoritat kuvalle ja kuvan koosta. Nämä väliaikaistiedostot pakataan jos käytät NTFS
+kiintolevyvaatimukset riippuvat siitä mitä tehtäviä suoritat kuvalle ja kuvan koosta. Väliaikaistiedostot pakataan jos käytät NTFS
 tiedostojärjestelmää. Tämä johtaa paljon vähemmän levytilan käyttöön ja parempaan tehokkuuteen vähemmän kovalevyn käytön takia.
 
 ### Laitteistopohjainen kiihdytys

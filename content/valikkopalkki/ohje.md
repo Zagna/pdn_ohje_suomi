@@ -35,7 +35,7 @@ Tämä valikko antaa nopea pääsyn ohjeeseen, tavan lähettää palautetta tai 
 
 * ### Esimerkkejä
 
-    Tämä avaa selaimen paint.netin keskustelun osasta joka on tarkoitettu esimerkkien julkaisemiseen. Nämä esimerkit koostuvat yksinkertaisista ja
+    Tämä avaa selaimen paint.netin keskustelun osasta joka on tarkoitettu esimerkkien julkaisemiseen. Esimerkit koostuvat yksinkertaisista ja
     vaikeista tehosteista kuten "tulinen teksti", räjähtävä planeetta tai miten piirrät sarjakuvia. Sisältöä lisätään ja päivitetään joten muista
     tarkistaa usein!
 

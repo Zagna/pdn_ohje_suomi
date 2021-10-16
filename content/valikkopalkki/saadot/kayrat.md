@@ -13,7 +13,7 @@ title = "Käyrät"
     {{< figure src="ui/kayra0.webp" alt="Käyrät-Null" >}}{{< /figure >}}
 {{< /level >}}
 
-Käyrät-säätöä voi käyttää värien muokkaamiseen suurella määrällä ohjattavuutta. Käyrät antavat sinun hienosäätää jokaisen sävyn
+Käyrät-säätöä voi käyttää värien muokkaamiseen suurella määrällä ohjattavuutta. Käyröillä voit hienosäätää jokaisen sävyn
 voimakkuutta kuvassa. Tarkemmin, sitä voi myös käyttää tuomaan esiin tai piilottamaan tiettyjä sävyaloja kuvasta, tavoilla joilla
 [Sävyala]({{% relref "savyala" %}}) ja [Kirkkaus / Kontrasti]({{% relref "saadot" %}}) eivät voi.
 
@@ -22,7 +22,7 @@ kuinka kirkkaita kaikki eri sävyt voivat olla kuvassa. Itseasiassa, kuvan väri
 
 ### Käyttöliittymä
 
-Käyrät antavat sinun kartoittaa uudeksi kuvan värit käyttäen napukoita kuvaajassa, kuten näytetään oikealla ja esimerkeissä alhaalla Kun
+Käyröillä voit kartoittaa kuvan värit uudestaan käyttäen napukoita kuvaajassa, kuten näytetään oikealla ja esimerkeissä alhaalla Kun
 Käyrät-valikko näkyy ensimmäisen kerran, se on oikealla olevan kuvan kaltainen. Tämä kuvaaja on yksinkertainen matemaattinen funktio.
 Vaakasuuntaiset arvot ovat kirkkauden sisääntuloa ja pystysuorat arvot ovat kirkkauden ulostulo.
 

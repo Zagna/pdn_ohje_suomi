@@ -207,7 +207,7 @@ Vaihda lopun tyyliä
 
 ### Työkalujen pikanäppäimet
 
-{{< huom >}}Jos enemmän kuin yksi työkalu jakaa tietyn pikanäppäimen, sinun pitää painaa pikanäppäintä monta kertaa käydäksesi läpi kaikki työkalut mitkä ovat osoitettu tietylle pikanäppäimelle.{{< /huom >}}
+{{< huom >}}Jos enemmän kuin yksi työkalu jakaa tietyn pikanäppäimen, pitää pikanäppäintä painaa monta kertaa käydäksesi läpi kaikki työkalut mitkä ovat osoitettu tietylle pikanäppäimelle.{{< /huom >}}
 
 Suorakulmainen valinta
 : {{< badge >}}S{{< /badge >}}

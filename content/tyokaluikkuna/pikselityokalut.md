@@ -9,7 +9,7 @@ title = "Pikselityökalut"
 
 +++
 
-Nämä pikselityökalut sisältävät Kynän ja Väripoimijan.
+Pikselityökalut sisältävät Kynän ja Väripoimijan.
 
 {{< figure src="ui/pikselityokalut.webp" alt="Pikselityökalut" >}}{{< /figure >}}
 

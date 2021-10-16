@@ -35,7 +35,7 @@ Sisäänrakennetut tehosteet on jaettu seitsemään alavalikkoon:
 
 * #### [Tyyli]({{% relref "tyyli" %}})
 
-    Nämä tuottavat tyylikkäitä näkyjä jotka ovat hyödyllisiä reunojen löytämiseen jäljitystä varten, tai pelien tekstuurien tuottamiseen (esim. bump map).
+    Näillä voit tuottavat tyylikkäitä näkyjä jotka ovat hyödyllisiä reunojen löytämiseen jäljitystä varten, tai pelien tekstuurien tuottamiseen (esim. bump map).
 
 * #### [Valokuva]({{% relref "valokuva" %}})
 

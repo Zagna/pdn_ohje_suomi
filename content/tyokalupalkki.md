@@ -56,17 +56,17 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
     {{< tool "shapes" >}}[Muototyökalut]({{% relref "muodot" %}}) käyttävät
     näitä asetuksia. Voit valita piirretäänkö muoto ääriviivalla, täytettynä, vai kummatkin, siveltimen koko sekä piirtotyylin.
 
-    {{< tool "linecurve" >}}[Viiva/Käyrä -työkalu]({{% relref "viiva-kayra" %}}) antaa sinun asettaa tyylin, viivan päiden tyylit
+    {{< tool "linecurve" >}}[Viiva/Käyrä -työkalulla]({{% relref "viiva-kayra" %}}) voit asettaa tyylin, viivan päiden tyylit
     sekä joko viiva tai piste muodon.
 
 * ### Valintatyökalut
 
     {{< figure src="ui/toolbar_selectionmode.webp" alt="Valintatyökalut" >}}{{< /figure >}}
 
-    "Valintatila" osa työkalupalkista antaa sinun valita tilan jota valintatyökalut käyttävät. Kun valitse valintatyökalulla se joko korvaa
+    "Valintatila" osalla työkalupalkista voit valita tilan jota valintatyökalut käyttävät. Kun valitse valintatyökalulla se joko korvaa
     olemassa olevan valinnan, lisää siihen, vähentää siitä tai kääntää aluen jonka yli se tulee.
 
-    Seuraava osa työkalupalkista antaa sinun valita joko normaalin (vapaa), kiinteän koon ja kiinteän suhteen välillä kun käytät suorakulmaista
+    Seuraavalla osalla työkalupalkista voit valita joko normaalin (vapaa), kiinteän koon ja kiinteän suhteen välillä kun käytät suorakulmaista
     valintatyökalua. Jälkimmäiset kaksi tilaa ovat hyödyllisiä kun haluat esimerkiksi valita 4" x 3" kokoisen alueen tai haluat valita alueen
     jonka suhde on 16 x 10 (tietenkin, voit käyttää mitä tahansa kokoja, lisää vain haluamasi luvut).
 
@@ -75,7 +75,7 @@ Työkalupalkki sisältää napit kaikille yleisille komennoille, asetukset miten
     {{< figure src="ui/toolbar_text.webp" alt="Tekstityökalu" >}}{{< /figure >}}
 
     Täta osaa työkalupalkista käyttää vain {{< tool "text" >}}
-    [Teksti]({{% relref "tekstityokalu" %}}), ja se antaa sinun asettaa fontin, koon, pehmeyden sekä tyylin.
+    [Teksti]({{% relref "tekstityokalu" %}}), ja sillä voit asettaa fontin, koon, pehmeyden sekä tyylin.
 
     On saatavilla kolme eri tapaa näyttää teksti, "Pehmeä", "Terävä (Modern)" ja "Terävä (Klassinen)". Pehmeä sopii parhaiten keskikokoiseen ja
     isoon tekstiin. Pienillä koilla se saattaa näyttää epäselvältä tai sekavalta, paitsi tämä riippuu paljolti mikä fontti on käytössä. Terävä

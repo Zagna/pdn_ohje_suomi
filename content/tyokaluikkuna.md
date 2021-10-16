@@ -64,7 +64,7 @@ Täällä voit valita aktiivisen työkalun jota voi käyttää kuvan muokkaamise
 
 1. ### {{< tool "pencil" >}}[Kynä]({{< relref "pikselityokalut" >}}) {#kynä}
 
-    Tämä antaa sinun muokata kuvaa pikseli pikseliltä.
+    Tällä voit muokata kuvaa pikseli pikseliltä.
 
 1. ### {{< tool "colorpicker" >}}[Väripoimija]({{< relref "pikselityokalut" >}}) {#väripoimija}
 

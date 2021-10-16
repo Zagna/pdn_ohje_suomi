@@ -31,8 +31,8 @@ Intel/AMD järjestelmille ja on yleisin käytetty paketti. x64 MSI on Intel/AMD 
 
 {{< varoitus >}}Huomaa että x86 MSI (PaintDotNet.x86.msi) ei toimi ollenkaan 64-bittisille järjestelmillä, joten muista suunnitella julkaisut asiallisesti.{{< /varoitus >}}
 
-Myös, MSI ominaisuudet toista seuraavassa taulukossa voi käyttää muuttamaan asetuksia komentorivillä kun käytät komentoa /createMsi. Nämä
-MSI ominaisuudet lisätään automaattisesti luotavaan MSI'hin jolloin tulevia muutoksia ei tarvitse tehdä.
+Myös, MSI ominaisuudet toista seuraavassa taulukossa voi käyttää muuttamaan asetuksia komentorivillä kun käytät komentoa /createMsi. MSI ominaisuudet
+lisätään automaattisesti luotavaan MSI'hin jolloin tulevia muutoksia ei tarvitse tehdä.
 
 ### Automaattinen asennus
 
@@ -49,7 +49,7 @@ Asennuspaketti käyttää seuraavia komentorivin komentoja, missä paint.net.{{<
 |-|-|
 | /skipConfig | Ohittaa asetukset ja asennuskansion. Käyttää MSI ominaisuuksia seuraavassa järjestyksessä: {{< list items="komentorivin asetukset;rekisteri HKLM\Software\paint.net;oletusasetukset" >}} |
 | /auto | Sama kuin /skipConfig, mutta ei näytä viimeistä velhon sivua joka kertoo asennuksen loppuneen. Tämä mahdollistaa täysin automaattisen asennuksen joka |ei tarvitse käyttäjän ohjeita ollenkaan. |
-| /createMsi | Tämä luo kaksi MSI pakettia työpöydälle kansioon PaintDotNetMsi. Nämä MSIt on tarkoitettu valituille OS/CPU yhdistelmille (x86 tai x64). Näitä voi käyttää julkistamiseen käyttäen AD/GPO järjestelmiä ja sisältävät jo asettamasi asetukset käyttäen PROPERTY=VALUE komentorivin komentoja (jos asetat). |
+| /createMsi | Tämä luo kaksi MSI pakettia työpöydälle kansioon PaintDotNetMsi. MSIt on tarkoitettu valituille OS/CPU yhdistelmille (x86 tai x64). Näitä voi käyttää julkistamiseen käyttäen AD/GPO järjestelmiä ja sisältävät jo asettamasi asetukset käyttäen PROPERTY=VALUE komentorivin komentoja (jos asetat). |
 | PROPERTY=VALUE | Asettaa MSI ominaisuuden nimeltä PROPERTY arvolla VALUE. Voit määrittää useita arvoja. Alhaalla on lista mahdollista arvoista.  {{< huom >}}Jos VALUE sisältää välilyönnin, pitää koko PROPERTY=VALUE teksti sulkea sitaatteihin. Esimerkiksi kuvitteellinen TEST ominaisuus arvolla "1 2 3", pitää käyttää "TEST=1 2 3" komentorivillä, mukaan lukien sitaatit.{{< /huom >}} |
 
 Oletusasennus tarvitsee vain että käytät /auto komentoa. Voit asettaa lisää ominaisuuksia vaihtamalla MSI ominaisuuksia, missä "1"

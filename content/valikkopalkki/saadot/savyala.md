@@ -9,7 +9,7 @@ title = "Sävyala"
 
 +++
 
-Sävyala-säätö antaa sinun muuttaa kuvan värialuetta (tai "valotusaikaa"), mukaan lukien gamman säätöä, kanavakohtaisesti. Useimmat säädökset mitä
+Sävyala-säädöllä voit muuttaa kuvan värialuetta (tai "valotusaikaa"), mukaan lukien gamman säätöä, kanavakohtaisesti. Useimmat säädökset mitä
 tehdään liittyy kuvan sisääntulon ja ulostulon valkopisteeseen, harmaapisteeseen ja mustapisteeseen. Kuvan valkopiste on kirkkain väri mikä esiintyy
 kuvassa ja mustapiste on kaikkein tummin väri mikä esiintyy kuvassa. Harmaapiste esittää värien keskiarvoa koko kuvassa.
 
@@ -31,7 +31,7 @@ siirretty hieman kirkkaammaksi. Vaikka tämä ei vaikuta kuvan valkoiseen tai mu
     {{< figure src="img/lewistonsunset_small_levels1.webp" alt="Käyrät3" >}}{{< /figure >}}
 {{< /level >}}
 
-Nämä säädöt venyvät koko kuvan alaan, näyttäen helposti histogrammeista mitkä ovat kummallakin puolella. Histogrammi vasemmalla näyttää kuvan
+Säädöt venyvät koko kuvan alaan, näyttäen helposti histogrammeista mitkä ovat kummallakin puolella. Histogrammi vasemmalla näyttää kuvan
 värialan ennen mitään muokkausta, tämä histogrammi näyttää kuin paljon kuvasta on tiettyä väriä. Yllä olevassa kuvassa, histogrammi näyttää
 suuren osan olevan melkein mustaa ja toinen kumpu noin 40% kirkkauden kohdalla. Myös, pieni piikki täysin histogrammin yläreunassa tarkoittaa
 että pieni osa kuvasta on täysin valkoista.

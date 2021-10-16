@@ -9,7 +9,7 @@ title = "Ikkunat"
 
 +++
 
-Nämä komennot antavat sinun piilottaa ja näyttää kelluvat työkaluikkunat.
+Näillä komennoilla voit piilottaa ja näyttää kelluvat työkaluikkunat.
 
 {{< figure src="ui/windows.webp" alt="Ikkuna valikko" >}}{{< /figure >}}
 

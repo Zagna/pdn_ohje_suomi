@@ -9,7 +9,7 @@ title = "Tiedosto"
 
 +++
 
-Tiedosto-valikkoa käytetään kuvien avaamiseen, hankkimiseen ja tallentamiseen paint.netissä. Nämä komennot toimivat saman lailla kuin muissa ohjelmissa.
+Tiedosto-valikkoa käytetään kuvien avaamiseen, hankkimiseen ja tallentamiseen paint.netissä. Komennot toimivat saman lailla kuin muissa ohjelmissa.
 
 {{< figure src="ui/filemenu.webp" alt="Tiedosto valikko" >}}{{< /figure >}}
 
@@ -57,11 +57,13 @@ Tiedosto-valikkoa käytetään kuvien avaamiseen, hankkimiseen ja tallentamiseen
 
 * ### Tallenna nimellä
 
-    Normaalisti kun käytät vain Tallenna-komentoa se käyttää nykyistä tiedostonimeä ja asetuksia mitä käytit viimeksi. Tallenna nimellä -komento antaa sinun määrittää uuden nimen ja jos tarpeellista, uudet asetukset.
+    Normaalisti kun käytät vain Tallenna-komentoa se käyttää nykyistä tiedostonimeä ja asetuksia mitä käytit viimeksi. Tallenna nimellä
+    -komennolla voit määrittää uuden nimen ja jos tarpeellista, uudet asetukset.
 
 * ### Tulosta
 
-    Tämä antaa sinun tulostaa kuvan käyttäen Windowsin sisäänrakennettua Tulosta kuvia -toimintoa. Se esittää yksinkertaisen velhopohjaisen käyttöliittymän minkä avulla voit käydä tulostuksen läpi.
+    Tämän avulla voit tulostaa kuvan käyttäen Windowsin sisäänrakennettua Tulosta kuvia -toimintoa. Se esittää yksinkertaisen velhopohjaisen käyttöliittymän minkä avulla voit käydä tulostuksen läpi.
+
     Windows 7:ssä, Tulosta kuvia -käyttöliittymä näyttää tältä:
 
     {{< figure src="img/printwizard.webp" alt="Tulostamisen avustaja" >}}{{< /figure >}}

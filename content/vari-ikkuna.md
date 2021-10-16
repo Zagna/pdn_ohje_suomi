@@ -19,7 +19,7 @@ käyttävät edusta- tai taustaväriä piirtämisessä, riippuen siitä millä h
 
     {{< figure src="ui/colorswindowless.webp" alt="Värit" >}}{{< /figure >}}
 
-    Tämä tila antaa sinun valita väripyörässä näkyvistä väreistä tai ensimmäisistä 32 väristä nykyisessä paletissa. Jos painat paletissa oikealla
+    Tällä tilalla voit valita väripyörässä näkyvistä väreistä tai ensimmäisistä 32 väristä nykyisessä paletissa. Jos painat paletissa oikealla
     hiiren napilla, se asettaa taustavärin.
 
     {{< vihje >}}Voit myös käyttää pikanäppäintä C vaihtaaksesi edusta ja taustavärin välillä nopeasti.{{< /vihje >}}
@@ -52,7 +52,7 @@ käyttävät edusta- tai taustaväriä piirtämisessä, riippuen siitä millä h
 
 * ### Paletit
 
-    On olemassa kaksi nappia paletin yläpuolella jotka antavat sinun hallita värejä.
+    On olemassa kaksi nappia paletin yläpuolella joiden avulla voit hallita värejä.
 
     {{< figure src="png/palettebuttons.webp" alt="Paletit" >}}{{< /figure >}}
 

@@ -10,7 +10,8 @@ tooltip = "gradient"
 
 +++
 
-Väriliukuma antaa sinun piirtää erinäköisiä liukumia. Läpinäkyvyystilalla voit myös joko "häivyttää" tai "sekoittaa" kaksi kuvaa yhteen.
+Väriliukuma mahdollistaa erinäköisten liukumien piirtämisen. Läpinäkyvyystilalla voit myös joko "häivyttää" tai "sekoittaa"
+kaksi kuvaa yhteen.
 
 ### Liukumatyypit
 

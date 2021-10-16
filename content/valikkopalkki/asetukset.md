@@ -32,11 +32,11 @@ Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
 
 * ### Värimalli
 
-    Tämä valikko antaa sinun sinisen tai vaalean värimallin välillä.
+    Tällä valikolla voit vaihtaa sinisen, vaalean tai tumman värimallin välillä.
 
 * ### Kieli
 
-    Tämä valikko antaa sinun valita mitä kieltä paint.net käyttää.
+    Tällä valikolla voit valita mitä kieltä paint.net käyttää.
 
     {{< figure src="ui/settings3.webp" alt="Kielen asetukset" >}}{{< /figure >}}
 

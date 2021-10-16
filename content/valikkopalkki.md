@@ -15,39 +15,39 @@ Saatavilla on yhdeksän ylätason valikkoa ja pikapainikkeet ikkunoille paint.ne
 
 1. ### [Tiedosto]({{% relref "tiedosto" %}})
 
-    Nämä komennot antaa avata, hankkia ja tallentaa kuvia. Valikot toimivat samalla lailla kuin muissa ohjelmissa.
+    Valikon komennot antaa avata, hankkia ja tallentaa kuvia. Valikot toimivat samalla lailla kuin muissa ohjelmissa.
 
 1. ### [Muokkaa]({{% relref "muokkaa" %}})
 
-    Näillä komennoilla voit muokata kuvan historiaa, valittua alaa, itse valintaa ja leikepöytää.
+    Valikon komennoilla voit muokata kuvan historiaa, valittua alaa, itse valintaa ja leikepöytää.
 
 1. ### [Näytä]({{% relref "nayta" %}})
 
-    Nämä komennot vaikuttavat siihen miten kuva tai alue näytetään.
+    Valikon komennot vaikuttavat siihen miten kuva tai alue näytetään.
 
 1. ### [Kuva]({{% relref "kuva" %}})
 
-    Nämä komennot vaikuttavat koko kuvaan, kaikkiin tasoihin.
+    Valikon komennot vaikuttavat koko kuvaan, kaikkiin tasoihin.
 
 1. ### [Tasot]({{% relref "tasot" %}})
 
-    Nämä komennot vaikuttavat vain aktiiviseen tasoon.
+    Valikon komennot vaikuttavat vain aktiiviseen tasoon.
 
 1. ### [Säädöt]({{% relref "saadot" %}})
 
-    Sisältää säätöjä joilla voi muokata nykyistä tasoa.
+    Säädöillä joilla voi muokata nykyistä tasoa.
 
 1. ### [Tehosteet]({{% relref "tehosteet" %}})
 
-    Sisältää tehosteita joita voi käyttää nykyisen tason muokkaukseen.
+    Tehosteita joita voit käyttää nykyisen tason muokkaukseen.
 
 1. ### [Ikkunat]({{% relref "ikkunat" %}})
 
-    Nämä komennot antavat sinun piilottaa tai näyttää kelluvat ikkunat.
+    Valikon komennoilla voit piilottaa tai näyttää kelluvat ikkunat.
 
 1. ### [Asetukset]({{% relref "asetukset" %}})
 
-    Sisältää ohjelman asetukset.
+    Voit avata ohjelman asetukset.
 
 1. ### [Ohje]({{% relref "ohje" %}})
 

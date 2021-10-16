@@ -35,7 +35,7 @@ kanssa, on se myöhemmin kasvanut tehokkaaksi työkaluksi kuvien muokkaamiseen.
 
 * #### Tasot
 
-    Tämä antaa sinun muodostaa yhden täyden kuvan kasasta muita kuvia jotka yhdistetään sekaisin.
+    Voit muodostaa yhden täyden kuvan kasasta muita kuvia jotka yhdistetään järjestyksessä.
 
     paint.net tukee monta eri sekoitustilaa, tasojen läpinäkyvyyttä ja tasojen järjestelemistä vetämällä.
 

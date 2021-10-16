@@ -45,7 +45,7 @@ myös käyttää shakkilautamallia läpinäkyvyyden esittämiseen).
 
 ### Tasot ja peittävyys
 
-Kun jokaisella pikselillä on tietty läpinäkyvyys, jokaisella tasolla on myös oma peittävyysarvo. Nämä kaksi termiä ovat samanlaisia ja niitä voi katsoa
+Kun jokaisella pikselillä on tietty läpinäkyvyys, jokaisella tasolla on myös oma peittävyysarvo. Termit ovat samanlaisia ja niitä voi katsoa
 samaksi. Voit ajatella että tason peittävyys on kuin himmennin tason jokaiselle pikselille.
 
 Esimerkkinä, jos asetamme päällisen tason päittävyyden 255:sta askelin 0:aan, saamme seuraavat kuvat jotka esitetään konseptina sekä miten ne näkyvät näytöllä:

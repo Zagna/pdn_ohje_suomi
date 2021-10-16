@@ -9,8 +9,8 @@ title = "Tasoikkuna"
 
 +++
 
-Tämä ikkuna antaa sinun hallita useita tasoja joita kuva voi sisältää paint.netissä. Aina on olemassa vähintään yksi aktiivinen taso ja kaikki
-piirtämiset ja tehosteet vaikuttavat yhteen tasoon. Jokaiselle tasolle voi antaa nimen, sekä voi määrittää sekoitustilan ja peittävyyden. Voit
+Tällä ikkunalla voit hallita useita tasoja joita kuva voi sisältää paint.netissä. Yksi taso on aina aktiivinen taso ja kaikki piirtämiset
+ja tehosteet vaikuttavat tähän yhteen tasoon. Jokaiselle tasolle voi antaa nimen, sekä voi määrittää sekoitustilan ja peittävyyden. Voit
 myös asettaa tason näkyväksi tai piilotetuksi käyttämällä tason vieressä olevaa valintaruutua.
 
 Voit ajatella tasoja kuin läpinäkyvinä kuvina jotka on asetettu päällekkäin. Kuvat jotka ovat alemmilla tasoilla näkyy ylempien tasojen läpi,
