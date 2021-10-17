@@ -1,2 +1,2 @@
-{{ $js := resources.Get "js/app.js" | js.Build | resources.Fingerprint }}
+{{ $js := resources.Get "js/app.js" | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" defer></script>
