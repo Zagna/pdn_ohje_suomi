@@ -12,7 +12,6 @@
 	<link rel="preload" href="{{ $style.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 	<script data-goatcounter="https://zagna.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 	<link rel="preconnect" href="https://zagna.goatcounter.com">
-	<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2d7c30eaffa74d9ca4f7fabce3103ddc"}'></script>
 {{ end }}
 {{ $fav2 := resources.Get "png/favicon.webp" }}
 {{ $fav := $fav2.Resize "48x48" }}
