@@ -1,5 +1,5 @@
 
-<form name="Palaute" method="POST" action="https://formsubmit.co/jarno@ruokamo.eu" enctype="application/x-www-form-urlencoded">
+<form name="Palaute" method="POST" action="https://formsubmit.co/9353b7cea5d122da700651815089f7ba" enctype="application/x-www-form-urlencoded">
     <fieldset>
         <label class="label" for="palaute-nimi">Nimi</label>
         <input id="palaute-nimi" name="Nimi" class="input" type="text" placeholder="Nimi">
@@ -10,6 +10,6 @@
         <button type="submit">Lähetä palaute</button>
         <input type="hidden" name="_next" value="{{ ref . "kiitos.md" | absURL }}">
         <input type="hidden" name="_subject" value="Palaute">
-        <input type="hidden" name="_url" value="https://yourdomain.co/contact.html">
+        <input type="hidden" name="_url" value="{{ .Page.Permalink }}">
     </fieldset>
 </form>
