@@ -10,6 +10,6 @@
         <button type="submit">Lähetä palaute</button>
         <input type="hidden" name="_next" value="{{ ref . "kiitos.md" | absURL }}">
         <input type="hidden" name="_subject" value="Palaute">
-        <input type="hidden" name="_url" value="{{ .Page.Permalink }}">
+        <input type="hidden" name="_url" value="{{ .Page.Permalink | absURL }}">
     </fieldset>
 </form>
