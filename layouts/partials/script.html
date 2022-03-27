@@ -1,2 +1,5 @@
 {{ $js := resources.Get "js/app.js" | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" defer></script>
+{{ if not .Site.IsServer }}
+	<script data-goatcounter="https://zagna.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+{{ end }}
