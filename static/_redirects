@@ -1,0 +1,4 @@
+http://paintdotnet.netlify.app https://paint.ruokamo.eu 301!
+https://paintdotnet.netlify.app https://paint.ruokamo.eu 301!
+http://paintdotnet.netlify.app/* https://paint.ruokamo.eu/:splat 301!
+https://paintdotnet.netlify.app/* https://paint.ruokamo.eu/:splat 301!
