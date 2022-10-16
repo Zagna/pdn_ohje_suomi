@@ -39,10 +39,8 @@ Mukautetun asennuksen vaihtoehdot. Seuraava aloittaa asennuksen.
 
 {{< figure src="ui/asennusosa3.webp" alt="paint.net asennus alkaa" >}}{{< /figure >}}
 
-{{< huom >}}paint.net tarvitsee .NET Frameworkin. Jos vaadittua versiota ei ole asennettu järjestelmään, se asennetaan automaattisesti asennuksen yhteydessä.{{< /huom >}}
-
 Kun asennus on valmis, paina Valmis lopettaaksesi. Jos &#x2611; Käynnistä paint.net on valittu, ohjelma käynnistetään asennuksen lopuksi.
 
 {{< figure src="ui/asennusosa4.webp" alt="paint.net asennus valmis" >}}{{< /figure >}}
 
-{{< huom >}}Vaikka paint.net on **ilmainen**, pyydämme että lahjottaisit klikkaamalla "Donate" nappia osoittaaksesi kiitosta. Lahjoitukset edistävät "parhaimman ilmaisen kuvankäsittelyohjelman" kehittämistä.{{< /huom >}}
+{{< huom >}}Vaikka paint.net on **ilmainen**, voit auttaa lahjoituksen muodossa klikkaamalla "Donate" nappia osoittaaksesi kiitosta. Lahjoitukset edistävät "parhaimman ilmaisen kuvankäsittelyohjelman" kehittämistä.{{< /huom >}}

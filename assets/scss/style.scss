@@ -37,13 +37,14 @@ $content-width: 1200px;
 	--font-family: Calibri, Helvetica, Arial, sans-serif;
 	--font-family-code: monospace;
 	--purple: #c45cef;
-	--success: #087;
+	--success: #008575;
 	--info: #287cb8;
 	--danger: #da3a42;
 	--warning: #ffe08a;
 	--white: #fff;
 	--black: #222;
 	--grey: #aaa;
+	--dark-purple: #700F99;
 	--header-bg: #057;
 	--background-color: var(--black);
 	--text-color: var(--white);
@@ -432,6 +433,9 @@ main {
 			a {
 				color: var(--black);
 			}
+			strong {
+				color: var(--dark-purple);
+			}
 			border-color: var(--warning);
 			background-color: var(--warning);
 		}
@@ -518,8 +522,8 @@ main {
 		height: 1rem;
 		display: inline-block;
 		&.purple {
-			border-color: var(--purple);
-			background-color: var(--purple);
+			border-color: var(--dark-purple);
+			background-color: var(--dark-purple);
 		}
 		&.info {
 			border-color: var(--info);

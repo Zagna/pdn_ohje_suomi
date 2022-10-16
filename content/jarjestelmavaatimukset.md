@@ -11,28 +11,23 @@ title = "Järjestelmävaatimukset"
 
 ### Klassinen paint.net
 
-* tai Windows 10 versio 1607
-* tai Windows 11
-* .NET Framework 6.0, tämä tulee asennuksen mukana
-* 1GHz prosessori
-* 1Gt RAM-muistia (2Gt suositeltu)
-* 1024 x 768 näytön resoluutio
-* 200+ Mt kiintolevytilaa
+* Windows 11
+* tai Windows 10 versio 1607 eteenpäin
+* tai Windows 8.1
+* tai Windows 7 SP1 (käyttöympäristöpäivitys asennetaan automaattisesti)
 
 ### Microsoft storen paint.net
 
-* Windows 10 versio 1703 tai uudempi
-* tai Windows 11
-* DirectX versio 10
-* .NET Framework 6.0, tämä tulee asennuksen mukana
-* 1GHz 64-bittinen prosessori SSE tuella
-* 1Gt RAM-muistia (2Gt suositeltu)
-* 1024 x 768 näytön resoluutio
-* 200+ Mt kiintolevytilaa
+* Windows 11
+* tai Windows 10 versio 1703 eteenpäin
 
 Huomaa että paint.net käyttää kiintolevyä väliaikaistiedostojen tallentamiseen jotka liittyvät kumoamiseen ja toistamiseen. Tämän takia,
 kiintolevyvaatimukset riippuvat siitä mitä tehtäviä suoritat kuvalle ja kuvan koosta. Väliaikaistiedostot pakataan jos käytät NTFS
 tiedostojärjestelmää. Tämä johtaa paljon vähemmän levytilan käyttöön ja parempaan tehokkuuteen vähemmän kovalevyn käytön takia.
+
+### Tuki ARM64:lle
+
+ARM64 on tuettu natiivisti versiosta 4.3 alkaen.
 
 ### Laitteistopohjainen kiihdytys
 
