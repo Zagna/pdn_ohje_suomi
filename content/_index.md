@@ -1,6 +1,6 @@
 ﻿+++
 draft = false
-title = "Yleistä / Ominaisuuksia"
+title = "Ominaisuudet"
 
 [menu.pdn]
     parent = "koti"

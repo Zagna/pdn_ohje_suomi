@@ -1,6 +1,6 @@
 
 <figure>
-    <video width="{{ .Get "width" }}" height="{{ .Get "height" }}" autoplay loop>
+    <video width="{{ .Get "width" }}" height="{{ .Get "height" }}" autoplay loop muted poster="{{ replace (.Get "src") "mp4" "webp" }}">
         <source type="video/mp4" src="{{ .Get "src" }}">
     </video>
     <figcaption>{{ .Get "caption" }}</figcaption>
