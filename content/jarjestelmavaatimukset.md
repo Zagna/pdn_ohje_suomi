@@ -9,17 +9,8 @@ title = "Järjestelmävaatimukset"
 
 +++
 
-### Klassinen paint.net
-
 * Windows 11
-* tai Windows 10 versio 1607 eteenpäin
-* tai Windows 8.1
-* tai Windows 7 SP1 (käyttöympäristöpäivitys asennetaan automaattisesti)
-
-### Microsoft storen paint.net
-
-* Windows 11
-* tai Windows 10 versio 1703 eteenpäin
+* tai Windows 10 versio 1809 eteenpäin
 
 Huomaa että paint.net käyttää kiintolevyä väliaikaistiedostojen tallentamiseen jotka liittyvät kumoamiseen ja toistamiseen. Tämän takia,
 kiintolevyvaatimukset riippuvat siitä mitä tehtäviä suoritat kuvalle ja kuvan koosta. Väliaikaistiedostot pakataan jos käytät NTFS

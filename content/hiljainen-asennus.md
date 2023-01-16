@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Hiljainen asennus"
-version = "4.3.7"
+version = "5.0"
 
 [menu.pdn]
     parent = "muuta"

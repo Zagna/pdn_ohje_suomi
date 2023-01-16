@@ -1,11 +1,10 @@
 <nav class="bar" aria-label="main navigation">
-	<input id="menu" type="checkbox" />
-	<label role="button" aria-label="Avaa valikko" aria-expanded="false" for="menu">
+	<button data-open="0" role="button" aria-label="Avaa valikko" aria-expanded="false" onclick="this.dataset.open = (this.dataset.open === '1') ? '0' : '1'">
 		<span aria-hidden="true"></span>
 		<span aria-hidden="true"></span>
 		<span aria-hidden="true"></span>
 		<span class="sr">Avaa valikko</span>
-	</label>
+	</button>
 	<ul>
 	{{ range $index,$element := .Site.Menus.pdn }}
 		<li class="dropdown">

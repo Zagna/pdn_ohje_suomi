@@ -177,10 +177,10 @@ nav.bar {
 			list-style: none;
 		}
 	}
-	input {
+	button {
 		display: none;
 	}
-	input:checked {
+	button[data-open="1"] {
 		~ ul {
 			&::after {
 				display: none;
@@ -201,16 +201,14 @@ nav.bar {
 				display: none;
 			}
 		}
-		~ label {
-			span:nth-child(1) {
-				transform: translateY(6px) rotate(45deg)
-			}
-			span:nth-child(2) {
-				opacity: 0
-			}
-			span:nth-child(3) {
-				transform: translateY(-6px) rotate(-45deg)
-			}
+		span:nth-child(1) {
+			transform: translateY(6px) rotate(45deg)
+		}
+		span:nth-child(2) {
+			opacity: 0
+		}
+		span:nth-child(3) {
+			transform: translateY(-6px) rotate(-45deg)
 		}
 	}
 	@media screen and (max-width: $mobile-width) {
@@ -229,14 +227,16 @@ nav.bar {
 				}
 			}
 		}
-		label {
+		button {
 			min-height: var(--navbar-height);
 			width: var(--navbar-height);
 			height: var(--navbar-bg-color);
 			position: relative;
 			margin-left: auto;
-			display: block;
-			padding-left: calc(var(--navbar-height) / 2);
+			display: flex;
+			justify-content: center;
+			background-color: transparent;
+			border: 0;
 			span {
 				transform-origin: center;
 				transition-duration: 50ms;
