@@ -180,7 +180,7 @@ nav.bar {
 	button {
 		display: none;
 	}
-	button[data-open="1"] {
+	button.open {
 		~ ul {
 			&::after {
 				display: none;
