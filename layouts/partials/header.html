@@ -7,7 +7,6 @@
 	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS | resources.Fingerprint }}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 {{ else }}
-	{{ partial "critical.min.html" }}
 	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.Fingerprint }}
 	<link rel="preload" href="{{ $style.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 	<link rel="preconnect" href="https://zagna.goatcounter.com">
