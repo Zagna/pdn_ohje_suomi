@@ -5,14 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{ if .Site.IsServer }}
 	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS | resources.Fingerprint }}
-	<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 {{ else }}
 	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.Fingerprint }}
-	<link rel="preload" href="{{ $style.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 	<link rel="preconnect" href="https://zagna.goatcounter.com">
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 {{ end }}
 {{ $fav2 := resources.Get "png/favicon.webp" }}
 {{ $fav := $fav2.Resize "48x48" }}
 {{ $png := $fav2.Resize "48x48 png" }}
 <link rel="icon" href="{{ $png.RelPermalink }}" type="image/png" />
 <link rel="icon" href="{{ $fav.RelPermalink }}" type="image/webp" />
+<style>
+	header {
+		margin-top: 3.5rem;
+	}
+	nav {
+		position: fixed;
+		top: 0;
+		height: 3.5rem;
+	}
+</style>
