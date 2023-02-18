@@ -1,5 +1,5 @@
 languageCode = "fi"
-title = "paint.net suomeksi"
+title = "paint.net ohje"
 DefaultContentLanguage = "fi"
 disableKinds = [ "RSS", "tags", "categories", "taxonomy", "taxonomyTerm", "section", "404" ]
 enableRobotsTXT = true
