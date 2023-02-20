@@ -1,5 +1,6 @@
 {
-	"tab": [{
+	"tab": [
+		{
 			"content": "Tämä tehoste tuottaa mustavalkoisen kuvan jossa reunoille on annettu kolmiulotteinen korostus jäljittäen korkokuvaa.",
 			"id": "korko",
 			"name": "Korkokuva",

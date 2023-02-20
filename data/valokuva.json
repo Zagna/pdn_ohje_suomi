@@ -60,6 +60,24 @@
 			]
 		},
 		{
+			"content": "Jos kuva ei ole täysin suorassa, voit tämän avulla suoristaa kuvan.",
+			"id": "suorista",
+			"name": "Suorista",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/img/tehoste.webp"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/img/suorista.webp"
+				}
+			]
+		},
+		{
 			"content": "Jos kuvan ulkonäkö on liian pehmeä, voit tällä tehosteella terävöittää reunoja.",
 			"id": "teravin",
 			"name": "Terävöitä",

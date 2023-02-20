@@ -1,11 +1,10 @@
 +++
 draft = false
-title = "Pyöritä / Lähennä"
-tooltip = "clonestamp"
+title = "Kierrä / Lähennä"
 
 [menu.pdn]
     parent = "sehot"
-    identifier = "pyorita"
+    identifier = "kierra"
     weight = 401
 
 +++
@@ -16,7 +15,7 @@ Tämä valikko mahdollistaa vapaiden muunnoksien teon 3 akselilla (X, Y, ja Z).
 
 Voit muokata näitä kolmea aluetta:
 
-* ### Pyöritä / Käännä
+* ### Kierrä / Käännä
 
     Tämä antaa pyörittää Z akselia siirtämällä hiirtä ulkoreunassa. Keskellä on myös pallo, joka antaa pyörittää kahdella muulla akselilla (X ja Y).
 
@@ -42,6 +41,6 @@ On myös kaksi valintaa:
     sisällön näkymään läpi sen sijaan että se korvattaisiin läpinäkyvyydellä.
 
 Jos käytät kaikkia näitä komentoja, voit saada fantastisia muokkauksia kuviisi. Seuraava kuva luotiin käyttämällä monia paint.netin ominaisuuksia,
-mukaan lukien Pyöritä / Lähennä:
+mukaan lukien Kierrä / Lähennä:
 
 {{< figure src="img/reflect_small.webp" alt="Toimintojen esimerkki" >}}{{< /figure >}}

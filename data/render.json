@@ -1,5 +1,6 @@
 {
-	"tab": [{
+	"tab": [
+		{
 			"content": "Tämä tehoste renderoi Julian joukon tasolle.",
 			"id": "julia",
 			"name": "Julian joukko",

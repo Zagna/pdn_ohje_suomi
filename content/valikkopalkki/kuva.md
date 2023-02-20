@@ -19,9 +19,7 @@ vaikuttaa vain aktiiviseen tasoon.
     Tämä valikko on saatavilla vain jos valinta on aktiivinen. Kun valitset tämän komennon, kuva vaihtuu vain siihen mikä on valittu. Jos
     valinta ei ole suorakulmainen tai neliö, kuvasta tulee suorakulmainen. Mutta, pikselit joita ei ole valittu, tehdään läpinäkyviä.
 
-    Alkuperäinen kuva:
-
-    {{< figure src="img/ruisleipa.webp" alt="Alkuperäinen" >}}{{< /figure >}}
+    {{< figure src="img/ruisleipa.webp" alt="Alkuperäinen" title="Alkuperäinen kuva" >}}{{< /figure >}}
 
     Tässä rajattu alue on valittu käyttäen [Lassovalintaa]({{% relref "valintatyokalut" %}}):
 
@@ -56,9 +54,7 @@ vaikuttaa vain aktiiviseen tasoon.
 
     {{< figure src="ui/resizedialog.webp" alt="Muuta kokoa" >}}{{< /figure >}}
 
-    Alkuperäinen kuva:
-
-    {{< figure src="img/ruisleipa.webp" alt="Alkuperäinen" >}}{{< /figure >}}
+    {{< figure src="img/ruisleipa.webp" alt="Alkuperäinen" title="Alkuperäinen kuva" >}}{{< /figure >}}
 
     Suurennoksen jälkeen, käyttäen Muuta kokoa -komentoa:
 
@@ -77,9 +73,7 @@ vaikuttaa vain aktiiviseen tasoon.
 
     {{< figure src="ui/canvassize.webp" alt="Pohjan koko" >}}{{< /figure >}}
 
-    Alkuperäinen kuva:
-
-    {{< figure src="img/ruisleipa.webp" alt="Alkuperäinen" >}}{{< /figure >}}
+    {{< figure src="img/ruisleipa.webp" alt="Alkuperäinen" title="Alkuperäinen kuva" >}}{{< /figure >}}
 
     Pohjan suurennoksen jälkeen käyttäen keskellä olevaa ankkuria (taustaväri on valkoinen tässä tapauksessa):
 
@@ -93,25 +87,25 @@ vaikuttaa vain aktiiviseen tasoon.
 
     Näillä komennoilla voit kääntää kuva joko vaaka- tai pystysuorassa.
 
-    Alkuperäinen kuva:
-
-    {{< figure src="img/ruisleipa.webp" alt="Alkuperäinen" >}}{{< /figure >}}
+    {{< figure src="img/ruisleipa.webp" alt="Alkuperäinen" title="Alkuperäinen kuva" >}}{{< /figure >}}
 
     Kun olet kääntänyt sen vaakasuorassa:
 
-    {{< figure src="img/ruisleipa_kaanna.webp" alt="Kääntäminen" >}}{{< /figure >}}
+    {{< figure src="img/ruisleipa_kaanna.webp" alt="Kääntäminen" title="" >}}{{< /figure >}}
 
-* ### Pyöritä
+* ### Kierrä
 
     Tämä alavalikko antaa sinulle monta komentoa jolla voit pyörittää kuvaa 90 asteella joko myötäpäivään tai vastapäivään, tai 180 astetta.
 
-    Alkuperäinen kuva:
-
-    {{< figure src="img/ruisleipa.webp" alt="Alkuperäinen" >}}{{< /figure >}}
+    {{< figure src="img/ruisleipa.webp" alt="Alkuperäinen" title="Alkuperäinen kuva" >}}{{< /figure >}}
 
     Sen jälkeen kun se on pyöritetty 90 astetta myötäpäivään:
 
     {{< figure src="img/ruisleipa_oikea_90.webp" alt="Kuvan pyöritys" >}}{{< /figure >}}
+
+* ### Käytä upotettua väriprofiilia
+
+    Mikäli kuva sisältää upotetun väriprofiilin, voit tällä komennolla käyttää sen ja vaihtaa värit profiilin mukaan.
 
 * ### Yhdistä tasot
 

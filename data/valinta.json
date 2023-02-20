@@ -1,5 +1,6 @@
 {
-	"tab": [{
+	"tab": [
+		{
 			"content": "Tämä on oletusvalinta. Uusi valinta korvaa edellisen valinnan. Seuraava ympyrä tehtiin Ellipsi valinta-työkalulla:",
 			"id": "korvaa",
 			"name": "Korvaa",

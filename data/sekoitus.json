@@ -1,5 +1,6 @@
 {
-	"tab": [{
+	"tab": [
+		{
 			"content": "Jokaisen pikselin voimakkuus kerrotaan kokoonpanon pikseliarvoon. Tämän sekoitustilan käyttäminen johtaa pikseleihin jotka ovat tummempia kuin alkuperäiset.",
 			"id": "kerro",
 			"name": "Kerro",

@@ -1,5 +1,6 @@
 {
-	"tab": [{
+	"tab": [
+		{
 			"content": "Tämä saa kuvan näkymään kuin sitä katsottaisiin jäätyneen lasin läpi.",
 			"id": "jaatynyt",
 			"name": "Jäätynyt lasi",

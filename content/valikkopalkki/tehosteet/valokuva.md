@@ -5,7 +5,7 @@ title = "Valokuva"
 [menu.pdn]
     parent = "sehot"
     identifier = "vkuva"
-    weight = 409
+    weight = 410
 
 +++
 

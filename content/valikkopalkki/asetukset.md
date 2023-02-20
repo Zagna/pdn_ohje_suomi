@@ -12,11 +12,9 @@ tooltip = "tools"
 
 Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
 
-{{< figure src="ui/settings1.webp" alt="Asetukset" >}}{{< /figure >}}
+{{< figure src="ui/settings1.webp" alt="Käyttöliittymä" >}}{{< /figure >}}
 
-* ### Laitteistopohjainen kiihdytys (GPU)
-
-    Tämä asetus määrittää käytetäänkö Direct2D-kiihdytystä.
+## Käyttöliittymä
 
 * ### Animaatiot
 
@@ -30,20 +28,48 @@ Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
 
     Tämä asetus määrittää näytetäänkö avoinna olevien kuvien esikatselu kun hiiri on paint.netin ikonin päällä vai näytetäänkö vain itse ohjelma.
 
-* ### Värimalli
+* ### Vierittäminen kuvan reunan yli (ylivieritys)
 
-    Tällä valikolla voit vaihtaa sinisen, vaalean tai tumman värimallin välillä.
+    Tässä asetuksella voi sallia kuvan vierittämise reunan yli.
+
+* ### Vieritä automaattisesti piirtäessäsi kohti ikkunan reunaa
+
+    Tässä asetuksella kuva vierittyy kursorin mukana jos piirrät reunaa kohti.
+
+* ### Väriteema
+
+    Tällä valikolla voit vaihtaa sinisen, vaalean tai tumman väriteeman välillä.
+
+* ### Läpinäkyvyyden shakkilaudan kirkkaus
+
+    Tällä asetuksella voi vaihtaa läpinäkyvyyttä esittävän shakkilaudan kirkkausta.
 
 * ### Kieli
 
     Tällä valikolla voit valita mitä kieltä paint.net käyttää.
 
-    {{< figure src="ui/settings3.webp" alt="Kielen asetukset" >}}{{< /figure >}}
+## Työkalut
 
-    Tätä voi käyttää kaikkien työkalujen oletusarvojen asettamiseen. Voit myös vaihtaa mikä työkalu on valittu kun paint.net käynnistetään.
-    "Palauta" nappi palauttaa kaikki arvot oletusarvoihin, kun "Lataa työkalupalkista" ottaa työkalupalkin nykyiset asetukset ja ottaa ne käyttöön.
+{{< figure src="ui/settings3.webp" alt="Kielen asetukset" >}}{{< /figure >}}
 
-    {{< figure src="ui/settings2.webp" alt="Päivitys" >}}{{< /figure >}}
+Tätä voi käyttää kaikkien työkalujen oletusarvojen asettamiseen. Voit myös vaihtaa mikä työkalu on valittu kun paint.net käynnistetään.
+"Palauta" nappi palauttaa kaikki arvot oletusarvoihin, kun "Lataa työkalupalkista" ottaa työkalupalkin nykyiset asetukset ja ottaa ne käyttöön.
+
+## Kynä & Tabletti
+
+{{< figure src="ui/settings4.webp" alt="Päivitys" >}}{{< /figure >}}
+
+Tämä asetus mahdollistaa Windows Ink toiminnallisuuden käyttöönoton ja yhteensopivien laitteiden tarkistuksen.
+
+## Grafiikka
+
+{{< figure src="ui/settings5.webp" alt="Päivitys" >}}{{< /figure >}}
+
+Tällä asetuksella voi päättää käytetäänkö tehosteiden ja piirtopöydän näyttämisessä laitteistokiihdytystä.
+
+Voit myös vaihtaa millä renderöintilaitteella kyseinen kiihdytys tehdään.
+
+{{< figure src="ui/settings2.webp" alt="Päivitys" >}}{{< /figure >}}
 
 * ### Automaattisesti tarkista päivityksiä kun käynnistät paint.net
 
@@ -57,6 +83,6 @@ Tämä valikko sisältää kaikki asetukset mitä voi määrittää.
     Windows 7:ssä ja uudemmissa, paint.net antaa kaikkien tarkistaa päivitykset. Kuitenkin, jotta voisit asentaa päivitykset, tarvitset
     Järjestelmänvalvojan oikeudet.
 
-* ### Tarkista myös esijulkaistuja (beeta) versioita
+* ### Tarkista myös beetaversioita
 
     Tämä asetus määrittää etsitäänkö myös mahdollisia alpha, beeta tai julkaisukandidaatti-versioita.

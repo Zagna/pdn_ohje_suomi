@@ -1,0 +1,22 @@
+{
+	"tab": [
+		{
+			"content": "Tämä tehoste yksinkertaistaa kuvan värien määrää valitulla algoritmilla.",
+			"id": "kvantisoi",
+			"name": "Kvantisoi",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/img/tehoste.webp"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/img/kvantisoi.webp"
+				}
+			]
+		}
+	]
+}

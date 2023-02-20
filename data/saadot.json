@@ -1,5 +1,6 @@
 {
-	"tab": [{
+	"tab": [
+		{
 			"content": "Tätä voit käyttää värien tasoittamiseen, eli liian tumma tai kirkas kuva tuodaan takaisin normaaliin tasoon. Tämä on sama kuin käyttäisi [Sävyala-säätöä](/valikkopalkki/saadot/savyala/) ja valitsisi &ldquo;Auto&rdquo;-komennon. Tämän säädön käytön jälkeen, jota ei voi muokata, kuva näyttää tältä:",
 			"id": "auto",
 			"name": "Automaattinen taso",
@@ -45,9 +46,30 @@
 			]
 		},
 		{
-			"content": "Tämän säädön avulla voi säätää kuvan käyriä. Lisää tästä [täällä](/valikkopalkki/saadot/kayrat/).",
+			"content": "Tämän säädön avulla voi säätää kohokohtia ja varjoja.",
+			"id": "kohokohdat",
+			"name": "Kohokohdat / varjot",
+			"figure": [{
+				"alt": "Mustavalkoinen",
+				"caption": "Alkuperäinen kuva joka on käsitelty",
+				"class": "border saadot",
+				"src": "/img/kohokohta.webp"
+			}]
+		},
+		{
+			"content": "Tämän säädön avulla voi säätää kuvan käyriä. Lisää tästä [täällä]({{% relref kayrat.md %}}).",
 			"id": "kayrat",
 			"name": "Käyrät"
+		},
+		{
+			"content": "Kuvan läpinäkyvyys käännetään. Täysin läpinäkyvistä pikseleistä tulee näkyviä ja näkyvät pikselit muuttuvat läpinäkyviksi.",
+			"id": "kaanteinen",
+			"name": "Käänteinen alfa"
+		},
+		{
+			"content": "Tämän säädön avulla voi säätää kuvan lämpötilaa ja sävyä. Lisää tästä [täällä]().",
+			"id": "lampotila",
+			"name": "Lämpötila / sävy"
 		},
 		{
 			"content": "Tämä säätö poistaa kaikki värit, tehden tasosta mustavalkoisen.",
@@ -94,9 +116,27 @@
 			}]
 		},
 		{
-			"content": "Tätä säätöä käytetään värien alan ja kuvan gamman muokkaamiseen. Paina [tästä](/valikkopalkki/saadot/savyala/) lukeaksesi lisää.",
+			"content": "Tätä säätöä käytetään värien alan ja kuvan gamman muokkaamiseen. Paina [tästä]({{% relref savyala.md %}}) lukeaksesi lisää.",
 			"id": "savyala",
 			"name": "Sävyala"
+		},
+		{
+			"content": "Tätä säätöä käytetään valotuksen säätämiseen.",
+			"id": "valotus",
+			"name": "Valotus",
+			"figure": [{
+				"alt": "Valotus lisätty",
+				"caption": "Alkuperäinen kuvan sen jälkeen kun valotusta on lisätty",
+				"class": "border saadot",
+				"src": "/img/valotus1.webp"
+			},
+			{
+				"alt": "Valotus vähennetty",
+				"caption": "Alkuperäinen kuvan sen jälkeen kun valotusta on vähennetty",
+				"class": "border saadot",
+				"src": "/img/valotus2.webp"
+			}
+		]
 		}
 	]
 }

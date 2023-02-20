@@ -463,8 +463,7 @@ main {
 		.tabs {
 			display: flex;
 			flex-direction: row;
-			overflow: hidden;
-			overflow-x: auto;
+			flex-wrap: wrap;
 			.tab {
 				list-style: none;
 				label {
@@ -476,6 +475,7 @@ main {
 					margin-bottom: .5rem;
 					padding: .5rem;
 					vertical-align: top;
+					white-space: nowrap;
 					&:hover {
 						border-bottom-color: var(--purple);
 						color: var(--purple);
@@ -783,6 +783,11 @@ body {
     position: absolute!important;
     white-space: nowrap!important;
     width: .01em!important;
+}
+
+picture {
+	display: flex;
+	justify-content: center;
 }
 
 @media print {

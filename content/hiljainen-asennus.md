@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Hiljainen asennus"
-version = "5.0"
+version = "5.0.2"
 
 [menu.pdn]
     parent = "muuta"
@@ -36,21 +36,21 @@ lisätään automaattisesti luotavaan MSI'hin jolloin tulevia muutoksia ei tarvi
 
 ### Automaattinen asennus
 
-Halutaksesi tehdä automaattisen asennuksen, käytä /auto tai /skipConfig komentoriviparametreja josta kerromme alempana.
+Halutaksesi tehdä automaattisen asennuksen, käytä `/auto` tai `/skipConfig` komentoriviparametreja josta kerromme alempana.
 
 ### Komentorivin komennot
 
-Asennuspaketti käyttää seuraavia komentorivin komentoja, missä paint.net.{{< param version >}}.install.exe on asennusohjelma jonka latasit
+Asennuspaketti käyttää seuraavia komentorivin komentoja, missä `paint.net.{{< param version >}}.install.exe` on asennusohjelma jonka latasit
 [kotisivulta](https://www.getpaint.net):
 
-{{< esimerkki >}}paint.net.{{< param version >}}.install.exe [/skipConfig | /auto | /createMsi] [PROPERTY=VALUE]{{< /esimerkki >}}
+{{< esimerkki >}}`paint.net.{{< param version >}}.install.exe [/skipConfig | /auto | /createMsi] [PROPERTY=VALUE]`{{< /esimerkki >}}
 
 | Komento | Kuvaus |
 |-|-|
 | /skipConfig | Ohittaa asetukset ja asennuskansion. Käyttää MSI ominaisuuksia seuraavassa järjestyksessä: {{< list items="komentorivin asetukset;rekisteri HKLM\Software\paint.net;oletusasetukset" >}} |
 | /auto | Sama kuin /skipConfig, mutta ei näytä viimeistä velhon sivua joka kertoo asennuksen loppuneen. Tämä mahdollistaa täysin automaattisen asennuksen joka |ei tarvitse käyttäjän ohjeita ollenkaan. |
-| /createMsi | Tämä luo kaksi MSI pakettia työpöydälle kansioon PaintDotNetMsi. MSIt on tarkoitettu valituille OS/CPU yhdistelmille (x86 tai x64). Näitä voi käyttää julkistamiseen käyttäen AD/GPO järjestelmiä ja sisältävät jo asettamasi asetukset käyttäen PROPERTY=VALUE komentorivin komentoja (jos asetat). |
-| PROPERTY=VALUE | Asettaa MSI ominaisuuden nimeltä PROPERTY arvolla VALUE. Voit määrittää useita arvoja. Alhaalla on lista mahdollista arvoista.  {{< huom >}}Jos VALUE sisältää välilyönnin, pitää koko PROPERTY=VALUE teksti sulkea sitaatteihin. Esimerkiksi kuvitteellinen TEST ominaisuus arvolla "1 2 3", pitää käyttää "TEST=1 2 3" komentorivillä, mukaan lukien sitaatit.{{< /huom >}} |
+| /createMsi | Tämä luo kaksi MSI pakettia työpöydälle kansioon PaintDotNetMsi. MSIt on tarkoitettu valituille OS/CPU yhdistelmille (x86 tai x64). Näitä voi käyttää julkistamiseen käyttäen AD/GPO järjestelmiä ja sisältävät jo asettamasi asetukset käyttäen `PROPERTY=VALUE` komentorivin komentoja (jos asetat). |
+| PROPERTY=VALUE | Asettaa MSI ominaisuuden nimeltä PROPERTY arvolla VALUE. Voit määrittää useita arvoja. Alhaalla on lista mahdollista arvoista.  {{< huom >}}Jos `VALUE` sisältää välilyönnin, pitää koko `PROPERTY=VALUE` teksti sulkea sitaatteihin. Esimerkiksi kuvitteellinen `TEST` ominaisuus arvolla `"1 2 3"`, pitää käyttää `"TEST=1 2 3"` komentorivillä, mukaan lukien sitaatit.{{< /huom >}} |
 
 Oletusasennus tarvitsee vain että käytät /auto komentoa. Voit asettaa lisää ominaisuuksia vaihtamalla MSI ominaisuuksia, missä "1"
 asettaa sen ja "0" poistaa sen:
@@ -63,20 +63,20 @@ asettaa sen ja "0" poistaa sen:
 | JPGPNGBMPEDITOR |     1     | Asettaa oletusmuokkaajan JPG, PNG ja BMP kuville. Huomaa että tämä asettaa paint.netin "Muokkaa" komennolle muttei vaikuta normaaliin kaksoisklikkauksen toimintaan Windowsissa. |
 | TGAEDITOR |     1     | Asettaa oletusmuokkaajan TGA kuville.Huomaa että tämä asettaa paint.netin "Muokkaa" komennolle muttei vaikuta normaaliin kaksoisklikkauksen toimintaan Windowsissa. |
 | DESKTOPSHORTCUT |     1     | Luo työpöydälle paint.net pikakuvakkeen. |
-| PROGRAMSGROUP | (tyhjä) | Tämä asettaa mihinkä kansioon Käynnistä-valikon Ohjelmat ryhmään paint.netin pikakuvake luodaan. Oletuksena tämä on tyhjä jolloin pikakuvake luodaan juureen muiden pikakuvakkeiden kuten Media Player ja Internet Explorer kanssa. Tätä yleensä käytetään siirtämään paint.netin pikakuvake ryhmiin kuten "Grafiikkaohjelmat". Jos haluat sijoittaa pikakuvakkeen ryhmän sisällä olevaan ryhmään, käytä samanlaista komentoa kuin tiedostonimen kanssa. Esimerkkinä jos haluat pikakuvakkeen Grafiikka ryhmään Ohjelmat ryhmässä (esim. "Käynnistä → Kaikki ohjelmat → Ohjelmat → Grafiikka") aseta "PROGRAMSGROUP=Ohjelmat\Grafiikka". |
+| PROGRAMSGROUP | (tyhjä) | Tämä asettaa mihinkä kansioon Käynnistä-valikon Ohjelmat ryhmään paint.netin pikakuvake luodaan. Oletuksena tämä on tyhjä jolloin pikakuvake luodaan juureen muiden pikakuvakkeiden kuten Media Player ja Internet Explorer kanssa. Tätä yleensä käytetään siirtämään paint.netin pikakuvake ryhmiin kuten "Grafiikkaohjelmat". Jos haluat sijoittaa pikakuvakkeen ryhmän sisällä olevaan ryhmään, käytä samanlaista komentoa kuin tiedostonimen kanssa. Esimerkkinä jos haluat pikakuvakkeen Grafiikka ryhmään Ohjelmat ryhmässä (esim. "Käynnistä → Kaikki ohjelmat → Ohjelmat → Grafiikka") aseta `"PROGRAMSGROUP=Ohjelmat\Grafiikka"`. |
 
 ### Esimerkkejä
 
 Asentaaksesi paint.netin oletusasetuksilla, oletuskansioon ilman käyttäjän ohjeita:
 
-{{< esimerkki >}}paint.net.{{< param version >}}.install.exe /auto{{< /esimerkki >}}
+{{< esimerkki >}}`paint.net.{{< param version >}}.install.exe /auto`{{< /esimerkki >}}
 
 Asentaaksesi paint.netin kansioon D:\PDN ja ilman työpöydän pikakuvaketta:
 
-{{< esimerkki >}}paint.net.{{< param version >}}.install.exe /auto TARGETDIR=D:\PDN DESKTOPSHORTCUT=0{{< /esimerkki >}}
+{{< esimerkki >}}`paint.net.{{< param version >}}.install.exe /auto TARGETDIR=D:\PDN DESKTOPSHORTCUT=0`{{< /esimerkki >}}
 
 Asentaaksesi paint.netin kansioon E:\Grafiikka\paint.net, ja tarkistamaan betaversioita päivityksen yhteydessä.
 
-{{< huom >}}Koko TARGETDIR arvo pitää olla sitaateissa jos kansionimessä on edes yksi välilyönti!{{< /huom >}}
+{{< huom >}}Koko `TARGETDIR` arvo pitää olla sitaateissa jos kansionimessä on edes yksi välilyönti!{{< /huom >}}
 
-{{< esimerkki >}}paint.net.{{< param version >}}.install.exe /auto "TARGETDIR=E:\Grafiikka\paint.net" CHECKFORBETAS=1{{< /esimerkki >}}
+{{< esimerkki >}}`paint.net.{{< param version >}}.install.exe /auto "TARGETDIR=E:\Grafiikka\paint.net" CHECKFORBETAS=1`{{< /esimerkki >}}

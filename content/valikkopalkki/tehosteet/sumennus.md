@@ -5,7 +5,7 @@ title = "Sumennus"
 [menu.pdn]
     parent = "sehot"
     identifier = "sumennus"
-    weight = 407
+    weight = 408
 
 +++
 

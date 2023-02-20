@@ -1,5 +1,6 @@
 {
-	"tab": [{
+	"tab": [
+		{
 			"content": "Tämä tehoste näyttää samalta kuin Gauss-sumennus aluksi, mutta antaa utuisemman tai &ldquo;epätarkan&rdquo; ulkoasun kuvalle. Matiikan termeillä, se määrittää yhtenäisemmän painotuksen pikseleille kyseisen säteen sisällä.",
 			"id": "epa",
 			"name": "Epäkohdistus",

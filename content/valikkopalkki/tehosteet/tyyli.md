@@ -5,7 +5,7 @@ title = "Tyyli"
 [menu.pdn]
     parent = "sehot"
     identifier = "tyyli"
-    weight = 408
+    weight = 409
 
 +++
 

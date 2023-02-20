@@ -61,3 +61,11 @@ paint.netin käyttöliittymä on jaettu 10 alueeseen:
 
     Tämä alue on jaettu moneen osaan. Ensin vasemmalla, näkyy lyhyt ohje ja tilateksti. Seuraava on kääntämistila (jos käynnissä), kuvan
     koko ja kursorin sijainti kuvassa.
+
+1. ### Lisäikkunat, Asetukset ja Ohje
+
+    Ensimmäiset neljä ikonia mahdollistavat nopean lisäikkunoiden sijainnin palautukse ja niiden näkyvyyden vaihtamisen.
+
+    Työkalut, Historia, Tasot ja Väri
+
+    Seuraavat ikonit avaavat [asetukset]({{% relref "asetukset.md" %}}) tai [ohjeen]({{% relref "ohje.md" %}}).

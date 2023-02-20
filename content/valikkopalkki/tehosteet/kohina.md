@@ -5,7 +5,7 @@ title = "Kohina"
 [menu.pdn]
     parent = "sehot"
     identifier = "kohina"
-    weight = 405
+    weight = 406
 
 +++
 

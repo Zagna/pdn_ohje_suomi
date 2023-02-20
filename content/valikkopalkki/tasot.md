@@ -30,6 +30,10 @@ Komennot tässä valikossa vaikuttavat vain aktiiviseen tasoon, joka näkyy Taso
 
     Tämä ottaa valitun tason ja yhdistää sen alla olevaan tasoon.
 
+* ### Vaihda tason näkyvyys
+
+    Tämä ottaa vaihtaa nykyisen tason näkyvyyden.
+
 * ### Tuo tiedostosta
 
     Tämän avulla voit tuoda yhden tai enemmän kuvia jotka tuodaan yhtenä tai useampana tasona.
@@ -38,9 +42,21 @@ Komennot tässä valikossa vaikuttavat vain aktiiviseen tasoon, joka näkyy Taso
 
     Näiden valintojen avulla voit kääntää aktiivisen tason joko pysty- tai vaakatasossa.
 
-* ### [Pyöritä / Lähennä]({{% relref "/valikkopalkki/tasot/pyorita" %}})
+* ### Kierrä 180°
+
+    Tämän avulla voit kiertää kuvan ympäri puoleksi.
+
+* ### [Kierrä / Lähennä]({{% relref "/valikkopalkki/tasot/kierra" %}})
 
     Tämän komennon avulla voit pyörittää ja panoroida kaikissa kolmessa ulottuvuudessa.
+
+* ### Siirry tasoon
+
+    Näiden avulla voit vaihtaa pikaisesti ylimpään, ylempään, alempaan tai alimpaan tasoon.
+
+* ### Siirrä taso
+
+    Näiden avulla voit siirtä tason pikaisesti ylimmäksi, ylös, alas tai alimmaksi tasoksi.
 
 * ### Tason ominaisuudet
 

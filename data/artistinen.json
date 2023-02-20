@@ -1,5 +1,6 @@
 {
-	"tab": [{
+	"tab": [
+		{
 			"content": "Tätä tehostetta voit käyttää saadaksesi kuvan näyttämään kuin se olisi piirretty kynällä.",
 			"id": "luonnos",
 			"name": "Luonnos",

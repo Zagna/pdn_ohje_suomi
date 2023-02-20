@@ -5,7 +5,7 @@ title = "Renderointi"
 [menu.pdn]
     parent = "sehot"
     identifier = "render"
-    weight = 406
+    weight = 407
 
 +++
 

@@ -1,0 +1,22 @@
+{
+	"tab": [
+		{
+			"content": "Tämä tehoste lisää läpinäkyvällä tasolla olevalle objektille varjon. Kuva on kopioitu omalle tasolle ja sen jälkeen lumi on poistettu ja varjo käytetty pelkälle koiralle.",
+			"id": "varjo",
+			"name": "Varjo",
+			"figure": [{
+					"alt": "Alkuperäinen",
+					"caption": "Alkuperäinen",
+					"class": "border",
+					"src": "/img/tehoste.webp"
+				},
+				{
+					"alt": "Jälkeen",
+					"caption": "Jälkeen",
+					"class": "border",
+					"src": "/img/varjo.webp"
+				}
+			]
+		}
+	]
+}

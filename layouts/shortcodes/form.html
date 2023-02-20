@@ -1,15 +1,6 @@
-
-<form name="Palaute" method="POST" action="https://formsubmit.co/9353b7cea5d122da700651815089f7ba" enctype="application/x-www-form-urlencoded">
-    <fieldset>
-        <label class="label" for="palaute-nimi">Nimi</label>
-        <input id="palaute-nimi" name="Nimi" class="input" type="text" placeholder="Nimi">
-        <label class="label" for="palaute-email">Sähköposti</label>
-        <input id="palaute-email" name="Sähkoposti" class="input" type="text" placeholder="Sähköposti">
-        <label class="label" for="palaute-text">Palaute</label>
-        <textarea id="palaute-text" name="Palaute" rows="5" class="textarea" placeholder="Palaute"></textarea>
-        <button type="submit">Lähetä palaute</button>
-        <input type="hidden" name="_next" value="{{ ref . "kiitos.md" | absURL }}">
-        <input type="hidden" name="_subject" value="Palaute">
-        <input type="hidden" name="_url" value="{{ .Page.Permalink | absURL }}">
-    </fieldset>
-</form>
+<style>
+    h2#palaute {
+        display: none;
+    }
+</style>
+<iframe style="border:none;width:100%;" height="600px" src="https://opnform.com/forms/palaute"></iframe>

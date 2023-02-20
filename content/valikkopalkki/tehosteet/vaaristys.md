@@ -5,7 +5,7 @@ title = "Vääristys"
 [menu.pdn]
     parent = "sehot"
     identifier = "vaaris"
-    weight = 410
+    weight = 412
 
 +++
 

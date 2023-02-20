@@ -1,5 +1,6 @@
 {
-	"tab": [{
+	"tab": [
+		{
 			"content": "Siirrä vasemmalla hiiren napilla missä muualla *paitsi* nupissa siirtääksesi valintaa.",
 			"id": "siirra",
 			"name": "Siirrä",

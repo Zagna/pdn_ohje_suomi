@@ -24,4 +24,4 @@ ARM64 on tuettu natiivisti versiosta 4.3 alkaen.
 
 Laitteistopohjainen kiihdytys (GPU) Direct2D:n avulla on tuettu. Tämä parantaa suorituskykyä joillain järjestelmillä.
 
-Jos näet virheitä kuvien näytössä, on suositeltavaa poistaa se käytöstä ({{< tool "tools" >}}[Asetukset &rarr; Käyttöliittymä]({{% relref "asetukset" %}})).
+Jos näet virheitä kuvien näytössä, on suositeltavaa poistaa se käytöstä ({{< tool "tools" >}}[Asetukset &rarr; Grafiikka]({{% relref "asetukset" %}})).
