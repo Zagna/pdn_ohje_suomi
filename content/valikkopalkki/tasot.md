@@ -46,7 +46,7 @@ Komennot tässä valikossa vaikuttavat vain aktiiviseen tasoon, joka näkyy Taso
 
     Tämän avulla voit kiertää kuvan ympäri puoleksi.
 
-* ### [Kierrä / Lähennä]({{% relref "/valikkopalkki/tasot/kierra" %}})
+* ### [Kierrä / Lähennä]({{% relref "kierra" %}})
 
     Tämän komennon avulla voit pyörittää ja panoroida kaikissa kolmessa ulottuvuudessa.
 
@@ -63,7 +63,7 @@ Komennot tässä valikossa vaikuttavat vain aktiiviseen tasoon, joka näkyy Taso
     Tämä komento tuo valikon, jonka avulla voit määrittää, miten taso sekoittuu toisten tasojen kanssa mitkä ovat sen alla Tasoikkunan listassa.
     Voit määrittää nimen, näkyvyyden, sekoitustilan sekä peittävyyden tason.
 
-    Saatavilla on neljätoista (14) [sekoitustilaa]({{% relref "/sekoitustilat" %}}):: Normaali, Kerro, Lisäävä, Värivarjostus, Värilisävalotus,
+    Saatavilla on neljätoista (14) [sekoitustilaa]({{% relref "sekoitustilat" %}}):: Normaali, Kerro, Lisäävä, Värivarjostus, Värilisävalotus,
     Peilattu, Hehku, Sulauttava, Negatiivi, Erottava, Näyttö, Kevennä, Tummenna ja Xor.
 
     Peittävyyttä voi hallita liukuohjaimen avulla.

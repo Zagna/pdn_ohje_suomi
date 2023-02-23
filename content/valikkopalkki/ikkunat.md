@@ -15,16 +15,16 @@ Näillä komennoilla voit piilottaa ja näyttää kelluvat työkaluikkunat.
 
 * ### Työkalut
 
-    Tämä asettaa [Työkaluikkunan]({{% relref "/tyokaluikkuna.md" %}}) on näkyväksi.
+    Tämä asettaa [Työkaluikkunan]({{% relref "tyokaluikkuna" %}}) on näkyväksi.
 
 * ### Historia
 
-    Tämä asettaa [Historiaikkunan]({{% relref "/historiaikkuna" %}}) on näkyväksi.
+    Tämä asettaa [Historiaikkunan]({{% relref "historiaikkuna" %}}) on näkyväksi.
 
 * ### Tasot
 
-    Tämä asettaa [Tasoikkunan]({{% relref "/tasoikkuna" %}}) on näkyväksi.
+    Tämä asettaa [Tasoikkunan]({{% relref "tasoikkuna" %}}) on näkyväksi.
 
 * ### Värit
 
-    Tämä asettaa [Väri-ikkunan]({{% relref "/vari-ikkuna" %}}) on näkyväksi.
+    Tämä asettaa [Väri-ikkunan]({{% relref "vari-ikkuna" %}}) on näkyväksi.

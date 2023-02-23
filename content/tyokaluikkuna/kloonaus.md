@@ -14,7 +14,7 @@ Tämä työkalu on hyödyllinen alueiden kopiointiin tasolta toiselle tai samall
 
 {{< huom >}}Käyttääksesi kloonausta, pitää ensin valita kopioitava alue klikkaamalla aluetta kuvassa samalla painaen Ctrl-näppäintä. Voit myös valita uuden lähdealueen tekemällä tämän uudestaan.{{< /huom >}}
 
-Voit vaihtaa kloonattavan alueen kokoa ja kovuutta vaihtamalla kyseisiä asetuksia [työkalupalkissa]({{% relref "/tyokalupalkki" %}}).
+Voit vaihtaa kloonattavan alueen kokoa ja kovuutta vaihtamalla kyseisiä asetuksia [työkalupalkissa]({{% relref "tyokalupalkki" %}}).
 
 Alla olevassa kuvassa, osa appelsiinista on kloonattu omenan päälle. Kun piirrät, ympyrä ilmoittaa mistä alueesta kopioit.
 

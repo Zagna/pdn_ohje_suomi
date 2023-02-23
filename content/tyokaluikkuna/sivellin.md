@@ -10,7 +10,7 @@ tooltip = "paintbrush"
 
 +++
 
-Tämä on yksi tärkeimmistä piirtotyökaluista. Voit asettaa siveltimen leveyden ja täyttötyylin [työkalupalkista]({{% relref "/tyokalupalkki" %}}).
+Tämä on yksi tärkeimmistä piirtotyökaluista. Voit asettaa siveltimen leveyden ja täyttötyylin [työkalupalkista]({{% relref "tyokalupalkki" %}}).
 
 Piirtääksesi tällä työkalulla, vain klikkaa vasemmalla napilla ja siirrä hiirtä.
 

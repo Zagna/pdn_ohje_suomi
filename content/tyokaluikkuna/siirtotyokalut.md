@@ -26,7 +26,7 @@ Seuraavat työkalut käsitellään tässä osassa:
 
 Ensimmäiseksi tulee olla varma ennen kuin valitset yhden näistä työkaluista, että sinulla on aktiivinen valinta. Katso
 {{< tool "select" >}}[Valintatyökaluista]({{% relref "valintatyokalut" %}}) miten luot ja muokkaat niitä. Jokainen
-siirto, koon muutto ja pyöritys mitä teet valintaan lisätään [Historiaikkunaan]({{% relref "/historiaikkuna" %}}).
+siirto, koon muutto ja pyöritys mitä teet valintaan lisätään [Historiaikkunaan]({{% relref "historiaikkuna" %}}).
 
 Kun valitset siirtotyökalun, useita kahvoja, tai nuppeja, ilmestyy valinnan reunoihin ja nurkkiin, esimerkkinä:
 

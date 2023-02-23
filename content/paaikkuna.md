@@ -17,7 +17,7 @@ paint.netin käyttöliittymä on jaettu 10 alueeseen:
 
     Tämä kertoo auki olevan kuvan nimen, tämän hetkisen suurennuksen määrän ja paint.netin versionumeron.
 
-1. ### [Valikkopalkki]({{% relref "valikkopalkki.md" %}})
+1. ### [Valikkopalkki]({{% relref "valikkopalkki" %}})
 
     Tämän avulla pystyt käyttämään erinäisiä valikoiden komentoja. Yleensä, komennot joita voit käyttää, esitetään **Valikko &rarr; Komento**
     tavalla. Esimerkiksi, **Tiedosto &rarr; Poistu** tarkoittaa että valitse Tiedostovalikko, ja sen jälkeen paina Poistu komentoa.
@@ -30,7 +30,7 @@ paint.netin käyttöliittymä on jaettu 10 alueeseen:
 
     Jokaisesta avatusta kuvasta näkyy pikkukuva kuvalistassa. Tämä toimii kuten välilehdet selaimessa: vain paina kuvaa valitaksesi sen.
 
-    {{< vihje >}}Uutta paint.netissä on mahdollisuus järjestää [kuvalista]({{% relref "kuvalista.md" %}}) uusiksi vetämällä ja siirtämällä. Klikkaa ja vedä pikkukuva haluamaasi kohtaan [kuvalistassa]({{% relref "kuvalista.md" %}}).{{< /vihje >}}
+    {{< vihje >}}Uutta paint.netissä on mahdollisuus järjestää [kuvalista]({{% relref "kuvalista" %}}) uusiksi vetämällä ja siirtämällä. Klikkaa ja vedä pikkukuva haluamaasi kohtaan [kuvalistassa]({{% relref "kuvalista" %}}).{{< /vihje >}}
 
 1. ### Kuvan pohja
 
@@ -38,7 +38,7 @@ paint.netin käyttöliittymä on jaettu 10 alueeseen:
 
     {{< vihje >}}Uutta paint.net 4.0.10+ on mahdollisuus vierittää kuvan reunaa ikkunan reunan yli. Tarkista [näyttötyökalut]({{% relref "nayton-tyokalut" %}}).{{< /vihje >}}
 
-1. ### [Työkaluikkuna]({{% relref "tyokaluikkuna.md" %}})
+1. ### [Työkaluikkuna]({{% relref "tyokaluikkuna" %}})
 
     Tässä aktiivinen työkalu on korostettu, ja mistä voit valita muita työkaluja.
 
@@ -68,4 +68,4 @@ paint.netin käyttöliittymä on jaettu 10 alueeseen:
 
     Työkalut, Historia, Tasot ja Väri
 
-    Seuraavat ikonit avaavat [asetukset]({{% relref "asetukset.md" %}}) tai [ohjeen]({{% relref "ohje.md" %}}).
+    Seuraavat ikonit avaavat [asetukset]({{% relref "asetukset" %}}) tai [ohjeen]({{% relref "ohje" %}}).

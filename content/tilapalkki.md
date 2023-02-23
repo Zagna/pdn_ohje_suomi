@@ -27,12 +27,12 @@ Tilapalkista löydät ohjeita, työn tilan ja tietoja jotka ovat erittäin hyöd
 * ### Kuvan koko
 
     Tämä näyttää nykyisen kuvan koon. Se näyttää koon joko pikseleinä, tuumina tai senttimetreinä, riippuen minkä olet valinnut
-    [Kuvavalikossa]({{% relref "kuva" %}}) tai [Työkalupalkissa]({{% relref "/tyokalupalkki" %}}).
+    [Kuvavalikossa]({{% relref "kuva" %}}) tai [Työkalupalkissa]({{% relref "tyokalupalkki" %}}).
 
 * ### Kursorin sijainti
 
     Tämä näyttää kursorin sijainnin koordinaateilla. Se näyttää kursorin sijainnin joko pikseleinä, tuumina tai senttimetreinä, riippuen siitä
-    minkä olet valinnut [Kuvavalikossa]({{% relref "kuva" %}}) tai [Työkalupalkissa]({{% relref "/tyokalupalkki" %}}).
+    minkä olet valinnut [Kuvavalikossa]({{% relref "kuva" %}}) tai [Työkalupalkissa]({{% relref "tyokalupalkki" %}}).
 
 * ### Mittayksikkö
 
