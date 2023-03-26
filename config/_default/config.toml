@@ -8,7 +8,6 @@ enableGitInfo = true
 
 [params]
 	images = ["/pdn-some.jpg"]
-	ga4 = "G-QC4L0PSHZL"
 
 [menu]
 	[[menu.pdn]]
