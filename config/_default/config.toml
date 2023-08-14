@@ -1,7 +1,7 @@
 languageCode = "fi"
 title = "paint.net ohje"
 DefaultContentLanguage = "fi"
-disableKinds = [ "RSS", "tags", "categories", "taxonomy", "taxonomyTerm", "section", "404" ]
+disableKinds = [ "RSS", "taxonomy", "section", "404" ]
 enableRobotsTXT = true
 summaryLength = 10
 enableGitInfo = true
