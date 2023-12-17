@@ -10,7 +10,7 @@ title = "Järjestelmävaatimukset"
 +++
 
 * Windows 11
-* tai Windows 10 versio 1809 eteenpäin
+* tai Windows 10 versiosta 1809 eteenpäin
 
 Huomaa että paint.net käyttää kiintolevyä väliaikaistiedostojen tallentamiseen jotka liittyvät kumoamiseen ja toistamiseen. Tämän takia,
 kiintolevyvaatimukset riippuvat siitä mitä tehtäviä suoritat kuvalle ja kuvan koosta. Väliaikaistiedostot pakataan jos käytät NTFS

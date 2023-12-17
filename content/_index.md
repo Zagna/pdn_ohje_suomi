@@ -11,9 +11,9 @@ title = "Ominaisuudet"
 paint.net on ilmainen piirrosten ja valokuvien muokkausohjelma joka suunniteltiin käytettäviksi koneilla joilla on Windows käyttöjärjestelmä.
 Se tukee tasoja, rajatonta historiaa, tehosteita ja laajan valikoiman käytännöllisiä ja tehokkaita työkaluja.
 
-Sen kehittäminen aloitettiin vanhemman ylioppilaan suunnitteluprojektina Microsoftin valvomana ja nykyään sitä hoitaa osa alumneista jotka
-sen kanssa alun perin työskentelivät. Alun perin se oli tarkoitettu ilmaiseksi vaihtoehdoksi MS Paint -ohjelman tilalle joka tulee Windowsin
-kanssa, on se myöhemmin kasvanut tehokkaaksi työkaluksi kuvien muokkaamiseen.
+Kehitys aloitettiin yliopisto-opiskelijoiden suunnitteluprojektina Microsoftin valvomana ja nykyään sitä ylläpitää yksi alumneista joka
+sen kanssa alun perin työskenteli. paint.net alkoi ilmaisena vaihtoehtona MS Paint -ohjelmalle joka tulee Windowsin mukana,
+on se myöhemmin kasvanut tehokkaaksi työkaluksi kuvien muokkaamiseen.
 
 ### paint.netin pääominaisuuksia ovat
 

@@ -1,4 +1,4 @@
-<nav class="bar" aria-label="main navigation">
+<nav aria-label="main navigation">
 	<button aria-label="Avaa valikko" aria-expanded="false" onclick="this.classList.toggle('open')">
 		<span aria-hidden="true"></span>
 		<span aria-hidden="true"></span>
@@ -7,8 +7,8 @@
 	</button>
 	<ul>
 	{{ range $index,$element := .Site.Menus.pdn }}
-		<li class="dropdown">
-			<span id="{{ .Identifier }}" class="link">{{ .Name }}</span>
+		<li>
+			<span>{{ .Name }}</span>
 			{{ if eq .Identifier "muuta" }}
 				<ul class="right">
 			{{ else }}
@@ -16,10 +16,10 @@
 			{{ end }}
 			{{ range .Children }}
 				<li>
-					<a id="{{ .Identifier }}" href="{{ .URL }}">{{ .Name }}</a>
+					<a href="{{ .URL }}">{{ .Name }}</a>
 				</li>
 				{{ if or (or ( eq .Identifier "savyalat" ) ( eq .Identifier "protokolla" )) ( eq .Identifier "taso_seli" ) }}
-					<li class="divider" aria-hidden="true"></li>
+					<li aria-hidden="true"></li>
 				{{ end }}
 			{{ end }}
 			</ul>

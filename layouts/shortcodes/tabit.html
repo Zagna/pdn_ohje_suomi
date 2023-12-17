@@ -1,59 +1,55 @@
 
 {{ $data := index .Site.Data (.Get 0) }}
-<section class="tabs-wrapper">
-	<ul class="tabs">
+<tabs-wrapper>
+	<ul>
 		{{ range $index, $element := $data.tab }}
 			{{ if eq $index 0 }}
-				<li class="tab active"><label for="tab-toggle-{{ $index }}">{{ .name }}</label></li>
+				<li class="active"><label for="tab-toggle-{{ $index }}">{{ .name }}</label></li>
 			{{ else }}
-				<li class="tab"><label for="tab-toggle-{{ $index }}">{{ .name }}</label></li>
+				<li><label for="tab-toggle-{{ $index }}">{{ .name }}</label></li>
 			{{ end }}
 		{{ end }}
 	</ul>
-	<div class="content">
-		<ul>
-			{{ range $index, $element := $data.tab }}
-				<li>
-					{{ if eq $index 0 }}
-						<input name="tabit" type="radio" id="tab-toggle-{{ $index }}" checked>
-					{{ else }}
-						<input name="tabit" type="radio" id="tab-toggle-{{ $index }}">
-					{{ end }}
-					<div>
-					{{ with .content }}<p>{{ $.Page.RenderString . }}</p>{{ end }}
-					{{ range .figure }}
-						<figure>
-							{{ $image := resources.Get .src }}
-							{{ $convert := "" }}
-							{{ if in .src "img" }}
-								{{ $convert = $image.Resize ( printf "%dx%d jpg" $image.Width $image.Height ) }}
-							{{ else }}
-								{{ $convert = $image.Resize ( printf "%dx%d png" $image.Width $image.Height ) }}
-							{{ end }}
-							<picture>
-								<source type="image/webp" srcset="{{ $image.RelPermalink }}">
-							{{ if eq $index 0 }}
-								<img loading="eager" class="{{ .class }}" width="{{ $image.Width }}" height="{{ $image.Height }}" src="{{ $convert.RelPermalink }}" alt="{{ .alt }}">
-							{{ else }}
-								<img loading="lazy" class="{{ .class }}" width="{{ $image.Width }}" height="{{ $image.Height }}" src="{{ $convert.RelPermalink }}" alt="{{ .alt }}">
-							{{ end }}
-							</picture>
-							{{ with .caption }}
-							<figcaption>
-								<h4>{{ . }}</h4>
-							</figcaption>
-							{{ end }}
-						</figure>
-					{{ end }}
-					{{ with .vihje }}
-						<div class="tip">
-							<h3>Vihje</h3>
-							<p>{{ . }}</p>
-						</div>
-					{{ end }}
-					</div>
-				</li>
+	<tabs-content>
+		{{ range $index, $element := $data.tab }}
+			{{ if eq $index 0 }}
+				<input name="tabit" type="radio" id="tab-toggle-{{ $index }}" checked>
+			{{ else }}
+				<input name="tabit" type="radio" id="tab-toggle-{{ $index }}">
 			{{ end }}
-		</ul>
-	</div>
-</section>
+			<tab-content>
+			{{ with .content }}<p>{{ $.Page.RenderString . }}</p>{{ end }}
+			{{ range .figure }}
+				<figure>
+					{{ $image := resources.Get .src }}
+					{{ $convert := "" }}
+					{{ if in .src "img" }}
+						{{ $convert = $image.Resize ( printf "%dx%d jpg" $image.Width $image.Height ) }}
+					{{ else }}
+						{{ $convert = $image.Resize ( printf "%dx%d png" $image.Width $image.Height ) }}
+					{{ end }}
+					<picture>
+						<source type="image/webp" srcset="{{ $image.RelPermalink }}">
+					{{ if eq $index 0 }}
+						<img loading="eager" class="{{ .class }}" width="{{ $image.Width }}" height="{{ $image.Height }}" src="{{ $convert.RelPermalink }}" alt="{{ .alt }}">
+					{{ else }}
+						<img loading="lazy" class="{{ .class }}" width="{{ $image.Width }}" height="{{ $image.Height }}" src="{{ $convert.RelPermalink }}" alt="{{ .alt }}">
+					{{ end }}
+					</picture>
+					{{ with .caption }}
+					<figcaption>
+						<h4>{{ . }}</h4>
+					</figcaption>
+					{{ end }}
+				</figure>
+			{{ end }}
+			{{ with .vihje }}
+				<pdn-tip>
+					<h3>Vihje</h3>
+					<p>{{ . }}</p>
+				</pdn-tip>
+			{{ end }}
+			</tab-content>
+		{{ end }}
+	</tabs-content>
+</tabs-wrapper>
