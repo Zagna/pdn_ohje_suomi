@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "paint.netin asennus"
+title = "Asennus"
 
 [menu.pdn]
     parent = "koti"

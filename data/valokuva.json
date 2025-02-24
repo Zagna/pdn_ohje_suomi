@@ -1,5 +1,6 @@
 {
-	"tab": [{
+	"tab": [
+		{
 			"content": "Tämä tehoste antaa kuvalle hehkua. Voit säätää lopputuloksen kirkkautta sekä kontrastia.",
 			"id": "hehkuv",
 			"name": "Hehku",

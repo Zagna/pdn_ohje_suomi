@@ -14,50 +14,50 @@ Suuri osa komennoista paint.netissä on helposti käytettävissä näppäimistö
 ### Yleiset pohjan hallinnat
 
 Panoroi kuvaa (ei toimi kun kirjoitat Teksti-työkalulla)
-: Pidä {{< badge >}}välilyönti{{< /badge >}} + siirrä hiirtä {{< badge2 >}}vasen nappi{{< /badge2 >}} alhaalla
+: Pidä {{< keyb >}}välilyönti{{< /keyb >}} + siirrä hiirtä {{< mouse >}}vasen nappi{{< /mouse >}} alhaalla
 
 Vieritä ylös / alas
-: {{< badge2 >}}Hiiren rulla ylös / alas{{< /badge2 >}}
+: {{< mouse >}}Hiiren rulla ylös / alas{{< /mouse >}}
 
 Vieritä vasemmalle / oikealle
-: {{< badge >}}Shift{{< /badge >}} + {{< badge2 >}}Hiiren rulla ylös / alas{{< /badge2 >}}
+: {{< keyb >}}Shift{{< /keyb >}} + {{< mouse >}}Hiiren rulla ylös / alas{{< /mouse >}}
 
 Lähennä / Loitonna
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge2 >}}Hiiren rulla{{< /badge2 >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< mouse >}}Hiiren rulla{{< /mouse >}}
 
 Poista valinta
-: {{< badge >}}Esc{{< /badge >}} tai {{< badge >}}Enter{{< /badge >}}
+: {{< keyb >}}Esc{{< /keyb >}} tai {{< keyb >}}Enter{{< /keyb >}}
 
 ### Kuvalista ja Kuvien navigointi
 
 Seuraava välilehti
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Tab{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Tab{{< /keyb >}}
 
 Edellinen välilehti
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}Tab{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}Tab{{< /keyb >}}
 
 Näytä kuvalista
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Q{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Q{{< /keyb >}}
 
 Vaihda kuvaan #, kuville 1:stä 10:en
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}#{{< /badge >}} or {{< badge >}}Alt{{< /badge >}} + {{< badge >}}#{{< /badge >}}, missä {{< badge >}}#{{< /badge >}} on 1:stä 9:in kuville 1-9, tai 0 kuvalle 10
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}#{{< /keyb >}} or {{< keyb >}}Alt{{< /keyb >}} + {{< keyb >}}#{{< /keyb >}}, missä {{< keyb >}}#{{< /keyb >}} on 1:stä 9:in kuville 1-9, tai 0 kuvalle 10
 
 Vieritä kuvalistaa
-: {{< badge2 >}}Hiiren rulla{{< /badge2 >}} (vain jos hiiren kursori on kuvalistan alueella)
+: {{< mouse >}}Hiiren rulla{{< /mouse >}} (vain jos hiiren kursori on kuvalistan alueella)
 
 ### Työkalupalkki
 
 Laske siveltimen kokoa 1
-: {{< badge >}}&#91;{{< /badge >}}
+: {{< keyb >}}&#91;{{< /keyb >}}
 
 Laske siveltimen kokoa 5
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}&#91;{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}&#91;{{< /keyb >}}
 
 Nosta siveltimen kokoa 1
-: {{< badge >}}&#93;{{< /badge >}}
+: {{< keyb >}}&#93;{{< /keyb >}}
 
 Nosta siveltimen kokoa 5
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}&#93;{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}&#93;{{< /keyb >}}
 
 ### Siirtotyökalut
 
@@ -65,392 +65,392 @@ Muuta valinnan kokoa
 : Siirrä yhtä reuna tai nurkka nuppia
 
 Muuta valinnan kokoa säilyttäen alkuperäinen suhde
-: Pidä {{< badge >}}Shift{{< /badge >}} alhaalla kun siirrät yhtä reuna tai nurkka nuppia
+: Pidä {{< keyb >}}Shift{{< /keyb >}} alhaalla kun siirrät yhtä reuna tai nurkka nuppia
 
 Muokkaa valintaa
-: Siirrä {{< badge2 >}}oikealla hiiren napilla{{< /badge2 >}} valitsemalle muu kuin nuppi
+: Siirrä {{< mouse >}}oikealla hiiren napilla{{< /mouse >}} valitsemalle muu kuin nuppi
 
 Pyöritä valintaa
-: Siirrä missä vain {{< badge2 >}}oikealla hiiren napilla{{< /badge2 >}}
+: Siirrä missä vain {{< mouse >}}oikealla hiiren napilla{{< /mouse >}}
 
 ### Valintatyökalut (paitsi Taikasauva)
 
 {{< huom >}}Kun valinta on aktiivinen, kaikki piirtäminen, ja monta muuta komentoa, piirros ja tehosteet näkyvät vain valinnan sisällä.{{< /huom >}}
 
 Luo uusi valinta, korvaten olemassa oleva vanha jos se on olemassa
-: Piirrä {{< badge2 >}}vasemmalla hiiren napilla{{< /badge2 >}}
+: Piirrä {{< mouse >}}vasemmalla hiiren napilla{{< /mouse >}}
 
 Vähennä nykyisestä valinnasta (erotus)
-: Piirrä {{< badge >}}Alt{{< /badge >}} + {{< badge2 >}}vasemmalla hiiren napilla{{< /badge2 >}}
+: Piirrä {{< keyb >}}Alt{{< /keyb >}} + {{< mouse >}}vasemmalla hiiren napilla{{< /mouse >}}
 
 Lisää nykyiseen valintaan (lisäys)
-: Piirrä {{< badge >}}Ctrl{{< /badge >}} + {{< badge2 >}}vasemmalla hiiren napilla{{< /badge2 >}}
+: Piirrä {{< keyb >}}Ctrl{{< /keyb >}} + {{< mouse >}}vasemmalla hiiren napilla{{< /mouse >}}
 
 Invertoi tietty ala valinnasta (poissulkeva)
-: Piirrä {{< badge >}}Ctrl{{< /badge >}} + {{< badge2 >}}oikealla hiiren napilla{{< /badge2 >}}
+: Piirrä {{< keyb >}}Ctrl{{< /keyb >}} + {{< mouse >}}oikealla hiiren napilla{{< /mouse >}}
 
 Leikkaus nykyisen ja uuden valinnan kanssa
-: Piirrä {{< badge >}}Alt{{< /badge >}} + {{< badge2 >}}oikealla hiiren napilla{{< /badge2 >}}
+: Piirrä {{< keyb >}}Alt{{< /keyb >}} + {{< mouse >}}oikealla hiiren napilla{{< /mouse >}}
 
 Pakota neliöön (Suorakulmainen valinta), tai ympyrään (Ellipsi valinta)
-: Piirrä {{< badge >}}Shift{{< /badge >}} pohjassa
+: Piirrä {{< keyb >}}Shift{{< /keyb >}} pohjassa
 
 Siirrä uutta valintaa kun vielä piirrät sitä
-: Kun piirrät {{< badge2 >}}vasemmalla hiiren napilla{{< /badge2 >}}, pidä {{< badge2 >}}Oikea hiiren nappi{{< /badge2 >}} pohjassa ja siirrä hiirtä
+: Kun piirrät {{< mouse >}}vasemmalla hiiren napilla{{< /mouse >}}, pidä {{< mouse >}}Oikea hiiren nappi{{< /mouse >}} pohjassa ja siirrä hiirtä
 
 Siirrä uutta valintaa kun vielä piirrät sitä
-: Kun piirrät {{< badge2 >}}oikealla hiiren napilla{{< /badge2 >}}, pidä {{< badge2 >}}Vasen hiiren nappi{{< /badge2 >}} pohjassa ja siirrä hiirtä
+: Kun piirrät {{< mouse >}}oikealla hiiren napilla{{< /mouse >}}, pidä {{< mouse >}}Vasen hiiren nappi{{< /mouse >}} pohjassa ja siirrä hiirtä
 
 ### Väri-ikkuna
 
 Vaihda edusta- ja taustaväri keskenään
-: {{< badge >}}X{{< /badge >}}
+: {{< keyb >}}X{{< /keyb >}}
 
 Vaihda aktiivinen väri alas vetolaatikossa
-: {{< badge >}}C{{< /badge >}}
+: {{< keyb >}}C{{< /keyb >}}
 
 ### Taikasauva
 
 Luo uusi valinta ympäröivistä pikseleistä jotka muistuttavat pikseliä jonka valitsit, korvaten minkä tahansa vanhan valinnan jos se on olemassa (valinta riippuu Toleranssi asetuksesta)
-: {{< badge2 >}}Vasen hiiren nappi{{< /badge >}}
+: {{< mouse >}}Vasen hiiren nappi{{< /keyb >}}
 
 Vähennä nykyisestä valinnasta (erotus)
-: {{< badge2 >}}Oikea hiiren nappi{{< /badge2 >}}
+: {{< mouse >}}Oikea hiiren nappi{{< /mouse >}}
 
 Lisää nykyiseen valintaan (lisäys)
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge2 >}}Vasen hiiren nappi{{< /badge2 >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< mouse >}}Vasen hiiren nappi{{< /mouse >}}
 
 Invertoi tietty ala valinnasta (poissulkeva)
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge2 >}}Oikea hiiren nappi{{< /badge2 >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< mouse >}}Oikea hiiren nappi{{< /mouse >}}
 
 Tee globaali valinta koko tasolle värin ja toleranssin perusteella
-: {{< badge >}}Shift{{< /badge >}} pohjassa tee jokin neljästä komennosta ylhäällä
+: {{< keyb >}}Shift{{< /keyb >}} pohjassa tee jokin neljästä komennosta ylhäällä
 
 ### Tekstityökalu
 
 Väliaikaisesti piilota kursori ja nuppi
-: Pidä {{< badge >}}Ctrl{{< /badge >}} pohjassa
+: Pidä {{< keyb >}}Ctrl{{< /keyb >}} pohjassa
 
 Aseta nupin näkyvyys
-: Napauta {{< badge >}}Ctrl{{< /badge >}}
+: Napauta {{< keyb >}}Ctrl{{< /keyb >}}
 
 Viimeistele teksti ja lisää se tasoon
-: {{< badge >}}Esc{{< /badge >}}
+: {{< keyb >}}Esc{{< /keyb >}}
 
 ### Sivellin
 
 Piirrä edustavärillä
-: Piirrä {{< badge2 >}}vasemmalla hiiren napilla{{< /badge2 >}}
+: Piirrä {{< mouse >}}vasemmalla hiiren napilla{{< /mouse >}}
 
 Piirrä taustavärillä
-: Piirrä {{< badge2 >}}oikealla hiiren napilla{{< /badge2 >}}
+: Piirrä {{< mouse >}}oikealla hiiren napilla{{< /mouse >}}
 
 ### Pyyhin
 
 Poistaa kyseisen alueen (asettaa pikselit läpinäkyviksi)
-: Piirrä joko {{< badge2 >}}vasemmalla{{< /badge2 >}} tai {{< badge2 >}}oikealla hiiren napilla{{< /badge2 >}}
+: Piirrä joko {{< mouse >}}vasemmalla{{< /mouse >}} tai {{< mouse >}}oikealla hiiren napilla{{< /mouse >}}
 
 ### Kloonaus
 
 Asettaa lähdekohdan
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge2 >}}Vasen hiiren nappi{{< /badge2 >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< mouse >}}Vasen hiiren nappi{{< /mouse >}}
 
 Kopioi pikselit (lähdekohta pitää asettaa ensin)
-: Piirrä {{< badge2 >}}vasemmalla hiiren napilla{{< /badge2 >}}
+: Piirrä {{< mouse >}}vasemmalla hiiren napilla{{< /mouse >}}
 
 ### Uudelleen väritä
 
 Valitse kursorin alla oleva väri ja aseta se edustaväriksi
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge2 >}}Vasen hiiren nappi{{< /badge2 >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< mouse >}}Vasen hiiren nappi{{< /mouse >}}
 
 Valitse kursorin alla oleva väri ja aseta se taustaväriksi
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge2 >}}Oikea hiiren nappi{{< /badge2 >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< mouse >}}Oikea hiiren nappi{{< /mouse >}}
 
 Piirrä edustavärillä, mutta vain pikseleiden päälle jotka muistuttavat taustaväriä (samankaltaisuus päätetään Toleranssi asetuksen mukaan)
-: Piirrä {{< badge2 >}}vasemmalla hiiren napilla{{< /badge2 >}}
+: Piirrä {{< mouse >}}vasemmalla hiiren napilla{{< /mouse >}}
 
 Piirrä taustavärillä, mutta vain pikseleiden päälle jotka muistuttavat edustaväriä (samankaltaisuus päätetään Toleranssi asetuksen mukaan)
-: Piirrä {{< badge2 >}}oikealla hiiren napilla{{< /badge2 >}}
+: Piirrä {{< mouse >}}oikealla hiiren napilla{{< /mouse >}}
 
 ### Täyttö
 
 Täytä ympäröivä alue edustavärillä
-: {{< badge2 >}}Vasen hiiren nappi{{< /badge2 >}}
+: {{< mouse >}}Vasen hiiren nappi{{< /mouse >}}
 
 Täytä ympäröivä alue taustavärillä
-: {{< badge2 >}}Oikea hiiren nappi{{< /badge2 >}}
+: {{< mouse >}}Oikea hiiren nappi{{< /mouse >}}
 
 Tee globaali täyttö koko tasolle värin ja toleranssin perusteella
-: {{< badge >}}Shift{{< /badge >}} pohjassa tee jokin kahdesta komennosta ylhäällä
+: {{< keyb >}}Shift{{< /keyb >}} pohjassa tee jokin kahdesta komennosta ylhäällä
 
 ### Muototyökalut
 
 Piirrä muoto. Ulkoreuna käyttää edustaväriä, sisusta taustaväriä
-: Piirrä {{< badge2 >}}vasemmalla hiiren napilla{{< /badge2 >}}
+: Piirrä {{< mouse >}}vasemmalla hiiren napilla{{< /mouse >}}
 
 Piirrä muoto. Ulkoreuna käyttää taustaväriä, sisusta edustaväriä
-: Piirrä {{< badge2 >}}vasemmalla hiiren napilla{{< /badge2 >}}
+: Piirrä {{< mouse >}}vasemmalla hiiren napilla{{< /mouse >}}
 
 Pakota neliöön (Suorakulmio), pyöreä neliö (Pyöreä suorakulmio), ympyrä (Ellipsi) tai 15&deg; kulmaan (Viiva / Kurvi)
-: Piirrä {{< badge >}}Shift{{< /badge >}} pohjassa
+: Piirrä {{< keyb >}}Shift{{< /keyb >}} pohjassa
 
 ### Viiva/Käyrä -työkalu
 
 Vaihda alun tyyliä
-: {{< badge >}},{{< /badge >}} (pilkku)
+: {{< keyb >}},{{< /keyb >}} (pilkku)
 
 Vaihda viivan tyyliä
-: {{< badge >}}.{{< /badge >}} (piste)
+: {{< keyb >}}.{{< /keyb >}} (piste)
 
 Vaihda lopun tyyliä
-: {{< badge >}}/{{< /badge >}} (kauttaviiva)
+: {{< keyb >}}/{{< /keyb >}} (kauttaviiva)
 
 ### Työkalujen pikanäppäimet
 
 {{< huom >}}Jos enemmän kuin yksi työkalu jakaa tietyn pikanäppäimen, pitää pikanäppäintä painaa monta kertaa käydäksesi läpi kaikki työkalut mitkä ovat osoitettu tietylle pikanäppäimelle.{{< /huom >}}
 
 Suorakulmainen valinta
-: {{< badge >}}S{{< /badge >}}
+: {{< keyb >}}S{{< /keyb >}}
 
 Lassovalinta
-: {{< badge >}}S{{< /badge >}}
+: {{< keyb >}}S{{< /keyb >}}
 
 Ellipsi valinta
-: {{< badge >}}S{{< /badge >}}
+: {{< keyb >}}S{{< /keyb >}}
 
 Taikasauva
-: {{< badge >}}S{{< /badge >}}
+: {{< keyb >}}S{{< /keyb >}}
 
 Siirrä valintaa
-: {{< badge >}}M{{< /badge >}}
+: {{< keyb >}}M{{< /keyb >}}
 
 Muokkaa valintaa
-: {{< badge >}}M{{< /badge >}}
+: {{< keyb >}}M{{< /keyb >}}
 
 Suurennuskerroin
-: {{< badge >}}Z{{< /badge >}}
+: {{< keyb >}}Z{{< /keyb >}}
 
 Panoroi ("käsi")
-: {{< badge >}}H{{< /badge >}}
+: {{< keyb >}}H{{< /keyb >}}
 
 Täyttö
-: {{< badge >}}F{{< /badge >}}
+: {{< keyb >}}F{{< /keyb >}}
 
 Väriliukuma
-: {{< badge >}}G{{< /badge >}}
+: {{< keyb >}}G{{< /keyb >}}
 
 Sivellin
-: {{< badge >}}B{{< /badge >}}
+: {{< keyb >}}B{{< /keyb >}}
 
 Pyyhin
-: {{< badge >}}E{{< /badge >}}
+: {{< keyb >}}E{{< /keyb >}}
 
 Kynä
-: {{< badge >}}P{{< /badge >}}
+: {{< keyb >}}P{{< /keyb >}}
 
 Väripoiminta
-: {{< badge >}}P{{< /badge >}}
+: {{< keyb >}}P{{< /keyb >}}
 
 Kloonaus
-: {{< badge >}}L{{< /badge >}}
+: {{< keyb >}}L{{< /keyb >}}
 
 Uudelleen väritä
-: {{< badge >}}R{{< /badge >}}
+: {{< keyb >}}R{{< /keyb >}}
 
 Teksti
-: {{< badge >}}T{{< /badge >}}
+: {{< keyb >}}T{{< /keyb >}}
 
 Viiva / Kurvi
-: {{< badge >}}O{{< /badge >}}
+: {{< keyb >}}O{{< /keyb >}}
 
 Suorakulmio
-: {{< badge >}}O{{< /badge >}}
+: {{< keyb >}}O{{< /keyb >}}
 
 Pyöreä suorakulmio
-: {{< badge >}}O{{< /badge >}}
+: {{< keyb >}}O{{< /keyb >}}
 
 Ellipsi
-: {{< badge >}}O{{< /badge >}}
+: {{< keyb >}}O{{< /keyb >}}
 
 Vapaa muoto
-: {{< badge >}}O{{< /badge >}}
+: {{< keyb >}}O{{< /keyb >}}
 
 ### Tiedosto
 
 Uusi
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}N{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}N{{< /keyb >}}
 
 Avaa
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}O{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}O{{< /keyb >}}
 
 Sulje
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}W{{< /badge >}}, tai {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}F4{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}W{{< /keyb >}}, tai {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}F4{{< /keyb >}}
 
 Tallenna
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}S{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}S{{< /keyb >}}
 
 Tallenna nimellä
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}S{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}S{{< /keyb >}}
 
 Tulosta
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}P{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}P{{< /keyb >}}
 
 Poistu
-: {{< badge >}}Alt{{< /badge >}} + {{< badge >}}F4{{< /badge >}}, tai {{< badge >}}Alt{{< /badge >}} + {{< badge >}}F{{< /badge >}} ja {{< badge >}}X{{< /badge >}}, tai {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}W{{< /badge >}} kun kuvia ei ole auki
+: {{< keyb >}}Alt{{< /keyb >}} + {{< keyb >}}F4{{< /keyb >}}, tai {{< keyb >}}Alt{{< /keyb >}} + {{< keyb >}}F{{< /keyb >}} ja {{< keyb >}}X{{< /keyb >}}, tai {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}W{{< /keyb >}} kun kuvia ei ole auki
 
 ### Muokkaa
 
 Kumoa
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Z{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Z{{< /keyb >}}
 
 Uudelleen
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Y{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Y{{< /keyb >}}
 
 Leikkaa
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}X{{< /badge >}}, tai {{< badge >}}Shift{{< /badge >}} + {{< badge >}}Delete{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}X{{< /keyb >}}, tai {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}Delete{{< /keyb >}}
 
 Kopioi
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}C{{< /badge >}}, tai {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Insert{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}C{{< /keyb >}}, tai {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Insert{{< /keyb >}}
 
 Liitä
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}V{{< /badge >}}, tai {{< badge >}}Shift{{< /badge >}} + {{< badge >}}Insert{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}V{{< /keyb >}}, tai {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}Insert{{< /keyb >}}
 
 Liitä uuteen tasoon
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}V{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}V{{< /keyb >}}
 
 Liitä uuteen kuvaan
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Alt{{< /badge >}} + {{< badge >}}V{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Alt{{< /keyb >}} + {{< keyb >}}V{{< /keyb >}}
 
 Poista valittu alue
-: {{< badge >}}Delete{{< /badge >}}
+: {{< keyb >}}Delete{{< /keyb >}}
 
 Täytä valittu alue
-: {{< badge >}}Backspace{{< /badge >}}
+: {{< keyb >}}Backspace{{< /keyb >}}
 
 Käännä valinta
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}I{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}I{{< /keyb >}}
 
 Valitse kaikki
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}A{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}A{{< /keyb >}}
 
 Poista valinta
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}D{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}D{{< /keyb >}}
 
 ### Kuva
 
 Rajaa valintaan
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}X{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}X{{< /keyb >}}
 
 Muuta kokoa
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}R{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}R{{< /keyb >}}
 
 Pohjan koko
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}R{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}R{{< /keyb >}}
 
 Pyöritä 90&deg; (myötäpäivään)
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}G{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}G{{< /keyb >}}
 
 Pyöritä 90&deg; (vastapäivään)
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}H{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}H{{< /keyb >}}
 
 Pyöritä 180&deg;
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}J{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}J{{< /keyb >}}
 
 Yhdistä tasot
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}F{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}F{{< /keyb >}}
 
 ### Tasot
 
 Lisää uusi taso
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}N{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}N{{< /keyb >}}
 
 Poista taso
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}Delete{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}Delete{{< /keyb >}}
 
 Kahdenna taso
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}D{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}D{{< /keyb >}}
 
 Yhdistä taso alas
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}M{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}M{{< /keyb >}}
 
 Pyöritä / Lähennä
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}Z{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}Z{{< /keyb >}}
 
 Tason ominaisuudet
-: {{< badge >}}F4{{< /badge >}}
+: {{< keyb >}}F4{{< /keyb >}}
 
 ### Säädöt
 
 Automaattinen taso
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}L{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}L{{< /keyb >}}
 
 Kirkkaus / Kontrasti
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}C{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}C{{< /keyb >}}
 
 Käyrät
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}M{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}M{{< /keyb >}}
 
 Mustavalkoinen
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}G{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}G{{< /keyb >}}
 
 Sävy / Värikylläisyys
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}U{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}U{{< /keyb >}}
 
 Invertoi värit
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}I{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}I{{< /keyb >}}
 
 Sävyala
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}L{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}L{{< /keyb >}}
 
 Seepia
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}P{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}P{{< /keyb >}}
 
 ### Tehosteet
 
 Toista viimeisin tehoste
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}F{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}F{{< /keyb >}}
 
 ### Näytä
 
 Lähennä sisään
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}+{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}+{{< /keyb >}}
 
 Loitonna ulos
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}-{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}-{{< /keyb >}}
 
 Lähennä ikkunaan
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}B{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}B{{< /keyb >}}
 
 Lähennä valintaan
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}B{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}B{{< /keyb >}}
 
 Oikea koko
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}A{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}A{{< /keyb >}}
 
 ### Ikkuna
 
 Työkalut (aseta näkyvyys)
-: {{< badge >}}F5{{< /badge >}}
+: {{< keyb >}}F5{{< /keyb >}}
 
 Historia (aseta näkyvyys)
-: {{< badge >}}F6{{< /badge >}}
+: {{< keyb >}}F6{{< /keyb >}}
 
 Tasot (aseta näkyvyys)
-: {{< badge >}}F7{{< /badge >}}
+: {{< keyb >}}F7{{< /keyb >}}
 
 Värit (aseta näkyvyys)
-: {{< badge >}}F8{{< /badge >}}
+: {{< keyb >}}F8{{< /keyb >}}
 
 Näytä kuvalista
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Q{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Q{{< /keyb >}}
 
 Seuraava välilehti
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Tab{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Tab{{< /keyb >}}
 
 Edellinen välilehti
-: {{< badge >}}Ctrl{{< /badge >}} + {{< badge >}}Shift{{< /badge >}} + {{< badge >}}Tab{{< /badge >}}
+: {{< keyb >}}Ctrl{{< /keyb >}} + {{< keyb >}}Shift{{< /keyb >}} + {{< keyb >}}Tab{{< /keyb >}}
 
 ### Ohje
 
 Sisältö
-: {{< badge >}}F1{{< /badge >}}
+: {{< keyb >}}F1{{< /keyb >}}

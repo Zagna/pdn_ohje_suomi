@@ -3,12 +3,11 @@
 <meta name="language" content="fi">
 <meta name="author" content="Jarno Ruokamo">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{{ if .Site.IsServer }}
-	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS | resources.Fingerprint }}
+{{ if hugo.IsServer }}
+	{{ $style := resources.Get "scss/style.scss" | css.Sass | resources.Fingerprint }}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 {{ else }}
-	{{ $style := resources.Get "scss/style.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.Fingerprint }}
-	<link rel="preconnect" href="https://zagna.goatcounter.com">
+	{{ $style := resources.Get "scss/style.scss" | css.Sass (dict "outputStyle" "compressed") | resources.Fingerprint }}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 {{ end }}
 {{ $fav2 := resources.Get "png/favicon.webp" }}

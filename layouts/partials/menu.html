@@ -5,14 +5,14 @@
 		<span aria-hidden="true"></span>
 		<span class="sr">Avaa valikko</span>
 	</button>
-	<ul>
+	<menu>
 	{{ range $index,$element := .Site.Menus.pdn }}
 		<li>
 			<span>{{ .Name }}</span>
 			{{ if eq .Identifier "muuta" }}
-				<ul class="right">
+				<menu class="right">
 			{{ else }}
-				<ul>
+				<menu>
 			{{ end }}
 			{{ range .Children }}
 				<li>
@@ -22,8 +22,8 @@
 					<li aria-hidden="true"></li>
 				{{ end }}
 			{{ end }}
-			</ul>
+			</menu>
 		</li>
 	{{ end }}
-	</ul>
+	</menu>
 </nav>

@@ -1,7 +1,7 @@
 <body>
 	{{ partialCached "hero.html" . }}
 	<main>
-		<h2 id="{{ .Title | urlize }}">{{ .Title }}{{ if .Params.tooltip }} <span class="tool {{ .Params.tooltip }}"></span>{{ end }}</h2>
+		<h2 id="{{ .Title | urlize }}">{{ .Title }}{{ if .Params.tooltip }} <pdn-tool class="{{ .Params.tooltip }}" />{{ end }}</h2>
 		{{ .Content }}
 	</main>
 	{{ partialCached "footer.html" . }}
