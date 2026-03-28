@@ -6,7 +6,7 @@
 			{{ $png2 := $fav2.Resize "96x96 png" }}
 			{{ $png := $fav2.Resize "48x48 png" }}
 			<source type="image/webp" srcset="{{ $fav.RelPermalink }}, {{ $fav2.RelPermalink }} 2x">
-			<img loading="eager" id="favicon" src="{{ $png.RelPermalink }}" srcset="{{ $png2.RelPermalink }} 2x" alt="paint.net logo" width="{{ $fav.Width }}" height="{{ $fav.Height }}" />
+			<img loading="eager" id="favicon" src="{{ $png.RelPermalink }}" srcset="{{ $png2.RelPermalink }} 2x" alt="paint.net logo" width="{{ $fav.Width }}" height="{{ $fav.Height }}">
 		</picture>
 		<h1>paint.net ohje</h1>
 	</a>

@@ -1,17 +1,17 @@
 <head>
 	{{ partialCached "header.html" . }}
-	<link rel="canonical" href="{{ .Permalink }}" />
-	<meta property="og:url" content="{{ .Permalink }}" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="{{ .Title }}" />
-	<meta property="og:description" content="{{ .Summary }}" />
-	<meta name="description" content="{{ .Summary }}" />
+	<link rel="canonical" href="{{ .Permalink }}">
+	<meta property="og:url" content="{{ .Permalink }}">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="{{ .Title }}">
+	<meta property="og:description" content="{{ .Summary }}">
+	<meta name="description" content="{{ .Summary }}">
 	{{- with $.Site.Params.images -}}
-	<meta property="og:image" content="{{ index . 0 | absURL }}"/>
+	<meta property="og:image" content="{{ index . 0 | absURL }}">
 	{{ end }}
 	{{ if .Params.noindex }}
-	<meta name="robots" content="noindex" /> 
+	<meta name="robots" content="noindex"> 
 	{{ end }}
-	<meta property="article:modified_time" {{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | printf "content=%q" | safeHTMLAttr }} />
+	<meta property="article:modified_time" {{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | printf "content=%q" | safeHTMLAttr }}>
 	<title>{{ .Title }} &middot; {{ .Site.Title }}</title>
 </head>
