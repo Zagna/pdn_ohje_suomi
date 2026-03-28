@@ -162,7 +162,16 @@ nav {
 		}
 	}
 	& input {
-		display: none;
+		position: absolute;
+		height: 0;
+		width: 0;
+		margin: 0;
+		padding: 0;
+		&:focus {
+			~ label span {
+				outline: 1px solid var(--purple);
+			}
+		}
 	}
 	@media screen and (max-width: 1024px) {
 		display: block;
@@ -251,13 +260,23 @@ header {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	background-image: url(/img/imagebar_720.webp);;
+	background-image: url(/img/imagebar_720.jpg);
 
 	@media screen and (min-width: 720px) {
-		background-image: url(/img/imagebar_1200.webp);;
+		background-image: url(/img/imagebar_1200.jpg);
 	}
 	@media screen and (min-width: 1200px) {
-		background-image: url(/img/imagebar.webp);
+		background-image: url(/img/imagebar.jpg);
+	}
+	@supports(background-image: url(/img/imagebar_720.webp)) {
+		background-image: url(/img/imagebar_720.webp);
+
+		@media screen and (min-width: 720px) {
+			background-image: url(/img/imagebar_1200.webp);
+		}
+		@media screen and (min-width: 1200px) {
+			background-image: url(/img/imagebar.webp);
+		}
 	}
 
 	background-position: center;
@@ -524,14 +543,20 @@ main {
 		margin: 0 3px;
 		display: inline-block;
 		background-repeat: no-repeat;
-		background-image: url(/img/tool_sprite.webp);
 		width: 16px;
 		height: 16px;
 		filter: drop-shadow(0 0 1px var(--grey));
-		
+		background-image: url(/img/tool_sprite.png);
 		@media (min-resolution: 144dpi) {
-			background-image: url(/img/tool_sprite@2x.webp);
+			background-image: url(/img/tool_sprite@2x.png);
 			background-size: 41px 336px;
+		}
+
+		@supports(background-image: url(/img/tool_sprite.webp)) {
+			background-image: url(/img/tool_sprite.webp);
+			@media (min-resolution: 144dpi) {
+				background-image: url(/img/tool_sprite@2x.webp);
+			}
 		}
 		
 		&.clonestamp {
@@ -699,59 +724,32 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	text-align: center;
 	& a {
 		color: var(--text-color);
 	}
 }
 
 img[alt="Pääikkuna"] {
-	background-image: url(/img/main_annotation_w.webp);
-}
-img[alt="Työkalut"] {
-	background-image: url(/img/tool_annotation_w.webp);
-}
-
-body {
-	&.no-webp {
-		& header {
-			background-image: url(/img/imagebar_720.jpg);
-	
-			@media screen and (min-width: 720px) {
-				background-image: url(/img/imagebar_1200.jpg);
-			}
-			@media screen and (min-width: 1200px) {
-				background-image: url(/img/imagebar.jpg);
-			}
-		}
-		& main {
-			& pdn-tool {
-				background-image: url(/img/tool_sprite.png);
-				
-				@media (min-resolution: 144dpi) {
-					background-image: url(/img/tool_sprite@2x.png);
-				}
-			}
-		}
-		& img[alt="Pääikkuna"] {
-			background-image: url(/img/main_annotation_w.png);
-		}
-		& img[alt="Työkalut"] {
-			background-image: url(/img/tool_annotation_w.png);
-		}
-		@media (prefers-color-scheme: light) {
-			& img[alt="Pääikkuna"] {
-				background-image: url(/img/main_annotation.png);
-			}
-			& img[alt="Työkalut"] {
-				background-image: url(/img/tool_annotation.png);
-			}
-		}
-	}
+	background-image: url(/img/main_annotation_w.png);
 	@media (prefers-color-scheme: light) {
-		& img[alt="Pääikkuna"] {
+		background-image: url(/img/main_annotation.png);
+	}
+	@supports(background-image: url(/img/main_annotation.webp)) {
+		background-image: url(/img/main_annotation_w.webp);
+		@media (prefers-color-scheme: light) {
 			background-image: url(/img/main_annotation.webp);
 		}
-		& img[alt="Työkalut"] {
+	}
+}
+img[alt="Työkalut"] {
+	background-image: url(/img/tool_annotation_w.png);
+	@media (prefers-color-scheme: light) {
+		background-image: url(/img/tool_annotation.png);
+	}
+	@supports(background-image: url(/img/tool_annotation.webp)) {
+		background-image: url(/img/tool_annotation_w.webp);
+		@media (prefers-color-scheme: light) {
 			background-image: url(/img/tool_annotation.webp);
 		}
 	}
