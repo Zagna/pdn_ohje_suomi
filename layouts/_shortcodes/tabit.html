@@ -21,7 +21,7 @@
 			{{ with .content }}<p>{{ $.Page.RenderString . }}</p>{{ end }}
 			{{ range .figure }}
 				<figure>
-					{{ $image := resources.Get .src }}
+					{{ $image := resources.Get .src | resources.Fingerprint }}
 					{{ $convert := "" }}
 					{{ if in .src "img" }}
 						{{ $convert = $image.Resize ( printf "%dx%d jpg" $image.Width $image.Height ) }}

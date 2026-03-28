@@ -1,7 +1,7 @@
 <header>
 	<a href="{{ .Site.BaseURL }}">
 		<picture>
-			{{ $fav2 := resources.Get "png/favicon.webp" }}
+			{{ $fav2 := resources.Get "png/favicon.webp" | resources.Fingerprint }}
 			{{ $fav := $fav2.Resize "48x48" }}
 			{{ $png2 := $fav2.Resize "96x96 png" }}
 			{{ $png := $fav2.Resize "48x48 png" }}
