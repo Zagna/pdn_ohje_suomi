@@ -32,7 +32,7 @@
 {{ $png := $fav2.Resize "48x48 png" | resources.Fingerprint }}
 <link rel="icon" href="{{ $png.RelPermalink }}" type="image/png">
 <link rel="icon" href="{{ $fav.RelPermalink }}" type="image/webp">
-<link rel="preload" fetchpriority="high" href="/fonts/Rubik.woff2" as="font" type="font/woff2">
+<link rel="preload" fetchpriority="high" href="/fonts/Rubik.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" media="(max-width: 719px)" fetchpriority="high" as="image" type="image/webp" href="{{ ($imagebar_720 | resources.Fingerprint ).RelPermalink }}">
 <link rel="preload" media="(min-width: 720px and max-width: 1199px)" fetchpriority="high" as="image" type="image/webp" href="{{ ($imagebar_1200 | resources.Fingerprint ).RelPermalink }}">
 <link rel="preload" media="(min-width: 1200px)" fetchpriority="high" as="image" type="image/webp" href="{{ ($imagebar_2000 | resources.Fingerprint ).RelPermalink }}">
