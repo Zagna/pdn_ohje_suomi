@@ -1,12 +1,14 @@
 <nav aria-label="main navigation">
-	<button aria-label="Avaa valikko" aria-expanded="false" onclick="this.classList.toggle('open')">
+	<input type="checkbox" id="valikko" class />
+	<label aria-label="Avaa valikko" aria-expanded="false" for="valikko">
 		<span aria-hidden="true"></span>
 		<span aria-hidden="true"></span>
 		<span aria-hidden="true"></span>
 		<span class="sr">Avaa valikko</span>
-	</button>
+	</label>
 	<menu>
-	{{ range $index,$element := .Site.Menus.pdn }}
+	{{ $page := . }}
+	{{ range .Site.Menus.pdn }}
 		<li>
 			<span>{{ .Name }}</span>
 			{{ if eq .Identifier "muuta" }}
@@ -15,8 +17,16 @@
 				<menu>
 			{{ end }}
 			{{ range .Children }}
-				<li>
-					<a href="{{ .URL }}">{{ .Name }}</a>
+				{{ if $page.IsMenuCurrent .Menu . }}
+					<li class="active">
+				{{ else }}
+					<li>
+				{{ end }}
+					{{ if $page.IsMenuCurrent .Menu . }}
+						<a aria-current="page" href="{{ .URL }}">{{ .Name }}</a>
+					{{ else }}
+						<a href="{{ .URL }}">{{ .Name }}</a>
+					{{ end }}
 				</li>
 				{{ if or (or ( eq .Identifier "savyalat" ) ( eq .Identifier "protokolla" )) ( eq .Identifier "taso_seli" ) }}
 					<li aria-hidden="true"></li>

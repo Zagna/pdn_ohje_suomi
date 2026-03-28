@@ -1,7 +1,7 @@
 
 <figure>
 	{{ range split (.Get "src") ";" }}
-		{{ $image := resources.Get . }}
+		{{ $image := resources.Get . | fingerprint }}
 		{{ $convert := "" }}
 		{{ if in . "img" }}
 			{{ $convert = $image.Resize ( printf "%dx%d jpg" $image.Width $image.Height ) }}

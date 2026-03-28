@@ -1,36 +1,5 @@
 @charset "utf-8";
 
-//urls
-$palkki: url(/img/imagebar.webp);
-$palkki2: url(/img/imagebar_1200.webp);
-$palkki3: url(/img/imagebar_720.webp);
-$palkki_j: url(/img/imagebar.jpg);
-$palkki2_j: url(/img/imagebar_1200.jpg);
-$palkki3_j: url(/img/imagebar_720.jpg);
-$vihje: url(/svg/tip.svg);
-$huom: url(/svg/note.svg);
-$varoitus: url(/svg/warning.svg);
-$esim: url(/svg/example.svg);
-$sprite: url(/img/tool_sprite.webp);
-$sprite2: url(/img/tool_sprite@2x.webp);
-$sprite_p: url(/img/tool_sprite.png);
-$sprite2_p: url(/img/tool_sprite@2x.png);
-$annot: url(/img/main_annotation_w.webp);
-$annot_p: url(/img/main_annotation_w.png);
-$annot_w: url(/img/main_annotation.webp);
-$annot_w_p: url(/img/main_annotation.png);
-$tannot: url(/img/tool_annotation_w.webp);
-$tannot_p: url(/img/tool_annotation_w.png);
-$tannot_w: url(/img/tool_annotation.webp);
-$tannot_w_p: url(/img/tool_annotation.png);
-
-$palkki_tab_leveys: 1200px;
-$palkki_mob_leveys: 720px;
-$retina-dpi: 144dpi;
-$mobile-width: 1024px;
-$phone-width: 600px;
-$content-width: 1200px;
-
 @font-face {
 	font-family: 'Rubik';
 	font-style: normal;
@@ -90,10 +59,11 @@ body {
 	word-spacing: 0;
 	line-height: 1.10;
 	margin: 0;
-	@media (prefers-color-scheme: dark) {
-		footer img {
-			filter: invert(1);
-		}
+}
+
+@media (prefers-color-scheme: dark) {
+	footer img {
+		filter: invert(1);
 	}
 }
 
@@ -106,21 +76,21 @@ nav {
 	background-color: var(--navbar-bg-color);
 	z-index: 5;
 	width: 100%;
-	user-select: none;
 	-webkit-user-select: none;
-	> menu {
-		a:hover {
-			color: var(--purple);	
-		}
-		align-items: center;
+	user-select: none;
+	& > menu {
+        align-items: center;
 		display: flex;
 		justify-content: center;
 		margin: 0;
 		padding: 0;
-		> li {
+		& a:hover {
+			color: var(--purple);	
+		}
+		& > li {
 			padding: 1rem;
 			position: relative;
-			> span {
+			& > span {
 				padding-right: 2rem;
 				display: block;
 				&::after {
@@ -146,7 +116,7 @@ nav {
 					
 				}
 			}
-			> menu {
+			& > menu {
 				position: absolute;
 				background-color: var(--navbar-bg-color);
 				padding: 0rem;
@@ -155,11 +125,11 @@ nav {
 				display: none;
 				padding-left: 0;
 				box-shadow: 0 0 5px var(--shadow-color);
-				> li {
+				& > li {
 					position: relative;
 					padding: .1rem 1.25rem;
 					line-height: 1.2;
-					a {
+					& a {
 						white-space: nowrap;
 						text-decoration: none;
 						padding: .25rem 0;
@@ -172,7 +142,7 @@ nav {
 					&:last-child a {
 						padding-bottom: .5rem;
 					}
-					@media screen and (min-width: $mobile-width) { 
+					@media screen and (min-width: 1024px) { 
 						&:empty {
 							border-top: 1px solid var(--grey);
 							margin: .25rem 0;
@@ -187,22 +157,23 @@ nav {
 				}
 			}
 		}
-		li {
+		& li {
 			list-style: none;
 		}
 	}
-	button {
+	& input {
 		display: none;
 	}
-	@media screen and (max-width: $mobile-width) {
-		button.open {
-			~ menu {
+	@media screen and (max-width: 1024px) {
+		display: block;
+		& input:checked {
+			& ~ menu {
 				&::after {
 					display: none;
 				}
 				display: block;
 				height: calc(100vh - var(--navbar-height));
-				menu {
+				& menu {
 					position: relative;
 					display: block;
 					border: none;
@@ -211,38 +182,35 @@ nav {
 				width: 100%;
 				background-color: var(--background-color);
 				color: var(--text-color);
-				.divider {
+				& .divider {
 					display: none;
 				}
 			}
-			span:nth-child(1) {
-				transform: translateY(6px) rotate(45deg)
+			& ~ label span:nth-child(1) {
+				transform: translateY(6px) rotate(45deg);
 			}
-			span:nth-child(2) {
-				opacity: 0
+			& ~ label span:nth-child(2) {
+				opacity: 0;
 			}
-			span:nth-child(3) {
-				transform: translateY(-6px) rotate(-45deg)
+			& ~ label span:nth-child(3) {
+				transform: translateY(-6px) rotate(-45deg);
 			}
 		}
-	}
-	@media screen and (max-width: $mobile-width) {
-		display: block;
-		> menu {
+		& > menu {
 			margin-top: 0;
 			display: none;
 			overflow: auto;
 			max-height: calc(100vh - var(--navbar-height));
-			li span::after {
+			& li span::after {
 				content: none;
 			}
-			> li > menu > li {
-				a {
+			& > li > menu > li {
+				& a {
 					white-space: normal;
 				}
 			}
 		}
-		button {
+		& label {
 			min-height: var(--navbar-height);
 			width: var(--navbar-height);
 			height: var(--navbar-bg-color);
@@ -252,7 +220,7 @@ nav {
 			justify-content: center;
 			background-color: transparent;
 			border: 0;
-			span {
+			& span {
 				transform-origin: center;
 				transition-duration: 50ms;
 				transition-property: background-color,opacity,transform;
@@ -283,23 +251,23 @@ header {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	background-image: $palkki3;
+	background-image: url(/img/imagebar_720.webp);;
 
-	@media screen and (min-width: $palkki_mob_leveys) {
-		background-image: $palkki2;
+	@media screen and (min-width: 720px) {
+		background-image: url(/img/imagebar_1200.webp);;
 	}
-	@media screen and (min-width: $palkki_tab_leveys) {
-		background-image: $palkki;
+	@media screen and (min-width: 1200px) {
+		background-image: url(/img/imagebar.webp);
 	}
 
 	background-position: center;
 
-	a {
+	& a {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		text-decoration: none;
-		h1 {
+		& h1 {
 			font-weight: 600;
 			color: white;
 			font-size: 1.5rem;
@@ -311,28 +279,28 @@ header {
 }
 
 main {
-	max-width: $content-width;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 1rem 3rem;
-	@media screen and (max-width: $mobile-width) {
+	@media screen and (max-width: 1024px) {
 		padding: .5rem 1.5rem;
 	}
-	@media screen and (max-width: $phone-width) {
+	@media screen and (max-width: 600px) {
 		padding: .1rem .5rem;
 	}
 
-	h1, h2, h3, h4, strong {
+	& h1, h2, h3, h4, strong {
 		font-weight: 700;
 		color: var(--purple);
 	}
 	
-	h1 {
+	& h1 {
 		margin-top: 1rem;
 		margin-bottom: .7rem;
 		font-size: 120%;
 	}
 	
-	h2 {
+	& h2 {
 		margin-top: .8rem;
 		margin-bottom: .5rem;
 		font-size: 115%;
@@ -341,19 +309,19 @@ main {
 		}
 	}
 	
-	h3 {
+	& h3 {
 		margin-top: .6rem;
 		margin-bottom: .3rem;
 		font-size: 105%;
 	}
 	
-	h4, strong {
+	& h4, & strong {
 		margin-top: .4rem;
 		margin-bottom: .3rem;
 		font-size: 100%;
 	}
 	
-	p {
+	& p {
 		margin-top: .2rem;
 		&:not(:first-child) {
 			margin-bottom: .5rem;
@@ -362,61 +330,61 @@ main {
 		font-size: 100%;
 	}
 	
-	a, span {
+	& a, & span {
 		font-size: 100%;
 		color: var(--text-color);
 	}
 	
-	figure {
+	& figure {
 		margin: .5rem 1rem 1rem 1rem;
 		display: inline-block;
-		picture {
+		& picture {
 			display: flex;
 			flex-direction: row;
 			gap: 1rem;
 			flex-wrap: wrap;
 			justify-content: center;
 		}
-		figcaption {
+		& figcaption {
 			padding-top: 4px;
 			text-align: center;
 		}
 	}
 
-	a {
+	& a {
 		text-decoration: underline;
 	}
-	dl {
+	& dl {
 		display: grid;
 		grid-template-columns: 45fr 55fr;
 		margin-top: 1rem;
-		dt, dd {
+		& dt, & dd {
 			border-top: 1px solid var(--grey);
 			padding: .5rem .75rem;
 		}
-		dd {
+		& dd {
 			text-align: center;
 			margin-left: 0;
 			padding-left: 2rem;
 		}
 	}
 
-	ol {
+	& ol {
 		margin-left: 2rem;
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 		padding-left: 1rem;
 	}
 
-	ul {
+	& ul {
 		padding-left: 1rem;
 		padding-right: 1rem;
 	}
 
-	pdn-tip, pdn-note, pdn-warning, pdn-example {
+	& pdn-tip, & pdn-note, & pdn-warning, & pdn-example {
 		margin-top: 1rem;
   		display: block;
-		h3 {
+		& h3 {
 			z-index: 2;
 			position: relative;
 			height: 32px;
@@ -426,7 +394,7 @@ main {
 			margin-top: 4px;
 			background-size: contain;
 		}
-		p {
+		& p {
 			margin-bottom: -16px;
 			z-index: 1;
 			position: relative;
@@ -436,66 +404,66 @@ main {
 			border-radius: 8px;
 			padding: 3px 5px 3px 45px;
 			color: var(--white);
-			a {
+			& a {
 				color: var(--white);
 			}
 		}
 	}
 
-	pdn-tip {
-		h3 {
-			background-image: $vihje;
+	& pdn-tip {
+		& h3 {
+			background-image: url(/svg/tip.svg);
 		}
-		p {
+		& p {
 			border-color: var(--success);
 			background-color: var(--success);
 		}
 	}
-	pdn-note {
-		h3 {
-			background-image: $huom;
+	& pdn-note {
+		& h3 {
+			background-image: url(/svg/note.svg);
 		}
-		p {
+		& p {
 			color: var(--black);
-			a {
-				color: var(--black);
-			}
-			strong {
-				color: var(--dark-purple);
-			}
 			border-color: var(--warning);
 			background-color: var(--warning);
+			& a {
+				color: var(--black);
+			}
+			& strong {
+				color: var(--dark-purple);
+			}
 		}
 	}
-	pdn-warning {
-		h3 {
-			background-image: $varoitus;
+	& pdn-warning {
+		& h3 {
+			background-image: url(/svg/warning.svg);
 		}
 		p {
 			border-color: var(--danger);
 			background-color: var(--danger);
 		}
 	}
-	pdn-example {
-		h3 {
-			background-image: $esim;
+	& pdn-example {
+		& h3 {
+			background-image: url(/svg/example.svg);
 		}
-		p {
+		& p {
 			border-color: var(--info);
 			background-color: var(--info);
 		}
 	}
 
-	tabs-wrapper {
+	& tabs-wrapper {
 		display: block;
 		padding: 1rem 0;
-		ul {
+		& ul {
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
-			li {
+			& li {
 				list-style: none;
-				label {
+				& label {
 					align-items: center;
 					border-bottom: 1px solid var(--inactive);
 					color: var(--inactive);
@@ -517,24 +485,24 @@ main {
 				}
 			}
 		}
-		tabs-content {
+		& tabs-content {
 			display: block;
 			box-shadow: 0 0 5px var(--shadow-color);
 			border-radius: 5px;
 			padding: 1rem;
-			tab-content {
+			& tab-content {
 				display: none;
 			}
-			input {
+			& input {
 				display: none;
 			}
-			input:checked + tab-content {
+			& input:checked + tab-content {
 				display: block;
 			}
 		}
 	}
 
-	pdn-tag {
+	& pdn-tag {
 		border-radius: 4px;
 		color: var(--white);
 		padding: .25rem .5rem;
@@ -551,18 +519,18 @@ main {
 		}
 	}
 	
-	pdn-tool {
+	& pdn-tool {
 		vertical-align: middle;
 		margin: 0 3px;
 		display: inline-block;
 		background-repeat: no-repeat;
-		background-image: $sprite;
+		background-image: url(/img/tool_sprite.webp);
 		width: 16px;
 		height: 16px;
 		filter: drop-shadow(0 0 1px var(--grey));
 		
-		@media (min-resolution: $retina-dpi) {
-			background-image: $sprite2;
+		@media (min-resolution: 144dpi) {
+			background-image: url(/img/tool_sprite@2x.webp);
 			background-size: 41px 336px;
 		}
 		
@@ -643,29 +611,29 @@ main {
 		}
 	}
 
-	table {
+	& table {
 		display: block;
 		max-width: -moz-fit-content;
 		max-width: fit-content;
 		margin: 0 auto;
 		overflow-x: auto;
 		border-spacing: 0 1rem;
-		.tip, .note, .warning, .example {
-			p {
+		& .tip, & .note, & .warning, & .example {
+			& p {
 				margin-bottom: 0;
 			}
 		}
-		tbody {
-			tr {
-				td:first-child {
+		& tbody {
+			& tr {
+				& td:first-child {
 					font-family: var(--font-family-code);	
 				}
 			}
 		}
 		&:nth-of-type(2) {
-			tbody {
-				tr {
-					td:nth-child(2) {
+			& tbody {
+				& tr {
+					& td:nth-child(2) {
 						font-family: var(--font-family-code);
 						text-align: center;
 					}
@@ -674,36 +642,36 @@ main {
 		}
 	}	
 
-	pdn-level {
+	& pdn-level {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-evenly;
 		text-align: center;
 	}
-	img, video {
+	& img, & video {
 		height: auto;
 		max-width: 100%;
 	}
-	fieldset {
+	& fieldset {
 		border: none;
 		display: grid;
 		grid-template-columns: .2fr .4fr .4fr;
 		column-gap: .5rem;
 		row-gap: .5rem;
-		input, textarea, button {
+		& input, & textarea, & button {
 			padding: .5rem;
 			margin: .2rem;
 			grid-column: 2 / 4;
 			border-radius: 4px;
 			border-width: 1px;
 		}
-		label {
+		& label {
 			justify-self: end;
 			padding: .2rem;
 			margin: .2rem;
 			font-weight: 700;
 		}
-		button {
+		& button {
 			grid-column: 2 / 3;
 			padding: 1rem;
 			background-color: var(--purple);
@@ -712,12 +680,12 @@ main {
 			max-width: 10rem;
 			cursor: pointer;
 		}
-		div {
+		& div {
 			justify-self: end;
 		}
-		@media screen and (max-width: $phone-width) {
+		@media screen and (max-width: 600px) {
 			grid-template-columns: 1fr;
-			input, label, textarea, button {
+			& input, & label, & textarea, & button {
 				grid-column: 1;
 				justify-self: start;
 				width: 95%;
@@ -731,73 +699,73 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	a {
+	& a {
 		color: var(--text-color);
 	}
 }
 
 img[alt="Pääikkuna"] {
-	background-image: $annot;
+	background-image: url(/img/main_annotation_w.webp);
 }
 img[alt="Työkalut"] {
-	background-image: $tannot;
+	background-image: url(/img/tool_annotation_w.webp);
 }
 
 body {
 	&.no-webp {
-		header {
-			background-image: $palkki3_j;
+		& header {
+			background-image: url(/img/imagebar_720.jpg);
 	
-			@media screen and (min-width: $palkki_mob_leveys) {
-				background-image: $palkki2_j;
+			@media screen and (min-width: 720px) {
+				background-image: url(/img/imagebar_1200.jpg);
 			}
-			@media screen and (min-width: $palkki_tab_leveys) {
-				background-image: $palkki_j;
+			@media screen and (min-width: 1200px) {
+				background-image: url(/img/imagebar.jpg);
 			}
 		}
-		main {
-			pdn-tool {
-				background-image: $sprite_p;
+		& main {
+			& pdn-tool {
+				background-image: url(/img/tool_sprite.png);
 				
-				@media (min-resolution: $retina-dpi) {
-					background-image: $sprite2_p;
+				@media (min-resolution: 144dpi) {
+					background-image: url(/img/tool_sprite@2x.png);
 				}
 			}
 		}
-		img[alt="Pääikkuna"] {
-			background-image: $annot_p;
+		& img[alt="Pääikkuna"] {
+			background-image: url(/img/main_annotation_w.png);
 		}
-		img[alt="Työkalut"] {
-			background-image: $tannot_p;
+		& img[alt="Työkalut"] {
+			background-image: url(/img/tool_annotation_w.png);
 		}
 		@media (prefers-color-scheme: light) {
-			img[alt="Pääikkuna"] {
-				background-image: $annot_w_p;
+			& img[alt="Pääikkuna"] {
+				background-image: url(/img/main_annotation.png);
 			}
-			img[alt="Työkalut"] {
-				background-image: $tannot_w_p;
+			& img[alt="Työkalut"] {
+				background-image: url(/img/tool_annotation.png);
 			}
 		}
 	}
 	@media (prefers-color-scheme: light) {
-		img[alt="Pääikkuna"] {
-			background-image: $annot_w;
+		& img[alt="Pääikkuna"] {
+			background-image: url(/img/main_annotation.webp);
 		}
-		img[alt="Työkalut"] {
-			background-image: $tannot_w;
+		& img[alt="Työkalut"] {
+			background-image: url(/img/tool_annotation.webp);
 		}
 	}
 }
 
 .sr {
-	border: none !important;
-    clip: rect(0,0,0,0) !important;
-    height: .01em !important;
-    overflow: hidden !important;
-    padding: 0 !important;
-    position: absolute !important;
-    white-space: nowrap !important;
-    width: .01em !important;
+	border: none;
+    clip: rect(0,0,0,0);
+    height: .01em;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: .01em;
 }
 
 picture {
