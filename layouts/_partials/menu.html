@@ -10,7 +10,10 @@
 	{{ $page := . }}
 	{{ range .Site.Menus.pdn }}
 		<li class="dropdown">
-			<span class="link">{{ .Name }}</span>
+			<label for="{{ .Identifier }}">
+				<span class="link">{{ .Name }}</span>
+			</label>
+			<input class="submenu" type="checkbox" id="{{ .Identifier }}">
 			{{ if eq .Identifier "muuta" }}
 				<menu class="right">
 			{{ else }}

@@ -91,7 +91,7 @@ nav {
 		& > li {
 			padding: 1rem;
 			position: relative;
-			& > span {
+			& > label {
 				padding-right: 2rem;
 				display: block;
 				&::after {
@@ -111,10 +111,15 @@ nav {
 					width: .5rem;
 				}
 			}
-			&:hover, &.active {
+			&:hover {
 				> menu {
 					display: block;
 					
+				}
+			}
+			& input:checked {
+				& ~ menu {
+					display: block;
 				}
 			}
 			& > menu {
@@ -213,7 +218,12 @@ nav {
 			display: none;
 			overflow: auto;
 			max-height: calc(100vh - var(--navbar-height));
-			& li span::after {
+			line-height: 1;
+			& li {
+				padding-bottom: 0;
+				line-height: 1;
+			}
+			& li label::after {
 				content: none;
 			}
 			& > li > menu > li {
@@ -222,7 +232,7 @@ nav {
 				}
 			}
 		}
-		& label {
+		& > label {
 			min-height: var(--navbar-height);
 			width: var(--navbar-height);
 			height: var(--navbar-bg-color);

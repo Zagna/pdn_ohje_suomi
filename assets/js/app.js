@@ -7,6 +7,9 @@ document.querySelectorAll(".tabs-wrapper input[type='radio']").forEach(radio =>
 
 document.addEventListener('touchend', function(event) {
 	if (event.target.tagName == 'A') return;
-	document.querySelectorAll('.dropdown').forEach(navitem => navitem.classList.remove('active'));
-	if (event.target.classList.contains('link')) event.target.parentNode.classList.add('active');
+	document.querySelectorAll('.submenu').forEach(input => {
+		if (input != event.target) {
+			input.checked = false;
+		}
+	});
 }, false);
