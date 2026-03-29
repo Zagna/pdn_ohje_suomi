@@ -168,6 +168,8 @@ nav {
 		width: 0;
 		margin: 0;
 		padding: 0;
+		border: 0;
+		outline: none;
 		&:focus {
 			~ label span {
 				outline: 1px solid var(--purple);
