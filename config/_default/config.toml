@@ -3,7 +3,7 @@ title = "paint.net ohje"
 DefaultContentLanguage = "fi"
 disableKinds = [ "RSS", "taxonomy", "404" ]
 enableRobotsTXT = true
-summaryLength = 10
+summaryLength = 2
 enableGitInfo = true
 
 [params]

@@ -49,7 +49,7 @@ on se myöhemmin kasvanut tehokkaaksi työkaluksi kuvien muokkaamiseen.
 
 * #### Tuki monille tiedostoformaateille
 
-    Seuraavat tiedostoformaatit on tuettu: [PNG](https://fi.wikipedia.org/wiki/PNG),
+    Seuraavat tiedostoformaatit ovat tuettu: [PNG](https://fi.wikipedia.org/wiki/PNG),
     [JPEG](https://fi.wikipedia.org/wiki/JPEG), [JPEG XR](https://fi.wikipedia.org/wiki/JPEG_XR),
     [BMP](https://fi.wikipedia.org/wiki/BMP), [GIF](https://fi.wikipedia.org/wiki/GIF),
     [TGA](https://en.wikipedia.org/wiki/Truevision_TGA), [DDS](https://en.wikipedia.org/wiki/DirectDraw_Surface),
