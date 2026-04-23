@@ -1,23 +1,15 @@
 
 {{ $data := index hugo.Data (.Get 0) }}
-<tabs-wrapper>
-	<ul>
-		{{ range $index, $element := $data.tab }}
-			{{ if eq $index 0 }}
-				<li class="active"><label for="tab-toggle-{{ $index }}">{{ .name }}</label></li>
-			{{ else }}
-				<li><label for="tab-toggle-{{ $index }}">{{ .name }}</label></li>
-			{{ end }}
+{{ $details := (.Get 0) }}
+<div class="tabs-wrapper">
+	{{ range $index, $element := $data.tab }}
+		{{ if eq $index 0 }}
+			<details open name="{{ $details }}">
+		{{ else }}
+			<details name="{{ $details }}">
 		{{ end }}
-	</ul>
-	<tabs-content>
-		{{ range $index, $element := $data.tab }}
-			{{ if eq $index 0 }}
-				<input name="tabit" type="radio" id="tab-toggle-{{ $index }}" checked>
-			{{ else }}
-				<input name="tabit" type="radio" id="tab-toggle-{{ $index }}">
-			{{ end }}
-			<tab-content>
+			<summary>{{ .name }}</summary>
+			<div class="tab-content">
 			{{ with .content }}<p>{{ $.Page.RenderString . }}</p>{{ end }}
 			{{ range .figure }}
 				<figure>
@@ -49,7 +41,7 @@
 					<p>{{ . }}</p>
 				</pdn-tip>
 			{{ end }}
-			</tab-content>
-		{{ end }}
-	</tabs-content>
-</tabs-wrapper>
+			</div>
+		</details>
+	{{ end }}
+</div>

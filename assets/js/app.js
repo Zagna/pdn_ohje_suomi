@@ -1,9 +1,17 @@
-document.querySelectorAll(".tabs-wrapper input[type='radio']").forEach(radio =>
-	radio.addEventListener('change', function(event) {
-		document.querySelectorAll('.tab').forEach(item => item.classList.remove('active'));
-		event.target.labels[0].parentElement.classList.add('active');
-	}, false)
-);
+document.querySelectorAll('summary').forEach(summary => {
+	summary.addEventListener('keydown', e => {
+		if (e.key == 'Enter' || e.key == 'Space') {
+			if (e.target.parentElement.hasAttribute('open')) {
+				e.preventDefault();
+			}
+		}
+	});
+	summary.addEventListener('click', e => {
+		if (e.target.parentElement.hasAttribute('open')) {
+			e.preventDefault();
+		}
+	});
+});
 
 document.addEventListener('touchend', function(event) {
 	if (event.target.tagName == 'A') return;
@@ -12,4 +20,4 @@ document.addEventListener('touchend', function(event) {
 			input.checked = false;
 		}
 	});
-}, false);
+});

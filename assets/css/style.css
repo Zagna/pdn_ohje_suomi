@@ -281,22 +281,22 @@ header {
 	{{ $convert_1200 := $imagebar_2000.Resize "1200x150 jpg" }}
 	{{ $convert_720 := $imagebar_2000.Resize "720x150 jpg" }}
 	
-	background-image: url('{{ ($convert_720 | resources.Fingerprint ).RelPermalink }}');
+	background-image: url('{{ ( $convert_720 | resources.Fingerprint ).RelPermalink }}');
 
 	@media screen and (min-width: 720px) {
-		background-image: url('{{ ($convert_1200 | resources.Fingerprint ).RelPermalink }}');
+		background-image: url('{{ ( $convert_1200 | resources.Fingerprint ).RelPermalink }}');
 	}
 	@media screen and (min-width: 1200px) {
-		background-image: url('{{ ($convert_2000 | resources.Fingerprint ).RelPermalink }}');
+		background-image: url('{{ ( $convert_2000 | resources.Fingerprint ).RelPermalink }}');
 	}
 	@supports(background-image: url('{{ ($imagebar_720 | resources.Fingerprint ).RelPermalink }}')) {
-		background-image: url('{{ ($imagebar_720 | resources.Fingerprint ).RelPermalink }}');
+		background-image: url('{{ ( $imagebar_720 | resources.Fingerprint ).RelPermalink }}');
 
 		@media screen and (min-width: 720px) {
-			background-image: url('{{ ($imagebar_1200 | resources.Fingerprint ).RelPermalink }}');
+			background-image: url('{{ ( $imagebar_1200 | resources.Fingerprint ).RelPermalink }}');
 		}
 		@media screen and (min-width: 1200px) {
-			background-image: url('{{ ($imagebar_2000 | resources.Fingerprint ).RelPermalink }}');
+			background-image: url('{{ ( $imagebar_2000 | resources.Fingerprint ).RelPermalink }}');
 		}
 	}
 
@@ -329,7 +329,7 @@ main {
 		padding: .1rem .5rem;
 	}
 
-	& h1, h2, h3, h4, strong {
+	& h1, & h2, & h3, & h4, & strong {
 		font-weight: 700;
 		color: var(--purple);
 	}
@@ -420,328 +420,320 @@ main {
 		padding-left: 1rem;
 		padding-right: 1rem;
 	}
+}
 
-	& pdn-tip, & pdn-note, & pdn-warning, & pdn-example {
-		margin-top: 1rem;
-  		display: block;
-		& h3 {
-			z-index: 2;
-			position: relative;
-			height: 32px;
-			background-repeat: no-repeat;
-			padding-left: 35px;
-			margin-left: 8px;
-			margin-top: 4px;
-			background-size: contain;
-		}
-		& p {
-			margin-bottom: -16px;
-			z-index: 1;
-			position: relative;
-			top: -20px;
-			border-style: solid;
-			border-width: thick;
-			border-radius: 8px;
-			padding: 3px 5px 3px 45px;
+pdn-tip, pdn-note, pdn-warning, pdn-example {
+	margin-top: 1rem;
+	display: block;
+	& h3 {
+		z-index: 2;
+		position: relative;
+		height: 32px;
+		background-repeat: no-repeat;
+		padding-left: 35px;
+		margin-left: 8px;
+		margin-top: 4px;
+		background-size: contain;
+	}
+	& p {
+		margin-bottom: -16px;
+		z-index: 1;
+		position: relative;
+		top: -20px;
+		border-style: solid;
+		border-width: thick;
+		border-radius: 8px;
+		padding: 3px 5px 3px 45px;
+		color: var(--white);
+		& a {
 			color: var(--white);
-			& a {
-				color: var(--white);
-			}
 		}
 	}
+}
 
-	& pdn-tip {
-		& h3 {
-			background-image: url(/svg/tip.svg);
-		}
-		& p {
-			border-color: var(--success);
-			background-color: var(--success);
-		}
+pdn-tip {
+	& h3 {
+		background-image: url('data:image/svg+xml,{{ ( resources.Get "svg/tip.svg" ).Content | urls.PathEscape }}');
 	}
-	& pdn-note {
-		& h3 {
-			background-image: url(/svg/note.svg);
-		}
-		& p {
+	& p {
+		border-color: var(--success);
+		background-color: var(--success);
+	}
+}
+pdn-note {
+	& h3 {
+		background-image: url('data:image/svg+xml,{{ ( resources.Get "svg/note.svg" ).Content | urls.PathEscape }}');
+	}
+	& p {
+		color: var(--black);
+		border-color: var(--warning);
+		background-color: var(--warning);
+		& a {
 			color: var(--black);
-			border-color: var(--warning);
-			background-color: var(--warning);
-			& a {
-				color: var(--black);
-			}
-			& strong {
-				color: var(--dark-purple);
-			}
+		}
+		& strong {
+			color: var(--dark-purple);
 		}
 	}
-	& pdn-warning {
-		& h3 {
-			background-image: url(/svg/warning.svg);
-		}
-		p {
-			border-color: var(--danger);
-			background-color: var(--danger);
-		}
+}
+pdn-warning {
+	& h3 {
+		background-image: url('data:image/svg+xml,{{ ( resources.Get "svg/warning.svg" ).Content | urls.PathEscape }}');
 	}
-	& pdn-example {
-		& h3 {
-			background-image: url(/svg/example.svg);
-		}
-		& p {
-			border-color: var(--info);
-			background-color: var(--info);
-		}
+	p {
+		border-color: var(--danger);
+		background-color: var(--danger);
 	}
+}
+pdn-example {
+	& h3 {
+		background-image: url('data:image/svg+xml,{{ ( resources.Get "svg/example.svg" ).Content | urls.PathEscape }}');
+	}
+	& p {
+		border-color: var(--info);
+		background-color: var(--info);
+	}
+}
 
-	& tabs-wrapper {
-		display: block;
-		padding: 1rem 0;
-		& ul {
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			& li {
-				list-style: none;
-				& label {
-					align-items: center;
-					border-bottom: 1px solid var(--inactive);
-					color: var(--inactive);
-					display: flex;
-					justify-content: center;
-					margin-bottom: .5rem;
-					padding: .5rem;
-					vertical-align: top;
-					white-space: nowrap;
-					&:hover {
-						border-bottom-color: var(--purple);
-						color: var(--purple);
-					}
-					cursor: pointer;
-				}
-				&.active label {
-					border-bottom-color: var(--purple);
-					color: var(--purple);
-				}
+.tabs-wrapper {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	& details {
+		display: contents;
+		& summary {
+			order: 0;
+			border-bottom: 1px solid var(--inactive);
+			color: var(--inactive);
+			display: block;
+			margin-bottom: .5rem;
+			padding: .5rem;
+			user-select: none;
+			cursor: pointer;
+			&:hover {
+				border-bottom-color: var(--purple);
+				color: var(--purple);
 			}
 		}
-		& tabs-content {
-			display: block;
+		&[open] summary {
+			border-bottom-color: var(--purple);
+			color: var(--purple);
+			
+		}
+		& .tab-content {
+			order: 1;
+			width: 100%;
+			min-width: 100%;
 			box-shadow: 0 0 5px var(--shadow-color);
 			border-radius: 5px;
 			padding: 1rem;
-			& tab-content {
-				display: none;
-			}
-			& input {
-				display: none;
-			}
-			& input:checked + tab-content {
-				display: block;
-			}
 		}
 	}
+}
 
-	& pdn-tag {
-		border-radius: 4px;
-		color: var(--white);
-		padding: .25rem .5rem;
-		margin: 0 .1rem;
-		height: 1rem;
-		display: inline-block;
-		&.keyb {
-			border-color: var(--dark-purple);
-			background-color: var(--dark-purple);
-		}
-		&.mouse {
-			border-color: var(--info);
-			background-color: var(--info);
+details[open]::details-content {
+	display: contents;
+}
+
+pdn-tag {
+	border-radius: 4px;
+	color: var(--white);
+	padding: .25rem .5rem;
+	margin: 0 .1rem;
+	height: 1rem;
+	display: inline-block;
+	&.keyb {
+		border-color: var(--dark-purple);
+		background-color: var(--dark-purple);
+	}
+	&.mouse {
+		border-color: var(--info);
+		background-color: var(--info);
+	}
+}
+
+pdn-tool {
+	vertical-align: middle;
+	margin: 0 3px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	filter: drop-shadow(0 0 1px var(--grey));
+
+	{{ $toolsprite2x := resources.Get "png/tool_sprite.webp" }}
+	{{ $pngsprite2x := $toolsprite2x.Resize "82x672 png" }}
+	{{ $toolsprite := $toolsprite2x.Resize "41x336 webp" }}
+	{{ $pngsprite := $toolsprite2x.Resize "41x336 png" }}
+
+	background-image: url('{{ ($pngsprite | resources.Fingerprint ).RelPermalink }}');
+	@media (min-resolution: 144dpi) {
+		background-image: url('{{ ($pngsprite2x | resources.Fingerprint ).RelPermalink }}');
+		background-size: 41px 336px;
+	}
+
+	@supports(background-image: url('{{ ($toolsprite | resources.Fingerprint ).RelPermalink }}')) {
+		background-image: url('{{ ($toolsprite | resources.Fingerprint ).RelPermalink }}');
+		@media (min-resolution: 144dpi) {
+			background-image: url('{{ ($toolsprite2x | resources.Fingerprint ).RelPermalink }}');
 		}
 	}
 	
-	& pdn-tool {
-		vertical-align: middle;
-		margin: 0 3px;
-		display: inline-block;
-		background-repeat: no-repeat;
-		width: 16px;
-		height: 16px;
-		filter: drop-shadow(0 0 1px var(--grey));
+	&.clonestamp {
+		background-position: 0 0;
+	}
+	&.colorpicker {
+		background-position: 0 -17px;
+	}
+	&.ellipticalselect {
+		background-position: 0 -34px;
+	}
+	&.eraser {
+		background-position: 0 -51px;
+	}
+	&.gradient {
+		background-position: 0 -68px;
+	}
+	&.lassoselect {
+		background-position: 0 -85px;
+	}
+	&.linecurve {
+		background-position: 0 -102px;
+	}
+	&.magicwand {
+		background-position: 0 -119px;
+	}
+	&.movecursor {
+		background-position: 0 -136px;
+		width: 25px;
+		height: 25px;
+	}
+	&.moveselectedpixels {
+		background-position: 0 -247px;
+	}
+	&.moveselection {
+		background-position: -16px -247px;
+	}
+	&.paintbrush {
+		background-position: 0 -162px;
+	}
+	&.paintbucket {
+		background-position: 0 -179px;
+	}
+	&.pan {
+		background-position: -16px -319px;
+	}
+	&.pencil {
+		background-position: 0 -196px;
+	}
+	&.recolor {
+		background-position: 0 -213px;
+	}
+	&.rectangleselect {
+		background-position: 0 -230px;
+	}
+	&.select {
+		background-position: 0 -247px;
+		width: 32px;
+	}
+	&.shapes {
+		background-position: 0 -264px;
+		width: 41px;
+		height: 20px;
+	}
+	&.text {
+		background-position: 0 -285px;
+	}
+	&.tools {
+		background-position: 0 -302px;
+	}
+	&.view {
+		background-position: 0 -319px;
+		width: 32px;
+	}
+	&.zoom {
+		background-position: 0 -319px;
+	}
+}
 
-		{{ $toolsprite2x := resources.Get "png/tool_sprite.webp" }}
-		{{ $pngsprite2x := $toolsprite2x.Resize "82x672 png" }}
-		{{ $toolsprite := $toolsprite2x.Resize "41x336 webp" }}
-		{{ $pngsprite := $toolsprite2x.Resize "41x336 png" }}
-
-		background-image: url('{{ ($pngsprite | resources.Fingerprint ).RelPermalink }}');
-		@media (min-resolution: 144dpi) {
-			background-image: url('{{ ($pngsprite2x | resources.Fingerprint ).RelPermalink }}');
-			background-size: 41px 336px;
-		}
-
-		@supports(background-image: url('{{ ($toolsprite | resources.Fingerprint ).RelPermalink }}')) {
-			background-image: url('{{ ($toolsprite | resources.Fingerprint ).RelPermalink }}');
-			@media (min-resolution: 144dpi) {
-				background-image: url('{{ ($toolsprite2x | resources.Fingerprint ).RelPermalink }}');
-			}
-		}
-		
-		&.clonestamp {
-			background-position: 0 0;
-		}
-		&.colorpicker {
-			background-position: 0 -17px;
-		}
-		&.ellipticalselect {
-			background-position: 0 -34px;
-		}
-		&.eraser {
-			background-position: 0 -51px;
-		}
-		&.gradient {
-			background-position: 0 -68px;
-		}
-		&.lassoselect {
-			background-position: 0 -85px;
-		}
-		&.linecurve {
-			background-position: 0 -102px;
-		}
-		&.magicwand {
-			background-position: 0 -119px;
-		}
-		&.movecursor {
-			background-position: 0 -136px;
-			width: 25px;
-			height: 25px;
-		}
-		&.moveselectedpixels {
-			background-position: 0 -247px;
-		}
-		&.moveselection {
-			background-position: -16px -247px;
-		}
-		&.paintbrush {
-			background-position: 0 -162px;
-		}
-		&.paintbucket {
-			background-position: 0 -179px;
-		}
-		&.pan {
-			background-position: -16px -319px;
-		}
-		&.pencil {
-			background-position: 0 -196px;
-		}
-		&.recolor {
-			background-position: 0 -213px;
-		}
-		&.rectangleselect {
-			background-position: 0 -230px;
-		}
-		&.select {
-			background-position: 0 -247px;
-			width: 32px;
-		}
-		&.shapes {
-			background-position: 0 -264px;
-			width: 41px;
-			height: 20px;
-		}
-		&.text {
-			background-position: 0 -285px;
-		}
-		&.tools {
-			background-position: 0 -302px;
-		}
-		&.view {
-			background-position: 0 -319px;
-			width: 32px;
-		}
-		&.zoom {
-			background-position: 0 -319px;
+table {
+	display: block;
+	max-width: -moz-fit-content;
+	max-width: fit-content;
+	margin: 0 auto;
+	overflow-x: auto;
+	border-spacing: 0 1rem;
+	& .tip, & .note, & .warning, & .example {
+		& p {
+			margin-bottom: 0;
 		}
 	}
-
-	& table {
-		display: block;
-		max-width: -moz-fit-content;
-		max-width: fit-content;
-		margin: 0 auto;
-		overflow-x: auto;
-		border-spacing: 0 1rem;
-		& .tip, & .note, & .warning, & .example {
-			& p {
-				margin-bottom: 0;
+	& tbody {
+		& tr {
+			& td:first-child {
+				font-family: var(--font-family-code);	
 			}
 		}
+	}
+	&:nth-of-type(2) {
 		& tbody {
 			& tr {
-				& td:first-child {
-					font-family: var(--font-family-code);	
+				& td:nth-child(2) {
+					font-family: var(--font-family-code);
+					text-align: center;
 				}
 			}
 		}
-		&:nth-of-type(2) {
-			& tbody {
-				& tr {
-					& td:nth-child(2) {
-						font-family: var(--font-family-code);
-						text-align: center;
-					}
-				}
-			}
-		}
-	}	
+	}
+}	
 
-	& pdn-level {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-evenly;
-		text-align: center;
+pdn-level {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	text-align: center;
+}
+img, video {
+	height: auto;
+	max-width: 100%;
+}
+fieldset {
+	border: none;
+	display: grid;
+	grid-template-columns: .2fr .4fr .4fr;
+	column-gap: .5rem;
+	row-gap: .5rem;
+	& input, & textarea, & button {
+		padding: .5rem;
+		margin: .2rem;
+		grid-column: 2 / 4;
+		border-radius: 4px;
+		border-width: 1px;
 	}
-	& img, & video {
-		height: auto;
-		max-width: 100%;
+	& label {
+		justify-self: end;
+		padding: .2rem;
+		margin: .2rem;
+		font-weight: 700;
 	}
-	& fieldset {
-		border: none;
-		display: grid;
-		grid-template-columns: .2fr .4fr .4fr;
-		column-gap: .5rem;
-		row-gap: .5rem;
-		& input, & textarea, & button {
-			padding: .5rem;
-			margin: .2rem;
-			grid-column: 2 / 4;
-			border-radius: 4px;
-			border-width: 1px;
-		}
-		& label {
-			justify-self: end;
-			padding: .2rem;
-			margin: .2rem;
-			font-weight: 700;
-		}
-		& button {
-			grid-column: 2 / 3;
-			padding: 1rem;
-			background-color: var(--purple);
-			color: var(--white);
-			border-color: transparent;
-			max-width: 10rem;
-			cursor: pointer;
-		}
-		& div {
-			justify-self: end;
-		}
-		@media screen and (max-width: 600px) {
-			grid-template-columns: 1fr;
-			& input, & label, & textarea, & button {
-				grid-column: 1;
-				justify-self: start;
-				width: 95%;
-			}
+	& button {
+		grid-column: 2 / 3;
+		padding: 1rem;
+		background-color: var(--purple);
+		color: var(--white);
+		border-color: transparent;
+		max-width: 10rem;
+		cursor: pointer;
+	}
+	& div {
+		justify-self: end;
+	}
+	@media screen and (max-width: 600px) {
+		grid-template-columns: 1fr;
+		& input, & label, & textarea, & button {
+			grid-column: 1;
+			justify-self: start;
+			width: 95%;
 		}
 	}
 }
@@ -767,26 +759,26 @@ footer {
 {{ $toolp := $toolw.Resize "117x300 png" }}
 
 img[alt="Pääikkuna"] {
-	background-image: url('{{ ($mainwp | resources.Fingerprint ).RelPermalink }}');
+	background-image: url('{{ ( $mainwp | resources.Fingerprint ).RelPermalink }}');
 	@media (prefers-color-scheme: light) {
-		background-image: url('{{ ($mainp | resources.Fingerprint ).RelPermalink }}');
+		background-image: url('{{ ( $mainp | resources.Fingerprint ).RelPermalink }}');
 	}
-	@supports(background-image: url('{{ ($mainww | resources.Fingerprint ).RelPermalink }}')) {
-		background-image: url('{{ ($mainww | resources.Fingerprint ).RelPermalink }}');
+	@supports(background-image: url('{{ ( $mainww | resources.Fingerprint ).RelPermalink }}')) {
+		background-image: url('{{ ( $mainww | resources.Fingerprint ).RelPermalink }}');
 		@media (prefers-color-scheme: light) {
-			background-image: url('{{ ($mainw | resources.Fingerprint ).RelPermalink }}');
+			background-image: url('{{ ( $mainw | resources.Fingerprint ).RelPermalink }}');
 		}
 	}
 }
 img[alt="Työkalut"] {
 	background-image: url('{{ ($toolwp | resources.Fingerprint ).RelPermalink }}');
 	@media (prefers-color-scheme: light) {
-		background-image: url('{{ ($toolp | resources.Fingerprint ).RelPermalink }}');
+		background-image: url('{{ ( $toolp | resources.Fingerprint ).RelPermalink }}');
 	}
-	@supports(background-image: url('{{ ($toolww | resources.Fingerprint ).RelPermalink }}')) {
-		background-image: url('{{ ($toolww | resources.Fingerprint ).RelPermalink }}');
+	@supports(background-image: url('{{ ( $toolww | resources.Fingerprint ).RelPermalink }}')) {
+		background-image: url('{{ ( $toolww | resources.Fingerprint ).RelPermalink }}');
 		@media (prefers-color-scheme: light) {
-			background-image: url('{{ ($toolw | resources.Fingerprint ).RelPermalink }}');
+			background-image: url('{{ ( $toolw | resources.Fingerprint ).RelPermalink }}');
 		}
 	}
 }

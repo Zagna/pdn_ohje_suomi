@@ -24,6 +24,7 @@
 
 {{ with resources.Get "css/style.css" }}
   {{ with resources.ExecuteAsTemplate "css/main.css" $ . | resources.Fingerprint }}
+  	<link rel="preload" href="{{ .RelPermalink }}" as="style" />
     <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{ end }}
 {{ end }}
