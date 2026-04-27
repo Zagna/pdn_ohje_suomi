@@ -6,7 +6,6 @@
 	font-weight: 300 900;
 	font-display: swap;
 	src: url('../fonts/Rubik.woff2') format('woff2');
-	
 }
 
 :root {
@@ -27,7 +26,7 @@
 	--background-color: var(--black);
 	--text-color: var(--white);
 	--inactive: var(--grey);
-	--shadow-color: var(--grey);
+	--shadow-color: #aaaaaa80;
 	--navbar-bg-color: var(--black);
 	--hamburger-color: var(--white);
 }
@@ -37,7 +36,7 @@
 		--inactive: #888;
 		--background-color: var(--white);
 		--text-color: var(--black);
-		--shadow-color: var(--black);
+		--shadow-color: #00000080;
 		--navbar-bg-color: var(--white);
 		--hamburger-color: var(--black);
 		--purple: #8e13c3;
@@ -289,7 +288,7 @@ header {
 	@media screen and (min-width: 1200px) {
 		background-image: url('{{ ( $convert_2000 | resources.Fingerprint ).RelPermalink }}');
 	}
-	@supports(background-image: url('{{ ($imagebar_720 | resources.Fingerprint ).RelPermalink }}')) {
+	@supports(background-image: url('{{ ( $imagebar_720 | resources.Fingerprint ).RelPermalink }}')) {
 		background-image: url('{{ ( $imagebar_720 | resources.Fingerprint ).RelPermalink }}');
 
 		@media screen and (min-width: 720px) {
@@ -518,15 +517,22 @@ pdn-example {
 		&[open] summary {
 			border-bottom-color: var(--purple);
 			color: var(--purple);
-			
+			pointer-events: none;
 		}
 		& .tab-content {
 			order: 1;
 			width: 100%;
-			min-width: 100%;
-			box-shadow: 0 0 5px var(--shadow-color);
 			border-radius: 5px;
-			padding: 1rem;
+			padding: 1rem 0;
+			& figure {
+				& picture {
+					gap: 0;
+				}
+			}
+			@media screen and (min-width: 601px) {
+				box-shadow: 0 0 5px var(--shadow-color);
+				padding: 1rem;
+			}
 		}
 	}
 }
