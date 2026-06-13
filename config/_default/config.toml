@@ -6,6 +6,9 @@ enableRobotsTXT = true
 summaryLength = 2
 enableGitInfo = true
 
+[sitemap]
+  	filename = "kartta.xml" 
+
 [params]
 	images = ["/pdn-some.jpg"]
 
