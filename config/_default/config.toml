@@ -1,4 +1,4 @@
-languageCode = "fi"
+locale = "fi"
 title = "paint.net ohje"
 DefaultContentLanguage = "fi"
 disableKinds = [ "RSS", "taxonomy", "404" ]
