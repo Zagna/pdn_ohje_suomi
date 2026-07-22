@@ -1,7 +1,7 @@
 
 {{ $data := index hugo.Data (.Get 0) }}
 {{ $details := (.Get 0) }}
-<div class="tabs-wrapper">
+<tabs-wrapper>
 	{{ range $index, $element := $data.tab }}
 		{{ if eq $index 0 }}
 			<details open name="{{ $details }}">
@@ -9,7 +9,7 @@
 			<details name="{{ $details }}">
 		{{ end }}
 			<summary>{{ .name }}</summary>
-			<div class="tab-content">
+			<tab-content>
 			{{ with .content }}<p>{{ $.Page.RenderString . }}</p>{{ end }}
 			{{ range .figure }}
 				<figure>
@@ -36,7 +36,7 @@
 					<p>{{ . }}</p>
 				</pdn-tip>
 			{{ end }}
-			</div>
+			</tab-content>
 		</details>
 	{{ end }}
-</div>
+</tabs-wrapper>
