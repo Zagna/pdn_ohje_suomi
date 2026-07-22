@@ -14,13 +14,9 @@
 	}
 </style>
 
-{{ $imagebar_2000 := resources.Get "img/imagebar.webp" }}
-{{ $imagebar_1200 := $imagebar_2000.Resize "1200x150 webp" }}
-{{ $imagebar_720 := $imagebar_2000.Resize "720x150 webp" }}
+{{ $imagebar := resources.Get "img/imagebar.webp" }}
 
-{{ .Store.Set "imagebar_2000" $imagebar_2000 }}
-{{ .Store.Set "imagebar_1200" $imagebar_1200 }}
-{{ .Store.Set "imagebar_720" $imagebar_720 }}
+{{ .Store.Set "imagebar" $imagebar }}
 
 {{ with resources.Get "css/style.css" }}
   {{ with resources.ExecuteAsTemplate "css/main.css" $ . | resources.Fingerprint }}
@@ -34,6 +30,3 @@
 <link rel="icon" href="{{ $png.RelPermalink }}" type="image/png">
 <link rel="icon" href="{{ $fav.RelPermalink }}" type="image/webp">
 <link rel="preload" fetchpriority="high" href="/fonts/Rubik.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" media="(max-width: 719px)" fetchpriority="high" as="image" type="image/webp" href="{{ ($imagebar_720 | resources.Fingerprint ).RelPermalink }}">
-<link rel="preload" media="(min-width: 720px and max-width: 1199px)" fetchpriority="high" as="image" type="image/webp" href="{{ ($imagebar_1200 | resources.Fingerprint ).RelPermalink }}">
-<link rel="preload" media="(min-width: 1200px)" fetchpriority="high" as="image" type="image/webp" href="{{ ($imagebar_2000 | resources.Fingerprint ).RelPermalink }}">

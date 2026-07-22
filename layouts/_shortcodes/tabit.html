@@ -14,18 +14,13 @@
 			{{ range .figure }}
 				<figure>
 					{{ $image := resources.Get .src | resources.Fingerprint }}
-					{{ $convert := "" }}
-					{{ if in .src "img" }}
-						{{ $convert = $image.Resize ( printf "%dx%d jpg" $image.Width $image.Height ) }}
-					{{ else }}
-						{{ $convert = $image.Resize ( printf "%dx%d png" $image.Width $image.Height ) }}
-					{{ end }}
+					{{ $avif := $image.Process "avif" | resources.Fingerprint }}
 					<picture>
-						<source type="image/webp" srcset="{{ $image.RelPermalink }}">
+						<source type="image/avif" srcset="{{ $avif.RelPermalink }}">
 					{{ if eq $index 0 }}
-						<img loading="eager" class="{{ .class }}" width="{{ $image.Width }}" height="{{ $image.Height }}" src="{{ $convert.RelPermalink }}" alt="{{ .alt }}">
+						<img loading="eager" class="{{ .class }}" width="{{ $image.Width }}" height="{{ $image.Height }}" src="{{ $image.RelPermalink }}" alt="{{ .alt }}">
 					{{ else }}
-						<img loading="lazy" class="{{ .class }}" width="{{ $image.Width }}" height="{{ $image.Height }}" src="{{ $convert.RelPermalink }}" alt="{{ .alt }}">
+						<img loading="lazy" class="{{ .class }}" width="{{ $image.Width }}" height="{{ $image.Height }}" src="{{ $image.RelPermalink }}" alt="{{ .alt }}">
 					{{ end }}
 					</picture>
 					{{ with .caption }}

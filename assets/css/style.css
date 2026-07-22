@@ -272,34 +272,32 @@ header {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+	background-position: center;
 
-	{{ $imagebar_2000 := .Store.Get "imagebar_2000" }}
-	{{ $imagebar_1200 := .Store.Get "imagebar_1200" }}
-	{{ $imagebar_720 := .Store.Get "imagebar_720" }}
-	{{ $convert_2000 := $imagebar_2000.Resize "2000x150 jpg" }}
-	{{ $convert_1200 := $imagebar_2000.Resize "1200x150 jpg" }}
-	{{ $convert_720 := $imagebar_2000.Resize "720x150 jpg" }}
+	{{ $imagebar_2000 := .Store.Get "imagebar" }}
+	{{ $imagebar_1200 := $imagebar_2000.Resize "1200x150 webp" }}
+	{{ $imagebar_720 := $imagebar_2000.Resize "720x150 webp" }}
+	{{ $avif_2000 := $imagebar_2000.Resize "2000x150 avif" }}
+	{{ $avif_1200 := $imagebar_2000.Resize "1200x150 avif" }}
+	{{ $avif_720 := $imagebar_2000.Resize "720x150 avif" }}
 	
-	background-image: url('{{ ( $convert_720 | resources.Fingerprint ).RelPermalink }}');
+	background-image: image-set(
+		url('{{ ( $imagebar_720 | resources.Fingerprint ).RelPermalink }}') type("image/webp"),
+		url('{{ ( $avif_720 | resources.Fingerprint ).RelPermalink }}') type("image/avif")
+	);
 
 	@media screen and (min-width: 720px) {
-		background-image: url('{{ ( $convert_1200 | resources.Fingerprint ).RelPermalink }}');
+		background-image: image-set(
+			url('{{ ( $imagebar_1200 | resources.Fingerprint ).RelPermalink }}') type("image/webp"),
+			url('{{ ( $avif_1200 | resources.Fingerprint ).RelPermalink }}') type("image/avif")
+		);
 	}
 	@media screen and (min-width: 1200px) {
-		background-image: url('{{ ( $convert_2000 | resources.Fingerprint ).RelPermalink }}');
+		background-image: image-set(
+			url('{{ ( $imagebar_2000 | resources.Fingerprint ).RelPermalink }}') type("image/webp"),
+			url('{{ ( $avif_2000 | resources.Fingerprint ).RelPermalink }}') type("image/avif")
+		);
 	}
-	@supports(background-image: url('{{ ( $imagebar_720 | resources.Fingerprint ).RelPermalink }}')) {
-		background-image: url('{{ ( $imagebar_720 | resources.Fingerprint ).RelPermalink }}');
-
-		@media screen and (min-width: 720px) {
-			background-image: url('{{ ( $imagebar_1200 | resources.Fingerprint ).RelPermalink }}');
-		}
-		@media screen and (min-width: 1200px) {
-			background-image: url('{{ ( $imagebar_2000 | resources.Fingerprint ).RelPermalink }}');
-		}
-	}
-
-	background-position: center;
 
 	& a {
 		display: flex;
@@ -331,6 +329,9 @@ main {
 	& h1, & h2, & h3, & h4, & strong {
 		font-weight: 700;
 		color: var(--purple);
+		& a {
+			color: var(--purple);
+		}
 	}
 	
 	& h1 {
@@ -395,7 +396,9 @@ main {
 	}
 	& dl {
 		display: grid;
-		grid-template-columns: 45fr 55fr;
+		@media screen and (min-width: 601px) {
+			grid-template-columns: 1fr 1fr;
+		}
 		margin-top: 1rem;
 		& dt, & dd {
 			border-top: 1px solid var(--grey);
@@ -568,23 +571,23 @@ pdn-tool {
 	filter: drop-shadow(0 0 1px var(--grey));
 
 	{{ $toolsprite2x := resources.Get "png/tool_sprite.webp" }}
-	{{ $pngsprite2x := $toolsprite2x.Resize "82x672 png" }}
+	{{ $avifsprite2x := $toolsprite2x.Resize "82x672 avif" }}
 	{{ $toolsprite := $toolsprite2x.Resize "41x336 webp" }}
-	{{ $pngsprite := $toolsprite2x.Resize "41x336 png" }}
+	{{ $avifsprite := $toolsprite2x.Resize "41x336 avif" }}
 
-	background-image: url('{{ ($pngsprite | resources.Fingerprint ).RelPermalink }}');
+	background-image: image-set(
+		url('{{ ($toolsprite | resources.Fingerprint ).RelPermalink }}') type("image/webp"),
+		url('{{ ($avifsprite | resources.Fingerprint ).RelPermalink }}') type("image/avif")
+	);
+
 	@media (min-resolution: 144dpi) {
-		background-image: url('{{ ($pngsprite2x | resources.Fingerprint ).RelPermalink }}');
+		background-image: image-set(
+			url('{{ ($toolsprite2x | resources.Fingerprint ).RelPermalink }}') type("image/webp"),
+			url('{{ ($avifsprite2x | resources.Fingerprint ).RelPermalink }}') type("image/avif")
+		);
 		background-size: 41px 336px;
 	}
 
-	@supports(background-image: url('{{ ($toolsprite | resources.Fingerprint ).RelPermalink }}')) {
-		background-image: url('{{ ($toolsprite | resources.Fingerprint ).RelPermalink }}');
-		@media (min-resolution: 144dpi) {
-			background-image: url('{{ ($toolsprite2x | resources.Fingerprint ).RelPermalink }}');
-		}
-	}
-	
 	&.clonestamp {
 		background-position: 0 0;
 	}
@@ -756,36 +759,38 @@ footer {
 }
 
 {{ $mainww := resources.Get "png/main_annotation_w.webp" }}
-{{ $mainwp := $mainww.Resize "808x622 png" }}
+{{ $mainwa := $mainww.Resize "808x622 avif" }}
 {{ $mainw := resources.Get "png/main_annotation.webp" }}
-{{ $mainp := $mainw.Resize "808x622 png" }}
+{{ $maina := $mainw.Resize "808x622 avif" }}
 {{ $toolww := resources.Get "png/tool_annotation_w.webp" }}
-{{ $toolwp := $toolww.Resize "117x300 png" }}
+{{ $toolwa := $toolww.Resize "117x300 avif" }}
 {{ $toolw := resources.Get "png/tool_annotation.webp" }}
-{{ $toolp := $toolw.Resize "117x300 png" }}
+{{ $toola := $toolw.Resize "117x300 avif" }}
 
 img[alt="Pääikkuna"] {
-	background-image: url('{{ ( $mainwp | resources.Fingerprint ).RelPermalink }}');
+	background-image: image-set(
+		url('{{ ( $mainww | resources.Fingerprint ).RelPermalink }}') type("image/webp"),
+		url('{{ ( $mainwa | resources.Fingerprint ).RelPermalink }}') type("image/avif")
+	);
+
 	@media (prefers-color-scheme: light) {
-		background-image: url('{{ ( $mainp | resources.Fingerprint ).RelPermalink }}');
-	}
-	@supports(background-image: url('{{ ( $mainww | resources.Fingerprint ).RelPermalink }}')) {
-		background-image: url('{{ ( $mainww | resources.Fingerprint ).RelPermalink }}');
-		@media (prefers-color-scheme: light) {
-			background-image: url('{{ ( $mainw | resources.Fingerprint ).RelPermalink }}');
-		}
+		background-image: image-set(
+			url('{{ ( $mainw | resources.Fingerprint ).RelPermalink }}') type("image/webp"),
+			url('{{ ( $maina | resources.Fingerprint ).RelPermalink }}') type("image/avif")
+		);
 	}
 }
 img[alt="Työkalut"] {
-	background-image: url('{{ ($toolwp | resources.Fingerprint ).RelPermalink }}');
+	background-image: image-set(
+		url('{{ ( $toolww | resources.Fingerprint ).RelPermalink }}') type("image/webp"),
+		url('{{ ( $toolwa | resources.Fingerprint ).RelPermalink }}') type("image/avif")
+	);
+
 	@media (prefers-color-scheme: light) {
-		background-image: url('{{ ( $toolp | resources.Fingerprint ).RelPermalink }}');
-	}
-	@supports(background-image: url('{{ ( $toolww | resources.Fingerprint ).RelPermalink }}')) {
-		background-image: url('{{ ( $toolww | resources.Fingerprint ).RelPermalink }}');
-		@media (prefers-color-scheme: light) {
-			background-image: url('{{ ( $toolw | resources.Fingerprint ).RelPermalink }}');
-		}
+		background-image: image-set(
+			url('{{ ( $toolw | resources.Fingerprint ).RelPermalink }}') type("image/webp"),
+			url('{{ ( $toola | resources.Fingerprint ).RelPermalink }}') type("image/avif")
+		);
 	}
 }
 
