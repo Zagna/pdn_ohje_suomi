@@ -1,19 +1,18 @@
-
 <figure>
-	{{ range split (.Get "src") ";" }}
-		{{ $image := resources.Get . | resources.Fingerprint }}
-		{{ $avif := $image.Process "avif" | resources.Fingerprint }}
+	{{- range split (.Get "src") ";" -}}
+		{{- $image := resources.Get . | resources.Fingerprint -}}
+		{{- $avif := $image.Process "avif" | resources.Fingerprint -}}
 		<picture>
-			<source type="image/avif" srcset="{{ $avif.RelPermalink }}">
+			<source type="image/avif" srcset="{{ $avif.RelPermalink -}}">
 			<img loading="lazy" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $.Get "alt" }}">
 		</picture>
-	{{ end }}
-	{{ if isset .Params "title" }}
+	{{- end -}}
+	{{- if isset .Params "title" -}}
 	<figcaption>
-		<strong>{{ .Get "title" }}</strong>
-		{{ with .Inner }}
-			<p>{{ $.Page.RenderString . }}</p>
-		{{ end }}
+		<strong>{{- .Get "title" -}}</strong>
+		{{- with .Inner -}}
+			<p>{{- $.Page.RenderString . -}}</p>
+		{{- end -}}
 	</figcaption>
-	{{ end }}
+	{{- end -}}
 </figure>

@@ -1,42 +1,42 @@
 
-{{ $data := index hugo.Data (.Get 0) }}
-{{ $details := (.Get 0) }}
+{{- $data := index hugo.Data (.Get 0) -}}
+{{- $details := (.Get 0) -}}
 <tabs-wrapper>
-	{{ range $index, $element := $data.tab }}
-		{{ if eq $index 0 }}
+	{{- range $index, $element := $data.tab -}}
+		{{- if eq $index 0 -}}
 			<details open name="{{ $details }}">
-		{{ else }}
+		{{- else -}}
 			<details name="{{ $details }}">
-		{{ end }}
-			<summary>{{ .name }}</summary>
+		{{- end -}}
+			<summary>{{- .name -}}</summary>
 			<tab-content>
-			{{ with .content }}<p>{{ $.Page.RenderString . }}</p>{{ end }}
-			{{ range .figure }}
+			{{- with .content -}}<p>{{- $.Page.RenderString . -}}</p>{{- end -}}
+			{{- range .figure -}}
 				<figure>
-					{{ $image := resources.Get .src | resources.Fingerprint }}
-					{{ $avif := $image.Process "avif" | resources.Fingerprint }}
+					{{- $image := resources.Get .src | resources.Fingerprint -}}
+					{{- $avif := $image.Process "avif" | resources.Fingerprint -}}
 					<picture>
 						<source type="image/avif" srcset="{{ $avif.RelPermalink }}">
-					{{ if eq $index 0 }}
+					{{- if eq $index 0 -}}
 						<img loading="eager" class="{{ .class }}" width="{{ $image.Width }}" height="{{ $image.Height }}" src="{{ $image.RelPermalink }}" alt="{{ .alt }}">
-					{{ else }}
+					{{- else -}}
 						<img loading="lazy" class="{{ .class }}" width="{{ $image.Width }}" height="{{ $image.Height }}" src="{{ $image.RelPermalink }}" alt="{{ .alt }}">
-					{{ end }}
+					{{- end -}}
 					</picture>
-					{{ with .caption }}
+					{{- with .caption -}}
 					<figcaption>
-						<h4>{{ . }}</h4>
+						<h4>{{- . -}}</h4>
 					</figcaption>
-					{{ end }}
+					{{- end -}}
 				</figure>
-			{{ end }}
-			{{ with .vihje }}
+			{{- end -}}
+			{{- with .vihje -}}
 				<pdn-tip>
 					<h3>Vihje</h3>
-					<p>{{ . }}</p>
+					<p>{{- . -}}</p>
 				</pdn-tip>
-			{{ end }}
+			{{- end -}}
 			</tab-content>
 		</details>
-	{{ end }}
+	{{- end -}}
 </tabs-wrapper>

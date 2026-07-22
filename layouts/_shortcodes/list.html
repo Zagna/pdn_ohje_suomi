@@ -1,6 +1,5 @@
-
 <ol>
-    {{ range split (.Get "items") ";" }}
+    {{- range split (.Get "items") ";" -}}
         <li>{{ . }}</li>
-    {{ end }}
+    {{- end -}}
 </ol>

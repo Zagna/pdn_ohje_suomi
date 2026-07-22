@@ -1,4 +1,4 @@
-{{ $js := resources.Get "js/app.js" | resources.Fingerprint }}
-{{ with $js }}
+{{- $js := resources.Get "js/app.js" | resources.Fingerprint -}}
+{{- with $js -}}
     <script>{{ .Content | safeJS }}</script>
-{{ end }}
+{{- end -}}
